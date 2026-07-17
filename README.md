@@ -86,3 +86,13 @@ The easiest installation uses the generated `ULTIMATE-INSTALLER.yml.txt`.
 5. After it succeeds, refresh the repository. The installer removes itself and creates the final scan and daily-summary workflows.
 
 Your existing Telegram secrets are preserved because repository secrets are not stored in the repository files.
+
+## T.A.C.O.S. 2A — optional intelligence layer
+
+T.A.C.O.S. adds a second, advisory fit score to new Telegram alerts. The original score and qualification logic still control alert routing, so a T.A.C.O.S. failure cannot suppress a job notification. Preferences live in `tacos/profile.json`, while scoring logic lives in `tacos/scoring.py`.
+
+Run the offline check with:
+
+```bash
+python tests/test_tacos.py
+```

@@ -5,6 +5,11 @@ from pathlib import Path
 from urllib.parse import quote_plus
 import requests
 
+try:
+    from tacos import score_job as tacos_score_job
+except Exception:
+    tacos_score_job = None
+
 ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "data"
 CFG = json.loads((ROOT/"config.json").read_text())
@@ -149,6 +154,16 @@ def score(j):
         s+=min(hits*2,10); why.append("Relevant environment")
     return min(s,99),why[:5]
 
+def tacos_intelligence(j):
+    """Best-effort advisory intelligence; never controls alert routing."""
+    if tacos_score_job is None:
+        return None
+    try:
+        return tacos_score_job(j)
+    except Exception as exc:
+        print(f"T.A.C.O.S. scoring skipped for {j.get('id','unknown')}: {type(exc).__name__}: {exc}")
+        return None
+
 def send(text):
     if not BOT or not CHAT: raise RuntimeError("Telegram secrets missing")
     r=requests.post(f"https://api.telegram.org/bot{BOT}/sendMessage",
@@ -160,9 +175,18 @@ def format_alert(j):
     salary=f"\n💰 {j['salary']}" if j.get("salary") else ""
     date=f"\n🕒 {j['published_at']}" if j.get("published_at") else ""
     why="\n".join("• "+x for x in j["why"]) or "• Relevant title and location"
+    intel=j.get("tacos") or {}
+    tacos_block=""
+    if intel:
+        stars="★"*int(intel.get("stars",0))+"☆"*(5-int(intel.get("stars",0)))
+        intel_reasons="\n".join("• "+x for x in intel.get("reasons",[])[:4])
+        tacos_block=(f"\n\n🌮 T.A.C.O.S. Intelligence\n{stars}  Fit: {intel.get('score','?')}/99"
+                     f"\nConfidence: {intel.get('confidence','?')}%"
+                     f"\nRecommendation: {intel.get('recommendation','Review')}"
+                     + (f"\n{intel_reasons}" if intel_reasons else ""))
     return (f"🚨 NEW TA MATCH — {j['score']}%\n\n🏢 {j['company']}\n💼 {j['title']}\n"
             f"📍 {j.get('location') or 'Not listed'}{salary}{date}\n🔎 {j['source']}\n\n"
-            f"Why it fits:\n{why}\n\nApply: {j['url']}")
+            f"Why it fits:\n{why}{tacos_block}\n\nApply: {j['url']}")
 
 def append_matches(rows):
     fields=["first_seen","score","company","title","location","salary","source","published_at","url","job_id"]
@@ -206,6 +230,7 @@ def scan():
         s,why=score(j)
         if s<CFG["minimum_score"]: continue
         j.update({"score":s,"why":why,"first_seen":now.isoformat(),"job_id":j["id"]})
+        j["tacos"]=tacos_intelligence(j)
         matches.append(j)
     new=sorted([j for j in matches if j["id"] not in state["seen"]],key=lambda x:x["score"],reverse=True)
     baseline=CFG["baseline_first_run"] and not state["initialized"]
