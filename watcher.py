@@ -1,232 +1,247 @@
-import argparse
-import concurrent.futures
-import html
-import json
-import os
-import re
-import sys
-import time
+from __future__ import annotations
+import argparse, concurrent.futures, csv, html, json, os, re, sys, time
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
-from typing import Any, Dict, List, Set
-
+from typing import Any
 import requests
 
 ROOT = Path(__file__).resolve().parent
-CONFIG_PATH = ROOT / "config.json"
-STATE_PATH = ROOT / "state.json"
-BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "").strip()
-CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "").strip()
-HEADERS = {"User-Agent": "Chris-Job-Hunter/3.0"}
+DATA = ROOT / "data"
+CONFIG = json.loads((ROOT / "config.json").read_text(encoding="utf-8"))
+COMPANIES = json.loads((ROOT / "companies.json").read_text(encoding="utf-8"))
+STATE_PATH = DATA / "state.json"
+HISTORY_PATH = DATA / "matches.csv"
+HEALTH_PATH = DATA / "board-health.json"
+TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "").strip()
+CHAT = os.getenv("TELEGRAM_CHAT_ID", "").strip()
+HEADERS = {"User-Agent": "Chris-TA-Job-Radar/Ultimate"}
 
-def load_json(path: Path, default: Any) -> Any:
-    try:
-        with path.open("r", encoding="utf-8") as f:
-            return json.load(f)
-    except FileNotFoundError:
-        return default
-    except json.JSONDecodeError as exc:
-        raise RuntimeError(f"Invalid JSON in {path.name}: {exc}") from exc
+def norm(v: Any) -> str:
+    s = html.unescape(str(v or ""))
+    s = re.sub(r"<[^>]+>", " ", s)
+    return " ".join(s.lower().split())
 
-def save_json(path: Path, data: Any) -> None:
-    with path.open("w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, sort_keys=True)
+def load_state() -> dict:
+    if not STATE_PATH.exists():
+        return {"initialized": False, "seen": {}, "pending_digest": []}
+    return json.loads(STATE_PATH.read_text(encoding="utf-8"))
 
-def clean(value: Any) -> str:
-    text = html.unescape(str(value or ""))
-    text = re.sub(r"<[^>]+>", " ", text)
-    return " ".join(text.lower().split())
-
-def contains_any(text: str, terms: List[str]) -> bool:
-    return any(clean(term) in text for term in terms if str(term).strip())
-
-def is_full_time(job: Dict[str, Any]) -> bool:
-    employment = clean(job.get("employment_type", ""))
-    if not employment:
-        return True
-    return any(x in employment for x in ("full", "regular", "permanent"))
-
-def matches(job: Dict[str, Any], cfg: Dict[str, Any]) -> bool:
-    title = clean(job.get("title"))
-    description = clean(job.get("description"))
-    location = clean(job.get("location"))
-
-    if not contains_any(title, cfg.get("title_keywords", [])):
-        return False
-    if contains_any(title, cfg.get("exclude_title_keywords", [])):
-        return False
-    if contains_any(description, cfg.get("exclude_description_keywords", [])):
-        return False
-    if cfg.get("full_time_only", True) and not is_full_time(job):
-        return False
-
-    allowed_locations = cfg.get("allowed_locations", [])
-    if allowed_locations:
-        if not location:
-            return bool(cfg.get("allow_unlisted_location", False))
-        if not contains_any(location, allowed_locations):
-            return False
-    return True
-
-def telegram_send(message: str) -> None:
-    if not BOT_TOKEN or not CHAT_ID:
-        raise RuntimeError("Missing TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID.")
-    response = requests.post(
-        f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage",
-        json={"chat_id": CHAT_ID, "text": message[:4090], "disable_web_page_preview": False},
-        timeout=20,
-    )
-    response.raise_for_status()
+def save_state(state: dict) -> None:
+    STATE_PATH.write_text(json.dumps(state, indent=2, sort_keys=True), encoding="utf-8")
 
 def get_json(url: str, timeout: int) -> Any:
-    response = requests.get(url, headers=HEADERS, timeout=timeout)
-    response.raise_for_status()
-    return response.json()
+    r = requests.get(url, headers=HEADERS, timeout=timeout)
+    r.raise_for_status()
+    return r.json()
 
-def fetch_greenhouse(board: Dict[str, Any], timeout: int) -> List[Dict[str, Any]]:
-    token, company = board["token"], board["company"]
-    data = get_json(f"https://boards-api.greenhouse.io/v1/boards/{token}/jobs?content=true", timeout)
-    return [{
-        "id": f"greenhouse:{token}:{item.get('id')}",
-        "company": company,
-        "title": item.get("title", ""),
-        "location": (item.get("location") or {}).get("name", ""),
-        "description": item.get("content", ""),
-        "employment_type": "",
-        "url": item.get("absolute_url", ""),
-        "source": "Greenhouse",
-    } for item in data.get("jobs", [])]
-
-def fetch_lever(board: Dict[str, Any], timeout: int) -> List[Dict[str, Any]]:
-    token, company = board["token"], board["company"]
-    data = get_json(f"https://api.lever.co/v0/postings/{token}?mode=json", timeout)
-    jobs = []
-    for item in data:
-        cats = item.get("categories") or {}
-        jobs.append({
-            "id": f"lever:{token}:{item.get('id')}",
-            "company": company,
-            "title": item.get("text", ""),
-            "location": cats.get("location", ""),
-            "description": item.get("descriptionPlain", "") or item.get("description", ""),
-            "employment_type": cats.get("commitment", ""),
-            "url": item.get("hostedUrl", ""),
-            "source": "Lever",
-        })
-    return jobs
-
-def fetch_ashby(board: Dict[str, Any], timeout: int) -> List[Dict[str, Any]]:
-    token, company = board["token"], board["company"]
-    data = get_json(
-        f"https://api.ashbyhq.com/posting-api/job-board/{token}?includeCompensation=true",
-        timeout,
-    )
-    jobs = []
-    for item in data.get("jobs", []):
-        compensation = item.get("compensation") or {}
-        jobs.append({
-            "id": f"ashby:{token}:{item.get('id') or item.get('jobUrl')}",
-            "company": company,
-            "title": item.get("title", ""),
-            "location": item.get("location", ""),
-            "description": item.get("descriptionPlain", "") or item.get("descriptionHtml", ""),
-            "employment_type": item.get("employmentType", ""),
-            "compensation": compensation.get("scrapeableCompensationSalarySummary", ""),
-            "url": item.get("jobUrl", ""),
-            "source": "Ashby",
-        })
-    return jobs
-
-def fetch_board(board: Dict[str, Any], timeout: int) -> Dict[str, Any]:
-    fetchers = {"greenhouse": fetch_greenhouse, "lever": fetch_lever, "ashby": fetch_ashby}
-    kind = clean(board.get("type"))
-    fetcher = fetchers.get(kind)
-    if not fetcher:
-        return {"board": board, "jobs": [], "error": f"Unsupported type: {kind}"}
+def fetch(company: dict, timeout: int) -> tuple[list[dict], str]:
+    c, board, ats = company["company"], company["board"], company["ats"]
     try:
-        return {"board": board, "jobs": fetcher(board, timeout), "error": ""}
+        if ats == "greenhouse":
+            data = get_json(f"https://boards-api.greenhouse.io/v1/boards/{board}/jobs?content=true", timeout)
+            jobs = [{
+                "id": f"gh:{board}:{j.get('id')}", "company": c, "ats": ats,
+                "title": j.get("title",""), "location": (j.get("location") or {}).get("name",""),
+                "description": j.get("content",""), "employment_type": "",
+                "url": j.get("absolute_url",""), "compensation": "",
+                "company_priority": company.get("priority",3)
+            } for j in data.get("jobs",[])]
+        elif ats == "lever":
+            data = get_json(f"https://api.lever.co/v0/postings/{board}?mode=json", timeout)
+            jobs = []
+            for j in data:
+                cats = j.get("categories") or {}
+                jobs.append({
+                    "id": f"lv:{board}:{j.get('id')}", "company": c, "ats": ats,
+                    "title": j.get("text",""), "location": cats.get("location",""),
+                    "description": j.get("descriptionPlain","") or j.get("description",""),
+                    "employment_type": cats.get("commitment",""),
+                    "url": j.get("hostedUrl",""), "compensation": "",
+                    "company_priority": company.get("priority",3)
+                })
+        elif ats == "ashby":
+            data = get_json(f"https://api.ashbyhq.com/posting-api/job-board/{board}?includeCompensation=true", timeout)
+            jobs = []
+            for j in data.get("jobs",[]):
+                comp = j.get("compensation") or {}
+                jobs.append({
+                    "id": f"as:{board}:{j.get('id') or j.get('jobUrl')}", "company": c, "ats": ats,
+                    "title": j.get("title",""), "location": j.get("location",""),
+                    "description": j.get("descriptionPlain","") or j.get("descriptionHtml",""),
+                    "employment_type": j.get("employmentType",""),
+                    "url": j.get("jobUrl",""),
+                    "compensation": comp.get("scrapeableCompensationSalarySummary",""),
+                    "company_priority": company.get("priority",3)
+                })
+        else:
+            return [], f"unsupported ATS: {ats}"
+        return jobs, ""
     except Exception as exc:
-        return {"board": board, "jobs": [], "error": str(exc)}
+        return [], f"{type(exc).__name__}: {exc}"
 
-def score(job: Dict[str, Any]) -> int:
-    title = clean(job.get("title"))
-    points = 50
-    bonuses = [
-        ("vice president", 35), ("vp ", 35), ("head of", 32), ("director", 28),
-        ("principal", 23), ("senior manager", 22), ("founding", 22), ("lead", 18),
-        ("senior", 15), ("sr ", 15), ("technical", 12), ("executive", 10),
-        ("remote", 10), ("talent acquisition", 8),
+def any_phrase(text: str, phrases: list[str]) -> bool:
+    return any(norm(p) in text for p in phrases if p)
+
+def qualifies(job: dict) -> bool:
+    p = CONFIG["search_profile"]
+    title, desc, loc = norm(job["title"]), norm(job["description"]), norm(job["location"])
+    if not any_phrase(title, p["title_phrases"]): return False
+    if any_phrase(title, p["excluded_title_phrases"]): return False
+    if any_phrase(desc, p["excluded_description_phrases"]): return False
+    if p["full_time_only"]:
+        et = norm(job.get("employment_type"))
+        if et and not any(x in et for x in ("full", "regular", "permanent")): return False
+    if p["locations"]:
+        if not loc: return p["allow_missing_location"]
+        if not any_phrase(loc, p["locations"]): return False
+    return True
+
+def score(job: dict) -> tuple[int, list[str]]:
+    p = CONFIG["search_profile"]
+    title, desc, loc = norm(job["title"]), norm(job["description"]), norm(job["location"])
+    score, why = 45, []
+    levels = [
+        ("vice president",28,"VP level"),("vp ",28,"VP level"),("head of",25,"Head-level"),
+        ("director",22,"Director level"),("principal",19,"Principal level"),
+        ("senior manager",18,"Senior manager"),("founding",18,"Founding role"),
+        ("lead",14,"Lead role"),("senior",11,"Senior level"),("sr ",11,"Senior level"),
+        ("technical",10,"Technical recruiting"),("executive",8,"Executive recruiting"),
+        ("talent acquisition",7,"Talent acquisition")
     ]
-    combined = f"{title} {clean(job.get('location'))}"
-    for term, value in bonuses:
-        if term in combined:
-            points += value
-    return min(points, 99)
+    for phrase, pts, label in levels:
+        if phrase in title:
+            score += pts
+            if label not in why: why.append(label)
+    if any(x in loc for x in ("remote","united states","usa","u.s.","us remote")):
+        score += 10; why.append("Remote/US")
+    pref_hits = sum(1 for x in p["preferred_description_phrases"] if norm(x) in desc)
+    if pref_hits:
+        score += min(pref_hits * 2, 10); why.append("Relevant environment")
+    priority = int(job.get("company_priority",3))
+    score += (priority - 3) * 3
+    if priority >= 5: why.append("Priority company")
+    return min(score, 99), why[:5]
 
-def format_alert(job: Dict[str, Any]) -> str:
-    rating = score(job)
-    location = job.get("location") or "Location not listed"
-    compensation = job.get("compensation") or ""
-    comp_line = f"\n💰 {compensation}" if compensation else ""
+def send(text: str) -> None:
+    if not TOKEN or not CHAT:
+        raise RuntimeError("Telegram secrets are missing.")
+    r = requests.post(
+        f"https://api.telegram.org/bot{TOKEN}/sendMessage",
+        json={"chat_id": CHAT, "text": text[:4090], "disable_web_page_preview": False},
+        timeout=20
+    )
+    r.raise_for_status()
+
+def alert(job: dict, score_value: int, why: list[str]) -> str:
+    comp = f"\n💰 {job['compensation']}" if job.get("compensation") else ""
+    reasons = "\n".join(f"• {x}" for x in why) or "• Relevant title and location"
     return (
-        f"🚨 NEW TA MATCH — {rating}%\n\n"
-        f"🏢 {job.get('company', 'Unknown company')}\n"
-        f"💼 {job.get('title', 'Untitled role')}\n"
-        f"📍 {location}{comp_line}\n"
-        f"🔎 {job.get('source', '')}\n\n"
-        f"Apply: {job.get('url', '')}"
+        f"🚨 NEW TA MATCH — {score_value}%\n\n"
+        f"🏢 {job['company']}\n💼 {job['title']}\n"
+        f"📍 {job.get('location') or 'Not listed'}{comp}\n\n"
+        f"Why it fits:\n{reasons}\n\nApply: {job['url']}"
     )
 
-def main() -> int:
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--test-telegram", action="store_true")
-    args = parser.parse_args()
+def append_history(rows: list[dict]) -> None:
+    exists = HISTORY_PATH.exists()
+    fields = ["found_at","score","company","title","location","compensation","ats","url","job_id"]
+    with HISTORY_PATH.open("a", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=fields)
+        if not exists: w.writeheader()
+        for r in rows: w.writerow({k:r.get(k,"") for k in fields})
 
-    if args.test_telegram:
-        telegram_send("✅ Chris Job Hunter is connected and ready.")
-        print("Telegram test sent.")
+def scan() -> int:
+    state = load_state()
+    timeout = CONFIG["behavior"]["request_timeout_seconds"]
+    workers = CONFIG["behavior"]["request_workers"]
+    all_jobs, health = [], []
+    with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as ex:
+        future_map = {ex.submit(fetch,c,timeout): c for c in COMPANIES}
+        for future in concurrent.futures.as_completed(future_map):
+            c = future_map[future]
+            jobs, error = future.result()
+            health.append({"company":c["company"],"ats":c["ats"],"board":c["board"],
+                           "status":"error" if error else "ok","jobs":len(jobs),"error":error})
+            all_jobs.extend(jobs)
+
+    now = datetime.now(timezone.utc)
+    seen = state.setdefault("seen", {})
+    matches = []
+    for job in all_jobs:
+        if not qualifies(job): continue
+        s, why = score(job)
+        if s < CONFIG["search_profile"]["minimum_score"]: continue
+        job.update({"score":s,"why":why,"found_at":now.isoformat(),"job_id":job["id"]})
+        matches.append(job)
+
+    new = [j for j in matches if j["id"] not in seen]
+    new.sort(key=lambda j:j["score"], reverse=True)
+
+    # Baseline existing roles on the very first scan, preventing a flood.
+    baseline = CONFIG["behavior"]["baseline_first_run"] and not state.get("initialized",False)
+    history_rows = []
+    if not baseline:
+        instant = [j for j in new if j["score"] >= CONFIG["search_profile"]["instant_alert_score"]]
+        for job in instant[:CONFIG["behavior"]["max_instant_alerts_per_scan"]]:
+            send(alert(job, job["score"], job["why"]))
+            time.sleep(.6)
+        state.setdefault("pending_digest", []).extend([
+            {k:j.get(k,"") for k in ("found_at","score","company","title","location","compensation","ats","url","job_id")}
+            for j in new
+        ])
+        history_rows = new
+
+    for j in matches:
+        seen[j["id"]] = now.isoformat()
+
+    cutoff = now - timedelta(days=CONFIG["behavior"]["retention_days"])
+    state["seen"] = {k:v for k,v in seen.items() if datetime.fromisoformat(v) >= cutoff}
+    state["initialized"] = True
+    state["last_scan"] = now.isoformat()
+    state["last_scan_stats"] = {
+        "companies":len(COMPANIES),"healthy_boards":sum(h["status"]=="ok" for h in health),
+        "jobs_fetched":len(all_jobs),"matches":len(matches),"new_matches":len(new),
+        "baseline":baseline
+    }
+    save_state(state)
+    HEALTH_PATH.write_text(json.dumps(sorted(health,key=lambda x:(x["status"],x["company"])),indent=2),encoding="utf-8")
+    if history_rows: append_history(history_rows)
+    print(json.dumps(state["last_scan_stats"], indent=2))
+    return 0
+
+def digest() -> int:
+    state = load_state()
+    jobs = state.get("pending_digest", [])
+    stats = state.get("last_scan_stats", {})
+    if not jobs:
+        send(
+            "☀️ DAILY TA JOB RADAR\n\n"
+            "No new matching roles since the last summary.\n\n"
+            f"Boards healthy: {stats.get('healthy_boards','?')}/{stats.get('companies','?')}"
+        )
         return 0
+    jobs = sorted(jobs,key=lambda j:int(j.get("score",0)),reverse=True)
+    lines = [
+        "☀️ DAILY TA JOB RADAR","",
+        f"New matches: {len(jobs)}",
+        f"Boards healthy: {stats.get('healthy_boards','?')}/{stats.get('companies','?')}","",
+        "Top opportunities:"
+    ]
+    for j in jobs[:10]:
+        lines += ["",f"{j['score']}% — {j['title']}",f"{j['company']} | {j.get('location') or 'Not listed'}",j["url"]]
+    if len(jobs)>10: lines += ["",f"+ {len(jobs)-10} additional matches saved in data/matches.csv"]
+    send("\n".join(lines))
+    state["pending_digest"] = []
+    state["last_digest"] = datetime.now(timezone.utc).isoformat()
+    save_state(state)
+    return 0
 
-    cfg = load_json(CONFIG_PATH, {})
-    boards_path = ROOT / cfg.get("boards_file", "boards.json")
-    boards = load_json(boards_path, [])
-    state = load_json(STATE_PATH, {"seen_ids": []})
-    seen: Set[str] = set(state.get("seen_ids", []))
-
-    workers = int(cfg.get("request_workers", 20))
-    timeout = int(cfg.get("request_timeout_seconds", 20))
-    all_jobs: List[Dict[str, Any]] = []
-    failures = 0
-
-    with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as executor:
-        futures = [executor.submit(fetch_board, board, timeout) for board in boards]
-        for future in concurrent.futures.as_completed(futures):
-            result = future.result()
-            board = result["board"]
-            if result["error"]:
-                failures += 1
-                print(f"SKIP {board.get('company')}: {result['error']}", file=sys.stderr)
-            else:
-                print(f"OK {board.get('company')}: {len(result['jobs'])} jobs")
-                all_jobs.extend(result["jobs"])
-
-    matched = [job for job in all_jobs if matches(job, cfg)]
-    matched.sort(key=score, reverse=True)
-    new_jobs = [job for job in matched if job["id"] not in seen]
-
-    print(
-        f"Boards: {len(boards)} | Failures: {failures} | "
-        f"Jobs fetched: {len(all_jobs)} | Matches: {len(matched)} | New: {len(new_jobs)}"
-    )
-
-    max_alerts = int(cfg.get("max_alerts_per_run", 30))
-    for job in new_jobs[:max_alerts]:
-        telegram_send(format_alert(job))
-        time.sleep(0.75)
-
-    seen.update(job["id"] for job in matched)
-    state["seen_ids"] = sorted(seen)
-    save_json(STATE_PATH, state)
+def test() -> int:
+    send("✅ Chris TA Job Radar Ultimate is connected and ready.")
     return 0
 
 if __name__ == "__main__":
-    raise SystemExit(main())
+    parser=argparse.ArgumentParser()
+    parser.add_argument("command",choices=["scan","digest","test"],nargs="?",default="scan")
+    args=parser.parse_args()
+    raise SystemExit({"scan":scan,"digest":digest,"test":test}[args.command]())
