@@ -1,0 +1,51 @@
+{
+  "include_keywords": [
+    "senior recruiter",
+    "sr recruiter",
+    "principal recruiter",
+    "lead recruiter",
+    "founding recruiter",
+    "recruiting manager",
+    "talent acquisition manager",
+    "director of talent",
+    "director, talent",
+    "director of recruiting",
+    "head of talent",
+    "head of recruiting",
+    "vp of talent",
+    "vice president of talent",
+    "talent acquisition partner",
+    "principal talent acquisition partner"
+  ],
+  "exclude_keywords": [
+    "healthcare recruiter",
+    "nurse recruiter",
+    "physician recruiter",
+    "travel nurse",
+    "agency recruiter",
+    "staffing agency",
+    "contract recruiter",
+    "temporary recruiter",
+    "campus recruiter",
+    "university recruiter",
+    "intern"
+  ],
+  "location_keywords": [
+    "remote",
+    "united states",
+    "usa",
+    "texas",
+    "dallas",
+    "fort worth",
+    "dfw",
+    "keller"
+  ],
+  "max_alerts_per_run": 20,
+  "boards": [
+    {
+      "type": "greenhouse",
+      "company": "Example Company",
+      "token": "examplecompany"
+    }
+  ]
+}
