@@ -1,109 +1,48 @@
-# Chris Job Hunter
+# Chris Job Hunter v3
 
-A free GitHub Actions job-alert system that monitors public Greenhouse, Lever, and Ashby job boards and sends new matching Talent Acquisition jobs to Telegram.
+A free GitHub Actions monitor for public Greenhouse, Lever, and Ashby job boards.
 
-## Files
+## What changed
 
-- `watcher.py` — checks job boards and sends Telegram alerts
-- `config.json` — controls companies, titles, locations, and exclusions
-- `state.json` — remembers jobs already seen
-- `.github/workflows/job-hunter.yml` — runs the scan automatically
-- `requirements.txt` — Python dependency
+- Broader TA and recruiting title coverage
+- 172-company starter watchlist
+- Concurrent board scanning
+- Better title, location, and employment-type filtering
+- Richer Telegram alerts with match score and compensation when available
+- Manual Telegram connection test
+- Safe handling when a company changes ATS or a board token is unavailable
 
-## 1. Upload to GitHub
+## Replace these files in GitHub
 
-Upload the **contents of this folder** directly to the top level of your repository.
-
-The repository should show:
-
-- `.github`
-- `.gitignore`
-- `README.md`
-- `config.json`
-- `requirements.txt`
-- `state.json`
 - `watcher.py`
+- `config.json`
+- `state.json`
+- `requirements.txt`
+- Add `boards.json`
+- Replace `.github/workflows/job-hunter.yml`
 
-Do not upload the ZIP file itself.
+The included top-level `job-hunter.yml.txt` is an easy-to-open copy of the workflow. Its contents belong in:
 
-## 2. Add GitHub secrets
+`.github/workflows/job-hunter.yml`
 
-Open:
+## Test Telegram
 
-`Settings → Secrets and variables → Actions → New repository secret`
+Open **Actions → Chris Job Hunter → Run workflow**.
 
-Add:
+Check **Send only a Telegram connection test**, then run it.
 
-- `TELEGRAM_BOT_TOKEN` — the token from BotFather
-- `TELEGRAM_CHAT_ID` — `8897429103`
+You should receive:
 
-Never place the bot token directly in `config.json`.
+`✅ Chris Job Hunter is connected and ready.`
 
-## 3. Add companies
+## Run the first real scan
 
-Edit `config.json`.
+Run the workflow again with the Telegram-test box unchecked.
 
-### Greenhouse
+The first real scan can send multiple alerts for roles already open. Later runs send only newly discovered matches.
 
-For a careers URL like:
+## Important
 
-`https://boards.greenhouse.io/acme`
+The starter watchlist is intentionally broad. Companies sometimes change ATS platforms or job-board tokens. The script logs and skips unavailable boards rather than failing the entire run.
 
-use:
-
-```json
-{
-  "type": "greenhouse",
-  "company": "Acme",
-  "token": "acme"
-}
-```
-
-### Lever
-
-For:
-
-`https://jobs.lever.co/acme`
-
-use:
-
-```json
-{
-  "type": "lever",
-  "company": "Acme",
-  "token": "acme"
-}
-```
-
-### Ashby
-
-For:
-
-`https://jobs.ashbyhq.com/acme`
-
-use:
-
-```json
-{
-  "type": "ashby",
-  "company": "Acme",
-  "token": "acme"
-}
-```
-
-Replace the example board before relying on the alerts.
-
-## 4. Test it
-
-Open the **Actions** tab.
-
-Choose **Chris Job Hunter**, click **Run workflow**, and then open the latest run.
-
-A successful run will show a green check mark.
-
-## Notes
-
-- GitHub schedules are not guaranteed to start at the exact minute, even with a five-minute cron.
-- The system only alerts on job boards listed in `config.json`.
-- Workday is not included because its implementation varies substantially by employer and is less reliable for a universal free monitor.
-- The first successful run may alert on every matching job currently open. Later runs alert only on new matches.
+The public-job-board integrations are based on the official Greenhouse Job Board API, Lever Postings API, and Ashby Public Job Posting API.
