@@ -1,0 +1,55 @@
+{
+  "profile_name": "Chris Graham",
+  "target": "Senior individual contributor and talent acquisition leadership roles",
+  "title_weights": [
+    {"terms": ["vice president talent", "vp talent", "vice president of talent"], "score": 25, "label": "VP-level TA role"},
+    {"terms": ["head of talent acquisition", "head of talent", "head of recruiting"], "score": 25, "label": "Head-of-function role"},
+    {"terms": ["senior director talent acquisition", "director of talent acquisition", "director talent acquisition", "director of recruiting"], "score": 24, "label": "Director-level TA role"},
+    {"terms": ["principal talent acquisition partner", "principal talent partner", "principal recruiter"], "score": 24, "label": "Principal-level role"},
+    {"terms": ["founding recruiter", "first recruiter"], "score": 23, "label": "Founding recruiting role"},
+    {"terms": ["senior manager talent acquisition", "talent acquisition manager", "recruiting manager"], "score": 22, "label": "TA management role"},
+    {"terms": ["senior technical recruiter", "sr technical recruiter", "lead technical recruiter"], "score": 22, "label": "Senior technical recruiting role"},
+    {"terms": ["senior talent acquisition partner", "senior talent partner", "senior recruiter", "sr recruiter"], "score": 21, "label": "Senior TA role"},
+    {"terms": ["talent acquisition lead", "recruiting lead", "lead recruiter", "staff recruiter"], "score": 20, "label": "Lead or staff-level role"},
+    {"terms": ["talent acquisition partner", "talent partner", "technical recruiter", "executive recruiter", "strategic recruiter"], "score": 18, "label": "Relevant TA role"},
+    {"terms": ["recruiter", "corporate recruiter"], "score": 15, "label": "Recruiting role"}
+  ],
+  "leadership_terms": [
+    "build the recruiting function", "build from scratch", "zero to one", "0 to 1",
+    "talent strategy", "workforce planning", "headcount planning", "capacity planning",
+    "executive recruiting", "executive hiring", "lead a team", "manage recruiters",
+    "coach recruiters", "hiring manager training", "stakeholder management",
+    "recruiting operations", "ats governance", "process improvement", "scale the team"
+  ],
+  "technical_terms": [
+    "technical recruiting", "engineering", "software engineer", "product engineering",
+    "machine learning", "artificial intelligence", "infrastructure", "platform",
+    "devops", "data science", "cybersecurity", "cloud", "backend", "frontend"
+  ],
+  "startup_terms": [
+    "startup", "start-up", "high-growth", "high growth", "fast-paced", "fast paced",
+    "scale-up", "scale up", "series a", "series b", "series c", "venture-backed",
+    "venture backed", "build from scratch", "zero to one", "0 to 1"
+  ],
+  "industry_terms": [
+    "saas", "software", "artificial intelligence", " ai ", "fintech", "healthtech",
+    "health tech", "technology", "cloud", "cybersecurity"
+  ],
+  "preferred_ats": {"greenhouse": 10, "ashby": 9, "lever": 7},
+  "location_terms": {
+    "remote": 5, "united states": 5, "usa": 5, "u.s.": 5,
+    "texas": 4, "dallas": 4, "fort worth": 4, "dfw": 4, "keller": 4
+  },
+  "penalty_terms": {
+    "contract": -8, "temporary": -8, "campus": -15, "university recruiting": -15,
+    "commission only": -20, "staffing agency": -5
+  },
+  "recommendations": [
+    {"minimum": 95, "label": "Must apply today", "priority": "urgent", "stars": 5},
+    {"minimum": 90, "label": "Apply today", "priority": "high", "stars": 5},
+    {"minimum": 85, "label": "Apply within 24 hours", "priority": "high", "stars": 4},
+    {"minimum": 80, "label": "Good opportunity", "priority": "medium", "stars": 4},
+    {"minimum": 70, "label": "Worth reviewing", "priority": "medium", "stars": 3},
+    {"minimum": 0, "label": "Low priority", "priority": "low", "stars": 2}
+  ]
+}
