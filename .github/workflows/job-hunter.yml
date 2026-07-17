@@ -2,16 +2,26 @@ name: Chris Job Hunter
 
 on:
   workflow_dispatch:
+    inputs:
+      telegram_test:
+        description: "Send only a Telegram connection test"
+        required: false
+        type: boolean
+        default: false
   schedule:
     - cron: "*/5 * * * *"
 
 permissions:
   contents: write
 
+concurrency:
+  group: chris-job-hunter
+  cancel-in-progress: false
+
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
 
     steps:
       - name: Check out repository
@@ -25,13 +35,22 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Test Telegram
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.telegram_test }}
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python watcher.py --test-telegram
+
       - name: Scan job boards
+        if: ${{ !(github.event_name == 'workflow_dispatch' && inputs.telegram_test) }}
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python watcher.py
 
       - name: Save updated job history
+        if: ${{ !(github.event_name == 'workflow_dispatch' && inputs.telegram_test) }}
         run: |
           if git diff --quiet state.json; then
             echo "No state changes."
