@@ -86,24 +86,12 @@
     "lever:spotify": 0
   },
   "initialized": true,
+  "last_digest": "2026-07-18T15:41:13.143059+00:00",
   "last_poll": {
     "remotive": "2026-07-18T14:37:25.691408+00:00"
   },
   "last_scan": "2026-07-18T14:37:25.691408+00:00",
-  "pending": [
-    {
-      "company": "Anduril",
-      "first_seen": "2026-07-17T23:37:18.616889+00:00",
-      "job_id": "gh:andurilindustries:5188358007",
-      "location": "Costa Mesa, California, United States",
-      "published_at": "",
-      "salary": "",
-      "score": 63,
-      "source": "Greenhouse",
-      "title": "Recruiter, Security",
-      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5188358007?gh_jid=5188358007"
-    }
-  ],
+  "pending": [],
   "seen": {
     "as:render:59234af4-4139-443d-9924-f39a7e39210d": "2026-07-18T14:37:25.691408+00:00",
     "gh:andurilindustries:4761794007": "2026-07-18T14:37:25.691408+00:00",
