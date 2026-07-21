@@ -86,25 +86,12 @@
     "lever:spotify": 0
   },
   "initialized": true,
-  "last_digest": "2026-07-18T15:41:13.143059+00:00",
+  "last_digest": "2026-07-21T17:55:35.706818+00:00",
   "last_poll": {
     "remotive": "2026-07-21T15:53:41.377096+00:00"
   },
   "last_scan": "2026-07-21T15:53:41.377096+00:00",
-  "pending": [
-    {
-      "company": "Samsara",
-      "first_seen": "2026-07-20T20:51:54.375858+00:00",
-      "job_id": "gh:samsara:7377416",
-      "location": "Remote - US",
-      "published_at": "",
-      "salary": "",
-      "score": 59,
-      "source": "Greenhouse",
-      "title": "Contract Recruiter  - GTM",
-      "url": "https://www.samsara.com/company/careers/roles/7377416?gh_jid=7377416"
-    }
-  ],
+  "pending": [],
   "seen": {
     "as:render:59234af4-4139-443d-9924-f39a7e39210d": "2026-07-21T15:53:41.377096+00:00",
     "gh:andurilindustries:4761794007": "2026-07-21T15:53:41.377096+00:00",
