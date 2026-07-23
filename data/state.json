@@ -86,37 +86,12 @@
     "lever:spotify": 0
   },
   "initialized": true,
-  "last_digest": "2026-07-21T17:55:35.706818+00:00",
+  "last_digest": "2026-07-23T17:57:51.619019+00:00",
   "last_poll": {
     "remotive": "2026-07-23T17:05:29.811578+00:00"
   },
   "last_scan": "2026-07-23T17:05:29.811578+00:00",
-  "pending": [
-    {
-      "company": "Braze",
-      "first_seen": "2026-07-22T17:51:17.169017+00:00",
-      "job_id": "gh:braze:8079883",
-      "location": "Austin",
-      "published_at": "",
-      "salary": "",
-      "score": 65,
-      "source": "Greenhouse",
-      "title": "Fixed-Term Contract Technical Recruiter II",
-      "url": "https://boards.greenhouse.io/braze/jobs/8079883?gh_jid=8079883"
-    },
-    {
-      "company": "Anduril",
-      "first_seen": "2026-07-23T06:43:59.475673+00:00",
-      "job_id": "gh:andurilindustries:5193413007",
-      "location": "Costa Mesa, California, United States",
-      "published_at": "",
-      "salary": "",
-      "score": 88,
-      "source": "Greenhouse",
-      "title": "Senior Leadership Recruiter, Hardware",
-      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5193413007?gh_jid=5193413007"
-    }
-  ],
+  "pending": [],
   "seen": {
     "as:render:59234af4-4139-443d-9924-f39a7e39210d": "2026-07-23T17:05:29.811578+00:00",
     "gh:andurilindustries:4761794007": "2026-07-23T17:05:29.811578+00:00",
