@@ -86,25 +86,12 @@
     "lever:spotify": 0
   },
   "initialized": true,
-  "last_digest": "2026-07-23T17:57:51.619019+00:00",
+  "last_digest": "2026-07-25T16:13:46.631200+00:00",
   "last_poll": {
     "remotive": "2026-07-25T15:46:39.664153+00:00"
   },
   "last_scan": "2026-07-25T15:46:39.664153+00:00",
-  "pending": [
-    {
-      "company": "Roblox",
-      "first_seen": "2026-07-24T23:45:24.111028+00:00",
-      "job_id": "gh:roblox:8078014",
-      "location": "San Mateo, CA, United States",
-      "published_at": "",
-      "salary": "",
-      "score": 78,
-      "source": "Greenhouse",
-      "title": "Senior Technical Recruiter",
-      "url": "https://careers.roblox.com/jobs/8078014?gh_jid=8078014"
-    }
-  ],
+  "pending": [],
   "seen": {
     "as:render:59234af4-4139-443d-9924-f39a7e39210d": "2026-07-25T15:46:39.664153+00:00",
     "gh:andurilindustries:4761794007": "2026-07-25T15:46:39.664153+00:00",
