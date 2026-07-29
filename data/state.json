@@ -86,37 +86,12 @@
     "lever:spotify": 0
   },
   "initialized": true,
-  "last_digest": "2026-07-28T18:02:01.173200+00:00",
+  "last_digest": "2026-07-29T17:00:06.486162+00:00",
   "last_poll": {
     "remotive": "2026-07-29T10:16:29.760502+00:00"
   },
   "last_scan": "2026-07-29T16:04:53.660108+00:00",
-  "pending": [
-    {
-      "company": "Chime",
-      "first_seen": "2026-07-29T16:04:53.660108+00:00",
-      "job_id": "gh:chime:8643775002",
-      "location": "San Francisco, CA, USA",
-      "published_at": "",
-      "salary": "",
-      "score": 83,
-      "source": "Greenhouse",
-      "title": "Lead Technical Recruiter",
-      "url": "https://boards.greenhouse.io/chime/jobs/8643775002?gh_jid=8643775002"
-    },
-    {
-      "company": "MongoDB",
-      "first_seen": "2026-07-29T16:04:53.660108+00:00",
-      "job_id": "gh:mongodb:8092135",
-      "location": "Austin; Chicago; Dallas; Denver; Los Angeles",
-      "published_at": "",
-      "salary": "",
-      "score": 55,
-      "source": "Greenhouse",
-      "title": "Contract Recruiter",
-      "url": "https://www.mongodb.com/careers/job/?gh_jid=8092135"
-    }
-  ],
+  "pending": [],
   "seen": {
     "as:render:59234af4-4139-443d-9924-f39a7e39210d": "2026-07-29T16:04:53.660108+00:00",
     "gh:andurilindustries:4761794007": "2026-07-29T16:04:53.660108+00:00",
