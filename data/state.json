@@ -86,25 +86,12 @@
     "lever:spotify": 0
   },
   "initialized": true,
-  "last_digest": "2026-08-07T15:39:56.772064+00:00",
+  "last_digest": "2026-08-08T14:19:24.179108+00:00",
   "last_poll": {
     "remotive": "2026-08-08T11:46:42.805924+00:00"
   },
   "last_scan": "2026-08-08T14:05:34.513117+00:00",
-  "pending": [
-    {
-      "company": "Coinbase",
-      "first_seen": "2026-08-07T18:04:20.067301+00:00",
-      "job_id": "gh:coinbase:8106071",
-      "location": "Remote - Singapore",
-      "published_at": "",
-      "salary": "",
-      "score": 78,
-      "source": "Greenhouse",
-      "title": "Principal Recruiter",
-      "url": "https://www.coinbase.com/careers/positions/8106071?gh_jid=8106071"
-    }
-  ],
+  "pending": [],
   "seen": {
     "as:render:59234af4-4139-443d-9924-f39a7e39210d": "2026-08-08T14:05:34.513117+00:00",
     "gh:andurilindustries:4624170007": "2026-08-08T14:05:34.513117+00:00",
