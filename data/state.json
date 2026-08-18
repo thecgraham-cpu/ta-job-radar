@@ -86,109 +86,12 @@
     "lever:spotify": 0
   },
   "initialized": true,
-  "last_digest": "2026-08-14T15:37:18.861018+00:00",
+  "last_digest": "2026-08-18T13:32:58.357282+00:00",
   "last_poll": {
     "remotive": "2026-08-18T08:52:05.731778+00:00"
   },
   "last_scan": "2026-08-18T13:28:28.534712+00:00",
-  "pending": [
-    {
-      "company": "Anduril",
-      "first_seen": "2026-08-17T15:57:54.558204+00:00",
-      "job_id": "gh:andurilindustries:5213196007",
-      "location": "Remote",
-      "published_at": "",
-      "salary": "",
-      "score": 71,
-      "source": "Greenhouse",
-      "title": "Technical Recruiter, Production Engineering - Connected Warfare (Contract)",
-      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5213196007?gh_jid=5213196007"
-    },
-    {
-      "company": "Anduril",
-      "first_seen": "2026-08-17T15:57:54.558204+00:00",
-      "job_id": "gh:andurilindustries:5213540007",
-      "location": "Costa Mesa, California, United States",
-      "published_at": "",
-      "salary": "",
-      "score": 71,
-      "source": "Greenhouse",
-      "title": "Technical Recruiter, Production Engineering - Connected Warfare (Contract)",
-      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5213540007?gh_jid=5213540007"
-    },
-    {
-      "company": "Anduril",
-      "first_seen": "2026-08-17T15:57:54.558204+00:00",
-      "job_id": "gh:andurilindustries:5213541007",
-      "location": "Seattle, Washington, United States",
-      "published_at": "",
-      "salary": "",
-      "score": 71,
-      "source": "Greenhouse",
-      "title": "Technical Recruiter, Production Engineering - Connected Warfare (Contract)",
-      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5213541007?gh_jid=5213541007"
-    },
-    {
-      "company": "Anduril",
-      "first_seen": "2026-08-17T23:16:35.385089+00:00",
-      "job_id": "gh:andurilindustries:5214248007",
-      "location": "Costa Mesa, California, United States",
-      "published_at": "",
-      "salary": "",
-      "score": 71,
-      "source": "Greenhouse",
-      "title": "Emerging Talent Recruiter, Technical",
-      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5214248007?gh_jid=5214248007"
-    },
-    {
-      "company": "Brex",
-      "first_seen": "2026-08-17T23:44:17.495374+00:00",
-      "job_id": "gh:brex:8428989002",
-      "location": "San Francisco, California, United States",
-      "published_at": "",
-      "salary": "",
-      "score": 80,
-      "source": "Greenhouse",
-      "title": "Senior Technical Recruiter",
-      "url": "https://www.brex.com/careers/8428989002?gh_jid=8428989002"
-    },
-    {
-      "company": "Brex",
-      "first_seen": "2026-08-17T23:44:17.495374+00:00",
-      "job_id": "gh:brex:8432614002",
-      "location": "New York, New York, United States",
-      "published_at": "",
-      "salary": "",
-      "score": 80,
-      "source": "Greenhouse",
-      "title": "Senior Technical Recruiter",
-      "url": "https://www.brex.com/careers/8432614002?gh_jid=8432614002"
-    },
-    {
-      "company": "Brex",
-      "first_seen": "2026-08-17T23:44:17.495374+00:00",
-      "job_id": "gh:brex:8432615002",
-      "location": "Seattle, Washington, United States",
-      "published_at": "",
-      "salary": "",
-      "score": 80,
-      "source": "Greenhouse",
-      "title": "Senior Technical Recruiter",
-      "url": "https://www.brex.com/careers/8432615002?gh_jid=8432615002"
-    },
-    {
-      "company": "Anduril",
-      "first_seen": "2026-08-18T13:28:28.534712+00:00",
-      "job_id": "gh:andurilindustries:5214661007",
-      "location": "Remote",
-      "published_at": "",
-      "salary": "",
-      "score": 63,
-      "source": "Greenhouse",
-      "title": "Recruiter, Legal (Contract)",
-      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5214661007?gh_jid=5214661007"
-    }
-  ],
+  "pending": [],
   "seen": {
     "as:render:59234af4-4139-443d-9924-f39a7e39210d": "2026-08-18T13:28:28.534712+00:00",
     "gh:andurilindustries:4624170007": "2026-08-18T13:28:28.534712+00:00",
