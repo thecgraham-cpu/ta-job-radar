@@ -86,37 +86,12 @@
     "lever:spotify": 0
   },
   "initialized": true,
-  "last_digest": "2026-08-22T13:22:05.957112+00:00",
+  "last_digest": "2026-08-27T22:39:14.876672+00:00",
   "last_poll": {
     "remotive": "2026-08-27T18:21:23.240879+00:00"
   },
   "last_scan": "2026-08-27T18:21:23.240879+00:00",
-  "pending": [
-    {
-      "company": "Customer.io",
-      "first_seen": "2026-08-26T23:56:56.383858+00:00",
-      "job_id": "gh:customerio:8160829",
-      "location": "Americas Remote",
-      "published_at": "",
-      "salary": "",
-      "score": 78,
-      "source": "Greenhouse",
-      "title": "Senior Technical Recruiter",
-      "url": "https://job-boards.greenhouse.io/customerio/jobs/8160829"
-    },
-    {
-      "company": "Customer.io",
-      "first_seen": "2026-08-27T07:24:27.815892+00:00",
-      "job_id": "gh:customerio:8160827",
-      "location": "Americas Remote",
-      "published_at": "",
-      "salary": "",
-      "score": 68,
-      "source": "Greenhouse",
-      "title": "Senior Recruiter - GTM - USA (Remote)",
-      "url": "https://job-boards.greenhouse.io/customerio/jobs/8160827"
-    }
-  ],
+  "pending": [],
   "seen": {
     "as:render:59234af4-4139-443d-9924-f39a7e39210d": "2026-08-24T18:30:11.306842+00:00",
     "as:temporal:7cc16441-e66b-40ea-a901-1ef9940fc899": "2026-08-25T19:53:45.292058+00:00",
