@@ -1,5 +1,8 @@
-import json, requests
+import json
 from pathlib import Path
+
+import requests
+
 companies=json.loads((Path(__file__).resolve().parents[1]/"companies.json").read_text())
 for c in companies:
     a,b=c["ats"],c["board"]

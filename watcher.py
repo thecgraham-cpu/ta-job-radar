@@ -1,8 +1,17 @@
 from __future__ import annotations
-import argparse, concurrent.futures, csv, html, json, os, re, time
-from datetime import datetime, timezone, timedelta
+
+import argparse
+import concurrent.futures
+import csv
+import html
+import json
+import os
+import re
+import time
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import quote_plus
+
 import requests
 
 try:
@@ -126,7 +135,7 @@ def fetch_usajobs(timeout):
         return [],f"{type(e).__name__}: {e}"
 
 def qualifies(j):
-    title,desc,loc=norm(j["title"]),norm(j["description"]),norm(j["location"])
+    title,loc=norm(j["title"]),norm(j["location"])
     if not contains(title,CFG["titles"]): return False
     if contains(title,CFG["exclude_titles"]): return False
     et=norm(j.get("employment_type"))
@@ -135,7 +144,7 @@ def qualifies(j):
     return True
 
 def score(j):
-    title,desc,loc=norm(j["title"]),norm(j["description"]),norm(j["location"])
+    title,loc=norm(j["title"]),norm(j["location"])
     s,why=45,[]
     rules=[("vice president",28,"VP level"),("vp ",28,"VP level"),("head of",25,"Head level"),
            ("director",22,"Director level"),("principal",19,"Principal level"),

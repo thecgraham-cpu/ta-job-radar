@@ -1,0 +1,139 @@
+{
+  "company": "The Token Company",
+  "company_url": "https://thetokencompany.com",
+  "career_page": "https://jobs.ashbyhq.com/the-token-company",
+  "source": "ashby",
+  "identifier": "the-token-company",
+  "scanned_at": "2026-08-29T05:46:25.376364+00:00",
+  "count": 3,
+  "total_available": 3,
+  "partial_scan": false,
+  "jobs": [
+    {
+      "job_id": "5b4df4ae310191b2a6af9233e20b86e387238101cbe04f6775a0d5a2aa1da285",
+      "external_id": "186695fa-a558-4373-88d6-e9c9e1b39c07",
+      "company": "The Token Company",
+      "title": "Member of Technical Staff, Research",
+      "location": "San Francisco",
+      "remote": null,
+      "department": "Research",
+      "team": "Research",
+      "employment_type": "FullTime",
+      "description": "MEMBER OF TECHNICAL STAFF, RESEARCH The Token Company (YC W26, HF0 S26) · San Francisco, CA The Token Company is a seed stage startup in San Francisco. We have raised $12M from First Round Capital, NEA, Y Combinator and SV Angel, alongside the founders of Dropbox, Slack, Supercell and Hugging Face, and key people from OpenAI, xAI and DoorDash. We train machine learning models that compress raw LLM inputs before they reach the expensive model. Our models learn which parts of an input are redundant and strip them out, cutting inference costs for the scale-ups and enterprises building on LLMs. We are a team of five with a tight research and product focus, and we ship what we train. THE ROLE As a Member of Technical Staff on the research team, you own the model training stack end to end: data, architecture, training, evaluation, and shipping compression models into production. This is a from-scratch model training role. You will spend your time designing and training models on NVIDIA B200s, not wiring up RAG pipelines or prompting other people's APIs. WHO YOU ARE - You have trained models from scratch. You have owned data, architecture and a training loop yourself, ideally in a research lab, a startup or a scale-up. Not only fine-tuning or calling an API. - You are strong in ML fundamentals. You are fluent with transformers and comfortable turning a paper or a rough idea into a real training run. - You learn fast. You get to the core of a hard problem quickly and iterate on new ideas without hand-holding. - You care about production. You would rather see your model cut real inference costs for real users than add another line to a publication list. YOU WILL STAND OUT IF YOU HAVE - Pretrained a transformer, or done serious post-training or RL on one - Built a novel architecture or training method with results to back it up - Shipped a model you trained into something people actually use PROBABLY NOT A FIT IF - Your experience is mostly RAG, agents, prompt engineering, or fine-tuning existing models through an API - You want to publish papers more than you want to ship models COMPENSATION AND SUPPORT Competitive base salary plus significant equity. We also cover housing, food, laundry and cleaning in San Francisco, sponsor visas, and give you the resources and a real seat to build the research team around you. thetokencompany.com",
+      "apply_url": "https://jobs.ashbyhq.com/the-token-company/186695fa-a558-4373-88d6-e9c9e1b39c07",
+      "source_url": "https://jobs.ashbyhq.com/the-token-company/186695fa-a558-4373-88d6-e9c9e1b39c07",
+      "source": "ashby",
+      "posted_at": "2026-06-13T23:03:19.305+00:00",
+      "updated_at": null,
+      "discovered_at": "2026-08-29T05:46:25.375858+00:00",
+      "raw": {
+        "id": "186695fa-a558-4373-88d6-e9c9e1b39c07",
+        "title": "Member of Technical Staff, Research",
+        "department": "Research",
+        "team": "Research",
+        "employmentType": "FullTime",
+        "location": "San Francisco",
+        "secondaryLocations": [],
+        "publishedAt": "2026-06-13T23:03:19.305+00:00",
+        "isListed": true,
+        "isRemote": false,
+        "workplaceType": "OnSite",
+        "address": {
+          "postalAddress": {
+            "addressRegion": "California",
+            "addressCountry": "United States",
+            "addressLocality": "San Francisco"
+          }
+        },
+        "jobUrl": "https://jobs.ashbyhq.com/the-token-company/186695fa-a558-4373-88d6-e9c9e1b39c07",
+        "applyUrl": "https://jobs.ashbyhq.com/the-token-company/186695fa-a558-4373-88d6-e9c9e1b39c07/application",
+        "descriptionHtml": "<h1>Member of Technical Staff, Research</h1><p style=\"min-height:1.5em\"><strong>The Token Company (YC W26, HF0 S26) · San Francisco, CA</strong></p><p style=\"min-height:1.5em\">The Token Company is a seed stage startup in San Francisco. We have raised $12M from First Round Capital, NEA, Y Combinator and SV Angel, alongside the founders of Dropbox, Slack, Supercell and Hugging Face, and key people from OpenAI, xAI and DoorDash.</p><p style=\"min-height:1.5em\">We train machine learning models that compress raw LLM inputs before they reach the expensive model. Our models learn which parts of an input are redundant and strip them out, cutting inference costs for the scale-ups and enterprises building on LLMs. We are a team of five with a tight research and product focus, and we ship what we train.</p><h2>The role</h2><p style=\"min-height:1.5em\">As a Member of Technical Staff on the research team, you own the model training stack end to end: data, architecture, training, evaluation, and shipping compression models into production. This is a from-scratch model training role. You will spend your time designing and training models on NVIDIA B200s, not wiring up RAG pipelines or prompting other people's APIs.</p><h2>Who you are</h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\"><strong>You have trained models from scratch.</strong> You have owned data, architecture and a training loop yourself, ideally in a research lab, a startup or a scale-up. Not only fine-tuning or calling an API.</p></li><li><p style=\"min-height:1.5em\"><strong>You are strong in ML fundamentals.</strong> You are fluent with transformers and comfortable turning a paper or a rough idea into a real training run.</p></li><li><p style=\"min-height:1.5em\"><strong>You learn fast.</strong> You get to the core of a hard problem quickly and iterate on new ideas without hand-holding.</p></li><li><p style=\"min-height:1.5em\"><strong>You care about production.</strong> You would rather see your model cut real inference costs for real users than add another line to a publication list.</p></li></ul><h2>You will stand out if you have</h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Pretrained a transformer, or done serious post-training or RL on one</p></li><li><p style=\"min-height:1.5em\">Built a novel architecture or training method with results to back it up</p></li><li><p style=\"min-height:1.5em\">Shipped a model you trained into something people actually use</p></li></ul><h2>Probably not a fit if</h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Your experience is mostly RAG, agents, prompt engineering, or fine-tuning existing models through an API</p></li><li><p style=\"min-height:1.5em\">You want to publish papers more than you want to ship models</p></li></ul><h2>Compensation and support</h2><p style=\"min-height:1.5em\">Competitive base salary plus significant equity. We also cover housing, food, laundry and cleaning in San Francisco, sponsor visas, and give you the resources and a real seat to build the research team around you.</p><p style=\"min-height:1.5em\">thetokencompany.com</p>",
+        "descriptionPlain": "MEMBER OF TECHNICAL STAFF, RESEARCH\n\nThe Token Company (YC W26, HF0 S26) · San Francisco, CA\n\nThe Token Company is a seed stage startup in San Francisco. We have raised $12M from First Round Capital, NEA, Y Combinator and SV Angel, alongside the founders of Dropbox, Slack, Supercell and Hugging Face, and key people from OpenAI, xAI and DoorDash.\n\nWe train machine learning models that compress raw LLM inputs before they reach the expensive model. Our models learn which parts of an input are redundant and strip them out, cutting inference costs for the scale-ups and enterprises building on LLMs. We are a team of five with a tight research and product focus, and we ship what we train.\n\n\nTHE ROLE\n\nAs a Member of Technical Staff on the research team, you own the model training stack end to end: data, architecture, training, evaluation, and shipping compression models into production. This is a from-scratch model training role. You will spend your time designing and training models on NVIDIA B200s, not wiring up RAG pipelines or prompting other people's APIs.\n\n\nWHO YOU ARE\n\n - You have trained models from scratch. You have owned data, architecture and a training loop yourself, ideally in a research lab, a startup or a scale-up. Not only fine-tuning or calling an API.\n\n - You are strong in ML fundamentals. You are fluent with transformers and comfortable turning a paper or a rough idea into a real training run.\n\n - You learn fast. You get to the core of a hard problem quickly and iterate on new ideas without hand-holding.\n\n - You care about production. You would rather see your model cut real inference costs for real users than add another line to a publication list.\n\n\nYOU WILL STAND OUT IF YOU HAVE\n\n - Pretrained a transformer, or done serious post-training or RL on one\n\n - Built a novel architecture or training method with results to back it up\n\n - Shipped a model you trained into something people actually use\n\n\nPROBABLY NOT A FIT IF\n\n - Your experience is mostly RAG, agents, prompt engineering, or fine-tuning existing models through an API\n\n - You want to publish papers more than you want to ship models\n\n\nCOMPENSATION AND SUPPORT\n\nCompetitive base salary plus significant equity. We also cover housing, food, laundry and cleaning in San Francisco, sponsor visas, and give you the resources and a real seat to build the research team around you.\n\nthetokencompany.com"
+      }
+    },
+    {
+      "job_id": "a2cbf94947ac1cb58e77cb73e9fff66dba149a40b7e11d5c78952e9c7142168b",
+      "external_id": "18371043-b36a-4934-b2d6-e7d5d4f655d5",
+      "company": "The Token Company",
+      "title": "Member of Technical Staff, Infrastructure",
+      "location": "San Francisco",
+      "remote": null,
+      "department": "Engineering",
+      "team": "Engineering",
+      "employment_type": "FullTime",
+      "description": "The Token Company (YC W26, HF0 S26) is a seed stage startup in San Francisco, CA, and has raised ~$12M from First Round Capital, NEA, YC and SV Angel along with investors such as founders of Dropbox, Slack, Supercell and Huggingface and key people from OpenAI, xAI and DoorDash. The Token Company trains machine learning models to compress raw LLM inputs before they are passed to the expensive LLMs. Our models are able to recognize parts of inputs that are unimportant, reducing inference costs for scale-ups and enterprises that integrate LLMs into their products. The team is 5 people with a research and product focus. As a Member of Technical Staff on our infrastructure team, you'll own the cloud systems that serve our compression API end-to-end. You'd get to build global low-latency, high-throughput GPU ML inference infra that sits in the critical path of customer traffic, from deployment and scaling to reliability and cost-efficiency. This is a very high ownership role where you'd need to learn a lot of new solutions and technologies, constantly improving and researching what's best. The ideal candidate fits our culture and is: A quick learner: grasping the product and the systems around it and moving fast is important Strong in cloud infrastructure: comfortable with AWS, Terraform, Docker and CI/CD, and building for performance and reliability at scale Have owned an infra stack end-to-end: have built and operated production infrastructure yourself before, at a startup or a larger company In addition to base salary, this role is eligible for significant equity. We also provide housing, food, laundry and cleaning in SF, visa sponsorship, and a position to build the team around you with our resources. Our website: thetokencompany.com",
+      "apply_url": "https://jobs.ashbyhq.com/the-token-company/18371043-b36a-4934-b2d6-e7d5d4f655d5",
+      "source_url": "https://jobs.ashbyhq.com/the-token-company/18371043-b36a-4934-b2d6-e7d5d4f655d5",
+      "source": "ashby",
+      "posted_at": "2026-06-13T23:03:45.593+00:00",
+      "updated_at": null,
+      "discovered_at": "2026-08-29T05:46:25.376199+00:00",
+      "raw": {
+        "id": "18371043-b36a-4934-b2d6-e7d5d4f655d5",
+        "title": "Member of Technical Staff, Infrastructure",
+        "department": "Engineering",
+        "team": "Engineering",
+        "employmentType": "FullTime",
+        "location": "San Francisco",
+        "secondaryLocations": [],
+        "publishedAt": "2026-06-13T23:03:45.593+00:00",
+        "isListed": true,
+        "isRemote": false,
+        "workplaceType": "OnSite",
+        "address": {
+          "postalAddress": {
+            "addressRegion": "California",
+            "addressCountry": "United States",
+            "addressLocality": "San Francisco"
+          }
+        },
+        "jobUrl": "https://jobs.ashbyhq.com/the-token-company/18371043-b36a-4934-b2d6-e7d5d4f655d5",
+        "applyUrl": "https://jobs.ashbyhq.com/the-token-company/18371043-b36a-4934-b2d6-e7d5d4f655d5/application",
+        "descriptionHtml": "<p style=\"min-height:1.5em\">The Token Company (YC W26, HF0 S26) is a seed stage startup in San Francisco, CA, and has raised ~$12M from First Round Capital, NEA, YC and SV Angel along with investors such as founders of Dropbox, Slack, Supercell and Huggingface and key people from OpenAI, xAI and DoorDash.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">The Token Company trains machine learning models to compress raw LLM inputs before they are passed to the expensive LLMs. Our models are able to recognize parts of inputs that are unimportant, reducing inference costs for scale-ups and enterprises that integrate LLMs into their products. The team is 5 people with a research and product focus.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">As a Member of Technical Staff on our infrastructure team, you'll own the cloud systems that serve our compression API end-to-end. You'd get to build global low-latency, high-throughput GPU ML inference infra that sits in the critical path of customer traffic, from deployment and scaling to reliability and cost-efficiency. This is a very high ownership role where you'd need to learn a lot of new solutions and technologies, constantly improving and researching what's best. The ideal candidate fits our culture and is:</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">A quick learner: grasping the product and the systems around it and moving fast is important</p><p style=\"min-height:1.5em\">Strong in cloud infrastructure: comfortable with AWS, Terraform, Docker and CI/CD, and building for performance and reliability at scale</p><p style=\"min-height:1.5em\">Have owned an infra stack end-to-end: have built and operated production infrastructure yourself before, at a startup or a larger company</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">In addition to base salary, this role is eligible for significant equity. We also provide housing, food, laundry and cleaning in SF, visa sponsorship, and a position to build the team around you with our resources.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">Our website: thetokencompany.com</p>",
+        "descriptionPlain": "The Token Company (YC W26, HF0 S26) is a seed stage startup in San Francisco, CA, and has raised ~$12M from First Round Capital, NEA, YC and SV Angel along with investors such as founders of Dropbox, Slack, Supercell and Huggingface and key people from OpenAI, xAI and DoorDash.\n\n\n\nThe Token Company trains machine learning models to compress raw LLM inputs before they are passed to the expensive LLMs. Our models are able to recognize parts of inputs that are unimportant, reducing inference costs for scale-ups and enterprises that integrate LLMs into their products. The team is 5 people with a research and product focus.\n\n\n\nAs a Member of Technical Staff on our infrastructure team, you'll own the cloud systems that serve our compression API end-to-end. You'd get to build global low-latency, high-throughput GPU ML inference infra that sits in the critical path of customer traffic, from deployment and scaling to reliability and cost-efficiency. This is a very high ownership role where you'd need to learn a lot of new solutions and technologies, constantly improving and researching what's best. The ideal candidate fits our culture and is:\n\n\n\nA quick learner: grasping the product and the systems around it and moving fast is important\n\nStrong in cloud infrastructure: comfortable with AWS, Terraform, Docker and CI/CD, and building for performance and reliability at scale\n\nHave owned an infra stack end-to-end: have built and operated production infrastructure yourself before, at a startup or a larger company\n\n\n\nIn addition to base salary, this role is eligible for significant equity. We also provide housing, food, laundry and cleaning in SF, visa sponsorship, and a position to build the team around you with our resources.\n\n\n\nOur website: thetokencompany.com"
+      }
+    },
+    {
+      "job_id": "2a6422f8eaa2c0798a8d95373a8a64b74d93f8a57f988360fa8251f52c496da0",
+      "external_id": "f260de86-1338-42ab-8165-0817f16aefa4",
+      "company": "The Token Company",
+      "title": "Founding GTM / Head of Sales",
+      "location": "San Francisco",
+      "remote": null,
+      "department": "Go-To-Market",
+      "team": "Go-To-Market",
+      "employment_type": "FullTime",
+      "description": "The Token Company (YC W26, HF0 S26) is a seed stage startup in San Francisco, CA, and has raised ~$12M from First Round Capital, NEA, YC and SV Angel along with investors such as founders of Dropbox, Slack, Supercell and Huggingface and key people from OpenAI, xAI and DoorDash. The Token Company trains machine learning models to compress raw LLM inputs before they are passed to the expensive LLMs. Our models are able to recognize parts of inputs that are unimportant, reducing inference costs for scale-ups and enterprises that integrate LLMs into their products. The team is 5 people with a research and product focus. We are looking for a founding GTM to lead the whole pipeline from outbound to taking the calls and working deals through the funnel. The ideal candidate fits our culture and is: - A quick learner: grasping the product and being able to explain it is important - Experienced in taking calls and managing the sales pipeline - Have early stage GTM experience: have been involved in setting up full sales funnel motion from scratch previously at a startup or a scale-up This role is eligible for revenue share and significant equity. We also provide housing, food, laundry and cleaning in SF, and a position to build the team around you with our resources. Our website: thetokencompany.com",
+      "apply_url": "https://jobs.ashbyhq.com/the-token-company/f260de86-1338-42ab-8165-0817f16aefa4",
+      "source_url": "https://jobs.ashbyhq.com/the-token-company/f260de86-1338-42ab-8165-0817f16aefa4",
+      "source": "ashby",
+      "posted_at": "2026-06-13T23:01:47.220+00:00",
+      "updated_at": null,
+      "discovered_at": "2026-08-29T05:46:25.376343+00:00",
+      "raw": {
+        "id": "f260de86-1338-42ab-8165-0817f16aefa4",
+        "title": "Founding GTM / Head of Sales",
+        "department": "Go-To-Market",
+        "team": "Go-To-Market",
+        "employmentType": "FullTime",
+        "location": "San Francisco",
+        "secondaryLocations": [],
+        "publishedAt": "2026-06-13T23:01:47.220+00:00",
+        "isListed": true,
+        "isRemote": false,
+        "workplaceType": "OnSite",
+        "address": {
+          "postalAddress": {
+            "addressRegion": "California",
+            "addressCountry": "United States",
+            "addressLocality": "San Francisco"
+          }
+        },
+        "jobUrl": "https://jobs.ashbyhq.com/the-token-company/f260de86-1338-42ab-8165-0817f16aefa4",
+        "applyUrl": "https://jobs.ashbyhq.com/the-token-company/f260de86-1338-42ab-8165-0817f16aefa4/application",
+        "descriptionHtml": "<p style=\"min-height:1.5em\">The Token Company (YC W26, HF0 S26) is a seed stage startup in San Francisco, CA, and has raised ~$12M from First Round Capital, NEA, YC and SV Angel along with investors such as founders of Dropbox, Slack, Supercell and Huggingface and key people from OpenAI, xAI and DoorDash.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">The Token Company trains machine learning models to compress raw LLM inputs before they are passed to the expensive LLMs. Our models are able to recognize parts of inputs that are unimportant, reducing inference costs for scale-ups and enterprises that integrate LLMs into their products. The team is 5 people with a research and product focus.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">We are looking for a founding GTM to lead the whole pipeline from outbound to taking the calls and working deals through the funnel. The ideal candidate fits our culture and is:</p><p style=\"min-height:1.5em\"></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">A quick learner: grasping the product and being able to explain it is important</p></li><li><p style=\"min-height:1.5em\">Experienced in taking calls and managing the sales pipeline</p></li><li><p style=\"min-height:1.5em\">Have early stage GTM experience: have been involved in setting up full sales funnel motion from scratch previously at a startup or a scale-up</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">This role is eligible for revenue share and significant equity. We also provide housing, food, laundry and cleaning in SF, and a position to build the team around you with our resources.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">Our website: thetokencompany.com</p>",
+        "descriptionPlain": "The Token Company (YC W26, HF0 S26) is a seed stage startup in San Francisco, CA, and has raised ~$12M from First Round Capital, NEA, YC and SV Angel along with investors such as founders of Dropbox, Slack, Supercell and Huggingface and key people from OpenAI, xAI and DoorDash.\n\n\n\nThe Token Company trains machine learning models to compress raw LLM inputs before they are passed to the expensive LLMs. Our models are able to recognize parts of inputs that are unimportant, reducing inference costs for scale-ups and enterprises that integrate LLMs into their products. The team is 5 people with a research and product focus.\n\n\n\nWe are looking for a founding GTM to lead the whole pipeline from outbound to taking the calls and working deals through the funnel. The ideal candidate fits our culture and is:\n\n\n\n - A quick learner: grasping the product and being able to explain it is important\n\n - Experienced in taking calls and managing the sales pipeline\n\n - Have early stage GTM experience: have been involved in setting up full sales funnel motion from scratch previously at a startup or a scale-up\n\n\n\nThis role is eligible for revenue share and significant equity. We also provide housing, food, laundry and cleaning in SF, and a position to build the team around you with our resources.\n\n\n\nOur website: thetokencompany.com"
+      }
+    }
+  ]
+}

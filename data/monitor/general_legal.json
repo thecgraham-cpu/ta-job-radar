@@ -1,0 +1,102 @@
+{
+  "company": "General Legal",
+  "company_url": "https://general.legal",
+  "career_page": "https://job-boards.greenhouse.io/general",
+  "source": "greenhouse",
+  "identifier": "general",
+  "scanned_at": "2026-08-29T05:46:19.534509+00:00",
+  "count": 1,
+  "total_available": 1,
+  "partial_scan": false,
+  "jobs": [
+    {
+      "job_id": "7ebcb54f312c2aa6e81dd8a29c7bad9ea6e9341027dac77531dd8f6599a203c0",
+      "external_id": "7182645002",
+      "company": "General Legal",
+      "title": "Career Opportunities",
+      "location": "Any",
+      "remote": null,
+      "department": null,
+      "team": null,
+      "employment_type": null,
+      "description": "As a fast-growing network of top eye care practices, we have locations across the U.S., with a team that includes more than 700 Optometrists and 300 Ophthalmologists. Our partner practices are located in both urban and rural areas and include world-renowned centers of excellence. We are continuing to grow our team and we are looking for a candidate that has a great attitude, flexibility, willing to learn, and a team player! What We Offer: Medical, Vision, Dental 401k + Employer Matching Paid Time Off, Holidays Competitive Base Pay + Bonus Optical Education Reimbursement Paid Maternity Leave Career Advancement Opportunities",
+      "apply_url": "https://job-boards.greenhouse.io/general/jobs/7182645002",
+      "source_url": "https://job-boards.greenhouse.io/general/jobs/7182645002",
+      "source": "greenhouse",
+      "posted_at": "2026-08-07T15:08:32-04:00",
+      "updated_at": "2026-08-07T15:08:32-04:00",
+      "discovered_at": "2026-08-29T05:46:19.534473+00:00",
+      "raw": {
+        "absolute_url": "https://job-boards.greenhouse.io/general/jobs/7182645002",
+        "data_compliance": [
+          {
+            "type": "gdpr",
+            "requires_consent": false,
+            "requires_processing_consent": false,
+            "requires_retention_consent": false,
+            "retention_period": null,
+            "demographic_data_consent_applies": false
+          }
+        ],
+        "education": "education_optional",
+        "internal_job_id": 5782951002,
+        "location": {
+          "name": "Any"
+        },
+        "metadata": [
+          {
+            "id": 4122753002,
+            "name": "Title",
+            "value": null,
+            "value_type": "single_select"
+          },
+          {
+            "id": 4122752002,
+            "name": "Brand",
+            "value": "EyeCare Partners",
+            "value_type": "single_select"
+          },
+          {
+            "id": 4233969002,
+            "name": "State",
+            "value": null,
+            "value_type": "single_select"
+          },
+          {
+            "id": 10823239002,
+            "name": "Bucket Title",
+            "value": null,
+            "value_type": "single_select"
+          },
+          {
+            "id": 23413657002,
+            "name": "Recruiter Email",
+            "value": null,
+            "value_type": "single_select"
+          }
+        ],
+        "id": 7182645002,
+        "updated_at": "2026-08-07T15:08:32-04:00",
+        "requisition_id": "14736",
+        "title": "Career Opportunities ",
+        "company_name": "General Interest ",
+        "first_published": "2024-02-06T16:29:43-05:00",
+        "language": "en",
+        "application_deadline": null,
+        "content": "&lt;p&gt;&lt;span class=&quot;ui-provider ed bbw bbx bby bbz bca bcb bcc bcd bce bcf bcg bch bci bcj bck bcl bcm bcn bco bcp bcq bcr bcs bct bcu bcv bcw bcx bcy bcz bda bdb bdc bdd&quot;&gt;As a fast-growing network of top eye care practices, we have locations across the U.S., with a team that includes more than 700 Optometrists and 300 Ophthalmologists. Our partner practices are located in both urban and rural areas and include world-renowned centers of excellence. We are continuing to grow our team and we are looking for a candidate that has&lt;/span&gt; a great attitude, flexibility, willing to learn, and a team player!&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;What We Offer:&lt;/strong&gt;&lt;br&gt;Medical, Vision, Dental&lt;br&gt;401k + Employer Matching&lt;br&gt;Paid Time Off, Holidays&lt;br&gt;Competitive Base Pay + Bonus&lt;br&gt;Optical Education Reimbursement&lt;br&gt;Paid Maternity Leave&lt;br&gt;Career Advancement Opportunities&lt;/p&gt;",
+        "departments": [
+          {
+            "id": 4022106002,
+            "name": "Optometry Medical Office Team",
+            "child_ids": [],
+            "parent_id": 4074545002
+          }
+        ],
+        "offices": [],
+        "ai_disclaimer": null,
+        "include_ai_disclaimer": null,
+        "ai_opt_out_request_url": null
+      }
+    }
+  ]
+}

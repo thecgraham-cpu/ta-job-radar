@@ -1,0 +1,181 @@
+{
+  "company": "One Robot",
+  "company_url": "https://onerobot.io",
+  "career_page": "https://jobs.ashbyhq.com/onerobot",
+  "source": "ashby",
+  "identifier": "onerobot",
+  "scanned_at": "2026-08-29T05:46:20.788261+00:00",
+  "count": 4,
+  "total_available": 4,
+  "partial_scan": false,
+  "jobs": [
+    {
+      "job_id": "99138c3a18cf7dad79daef19ef1150506006a1d6c3efa6c82d6162227606d0b4",
+      "external_id": "084b67a9-db33-433b-bd81-e131a359b0a7",
+      "company": "One Robot",
+      "title": "Founding Machine Learning - World Models",
+      "location": "San Francisco",
+      "remote": null,
+      "department": "One Robot Founding Engineers",
+      "team": "One Robot Founding Engineers",
+      "employment_type": "FullTime",
+      "description": "We build world models that simulate manipulation scenes faithfully enough to validate, and one day, train policies without touching a robot. You'll develop generative models that make this work, with the controllability and physical fidelity to match real-robot behavior. What you'll do: - Train video and dynamics models: Develop world models with action conditioning for manipulation policies. - Push long-horizon coherence: Develop architectures and training methods that extend rollout quality on hard physical tasks. - Own training infrastructure: Run multi-GPU clusters, write custom CUDA, debug at scale. - Build the world-model data engine: Design, implement, and improve a data engine that allows the world model to compound learning across customers and manipulation tasks. Requirements: - Very strong coding in Python and PyTorch (or similar). - Video generation experience: Deep experience training image or video generation models end-to-end. - Large-scale training: Track record operating training runs at cluster scale. - 3D vision: Working knowledge of multi-view geometry, scene reconstruction, and physical priors.",
+      "apply_url": "https://jobs.ashbyhq.com/onerobot/084b67a9-db33-433b-bd81-e131a359b0a7",
+      "source_url": "https://jobs.ashbyhq.com/onerobot/084b67a9-db33-433b-bd81-e131a359b0a7",
+      "source": "ashby",
+      "posted_at": "2026-08-05T15:25:26.095+00:00",
+      "updated_at": null,
+      "discovered_at": "2026-08-29T05:46:20.787834+00:00",
+      "raw": {
+        "id": "084b67a9-db33-433b-bd81-e131a359b0a7",
+        "title": "Founding Machine Learning - World Models",
+        "department": "One Robot Founding Engineers",
+        "team": "One Robot Founding Engineers",
+        "employmentType": "FullTime",
+        "location": "San Francisco",
+        "secondaryLocations": [],
+        "publishedAt": "2026-08-05T15:25:26.095+00:00",
+        "isListed": true,
+        "isRemote": false,
+        "workplaceType": "OnSite",
+        "address": {
+          "postalAddress": {
+            "addressRegion": "California",
+            "addressCountry": "United States",
+            "addressLocality": "San Francisco"
+          }
+        },
+        "jobUrl": "https://jobs.ashbyhq.com/onerobot/084b67a9-db33-433b-bd81-e131a359b0a7",
+        "applyUrl": "https://jobs.ashbyhq.com/onerobot/084b67a9-db33-433b-bd81-e131a359b0a7/application",
+        "descriptionHtml": "<p style=\"min-height:1.5em\">We build world models that simulate manipulation scenes faithfully enough to validate, and one day, train policies without touching a robot. You'll develop generative models that make this work, with the controllability and physical fidelity to match real-robot behavior.</p><p style=\"min-height:1.5em\"><strong>What you'll do:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\"><strong>Train video and dynamics models:</strong> Develop world models with action conditioning for manipulation policies.</p></li><li><p style=\"min-height:1.5em\"><strong>Push long-horizon coherence:</strong> Develop architectures and training methods that extend rollout quality on hard physical tasks.</p></li><li><p style=\"min-height:1.5em\"><strong>Own training infrastructure:</strong> Run multi-GPU clusters, write custom CUDA, debug at scale.</p></li><li><p style=\"min-height:1.5em\"><strong>Build the world-model data engine:</strong> Design, implement, and improve a data engine that allows the world model to compound learning across customers and manipulation tasks.</p></li></ul><p style=\"min-height:1.5em\"><strong>Requirements:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Very strong coding in Python and PyTorch (or similar).</p></li><li><p style=\"min-height:1.5em\"><strong>Video generation experience:</strong> Deep experience training image or video generation models end-to-end.</p></li><li><p style=\"min-height:1.5em\"><strong>Large-scale training:</strong> Track record operating training runs at cluster scale.</p></li><li><p style=\"min-height:1.5em\"><strong>3D vision:</strong> Working knowledge of multi-view geometry, scene reconstruction, and physical priors.</p></li></ul>",
+        "descriptionPlain": "We build world models that simulate manipulation scenes faithfully enough to validate, and one day, train policies without touching a robot. You'll develop generative models that make this work, with the controllability and physical fidelity to match real-robot behavior.\n\nWhat you'll do:\n\n - Train video and dynamics models: Develop world models with action conditioning for manipulation policies.\n\n - Push long-horizon coherence: Develop architectures and training methods that extend rollout quality on hard physical tasks.\n\n - Own training infrastructure: Run multi-GPU clusters, write custom CUDA, debug at scale.\n\n - Build the world-model data engine: Design, implement, and improve a data engine that allows the world model to compound learning across customers and manipulation tasks.\n\nRequirements:\n\n - Very strong coding in Python and PyTorch (or similar).\n\n - Video generation experience: Deep experience training image or video generation models end-to-end.\n\n - Large-scale training: Track record operating training runs at cluster scale.\n\n - 3D vision: Working knowledge of multi-view geometry, scene reconstruction, and physical priors."
+      }
+    },
+    {
+      "job_id": "ffbfe863748bc9a777a264dbba67c1515e15a7def0efb960df2341d25d4527ea",
+      "external_id": "b35190f3-9384-4dce-9e78-73ec88b6257d",
+      "company": "One Robot",
+      "title": "Founding Machine Learning - Eval Layer",
+      "location": "San Francisco",
+      "remote": null,
+      "department": "One Robot Founding Engineers",
+      "team": "One Robot Founding Engineers",
+      "employment_type": "FullTime",
+      "description": "One Robot builds task-specific world models and an evaluation platform for robot manipulation policies. Training end-to-end policies for robots is vibes-based today. Teams collect data, train, deploy on a real robot, find out what fails, collect more, retry. We replace the trial-and-error with rigorous validation that tells you where your policy will fail and what data to collect to fix it. Robotics can't industrialize without an evaluation layer. We're building it. We're solving challenging technical problems around long-horizon autoregressive generation, world model controllability, and closing the sim-to-real gap. We work with real customer data, real failures, and real deployment pressure. We're based in San Francisco, backed by Accel, YC, several exited founders, and engineering leaders at leading AI companies. We're small and deliberately so. Everyone is an IC with deep ownership of a wide surface area. The culture is fast iteration and direct responsibility. Hemanth Sarabu and Elton Shon co-founded One Robot after leading robot learning together at Industrial Next (YC W22), bringing experience from Google, NASA JPL, and Tesla. We're building the evaluation layer to understand policy failure modes before they hit production. You'll own modeling work that makes the eval trustworthy. What you'll do: - Train evaluation models: Develop VLMs that classify and verify policy behavior. - Build confidence layers: Convert model outputs into trustworthy signals the customer can act on. - Improve model grounding: Make the eval models reason accurately about physical and spatial scenes. - Build a self-improving eval layer: Develop data engine that makes the eval models sharper with each customer's deployments and corrections. Requirements: - Very strong coding in Python and PyTorch. - VLM/LLM training: Track record in training VLMs or LLMs. - Evals experience: Developed and shipped evals for VLMs or LLMs.",
+      "apply_url": "https://jobs.ashbyhq.com/onerobot/b35190f3-9384-4dce-9e78-73ec88b6257d",
+      "source_url": "https://jobs.ashbyhq.com/onerobot/b35190f3-9384-4dce-9e78-73ec88b6257d",
+      "source": "ashby",
+      "posted_at": "2026-08-05T15:24:54.339+00:00",
+      "updated_at": null,
+      "discovered_at": "2026-08-29T05:46:20.787963+00:00",
+      "raw": {
+        "id": "b35190f3-9384-4dce-9e78-73ec88b6257d",
+        "title": "Founding Machine Learning - Eval Layer",
+        "department": "One Robot Founding Engineers",
+        "team": "One Robot Founding Engineers",
+        "employmentType": "FullTime",
+        "location": "San Francisco",
+        "secondaryLocations": [],
+        "publishedAt": "2026-08-05T15:24:54.339+00:00",
+        "isListed": true,
+        "isRemote": false,
+        "workplaceType": "OnSite",
+        "address": {
+          "postalAddress": {
+            "addressRegion": "California",
+            "addressCountry": "United States",
+            "addressLocality": "San Francisco"
+          }
+        },
+        "jobUrl": "https://jobs.ashbyhq.com/onerobot/b35190f3-9384-4dce-9e78-73ec88b6257d",
+        "applyUrl": "https://jobs.ashbyhq.com/onerobot/b35190f3-9384-4dce-9e78-73ec88b6257d/application",
+        "descriptionHtml": "<p style=\"min-height:1.5em\">One Robot builds task-specific world models and an evaluation platform for robot manipulation policies.</p><p style=\"min-height:1.5em\">Training end-to-end policies for robots is vibes-based today. Teams collect data, train, deploy on a real robot, find out what fails, collect more, retry. We replace the trial-and-error with rigorous validation that tells you where your policy will fail and what data to collect to fix it.</p><p style=\"min-height:1.5em\">Robotics can't industrialize without an evaluation layer. We're building it.</p><p style=\"min-height:1.5em\">We're solving challenging technical problems around long-horizon autoregressive generation, world model controllability, and closing the sim-to-real gap. We work with real customer data, real failures, and real deployment pressure.</p><p style=\"min-height:1.5em\">We're based in San Francisco, backed by Accel, YC, several exited founders, and engineering leaders at leading AI companies.</p><p style=\"min-height:1.5em\">We're small and deliberately so. Everyone is an IC with deep ownership of a wide surface area. The culture is fast iteration and direct responsibility.</p><p style=\"min-height:1.5em\">Hemanth Sarabu and Elton Shon co-founded One Robot after leading robot learning together at Industrial Next (YC W22), bringing experience from Google, NASA JPL, and Tesla.</p><p style=\"min-height:1.5em\">We're building the evaluation layer to understand policy failure modes before they hit production. You'll own modeling work that makes the eval trustworthy.</p><p style=\"min-height:1.5em\"><strong>What you'll do:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\"><strong>Train evaluation models:</strong> Develop VLMs that classify and verify policy behavior.</p></li><li><p style=\"min-height:1.5em\"><strong>Build confidence layers:</strong> Convert model outputs into trustworthy signals the customer can act on.</p></li><li><p style=\"min-height:1.5em\"><strong>Improve model grounding:</strong> Make the eval models reason accurately about physical and spatial scenes.</p></li><li><p style=\"min-height:1.5em\"><strong>Build a self-improving eval layer:</strong> Develop data engine that makes the eval models sharper with each customer's deployments and corrections.</p></li></ul><p style=\"min-height:1.5em\"><strong>Requirements:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Very strong coding in Python and PyTorch.</p></li><li><p style=\"min-height:1.5em\"><strong>VLM/LLM training:</strong> Track record in training VLMs or LLMs.</p></li><li><p style=\"min-height:1.5em\"><strong>Evals experience:</strong> Developed and shipped evals for VLMs or LLMs.</p></li></ul>",
+        "descriptionPlain": "One Robot builds task-specific world models and an evaluation platform for robot manipulation policies.\n\nTraining end-to-end policies for robots is vibes-based today. Teams collect data, train, deploy on a real robot, find out what fails, collect more, retry. We replace the trial-and-error with rigorous validation that tells you where your policy will fail and what data to collect to fix it.\n\nRobotics can't industrialize without an evaluation layer. We're building it.\n\nWe're solving challenging technical problems around long-horizon autoregressive generation, world model controllability, and closing the sim-to-real gap. We work with real customer data, real failures, and real deployment pressure.\n\nWe're based in San Francisco, backed by Accel, YC, several exited founders, and engineering leaders at leading AI companies.\n\nWe're small and deliberately so. Everyone is an IC with deep ownership of a wide surface area. The culture is fast iteration and direct responsibility.\n\nHemanth Sarabu and Elton Shon co-founded One Robot after leading robot learning together at Industrial Next (YC W22), bringing experience from Google, NASA JPL, and Tesla.\n\nWe're building the evaluation layer to understand policy failure modes before they hit production. You'll own modeling work that makes the eval trustworthy.\n\nWhat you'll do:\n\n - Train evaluation models: Develop VLMs that classify and verify policy behavior.\n\n - Build confidence layers: Convert model outputs into trustworthy signals the customer can act on.\n\n - Improve model grounding: Make the eval models reason accurately about physical and spatial scenes.\n\n - Build a self-improving eval layer: Develop data engine that makes the eval models sharper with each customer's deployments and corrections.\n\nRequirements:\n\n - Very strong coding in Python and PyTorch.\n\n - VLM/LLM training: Track record in training VLMs or LLMs.\n\n - Evals experience: Developed and shipped evals for VLMs or LLMs."
+      }
+    },
+    {
+      "job_id": "f0a6ff0ae435d823c6a217e6e1ba308e26238c0ffd8edf490443bc9177f5429b",
+      "external_id": "12fc1098-421d-4068-9879-e1737fb91571",
+      "company": "One Robot",
+      "title": "Machine Learning Intern",
+      "location": "San Francisco",
+      "remote": null,
+      "department": "One Robot Interns",
+      "team": "One Robot Interns",
+      "employment_type": "FullTime",
+      "description": "One Robot builds task-specific world models and an evaluation platform for robot manipulation policies. Training end-to-end policies for robots is vibes-based today. Teams collect data, train, deploy on a real robot, find out what fails, collect more, retry. We replace the trial-and-error with rigorous validation that tells you where your policy will fail and what data to collect to fix it. Robotics can't industrialize without an evaluation layer. We're building it. We're based in San Francisco, backed by Accel, YC, several exited founders, and engineering leaders at leading AI companies. We're small and deliberately so — everyone owns a wide surface area and moves fast. This internship is for people who want to work on real problems with real robots, not toy datasets. You'll embed directly with the technical team and contribute to active research across world models, policy training, and evaluation. What you'll do: - Contribute to training runs: Work alongside founding engineers on world model or eval model experiments end-to-end - Run real-robot evaluations: Collect demonstration data, run policies on physical hardware, and document failure modes - Build tooling: Write Python and PyTorch code that improves our data engine, training pipelines, or eval infrastructure - Close the sim-to-real gap: Run experiments that test how well simulation predicts real-robot behavior Requirements: - Strong coding in Python and PyTorch - Currently enrolled in a BS, MS, or PhD program in ML, robotics, computer vision, or a related field - Hands-on experience training or fine-tuning a generative model, VLM, or policy (coursework or research counts) - Ability to work in-person in San Francisco Nice to have: - Experience with real robot hardware or simulation environments (Isaac, MuJoCo, etc.) - Prior research in manipulation, 3D vision, or model evaluation",
+      "apply_url": "https://jobs.ashbyhq.com/onerobot/12fc1098-421d-4068-9879-e1737fb91571",
+      "source_url": "https://jobs.ashbyhq.com/onerobot/12fc1098-421d-4068-9879-e1737fb91571",
+      "source": "ashby",
+      "posted_at": "2026-07-24T23:43:37.867+00:00",
+      "updated_at": null,
+      "discovered_at": "2026-08-29T05:46:20.788097+00:00",
+      "raw": {
+        "id": "12fc1098-421d-4068-9879-e1737fb91571",
+        "title": "Machine Learning Intern",
+        "department": "One Robot Interns",
+        "team": "One Robot Interns",
+        "employmentType": "FullTime",
+        "location": "San Francisco",
+        "secondaryLocations": [],
+        "publishedAt": "2026-07-24T23:43:37.867+00:00",
+        "isListed": true,
+        "isRemote": false,
+        "workplaceType": "OnSite",
+        "address": {
+          "postalAddress": {
+            "addressRegion": "California",
+            "addressCountry": "United States",
+            "addressLocality": "San Francisco"
+          }
+        },
+        "jobUrl": "https://jobs.ashbyhq.com/onerobot/12fc1098-421d-4068-9879-e1737fb91571",
+        "applyUrl": "https://jobs.ashbyhq.com/onerobot/12fc1098-421d-4068-9879-e1737fb91571/application",
+        "descriptionHtml": "<p style=\"min-height:1.5em\">One Robot builds task-specific world models and an evaluation platform for robot manipulation policies.</p><p style=\"min-height:1.5em\">Training end-to-end policies for robots is vibes-based today. Teams collect data, train, deploy on a real robot, find out what fails, collect more, retry. We replace the trial-and-error with rigorous validation that tells you where your policy will fail and what data to collect to fix it.</p><p style=\"min-height:1.5em\">Robotics can't industrialize without an evaluation layer. We're building it.</p><p style=\"min-height:1.5em\">We're based in San Francisco, backed by Accel, YC, several exited founders, and engineering leaders at leading AI companies. We're small and deliberately so — everyone owns a wide surface area and moves fast.</p><p style=\"min-height:1.5em\">This internship is for people who want to work on real problems with real robots, not toy datasets. You'll embed directly with the technical team and contribute to active research across world models, policy training, and evaluation.</p><p style=\"min-height:1.5em\"><strong>What you'll do:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Contribute to training runs: Work alongside founding engineers on world model or eval model experiments end-to-end</p></li><li><p style=\"min-height:1.5em\">Run real-robot evaluations: Collect demonstration data, run policies on physical hardware, and document failure modes</p></li><li><p style=\"min-height:1.5em\">Build tooling: Write Python and PyTorch code that improves our data engine, training pipelines, or eval infrastructure</p></li><li><p style=\"min-height:1.5em\">Close the sim-to-real gap: Run experiments that test how well simulation predicts real-robot behavior</p></li></ul><p style=\"min-height:1.5em\"><strong>Requirements:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Strong coding in Python and PyTorch</p></li><li><p style=\"min-height:1.5em\">Currently enrolled in a BS, MS, or PhD program in ML, robotics, computer vision, or a related field</p></li><li><p style=\"min-height:1.5em\">Hands-on experience training or fine-tuning a generative model, VLM, or policy (coursework or research counts)</p></li><li><p style=\"min-height:1.5em\">Ability to work in-person in San Francisco</p></li></ul><p style=\"min-height:1.5em\"><strong>Nice to have:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Experience with real robot hardware or simulation environments (Isaac, MuJoCo, etc.)</p></li><li><p style=\"min-height:1.5em\">Prior research in manipulation, 3D vision, or model evaluation</p></li></ul>",
+        "descriptionPlain": "One Robot builds task-specific world models and an evaluation platform for robot manipulation policies.\n\nTraining end-to-end policies for robots is vibes-based today. Teams collect data, train, deploy on a real robot, find out what fails, collect more, retry. We replace the trial-and-error with rigorous validation that tells you where your policy will fail and what data to collect to fix it.\n\nRobotics can't industrialize without an evaluation layer. We're building it.\n\nWe're based in San Francisco, backed by Accel, YC, several exited founders, and engineering leaders at leading AI companies. We're small and deliberately so — everyone owns a wide surface area and moves fast.\n\nThis internship is for people who want to work on real problems with real robots, not toy datasets. You'll embed directly with the technical team and contribute to active research across world models, policy training, and evaluation.\n\nWhat you'll do:\n\n - Contribute to training runs: Work alongside founding engineers on world model or eval model experiments end-to-end\n\n - Run real-robot evaluations: Collect demonstration data, run policies on physical hardware, and document failure modes\n\n - Build tooling: Write Python and PyTorch code that improves our data engine, training pipelines, or eval infrastructure\n\n - Close the sim-to-real gap: Run experiments that test how well simulation predicts real-robot behavior\n\nRequirements:\n\n - Strong coding in Python and PyTorch\n\n - Currently enrolled in a BS, MS, or PhD program in ML, robotics, computer vision, or a related field\n\n - Hands-on experience training or fine-tuning a generative model, VLM, or policy (coursework or research counts)\n\n - Ability to work in-person in San Francisco\n\nNice to have:\n\n - Experience with real robot hardware or simulation environments (Isaac, MuJoCo, etc.)\n\n - Prior research in manipulation, 3D vision, or model evaluation"
+      }
+    },
+    {
+      "job_id": "61e2fdd79041bd1a027892871ebdec3d2aaf5a8e98f336c8a08ca8eb2c30f870",
+      "external_id": "5fb5317f-c92e-44c1-b1be-c8cfc71882dc",
+      "company": "One Robot",
+      "title": "Founding Robot Learning",
+      "location": "San Francisco",
+      "remote": null,
+      "department": "One Robot Founding Engineers",
+      "team": "One Robot Founding Engineers",
+      "employment_type": "FullTime",
+      "description": "One Robot builds task-specific world models and an evaluation platform for robot manipulation policies. Training end-to-end policies for robots is vibes-based today. Teams collect data, train, deploy on a real robot, find out what fails, collect more, retry. We replace the trial-and-error with rigorous validation that tells you where your policy will fail and what data to collect to fix it. Robotics can't industrialize without an evaluation layer. We're building it. We're solving challenging technical problems around long-horizon autoregressive generation, world model controllability, and closing the sim-to-real gap. We work with real customer data, real failures, and real deployment pressure. We're based in San Francisco, backed by Accel, YC, several exited founders, and engineering leaders at leading AI companies. We're small and deliberately so. Everyone is an IC with deep ownership of a wide surface area. The culture is fast iteration and direct responsibility. Hemanth Sarabu and Elton Shon co-founded One Robot after leading robot learning together at Industrial Next (YC W22), bringing experience from Google, NASA JPL, and Tesla. We're expanding the platform into policy training — building the components that let policies validate and improve through our world model. You'll train manipulation policies — VLAs, end-to-end imitation, RL — and push the world model and eval forward. What you'll do: - Train manipulation policies: Build VLAs, diffusion policies, or end-to-end imitation models and run them on real robots. - Validate the world model end-to-end: Train policies in simulation, deploy on real hardware, and find what doesn't transfer. - Push policy capabilities forward: Build the infrastructure that lets policies train and improve on our platform. Requirements: - Very strong coding in Python and PyTorch. - Real-robot policy training: Track record training manipulation policies that ran on physical hardware. - Demonstration data: Hands-on experience curating real-robot demonstration datasets.",
+      "apply_url": "https://jobs.ashbyhq.com/onerobot/5fb5317f-c92e-44c1-b1be-c8cfc71882dc",
+      "source_url": "https://jobs.ashbyhq.com/onerobot/5fb5317f-c92e-44c1-b1be-c8cfc71882dc",
+      "source": "ashby",
+      "posted_at": "2026-08-13T19:26:31.456+00:00",
+      "updated_at": null,
+      "discovered_at": "2026-08-29T05:46:20.788246+00:00",
+      "raw": {
+        "id": "5fb5317f-c92e-44c1-b1be-c8cfc71882dc",
+        "title": "Founding Robot Learning",
+        "department": "One Robot Founding Engineers",
+        "team": "One Robot Founding Engineers",
+        "employmentType": "FullTime",
+        "location": "San Francisco",
+        "secondaryLocations": [],
+        "publishedAt": "2026-08-13T19:26:31.456+00:00",
+        "isListed": true,
+        "isRemote": false,
+        "workplaceType": "OnSite",
+        "address": {
+          "postalAddress": {
+            "addressRegion": "California",
+            "addressCountry": "United States",
+            "addressLocality": "San Francisco"
+          }
+        },
+        "jobUrl": "https://jobs.ashbyhq.com/onerobot/5fb5317f-c92e-44c1-b1be-c8cfc71882dc",
+        "applyUrl": "https://jobs.ashbyhq.com/onerobot/5fb5317f-c92e-44c1-b1be-c8cfc71882dc/application",
+        "descriptionHtml": "<p style=\"min-height:1.5em\">One Robot builds task-specific world models and an evaluation platform for robot manipulation policies.</p><p style=\"min-height:1.5em\">Training end-to-end policies for robots is vibes-based today. Teams collect data, train, deploy on a real robot, find out what fails, collect more, retry. We replace the trial-and-error with rigorous validation that tells you where your policy will fail and what data to collect to fix it.</p><p style=\"min-height:1.5em\">Robotics can't industrialize without an evaluation layer. We're building it.</p><p style=\"min-height:1.5em\">We're solving challenging technical problems around long-horizon autoregressive generation, world model controllability, and closing the sim-to-real gap. We work with real customer data, real failures, and real deployment pressure.</p><p style=\"min-height:1.5em\">We're based in San Francisco, backed by Accel, YC, several exited founders, and engineering leaders at leading AI companies.</p><p style=\"min-height:1.5em\">We're small and deliberately so. Everyone is an IC with deep ownership of a wide surface area. The culture is fast iteration and direct responsibility.</p><p style=\"min-height:1.5em\">Hemanth Sarabu and Elton Shon co-founded One Robot after leading robot learning together at Industrial Next (YC W22), bringing experience from Google, NASA JPL, and Tesla.</p><p style=\"min-height:1.5em\">We're expanding the platform into policy training — building the components that let policies validate and improve through our world model. You'll train manipulation policies — VLAs, end-to-end imitation, RL — and push the world model and eval forward.</p><p style=\"min-height:1.5em\"><strong>What you'll do:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\"><strong>Train manipulation policies:</strong> Build VLAs, diffusion policies, or end-to-end imitation models and run them on real robots.</p></li><li><p style=\"min-height:1.5em\"><strong>Validate the world model end-to-end:</strong> Train policies in simulation, deploy on real hardware, and find what doesn't transfer.</p></li><li><p style=\"min-height:1.5em\"><strong>Push policy capabilities forward:</strong> Build the infrastructure that lets policies train and improve on our platform.</p></li></ul><p style=\"min-height:1.5em\"><strong>Requirements:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\"><strong>Very strong coding in Python and PyTorch</strong>.</p></li><li><p style=\"min-height:1.5em\"><strong>Real-robot policy training:</strong> Track record training manipulation policies that ran on physical hardware.</p></li><li><p style=\"min-height:1.5em\"><strong>Demonstration data:</strong> Hands-on experience curating real-robot demonstration datasets.</p></li></ul>",
+        "descriptionPlain": "One Robot builds task-specific world models and an evaluation platform for robot manipulation policies.\n\nTraining end-to-end policies for robots is vibes-based today. Teams collect data, train, deploy on a real robot, find out what fails, collect more, retry. We replace the trial-and-error with rigorous validation that tells you where your policy will fail and what data to collect to fix it.\n\nRobotics can't industrialize without an evaluation layer. We're building it.\n\nWe're solving challenging technical problems around long-horizon autoregressive generation, world model controllability, and closing the sim-to-real gap. We work with real customer data, real failures, and real deployment pressure.\n\nWe're based in San Francisco, backed by Accel, YC, several exited founders, and engineering leaders at leading AI companies.\n\nWe're small and deliberately so. Everyone is an IC with deep ownership of a wide surface area. The culture is fast iteration and direct responsibility.\n\nHemanth Sarabu and Elton Shon co-founded One Robot after leading robot learning together at Industrial Next (YC W22), bringing experience from Google, NASA JPL, and Tesla.\n\nWe're expanding the platform into policy training — building the components that let policies validate and improve through our world model. You'll train manipulation policies — VLAs, end-to-end imitation, RL — and push the world model and eval forward.\n\nWhat you'll do:\n\n - Train manipulation policies: Build VLAs, diffusion policies, or end-to-end imitation models and run them on real robots.\n\n - Validate the world model end-to-end: Train policies in simulation, deploy on real hardware, and find what doesn't transfer.\n\n - Push policy capabilities forward: Build the infrastructure that lets policies train and improve on our platform.\n\nRequirements:\n\n - Very strong coding in Python and PyTorch.\n\n - Real-robot policy training: Track record training manipulation policies that ran on physical hardware.\n\n - Demonstration data: Hands-on experience curating real-robot demonstration datasets."
+      }
+    }
+  ]
+}

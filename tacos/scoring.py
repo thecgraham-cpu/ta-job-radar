@@ -3,8 +3,9 @@ from __future__ import annotations
 import html
 import json
 import re
+from collections.abc import Iterable
 from pathlib import Path
-from typing import Any, Dict, Iterable
+from typing import Any
 
 PROFILE_PATH = Path(__file__).with_name("profile.json")
 
@@ -15,7 +16,7 @@ def _norm(value: Any) -> str:
     return " ".join(text.lower().split())
 
 
-def _load_profile(path: Path | None = None) -> Dict[str, Any]:
+def _load_profile(path: Path | None = None) -> dict[str, Any]:
     return json.loads((path or PROFILE_PATH).read_text(encoding="utf-8"))
 
 
@@ -23,14 +24,14 @@ def _hits(text: str, terms: Iterable[str]) -> list[str]:
     return [term for term in terms if _norm(term) in text]
 
 
-def _recommendation(score: int, profile: Dict[str, Any]) -> Dict[str, Any]:
+def _recommendation(score: int, profile: dict[str, Any]) -> dict[str, Any]:
     for row in profile["recommendations"]:
         if score >= int(row["minimum"]):
             return dict(row)
     return {"label": "Low priority", "priority": "low", "stars": 1}
 
 
-def score_job(job: Dict[str, Any], profile_path: Path | None = None) -> Dict[str, Any]:
+def score_job(job: dict[str, Any], profile_path: Path | None = None) -> dict[str, Any]:
     """Return transparent, network-free intelligence for a normalized job.
 
     T.A.C.O.S. never changes whether the legacy watcher qualifies or alerts on a
@@ -42,7 +43,7 @@ def score_job(job: Dict[str, Any], profile_path: Path | None = None) -> Dict[str
     location = _norm(job.get("location"))
     source = _norm(job.get("source"))
     employment = _norm(job.get("employment_type"))
-    combined = " ".join((title, description, location, source, employment))
+    combined = f"{title} {description} {location} {source} {employment}"
 
     breakdown = {
         "title": 0,

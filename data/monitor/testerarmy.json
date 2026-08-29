@@ -1,0 +1,115 @@
+{
+  "company": "TesterArmy",
+  "company_url": "https://tester.army",
+  "career_page": "https://job-boards.greenhouse.io/tester",
+  "source": "greenhouse",
+  "identifier": "tester",
+  "scanned_at": "2026-08-29T05:46:23.257709+00:00",
+  "count": 1,
+  "total_available": 1,
+  "partial_scan": false,
+  "jobs": [
+    {
+      "job_id": "5c492a6df8f96c7152c4c91aab579ff717dd85036d9424051be6a00ccb871dad",
+      "external_id": "4640896004",
+      "company": "TesterArmy",
+      "title": "Copy of 340234",
+      "location": "A",
+      "remote": null,
+      "department": null,
+      "team": null,
+      "employment_type": null,
+      "description": "A &nbsp; https://app4.greenhouse.io/jobapps/4640896004/edit https://google.com app4.greenhouse.io &nbsp;",
+      "apply_url": "https://job-boards.greenhouse.io/tester/jobs/4640896004",
+      "source_url": "https://job-boards.greenhouse.io/tester/jobs/4640896004",
+      "source": "greenhouse",
+      "posted_at": "2025-11-04T16:11:26-05:00",
+      "updated_at": "2025-11-04T16:11:26-05:00",
+      "discovered_at": "2026-08-29T05:46:23.257674+00:00",
+      "raw": {
+        "absolute_url": "https://job-boards.greenhouse.io/tester/jobs/4640896004",
+        "data_compliance": [
+          {
+            "type": "gdpr",
+            "requires_consent": true,
+            "requires_processing_consent": true,
+            "requires_retention_consent": true,
+            "retention_period": 2,
+            "demographic_data_consent_applies": false
+          }
+        ],
+        "internal_job_id": 4188659004,
+        "location": {
+          "name": "A"
+        },
+        "metadata": [
+          {
+            "id": 8783751004,
+            "name": "Short Text",
+            "value": null,
+            "value_type": "short_text"
+          },
+          {
+            "id": 7558732004,
+            "name": "External Job ID",
+            "value": "BRO987",
+            "value_type": "short_text"
+          },
+          {
+            "id": 8783766004,
+            "name": "Single Select-2",
+            "value": null,
+            "value_type": "single_select"
+          },
+          {
+            "id": 8782388004,
+            "name": "Job Board API Test",
+            "value": null,
+            "value_type": "short_text"
+          },
+          {
+            "id": 8783736004,
+            "name": "Single Select",
+            "value": null,
+            "value_type": "single_select"
+          },
+          {
+            "id": 4455123004,
+            "name": "Template",
+            "value": null,
+            "value_type": "yes_no"
+          }
+        ],
+        "id": 4640896004,
+        "updated_at": "2025-11-04T16:11:26-05:00",
+        "requisition_id": "17",
+        "title": "Copy of 340234",
+        "company_name": "Tester",
+        "first_published": "2022-08-24T15:06:17-04:00",
+        "language": "en",
+        "application_deadline": null,
+        "content": "&lt;p&gt;A&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;a href=&quot;edit&quot; target=&quot;_blank&quot;&gt;https://app4.greenhouse.io/jobapps/4640896004/edit&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;&lt;a href=&quot;https://google.com&quot; target=&quot;_blank&quot;&gt;https://google.com&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;&lt;a href=&quot;../../&quot; target=&quot;_blank&quot;&gt;app4.greenhouse.io&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
+        "departments": [
+          {
+            "id": 4034996004,
+            "name": "IT",
+            "child_ids": [],
+            "parent_id": null
+          }
+        ],
+        "offices": [
+          {
+            "id": 4024068004,
+            "name": "Balut",
+            "location": null,
+            "child_ids": [],
+            "parent_id": null
+          }
+        ],
+        "ai_disclaimer": null,
+        "include_ai_disclaimer": false,
+        "ai_opt_out_request_url": "http://app4.greenhouse.io/ai_opt_out_request/job_post/4640896004/ai_opt_out"
+      }
+    }
+  ]
+}

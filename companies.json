@@ -1,1040 +1,3905 @@
-[
-  {
-    "company": "OpenAI",
-    "ats": "greenhouse",
-    "board": "openai",
-    "priority": 5
-  },
-  {
-    "company": "Anthropic",
-    "ats": "greenhouse",
-    "board": "anthropic",
-    "priority": 5
-  },
-  {
-    "company": "Stripe",
-    "ats": "greenhouse",
-    "board": "stripe",
-    "priority": 5
-  },
-  {
-    "company": "Datadog",
-    "ats": "greenhouse",
-    "board": "datadog",
-    "priority": 4
-  },
-  {
-    "company": "Figma",
-    "ats": "greenhouse",
-    "board": "figma",
-    "priority": 5
-  },
-  {
-    "company": "Notion",
-    "ats": "greenhouse",
-    "board": "notion",
-    "priority": 5
-  },
-  {
-    "company": "Airtable",
-    "ats": "greenhouse",
-    "board": "airtable",
-    "priority": 4
-  },
-  {
-    "company": "Asana",
-    "ats": "greenhouse",
-    "board": "asana",
-    "priority": 4
-  },
-  {
-    "company": "Reddit",
-    "ats": "greenhouse",
-    "board": "reddit",
-    "priority": 4
-  },
-  {
-    "company": "Dropbox",
-    "ats": "greenhouse",
-    "board": "dropbox",
-    "priority": 3
-  },
-  {
-    "company": "Plaid",
-    "ats": "greenhouse",
-    "board": "plaid",
-    "priority": 5
-  },
-  {
-    "company": "Brex",
-    "ats": "greenhouse",
-    "board": "brex",
-    "priority": 5
-  },
-  {
-    "company": "Rippling",
-    "ats": "greenhouse",
-    "board": "rippling",
-    "priority": 5
-  },
-  {
-    "company": "Gusto",
-    "ats": "greenhouse",
-    "board": "gusto",
-    "priority": 4
-  },
-  {
-    "company": "Chime",
-    "ats": "greenhouse",
-    "board": "chime",
-    "priority": 4
-  },
-  {
-    "company": "Coinbase",
-    "ats": "greenhouse",
-    "board": "coinbase",
-    "priority": 4
-  },
-  {
-    "company": "Robinhood",
-    "ats": "greenhouse",
-    "board": "robinhood",
-    "priority": 4
-  },
-  {
-    "company": "Samsara",
-    "ats": "greenhouse",
-    "board": "samsara",
-    "priority": 5
-  },
-  {
-    "company": "Gong",
-    "ats": "greenhouse",
-    "board": "gongio",
-    "priority": 4
-  },
-  {
-    "company": "MongoDB",
-    "ats": "greenhouse",
-    "board": "mongodb",
-    "priority": 4
-  },
-  {
-    "company": "Cloudflare",
-    "ats": "greenhouse",
-    "board": "cloudflare",
-    "priority": 4
-  },
-  {
-    "company": "Elastic",
-    "ats": "greenhouse",
-    "board": "elastic",
-    "priority": 4
-  },
-  {
-    "company": "HashiCorp",
-    "ats": "greenhouse",
-    "board": "hashicorp",
-    "priority": 4
-  },
-  {
-    "company": "GitLab",
-    "ats": "greenhouse",
-    "board": "gitlab",
-    "priority": 5
-  },
-  {
-    "company": "Okta",
-    "ats": "greenhouse",
-    "board": "okta",
-    "priority": 4
-  },
-  {
-    "company": "Twilio",
-    "ats": "greenhouse",
-    "board": "twilio",
-    "priority": 3
-  },
-  {
-    "company": "Toast",
-    "ats": "greenhouse",
-    "board": "toast",
-    "priority": 4
-  },
-  {
-    "company": "Grammarly",
-    "ats": "greenhouse",
-    "board": "grammarly",
-    "priority": 4
-  },
-  {
-    "company": "Canva",
-    "ats": "greenhouse",
-    "board": "canva",
-    "priority": 4
-  },
-  {
-    "company": "Instacart",
-    "ats": "greenhouse",
-    "board": "instacart",
-    "priority": 3
-  },
-  {
-    "company": "DoorDash",
-    "ats": "greenhouse",
-    "board": "doordash",
-    "priority": 3
-  },
-  {
-    "company": "Lyft",
-    "ats": "greenhouse",
-    "board": "lyft",
-    "priority": 3
-  },
-  {
-    "company": "Discord",
-    "ats": "greenhouse",
-    "board": "discord",
-    "priority": 4
-  },
-  {
-    "company": "Roblox",
-    "ats": "greenhouse",
-    "board": "roblox",
-    "priority": 3
-  },
-  {
-    "company": "Scale AI",
-    "ats": "greenhouse",
-    "board": "scaleai",
-    "priority": 5
-  },
-  {
-    "company": "Anduril",
-    "ats": "greenhouse",
-    "board": "andurilindustries",
-    "priority": 4
-  },
-  {
-    "company": "Ramp",
-    "ats": "greenhouse",
-    "board": "ramp",
-    "priority": 5
-  },
-  {
-    "company": "Mercury",
-    "ats": "greenhouse",
-    "board": "mercury",
-    "priority": 5
-  },
-  {
-    "company": "Vanta",
-    "ats": "greenhouse",
-    "board": "vanta",
-    "priority": 5
-  },
-  {
-    "company": "Webflow",
-    "ats": "greenhouse",
-    "board": "webflow",
-    "priority": 4
-  },
-  {
-    "company": "Zapier",
-    "ats": "greenhouse",
-    "board": "zapier",
-    "priority": 5
-  },
-  {
-    "company": "Hightouch",
-    "ats": "greenhouse",
-    "board": "hightouch",
-    "priority": 5
-  },
-  {
-    "company": "Chainlink Labs",
-    "ats": "greenhouse",
-    "board": "chainlinklabs",
-    "priority": 4
-  },
-  {
-    "company": "Customer.io",
-    "ats": "greenhouse",
-    "board": "customerio",
-    "priority": 5
-  },
-  {
-    "company": "Circle",
-    "ats": "greenhouse",
-    "board": "circle",
-    "priority": 4
-  },
-  {
-    "company": "Carta",
-    "ats": "greenhouse",
-    "board": "carta",
-    "priority": 4
-  },
-  {
-    "company": "Affirm",
-    "ats": "greenhouse",
-    "board": "affirm",
-    "priority": 4
-  },
-  {
-    "company": "SoFi",
-    "ats": "greenhouse",
-    "board": "sofi",
-    "priority": 3
-  },
-  {
-    "company": "Klaviyo",
-    "ats": "greenhouse",
-    "board": "klaviyo",
-    "priority": 4
-  },
-  {
-    "company": "Braze",
-    "ats": "greenhouse",
-    "board": "braze",
-    "priority": 4
-  },
-  {
-    "company": "Confluent",
-    "ats": "greenhouse",
-    "board": "confluent",
-    "priority": 4
-  },
-  {
-    "company": "Snowflake",
-    "ats": "greenhouse",
-    "board": "snowflake",
-    "priority": 4
-  },
-  {
-    "company": "Cockroach Labs",
-    "ats": "greenhouse",
-    "board": "cockroachlabs",
-    "priority": 4
-  },
-  {
-    "company": "dbt Labs",
-    "ats": "greenhouse",
-    "board": "dbtlabsinc",
-    "priority": 5
-  },
-  {
-    "company": "Grafana Labs",
-    "ats": "greenhouse",
-    "board": "grafanalabs",
-    "priority": 5
-  },
-  {
-    "company": "Sentry",
-    "ats": "greenhouse",
-    "board": "sentry",
-    "priority": 4
-  },
-  {
-    "company": "Fastly",
-    "ats": "greenhouse",
-    "board": "fastly",
-    "priority": 3
-  },
-  {
-    "company": "Cloudinary",
-    "ats": "greenhouse",
-    "board": "cloudinary",
-    "priority": 3
-  },
-  {
-    "company": "PagerDuty",
-    "ats": "greenhouse",
-    "board": "pagerduty",
-    "priority": 3
-  },
-  {
-    "company": "Mixpanel",
-    "ats": "greenhouse",
-    "board": "mixpanel",
-    "priority": 4
-  },
-  {
-    "company": "Amplitude",
-    "ats": "greenhouse",
-    "board": "amplitude",
-    "priority": 4
-  },
-  {
-    "company": "LaunchDarkly",
-    "ats": "greenhouse",
-    "board": "launchdarkly",
-    "priority": 4
-  },
-  {
-    "company": "PostHog",
-    "ats": "greenhouse",
-    "board": "posthog",
-    "priority": 5
-  },
-  {
-    "company": "Miro",
-    "ats": "greenhouse",
-    "board": "miro",
-    "priority": 4
-  },
-  {
-    "company": "Contentful",
-    "ats": "greenhouse",
-    "board": "contentful",
-    "priority": 4
-  },
-  {
-    "company": "Checkr",
-    "ats": "greenhouse",
-    "board": "checkr",
-    "priority": 4
-  },
-  {
-    "company": "Workato",
-    "ats": "greenhouse",
-    "board": "workato",
-    "priority": 4
-  },
-  {
-    "company": "Highspot",
-    "ats": "greenhouse",
-    "board": "highspot",
-    "priority": 4
-  },
-  {
-    "company": "Outreach",
-    "ats": "greenhouse",
-    "board": "outreach",
-    "priority": 4
-  },
-  {
-    "company": "Calendly",
-    "ats": "greenhouse",
-    "board": "calendly",
-    "priority": 5
-  },
-  {
-    "company": "Intercom",
-    "ats": "greenhouse",
-    "board": "intercom",
-    "priority": 4
-  },
-  {
-    "company": "Kong",
-    "ats": "greenhouse",
-    "board": "kong",
-    "priority": 4
-  },
-  {
-    "company": "Algolia",
-    "ats": "greenhouse",
-    "board": "algolia",
-    "priority": 4
-  },
-  {
-    "company": "Benchling",
-    "ats": "greenhouse",
-    "board": "benchling",
-    "priority": 4
-  },
-  {
-    "company": "Color Health",
-    "ats": "greenhouse",
-    "board": "color",
-    "priority": 4
-  },
-  {
-    "company": "Oscar Health",
-    "ats": "greenhouse",
-    "board": "oscar",
-    "priority": 4
-  },
-  {
-    "company": "Headspace",
-    "ats": "greenhouse",
-    "board": "headspace",
-    "priority": 3
-  },
-  {
-    "company": "Spring Health",
-    "ats": "greenhouse",
-    "board": "springhealth",
-    "priority": 5
-  },
-  {
-    "company": "Cityblock Health",
-    "ats": "greenhouse",
-    "board": "cityblockhealth",
-    "priority": 4
-  },
-  {
-    "company": "Included Health",
-    "ats": "greenhouse",
-    "board": "includedhealth",
-    "priority": 4
-  },
-  {
-    "company": "Komodo Health",
-    "ats": "greenhouse",
-    "board": "komodohealth",
-    "priority": 4
-  },
-  {
-    "company": "Modern Health",
-    "ats": "greenhouse",
-    "board": "modernhealth",
-    "priority": 4
-  },
-  {
-    "company": "Wayfair",
-    "ats": "greenhouse",
-    "board": "wayfair",
-    "priority": 3
-  },
-  {
-    "company": "Squarespace",
-    "ats": "greenhouse",
-    "board": "squarespace",
-    "priority": 3
-  },
-  {
-    "company": "Etsy",
-    "ats": "greenhouse",
-    "board": "etsy",
-    "priority": 4
-  },
-  {
-    "company": "Warby Parker",
-    "ats": "greenhouse",
-    "board": "warbyparker",
-    "priority": 3
-  },
-  {
-    "company": "Peloton",
-    "ats": "greenhouse",
-    "board": "peloton",
-    "priority": 3
-  },
-  {
-    "company": "Fanatics",
-    "ats": "greenhouse",
-    "board": "fanatics",
-    "priority": 3
-  },
-  {
-    "company": "DraftKings",
-    "ats": "greenhouse",
-    "board": "draftkings",
-    "priority": 3
-  },
-  {
-    "company": "SeatGeek",
-    "ats": "greenhouse",
-    "board": "seatgeek",
-    "priority": 3
-  },
-  {
-    "company": "NerdWallet",
-    "ats": "greenhouse",
-    "board": "nerdwallet",
-    "priority": 3
-  },
-  {
-    "company": "Credit Karma",
-    "ats": "greenhouse",
-    "board": "creditkarma",
-    "priority": 3
-  },
-  {
-    "company": "Betterment",
-    "ats": "greenhouse",
-    "board": "betterment",
-    "priority": 3
-  },
-  {
-    "company": "Replicant",
-    "ats": "greenhouse",
-    "board": "replicant",
-    "priority": 5
-  },
-  {
-    "company": "BGE",
-    "ats": "greenhouse",
-    "board": "bgeinc",
-    "priority": 5
-  },
-  {
-    "company": "Move Concierge",
-    "ats": "greenhouse",
-    "board": "moveconcierge",
-    "priority": 5
-  },
-  {
-    "company": "YipitData",
-    "ats": "greenhouse",
-    "board": "yipitdata",
-    "priority": 4
-  },
-  {
-    "company": "Headway",
-    "ats": "greenhouse",
-    "board": "headway",
-    "priority": 5
-  },
-  {
-    "company": "Hadley Designs",
-    "ats": "greenhouse",
-    "board": "hadleydesigns",
-    "priority": 3
-  },
-  {
-    "company": "Netflix",
-    "ats": "lever",
-    "board": "netflix",
-    "priority": 4
-  },
-  {
-    "company": "Palantir",
-    "ats": "lever",
-    "board": "palantir",
-    "priority": 4
-  },
-  {
-    "company": "Spotify",
-    "ats": "lever",
-    "board": "spotify",
-    "priority": 4
-  },
-  {
-    "company": "Twitch",
-    "ats": "lever",
-    "board": "twitch",
-    "priority": 3
-  },
-  {
-    "company": "Postman",
-    "ats": "lever",
-    "board": "postman",
-    "priority": 5
-  },
-  {
-    "company": "Verkada",
-    "ats": "lever",
-    "board": "verkada",
-    "priority": 4
-  },
-  {
-    "company": "Flexport",
-    "ats": "lever",
-    "board": "flexport",
-    "priority": 3
-  },
-  {
-    "company": "Maven Clinic",
-    "ats": "lever",
-    "board": "mavenclinic",
-    "priority": 5
-  },
-  {
-    "company": "Faire",
-    "ats": "lever",
-    "board": "faire",
-    "priority": 4
-  },
-  {
-    "company": "Coda",
-    "ats": "lever",
-    "board": "coda",
-    "priority": 4
-  },
-  {
-    "company": "Lattice",
-    "ats": "lever",
-    "board": "lattice",
-    "priority": 5
-  },
-  {
-    "company": "Lever",
-    "ats": "lever",
-    "board": "lever",
-    "priority": 5
-  },
-  {
-    "company": "Box",
-    "ats": "lever",
-    "board": "box",
-    "priority": 3
-  },
-  {
-    "company": "Procore",
-    "ats": "lever",
-    "board": "procore",
-    "priority": 4
-  },
-  {
-    "company": "Clari",
-    "ats": "lever",
-    "board": "clari",
-    "priority": 4
-  },
-  {
-    "company": "Udemy",
-    "ats": "lever",
-    "board": "udemy",
-    "priority": 3
-  },
-  {
-    "company": "Thumbtack",
-    "ats": "lever",
-    "board": "thumbtack",
-    "priority": 4
-  },
-  {
-    "company": "Nextdoor",
-    "ats": "lever",
-    "board": "nextdoor",
-    "priority": 3
-  },
-  {
-    "company": "Waymo",
-    "ats": "lever",
-    "board": "waymo",
-    "priority": 3
-  },
-  {
-    "company": "Cruise",
-    "ats": "lever",
-    "board": "cruise",
-    "priority": 3
-  },
-  {
-    "company": "Aurora",
-    "ats": "lever",
-    "board": "aurora",
-    "priority": 3
-  },
-  {
-    "company": "Nuro",
-    "ats": "lever",
-    "board": "nuro",
-    "priority": 3
-  },
-  {
-    "company": "Vimeo",
-    "ats": "lever",
-    "board": "vimeo",
-    "priority": 3
-  },
-  {
-    "company": "Eventbrite",
-    "ats": "lever",
-    "board": "eventbrite",
-    "priority": 3
-  },
-  {
-    "company": "GoFundMe",
-    "ats": "lever",
-    "board": "gofundme",
-    "priority": 4
-  },
-  {
-    "company": "Motive",
-    "ats": "lever",
-    "board": "motive",
-    "priority": 4
-  },
-  {
-    "company": "Flock Safety",
-    "ats": "lever",
-    "board": "flocksafety",
-    "priority": 4
-  },
-  {
-    "company": "Earnest",
-    "ats": "lever",
-    "board": "earnest",
-    "priority": 3
-  },
-  {
-    "company": "Upgrade",
-    "ats": "lever",
-    "board": "upgrade",
-    "priority": 3
-  },
-  {
-    "company": "Marqeta",
-    "ats": "lever",
-    "board": "marqeta",
-    "priority": 4
-  },
-  {
-    "company": "Bill",
-    "ats": "lever",
-    "board": "bill",
-    "priority": 4
-  },
-  {
-    "company": "Perfect Venue",
-    "ats": "lever",
-    "board": "perfectvenue",
-    "priority": 5
-  },
-  {
-    "company": "Loenbro",
-    "ats": "lever",
-    "board": "loenbro",
-    "priority": 4
-  },
-  {
-    "company": "Ashby",
-    "ats": "ashby",
-    "board": "ashby",
-    "priority": 5
-  },
-  {
-    "company": "Linear",
-    "ats": "ashby",
-    "board": "linear",
-    "priority": 5
-  },
-  {
-    "company": "Harvey",
-    "ats": "ashby",
-    "board": "harvey",
-    "priority": 5
-  },
-  {
-    "company": "Perplexity",
-    "ats": "ashby",
-    "board": "perplexity",
-    "priority": 5
-  },
-  {
-    "company": "Cursor",
-    "ats": "ashby",
-    "board": "cursor",
-    "priority": 5
-  },
-  {
-    "company": "Replit",
-    "ats": "ashby",
-    "board": "replit",
-    "priority": 4
-  },
-  {
-    "company": "Retool",
-    "ats": "ashby",
-    "board": "retool",
-    "priority": 5
-  },
-  {
-    "company": "Deel",
-    "ats": "ashby",
-    "board": "deel",
-    "priority": 4
-  },
-  {
-    "company": "Remote",
-    "ats": "ashby",
-    "board": "remote",
-    "priority": 5
-  },
-  {
-    "company": "OpenPhone",
-    "ats": "ashby",
-    "board": "openphone",
-    "priority": 4
-  },
-  {
-    "company": "Tailscale",
-    "ats": "ashby",
-    "board": "tailscale",
-    "priority": 5
-  },
-  {
-    "company": "Render",
-    "ats": "ashby",
-    "board": "render",
-    "priority": 5
-  },
-  {
-    "company": "Supabase",
-    "ats": "ashby",
-    "board": "supabase",
-    "priority": 5
-  },
-  {
-    "company": "Pinecone",
-    "ats": "ashby",
-    "board": "pinecone",
-    "priority": 5
-  },
-  {
-    "company": "Modal",
-    "ats": "ashby",
-    "board": "modal",
-    "priority": 4
-  },
-  {
-    "company": "Runway",
-    "ats": "ashby",
-    "board": "runway",
-    "priority": 5
-  },
-  {
-    "company": "ElevenLabs",
-    "ats": "ashby",
-    "board": "elevenlabs",
-    "priority": 5
-  },
-  {
-    "company": "Together AI",
-    "ats": "ashby",
-    "board": "togetherai",
-    "priority": 5
-  },
-  {
-    "company": "Cohere",
-    "ats": "ashby",
-    "board": "cohere",
-    "priority": 5
-  },
-  {
-    "company": "Mistral AI",
-    "ats": "ashby",
-    "board": "mistral",
-    "priority": 5
-  },
-  {
-    "company": "Hugging Face",
-    "ats": "ashby",
-    "board": "huggingface",
-    "priority": 5
-  },
-  {
-    "company": "Weights & Biases",
-    "ats": "ashby",
-    "board": "wandb",
-    "priority": 5
-  },
-  {
-    "company": "Temporal",
-    "ats": "ashby",
-    "board": "temporal",
-    "priority": 5
-  },
-  {
-    "company": "Pulley",
-    "ats": "ashby",
-    "board": "pulley",
-    "priority": 4
-  },
-  {
-    "company": "Watershed",
-    "ats": "ashby",
-    "board": "watershed",
-    "priority": 5
-  },
-  {
-    "company": "Modern Treasury",
-    "ats": "ashby",
-    "board": "moderntreasury",
-    "priority": 5
-  },
-  {
-    "company": "Ironclad",
-    "ats": "ashby",
-    "board": "ironclad",
-    "priority": 4
-  },
-  {
-    "company": "Sourcegraph",
-    "ats": "ashby",
-    "board": "sourcegraph",
-    "priority": 5
-  },
-  {
-    "company": "Glean",
-    "ats": "ashby",
-    "board": "glean",
-    "priority": 5
-  },
-  {
-    "company": "Writer",
-    "ats": "ashby",
-    "board": "writer",
-    "priority": 5
-  },
-  {
-    "company": "Sierra",
-    "ats": "ashby",
-    "board": "sierra",
-    "priority": 5
-  },
-  {
-    "company": "Abridge",
-    "ats": "ashby",
-    "board": "abridge",
-    "priority": 5
-  },
-  {
-    "company": "Nabla",
-    "ats": "ashby",
-    "board": "nabla",
-    "priority": 4
-  },
-  {
-    "company": "Rula",
-    "ats": "ashby",
-    "board": "rula",
-    "priority": 4
-  },
-  {
-    "company": "Grow Therapy",
-    "ats": "ashby",
-    "board": "growtherapy",
-    "priority": 4
-  },
-  {
-    "company": "Suno",
-    "ats": "ashby",
-    "board": "suno",
-    "priority": 5
-  },
-  {
-    "company": "Clay",
-    "ats": "ashby",
-    "board": "clay",
-    "priority": 5
-  },
-  {
-    "company": "Pylon",
-    "ats": "ashby",
-    "board": "pylon",
-    "priority": 4
-  },
-  {
-    "company": "Vercel",
-    "ats": "ashby",
-    "board": "vercel",
-    "priority": 5
-  },
-  {
-    "company": "TalentPluto",
-    "ats": "ashby",
-    "board": "talentpluto",
-    "priority": 5
-  },
-  {
-    "company": "NSTXL",
-    "ats": "ashby",
-    "board": "nstxl",
-    "priority": 4
-  }
-]
+{
+  "companies": [
+    {
+      "name": "Take Command",
+      "company_url": "https://www.takecommandhealth.com",
+      "enabled": true,
+      "discovered_from": [
+        "registry_test",
+        "duplicate_test",
+        "auto_discovery"
+      ],
+      "last_discovered_at": "2026-08-27T21:31:58.104597+00:00",
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "takecommandhealth",
+        "career_page": "https://boards-api.greenhouse.io/v1/boards/takecommandhealth/departments",
+        "verified_at": "2026-08-27T21:31:58.104625+00:00"
+      },
+      "domain": "takecommandhealth.com",
+      "metadata": {
+        "last_job_count": 5
+      }
+    },
+    {
+      "name": "Shield AI",
+      "company_url": "https://www.shield.ai",
+      "enabled": true,
+      "discovered_from": [
+        "auto_discovery"
+      ],
+      "last_discovered_at": "2026-08-27T21:12:35.665020+00:00",
+      "metadata": {
+        "career_page": "https://jobs.lever.co/shieldai",
+        "ats_source": "lever",
+        "ats_identifier": "shieldai",
+        "last_job_count": 439
+      },
+      "ats": {
+        "source": "lever",
+        "identifier": "shieldai",
+        "career_page": "https://jobs.lever.co/shieldai",
+        "verified_at": "2026-08-27T21:25:43.863553+00:00"
+      }
+    },
+    {
+      "name": "NVIDIA",
+      "company_url": "https://www.nvidia.com",
+      "enabled": true,
+      "discovered_from": [
+        "auto_discovery"
+      ],
+      "last_discovered_at": "2026-08-27T21:13:41.222590+00:00",
+      "metadata": {
+        "career_page": "https://jobs.nvidia.com/careers",
+        "ats_source": "workday",
+        "ats_identifier": "nvidia.wd5.myworkdayjobs.com|nvidia|NVIDIAExternalCareerSite",
+        "last_job_count": 200
+      },
+      "ats": {
+        "source": "workday",
+        "identifier": "nvidia.wd5.myworkdayjobs.com|nvidia|NVIDIAExternalCareerSite",
+        "career_page": "https://jobs.nvidia.com/careers",
+        "verified_at": "2026-08-27T21:25:43.868894+00:00"
+      }
+    },
+    {
+      "name": "Anthropic",
+      "company_url": "https://anthropic.com",
+      "domain": "anthropic.com",
+      "enabled": true,
+      "discovered_from": [
+        "auto_discovery"
+      ],
+      "discovered_at": "2026-08-27T21:35:12.910061+00:00",
+      "last_discovered_at": "2026-08-27T21:35:12.910070+00:00",
+      "metadata": {
+        "last_job_count": 561
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "anthropic",
+        "career_page": "https://job-boards.greenhouse.io/anthropic/jobs/5228098008",
+        "verified_at": "2026-08-27T21:35:12.910074+00:00"
+      }
+    },
+    {
+      "name": "Rippling",
+      "company_url": "https://rippling.com",
+      "domain": "rippling.com",
+      "enabled": true,
+      "discovered_from": [
+        "auto_discovery"
+      ],
+      "discovered_at": "2026-08-27T21:50:28.222772+00:00",
+      "last_discovered_at": "2026-08-27T21:50:28.222795+00:00",
+      "metadata": {
+        "last_job_count": 0
+      },
+      "ats": {
+        "source": "rippling",
+        "identifier": "rippling",
+        "career_page": "https://www.rippling.com/careers/open-roles",
+        "verified_at": "2026-08-27T21:50:28.222802+00:00"
+      }
+    },
+    {
+      "name": "Ramp",
+      "company_url": "https://ramp.com",
+      "domain": "ramp.com",
+      "enabled": true,
+      "discovered_from": [
+        "auto_discovery"
+      ],
+      "discovered_at": "2026-08-27T21:57:26.271510+00:00",
+      "last_discovered_at": "2026-08-27T21:57:26.271564+00:00",
+      "metadata": {
+        "last_job_count": 137
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "ramp",
+        "career_page": "https://ramp.com/careers#jobs",
+        "verified_at": "2026-08-27T21:57:26.271570+00:00"
+      }
+    },
+    {
+      "name": "OpenAI",
+      "company_url": "https://openai.com",
+      "domain": "openai.com",
+      "enabled": true,
+      "discovered_from": [
+        "auto_discovery"
+      ],
+      "discovered_at": "2026-08-27T22:04:13.876475+00:00",
+      "last_discovered_at": "2026-08-28T04:09:33.797312+00:00",
+      "metadata": {
+        "last_job_count": 747
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "openai",
+        "career_page": "https://openai.com/careers/",
+        "verified_at": "2026-08-28T04:09:33.797333+00:00"
+      }
+    },
+    {
+      "name": "Stripe",
+      "company_url": "https://stripe.com",
+      "domain": "stripe.com",
+      "enabled": true,
+      "discovered_from": [
+        "auto_discovery"
+      ],
+      "discovered_at": "2026-08-28T04:10:24.423860+00:00",
+      "last_discovered_at": "2026-08-28T04:10:24.423874+00:00",
+      "metadata": {
+        "last_job_count": 40
+      },
+      "ats": {
+        "source": "custom",
+        "identifier": "https://stripe.com/careers/search",
+        "career_page": "https://stripe.com/careers/search",
+        "verified_at": "2026-08-28T04:10:24.423878+00:00"
+      }
+    },
+    {
+      "name": "Airbnb",
+      "company_url": "https://airbnb.com",
+      "domain": "airbnb.com",
+      "enabled": true,
+      "discovered_from": [
+        "auto_discovery"
+      ],
+      "discovered_at": "2026-08-28T05:27:14.047670+00:00",
+      "last_discovered_at": "2026-08-28T05:27:14.047690+00:00",
+      "metadata": {
+        "last_job_count": 30
+      },
+      "ats": {
+        "source": "custom",
+        "identifier": "https://careers.airbnb.com/positions/",
+        "career_page": "https://careers.airbnb.com/positions/",
+        "verified_at": "2026-08-28T05:27:14.047696+00:00"
+      }
+    },
+    {
+      "name": "Amplitude",
+      "company_url": "https://amplitude.com",
+      "domain": "amplitude.com",
+      "enabled": true,
+      "discovered_from": [
+        "auto_discovery"
+      ],
+      "discovered_at": "2026-08-28T05:30:37.726687+00:00",
+      "last_discovered_at": "2026-08-28T05:30:37.726699+00:00",
+      "metadata": {
+        "last_job_count": 35
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "amplitude",
+        "career_page": "https://boards.greenhouse.io/amplitude",
+        "verified_at": "2026-08-28T05:30:37.726703+00:00"
+      }
+    },
+    {
+      "name": "Benchling",
+      "company_url": "https://benchling.com",
+      "domain": "benchling.com",
+      "enabled": true,
+      "discovered_from": [
+        "auto_discovery"
+      ],
+      "discovered_at": "2026-08-28T05:31:28.507485+00:00",
+      "last_discovered_at": "2026-08-28T05:31:28.507500+00:00",
+      "metadata": {
+        "last_job_count": 57
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "benchling",
+        "career_page": "https://www.benchling.com/careers#jobListing",
+        "verified_at": "2026-08-28T05:31:28.507504+00:00"
+      }
+    },
+    {
+      "name": "BillionToOne",
+      "company_url": "https://billiontoone.com",
+      "domain": "billiontoone.com",
+      "enabled": true,
+      "discovered_from": [
+        "auto_discovery"
+      ],
+      "discovered_at": "2026-08-28T05:47:55.055862+00:00",
+      "last_discovered_at": "2026-08-28T05:47:55.055879+00:00",
+      "metadata": {
+        "last_job_count": 82
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "billiontoone",
+        "career_page": "https://boards-api.greenhouse.io/v1/boards/billiontoone/departments",
+        "verified_at": "2026-08-28T05:47:55.055884+00:00"
+      }
+    },
+    {
+      "name": "Bird",
+      "company_url": "https://bird.com",
+      "domain": "bird.com",
+      "enabled": true,
+      "discovered_from": [
+        "auto_discovery"
+      ],
+      "discovered_at": "2026-08-28T14:57:37.779495+00:00",
+      "last_discovered_at": "2026-08-28T14:57:37.779510+00:00",
+      "metadata": {
+        "last_job_count": 34
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "bird",
+        "career_page": "https://job-boards.greenhouse.io/bird",
+        "verified_at": "2026-08-28T14:57:37.779514+00:00"
+      }
+    },
+    {
+      "name": "Brex",
+      "company_url": "https://brex.com",
+      "domain": "brex.com",
+      "enabled": true,
+      "discovered_from": [
+        "auto_discovery"
+      ],
+      "discovered_at": "2026-08-28T14:57:38.313252+00:00",
+      "last_discovered_at": "2026-08-28T14:57:38.313262+00:00",
+      "metadata": {
+        "last_job_count": 298
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "brex",
+        "career_page": "https://job-boards.greenhouse.io/brex",
+        "verified_at": "2026-08-28T14:57:38.313266+00:00"
+      }
+    },
+    {
+      "name": "Casetext",
+      "company_url": "https://casetext.com",
+      "domain": "casetext.com",
+      "enabled": true,
+      "discovered_from": [
+        "auto_discovery"
+      ],
+      "discovered_at": "2026-08-28T14:58:05.288851+00:00",
+      "last_discovered_at": "2026-08-28T14:58:05.288862+00:00",
+      "metadata": {
+        "last_job_count": 453
+      },
+      "ats": {
+        "source": "workday",
+        "identifier": "thomsonreuters.wd5.myworkdayjobs.com|thomsonreuters|External_Career_Site",
+        "career_page": "https://thomsonreuters.wd5.myworkdayjobs.com/en-US/External_Career_Site",
+        "verified_at": "2026-08-28T14:58:05.288867+00:00"
+      }
+    },
+    {
+      "name": "Checkr",
+      "company_url": "https://checkr.com",
+      "domain": "checkr.com",
+      "enabled": true,
+      "discovered_from": [
+        "auto_discovery"
+      ],
+      "discovered_at": "2026-08-28T14:58:05.618711+00:00",
+      "last_discovered_at": "2026-08-28T14:58:05.618718+00:00",
+      "metadata": {
+        "last_job_count": 50
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "checkr",
+        "career_page": "https://job-boards.greenhouse.io/checkr",
+        "verified_at": "2026-08-28T14:58:05.618721+00:00"
+      }
+    },
+    {
+      "name": "Clipboard",
+      "company_url": "https://clipboardworks.com",
+      "domain": "clipboardworks.com",
+      "enabled": true,
+      "discovered_from": [
+        "auto_discovery"
+      ],
+      "discovered_at": "2026-08-28T14:58:05.973904+00:00",
+      "last_discovered_at": "2026-08-28T14:58:05.973915+00:00",
+      "metadata": {
+        "last_job_count": 35
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "clipboard",
+        "career_page": "https://jobs.ashbyhq.com/clipboard",
+        "verified_at": "2026-08-28T14:58:05.973918+00:00"
+      }
+    },
+    {
+      "name": "Coinbase",
+      "company_url": "https://coinbase.com",
+      "domain": "coinbase.com",
+      "enabled": true,
+      "discovered_from": [
+        "auto_discovery"
+      ],
+      "discovered_at": "2026-08-28T14:59:17.962406+00:00",
+      "last_discovered_at": "2026-08-28T14:59:17.962419+00:00",
+      "metadata": {
+        "last_job_count": 184
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "coinbase",
+        "career_page": "https://job-boards.greenhouse.io/coinbase",
+        "verified_at": "2026-08-28T14:59:17.962423+00:00"
+      }
+    },
+    {
+      "name": "Deel",
+      "company_url": "https://deel.com",
+      "domain": "deel.com",
+      "enabled": true,
+      "discovered_from": [
+        "auto_discovery"
+      ],
+      "discovered_at": "2026-08-28T14:59:20.957747+00:00",
+      "last_discovered_at": "2026-08-28T14:59:20.957760+00:00",
+      "metadata": {
+        "last_job_count": 0
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "deel",
+        "career_page": "https://jobs.ashbyhq.com/deel",
+        "verified_at": "2026-08-28T14:59:20.957764+00:00"
+      }
+    },
+    {
+      "name": "Dropbox",
+      "company_url": "https://dropbox.com",
+      "domain": "dropbox.com",
+      "enabled": true,
+      "discovered_from": [
+        "auto_discovery"
+      ],
+      "discovered_at": "2026-08-28T14:59:35.785097+00:00",
+      "last_discovered_at": "2026-08-28T14:59:35.785107+00:00",
+      "metadata": {
+        "last_job_count": 41
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "dropbox",
+        "career_page": "https://job-boards.greenhouse.io/dropbox",
+        "verified_at": "2026-08-28T14:59:35.785110+00:00"
+      }
+    },
+    {
+      "name": "Ginkgo Bioworks",
+      "company_url": "https://ginkgobioworks.com",
+      "domain": "ginkgobioworks.com",
+      "enabled": true,
+      "discovered_from": [
+        "auto_discovery"
+      ],
+      "discovered_at": "2026-08-28T15:00:02.857125+00:00",
+      "last_discovered_at": "2026-08-28T15:00:02.857140+00:00",
+      "metadata": {
+        "last_job_count": 19
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "ginkgobioworks",
+        "career_page": "https://job-boards.greenhouse.io/ginkgobioworks",
+        "verified_at": "2026-08-28T15:00:02.857145+00:00"
+      }
+    },
+    {
+      "name": "GitLab",
+      "company_url": "https://gitlab.com",
+      "domain": "gitlab.com",
+      "enabled": true,
+      "discovered_from": [
+        "auto_discovery"
+      ],
+      "discovered_at": "2026-08-28T15:00:03.431738+00:00",
+      "last_discovered_at": "2026-08-28T15:00:03.431746+00:00",
+      "metadata": {
+        "last_job_count": 218
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "gitlab",
+        "career_page": "https://job-boards.greenhouse.io/gitlab",
+        "verified_at": "2026-08-28T15:00:03.431749+00:00"
+      }
+    },
+    {
+      "name": "Groww",
+      "company_url": "https://groww.in",
+      "domain": "groww.in",
+      "enabled": true,
+      "discovered_from": [
+        "auto_discovery"
+      ],
+      "discovered_at": "2026-08-28T15:00:03.771227+00:00",
+      "last_discovered_at": "2026-08-28T15:00:03.771248+00:00",
+      "metadata": {
+        "last_job_count": 5
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "groww",
+        "career_page": "https://job-boards.greenhouse.io/groww",
+        "verified_at": "2026-08-28T15:00:03.771255+00:00"
+      }
+    },
+    {
+      "name": "Instacart",
+      "company_url": "https://instacart.com",
+      "domain": "instacart.com",
+      "enabled": true,
+      "discovered_from": [
+        "auto_discovery"
+      ],
+      "discovered_at": "2026-08-28T15:00:16.329449+00:00",
+      "last_discovered_at": "2026-08-28T15:00:16.329457+00:00",
+      "metadata": {
+        "last_job_count": 119
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "instacart",
+        "career_page": "https://job-boards.greenhouse.io/instacart",
+        "verified_at": "2026-08-28T15:00:16.329464+00:00"
+      }
+    },
+    {
+      "name": "Lever",
+      "company_url": "https://lever.co",
+      "domain": "lever.co",
+      "enabled": true,
+      "discovered_from": [
+        "auto_discovery"
+      ],
+      "discovered_at": "2026-08-28T15:00:19.471975+00:00",
+      "last_discovered_at": "2026-08-28T15:00:19.472003+00:00",
+      "metadata": {
+        "last_job_count": 0
+      },
+      "ats": {
+        "source": "lever",
+        "identifier": "lever",
+        "career_page": "https://jobs.lever.co/lever",
+        "verified_at": "2026-08-28T15:00:19.472011+00:00"
+      }
+    },
+    {
+      "name": "80,000 Hours",
+      "company_url": "https://80000hours.org",
+      "domain": "80000hours.org",
+      "enabled": true,
+      "discovered_from": [
+        "auto_discovery"
+      ],
+      "discovered_at": "2026-08-28T19:14:59.764611+00:00",
+      "last_discovered_at": "2026-08-28T19:14:59.764631+00:00",
+      "metadata": {
+        "last_job_count": 0
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "80000hours",
+        "career_page": "https://jobs.ashbyhq.com/80000hours",
+        "verified_at": "2026-08-28T19:14:59.764637+00:00"
+      }
+    },
+    {
+      "name": "9 Mothers",
+      "company_url": "https://9mothers.com",
+      "domain": "9mothers.com",
+      "enabled": true,
+      "discovered_from": [
+        "auto_discovery"
+      ],
+      "discovered_at": "2026-08-28T19:15:09.898818+00:00",
+      "last_discovered_at": "2026-08-28T19:15:09.898839+00:00",
+      "metadata": {
+        "last_job_count": 12
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "9-mothers",
+        "career_page": "https://jobs.ashbyhq.com/9-mothers",
+        "verified_at": "2026-08-28T19:15:09.898845+00:00"
+      }
+    },
+    {
+      "name": "Akido Labs",
+      "company_url": "https://akidolabs.com",
+      "domain": "akidolabs.com",
+      "enabled": true,
+      "discovered_from": [
+        "auto_discovery"
+      ],
+      "discovered_at": "2026-08-28T19:16:15.401438+00:00",
+      "last_discovered_at": "2026-08-28T19:16:15.401462+00:00",
+      "metadata": {
+        "last_job_count": 14
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "akidolabs",
+        "career_page": "https://job-boards.greenhouse.io/akidolabs",
+        "verified_at": "2026-08-28T19:16:15.401469+00:00"
+      }
+    },
+    {
+      "name": "Alchemy",
+      "company_url": "https://alchemynano.com",
+      "domain": "alchemynano.com",
+      "enabled": true,
+      "discovered_from": [
+        "auto_discovery"
+      ],
+      "discovered_at": "2026-08-28T19:16:58.169826+00:00",
+      "last_discovered_at": "2026-08-28T19:16:58.169843+00:00",
+      "metadata": {
+        "last_job_count": 22
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "alchemy",
+        "career_page": "https://jobs.ashbyhq.com/alchemy",
+        "verified_at": "2026-08-28T19:16:58.169850+00:00"
+      }
+    },
+    {
+      "name": "Archer",
+      "company_url": "https://archermoney.com",
+      "domain": "archermoney.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:00:53.141868+00:00",
+      "last_discovered_at": "2026-08-28T20:00:53.141897+00:00",
+      "metadata": {
+        "last_job_count": 1,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "archer",
+        "career_page": "https://job-boards.greenhouse.io/archer",
+        "verified_at": "2026-08-28T20:00:53.141904+00:00"
+      }
+    },
+    {
+      "name": "Apollo",
+      "company_url": "https://apollographql.com",
+      "domain": "apollographql.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:00:53.197164+00:00",
+      "last_discovered_at": "2026-08-28T20:00:53.197187+00:00",
+      "metadata": {
+        "last_job_count": 0,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "apollo",
+        "career_page": "https://job-boards.greenhouse.io/apollo",
+        "verified_at": "2026-08-28T20:00:53.197195+00:00"
+      }
+    },
+    {
+      "name": "Asimov",
+      "company_url": "https://tryasimov.ai",
+      "domain": "tryasimov.ai",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:00:53.390681+00:00",
+      "last_discovered_at": "2026-08-28T20:00:53.390702+00:00",
+      "metadata": {
+        "last_job_count": 3,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "asimov",
+        "career_page": "https://jobs.ashbyhq.com/asimov",
+        "verified_at": "2026-08-28T20:00:53.390708+00:00"
+      }
+    },
+    {
+      "name": "Assemble",
+      "company_url": "https://assemble.ai",
+      "domain": "assemble.ai",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:00:53.442236+00:00",
+      "last_discovered_at": "2026-08-28T20:00:53.442326+00:00",
+      "metadata": {
+        "last_job_count": 1,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "assemble",
+        "career_page": "https://jobs.ashbyhq.com/assemble",
+        "verified_at": "2026-08-28T20:00:53.442337+00:00"
+      }
+    },
+    {
+      "name": "Assembly",
+      "company_url": "https://asm.co",
+      "domain": "asm.co",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:00:53.630287+00:00",
+      "last_discovered_at": "2026-08-28T20:00:53.630305+00:00",
+      "metadata": {
+        "last_job_count": 4,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "assembly",
+        "career_page": "https://jobs.ashbyhq.com/assembly",
+        "verified_at": "2026-08-28T20:00:53.630309+00:00"
+      }
+    },
+    {
+      "name": "Axial",
+      "company_url": "https://axialcompute.com",
+      "domain": "axialcompute.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:00:54.245308+00:00",
+      "last_discovered_at": "2026-08-28T20:00:54.245330+00:00",
+      "metadata": {
+        "last_job_count": 4,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "axial",
+        "career_page": "https://job-boards.greenhouse.io/axial",
+        "verified_at": "2026-08-28T20:00:54.245335+00:00"
+      }
+    },
+    {
+      "name": "Bankjoy",
+      "company_url": "https://bankjoy.com",
+      "domain": "bankjoy.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:00:54.367054+00:00",
+      "last_discovered_at": "2026-08-28T20:00:54.367072+00:00",
+      "metadata": {
+        "last_job_count": 8,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "bankjoy",
+        "career_page": "https://jobs.ashbyhq.com/bankjoy",
+        "verified_at": "2026-08-28T20:00:54.367076+00:00"
+      }
+    },
+    {
+      "name": "Bernard",
+      "company_url": "https://bernardhq.com",
+      "domain": "bernardhq.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:00:54.730393+00:00",
+      "last_discovered_at": "2026-08-28T20:00:54.730408+00:00",
+      "metadata": {
+        "last_job_count": 5,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "bernard",
+        "career_page": "https://jobs.ashbyhq.com/bernard",
+        "verified_at": "2026-08-28T20:00:54.730412+00:00"
+      }
+    },
+    {
+      "name": "Bitmovin",
+      "company_url": "https://bitmovin.com",
+      "domain": "bitmovin.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:00:54.783345+00:00",
+      "last_discovered_at": "2026-08-28T20:00:54.783363+00:00",
+      "metadata": {
+        "last_job_count": 10,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "bitmovin",
+        "career_page": "https://job-boards.greenhouse.io/bitmovin",
+        "verified_at": "2026-08-28T20:00:54.783384+00:00"
+      }
+    },
+    {
+      "name": "Beyond Reach Labs",
+      "company_url": "https://beyondreachlabs.com",
+      "domain": "beyondreachlabs.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:00:54.799611+00:00",
+      "last_discovered_at": "2026-08-28T20:00:54.799672+00:00",
+      "metadata": {
+        "last_job_count": 4,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "beyondreachlabs",
+        "career_page": "https://jobs.ashbyhq.com/beyondreachlabs",
+        "verified_at": "2026-08-28T20:00:54.799683+00:00"
+      }
+    },
+    {
+      "name": "Bear Flag Robotics",
+      "company_url": "https://bearflagrobotics.com",
+      "domain": "bearflagrobotics.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:00:55.104849+00:00",
+      "last_discovered_at": "2026-08-28T20:00:55.104866+00:00",
+      "metadata": {
+        "last_job_count": 0,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "lever",
+        "identifier": "bearflagrobotics",
+        "career_page": "https://jobs.lever.co/bearflagrobotics",
+        "verified_at": "2026-08-28T20:00:55.104870+00:00"
+      }
+    },
+    {
+      "name": "Cambly",
+      "company_url": "https://cambly.com",
+      "domain": "cambly.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:00:55.672337+00:00",
+      "last_discovered_at": "2026-08-28T20:00:55.672358+00:00",
+      "metadata": {
+        "last_job_count": 8,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "cambly",
+        "career_page": "https://jobs.ashbyhq.com/cambly",
+        "verified_at": "2026-08-28T20:00:55.672364+00:00"
+      }
+    },
+    {
+      "name": "Brumby (Formerly GrazeMate)",
+      "company_url": "https://brumby",
+      "domain": "brumby",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:00:55.798174+00:00",
+      "last_discovered_at": "2026-08-28T20:00:55.798188+00:00",
+      "metadata": {
+        "last_job_count": 1,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "brumby",
+        "career_page": "https://jobs.ashbyhq.com/brumby",
+        "verified_at": "2026-08-28T20:00:55.798191+00:00"
+      }
+    },
+    {
+      "name": "Cardboard",
+      "company_url": "https://cardboard.ai",
+      "domain": "cardboard.ai",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:00:55.976644+00:00",
+      "last_discovered_at": "2026-08-28T20:00:55.976668+00:00",
+      "metadata": {
+        "last_job_count": 6,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "cardboard",
+        "career_page": "https://jobs.ashbyhq.com/cardboard",
+        "verified_at": "2026-08-28T20:00:55.976677+00:00"
+      }
+    },
+    {
+      "name": "CareMessage",
+      "company_url": "https://caremessage.org",
+      "domain": "caremessage.org",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:00:56.058820+00:00",
+      "last_discovered_at": "2026-08-28T20:00:56.058872+00:00",
+      "metadata": {
+        "last_job_count": 5,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "caremessage",
+        "career_page": "https://jobs.ashbyhq.com/caremessage",
+        "verified_at": "2026-08-28T20:00:56.058944+00:00"
+      }
+    },
+    {
+      "name": "Chamber",
+      "company_url": "https://usechamber.io",
+      "domain": "usechamber.io",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:00:56.593249+00:00",
+      "last_discovered_at": "2026-08-28T20:00:56.593309+00:00",
+      "metadata": {
+        "last_job_count": 0,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "chamber",
+        "career_page": "https://jobs.ashbyhq.com/chamber",
+        "verified_at": "2026-08-28T20:00:56.593505+00:00"
+      }
+    },
+    {
+      "name": "CircuitHub",
+      "company_url": "https://circuithub.com",
+      "domain": "circuithub.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:00:56.799937+00:00",
+      "last_discovered_at": "2026-08-28T20:00:56.799983+00:00",
+      "metadata": {
+        "last_job_count": 9,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "circuithub",
+        "career_page": "https://jobs.ashbyhq.com/circuithub",
+        "verified_at": "2026-08-28T20:00:56.799986+00:00"
+      }
+    },
+    {
+      "name": "Clara",
+      "company_url": "https://askclara.com",
+      "domain": "askclara.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:00:56.950842+00:00",
+      "last_discovered_at": "2026-08-28T20:00:56.950869+00:00",
+      "metadata": {
+        "last_job_count": 118,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "clara",
+        "career_page": "https://job-boards.greenhouse.io/clara",
+        "verified_at": "2026-08-28T20:00:56.950877+00:00"
+      }
+    },
+    {
+      "name": "Clear",
+      "company_url": "https://clear.in",
+      "domain": "clear.in",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:00:57.075872+00:00",
+      "last_discovered_at": "2026-08-28T20:00:57.075890+00:00",
+      "metadata": {
+        "last_job_count": 33,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "clear",
+        "career_page": "https://job-boards.greenhouse.io/clear",
+        "verified_at": "2026-08-28T20:00:57.075895+00:00"
+      }
+    },
+    {
+      "name": "Clever",
+      "company_url": "https://clever.com",
+      "domain": "clever.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:00:57.164448+00:00",
+      "last_discovered_at": "2026-08-28T20:00:57.164463+00:00",
+      "metadata": {
+        "last_job_count": 7,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "clever",
+        "career_page": "https://job-boards.greenhouse.io/clever",
+        "verified_at": "2026-08-28T20:00:57.164467+00:00"
+      }
+    },
+    {
+      "name": "Clerky",
+      "company_url": "https://clerky.com",
+      "domain": "clerky.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:00:57.623184+00:00",
+      "last_discovered_at": "2026-08-28T20:00:57.623199+00:00",
+      "metadata": {
+        "last_job_count": 0,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "lever",
+        "identifier": "clerky",
+        "career_page": "https://jobs.lever.co/clerky",
+        "verified_at": "2026-08-28T20:00:57.623203+00:00"
+      }
+    },
+    {
+      "name": "Complir",
+      "company_url": "https://complir.io",
+      "domain": "complir.io",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:00:57.908730+00:00",
+      "last_discovered_at": "2026-08-28T20:00:57.908746+00:00",
+      "metadata": {
+        "last_job_count": 6,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "complir",
+        "career_page": "https://jobs.ashbyhq.com/complir",
+        "verified_at": "2026-08-28T20:00:57.908750+00:00"
+      }
+    },
+    {
+      "name": "Compresr",
+      "company_url": "https://compresr.ai",
+      "domain": "compresr.ai",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:00:58.012914+00:00",
+      "last_discovered_at": "2026-08-28T20:00:58.012929+00:00",
+      "metadata": {
+        "last_job_count": 2,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "compresr",
+        "career_page": "https://jobs.ashbyhq.com/compresr",
+        "verified_at": "2026-08-28T20:00:58.012933+00:00"
+      }
+    },
+    {
+      "name": "Constellation Space",
+      "company_url": "https://constellation.space",
+      "domain": "constellation.space",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:00:58.310008+00:00",
+      "last_discovered_at": "2026-08-28T20:00:58.310023+00:00",
+      "metadata": {
+        "last_job_count": 4,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "constellationspace",
+        "career_page": "https://jobs.ashbyhq.com/constellationspace",
+        "verified_at": "2026-08-28T20:00:58.310027+00:00"
+      }
+    },
+    {
+      "name": "Asendia AI",
+      "company_url": "https://asendia.ai",
+      "domain": "asendia.ai",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:00:58.496840+00:00",
+      "last_discovered_at": "2026-08-28T20:00:58.496854+00:00",
+      "metadata": {
+        "last_job_count": 0,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "lever",
+        "identifier": "asendia",
+        "career_page": "https://jobs.lever.co/asendia",
+        "verified_at": "2026-08-28T20:00:58.496858+00:00"
+      }
+    },
+    {
+      "name": "Context.dev",
+      "company_url": "https://context.dev",
+      "domain": "context.dev",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:00:59.050466+00:00",
+      "last_discovered_at": "2026-08-28T20:00:59.050480+00:00",
+      "metadata": {
+        "last_job_count": 4,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "context",
+        "career_page": "https://jobs.ashbyhq.com/context",
+        "verified_at": "2026-08-28T20:00:59.050484+00:00"
+      }
+    },
+    {
+      "name": "Deepgram",
+      "company_url": "https://deepgram.com",
+      "domain": "deepgram.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:00:59.366458+00:00",
+      "last_discovered_at": "2026-08-28T20:00:59.366474+00:00",
+      "metadata": {
+        "last_job_count": 93,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "deepgram",
+        "career_page": "https://jobs.ashbyhq.com/deepgram",
+        "verified_at": "2026-08-28T20:00:59.366478+00:00"
+      }
+    },
+    {
+      "name": "Bloom",
+      "company_url": "https://trybloom.ai",
+      "domain": "trybloom.ai",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:00:59.658568+00:00",
+      "last_discovered_at": "2026-08-28T20:00:59.658582+00:00",
+      "metadata": {
+        "last_job_count": 10,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "lever",
+        "identifier": "bloom",
+        "career_page": "https://jobs.lever.co/bloom",
+        "verified_at": "2026-08-28T20:00:59.658586+00:00"
+      }
+    },
+    {
+      "name": "Dispatch",
+      "company_url": "https://dispatch.space",
+      "domain": "dispatch.space",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:00:59.687447+00:00",
+      "last_discovered_at": "2026-08-28T20:00:59.687467+00:00",
+      "metadata": {
+        "last_job_count": 4,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "dispatch",
+        "career_page": "https://job-boards.greenhouse.io/dispatch",
+        "verified_at": "2026-08-28T20:00:59.687470+00:00"
+      }
+    },
+    {
+      "name": "DiligenceSquared",
+      "company_url": "https://diligencesquared.com",
+      "domain": "diligencesquared.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:00:59.701300+00:00",
+      "last_discovered_at": "2026-08-28T20:00:59.701314+00:00",
+      "metadata": {
+        "last_job_count": 4,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "diligencesquared",
+        "career_page": "https://jobs.ashbyhq.com/diligencesquared",
+        "verified_at": "2026-08-28T20:00:59.701318+00:00"
+      }
+    },
+    {
+      "name": "Eight Sleep",
+      "company_url": "https://eightsleep.com",
+      "domain": "eightsleep.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:00.584486+00:00",
+      "last_discovered_at": "2026-08-28T20:01:00.584509+00:00",
+      "metadata": {
+        "last_job_count": 55,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "eightsleep",
+        "career_page": "https://jobs.ashbyhq.com/eightsleep",
+        "verified_at": "2026-08-28T20:01:00.584513+00:00"
+      }
+    },
+    {
+      "name": "Faire",
+      "company_url": "https://faire.com",
+      "domain": "faire.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:01.159534+00:00",
+      "last_discovered_at": "2026-08-28T20:01:01.159549+00:00",
+      "metadata": {
+        "last_job_count": 64,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "faire",
+        "career_page": "https://job-boards.greenhouse.io/faire",
+        "verified_at": "2026-08-28T20:01:01.159553+00:00"
+      }
+    },
+    {
+      "name": "Fivetran",
+      "company_url": "https://fivetran.com",
+      "domain": "fivetran.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:01.674522+00:00",
+      "last_discovered_at": "2026-08-28T20:01:01.674543+00:00",
+      "metadata": {
+        "last_job_count": 238,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "fivetran",
+        "career_page": "https://job-boards.greenhouse.io/fivetran",
+        "verified_at": "2026-08-28T20:01:01.674579+00:00"
+      }
+    },
+    {
+      "name": "Ekho Labs",
+      "company_url": "https://ekholabs.com",
+      "domain": "ekholabs.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:01.697453+00:00",
+      "last_discovered_at": "2026-08-28T20:01:01.697498+00:00",
+      "metadata": {
+        "last_job_count": 4,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "ekho",
+        "career_page": "https://jobs.ashbyhq.com/ekho",
+        "verified_at": "2026-08-28T20:01:01.697503+00:00"
+      }
+    },
+    {
+      "name": "Flexport",
+      "company_url": "https://flexport.com",
+      "domain": "flexport.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:01.718354+00:00",
+      "last_discovered_at": "2026-08-28T20:01:01.718374+00:00",
+      "metadata": {
+        "last_job_count": 165,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "flexport",
+        "career_page": "https://job-boards.greenhouse.io/flexport",
+        "verified_at": "2026-08-28T20:01:01.718383+00:00"
+      }
+    },
+    {
+      "name": "Flip",
+      "company_url": "https://justflip.com",
+      "domain": "justflip.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:01.787783+00:00",
+      "last_discovered_at": "2026-08-28T20:01:01.787799+00:00",
+      "metadata": {
+        "last_job_count": 14,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "flip",
+        "career_page": "https://job-boards.greenhouse.io/flip",
+        "verified_at": "2026-08-28T20:01:01.787804+00:00"
+      }
+    },
+    {
+      "name": "Focal Systems",
+      "company_url": "https://focal.systems",
+      "domain": "focal.systems",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:01.916932+00:00",
+      "last_discovered_at": "2026-08-28T20:01:01.916950+00:00",
+      "metadata": {
+        "last_job_count": 18,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "focalsystems",
+        "career_page": "https://job-boards.greenhouse.io/focalsystems",
+        "verified_at": "2026-08-28T20:01:01.916955+00:00"
+      }
+    },
+    {
+      "name": "Forward",
+      "company_url": "https://useforward.co",
+      "domain": "useforward.co",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:02.101169+00:00",
+      "last_discovered_at": "2026-08-28T20:01:02.101186+00:00",
+      "metadata": {
+        "last_job_count": 5,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "forward",
+        "career_page": "https://job-boards.greenhouse.io/forward",
+        "verified_at": "2026-08-28T20:01:02.101190+00:00"
+      }
+    },
+    {
+      "name": "GiveCampus",
+      "company_url": "https://go.givecampus.com",
+      "domain": "go.givecampus.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:02.497573+00:00",
+      "last_discovered_at": "2026-08-28T20:01:02.497615+00:00",
+      "metadata": {
+        "last_job_count": 16,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "givecampus",
+        "career_page": "https://job-boards.greenhouse.io/givecampus",
+        "verified_at": "2026-08-28T20:01:02.497629+00:00"
+      }
+    },
+    {
+      "name": "GOAT Group",
+      "company_url": "https://goatgroup.com",
+      "domain": "goatgroup.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:02.672783+00:00",
+      "last_discovered_at": "2026-08-28T20:01:02.672802+00:00",
+      "metadata": {
+        "last_job_count": 11,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "goatgroup",
+        "career_page": "https://job-boards.greenhouse.io/goatgroup",
+        "verified_at": "2026-08-28T20:01:02.672809+00:00"
+      }
+    },
+    {
+      "name": "GoCardless",
+      "company_url": "https://gocardless.com",
+      "domain": "gocardless.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:02.694303+00:00",
+      "last_discovered_at": "2026-08-28T20:01:02.694327+00:00",
+      "metadata": {
+        "last_job_count": 25,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "gocardless",
+        "career_page": "https://job-boards.greenhouse.io/gocardless",
+        "verified_at": "2026-08-28T20:01:02.694334+00:00"
+      }
+    },
+    {
+      "name": "GUILD",
+      "company_url": "https://guildai.co",
+      "domain": "guildai.co",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:03.269500+00:00",
+      "last_discovered_at": "2026-08-28T20:01:03.269519+00:00",
+      "metadata": {
+        "last_job_count": 4,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "guild",
+        "career_page": "https://job-boards.greenhouse.io/guild",
+        "verified_at": "2026-08-28T20:01:03.269560+00:00"
+      }
+    },
+    {
+      "name": "HackerRank",
+      "company_url": "https://hackerrank.com",
+      "domain": "hackerrank.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:03.359537+00:00",
+      "last_discovered_at": "2026-08-28T20:01:03.359558+00:00",
+      "metadata": {
+        "last_job_count": 31,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "hackerrank",
+        "career_page": "https://job-boards.greenhouse.io/hackerrank",
+        "verified_at": "2026-08-28T20:01:03.359565+00:00"
+      }
+    },
+    {
+      "name": "HealthSherpa",
+      "company_url": "https://healthsherpa.com",
+      "domain": "healthsherpa.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:03.527885+00:00",
+      "last_discovered_at": "2026-08-28T20:01:03.527909+00:00",
+      "metadata": {
+        "last_job_count": 10,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "healthsherpa",
+        "career_page": "https://jobs.ashbyhq.com/healthsherpa",
+        "verified_at": "2026-08-28T20:01:03.527916+00:00"
+      }
+    },
+    {
+      "name": "Haladir",
+      "company_url": "https://haladir.com",
+      "domain": "haladir.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:03.548562+00:00",
+      "last_discovered_at": "2026-08-28T20:01:03.548585+00:00",
+      "metadata": {
+        "last_job_count": 5,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "haladir",
+        "career_page": "https://jobs.ashbyhq.com/haladir",
+        "verified_at": "2026-08-28T20:01:03.548592+00:00"
+      }
+    },
+    {
+      "name": "Hedge",
+      "company_url": "https://hedgespecialty.com",
+      "domain": "hedgespecialty.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:03.620554+00:00",
+      "last_discovered_at": "2026-08-28T20:01:03.620569+00:00",
+      "metadata": {
+        "last_job_count": 16,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "hedge",
+        "career_page": "https://jobs.ashbyhq.com/hedge",
+        "verified_at": "2026-08-28T20:01:03.620573+00:00"
+      }
+    },
+    {
+      "name": "General Legal",
+      "company_url": "https://general.legal",
+      "domain": "general.legal",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:03.764974+00:00",
+      "last_discovered_at": "2026-08-28T20:01:03.764990+00:00",
+      "metadata": {
+        "last_job_count": 1,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "general",
+        "career_page": "https://job-boards.greenhouse.io/general",
+        "verified_at": "2026-08-28T20:01:03.764994+00:00"
+      }
+    },
+    {
+      "name": "Hive",
+      "company_url": "https://hive.co",
+      "domain": "hive.co",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:03.835012+00:00",
+      "last_discovered_at": "2026-08-28T20:01:03.835033+00:00",
+      "metadata": {
+        "last_job_count": 10,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "hive",
+        "career_page": "https://job-boards.greenhouse.io/hive",
+        "verified_at": "2026-08-28T20:01:03.835039+00:00"
+      }
+    },
+    {
+      "name": "Hexa",
+      "company_url": "https://hexaagents.com",
+      "domain": "hexaagents.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:03.916704+00:00",
+      "last_discovered_at": "2026-08-28T20:01:03.916718+00:00",
+      "metadata": {
+        "last_job_count": 23,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "hexa",
+        "career_page": "https://jobs.ashbyhq.com/hexa",
+        "verified_at": "2026-08-28T20:01:03.916755+00:00"
+      }
+    },
+    {
+      "name": "Human Interest",
+      "company_url": "https://humaninterest.com",
+      "domain": "humaninterest.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:04.019244+00:00",
+      "last_discovered_at": "2026-08-28T20:01:04.019260+00:00",
+      "metadata": {
+        "last_job_count": 45,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "humaninterest",
+        "career_page": "https://job-boards.greenhouse.io/humaninterest",
+        "verified_at": "2026-08-28T20:01:04.019264+00:00"
+      }
+    },
+    {
+      "name": "Human Archive",
+      "company_url": "https://humanarchive.ai",
+      "domain": "humanarchive.ai",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:04.120234+00:00",
+      "last_discovered_at": "2026-08-28T20:01:04.120251+00:00",
+      "metadata": {
+        "last_job_count": 19,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "humanarchive",
+        "career_page": "https://jobs.ashbyhq.com/humanarchive",
+        "verified_at": "2026-08-28T20:01:04.120255+00:00"
+      }
+    },
+    {
+      "name": "Icarus",
+      "company_url": "https://icarus.one",
+      "domain": "icarus.one",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:04.247253+00:00",
+      "last_discovered_at": "2026-08-28T20:01:04.247269+00:00",
+      "metadata": {
+        "last_job_count": 22,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "icarus",
+        "career_page": "https://job-boards.greenhouse.io/icarus",
+        "verified_at": "2026-08-28T20:01:04.247274+00:00"
+      }
+    },
+    {
+      "name": "Harbor",
+      "company_url": "https://runharbor.com",
+      "domain": "runharbor.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:04.285475+00:00",
+      "last_discovered_at": "2026-08-28T20:01:04.285488+00:00",
+      "metadata": {
+        "last_job_count": 0,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "harbor",
+        "career_page": "https://job-boards.greenhouse.io/harbor",
+        "verified_at": "2026-08-28T20:01:04.285492+00:00"
+      }
+    },
+    {
+      "name": "InfluxData",
+      "company_url": "https://influxdata.com",
+      "domain": "influxdata.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:04.573826+00:00",
+      "last_discovered_at": "2026-08-28T20:01:04.573843+00:00",
+      "metadata": {
+        "last_job_count": 4,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "influxdata",
+        "career_page": "https://jobs.ashbyhq.com/influxdata",
+        "verified_at": "2026-08-28T20:01:04.573847+00:00"
+      }
+    },
+    {
+      "name": "Infera",
+      "company_url": "https://infera.bio",
+      "domain": "infera.bio",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:04.588824+00:00",
+      "last_discovered_at": "2026-08-28T20:01:04.588844+00:00",
+      "metadata": {
+        "last_job_count": 3,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "infera",
+        "career_page": "https://jobs.ashbyhq.com/infera",
+        "verified_at": "2026-08-28T20:01:04.588850+00:00"
+      }
+    },
+    {
+      "name": "Instawork",
+      "company_url": "https://instawork.com",
+      "domain": "instawork.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:04.733355+00:00",
+      "last_discovered_at": "2026-08-28T20:01:04.733371+00:00",
+      "metadata": {
+        "last_job_count": 56,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "instawork",
+        "career_page": "https://job-boards.greenhouse.io/instawork",
+        "verified_at": "2026-08-28T20:01:04.733375+00:00"
+      }
+    },
+    {
+      "name": "Juno",
+      "company_url": "https://junocompanion.com",
+      "domain": "junocompanion.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:05.103139+00:00",
+      "last_discovered_at": "2026-08-28T20:01:05.103154+00:00",
+      "metadata": {
+        "last_job_count": 3,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "juno",
+        "career_page": "https://job-boards.greenhouse.io/juno",
+        "verified_at": "2026-08-28T20:01:05.103158+00:00"
+      }
+    },
+    {
+      "name": "Lattice",
+      "company_url": "https://lattice.com",
+      "domain": "lattice.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:05.895012+00:00",
+      "last_discovered_at": "2026-08-28T20:01:05.895029+00:00",
+      "metadata": {
+        "last_job_count": 12,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "lattice",
+        "career_page": "https://job-boards.greenhouse.io/lattice",
+        "verified_at": "2026-08-28T20:01:05.895033+00:00"
+      }
+    },
+    {
+      "name": "Lance",
+      "company_url": "https://lance.live",
+      "domain": "lance.live",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:05.944212+00:00",
+      "last_discovered_at": "2026-08-28T20:01:05.944229+00:00",
+      "metadata": {
+        "last_job_count": 5,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "lance",
+        "career_page": "https://jobs.ashbyhq.com/lance",
+        "verified_at": "2026-08-28T20:01:05.944234+00:00"
+      }
+    },
+    {
+      "name": "Lightfield",
+      "company_url": "https://trylightfield.ai",
+      "domain": "trylightfield.ai",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:06.643691+00:00",
+      "last_discovered_at": "2026-08-28T20:01:06.643707+00:00",
+      "metadata": {
+        "last_job_count": 18,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "lightfield",
+        "career_page": "https://jobs.ashbyhq.com/lightfield",
+        "verified_at": "2026-08-28T20:01:06.643711+00:00"
+      }
+    },
+    {
+      "name": "Lob",
+      "company_url": "https://lob.com",
+      "domain": "lob.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:06.744256+00:00",
+      "last_discovered_at": "2026-08-28T20:01:06.744274+00:00",
+      "metadata": {
+        "last_job_count": 8,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "lob",
+        "career_page": "https://job-boards.greenhouse.io/lob",
+        "verified_at": "2026-08-28T20:01:06.744278+00:00"
+      }
+    },
+    {
+      "name": "Litmus",
+      "company_url": "https://litmushiring.com",
+      "domain": "litmushiring.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:07.128779+00:00",
+      "last_discovered_at": "2026-08-28T20:01:07.128794+00:00",
+      "metadata": {
+        "last_job_count": 28,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "litmus",
+        "career_page": "https://jobs.ashbyhq.com/litmus",
+        "verified_at": "2026-08-28T20:01:07.128799+00:00"
+      }
+    },
+    {
+      "name": "Magic",
+      "company_url": "https://getmagic.com",
+      "domain": "getmagic.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:07.214123+00:00",
+      "last_discovered_at": "2026-08-28T20:01:07.214136+00:00",
+      "metadata": {
+        "last_job_count": 0,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "magic",
+        "career_page": "https://job-boards.greenhouse.io/magic",
+        "verified_at": "2026-08-28T20:01:07.214140+00:00"
+      }
+    },
+    {
+      "name": "Marble",
+      "company_url": "https://joinmarble.ai",
+      "domain": "joinmarble.ai",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:07.748373+00:00",
+      "last_discovered_at": "2026-08-28T20:01:07.748388+00:00",
+      "metadata": {
+        "last_job_count": 4,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "marble",
+        "career_page": "https://jobs.ashbyhq.com/marble",
+        "verified_at": "2026-08-28T20:01:07.748392+00:00"
+      }
+    },
+    {
+      "name": "Mattermost",
+      "company_url": "https://mattermost.com",
+      "domain": "mattermost.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:07.936553+00:00",
+      "last_discovered_at": "2026-08-28T20:01:07.936571+00:00",
+      "metadata": {
+        "last_job_count": 15,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "mattermost",
+        "career_page": "https://job-boards.greenhouse.io/mattermost",
+        "verified_at": "2026-08-28T20:01:07.936575+00:00"
+      }
+    },
+    {
+      "name": "Meadow",
+      "company_url": "https://getmeadow.com",
+      "domain": "getmeadow.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:08.051658+00:00",
+      "last_discovered_at": "2026-08-28T20:01:08.051687+00:00",
+      "metadata": {
+        "last_job_count": 5,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "meadow",
+        "career_page": "https://jobs.ashbyhq.com/meadow",
+        "verified_at": "2026-08-28T20:01:08.051691+00:00"
+      }
+    },
+    {
+      "name": "Maven",
+      "company_url": "https://trymaven.com",
+      "domain": "trymaven.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:08.068046+00:00",
+      "last_discovered_at": "2026-08-28T20:01:08.068059+00:00",
+      "metadata": {
+        "last_job_count": 0,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "maven",
+        "career_page": "https://jobs.ashbyhq.com/maven",
+        "verified_at": "2026-08-28T20:01:08.068063+00:00"
+      }
+    },
+    {
+      "name": "Mixpanel",
+      "company_url": "https://mixpanel.com",
+      "domain": "mixpanel.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:08.636398+00:00",
+      "last_discovered_at": "2026-08-28T20:01:08.636425+00:00",
+      "metadata": {
+        "last_job_count": 90,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "mixpanel",
+        "career_page": "https://job-boards.greenhouse.io/mixpanel",
+        "verified_at": "2026-08-28T20:01:08.636430+00:00"
+      }
+    },
+    {
+      "name": "Mashgin",
+      "company_url": "https://mashgin.com",
+      "domain": "mashgin.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:08.679027+00:00",
+      "last_discovered_at": "2026-08-28T20:01:08.679054+00:00",
+      "metadata": {
+        "last_job_count": 16,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "lever",
+        "identifier": "mashgin",
+        "career_page": "https://jobs.lever.co/mashgin",
+        "verified_at": "2026-08-28T20:01:08.679060+00:00"
+      }
+    },
+    {
+      "name": "Momentus",
+      "company_url": "https://momentus.space",
+      "domain": "momentus.space",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:08.757005+00:00",
+      "last_discovered_at": "2026-08-28T20:01:08.757020+00:00",
+      "metadata": {
+        "last_job_count": 7,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "momentus",
+        "career_page": "https://job-boards.greenhouse.io/momentus",
+        "verified_at": "2026-08-28T20:01:08.757024+00:00"
+      }
+    },
+    {
+      "name": "MBX",
+      "company_url": "https://us.memebox.com",
+      "domain": "us.memebox.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:08.780372+00:00",
+      "last_discovered_at": "2026-08-28T20:01:08.780388+00:00",
+      "metadata": {
+        "last_job_count": 1,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "us",
+        "career_page": "https://job-boards.greenhouse.io/us",
+        "verified_at": "2026-08-28T20:01:08.780392+00:00"
+      }
+    },
+    {
+      "name": "Mosaic",
+      "company_url": "https://mosaic.inc",
+      "domain": "mosaic.inc",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:08.901115+00:00",
+      "last_discovered_at": "2026-08-28T20:01:08.901129+00:00",
+      "metadata": {
+        "last_job_count": 7,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "mosaic",
+        "career_page": "https://jobs.ashbyhq.com/mosaic",
+        "verified_at": "2026-08-28T20:01:08.901133+00:00"
+      }
+    },
+    {
+      "name": "Moss",
+      "company_url": "https://moss.dev",
+      "domain": "moss.dev",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:08.958296+00:00",
+      "last_discovered_at": "2026-08-28T20:01:08.958322+00:00",
+      "metadata": {
+        "last_job_count": 31,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "moss",
+        "career_page": "https://jobs.ashbyhq.com/moss",
+        "verified_at": "2026-08-28T20:01:08.958329+00:00"
+      }
+    },
+    {
+      "name": "Meesho",
+      "company_url": "https://meesho.com",
+      "domain": "meesho.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:09.082916+00:00",
+      "last_discovered_at": "2026-08-28T20:01:09.082931+00:00",
+      "metadata": {
+        "last_job_count": 48,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "lever",
+        "identifier": "meesho",
+        "career_page": "https://jobs.lever.co/meesho",
+        "verified_at": "2026-08-28T20:01:09.082936+00:00"
+      }
+    },
+    {
+      "name": "Mux",
+      "company_url": "https://mux.com",
+      "domain": "mux.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:09.163421+00:00",
+      "last_discovered_at": "2026-08-28T20:01:09.163439+00:00",
+      "metadata": {
+        "last_job_count": 2,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "mux",
+        "career_page": "https://jobs.ashbyhq.com/mux",
+        "verified_at": "2026-08-28T20:01:09.163443+00:00"
+      }
+    },
+    {
+      "name": "Nex",
+      "company_url": "https://nex.ai",
+      "domain": "nex.ai",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:09.377676+00:00",
+      "last_discovered_at": "2026-08-28T20:01:09.377691+00:00",
+      "metadata": {
+        "last_job_count": 47,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "nex",
+        "career_page": "https://job-boards.greenhouse.io/nex",
+        "verified_at": "2026-08-28T20:01:09.377695+00:00"
+      }
+    },
+    {
+      "name": "Odeko",
+      "company_url": "https://odeko.com",
+      "domain": "odeko.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:09.830495+00:00",
+      "last_discovered_at": "2026-08-28T20:01:09.830510+00:00",
+      "metadata": {
+        "last_job_count": 16,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "odeko",
+        "career_page": "https://job-boards.greenhouse.io/odeko",
+        "verified_at": "2026-08-28T20:01:09.830514+00:00"
+      }
+    },
+    {
+      "name": "Oklo",
+      "company_url": "https://oklo.com",
+      "domain": "oklo.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:09.887049+00:00",
+      "last_discovered_at": "2026-08-28T20:01:09.887066+00:00",
+      "metadata": {
+        "last_job_count": 64,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "oklo",
+        "career_page": "https://job-boards.greenhouse.io/oklo",
+        "verified_at": "2026-08-28T20:01:09.887070+00:00"
+      }
+    },
+    {
+      "name": "One Robot",
+      "company_url": "https://onerobot.io",
+      "domain": "onerobot.io",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:10.154592+00:00",
+      "last_discovered_at": "2026-08-28T20:01:10.154607+00:00",
+      "metadata": {
+        "last_job_count": 4,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "onerobot",
+        "career_page": "https://jobs.ashbyhq.com/onerobot",
+        "verified_at": "2026-08-28T20:01:10.154611+00:00"
+      }
+    },
+    {
+      "name": "NimbleRx",
+      "company_url": "https://nimblerx.com",
+      "domain": "nimblerx.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:10.343640+00:00",
+      "last_discovered_at": "2026-08-28T20:01:10.343656+00:00",
+      "metadata": {
+        "last_job_count": 9,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "lever",
+        "identifier": "nimblerx",
+        "career_page": "https://jobs.lever.co/nimblerx",
+        "verified_at": "2026-08-28T20:01:10.343660+00:00"
+      }
+    },
+    {
+      "name": "OpenWork",
+      "company_url": "https://openworklabs.com",
+      "domain": "openworklabs.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:10.494972+00:00",
+      "last_discovered_at": "2026-08-28T20:01:10.494988+00:00",
+      "metadata": {
+        "last_job_count": 14,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "openwork",
+        "career_page": "https://job-boards.greenhouse.io/openwork",
+        "verified_at": "2026-08-28T20:01:10.494992+00:00"
+      }
+    },
+    {
+      "name": "Mantis",
+      "company_url": "https://mantisbiotech.com",
+      "domain": "mantisbiotech.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:10.677846+00:00",
+      "last_discovered_at": "2026-08-28T20:01:10.677864+00:00",
+      "metadata": {
+        "last_job_count": 6,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "mantis",
+        "career_page": "https://job-boards.greenhouse.io/mantis",
+        "verified_at": "2026-08-28T20:01:10.677869+00:00"
+      }
+    },
+    {
+      "name": "Outschool",
+      "company_url": "https://outschool.com",
+      "domain": "outschool.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:10.761559+00:00",
+      "last_discovered_at": "2026-08-28T20:01:10.761576+00:00",
+      "metadata": {
+        "last_job_count": 5,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "outschool",
+        "career_page": "https://job-boards.greenhouse.io/outschool",
+        "verified_at": "2026-08-28T20:01:10.761580+00:00"
+      }
+    },
+    {
+      "name": "PagerDuty",
+      "company_url": "https://pagerduty.com",
+      "domain": "pagerduty.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:10.931543+00:00",
+      "last_discovered_at": "2026-08-28T20:01:10.931563+00:00",
+      "metadata": {
+        "last_job_count": 42,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "pagerduty",
+        "career_page": "https://job-boards.greenhouse.io/pagerduty",
+        "verified_at": "2026-08-28T20:01:10.931569+00:00"
+      }
+    },
+    {
+      "name": "Padlet",
+      "company_url": "https://padlet.com",
+      "domain": "padlet.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:10.986848+00:00",
+      "last_discovered_at": "2026-08-28T20:01:10.986865+00:00",
+      "metadata": {
+        "last_job_count": 18,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "padlet",
+        "career_page": "https://jobs.ashbyhq.com/padlet",
+        "verified_at": "2026-08-28T20:01:10.986869+00:00"
+      }
+    },
+    {
+      "name": "OpenProse",
+      "company_url": "https://prose.md",
+      "domain": "prose.md",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:11.038892+00:00",
+      "last_discovered_at": "2026-08-28T20:01:11.038912+00:00",
+      "metadata": {
+        "last_job_count": 2,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "prose",
+        "career_page": "https://jobs.ashbyhq.com/prose",
+        "verified_at": "2026-08-28T20:01:11.038917+00:00"
+      }
+    },
+    {
+      "name": "Panacea",
+      "company_url": "https://withpanacea.com",
+      "domain": "withpanacea.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:11.222925+00:00",
+      "last_discovered_at": "2026-08-28T20:01:11.222947+00:00",
+      "metadata": {
+        "last_job_count": 0,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "panacea",
+        "career_page": "https://jobs.ashbyhq.com/panacea",
+        "verified_at": "2026-08-28T20:01:11.222954+00:00"
+      }
+    },
+    {
+      "name": "Palette",
+      "company_url": "https://palettelabs.com",
+      "domain": "palettelabs.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:11.704060+00:00",
+      "last_discovered_at": "2026-08-28T20:01:11.704078+00:00",
+      "metadata": {
+        "last_job_count": 0,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "palettelabs",
+        "career_page": "https://jobs.ashbyhq.com/palettelabs",
+        "verified_at": "2026-08-28T20:01:11.704082+00:00"
+      }
+    },
+    {
+      "name": "Permutive",
+      "company_url": "https://permutive.com",
+      "domain": "permutive.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:11.916126+00:00",
+      "last_discovered_at": "2026-08-28T20:01:11.916145+00:00",
+      "metadata": {
+        "last_job_count": 5,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "permutive",
+        "career_page": "https://jobs.ashbyhq.com/permutive",
+        "verified_at": "2026-08-28T20:01:11.916150+00:00"
+      }
+    },
+    {
+      "name": "Perfectly",
+      "company_url": "https://perfectly.so",
+      "domain": "perfectly.so",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:12.611650+00:00",
+      "last_discovered_at": "2026-08-28T20:01:12.611671+00:00",
+      "metadata": {
+        "last_job_count": 0,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "perfectly",
+        "career_page": "https://jobs.ashbyhq.com/perfectly",
+        "verified_at": "2026-08-28T20:01:12.611676+00:00"
+      }
+    },
+    {
+      "name": "Podium",
+      "company_url": "https://podium.com",
+      "domain": "podium.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:12.882890+00:00",
+      "last_discovered_at": "2026-08-28T20:01:12.882907+00:00",
+      "metadata": {
+        "last_job_count": 0,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "podium",
+        "career_page": "https://jobs.ashbyhq.com/podium",
+        "verified_at": "2026-08-28T20:01:12.882912+00:00"
+      }
+    },
+    {
+      "name": "PickTrace",
+      "company_url": "https://picktrace.com",
+      "domain": "picktrace.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:12.991944+00:00",
+      "last_discovered_at": "2026-08-28T20:01:12.991960+00:00",
+      "metadata": {
+        "last_job_count": 2,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "lever",
+        "identifier": "picktrace",
+        "career_page": "https://jobs.lever.co/picktrace",
+        "verified_at": "2026-08-28T20:01:12.991964+00:00"
+      }
+    },
+    {
+      "name": "Plivo",
+      "company_url": "https://plivo.com",
+      "domain": "plivo.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:13.287184+00:00",
+      "last_discovered_at": "2026-08-28T20:01:13.287199+00:00",
+      "metadata": {
+        "last_job_count": 0,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "lever",
+        "identifier": "plivo",
+        "career_page": "https://jobs.lever.co/plivo",
+        "verified_at": "2026-08-28T20:01:13.287203+00:00"
+      }
+    },
+    {
+      "name": "Polymath",
+      "company_url": "https://polymathlabs.ai",
+      "domain": "polymathlabs.ai",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:13.650375+00:00",
+      "last_discovered_at": "2026-08-28T20:01:13.650390+00:00",
+      "metadata": {
+        "last_job_count": 5,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "polymath",
+        "career_page": "https://jobs.ashbyhq.com/polymath",
+        "verified_at": "2026-08-28T20:01:13.650394+00:00"
+      }
+    },
+    {
+      "name": "PicnicAI",
+      "company_url": "https://picnic.ai",
+      "domain": "picnic.ai",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:13.669944+00:00",
+      "last_discovered_at": "2026-08-28T20:01:13.669959+00:00",
+      "metadata": {
+        "last_job_count": 0,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "picnicai",
+        "career_page": "https://job-boards.greenhouse.io/picnicai",
+        "verified_at": "2026-08-28T20:01:13.669963+00:00"
+      }
+    },
+    {
+      "name": "Qventus",
+      "company_url": "https://qventus.com",
+      "domain": "qventus.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:13.708652+00:00",
+      "last_discovered_at": "2026-08-28T20:01:13.708669+00:00",
+      "metadata": {
+        "last_job_count": 18,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "qventus",
+        "career_page": "https://job-boards.greenhouse.io/qventus",
+        "verified_at": "2026-08-28T20:01:13.708673+00:00"
+      }
+    },
+    {
+      "name": "RADAR",
+      "company_url": "https://goradar.com",
+      "domain": "goradar.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:13.724247+00:00",
+      "last_discovered_at": "2026-08-28T20:01:13.724263+00:00",
+      "metadata": {
+        "last_job_count": 15,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "radar",
+        "career_page": "https://job-boards.greenhouse.io/radar",
+        "verified_at": "2026-08-28T20:01:13.724267+00:00"
+      }
+    },
+    {
+      "name": "Protocol Labs",
+      "company_url": "https://protocol.ai",
+      "domain": "protocol.ai",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:13.812566+00:00",
+      "last_discovered_at": "2026-08-28T20:01:13.812581+00:00",
+      "metadata": {
+        "last_job_count": 0,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "protocol",
+        "career_page": "https://jobs.ashbyhq.com/protocol",
+        "verified_at": "2026-08-28T20:01:13.812585+00:00"
+      }
+    },
+    {
+      "name": "Reddit",
+      "company_url": "https://reddit.com",
+      "domain": "reddit.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:14.226201+00:00",
+      "last_discovered_at": "2026-08-28T20:01:14.226216+00:00",
+      "metadata": {
+        "last_job_count": 153,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "reddit",
+        "career_page": "https://job-boards.greenhouse.io/reddit",
+        "verified_at": "2026-08-28T20:01:14.226220+00:00"
+      }
+    },
+    {
+      "name": "Reach",
+      "company_url": "https://reachpower.com",
+      "domain": "reachpower.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:14.745731+00:00",
+      "last_discovered_at": "2026-08-28T20:01:14.745750+00:00",
+      "metadata": {
+        "last_job_count": 7,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "reach",
+        "career_page": "https://jobs.ashbyhq.com/reach",
+        "verified_at": "2026-08-28T20:01:14.745754+00:00"
+      }
+    },
+    {
+      "name": "Quartzy",
+      "company_url": "https://quartzy.com",
+      "domain": "quartzy.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:15.150446+00:00",
+      "last_discovered_at": "2026-08-28T20:01:15.150491+00:00",
+      "metadata": {
+        "last_job_count": 1,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "lever",
+        "identifier": "quartzy",
+        "career_page": "https://jobs.lever.co/quartzy",
+        "verified_at": "2026-08-28T20:01:15.150495+00:00"
+      }
+    },
+    {
+      "name": "Rivet",
+      "company_url": "https://rivet.design",
+      "domain": "rivet.design",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:15.519384+00:00",
+      "last_discovered_at": "2026-08-28T20:01:15.519399+00:00",
+      "metadata": {
+        "last_job_count": 24,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "rivet",
+        "career_page": "https://jobs.ashbyhq.com/rivet",
+        "verified_at": "2026-08-28T20:01:15.519402+00:00"
+      }
+    },
+    {
+      "name": "Rigetti Computing",
+      "company_url": "https://rigetti.com",
+      "domain": "rigetti.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:16.129283+00:00",
+      "last_discovered_at": "2026-08-28T20:01:16.129305+00:00",
+      "metadata": {
+        "last_job_count": 9,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "lever",
+        "identifier": "rigetti",
+        "career_page": "https://jobs.lever.co/rigetti",
+        "verified_at": "2026-08-28T20:01:16.129312+00:00"
+      }
+    },
+    {
+      "name": "Sazabi",
+      "company_url": "https://sazabi.com",
+      "domain": "sazabi.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:16.179298+00:00",
+      "last_discovered_at": "2026-08-28T20:01:16.179316+00:00",
+      "metadata": {
+        "last_job_count": 8,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "sazabi",
+        "career_page": "https://jobs.ashbyhq.com/sazabi",
+        "verified_at": "2026-08-28T20:01:16.179322+00:00"
+      }
+    },
+    {
+      "name": "Scale AI",
+      "company_url": "https://scale.com",
+      "domain": "scale.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:16.200071+00:00",
+      "last_discovered_at": "2026-08-28T20:01:16.200088+00:00",
+      "metadata": {
+        "last_job_count": 218,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "scaleai",
+        "career_page": "https://job-boards.greenhouse.io/scaleai",
+        "verified_at": "2026-08-28T20:01:16.200092+00:00"
+      }
+    },
+    {
+      "name": "s2.dev",
+      "company_url": "https://s2.dev",
+      "domain": "s2.dev",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:16.447892+00:00",
+      "last_discovered_at": "2026-08-28T20:01:16.447908+00:00",
+      "metadata": {
+        "last_job_count": 0,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "s2",
+        "career_page": "https://jobs.ashbyhq.com/s2",
+        "verified_at": "2026-08-28T20:01:16.447911+00:00"
+      }
+    },
+    {
+      "name": "SFOX",
+      "company_url": "https://sfox.com",
+      "domain": "sfox.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:16.750747+00:00",
+      "last_discovered_at": "2026-08-28T20:01:16.750764+00:00",
+      "metadata": {
+        "last_job_count": 0,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "sfox",
+        "career_page": "https://job-boards.greenhouse.io/sfox",
+        "verified_at": "2026-08-28T20:01:16.750769+00:00"
+      }
+    },
+    {
+      "name": "Shasqi",
+      "company_url": "https://endpts.com",
+      "domain": "endpts.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:17.127901+00:00",
+      "last_discovered_at": "2026-08-28T20:01:17.127918+00:00",
+      "metadata": {
+        "last_job_count": 1,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "shasqi",
+        "career_page": "https://jobs.ashbyhq.com/shasqi",
+        "verified_at": "2026-08-28T20:01:17.127923+00:00"
+      }
+    },
+    {
+      "name": "Sidekick",
+      "company_url": "https://textsidekick.com",
+      "domain": "textsidekick.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:17.441084+00:00",
+      "last_discovered_at": "2026-08-28T20:01:17.441101+00:00",
+      "metadata": {
+        "last_job_count": 2,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "sidekick",
+        "career_page": "https://jobs.ashbyhq.com/sidekick",
+        "verified_at": "2026-08-28T20:01:17.441106+00:00"
+      }
+    },
+    {
+      "name": "SIRUM",
+      "company_url": "https://sirum.org",
+      "domain": "sirum.org",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:17.610786+00:00",
+      "last_discovered_at": "2026-08-28T20:01:17.610807+00:00",
+      "metadata": {
+        "last_job_count": 4,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "sirum",
+        "career_page": "https://job-boards.greenhouse.io/sirum",
+        "verified_at": "2026-08-28T20:01:17.610813+00:00"
+      }
+    },
+    {
+      "name": "Shape (ShapeScale)",
+      "company_url": "https://shapescale.com",
+      "domain": "shapescale.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:17.634045+00:00",
+      "last_discovered_at": "2026-08-28T20:01:17.634064+00:00",
+      "metadata": {
+        "last_job_count": 1,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "shapescale",
+        "career_page": "https://jobs.ashbyhq.com/shapescale",
+        "verified_at": "2026-08-28T20:01:17.634068+00:00"
+      }
+    },
+    {
+      "name": "SmartAsset",
+      "company_url": "https://smartasset.com",
+      "domain": "smartasset.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:17.904854+00:00",
+      "last_discovered_at": "2026-08-28T20:01:17.904871+00:00",
+      "metadata": {
+        "last_job_count": 5,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "smartasset",
+        "career_page": "https://job-boards.greenhouse.io/smartasset",
+        "verified_at": "2026-08-28T20:01:17.904875+00:00"
+      }
+    },
+    {
+      "name": "Snapdocs",
+      "company_url": "https://snapdocs.com",
+      "domain": "snapdocs.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:18.125775+00:00",
+      "last_discovered_at": "2026-08-28T20:01:18.125790+00:00",
+      "metadata": {
+        "last_job_count": 4,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "snapdocs",
+        "career_page": "https://jobs.ashbyhq.com/snapdocs",
+        "verified_at": "2026-08-28T20:01:18.125794+00:00"
+      }
+    },
+    {
+      "name": "SnapMagic",
+      "company_url": "https://snapmagic.com",
+      "domain": "snapmagic.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:18.156320+00:00",
+      "last_discovered_at": "2026-08-28T20:01:18.156335+00:00",
+      "metadata": {
+        "last_job_count": 5,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "snapmagic",
+        "career_page": "https://jobs.ashbyhq.com/snapmagic",
+        "verified_at": "2026-08-28T20:01:18.156339+00:00"
+      }
+    },
+    {
+      "name": "ReadMe",
+      "company_url": "https://readme.com",
+      "domain": "readme.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:18.179306+00:00",
+      "last_discovered_at": "2026-08-28T20:01:18.179326+00:00",
+      "metadata": {
+        "last_job_count": 1,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "readme",
+        "career_page": "https://jobs.ashbyhq.com/readme",
+        "verified_at": "2026-08-28T20:01:18.179329+00:00"
+      }
+    },
+    {
+      "name": "Stage",
+      "company_url": "https://tryluke.dev",
+      "domain": "tryluke.dev",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:18.379255+00:00",
+      "last_discovered_at": "2026-08-28T20:01:18.379275+00:00",
+      "metadata": {
+        "last_job_count": 136,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "stage",
+        "career_page": "https://job-boards.greenhouse.io/stage",
+        "verified_at": "2026-08-28T20:01:18.379281+00:00"
+      }
+    },
+    {
+      "name": "Stilta",
+      "company_url": "https://stilta.com",
+      "domain": "stilta.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:18.872423+00:00",
+      "last_discovered_at": "2026-08-28T20:01:18.872439+00:00",
+      "metadata": {
+        "last_job_count": 4,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "stilta",
+        "career_page": "https://jobs.ashbyhq.com/stilta",
+        "verified_at": "2026-08-28T20:01:18.872443+00:00"
+      }
+    },
+    {
+      "name": "Sila",
+      "company_url": "https://silahq.com",
+      "domain": "silahq.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:19.136184+00:00",
+      "last_discovered_at": "2026-08-28T20:01:19.136199+00:00",
+      "metadata": {
+        "last_job_count": 212,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "lever",
+        "identifier": "sila",
+        "career_page": "https://jobs.lever.co/sila",
+        "verified_at": "2026-08-28T20:01:19.136203+00:00"
+      }
+    },
+    {
+      "name": "Submittable",
+      "company_url": "https://submittable.com",
+      "domain": "submittable.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:19.209872+00:00",
+      "last_discovered_at": "2026-08-28T20:01:19.209887+00:00",
+      "metadata": {
+        "last_job_count": 3,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "submittable",
+        "career_page": "https://job-boards.greenhouse.io/submittable",
+        "verified_at": "2026-08-28T20:01:19.209891+00:00"
+      }
+    },
+    {
+      "name": "Superset",
+      "company_url": "https://superset.sh",
+      "domain": "superset.sh",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:19.343679+00:00",
+      "last_discovered_at": "2026-08-28T20:01:19.343694+00:00",
+      "metadata": {
+        "last_job_count": 2,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "superset",
+        "career_page": "https://job-boards.greenhouse.io/superset",
+        "verified_at": "2026-08-28T20:01:19.343699+00:00"
+      }
+    },
+    {
+      "name": "Tempo",
+      "company_url": "https://tempo.fit",
+      "domain": "tempo.fit",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:20.295755+00:00",
+      "last_discovered_at": "2026-08-28T20:01:20.295772+00:00",
+      "metadata": {
+        "last_job_count": 7,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "tempo",
+        "career_page": "https://job-boards.greenhouse.io/tempo",
+        "verified_at": "2026-08-28T20:01:20.295776+00:00"
+      }
+    },
+    {
+      "name": "Tenor",
+      "company_url": "https://heytenor.com",
+      "domain": "heytenor.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:20.460595+00:00",
+      "last_discovered_at": "2026-08-28T20:01:20.460613+00:00",
+      "metadata": {
+        "last_job_count": 2,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "tenor",
+        "career_page": "https://jobs.ashbyhq.com/tenor",
+        "verified_at": "2026-08-28T20:01:20.460618+00:00"
+      }
+    },
+    {
+      "name": "Teleport",
+      "company_url": "https://goteleport.com",
+      "domain": "goteleport.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:20.812870+00:00",
+      "last_discovered_at": "2026-08-28T20:01:20.812887+00:00",
+      "metadata": {
+        "last_job_count": 0,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "lever",
+        "identifier": "teleport",
+        "career_page": "https://jobs.lever.co/teleport",
+        "verified_at": "2026-08-28T20:01:20.812892+00:00"
+      }
+    },
+    {
+      "name": "Thesis",
+      "company_url": "https://thesislabs.ai",
+      "domain": "thesislabs.ai",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:20.841259+00:00",
+      "last_discovered_at": "2026-08-28T20:01:20.841275+00:00",
+      "metadata": {
+        "last_job_count": 0,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "thesis",
+        "career_page": "https://jobs.ashbyhq.com/thesis",
+        "verified_at": "2026-08-28T20:01:20.841279+00:00"
+      }
+    },
+    {
+      "name": "TesterArmy",
+      "company_url": "https://tester.army",
+      "domain": "tester.army",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:21.065126+00:00",
+      "last_discovered_at": "2026-08-28T20:01:21.065142+00:00",
+      "metadata": {
+        "last_job_count": 1,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "tester",
+        "career_page": "https://job-boards.greenhouse.io/tester",
+        "verified_at": "2026-08-28T20:01:21.065146+00:00"
+      }
+    },
+    {
+      "name": "Tolmo",
+      "company_url": "https://tolmo.com",
+      "domain": "tolmo.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:21.121531+00:00",
+      "last_discovered_at": "2026-08-28T20:01:21.121549+00:00",
+      "metadata": {
+        "last_job_count": 0,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "tolmo",
+        "career_page": "https://jobs.ashbyhq.com/tolmo",
+        "verified_at": "2026-08-28T20:01:21.121553+00:00"
+      }
+    },
+    {
+      "name": "Trident",
+      "company_url": "https://tridentsecurity.io",
+      "domain": "tridentsecurity.io",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:21.239790+00:00",
+      "last_discovered_at": "2026-08-28T20:01:21.239808+00:00",
+      "metadata": {
+        "last_job_count": 6,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "trident",
+        "career_page": "https://job-boards.greenhouse.io/trident",
+        "verified_at": "2026-08-28T20:01:21.239812+00:00"
+      }
+    },
+    {
+      "name": "Tesorio",
+      "company_url": "https://tesorio.com",
+      "domain": "tesorio.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:21.281419+00:00",
+      "last_discovered_at": "2026-08-28T20:01:21.281444+00:00",
+      "metadata": {
+        "last_job_count": 0,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "lever",
+        "identifier": "tesorio",
+        "career_page": "https://jobs.lever.co/tesorio",
+        "verified_at": "2026-08-28T20:01:21.281451+00:00"
+      }
+    },
+    {
+      "name": "Truebill",
+      "company_url": "https://truebill.com",
+      "domain": "truebill.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:21.404921+00:00",
+      "last_discovered_at": "2026-08-28T20:01:21.404943+00:00",
+      "metadata": {
+        "last_job_count": 16,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "truebill",
+        "career_page": "https://job-boards.greenhouse.io/truebill",
+        "verified_at": "2026-08-28T20:01:21.404950+00:00"
+      }
+    },
+    {
+      "name": "Twitch",
+      "company_url": "https://twitch.com",
+      "domain": "twitch.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:21.494075+00:00",
+      "last_discovered_at": "2026-08-28T20:01:21.494093+00:00",
+      "metadata": {
+        "last_job_count": 54,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "twitch",
+        "career_page": "https://job-boards.greenhouse.io/twitch",
+        "verified_at": "2026-08-28T20:01:21.494099+00:00"
+      }
+    },
+    {
+      "name": "Tsenta",
+      "company_url": "https://tsenta.com",
+      "domain": "tsenta.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:21.610562+00:00",
+      "last_discovered_at": "2026-08-28T20:01:21.610577+00:00",
+      "metadata": {
+        "last_job_count": 1,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "tsenta",
+        "career_page": "https://jobs.ashbyhq.com/tsenta",
+        "verified_at": "2026-08-28T20:01:21.610581+00:00"
+      }
+    },
+    {
+      "name": "The Athletic",
+      "company_url": "https://theathletic.com",
+      "domain": "theathletic.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:21.724304+00:00",
+      "last_discovered_at": "2026-08-28T20:01:21.724320+00:00",
+      "metadata": {
+        "last_job_count": 12,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "lever",
+        "identifier": "theathletic",
+        "career_page": "https://jobs.lever.co/theathletic",
+        "verified_at": "2026-08-28T20:01:21.724324+00:00"
+      }
+    },
+    {
+      "name": "UserGems",
+      "company_url": "https://usergems.com",
+      "domain": "usergems.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:21.755728+00:00",
+      "last_discovered_at": "2026-08-28T20:01:21.755743+00:00",
+      "metadata": {
+        "last_job_count": 3,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "usergems",
+        "career_page": "https://job-boards.greenhouse.io/usergems",
+        "verified_at": "2026-08-28T20:01:21.755747+00:00"
+      }
+    },
+    {
+      "name": "Tovala",
+      "company_url": "https://tovala.com",
+      "domain": "tovala.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:21.944048+00:00",
+      "last_discovered_at": "2026-08-28T20:01:21.944066+00:00",
+      "metadata": {
+        "last_job_count": 12,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "lever",
+        "identifier": "tovala",
+        "career_page": "https://jobs.lever.co/tovala",
+        "verified_at": "2026-08-28T20:01:21.944071+00:00"
+      }
+    },
+    {
+      "name": "Valence",
+      "company_url": "https://valence.trade",
+      "domain": "valence.trade",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:22.002488+00:00",
+      "last_discovered_at": "2026-08-28T20:01:22.002526+00:00",
+      "metadata": {
+        "last_job_count": 0,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "valence",
+        "career_page": "https://jobs.ashbyhq.com/valence",
+        "verified_at": "2026-08-28T20:01:22.002545+00:00"
+      }
+    },
+    {
+      "name": "Vela",
+      "company_url": "https://tryvela.ai",
+      "domain": "tryvela.ai",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:22.258240+00:00",
+      "last_discovered_at": "2026-08-28T20:01:22.258256+00:00",
+      "metadata": {
+        "last_job_count": 0,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "vela",
+        "career_page": "https://jobs.ashbyhq.com/vela",
+        "verified_at": "2026-08-28T20:01:22.258260+00:00"
+      }
+    },
+    {
+      "name": "True Link",
+      "company_url": "https://truelinkfinancial.com",
+      "domain": "truelinkfinancial.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:23.047748+00:00",
+      "last_discovered_at": "2026-08-28T20:01:23.047765+00:00",
+      "metadata": {
+        "last_job_count": 2,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "truelinkfinancial",
+        "career_page": "https://jobs.ashbyhq.com/truelinkfinancial",
+        "verified_at": "2026-08-28T20:01:23.047770+00:00"
+      }
+    },
+    {
+      "name": "Weave",
+      "company_url": "https://getweave.com",
+      "domain": "getweave.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:23.158247+00:00",
+      "last_discovered_at": "2026-08-28T20:01:23.158265+00:00",
+      "metadata": {
+        "last_job_count": 8,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "weave",
+        "career_page": "https://job-boards.greenhouse.io/weave",
+        "verified_at": "2026-08-28T20:01:23.158269+00:00"
+      }
+    },
+    {
+      "name": "Webflow",
+      "company_url": "https://webflow.com",
+      "domain": "webflow.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:23.184719+00:00",
+      "last_discovered_at": "2026-08-28T20:01:23.184736+00:00",
+      "metadata": {
+        "last_job_count": 27,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "webflow",
+        "career_page": "https://job-boards.greenhouse.io/webflow",
+        "verified_at": "2026-08-28T20:01:23.184740+00:00"
+      }
+    },
+    {
+      "name": "Whitespace",
+      "company_url": "https://whitespacehq.ai",
+      "domain": "whitespacehq.ai",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:23.451508+00:00",
+      "last_discovered_at": "2026-08-28T20:01:23.451530+00:00",
+      "metadata": {
+        "last_job_count": 1,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "whitespace",
+        "career_page": "https://job-boards.greenhouse.io/whitespace",
+        "verified_at": "2026-08-28T20:01:23.451535+00:00"
+      }
+    },
+    {
+      "name": "Xendit",
+      "company_url": "https://xendit.co",
+      "domain": "xendit.co",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:23.556455+00:00",
+      "last_discovered_at": "2026-08-28T20:01:23.556472+00:00",
+      "metadata": {
+        "last_job_count": 24,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "xendit",
+        "career_page": "https://job-boards.greenhouse.io/xendit",
+        "verified_at": "2026-08-28T20:01:23.556476+00:00"
+      }
+    },
+    {
+      "name": "Y Combinator",
+      "company_url": "https://bloomberg.com",
+      "domain": "bloomberg.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:23.659327+00:00",
+      "last_discovered_at": "2026-08-28T20:01:23.659346+00:00",
+      "metadata": {
+        "last_job_count": 7,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "ycombinator",
+        "career_page": "https://jobs.ashbyhq.com/ycombinator",
+        "verified_at": "2026-08-28T20:01:23.659350+00:00"
+      }
+    },
+    {
+      "name": "Zapier",
+      "company_url": "https://zapier.com",
+      "domain": "zapier.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:23.806778+00:00",
+      "last_discovered_at": "2026-08-28T20:01:23.806795+00:00",
+      "metadata": {
+        "last_job_count": 7,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "zapier",
+        "career_page": "https://jobs.ashbyhq.com/zapier",
+        "verified_at": "2026-08-28T20:01:23.806799+00:00"
+      }
+    },
+    {
+      "name": "Trellis",
+      "company_url": "https://trellistech.com",
+      "domain": "trellistech.com",
+      "enabled": true,
+      "discovered_from": [
+        "fast_provider_probe"
+      ],
+      "discovered_at": "2026-08-28T20:01:24.411213+00:00",
+      "last_discovered_at": "2026-08-28T20:01:24.411229+00:00",
+      "metadata": {
+        "last_job_count": 4,
+        "discovery_method": "fast_provider_probe"
+      },
+      "ats": {
+        "source": "lever",
+        "identifier": "trellis",
+        "career_page": "https://jobs.lever.co/trellis",
+        "verified_at": "2026-08-28T20:01:24.411233+00:00"
+      }
+    },
+    {
+      "name": "Cosmic Robotics",
+      "company_url": "https://cosmicrobotics.com",
+      "domain": "cosmicrobotics.com",
+      "enabled": true,
+      "discovered_from": [
+        "static_ats_probe"
+      ],
+      "discovered_at": "2026-08-28T20:27:13.613871+00:00",
+      "last_discovered_at": "2026-08-28T20:27:13.613896+00:00",
+      "metadata": {
+        "last_job_count": 4,
+        "discovery_method": "static_ats_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "cosmic-robotics",
+        "career_page": "https://jobs.ashbyhq.com/cosmic-robotics",
+        "verified_at": "2026-08-28T20:27:13.613902+00:00"
+      }
+    },
+    {
+      "name": "Dayjob",
+      "company_url": "https://getdayjob.ai",
+      "domain": "getdayjob.ai",
+      "enabled": true,
+      "discovered_from": [
+        "static_ats_probe"
+      ],
+      "discovered_at": "2026-08-28T20:27:14.678763+00:00",
+      "last_discovered_at": "2026-08-28T20:27:14.678781+00:00",
+      "metadata": {
+        "last_job_count": 3,
+        "discovery_method": "static_ats_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "dayjob-ai",
+        "career_page": "https://jobs.ashbyhq.com/dayjob-ai",
+        "verified_at": "2026-08-28T20:27:14.678787+00:00"
+      }
+    },
+    {
+      "name": "EasyPost",
+      "company_url": "https://easypost.com",
+      "domain": "easypost.com",
+      "enabled": true,
+      "discovered_from": [
+        "static_ats_probe"
+      ],
+      "discovered_at": "2026-08-28T20:27:16.695813+00:00",
+      "last_discovered_at": "2026-08-28T20:27:16.695830+00:00",
+      "metadata": {
+        "last_job_count": 5,
+        "discovery_method": "static_ats_probe"
+      },
+      "ats": {
+        "source": "lever",
+        "identifier": "easypost-2",
+        "career_page": "https://jobs.lever.co/easypost-2",
+        "verified_at": "2026-08-28T20:27:16.695834+00:00"
+      }
+    },
+    {
+      "name": "Front",
+      "company_url": "https://front.com",
+      "domain": "front.com",
+      "enabled": true,
+      "discovered_from": [
+        "static_ats_probe"
+      ],
+      "discovered_at": "2026-08-28T20:27:19.405393+00:00",
+      "last_discovered_at": "2026-08-28T20:27:19.405408+00:00",
+      "metadata": {
+        "last_job_count": 21,
+        "discovery_method": "static_ats_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "frontcareers",
+        "career_page": "https://jobs.ashbyhq.com/frontcareers",
+        "verified_at": "2026-08-28T20:27:19.405412+00:00"
+      }
+    },
+    {
+      "name": "Helion Energy",
+      "company_url": "https://helionenergy.com",
+      "domain": "helionenergy.com",
+      "enabled": true,
+      "discovered_from": [
+        "static_ats_probe"
+      ],
+      "discovered_at": "2026-08-28T20:27:21.797970+00:00",
+      "last_discovered_at": "2026-08-28T20:27:21.797985+00:00",
+      "metadata": {
+        "last_job_count": 103,
+        "discovery_method": "static_ats_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "helion",
+        "career_page": "https://jobs.ashbyhq.com/helion",
+        "verified_at": "2026-08-28T20:27:21.797989+00:00"
+      }
+    },
+    {
+      "name": "Ironclad",
+      "company_url": "https://ironcladapp.com",
+      "domain": "ironcladapp.com",
+      "enabled": true,
+      "discovered_from": [
+        "static_ats_probe"
+      ],
+      "discovered_at": "2026-08-28T20:27:24.141601+00:00",
+      "last_discovered_at": "2026-08-28T20:27:24.141618+00:00",
+      "metadata": {
+        "last_job_count": 28,
+        "discovery_method": "static_ats_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "ironcladhq",
+        "career_page": "https://jobs.ashbyhq.com/ironcladhq",
+        "verified_at": "2026-08-28T20:27:24.141622+00:00"
+      }
+    },
+    {
+      "name": "Gusto",
+      "company_url": "https://gusto.com",
+      "domain": "gusto.com",
+      "enabled": true,
+      "discovered_from": [
+        "static_ats_probe"
+      ],
+      "discovered_at": "2026-08-28T20:27:24.448864+00:00",
+      "last_discovered_at": "2026-08-28T20:27:24.448879+00:00",
+      "metadata": {
+        "last_job_count": 88,
+        "discovery_method": "static_ats_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "gusto",
+        "career_page": "https://job-boards.greenhouse.io/gusto",
+        "verified_at": "2026-08-28T20:27:24.448883+00:00"
+      }
+    },
+    {
+      "name": "Jinba",
+      "company_url": "https://jinba.io",
+      "domain": "jinba.io",
+      "enabled": true,
+      "discovered_from": [
+        "static_ats_probe"
+      ],
+      "discovered_at": "2026-08-28T20:27:25.932869+00:00",
+      "last_discovered_at": "2026-08-28T20:27:25.932886+00:00",
+      "metadata": {
+        "last_job_count": 9,
+        "discovery_method": "static_ats_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "carnot-ai",
+        "career_page": "https://jobs.ashbyhq.com/carnot-ai",
+        "verified_at": "2026-08-28T20:27:25.932890+00:00"
+      }
+    },
+    {
+      "name": "Lua Global Inc",
+      "company_url": "https://heylua.ai",
+      "domain": "heylua.ai",
+      "enabled": true,
+      "discovered_from": [
+        "static_ats_probe"
+      ],
+      "discovered_at": "2026-08-28T20:27:27.789461+00:00",
+      "last_discovered_at": "2026-08-28T20:27:27.789477+00:00",
+      "metadata": {
+        "last_job_count": 0,
+        "discovery_method": "static_ats_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "lua",
+        "career_page": "https://jobs.ashbyhq.com/lua",
+        "verified_at": "2026-08-28T20:27:27.789481+00:00"
+      }
+    },
+    {
+      "name": "Modern Fertility",
+      "company_url": "https://modernfertility.com",
+      "domain": "modernfertility.com",
+      "enabled": true,
+      "discovered_from": [
+        "static_ats_probe"
+      ],
+      "discovered_at": "2026-08-28T20:27:31.210010+00:00",
+      "last_discovered_at": "2026-08-28T20:27:31.210028+00:00",
+      "metadata": {
+        "last_job_count": 50,
+        "discovery_method": "static_ats_probe"
+      },
+      "ats": {
+        "source": "lever",
+        "identifier": "ro",
+        "career_page": "https://jobs.lever.co/ro",
+        "verified_at": "2026-08-28T20:27:31.210033+00:00"
+      }
+    },
+    {
+      "name": "Ploy",
+      "company_url": "https://ploy.ai",
+      "domain": "ploy.ai",
+      "enabled": true,
+      "discovered_from": [
+        "static_ats_probe"
+      ],
+      "discovered_at": "2026-08-28T20:27:35.814096+00:00",
+      "last_discovered_at": "2026-08-28T20:27:35.814113+00:00",
+      "metadata": {
+        "last_job_count": 3,
+        "discovery_method": "static_ats_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "ployai",
+        "career_page": "https://jobs.ashbyhq.com/ployai",
+        "verified_at": "2026-08-28T20:27:35.814116+00:00"
+      }
+    },
+    {
+      "name": "Razorpay",
+      "company_url": "https://razorpay.com",
+      "domain": "razorpay.com",
+      "enabled": true,
+      "discovered_from": [
+        "static_ats_probe"
+      ],
+      "discovered_at": "2026-08-28T20:27:39.626139+00:00",
+      "last_discovered_at": "2026-08-28T20:27:39.626159+00:00",
+      "metadata": {
+        "last_job_count": 21,
+        "discovery_method": "static_ats_probe"
+      },
+      "ats": {
+        "source": "greenhouse",
+        "identifier": "razorpaysoftwareprivatelimited",
+        "career_page": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited",
+        "verified_at": "2026-08-28T20:27:39.626164+00:00"
+      }
+    },
+    {
+      "name": "The Token Company",
+      "company_url": "https://thetokencompany.com",
+      "domain": "thetokencompany.com",
+      "enabled": true,
+      "discovered_from": [
+        "static_ats_probe"
+      ],
+      "discovered_at": "2026-08-28T20:27:48.547054+00:00",
+      "last_discovered_at": "2026-08-28T20:27:48.547069+00:00",
+      "metadata": {
+        "last_job_count": 3,
+        "discovery_method": "static_ats_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "the-token-company",
+        "career_page": "https://jobs.ashbyhq.com/the-token-company",
+        "verified_at": "2026-08-28T20:27:48.547072+00:00"
+      }
+    },
+    {
+      "name": "Verge Genomics",
+      "company_url": "https://vergegenomics.com",
+      "domain": "vergegenomics.com",
+      "enabled": true,
+      "discovered_from": [
+        "static_ats_probe"
+      ],
+      "discovered_at": "2026-08-28T20:27:50.881965+00:00",
+      "last_discovered_at": "2026-08-28T20:27:50.881985+00:00",
+      "metadata": {
+        "last_job_count": 1,
+        "discovery_method": "static_ats_probe"
+      },
+      "ats": {
+        "source": "ashby",
+        "identifier": "verge-genomics",
+        "career_page": "https://jobs.ashbyhq.com/verge-genomics",
+        "verified_at": "2026-08-28T20:27:50.881989+00:00"
+      }
+    }
+  ]
+}

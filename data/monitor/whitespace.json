@@ -1,0 +1,78 @@
+{
+  "company": "Whitespace",
+  "company_url": "https://whitespacehq.ai",
+  "career_page": "https://job-boards.greenhouse.io/whitespace",
+  "source": "greenhouse",
+  "identifier": "whitespace",
+  "scanned_at": "2026-08-29T05:46:24.454201+00:00",
+  "count": 1,
+  "total_available": 1,
+  "partial_scan": false,
+  "jobs": [
+    {
+      "job_id": "4517d0f58222768fdf019c24229e74ca48063a4936b7ec38cdb52f53a6f9c5ea",
+      "external_id": "5413152004",
+      "company": "Whitespace",
+      "title": "General Interest",
+      "location": "Washington, D.C., St. Croix, Virgin Islands, Remote",
+      "remote": true,
+      "department": null,
+      "team": null,
+      "employment_type": null,
+      "description": "whiteSpace is an information technology consultancy servicing a client base primarily in the middle market, with a relentless commitment to social good, technology, and client engagement. At whiteSpace our goal is to provide an authentic, human-centered approach to delivering solutions aimed at moving our society forward. These solutions leverage technology to create new opportunities for our clients and the communities that they serve.&nbsp; If you are interested in whiteSpace, but do not see the type of position that you are looking for, please apply here. What we offer: 100% remote work (Work from anywhere in the U.S.) 100% paid HSA medical, dental, and vision premiums and 20% for dependents. A $500 annual HSA deposit if enrolled in a HSA medical plan. 401(k) match (4% of annual compensation.) 15 days of paid time off and 11 paid company holidays. $1,500 annual professional development reimbursement (You love your craft? We do too!) $1,000 team engagement budget per team per quarter (Get to know your team, on us!) A discretionary annual bonus. Opportunities for growth into leadership roles. Collaborative, sharp, and thoughtful coworkers. Creative freedom (with your team) to explore technology. Diversity in the problem space (work on a multitude of different projects).",
+      "apply_url": "https://job-boards.greenhouse.io/whitespace/jobs/5413152004",
+      "source_url": "https://job-boards.greenhouse.io/whitespace/jobs/5413152004",
+      "source": "greenhouse",
+      "posted_at": "2026-06-04T16:28:05-04:00",
+      "updated_at": "2026-06-04T16:28:05-04:00",
+      "discovered_at": "2026-08-29T05:46:24.454173+00:00",
+      "raw": {
+        "absolute_url": "https://job-boards.greenhouse.io/whitespace/jobs/5413152004",
+        "data_compliance": [
+          {
+            "type": "gdpr",
+            "requires_consent": false,
+            "requires_processing_consent": false,
+            "requires_retention_consent": false,
+            "retention_period": null,
+            "demographic_data_consent_applies": false
+          }
+        ],
+        "internal_job_id": 4862086004,
+        "location": {
+          "name": "Washington, D.C., St. Croix, Virgin Islands, Remote"
+        },
+        "metadata": null,
+        "id": 5413152004,
+        "updated_at": "2026-06-04T16:28:05-04:00",
+        "requisition_id": "76",
+        "title": "General Interest",
+        "company_name": "whiteSpace",
+        "first_published": "2025-01-08T14:05:17-05:00",
+        "language": "en",
+        "application_deadline": null,
+        "content": "&lt;p&gt;whiteSpace is an information technology consultancy servicing a client base primarily in the middle market, with a relentless commitment to social good, technology, and client engagement. At whiteSpace our goal is to provide an authentic, human-centered approach to delivering solutions aimed at moving our society forward. These solutions leverage technology to create new opportunities for our clients and the communities that they serve.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;If you are interested in whiteSpace, but do not see the type of position that you are looking for, please apply here.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;What we offer:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;100% remote work (Work from anywhere in the U.S.)&lt;/li&gt;\n&lt;li&gt;100% paid HSA medical, dental, and vision premiums and 20% for dependents.&lt;/li&gt;\n&lt;li&gt;A $500 annual HSA deposit if enrolled in a HSA medical plan.&lt;/li&gt;\n&lt;li&gt;401(k) match (4% of annual compensation.)&lt;/li&gt;\n&lt;li&gt;15 days of paid time off and 11 paid company holidays.&lt;/li&gt;\n&lt;li&gt;$1,500 annual professional development reimbursement (You love your craft? We do too!)&lt;/li&gt;\n&lt;li&gt;$1,000 team engagement budget per team per quarter (Get to know your team, on us!)&lt;/li&gt;\n&lt;li&gt;A discretionary annual bonus.&lt;/li&gt;\n&lt;li&gt;Opportunities for growth into leadership roles.&lt;/li&gt;\n&lt;li&gt;Collaborative, sharp, and thoughtful coworkers.&lt;/li&gt;\n&lt;li&gt;Creative freedom (with your team) to explore technology.&lt;/li&gt;\n&lt;li&gt;Diversity in the problem space (work on a multitude of different projects).&lt;/li&gt;\n&lt;/ul&gt;",
+        "departments": [
+          {
+            "id": 4085443004,
+            "name": "General",
+            "child_ids": [],
+            "parent_id": null
+          }
+        ],
+        "offices": [
+          {
+            "id": 4025910004,
+            "name": "Whitespace Remote",
+            "location": "Remote",
+            "child_ids": [],
+            "parent_id": null
+          }
+        ],
+        "ai_disclaimer": null,
+        "include_ai_disclaimer": null,
+        "ai_opt_out_request_url": null
+      }
+    }
+  ]
+}
