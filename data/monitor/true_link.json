@@ -4,7 +4,7 @@
   "career_page": "https://jobs.ashbyhq.com/truelinkfinancial",
   "source": "ashby",
   "identifier": "truelinkfinancial",
-  "scanned_at": "2026-08-29T05:46:24.017705+00:00",
+  "scanned_at": "2026-08-30T05:08:25.837814+00:00",
   "count": 2,
   "total_available": 2,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "ashby",
       "posted_at": "2026-06-05T18:10:43.912+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:24.017299+00:00",
+      "discovered_at": "2026-08-30T05:08:25.837099+00:00",
       "raw": {
         "id": "4289c2cf-ce22-4649-a2a0-3fbd6ad8e0ba",
         "title": "Senior Front End Engineer",
@@ -65,7 +65,7 @@
       "source": "ashby",
       "posted_at": "2026-06-02T22:21:04.180+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:24.017687+00:00",
+      "discovered_at": "2026-08-30T05:08:25.837791+00:00",
       "raw": {
         "id": "790972da-861c-425d-9175-a0053f71e63e",
         "title": "Principal Product Designer",

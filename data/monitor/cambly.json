@@ -4,7 +4,7 @@
   "career_page": "https://jobs.ashbyhq.com/cambly",
   "source": "ashby",
   "identifier": "cambly",
-  "scanned_at": "2026-08-29T05:46:17.147786+00:00",
+  "scanned_at": "2026-08-30T05:08:19.650017+00:00",
   "count": 8,
   "total_available": 8,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "ashby",
       "posted_at": "2026-08-26T07:01:50.667+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.144316+00:00",
+      "discovered_at": "2026-08-30T05:08:19.647885+00:00",
       "raw": {
         "id": "17aea1df-e148-48e7-a153-5cb75ad2b891",
         "title": "Sales Development Representative",
@@ -67,7 +67,7 @@
       "source": "ashby",
       "posted_at": "2026-07-31T00:47:47.056+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.145050+00:00",
+      "discovered_at": "2026-08-30T05:08:19.648491+00:00",
       "raw": {
         "id": "2e7dd09c-3678-4324-ade9-486e791322fa",
         "title": "Staff Software Engineer",
@@ -109,7 +109,7 @@
       "source": "ashby",
       "posted_at": "2026-07-06T02:32:29.250+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.145675+00:00",
+      "discovered_at": "2026-08-30T05:08:19.648812+00:00",
       "raw": {
         "id": "ca2a04d7-0c60-4105-8112-f3125dc1ecc3",
         "title": "Sales Operations Manager - Brazil",
@@ -162,7 +162,7 @@
       "source": "ashby",
       "posted_at": "2026-07-06T02:32:45.661+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.146127+00:00",
+      "discovered_at": "2026-08-30T05:08:19.649033+00:00",
       "raw": {
         "id": "4816f2cb-a3bd-4555-b290-acd88e7b65d0",
         "title": "Revenue Operations Manager - Brazil",
@@ -215,7 +215,7 @@
       "source": "ashby",
       "posted_at": "2026-07-23T10:03:15.972+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.146401+00:00",
+      "discovered_at": "2026-08-30T05:08:19.649171+00:00",
       "raw": {
         "id": "96f0b293-0cdc-4d96-9b36-507c787f2b34",
         "title": "Sales Director, APAC (Sales & Marketing)",
@@ -268,7 +268,7 @@
       "source": "ashby",
       "posted_at": "2026-07-06T02:31:13.375+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.146930+00:00",
+      "discovered_at": "2026-08-30T05:08:19.649393+00:00",
       "raw": {
         "id": "11c6f23c-d2e7-4312-8cf7-3b23683ba706",
         "title": "Sales Operations Manager - Turkey",
@@ -310,7 +310,7 @@
       "source": "ashby",
       "posted_at": "2026-07-06T02:31:10.575+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.147377+00:00",
+      "discovered_at": "2026-08-30T05:08:19.649630+00:00",
       "raw": {
         "id": "706eec4a-236c-41c1-b06c-082f4b32373b",
         "title": "Revenue Operations Manager - Turkey",
@@ -352,7 +352,7 @@
       "source": "ashby",
       "posted_at": "2026-07-22T10:01:48.485+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.147750+00:00",
+      "discovered_at": "2026-08-30T05:08:19.649979+00:00",
       "raw": {
         "id": "c1a6134c-5a63-411b-9127-6fd03cf837fb",
         "title": "Design Systems Designer (Contract)",

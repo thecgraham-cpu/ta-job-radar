@@ -4,7 +4,7 @@
   "career_page": "https://jobs.ashbyhq.com/rivet",
   "source": "ashby",
   "identifier": "rivet",
-  "scanned_at": "2026-08-29T05:46:21.706609+00:00",
+  "scanned_at": "2026-08-30T05:08:23.259067+00:00",
   "count": 24,
   "total_available": 24,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "ashby",
       "posted_at": "2026-08-06T18:53:12.750+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:21.697979+00:00",
+      "discovered_at": "2026-08-30T05:08:23.244104+00:00",
       "raw": {
         "id": "c7cecb66-2605-4197-b8e8-351d7d3a960b",
         "title": "Corporate Development Lead",
@@ -69,7 +69,7 @@
       "source": "ashby",
       "posted_at": "2026-07-01T21:50:49.116+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:21.698508+00:00",
+      "discovered_at": "2026-08-30T05:08:23.244431+00:00",
       "raw": {
         "id": "f9b0e709-9d66-426b-92ab-19b2635ee617",
         "title": "Deployment Strategist",
@@ -126,7 +126,7 @@
       "source": "ashby",
       "posted_at": "2026-07-01T22:07:56.887+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:21.698754+00:00",
+      "discovered_at": "2026-08-30T05:08:23.244747+00:00",
       "raw": {
         "id": "a178c0cd-2069-46a2-b038-f890aa33d545",
         "title": "Forward Deployed Engineer",
@@ -170,7 +170,7 @@
       "source": "ashby",
       "posted_at": "2026-07-01T22:30:15.053+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:21.698980+00:00",
+      "discovered_at": "2026-08-30T05:08:23.245026+00:00",
       "raw": {
         "id": "be2d4cb1-5116-4533-9645-15e07c94ca81",
         "title": "Hardware Engineer, EE Design",
@@ -214,7 +214,7 @@
       "source": "ashby",
       "posted_at": "2026-07-01T22:33:39.020+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:21.699198+00:00",
+      "discovered_at": "2026-08-30T05:08:23.245316+00:00",
       "raw": {
         "id": "545349a1-139e-4119-96fd-928d3e4ac8c9",
         "title": "Hardware Engineer, Power Management / Battery / BMS",
@@ -258,7 +258,7 @@
       "source": "ashby",
       "posted_at": "2026-07-01T22:37:29.763+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:21.699425+00:00",
+      "discovered_at": "2026-08-30T05:08:23.245755+00:00",
       "raw": {
         "id": "789c05c0-ef6c-4d03-b008-5c875c8ee0d9",
         "title": "IT Support Technician",
@@ -315,7 +315,7 @@
       "source": "ashby",
       "posted_at": "2026-07-01T22:42:32.485+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:21.699729+00:00",
+      "discovered_at": "2026-08-30T05:08:23.246161+00:00",
       "raw": {
         "id": "ad4422a9-729d-462e-97fb-567c3695a714",
         "title": "ML Researcher",
@@ -372,7 +372,7 @@
       "source": "ashby",
       "posted_at": "2026-07-01T22:49:36.546+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:21.699987+00:00",
+      "discovered_at": "2026-08-30T05:08:23.246447+00:00",
       "raw": {
         "id": "b17930da-8579-4090-a101-3549deec4f18",
         "title": "Optical Test Engineer",
@@ -416,7 +416,7 @@
       "source": "ashby",
       "posted_at": "2026-07-01T22:57:12.229+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:21.700227+00:00",
+      "discovered_at": "2026-08-30T05:08:23.246701+00:00",
       "raw": {
         "id": "b903ed84-8c01-445c-8e93-65471351c155",
         "title": "Reliability Engineer",
@@ -473,7 +473,7 @@
       "source": "ashby",
       "posted_at": "2026-07-01T23:14:07.055+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:21.700456+00:00",
+      "discovered_at": "2026-08-30T05:08:23.246920+00:00",
       "raw": {
         "id": "0eefc86c-1a05-4895-8552-e92a1897bae2",
         "title": "Senior Product Design Engineer",
@@ -517,7 +517,7 @@
       "source": "ashby",
       "posted_at": "2026-07-01T23:15:36.421+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:21.701024+00:00",
+      "discovered_at": "2026-08-30T05:08:23.247232+00:00",
       "raw": {
         "id": "2ed4cd5a-4639-4290-9129-a977c594eff1",
         "title": "Software Engineer, Computer Vision",
@@ -574,7 +574,7 @@
       "source": "ashby",
       "posted_at": "2026-07-01T23:18:22.159+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:21.701395+00:00",
+      "discovered_at": "2026-08-30T05:08:23.247494+00:00",
       "raw": {
         "id": "207c1d67-d88e-4e79-91fa-3e8534de94e7",
         "title": "Software Engineer, Device Management",
@@ -631,7 +631,7 @@
       "source": "ashby",
       "posted_at": "2026-07-01T23:21:51.194+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:21.701691+00:00",
+      "discovered_at": "2026-08-30T05:08:23.247747+00:00",
       "raw": {
         "id": "d0edc36e-b79e-40bd-b007-d1dd397a63aa",
         "title": "Software Engineer, Display Systems",
@@ -688,7 +688,7 @@
       "source": "ashby",
       "posted_at": "2026-07-01T23:24:25.504+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:21.701966+00:00",
+      "discovered_at": "2026-08-30T05:08:23.247957+00:00",
       "raw": {
         "id": "1b78e4dd-f37c-4cdd-a719-11a8d0b1fbc8",
         "title": "Software Engineer, Full-Stack",
@@ -745,7 +745,7 @@
       "source": "ashby",
       "posted_at": "2026-07-01T23:26:34.858+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:21.702289+00:00",
+      "discovered_at": "2026-08-30T05:08:23.248246+00:00",
       "raw": {
         "id": "b66b23f2-3ba1-4003-957d-4a537e7edb97",
         "title": "Software Engineer, Graphics & Camera Pipeline",
@@ -802,7 +802,7 @@
       "source": "ashby",
       "posted_at": "2026-07-01T23:28:39.252+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:21.702543+00:00",
+      "discovered_at": "2026-08-30T05:08:23.248489+00:00",
       "raw": {
         "id": "112c8467-8622-4a70-a09a-d658e5b41699",
         "title": "Software Engineer, Perception (SLAM/VIO)",
@@ -859,7 +859,7 @@
       "source": "ashby",
       "posted_at": "2026-07-01T23:30:54.368+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:21.702840+00:00",
+      "discovered_at": "2026-08-30T05:08:23.249005+00:00",
       "raw": {
         "id": "2fbe4713-3474-4b1e-87e9-1a84c9c49cb0",
         "title": "Software Engineer, Sensor Fusion",
@@ -916,7 +916,7 @@
       "source": "ashby",
       "posted_at": "2026-07-01T23:40:58.046+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:21.703328+00:00",
+      "discovered_at": "2026-08-30T05:08:23.255630+00:00",
       "raw": {
         "id": "b0ee58a4-7e18-4023-a3b8-7cb50ccfca05",
         "title": "Product Marketing Manager",
@@ -960,7 +960,7 @@
       "source": "ashby",
       "posted_at": "2026-08-21T14:23:35.845+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:21.703683+00:00",
+      "discovered_at": "2026-08-30T05:08:23.256170+00:00",
       "raw": {
         "id": "5f914e65-8d11-48eb-b784-a20ba9867bf4",
         "title": "Technical Program Manager, Hardware Systems",
@@ -1004,7 +1004,7 @@
       "source": "ashby",
       "posted_at": "2026-07-01T23:51:06.458+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:21.704032+00:00",
+      "discovered_at": "2026-08-30T05:08:23.256858+00:00",
       "raw": {
         "id": "81c2b361-7b31-49bf-8f32-10b4cac8fe93",
         "title": "Trade Compliance Lead",
@@ -1048,7 +1048,7 @@
       "source": "ashby",
       "posted_at": "2026-08-28T15:53:09.054+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:21.704338+00:00",
+      "discovered_at": "2026-08-30T05:08:23.257438+00:00",
       "raw": {
         "id": "b8783882-9c97-4603-ba87-79ec56da27ed",
         "title": "Head of War",
@@ -1092,7 +1092,7 @@
       "source": "ashby",
       "posted_at": "2026-08-19T03:36:43.238+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:21.705656+00:00",
+      "discovered_at": "2026-08-30T05:08:23.258135+00:00",
       "raw": {
         "id": "001345f4-a044-41dd-bc8c-91d09b4969c5",
         "title": "Software Engineer, Linux Kernel / Android",
@@ -1159,7 +1159,7 @@
       "source": "ashby",
       "posted_at": "2026-08-24T20:33:26.447+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:21.706200+00:00",
+      "discovered_at": "2026-08-30T05:08:23.258506+00:00",
       "raw": {
         "id": "4e02461a-9f6c-4d3c-a511-6d54f31999bc",
         "title": "Software Engineer Intern, XR Team (Fall 2026)",
@@ -1203,7 +1203,7 @@
       "source": "ashby",
       "posted_at": "2026-08-27T14:32:04.645+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:21.706571+00:00",
+      "discovered_at": "2026-08-30T05:08:23.259020+00:00",
       "raw": {
         "id": "5c4789f8-4532-476d-b1ca-ee910bebc208",
         "title": "Office Manager, Bellevue",

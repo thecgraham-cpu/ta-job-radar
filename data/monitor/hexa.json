@@ -4,7 +4,7 @@
   "career_page": "https://jobs.ashbyhq.com/hexa",
   "source": "ashby",
   "identifier": "hexa",
-  "scanned_at": "2026-08-29T05:46:20.129487+00:00",
+  "scanned_at": "2026-08-30T05:08:21.199481+00:00",
   "count": 23,
   "total_available": 23,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "ashby",
       "posted_at": "2026-03-11T17:03:07.702+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.118862+00:00",
+      "discovered_at": "2026-08-30T05:08:21.193824+00:00",
       "raw": {
         "id": "6004f978-5977-44c1-a437-111e9eabf2c0",
         "title": "Sales Executive (full cycle) - SMB",
@@ -61,7 +61,7 @@
       "source": "ashby",
       "posted_at": "2026-01-15T09:15:35.723+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.119161+00:00",
+      "discovered_at": "2026-08-30T05:08:21.193959+00:00",
       "raw": {
         "id": "43fa0f3f-563c-4619-940f-c143ef74d0cd",
         "title": "Become a Tech Founder",
@@ -97,7 +97,7 @@
       "source": "ashby",
       "posted_at": "2025-12-17T10:41:01.795+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.119445+00:00",
+      "discovered_at": "2026-08-30T05:08:21.194124+00:00",
       "raw": {
         "id": "a323ba3f-729b-40f7-83f6-de9418e6388e",
         "title": "Become a Business Founder",
@@ -133,7 +133,7 @@
       "source": "ashby",
       "posted_at": "2026-03-10T08:56:10.857+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.119959+00:00",
+      "discovered_at": "2026-08-30T05:08:21.194333+00:00",
       "raw": {
         "id": "8c62a65a-cf55-466f-8911-9f3edeb8ebb3",
         "title": "Internships ",
@@ -169,7 +169,7 @@
       "source": "ashby",
       "posted_at": "2026-04-15T07:13:52.494+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.120296+00:00",
+      "discovered_at": "2026-08-30T05:08:21.194524+00:00",
       "raw": {
         "id": "136089d4-61b0-4fbd-95e7-208e3e2ad617",
         "title": "Founding Growth Lead @ Waniwani",
@@ -209,7 +209,7 @@
       "source": "ashby",
       "posted_at": "2026-04-15T07:16:07.251+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.120439+00:00",
+      "discovered_at": "2026-08-30T05:08:21.194652+00:00",
       "raw": {
         "id": "0c2b66b8-2070-4858-99d4-193e5186b9d0",
         "title": "Founding Deployment Strategist @ Waniwani",
@@ -249,7 +249,7 @@
       "source": "ashby",
       "posted_at": "2026-07-24T10:39:23.890+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.120727+00:00",
+      "discovered_at": "2026-08-30T05:08:21.194924+00:00",
       "raw": {
         "id": "0ccc4e1d-a6a5-4e9b-96ea-811ee27f7d9c",
         "title": "Founding Sales @Verso (backed by Hexa)",
@@ -285,7 +285,7 @@
       "source": "ashby",
       "posted_at": "2026-06-29T14:33:24.109+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.120903+00:00",
+      "discovered_at": "2026-08-30T05:08:21.195122+00:00",
       "raw": {
         "id": "3eebed78-c8b8-49ae-99da-dc9c07020d29",
         "title": "VP Finance and Investments",
@@ -321,7 +321,7 @@
       "source": "ashby",
       "posted_at": "2026-07-24T10:46:10.451+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.121189+00:00",
+      "discovered_at": "2026-08-30T05:08:21.195372+00:00",
       "raw": {
         "id": "66047253-408d-4a9b-bfaa-5a88ce3da7f6",
         "title": "Founding GTM @Verso (backed by Hexa)",
@@ -357,7 +357,7 @@
       "source": "ashby",
       "posted_at": "2026-08-24T16:43:11.572+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.121978+00:00",
+      "discovered_at": "2026-08-30T05:08:21.195623+00:00",
       "raw": {
         "id": "8ab7f165-f414-49ab-875e-1442ebd43d5d",
         "title": "AI Applied Researcher",
@@ -393,7 +393,7 @@
       "source": "ashby",
       "posted_at": "2026-08-24T16:43:43.752+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.122539+00:00",
+      "discovered_at": "2026-08-30T05:08:21.195852+00:00",
       "raw": {
         "id": "694372c8-b7af-4db8-9fd7-9c963e254bab",
         "title": "Acoustic Researcher",
@@ -429,7 +429,7 @@
       "source": "ashby",
       "posted_at": "2026-06-04T12:44:05.354+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.123016+00:00",
+      "discovered_at": "2026-08-30T05:08:21.195992+00:00",
       "raw": {
         "id": "b10a4d3a-1831-4634-bb47-8e818ce681d7",
         "title": "Step into the Hexa ecosystem",
@@ -465,7 +465,7 @@
       "source": "ashby",
       "posted_at": "2026-06-10T16:10:55.224+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.124474+00:00",
+      "discovered_at": "2026-08-30T05:08:21.196368+00:00",
       "raw": {
         "id": "14980cdc-b2ee-4988-894b-3e59c10f1f8b",
         "title": "Founding Sales @Panora (backed by Hexa)",
@@ -501,7 +501,7 @@
       "source": "ashby",
       "posted_at": "2026-06-22T10:36:29.868+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.125034+00:00",
+      "discovered_at": "2026-08-30T05:08:21.196643+00:00",
       "raw": {
         "id": "71d884aa-5fd3-4f60-80a7-87856fd047de",
         "title": "Founding Product Designer @Panora (backed by Hexa)",
@@ -537,7 +537,7 @@
       "source": "ashby",
       "posted_at": "2026-06-26T14:25:32.070+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.125536+00:00",
+      "discovered_at": "2026-08-30T05:08:21.196898+00:00",
       "raw": {
         "id": "2f5edcbf-d4eb-4ef1-955d-4793569c4c15",
         "title": "Founding Sales @Plato (backed by Hexa)",
@@ -573,7 +573,7 @@
       "source": "ashby",
       "posted_at": "2026-06-26T14:43:20.785+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.126195+00:00",
+      "discovered_at": "2026-08-30T05:08:21.197214+00:00",
       "raw": {
         "id": "2de452ab-73ca-4bdf-b209-340296a3ecc5",
         "title": "Lead Data Engineer @Panora (backed by Hexa)",
@@ -609,7 +609,7 @@
       "source": "ashby",
       "posted_at": "2026-07-07T07:34:02.162+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.126790+00:00",
+      "discovered_at": "2026-08-30T05:08:21.197739+00:00",
       "raw": {
         "id": "eb7c35df-1120-4d24-9d20-49780eb1016c",
         "title": "Software Engineer @Panora (backed by Hexa) ",
@@ -645,7 +645,7 @@
       "source": "ashby",
       "posted_at": "2026-07-22T15:04:00.669+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.126990+00:00",
+      "discovered_at": "2026-08-30T05:08:21.197961+00:00",
       "raw": {
         "id": "9040c373-0434-4274-b40d-6a18c1f7f803",
         "title": "Forward Deployed Engineer",
@@ -683,7 +683,7 @@
       "source": "ashby",
       "posted_at": "2026-07-22T12:34:46.204+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.127473+00:00",
+      "discovered_at": "2026-08-30T05:08:21.198219+00:00",
       "raw": {
         "id": "70cf992b-f3f1-4beb-bacc-b7e1f842c2cc",
         "title": "Business Developer @Plato (backed Hexa)",
@@ -719,7 +719,7 @@
       "source": "ashby",
       "posted_at": "2026-07-23T12:48:47.914+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.127771+00:00",
+      "discovered_at": "2026-08-30T05:08:21.198384+00:00",
       "raw": {
         "id": "575cd947-65bc-4ca2-a8f1-74ef2555de0d",
         "title": "Founding Partnership",
@@ -759,7 +759,7 @@
       "source": "ashby",
       "posted_at": "2026-07-24T07:50:59.596+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.128334+00:00",
+      "discovered_at": "2026-08-30T05:08:21.198757+00:00",
       "raw": {
         "id": "e24e6a42-613b-46cb-b2a7-c12aa44fa1a4",
         "title": "Product Lead @Panora",
@@ -795,7 +795,7 @@
       "source": "ashby",
       "posted_at": "2026-07-28T14:53:02.839+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.128903+00:00",
+      "discovered_at": "2026-08-30T05:08:21.199143+00:00",
       "raw": {
         "id": "e276fa2c-ae41-483a-bd84-57523af2c268",
         "title": "Head of Brand and Communication",
@@ -831,7 +831,7 @@
       "source": "ashby",
       "posted_at": "2026-07-31T08:52:37.514+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.129441+00:00",
+      "discovered_at": "2026-08-30T05:08:21.199450+00:00",
       "raw": {
         "id": "ede8e673-9e97-4307-9ee8-5b30dc4be50b",
         "title": "Founder Associate Intern @Hexa (WTF Studio)",

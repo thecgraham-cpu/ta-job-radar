@@ -4,7 +4,7 @@
   "career_page": "https://jobs.ashbyhq.com/meadow",
   "source": "ashby",
   "identifier": "meadow",
-  "scanned_at": "2026-08-29T05:46:20.374671+00:00",
+  "scanned_at": "2026-08-30T05:08:21.761947+00:00",
   "count": 5,
   "total_available": 5,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "ashby",
       "posted_at": "2026-04-11T21:11:24.610+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.371982+00:00",
+      "discovered_at": "2026-08-30T05:08:21.760806+00:00",
       "raw": {
         "id": "bf3f1d3a-343d-4044-a7f1-950f7eb42e40",
         "title": "Senior Software Engineer",
@@ -87,7 +87,7 @@
       "source": "ashby",
       "posted_at": "2026-04-29T15:32:57.026+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.372768+00:00",
+      "discovered_at": "2026-08-30T05:08:21.761099+00:00",
       "raw": {
         "id": "c7f826e0-8518-4902-8bda-95c1c9fd54e8",
         "title": "Senior Product Designer",
@@ -149,7 +149,7 @@
       "source": "ashby",
       "posted_at": "2026-07-17T20:52:20.246+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.373319+00:00",
+      "discovered_at": "2026-08-30T05:08:21.761350+00:00",
       "raw": {
         "id": "f4d78180-7da3-427e-bd57-3c9ac375ef93",
         "title": "Senior Integration Engineer",
@@ -211,7 +211,7 @@
       "source": "ashby",
       "posted_at": "2026-06-16T20:33:51.614+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.373805+00:00",
+      "discovered_at": "2026-08-30T05:08:21.761565+00:00",
       "raw": {
         "id": "8cd1c1e5-fe21-479e-8341-854cc2d2aeb6",
         "title": "Customer Success Manager",
@@ -273,7 +273,7 @@
       "source": "ashby",
       "posted_at": "2026-07-23T22:18:15.953+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.374623+00:00",
+      "discovered_at": "2026-08-30T05:08:21.761926+00:00",
       "raw": {
         "id": "0c7f84ea-8bb1-499d-936e-cc066178a1f7",
         "title": "Director of Business Development",

@@ -4,7 +4,7 @@
   "career_page": "https://jobs.ashbyhq.com/ycombinator",
   "source": "ashby",
   "identifier": "ycombinator",
-  "scanned_at": "2026-08-29T05:46:24.896467+00:00",
+  "scanned_at": "2026-08-30T05:08:26.367979+00:00",
   "count": 7,
   "total_available": 7,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "ashby",
       "posted_at": "2026-01-08T20:12:44.226+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:24.894232+00:00",
+      "discovered_at": "2026-08-30T05:08:26.365741+00:00",
       "raw": {
         "id": "bbf8f36d-60bf-4168-b2b8-fac91bc4534c",
         "title": "Product Engineer, Internal Tools",
@@ -67,7 +67,7 @@
       "source": "ashby",
       "posted_at": "2026-01-08T20:11:29.944+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:24.894668+00:00",
+      "discovered_at": "2026-08-30T05:08:26.366276+00:00",
       "raw": {
         "id": "00c6950f-341f-4924-a456-ea32c9d5601d",
         "title": "Product Engineer, Bookface",
@@ -109,7 +109,7 @@
       "source": "ashby",
       "posted_at": "2026-01-08T20:12:34.388+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:24.894974+00:00",
+      "discovered_at": "2026-08-30T05:08:26.366737+00:00",
       "raw": {
         "id": "6dd95d42-8e9b-4e1a-a674-e37e2ddd62fc",
         "title": "Software Product Design Engineer",
@@ -151,7 +151,7 @@
       "source": "ashby",
       "posted_at": "2026-01-08T20:19:45.247+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:24.895486+00:00",
+      "discovered_at": "2026-08-30T05:08:26.367136+00:00",
       "raw": {
         "id": "d8181870-1652-4436-b7c7-b3b44115fd70",
         "title": "Investment Associate & Product Engineer",
@@ -193,7 +193,7 @@
       "source": "ashby",
       "posted_at": "2026-03-27T19:41:44.172+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:24.895903+00:00",
+      "discovered_at": "2026-08-30T05:08:26.367437+00:00",
       "raw": {
         "id": "b3ca026e-aae8-45dc-a621-df1d7eb1945d",
         "title": "Product Engineer, Applications Operations",
@@ -235,7 +235,7 @@
       "source": "ashby",
       "posted_at": "2026-06-22T23:41:22.158+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:24.896175+00:00",
+      "discovered_at": "2026-08-30T05:08:26.367692+00:00",
       "raw": {
         "id": "1b08c336-45bb-4c31-b626-02f4aec79ca2",
         "title": "Product Engineer, New Products",
@@ -277,7 +277,7 @@
       "source": "ashby",
       "posted_at": "2026-08-06T17:28:02.803+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:24.896447+00:00",
+      "discovered_at": "2026-08-30T05:08:26.367955+00:00",
       "raw": {
         "id": "8f19beae-800c-4dd4-ab1f-7e572163086b",
         "title": "Events Manager",

@@ -4,7 +4,7 @@
   "career_page": "https://job-boards.greenhouse.io/hive",
   "source": "greenhouse",
   "identifier": "hive",
-  "scanned_at": "2026-08-29T05:46:19.838162+00:00",
+  "scanned_at": "2026-08-30T05:08:20.927067+00:00",
   "count": 10,
   "total_available": 10,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T03:43:38-04:00",
       "updated_at": "2026-08-24T03:43:38-04:00",
-      "discovered_at": "2026-08-29T05:46:19.823559+00:00",
+      "discovered_at": "2026-08-30T05:08:20.922133+00:00",
       "raw": {
         "absolute_url": "https://job-boards.eu.greenhouse.io/hive/jobs/4940573101",
         "data_compliance": [
@@ -90,7 +90,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T03:43:52-04:00",
       "updated_at": "2026-08-24T03:43:52-04:00",
-      "discovered_at": "2026-08-29T05:46:19.824629+00:00",
+      "discovered_at": "2026-08-30T05:08:20.922652+00:00",
       "raw": {
         "absolute_url": "https://job-boards.eu.greenhouse.io/hive/jobs/4549378101",
         "data_compliance": [
@@ -155,7 +155,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-07T07:55:40-04:00",
       "updated_at": "2026-08-07T07:55:40-04:00",
-      "discovered_at": "2026-08-29T05:46:19.825405+00:00",
+      "discovered_at": "2026-08-30T05:08:20.923013+00:00",
       "raw": {
         "absolute_url": "https://job-boards.eu.greenhouse.io/hive/jobs/4848007101",
         "data_compliance": [
@@ -220,7 +220,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-28T07:22:00-04:00",
       "updated_at": "2026-08-28T07:22:00-04:00",
-      "discovered_at": "2026-08-29T05:46:19.826440+00:00",
+      "discovered_at": "2026-08-30T05:08:20.923485+00:00",
       "raw": {
         "absolute_url": "https://job-boards.eu.greenhouse.io/hive/jobs/4927022101",
         "data_compliance": [
@@ -285,7 +285,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-12T08:05:16-04:00",
       "updated_at": "2026-08-12T08:05:16-04:00",
-      "discovered_at": "2026-08-29T05:46:19.834247+00:00",
+      "discovered_at": "2026-08-30T05:08:20.923952+00:00",
       "raw": {
         "absolute_url": "https://job-boards.eu.greenhouse.io/hive/jobs/4851580101",
         "data_compliance": [
@@ -353,7 +353,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-11T09:14:20-04:00",
       "updated_at": "2026-08-11T09:14:20-04:00",
-      "discovered_at": "2026-08-29T05:46:19.834828+00:00",
+      "discovered_at": "2026-08-30T05:08:20.924546+00:00",
       "raw": {
         "absolute_url": "https://job-boards.eu.greenhouse.io/hive/jobs/4851568101",
         "data_compliance": [
@@ -421,7 +421,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-07T07:55:22-04:00",
       "updated_at": "2026-08-07T07:55:22-04:00",
-      "discovered_at": "2026-08-29T05:46:19.835422+00:00",
+      "discovered_at": "2026-08-30T05:08:20.925221+00:00",
       "raw": {
         "absolute_url": "https://job-boards.eu.greenhouse.io/hive/jobs/4703289101",
         "data_compliance": [
@@ -486,7 +486,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-16T08:27:45-04:00",
       "updated_at": "2026-07-16T08:27:45-04:00",
-      "discovered_at": "2026-08-29T05:46:19.836122+00:00",
+      "discovered_at": "2026-08-30T05:08:20.925916+00:00",
       "raw": {
         "absolute_url": "https://job-boards.eu.greenhouse.io/hive/jobs/4929731101",
         "data_compliance": [
@@ -551,7 +551,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-15T08:56:00-04:00",
       "updated_at": "2026-07-15T08:56:00-04:00",
-      "discovered_at": "2026-08-29T05:46:19.837216+00:00",
+      "discovered_at": "2026-08-30T05:08:20.926532+00:00",
       "raw": {
         "absolute_url": "https://job-boards.eu.greenhouse.io/hive/jobs/4883716101",
         "data_compliance": [
@@ -616,7 +616,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-09T04:40:23-04:00",
       "updated_at": "2026-07-09T04:40:23-04:00",
-      "discovered_at": "2026-08-29T05:46:19.838103+00:00",
+      "discovered_at": "2026-08-30T05:08:20.927045+00:00",
       "raw": {
         "absolute_url": "https://job-boards.eu.greenhouse.io/hive/jobs/4880901101",
         "data_compliance": [

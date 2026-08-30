@@ -4,7 +4,7 @@
   "career_page": "https://jobs.ashbyhq.com/snapmagic",
   "source": "ashby",
   "identifier": "snapmagic",
-  "scanned_at": "2026-08-29T05:46:22.245221+00:00",
+  "scanned_at": "2026-08-30T05:08:24.455349+00:00",
   "count": 5,
   "total_available": 5,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "ashby",
       "posted_at": "2026-07-02T18:29:49.030+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:22.243878+00:00",
+      "discovered_at": "2026-08-30T05:08:24.453481+00:00",
       "raw": {
         "id": "120f8ce9-1d75-4b5c-a8ab-c83626b97fee",
         "title": "Head of Engineering",
@@ -69,7 +69,7 @@
       "source": "ashby",
       "posted_at": "2026-07-02T18:26:00.949+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:22.244189+00:00",
+      "discovered_at": "2026-08-30T05:08:24.454019+00:00",
       "raw": {
         "id": "bb2eaea0-4275-4882-a43a-e6f0ad9c497a",
         "title": "Enterprise Account Executive",
@@ -113,7 +113,7 @@
       "source": "ashby",
       "posted_at": "2026-07-02T18:36:30.776+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:22.244587+00:00",
+      "discovered_at": "2026-08-30T05:08:24.454725+00:00",
       "raw": {
         "id": "8cabd497-935c-4c1b-b0c4-1d2ba8ea7c36",
         "title": "Head of Business Operations",
@@ -157,7 +157,7 @@
       "source": "ashby",
       "posted_at": "2026-07-01T20:18:24.273+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:22.244811+00:00",
+      "discovered_at": "2026-08-30T05:08:24.454964+00:00",
       "raw": {
         "id": "78873176-9801-4ff3-9a5f-88c9320781a9",
         "title": "Head of Sales",
@@ -201,7 +201,7 @@
       "source": "ashby",
       "posted_at": "2026-07-10T20:25:38.471+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:22.245196+00:00",
+      "discovered_at": "2026-08-30T05:08:24.455327+00:00",
       "raw": {
         "id": "2d3b9362-ddfa-4a7a-a595-72ca28752961",
         "title": "Head of Customer Success",

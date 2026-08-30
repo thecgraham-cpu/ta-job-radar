@@ -4,7 +4,7 @@
   "career_page": "https://job-boards.greenhouse.io/tester",
   "source": "greenhouse",
   "identifier": "tester",
-  "scanned_at": "2026-08-29T05:46:23.257709+00:00",
+  "scanned_at": "2026-08-30T05:08:25.495371+00:00",
   "count": 1,
   "total_available": 1,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "greenhouse",
       "posted_at": "2025-11-04T16:11:26-05:00",
       "updated_at": "2025-11-04T16:11:26-05:00",
-      "discovered_at": "2026-08-29T05:46:23.257674+00:00",
+      "discovered_at": "2026-08-30T05:08:25.495340+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/tester/jobs/4640896004",
         "data_compliance": [

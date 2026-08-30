@@ -4,7 +4,7 @@
   "career_page": "https://jobs.ashbyhq.com/compresr",
   "source": "ashby",
   "identifier": "compresr",
-  "scanned_at": "2026-08-29T05:46:17.811570+00:00",
+  "scanned_at": "2026-08-30T05:08:19.920718+00:00",
   "count": 2,
   "total_available": 2,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "ashby",
       "posted_at": "2026-07-27T04:31:53.231+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.811367+00:00",
+      "discovered_at": "2026-08-30T05:08:19.920446+00:00",
       "raw": {
         "id": "00776540-4729-4351-b25d-4050c7e3155b",
         "title": "Founding Engineer",
@@ -82,7 +82,7 @@
       "source": "ashby",
       "posted_at": "2026-07-23T02:31:45.207+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.811551+00:00",
+      "discovered_at": "2026-08-30T05:08:19.920691+00:00",
       "raw": {
         "id": "72d27884-ce7c-4d63-b9df-e609c21e2c8c",
         "title": "Research Intern",

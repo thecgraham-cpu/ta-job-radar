@@ -4,7 +4,7 @@
   "career_page": "https://jobs.ashbyhq.com/onerobot",
   "source": "ashby",
   "identifier": "onerobot",
-  "scanned_at": "2026-08-29T05:46:20.788261+00:00",
+  "scanned_at": "2026-08-30T05:08:22.111348+00:00",
   "count": 4,
   "total_available": 4,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "ashby",
       "posted_at": "2026-08-05T15:25:26.095+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.787834+00:00",
+      "discovered_at": "2026-08-30T05:08:22.110380+00:00",
       "raw": {
         "id": "084b67a9-db33-433b-bd81-e131a359b0a7",
         "title": "Founding Machine Learning - World Models",
@@ -67,7 +67,7 @@
       "source": "ashby",
       "posted_at": "2026-08-05T15:24:54.339+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.787963+00:00",
+      "discovered_at": "2026-08-30T05:08:22.110699+00:00",
       "raw": {
         "id": "b35190f3-9384-4dce-9e78-73ec88b6257d",
         "title": "Founding Machine Learning - Eval Layer",
@@ -109,7 +109,7 @@
       "source": "ashby",
       "posted_at": "2026-07-24T23:43:37.867+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.788097+00:00",
+      "discovered_at": "2026-08-30T05:08:22.110972+00:00",
       "raw": {
         "id": "12fc1098-421d-4068-9879-e1737fb91571",
         "title": "Machine Learning Intern",
@@ -151,7 +151,7 @@
       "source": "ashby",
       "posted_at": "2026-08-13T19:26:31.456+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.788246+00:00",
+      "discovered_at": "2026-08-30T05:08:22.111305+00:00",
       "raw": {
         "id": "5fb5317f-c92e-44c1-b1be-c8cfc71882dc",
         "title": "Founding Robot Learning",

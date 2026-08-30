@@ -4,7 +4,7 @@
   "career_page": "https://jobs.ashbyhq.com/assembly",
   "source": "ashby",
   "identifier": "assembly",
-  "scanned_at": "2026-08-29T05:46:16.653325+00:00",
+  "scanned_at": "2026-08-30T05:08:19.314942+00:00",
   "count": 4,
   "total_available": 4,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "ashby",
       "posted_at": "2021-11-01T15:38:28.026+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.651856+00:00",
+      "discovered_at": "2026-08-30T05:08:19.314109+00:00",
       "raw": {
         "id": "3d04eed3-211a-483b-aaee-a73b98147a18",
         "title": "Senior Software Engineer",
@@ -67,7 +67,7 @@
       "source": "ashby",
       "posted_at": "2025-03-04T18:55:51.451+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.652466+00:00",
+      "discovered_at": "2026-08-30T05:08:19.314352+00:00",
       "raw": {
         "id": "02a10ccf-18d1-4141-8f31-846da65804cb",
         "title": "Growth & GTM Engineer",
@@ -109,7 +109,7 @@
       "source": "ashby",
       "posted_at": "2026-01-12T14:55:44.610+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.652972+00:00",
+      "discovered_at": "2026-08-30T05:08:19.314599+00:00",
       "raw": {
         "id": "22dc481b-d2b4-4705-8a1f-c6dcbf09787c",
         "title": "Account Executive",
@@ -151,7 +151,7 @@
       "source": "ashby",
       "posted_at": "2026-05-27T20:38:13.405+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.653290+00:00",
+      "discovered_at": "2026-08-30T05:08:19.314914+00:00",
       "raw": {
         "id": "bf451c7b-a03d-443a-9ca1-5057718a375f",
         "title": "Associate Account Executive",

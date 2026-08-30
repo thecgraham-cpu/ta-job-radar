@@ -4,7 +4,7 @@
   "career_page": "https://jobs.ashbyhq.com/readme",
   "source": "ashby",
   "identifier": "readme",
-  "scanned_at": "2026-08-29T05:46:22.931577+00:00",
+  "scanned_at": "2026-08-30T05:08:24.652779+00:00",
   "count": 1,
   "total_available": 1,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "ashby",
       "posted_at": "2026-02-26T22:50:13.342+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:22.931535+00:00",
+      "discovered_at": "2026-08-30T05:08:24.652738+00:00",
       "raw": {
         "id": "9e5772cd-5eda-41b8-944b-28ea08d6595e",
         "title": "Enterprise Support Engineer",

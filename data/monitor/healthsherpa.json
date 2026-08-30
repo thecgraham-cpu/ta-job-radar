@@ -4,7 +4,7 @@
   "career_page": "https://jobs.ashbyhq.com/healthsherpa",
   "source": "ashby",
   "identifier": "healthsherpa",
-  "scanned_at": "2026-08-29T05:46:19.550416+00:00",
+  "scanned_at": "2026-08-30T05:08:20.819209+00:00",
   "count": 10,
   "total_available": 10,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "ashby",
       "posted_at": "2022-12-30T16:33:24.494+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.542894+00:00",
+      "discovered_at": "2026-08-30T05:08:20.816713+00:00",
       "raw": {
         "id": "5a1912b6-d824-4823-8738-07fad8921ad6",
         "title": "Don't See What You're Looking For?",
@@ -65,7 +65,7 @@
       "source": "ashby",
       "posted_at": "2026-07-02T04:45:36.478+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.543486+00:00",
+      "discovered_at": "2026-08-30T05:08:20.816993+00:00",
       "raw": {
         "id": "6ea3cfe2-c0e6-4249-9250-008751b727af",
         "title": "Seasonal Bilingual Agent Support Representative (Remote - OH)",
@@ -106,7 +106,7 @@
       "source": "ashby",
       "posted_at": "2026-07-02T04:45:46.589+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.543976+00:00",
+      "discovered_at": "2026-08-30T05:08:20.817252+00:00",
       "raw": {
         "id": "8cf80271-00fa-4b12-9d1a-b94ea251554c",
         "title": "Seasonal Bilingual Agent Support Representative (Remote - UT)",
@@ -147,7 +147,7 @@
       "source": "ashby",
       "posted_at": "2026-07-02T04:46:05.048+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.544506+00:00",
+      "discovered_at": "2026-08-30T05:08:20.817499+00:00",
       "raw": {
         "id": "afb33a31-28b7-4be1-815e-6fa11ff3e42f",
         "title": "Seasonal Bilingual Agent Support Representative (Remote - VA)",
@@ -188,7 +188,7 @@
       "source": "ashby",
       "posted_at": "2026-07-02T04:46:18.639+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.545182+00:00",
+      "discovered_at": "2026-08-30T05:08:20.817757+00:00",
       "raw": {
         "id": "e7e519a2-05a1-44ff-b523-3084f47a0172",
         "title": "Seasonal Bilingual Agent Support Representative (Remote - TX)",
@@ -229,7 +229,7 @@
       "source": "ashby",
       "posted_at": "2026-07-02T04:46:24.513+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.546094+00:00",
+      "discovered_at": "2026-08-30T05:08:20.818004+00:00",
       "raw": {
         "id": "2b472114-3993-4281-ae1f-09df4a5523d2",
         "title": "Seasonal Bilingual Agent Support Representative (Remote - TN)",
@@ -270,7 +270,7 @@
       "source": "ashby",
       "posted_at": "2026-07-01T14:18:16.866+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.547242+00:00",
+      "discovered_at": "2026-08-30T05:08:20.818248+00:00",
       "raw": {
         "id": "89449a6e-077f-4a0c-b3ae-0ef77a426212",
         "title": "Seasonal Bilingual Agent Support Representative (Remote - FL, OH, TN, TX, UT, VA)",
@@ -311,7 +311,7 @@
       "source": "ashby",
       "posted_at": "2026-07-02T04:45:59.394+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.549292+00:00",
+      "discovered_at": "2026-08-30T05:08:20.818483+00:00",
       "raw": {
         "id": "9f2b0f6f-9304-433a-ac92-6eee961204c8",
         "title": "Seasonal Bilingual Agent Support Representative (Remote - FL)",
@@ -352,7 +352,7 @@
       "source": "ashby",
       "posted_at": "2026-03-05T17:36:45.318+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.549873+00:00",
+      "discovered_at": "2026-08-30T05:08:20.818874+00:00",
       "raw": {
         "id": "9b79e3c9-5ec8-4663-8f59-4bb1c1d29474",
         "title": "Senior Technical Account Manager",
@@ -392,7 +392,7 @@
       "source": "ashby",
       "posted_at": "2025-10-01T18:11:11.848+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.550385+00:00",
+      "discovered_at": "2026-08-30T05:08:20.819186+00:00",
       "raw": {
         "id": "5b29182e-076e-4dce-a6bd-861271065a47",
         "title": "Senior Product Engineer",

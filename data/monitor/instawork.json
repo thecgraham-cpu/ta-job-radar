@@ -4,9 +4,9 @@
   "career_page": "https://job-boards.greenhouse.io/instawork",
   "source": "greenhouse",
   "identifier": "instawork",
-  "scanned_at": "2026-08-29T05:46:20.689318+00:00",
-  "count": 56,
-  "total_available": 56,
+  "scanned_at": "2026-08-30T05:08:21.950003+00:00",
+  "count": 57,
+  "total_available": 57,
   "partial_scan": false,
   "jobs": [
     {
@@ -25,7 +25,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T01:01:08-04:00",
       "updated_at": "2026-08-27T01:01:08-04:00",
-      "discovered_at": "2026-08-29T05:46:20.635851+00:00",
+      "discovered_at": "2026-08-30T05:08:21.862118+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4693215006",
         "data_compliance": [
@@ -128,7 +128,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T01:01:07-04:00",
       "updated_at": "2026-08-27T01:01:07-04:00",
-      "discovered_at": "2026-08-29T05:46:20.636696+00:00",
+      "discovered_at": "2026-08-30T05:08:21.863693+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4686774006",
         "data_compliance": [
@@ -231,7 +231,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T01:01:03-04:00",
       "updated_at": "2026-08-27T01:01:03-04:00",
-      "discovered_at": "2026-08-29T05:46:20.637670+00:00",
+      "discovered_at": "2026-08-30T05:08:21.865277+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4625736006",
         "data_compliance": [
@@ -336,7 +336,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-28T05:15:36-04:00",
       "updated_at": "2026-08-28T05:15:36-04:00",
-      "discovered_at": "2026-08-29T05:46:20.638886+00:00",
+      "discovered_at": "2026-08-30T05:08:21.866241+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4709125006",
         "data_compliance": [
@@ -436,7 +436,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T01:01:02-04:00",
       "updated_at": "2026-08-27T01:01:02-04:00",
-      "discovered_at": "2026-08-29T05:46:20.639720+00:00",
+      "discovered_at": "2026-08-30T05:08:21.879198+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4619515006",
         "data_compliance": [
@@ -539,7 +539,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T01:01:08-04:00",
       "updated_at": "2026-08-27T01:01:08-04:00",
-      "discovered_at": "2026-08-29T05:46:20.640461+00:00",
+      "discovered_at": "2026-08-30T05:08:21.879957+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4702041006",
         "data_compliance": [
@@ -642,7 +642,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T01:01:07-04:00",
       "updated_at": "2026-08-27T01:01:07-04:00",
-      "discovered_at": "2026-08-29T05:46:20.642293+00:00",
+      "discovered_at": "2026-08-30T05:08:21.880605+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4684940006",
         "data_compliance": [
@@ -745,7 +745,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T01:01:06-04:00",
       "updated_at": "2026-08-27T01:01:06-04:00",
-      "discovered_at": "2026-08-29T05:46:20.642985+00:00",
+      "discovered_at": "2026-08-30T05:08:21.881209+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4682996006",
         "data_compliance": [
@@ -848,7 +848,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T01:01:06-04:00",
       "updated_at": "2026-08-27T01:01:06-04:00",
-      "discovered_at": "2026-08-29T05:46:20.643902+00:00",
+      "discovered_at": "2026-08-30T05:08:21.881828+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4682997006",
         "data_compliance": [
@@ -951,7 +951,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T01:01:02-04:00",
       "updated_at": "2026-08-27T01:01:02-04:00",
-      "discovered_at": "2026-08-29T05:46:20.644897+00:00",
+      "discovered_at": "2026-08-30T05:08:21.882453+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4620751006",
         "data_compliance": [
@@ -1054,7 +1054,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T01:01:07-04:00",
       "updated_at": "2026-08-27T01:01:07-04:00",
-      "discovered_at": "2026-08-29T05:46:20.647268+00:00",
+      "discovered_at": "2026-08-30T05:08:21.883509+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4689262006",
         "data_compliance": [
@@ -1157,7 +1157,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T01:00:53-04:00",
       "updated_at": "2026-08-27T01:00:53-04:00",
-      "discovered_at": "2026-08-29T05:46:20.648091+00:00",
+      "discovered_at": "2026-08-30T05:08:21.884212+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4411720006",
         "data_compliance": [
@@ -1271,7 +1271,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T01:00:59-04:00",
       "updated_at": "2026-08-27T01:00:59-04:00",
-      "discovered_at": "2026-08-29T05:46:20.650083+00:00",
+      "discovered_at": "2026-08-30T05:08:21.885063+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4573123006",
         "data_compliance": [
@@ -1385,7 +1385,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T01:00:58-04:00",
       "updated_at": "2026-08-27T01:00:58-04:00",
-      "discovered_at": "2026-08-29T05:46:20.651040+00:00",
+      "discovered_at": "2026-08-30T05:08:21.885820+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4573114006",
         "data_compliance": [
@@ -1499,7 +1499,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T01:01:04-04:00",
       "updated_at": "2026-08-27T01:01:04-04:00",
-      "discovered_at": "2026-08-29T05:46:20.651750+00:00",
+      "discovered_at": "2026-08-30T05:08:21.886909+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4655557006",
         "data_compliance": [
@@ -1587,109 +1587,6 @@
       }
     },
     {
-      "job_id": "284392e734dc99f6ee60370842147f045dc137bebea1e3df4890a5ace24f573c",
-      "external_id": "4625772006",
-      "company": "Instawork",
-      "title": "Field Operations Executive",
-      "location": "Bengaluru, Karnataka, India",
-      "remote": false,
-      "department": null,
-      "team": null,
-      "employment_type": null,
-      "description": "Instawork is on a mission to create meaningful economic opportunities for skilled hourly professionals in communities around the globe. Our AI-powered labor marketplace helps local businesses scale, and enables global technology companies to push the frontiers of robotics and AI. Backed by world-class investors like Benchmark, Spark Capital, Craft Ventures, Greylock, Y Combinator, and others, we’re looking for exceptional talent to reimagine the way the world works. About IRL Researchers at UC Berkeley have identified a “100,000-year data gap” - the gulf between what trained AI language models and what physical robots actually have to learn from. Closing that gap is the defining infrastructure challenge of the physical AI era. IRL is Instawork’s answer to it. We deploy skilled workers into real commercial and residential environments - kitchens, warehouses, hotel floors, homes - to capture the high-fidelity task data that the world’s leading Robotics labs use to train their foundation models. Read more&nbsp; here . Role Overview We are building one of India's largest commercial video data collection networks . As a Zonal Data Captain , you will own the business pipeline for your assigned zone . Your primary responsibility is to find businesses, convert them for on-site video data collection, and keep the recording engine in your territory active every single day . You will spend your days in the field meeting business owners, converting them, and expanding into new towns mapped to your zone . Core Compensation &amp; Target Fixed Salary: ₹25,000 / month Performance Incentives: Up to ₹95,000 / week* Core Target: 8 business conversions / day *Incentive Note: Incentives are performance-based and linked to verified conversions, recorded hours generated from your converted businesses, and quality/consistency of execution . All conversions and hours are subject to verification before payout . A detailed slab structure will be shared at the offer stage . What You'll Do 1. Business Pipeline Building (Your Core Job) Daily Target: Convert a minimum of 8 new businesses every day for commercial video data collection . Target Segments: Prioritize multi-worker and 2-shift environments: factories, manufacturing units, workshops, service centers, commercial kitchens, warehouses, printing &amp; packaging units, and facility management operations . Data Integrity: Complete the business conversion form accurately and fully for every single conversion on the same day . Verification: Every conversion is verified . A converted business means a real, reachable business that is scheduled and ready for recording . ⚠️ CRITICAL PERFORMANCE STANDARD: Any week with fewer than 50 converted businesses (~8/day) is a failure to execute the core requirement of this role and will result in termination . 2. Territory Scouting &amp; Expansion Map and expand into nearby towns and industrial clusters assigned to your zone . Identify new commercial categories and corridors with high recording potential . Build corridor-level knowledge: identify which streets, estates, and clusters hold the densest concentration of qualifying businesses . 3. Recording-Day Support Provide timely updates to your internal coordinator on pipeline status, scheduled recordings, and on-ground issues . Support field operations on recording days at the businesses you converted . Resolve owner concerns, access issues, and scheduling conflicts on the spot . Maintain relationships to ensure a business stays warm throughout its entire recording cycle . Role Requirements Language Skills: Native fluency in the local language of the zone, plus working English or Hindi . Experience: Minimum 1 year of experience as a Field Sales Executive, Business Development Executive, or equivalent field-facing role . Network: Existing network of business owners in the region . You should be able to name and reach real business owners in your territory (this will be verified during the interview) . Who Thrives in This Role? Field sales and vendor acquisition professionals who close face-to-face . Individuals comfortable with extensive daily travel within their zone . High-ownership operators who treat their territory like their own business . Professionals who perform exceptionally well under clear, non-negotiable daily numbers . Our Values&nbsp; Empathy, Trust &amp; Candor We put ourselves in the shoes of our colleagues and customers and don’t shy away from uncomfortable conversations, instead building trust through honest and direct feedback. Bias for Action We practice high-velocity decision-making, clear-eyed that we often operate with incomplete information. Growing quickly means it’s OK to be wrong, so long as we learn from our mistakes and course correct! Always Be Learning We’re a curious bunch, and with AI transforming our workplace we encourage everyone to learn from each other, compounding our knowledge and experience to help us change an entire industry. Act Like an Owner We work long, hard, and smart, building products that delight our users and drive growth. Your ability to impact Instawork is limited only by your courage and conviction, not your job description. About Instawork Founded in 2015,&nbsp; Instawork is the nation’s leading online labor marketplace for food services, hospitality, light industry, and logistics, connecting more than 7M skilled workers with local restaurants, hotels, warehouses, stadiums, and more. Our AI-powered platform serves thousands of businesses across more than 50 major markets in the United States and Canada. We're not just helping fill shifts, we're supporting local economies—and we're just getting started! Instawork has been featured by CBS News, The Wall Street Journal, The Washington Post, and the Associated Press. Forbes included us on their Next Billion Dollar Startups list; RetailTech Breakthrough named us Workforce Hiring Solution of the Year for 2025; and Inc. 5000 recognized us as one of the country's top 10% fastest-growing companies two years in a row. But what matters most is our impact. We're solving real problems for real people, and we’re doing it at scale. Join our team to help us build something that matters! We’re looking for superstars who want to help us shape the future of work. With hubs in San Francisco, Bangalore, and Chicago, city offices in New York, Phoenix, and Singapore, we're back to working together in-person five days a week because we believe the best ideas happen when great people collaborate face-to-face. We also value diverse perspectives and encourage applications from candidates of all backgrounds. Ready to make an impact? Learn more at www.instawork.com/about . Personnel Privacy Policy &nbsp;",
-      "apply_url": "https://job-boards.greenhouse.io/instawork/jobs/4625772006",
-      "source_url": "https://job-boards.greenhouse.io/instawork/jobs/4625772006",
-      "source": "greenhouse",
-      "posted_at": "2026-08-27T01:01:03-04:00",
-      "updated_at": "2026-08-27T01:01:03-04:00",
-      "discovered_at": "2026-08-29T05:46:20.653506+00:00",
-      "raw": {
-        "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4625772006",
-        "data_compliance": [
-          {
-            "type": "gdpr",
-            "requires_consent": false,
-            "requires_processing_consent": false,
-            "requires_retention_consent": false,
-            "retention_period": null,
-            "demographic_data_consent_applies": false
-          }
-        ],
-        "internal_job_id": 4524323006,
-        "location": {
-          "name": "Bengaluru, Karnataka, India"
-        },
-        "metadata": [
-          {
-            "id": 4007329006,
-            "name": "Employment Type",
-            "value": null,
-            "value_type": "single_select"
-          },
-          {
-            "id": 4057623006,
-            "name": "Compensation Band",
-            "value": {
-              "unit": null,
-              "max_value": "0.0",
-              "min_value": "0.0"
-            },
-            "value_type": "currency_range"
-          },
-          {
-            "id": 15548033006,
-            "name": "Headcount Type",
-            "value": "2025P",
-            "value_type": "single_select"
-          },
-          {
-            "id": 15683714006,
-            "name": "Compensation",
-            "value": {
-              "unit": null,
-              "amount": "0.0"
-            },
-            "value_type": "currency"
-          },
-          {
-            "id": 17101398006,
-            "name": "Interview slot confirmation stages",
-            "value": null,
-            "value_type": "long_text"
-          }
-        ],
-        "id": 4625772006,
-        "updated_at": "2026-08-27T01:01:03-04:00",
-        "requisition_id": "477",
-        "title": "Field Operations Executive ",
-        "company_name": "Instawork",
-        "first_published": "2025-12-14T23:25:45-05:00",
-        "language": "en",
-        "application_deadline": null,
-        "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Instawork is on a mission to create meaningful economic opportunities for skilled hourly professionals in communities around the globe. Our AI-powered labor marketplace helps local businesses scale, and enables global technology companies to push the frontiers of robotics and AI. Backed by world-class investors like Benchmark, Spark Capital, Craft Ventures, Greylock, Y Combinator, and others, we’re looking for exceptional talent to reimagine the way the world works.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;span style=&quot;font-size: 12pt; font-family: &#39;times new roman&#39;, times, serif;&quot;&gt;&lt;strong&gt;About IRL&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-size: 12pt; font-family: &#39;times new roman&#39;, times, serif;&quot;&gt;Researchers at UC Berkeley have identified a “100,000-year data gap” - the gulf between what trained AI language models and what physical robots actually have to learn from. Closing that gap is the defining infrastructure challenge of the physical AI era. IRL is Instawork’s answer to it. We deploy skilled workers into real commercial and residential environments - kitchens, warehouses, hotel floors, homes - to capture the high-fidelity task data that the world’s leading Robotics labs use to train their foundation models. Read more&amp;nbsp;&lt;a href=&quot;https://x.com/sumirmeghani/status/2044707303262237129&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.&lt;/span&gt;&lt;/p&gt;\n&lt;h2 data-path-to-node=&quot;6&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;strong data-path-to-node=&quot;6&quot; data-index-in-node=&quot;0&quot;&gt;Role Overview&lt;/strong&gt;&lt;/span&gt;&lt;/h2&gt;\n&lt;p id=&quot;p-rc_e7c99a547c815c92-97&quot; data-path-to-node=&quot;7&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;span data-path-to-node=&quot;7,0&quot;&gt;We are building one of India&#39;s largest commercial video data collection networks&lt;/span&gt;&lt;span data-path-to-node=&quot;7,1&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span data-path-to-node=&quot;7,2&quot;&gt;. As a &lt;strong data-path-to-node=&quot;7,2&quot; data-index-in-node=&quot;7&quot;&gt;Zonal Data Captain&lt;/strong&gt;, you will own the business pipeline for your assigned zone&lt;/span&gt;&lt;span data-path-to-node=&quot;7,3&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span data-path-to-node=&quot;7,4&quot;&gt;. Your primary responsibility is to find businesses, convert them for on-site video data collection, and keep the recording engine in your territory active every single day&lt;/span&gt;&lt;span data-path-to-node=&quot;7,5&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span data-path-to-node=&quot;7,6&quot;&gt;. You will spend your days in the field meeting business owners, converting them, and expanding into new towns mapped to your zone&lt;/span&gt;&lt;span data-path-to-node=&quot;7,7&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span data-path-to-node=&quot;7,8&quot;&gt;.&lt;/span&gt; &lt;/span&gt;&lt;/p&gt;\n&lt;h2 data-path-to-node=&quot;9&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;strong data-path-to-node=&quot;9&quot; data-index-in-node=&quot;0&quot;&gt;Core Compensation &amp;amp; Target&lt;/strong&gt;&lt;/span&gt;&lt;/h2&gt;\n&lt;ul data-path-to-node=&quot;10&quot;&gt;\n&lt;li style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;\n&lt;p id=&quot;p-rc_e7c99a547c815c92-98&quot; data-path-to-node=&quot;10,0,0&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;span data-path-to-node=&quot;10,0,0,0&quot;&gt;&lt;strong data-path-to-node=&quot;10,0,0,0&quot; data-index-in-node=&quot;0&quot;&gt;Fixed Salary:&lt;/strong&gt; ₹25,000 / month&lt;/span&gt;&lt;span data-path-to-node=&quot;10,0,0,1&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt; &lt;/span&gt;&lt;/p&gt;\n&lt;/li&gt;\n&lt;li style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;\n&lt;p id=&quot;p-rc_e7c99a547c815c92-99&quot; data-path-to-node=&quot;10,1,0&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;span data-path-to-node=&quot;10,1,0,0&quot;&gt;&lt;strong data-path-to-node=&quot;10,1,0,0&quot; data-index-in-node=&quot;0&quot;&gt;Performance Incentives:&lt;/strong&gt; Up to ₹95,000 / week*&lt;/span&gt;&lt;span data-path-to-node=&quot;10,1,0,1&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt; &lt;/span&gt;&lt;/p&gt;\n&lt;/li&gt;\n&lt;li style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;\n&lt;p id=&quot;p-rc_e7c99a547c815c92-100&quot; data-path-to-node=&quot;10,2,0&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;span data-path-to-node=&quot;10,2,0,0&quot;&gt;&lt;strong data-path-to-node=&quot;10,2,0,0&quot; data-index-in-node=&quot;0&quot;&gt;Core Target:&lt;/strong&gt; 8 business conversions / day&lt;/span&gt;&lt;span data-path-to-node=&quot;10,2,0,1&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt; &lt;/span&gt;&lt;/p&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;blockquote data-path-to-node=&quot;11&quot;&gt;\n&lt;p id=&quot;p-rc_e7c99a547c815c92-101&quot; data-path-to-node=&quot;11,0&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;span data-path-to-node=&quot;11,0,0&quot;&gt;&lt;strong data-path-to-node=&quot;11,0,0&quot; data-index-in-node=&quot;0&quot;&gt;*Incentive Note:&lt;/strong&gt; Incentives are performance-based and linked to verified conversions, recorded hours generated from your converted businesses, and quality/consistency of execution&lt;/span&gt;&lt;span data-path-to-node=&quot;11,0,1&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span data-path-to-node=&quot;11,0,2&quot;&gt;. All conversions and hours are subject to verification before payout&lt;/span&gt;&lt;span data-path-to-node=&quot;11,0,3&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span data-path-to-node=&quot;11,0,4&quot;&gt;. A detailed slab structure will be shared at the offer stage&lt;/span&gt;&lt;span data-path-to-node=&quot;11,0,5&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span data-path-to-node=&quot;11,0,6&quot;&gt;.&lt;/span&gt; &lt;/span&gt;&lt;/p&gt;\n&lt;/blockquote&gt;\n&lt;h2 data-path-to-node=&quot;13&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;strong data-path-to-node=&quot;13&quot; data-index-in-node=&quot;0&quot;&gt;What You&#39;ll Do&lt;/strong&gt;&lt;/span&gt;&lt;/h2&gt;\n&lt;h3 data-path-to-node=&quot;14&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;strong data-path-to-node=&quot;14&quot; data-index-in-node=&quot;0&quot;&gt;1. Business Pipeline Building (Your Core Job)&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;\n&lt;ul data-path-to-node=&quot;15&quot;&gt;\n&lt;li style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;\n&lt;p id=&quot;p-rc_e7c99a547c815c92-102&quot; data-path-to-node=&quot;15,0,0&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;span data-path-to-node=&quot;15,0,0,0&quot;&gt;&lt;strong data-path-to-node=&quot;15,0,0,0&quot; data-index-in-node=&quot;0&quot;&gt;Daily Target:&lt;/strong&gt; Convert a minimum of &lt;strong data-path-to-node=&quot;15,0,0,0&quot; data-index-in-node=&quot;35&quot;&gt;8 new businesses every day&lt;/strong&gt; for commercial video data collection&lt;/span&gt;&lt;span data-path-to-node=&quot;15,0,0,1&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span data-path-to-node=&quot;15,0,0,2&quot;&gt;.&lt;/span&gt; &lt;/span&gt;&lt;/p&gt;\n&lt;/li&gt;\n&lt;li style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;\n&lt;p id=&quot;p-rc_e7c99a547c815c92-103&quot; data-path-to-node=&quot;15,1,0&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;span data-path-to-node=&quot;15,1,0,0&quot;&gt;&lt;strong data-path-to-node=&quot;15,1,0,0&quot; data-index-in-node=&quot;0&quot;&gt;Target Segments:&lt;/strong&gt; Prioritize multi-worker and 2-shift environments: factories, manufacturing units, workshops, service centers, commercial kitchens, warehouses, printing &amp;amp; packaging units, and facility management operations&lt;/span&gt;&lt;span data-path-to-node=&quot;15,1,0,1&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span data-path-to-node=&quot;15,1,0,2&quot;&gt;.&lt;/span&gt; &lt;/span&gt;&lt;/p&gt;\n&lt;/li&gt;\n&lt;li style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;\n&lt;p id=&quot;p-rc_e7c99a547c815c92-104&quot; data-path-to-node=&quot;15,2,0&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;span data-path-to-node=&quot;15,2,0,0&quot;&gt;&lt;strong data-path-to-node=&quot;15,2,0,0&quot; data-index-in-node=&quot;0&quot;&gt;Data Integrity:&lt;/strong&gt; Complete the business conversion form accurately and fully for every single conversion on the same day&lt;/span&gt;&lt;span data-path-to-node=&quot;15,2,0,1&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span data-path-to-node=&quot;15,2,0,2&quot;&gt;.&lt;/span&gt; &lt;/span&gt;&lt;/p&gt;\n&lt;/li&gt;\n&lt;li style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;\n&lt;p id=&quot;p-rc_e7c99a547c815c92-105&quot; data-path-to-node=&quot;15,3,0&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;span data-path-to-node=&quot;15,3,0,0&quot;&gt;&lt;strong data-path-to-node=&quot;15,3,0,0&quot; data-index-in-node=&quot;0&quot;&gt;Verification:&lt;/strong&gt; Every conversion is verified&lt;/span&gt;&lt;span data-path-to-node=&quot;15,3,0,1&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span data-path-to-node=&quot;15,3,0,2&quot;&gt;. A converted business means a real, reachable business that is scheduled and ready for recording&lt;/span&gt;&lt;span data-path-to-node=&quot;15,3,0,3&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span data-path-to-node=&quot;15,3,0,4&quot;&gt;.&lt;/span&gt; &lt;/span&gt;&lt;/p&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;blockquote data-path-to-node=&quot;16&quot;&gt;\n&lt;p id=&quot;p-rc_e7c99a547c815c92-106&quot; data-path-to-node=&quot;16,0&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;span data-path-to-node=&quot;16,0,0&quot;&gt;⚠️ &lt;strong data-path-to-node=&quot;16,0,0&quot; data-index-in-node=&quot;3&quot;&gt;CRITICAL PERFORMANCE STANDARD:&lt;/strong&gt; Any week with fewer than 50 converted businesses (~8/day) is a failure to execute the core requirement of this role and will result in termination&lt;/span&gt;&lt;span data-path-to-node=&quot;16,0,1&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span data-path-to-node=&quot;16,0,2&quot;&gt;.&lt;/span&gt; &lt;/span&gt;&lt;/p&gt;\n&lt;/blockquote&gt;\n&lt;h3 data-path-to-node=&quot;17&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;strong data-path-to-node=&quot;17&quot; data-index-in-node=&quot;0&quot;&gt;2. Territory Scouting &amp;amp; Expansion&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;\n&lt;ul data-path-to-node=&quot;18&quot;&gt;\n&lt;li style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;\n&lt;p id=&quot;p-rc_e7c99a547c815c92-107&quot; data-path-to-node=&quot;18,0,0&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;span data-path-to-node=&quot;18,0,0,0&quot;&gt;Map and expand into nearby towns and industrial clusters assigned to your zone&lt;/span&gt;&lt;span data-path-to-node=&quot;18,0,0,1&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span data-path-to-node=&quot;18,0,0,2&quot;&gt;.&lt;/span&gt; &lt;/span&gt;&lt;/p&gt;\n&lt;/li&gt;\n&lt;li style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;\n&lt;p id=&quot;p-rc_e7c99a547c815c92-108&quot; data-path-to-node=&quot;18,1,0&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;span data-path-to-node=&quot;18,1,0,0&quot;&gt;Identify new commercial categories and corridors with high recording potential&lt;/span&gt;&lt;span data-path-to-node=&quot;18,1,0,1&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span data-path-to-node=&quot;18,1,0,2&quot;&gt;.&lt;/span&gt; &lt;/span&gt;&lt;/p&gt;\n&lt;/li&gt;\n&lt;li style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;\n&lt;p id=&quot;p-rc_e7c99a547c815c92-109&quot; data-path-to-node=&quot;18,2,0&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;span data-path-to-node=&quot;18,2,0,0&quot;&gt;Build corridor-level knowledge: identify which streets, estates, and clusters hold the densest concentration of qualifying businesses&lt;/span&gt;&lt;span data-path-to-node=&quot;18,2,0,1&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span data-path-to-node=&quot;18,2,0,2&quot;&gt;.&lt;/span&gt; &lt;/span&gt;&lt;/p&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3 data-path-to-node=&quot;19&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;strong data-path-to-node=&quot;19&quot; data-index-in-node=&quot;0&quot;&gt;3. Recording-Day Support&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;\n&lt;ul data-path-to-node=&quot;20&quot;&gt;\n&lt;li style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;\n&lt;p id=&quot;p-rc_e7c99a547c815c92-110&quot; data-path-to-node=&quot;20,0,0&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;span data-path-to-node=&quot;20,0,0,0&quot;&gt;Provide timely updates to your internal coordinator on pipeline status, scheduled recordings, and on-ground issues&lt;/span&gt;&lt;span data-path-to-node=&quot;20,0,0,1&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span data-path-to-node=&quot;20,0,0,2&quot;&gt;.&lt;/span&gt; &lt;/span&gt;&lt;/p&gt;\n&lt;/li&gt;\n&lt;li style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;\n&lt;p id=&quot;p-rc_e7c99a547c815c92-111&quot; data-path-to-node=&quot;20,1,0&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;span data-path-to-node=&quot;20,1,0,0&quot;&gt;Support field operations on recording days at the businesses you converted&lt;/span&gt;&lt;span data-path-to-node=&quot;20,1,0,1&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span data-path-to-node=&quot;20,1,0,2&quot;&gt;. Resolve owner concerns, access issues, and scheduling conflicts on the spot&lt;/span&gt;&lt;span data-path-to-node=&quot;20,1,0,3&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span data-path-to-node=&quot;20,1,0,4&quot;&gt;.&lt;/span&gt; &lt;/span&gt;&lt;/p&gt;\n&lt;/li&gt;\n&lt;li style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;\n&lt;p id=&quot;p-rc_e7c99a547c815c92-112&quot; data-path-to-node=&quot;20,2,0&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;span data-path-to-node=&quot;20,2,0,0&quot;&gt;Maintain relationships to ensure a business stays warm throughout its entire recording cycle&lt;/span&gt;&lt;span data-path-to-node=&quot;20,2,0,1&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span data-path-to-node=&quot;20,2,0,2&quot;&gt;.&lt;/span&gt; &lt;/span&gt;&lt;/p&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2 data-path-to-node=&quot;22&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;strong data-path-to-node=&quot;22&quot; data-index-in-node=&quot;0&quot;&gt;Role Requirements&lt;/strong&gt;&lt;/span&gt;&lt;/h2&gt;\n&lt;ul data-path-to-node=&quot;23&quot;&gt;\n&lt;li style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;\n&lt;p id=&quot;p-rc_e7c99a547c815c92-114&quot; data-path-to-node=&quot;23,1,0&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;span data-path-to-node=&quot;23,1,0,0&quot;&gt;&lt;strong data-path-to-node=&quot;23,1,0,0&quot; data-index-in-node=&quot;0&quot;&gt;Language Skills:&lt;/strong&gt; Native fluency in the local language of the zone, plus working English or Hindi&lt;/span&gt;&lt;span data-path-to-node=&quot;23,1,0,1&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span data-path-to-node=&quot;23,1,0,2&quot;&gt;.&lt;/span&gt; &lt;/span&gt;&lt;/p&gt;\n&lt;/li&gt;\n&lt;li style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;\n&lt;p id=&quot;p-rc_e7c99a547c815c92-115&quot; data-path-to-node=&quot;23,2,0&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;span data-path-to-node=&quot;23,2,0,0&quot;&gt;&lt;strong data-path-to-node=&quot;23,2,0,0&quot; data-index-in-node=&quot;0&quot;&gt;Experience:&lt;/strong&gt; Minimum 1 year of experience as a Field Sales Executive, Business Development Executive, or equivalent field-facing role&lt;/span&gt;&lt;span data-path-to-node=&quot;23,2,0,1&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span data-path-to-node=&quot;23,2,0,2&quot;&gt;.&lt;/span&gt; &lt;/span&gt;&lt;/p&gt;\n&lt;/li&gt;\n&lt;li style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;\n&lt;p id=&quot;p-rc_e7c99a547c815c92-116&quot; data-path-to-node=&quot;23,3,0&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;span data-path-to-node=&quot;23,3,0,0&quot;&gt;&lt;strong data-path-to-node=&quot;23,3,0,0&quot; data-index-in-node=&quot;0&quot;&gt;Network:&lt;/strong&gt; Existing network of business owners in the region&lt;/span&gt;&lt;span data-path-to-node=&quot;23,3,0,1&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span data-path-to-node=&quot;23,3,0,2&quot;&gt;. You should be able to name and reach real business owners in your territory (this will be verified during the interview)&lt;/span&gt;&lt;span data-path-to-node=&quot;23,3,0,3&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span data-path-to-node=&quot;23,3,0,4&quot;&gt;.&lt;/span&gt; &lt;/span&gt;&lt;/p&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3 data-path-to-node=&quot;24&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;strong data-path-to-node=&quot;24&quot; data-index-in-node=&quot;0&quot;&gt;Who Thrives in This Role?&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;\n&lt;ul data-path-to-node=&quot;25&quot;&gt;\n&lt;li style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;\n&lt;p id=&quot;p-rc_e7c99a547c815c92-117&quot; data-path-to-node=&quot;25,0,0&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;span data-path-to-node=&quot;25,0,0,0&quot;&gt;Field sales and vendor acquisition professionals who close face-to-face&lt;/span&gt;&lt;span data-path-to-node=&quot;25,0,0,1&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span data-path-to-node=&quot;25,0,0,2&quot;&gt;.&lt;/span&gt; &lt;/span&gt;&lt;/p&gt;\n&lt;/li&gt;\n&lt;li style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;\n&lt;p id=&quot;p-rc_e7c99a547c815c92-118&quot; data-path-to-node=&quot;25,1,0&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;span data-path-to-node=&quot;25,1,0,0&quot;&gt;Individuals comfortable with extensive daily travel within their zone&lt;/span&gt;&lt;span data-path-to-node=&quot;25,1,0,1&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span data-path-to-node=&quot;25,1,0,2&quot;&gt;.&lt;/span&gt; &lt;/span&gt;&lt;/p&gt;\n&lt;/li&gt;\n&lt;li style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;\n&lt;p id=&quot;p-rc_e7c99a547c815c92-119&quot; data-path-to-node=&quot;25,2,0&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;span data-path-to-node=&quot;25,2,0,0&quot;&gt;High-ownership operators who treat their territory like their own business&lt;/span&gt;&lt;span data-path-to-node=&quot;25,2,0,1&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span data-path-to-node=&quot;25,2,0,2&quot;&gt;.&lt;/span&gt; &lt;/span&gt;&lt;/p&gt;\n&lt;/li&gt;\n&lt;li style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;\n&lt;p id=&quot;p-rc_e7c99a547c815c92-120&quot; data-path-to-node=&quot;25,3,0&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;span data-path-to-node=&quot;25,3,0,0&quot;&gt;Professionals who perform exceptionally well under clear, non-negotiable daily numbers&lt;/span&gt;&lt;span data-path-to-node=&quot;25,3,0,1&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span data-path-to-node=&quot;25,3,0,2&quot;&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;Our Values&amp;nbsp;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;\n&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Empathy, Trust &amp;amp; Candor&lt;/span&gt;&lt;br&gt;&lt;/strong&gt;We put ourselves in the shoes of our colleagues and customers and don’t shy away from uncomfortable conversations, instead building trust through honest and direct feedback.&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Bias for Action&lt;/span&gt;&lt;br&gt;&lt;/strong&gt;We practice high-velocity decision-making, clear-eyed that we often operate with incomplete information. Growing quickly means it’s OK to be wrong, so long as we learn from our mistakes and course correct!&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Always Be Learning&lt;/span&gt;&lt;br&gt;&lt;/strong&gt;We’re a curious bunch, and with AI transforming our workplace we encourage everyone to learn from each other, compounding our knowledge and experience to help us change an entire industry.&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Act Like an Owner&lt;/span&gt;&lt;br&gt;&lt;/strong&gt;We work long, hard, and smart, building products that delight our users and drive growth. Your ability to impact Instawork is limited only by your courage and conviction, not your job description.&lt;/p&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;About Instawork&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Founded in 2015,&amp;nbsp;&lt;a href=&quot;https://www.instawork.com&quot;&gt;Instawork&lt;/a&gt; is the nation’s leading online labor marketplace for food services, hospitality, light industry, and logistics, connecting more than 7M skilled workers with local restaurants, hotels, warehouses, stadiums, and more. Our AI-powered platform serves thousands of businesses across more than 50 major markets in the United States and Canada. We&#39;re not just helping fill shifts, we&#39;re supporting local economies—and we&#39;re just getting started!&lt;/p&gt;\n&lt;p&gt;Instawork has been featured by CBS News, The Wall Street Journal, The Washington Post, and the Associated Press. Forbes included us on their Next Billion Dollar Startups list; RetailTech Breakthrough named us Workforce Hiring Solution of the Year for 2025; and Inc. 5000 recognized us as one of the country&#39;s top 10% fastest-growing companies two years in a row. But what matters most is our impact. We&#39;re solving real problems for real people, and we’re doing it at scale.&lt;/p&gt;\n&lt;p&gt;Join our team to help us build something that matters! We’re looking for superstars who want to help us shape the future of work. With hubs in San Francisco, Bangalore, and Chicago, city offices in New York, Phoenix, and Singapore, we&#39;re back to working together in-person five days a week because we believe the best ideas happen when great people collaborate face-to-face. We also value diverse perspectives and encourage applications from candidates of all backgrounds.&lt;br&gt;&lt;br&gt;Ready to make an impact? Learn more at &lt;a href=&quot;http://www.instawork.com/about&quot;&gt;www.instawork.com/about&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;&lt;a href=&quot;https://info.instawork.com/legal/california-personnel-privacy-policy&quot;&gt;Personnel Privacy Policy&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/div&gt;",
-        "departments": [
-          {
-            "id": 4024198006,
-            "name": "Robotics",
-            "child_ids": [],
-            "parent_id": 4002707006
-          }
-        ],
-        "offices": [
-          {
-            "id": 4001415006,
-            "name": "Bangalore",
-            "location": "Bengaluru, Karnataka, India",
-            "child_ids": [],
-            "parent_id": 4002843006
-          }
-        ],
-        "ai_disclaimer": null,
-        "include_ai_disclaimer": null,
-        "ai_opt_out_request_url": "http://app6.greenhouse.io/ai_opt_out_request/job_post/4625772006/ai_opt_out"
-      }
-    },
-    {
       "job_id": "cd8932e9aca2aa43e270ed929b8d50cfadf8968682d7c36e705bc1eb6f5a7e5e",
       "external_id": "4701137006",
       "company": "Instawork",
@@ -1705,7 +1602,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T01:01:08-04:00",
       "updated_at": "2026-08-27T01:01:08-04:00",
-      "discovered_at": "2026-08-29T05:46:20.654082+00:00",
+      "discovered_at": "2026-08-30T05:08:21.887494+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4701137006",
         "data_compliance": [
@@ -1793,6 +1690,109 @@
       }
     },
     {
+      "job_id": "284392e734dc99f6ee60370842147f045dc137bebea1e3df4890a5ace24f573c",
+      "external_id": "4625772006",
+      "company": "Instawork",
+      "title": "Field Operations Executive",
+      "location": "Bengaluru, Karnataka, India",
+      "remote": false,
+      "department": null,
+      "team": null,
+      "employment_type": null,
+      "description": "Instawork is on a mission to create meaningful economic opportunities for skilled hourly professionals in communities around the globe. Our AI-powered labor marketplace helps local businesses scale, and enables global technology companies to push the frontiers of robotics and AI. Backed by world-class investors like Benchmark, Spark Capital, Craft Ventures, Greylock, Y Combinator, and others, we’re looking for exceptional talent to reimagine the way the world works. About IRL Researchers at UC Berkeley have identified a “100,000-year data gap” - the gulf between what trained AI language models and what physical robots actually have to learn from. Closing that gap is the defining infrastructure challenge of the physical AI era. IRL is Instawork’s answer to it. We deploy skilled workers into real commercial and residential environments - kitchens, warehouses, hotel floors, homes - to capture the high-fidelity task data that the world’s leading Robotics labs use to train their foundation models. Read more&nbsp; here . Role Overview We are building one of India's largest commercial video data collection networks . As a Zonal Data Captain , you will own the business pipeline for your assigned zone . Your primary responsibility is to find businesses, convert them for on-site video data collection, and keep the recording engine in your territory active every single day . You will spend your days in the field meeting business owners, converting them, and expanding into new towns mapped to your zone . Core Compensation &amp; Target Fixed Salary: ₹25,000 / month Performance Incentives: Up to ₹95,000 / week* Core Target: 8 business conversions / day *Incentive Note: Incentives are performance-based and linked to verified conversions, recorded hours generated from your converted businesses, and quality/consistency of execution . All conversions and hours are subject to verification before payout . A detailed slab structure will be shared at the offer stage . What You'll Do 1. Business Pipeline Building (Your Core Job) Daily Target: Convert a minimum of 8 new businesses every day for commercial video data collection . Target Segments: Prioritize multi-worker and 2-shift environments: factories, manufacturing units, workshops, service centers, commercial kitchens, warehouses, printing &amp; packaging units, and facility management operations . Data Integrity: Complete the business conversion form accurately and fully for every single conversion on the same day . Verification: Every conversion is verified . A converted business means a real, reachable business that is scheduled and ready for recording . ⚠️ CRITICAL PERFORMANCE STANDARD: Any week with fewer than 50 converted businesses (~8/day) is a failure to execute the core requirement of this role and will result in termination . 2. Territory Scouting &amp; Expansion Map and expand into nearby towns and industrial clusters assigned to your zone . Identify new commercial categories and corridors with high recording potential . Build corridor-level knowledge: identify which streets, estates, and clusters hold the densest concentration of qualifying businesses . 3. Recording-Day Support Provide timely updates to your internal coordinator on pipeline status, scheduled recordings, and on-ground issues . Support field operations on recording days at the businesses you converted . Resolve owner concerns, access issues, and scheduling conflicts on the spot . Maintain relationships to ensure a business stays warm throughout its entire recording cycle . Role Requirements Language Skills: Native fluency in the local language of the zone, plus working English or Hindi . Experience: Minimum 1 year of experience as a Field Sales Executive, Business Development Executive, or equivalent field-facing role . Network: Existing network of business owners in the region . You should be able to name and reach real business owners in your territory (this will be verified during the interview) . Who Thrives in This Role? Field sales and vendor acquisition professionals who close face-to-face . Individuals comfortable with extensive daily travel within their zone . High-ownership operators who treat their territory like their own business . Professionals who perform exceptionally well under clear, non-negotiable daily numbers . Our Values&nbsp; Empathy, Trust &amp; Candor We put ourselves in the shoes of our colleagues and customers and don’t shy away from uncomfortable conversations, instead building trust through honest and direct feedback. Bias for Action We practice high-velocity decision-making, clear-eyed that we often operate with incomplete information. Growing quickly means it’s OK to be wrong, so long as we learn from our mistakes and course correct! Always Be Learning We’re a curious bunch, and with AI transforming our workplace we encourage everyone to learn from each other, compounding our knowledge and experience to help us change an entire industry. Act Like an Owner We work long, hard, and smart, building products that delight our users and drive growth. Your ability to impact Instawork is limited only by your courage and conviction, not your job description. About Instawork Founded in 2015,&nbsp; Instawork is the nation’s leading online labor marketplace for food services, hospitality, light industry, and logistics, connecting more than 7M skilled workers with local restaurants, hotels, warehouses, stadiums, and more. Our AI-powered platform serves thousands of businesses across more than 50 major markets in the United States and Canada. We're not just helping fill shifts, we're supporting local economies—and we're just getting started! Instawork has been featured by CBS News, The Wall Street Journal, The Washington Post, and the Associated Press. Forbes included us on their Next Billion Dollar Startups list; RetailTech Breakthrough named us Workforce Hiring Solution of the Year for 2025; and Inc. 5000 recognized us as one of the country's top 10% fastest-growing companies two years in a row. But what matters most is our impact. We're solving real problems for real people, and we’re doing it at scale. Join our team to help us build something that matters! We’re looking for superstars who want to help us shape the future of work. With hubs in San Francisco, Bangalore, and Chicago, city offices in New York, Phoenix, and Singapore, we're back to working together in-person five days a week because we believe the best ideas happen when great people collaborate face-to-face. We also value diverse perspectives and encourage applications from candidates of all backgrounds. Ready to make an impact? Learn more at www.instawork.com/about . Personnel Privacy Policy &nbsp;",
+      "apply_url": "https://job-boards.greenhouse.io/instawork/jobs/4625772006",
+      "source_url": "https://job-boards.greenhouse.io/instawork/jobs/4625772006",
+      "source": "greenhouse",
+      "posted_at": "2026-08-27T01:01:03-04:00",
+      "updated_at": "2026-08-27T01:01:03-04:00",
+      "discovered_at": "2026-08-30T05:08:21.889215+00:00",
+      "raw": {
+        "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4625772006",
+        "data_compliance": [
+          {
+            "type": "gdpr",
+            "requires_consent": false,
+            "requires_processing_consent": false,
+            "requires_retention_consent": false,
+            "retention_period": null,
+            "demographic_data_consent_applies": false
+          }
+        ],
+        "internal_job_id": 4524323006,
+        "location": {
+          "name": "Bengaluru, Karnataka, India"
+        },
+        "metadata": [
+          {
+            "id": 4007329006,
+            "name": "Employment Type",
+            "value": null,
+            "value_type": "single_select"
+          },
+          {
+            "id": 4057623006,
+            "name": "Compensation Band",
+            "value": {
+              "unit": null,
+              "max_value": "0.0",
+              "min_value": "0.0"
+            },
+            "value_type": "currency_range"
+          },
+          {
+            "id": 15548033006,
+            "name": "Headcount Type",
+            "value": "2025P",
+            "value_type": "single_select"
+          },
+          {
+            "id": 15683714006,
+            "name": "Compensation",
+            "value": {
+              "unit": null,
+              "amount": "0.0"
+            },
+            "value_type": "currency"
+          },
+          {
+            "id": 17101398006,
+            "name": "Interview slot confirmation stages",
+            "value": null,
+            "value_type": "long_text"
+          }
+        ],
+        "id": 4625772006,
+        "updated_at": "2026-08-27T01:01:03-04:00",
+        "requisition_id": "477",
+        "title": "Field Operations Executive ",
+        "company_name": "Instawork",
+        "first_published": "2025-12-14T23:25:45-05:00",
+        "language": "en",
+        "application_deadline": null,
+        "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Instawork is on a mission to create meaningful economic opportunities for skilled hourly professionals in communities around the globe. Our AI-powered labor marketplace helps local businesses scale, and enables global technology companies to push the frontiers of robotics and AI. Backed by world-class investors like Benchmark, Spark Capital, Craft Ventures, Greylock, Y Combinator, and others, we’re looking for exceptional talent to reimagine the way the world works.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;span style=&quot;font-size: 12pt; font-family: &#39;times new roman&#39;, times, serif;&quot;&gt;&lt;strong&gt;About IRL&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-size: 12pt; font-family: &#39;times new roman&#39;, times, serif;&quot;&gt;Researchers at UC Berkeley have identified a “100,000-year data gap” - the gulf between what trained AI language models and what physical robots actually have to learn from. Closing that gap is the defining infrastructure challenge of the physical AI era. IRL is Instawork’s answer to it. We deploy skilled workers into real commercial and residential environments - kitchens, warehouses, hotel floors, homes - to capture the high-fidelity task data that the world’s leading Robotics labs use to train their foundation models. Read more&amp;nbsp;&lt;a href=&quot;https://x.com/sumirmeghani/status/2044707303262237129&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.&lt;/span&gt;&lt;/p&gt;\n&lt;h2 data-path-to-node=&quot;6&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;strong data-path-to-node=&quot;6&quot; data-index-in-node=&quot;0&quot;&gt;Role Overview&lt;/strong&gt;&lt;/span&gt;&lt;/h2&gt;\n&lt;p id=&quot;p-rc_e7c99a547c815c92-97&quot; data-path-to-node=&quot;7&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;span data-path-to-node=&quot;7,0&quot;&gt;We are building one of India&#39;s largest commercial video data collection networks&lt;/span&gt;&lt;span data-path-to-node=&quot;7,1&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span data-path-to-node=&quot;7,2&quot;&gt;. As a &lt;strong data-path-to-node=&quot;7,2&quot; data-index-in-node=&quot;7&quot;&gt;Zonal Data Captain&lt;/strong&gt;, you will own the business pipeline for your assigned zone&lt;/span&gt;&lt;span data-path-to-node=&quot;7,3&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span data-path-to-node=&quot;7,4&quot;&gt;. Your primary responsibility is to find businesses, convert them for on-site video data collection, and keep the recording engine in your territory active every single day&lt;/span&gt;&lt;span data-path-to-node=&quot;7,5&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span data-path-to-node=&quot;7,6&quot;&gt;. You will spend your days in the field meeting business owners, converting them, and expanding into new towns mapped to your zone&lt;/span&gt;&lt;span data-path-to-node=&quot;7,7&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span data-path-to-node=&quot;7,8&quot;&gt;.&lt;/span&gt; &lt;/span&gt;&lt;/p&gt;\n&lt;h2 data-path-to-node=&quot;9&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;strong data-path-to-node=&quot;9&quot; data-index-in-node=&quot;0&quot;&gt;Core Compensation &amp;amp; Target&lt;/strong&gt;&lt;/span&gt;&lt;/h2&gt;\n&lt;ul data-path-to-node=&quot;10&quot;&gt;\n&lt;li style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;\n&lt;p id=&quot;p-rc_e7c99a547c815c92-98&quot; data-path-to-node=&quot;10,0,0&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;span data-path-to-node=&quot;10,0,0,0&quot;&gt;&lt;strong data-path-to-node=&quot;10,0,0,0&quot; data-index-in-node=&quot;0&quot;&gt;Fixed Salary:&lt;/strong&gt; ₹25,000 / month&lt;/span&gt;&lt;span data-path-to-node=&quot;10,0,0,1&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt; &lt;/span&gt;&lt;/p&gt;\n&lt;/li&gt;\n&lt;li style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;\n&lt;p id=&quot;p-rc_e7c99a547c815c92-99&quot; data-path-to-node=&quot;10,1,0&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;span data-path-to-node=&quot;10,1,0,0&quot;&gt;&lt;strong data-path-to-node=&quot;10,1,0,0&quot; data-index-in-node=&quot;0&quot;&gt;Performance Incentives:&lt;/strong&gt; Up to ₹95,000 / week*&lt;/span&gt;&lt;span data-path-to-node=&quot;10,1,0,1&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt; &lt;/span&gt;&lt;/p&gt;\n&lt;/li&gt;\n&lt;li style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;\n&lt;p id=&quot;p-rc_e7c99a547c815c92-100&quot; data-path-to-node=&quot;10,2,0&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;span data-path-to-node=&quot;10,2,0,0&quot;&gt;&lt;strong data-path-to-node=&quot;10,2,0,0&quot; data-index-in-node=&quot;0&quot;&gt;Core Target:&lt;/strong&gt; 8 business conversions / day&lt;/span&gt;&lt;span data-path-to-node=&quot;10,2,0,1&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt; &lt;/span&gt;&lt;/p&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;blockquote data-path-to-node=&quot;11&quot;&gt;\n&lt;p id=&quot;p-rc_e7c99a547c815c92-101&quot; data-path-to-node=&quot;11,0&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;span data-path-to-node=&quot;11,0,0&quot;&gt;&lt;strong data-path-to-node=&quot;11,0,0&quot; data-index-in-node=&quot;0&quot;&gt;*Incentive Note:&lt;/strong&gt; Incentives are performance-based and linked to verified conversions, recorded hours generated from your converted businesses, and quality/consistency of execution&lt;/span&gt;&lt;span data-path-to-node=&quot;11,0,1&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span data-path-to-node=&quot;11,0,2&quot;&gt;. All conversions and hours are subject to verification before payout&lt;/span&gt;&lt;span data-path-to-node=&quot;11,0,3&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span data-path-to-node=&quot;11,0,4&quot;&gt;. A detailed slab structure will be shared at the offer stage&lt;/span&gt;&lt;span data-path-to-node=&quot;11,0,5&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span data-path-to-node=&quot;11,0,6&quot;&gt;.&lt;/span&gt; &lt;/span&gt;&lt;/p&gt;\n&lt;/blockquote&gt;\n&lt;h2 data-path-to-node=&quot;13&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;strong data-path-to-node=&quot;13&quot; data-index-in-node=&quot;0&quot;&gt;What You&#39;ll Do&lt;/strong&gt;&lt;/span&gt;&lt;/h2&gt;\n&lt;h3 data-path-to-node=&quot;14&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;strong data-path-to-node=&quot;14&quot; data-index-in-node=&quot;0&quot;&gt;1. Business Pipeline Building (Your Core Job)&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;\n&lt;ul data-path-to-node=&quot;15&quot;&gt;\n&lt;li style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;\n&lt;p id=&quot;p-rc_e7c99a547c815c92-102&quot; data-path-to-node=&quot;15,0,0&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;span data-path-to-node=&quot;15,0,0,0&quot;&gt;&lt;strong data-path-to-node=&quot;15,0,0,0&quot; data-index-in-node=&quot;0&quot;&gt;Daily Target:&lt;/strong&gt; Convert a minimum of &lt;strong data-path-to-node=&quot;15,0,0,0&quot; data-index-in-node=&quot;35&quot;&gt;8 new businesses every day&lt;/strong&gt; for commercial video data collection&lt;/span&gt;&lt;span data-path-to-node=&quot;15,0,0,1&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span data-path-to-node=&quot;15,0,0,2&quot;&gt;.&lt;/span&gt; &lt;/span&gt;&lt;/p&gt;\n&lt;/li&gt;\n&lt;li style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;\n&lt;p id=&quot;p-rc_e7c99a547c815c92-103&quot; data-path-to-node=&quot;15,1,0&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;span data-path-to-node=&quot;15,1,0,0&quot;&gt;&lt;strong data-path-to-node=&quot;15,1,0,0&quot; data-index-in-node=&quot;0&quot;&gt;Target Segments:&lt;/strong&gt; Prioritize multi-worker and 2-shift environments: factories, manufacturing units, workshops, service centers, commercial kitchens, warehouses, printing &amp;amp; packaging units, and facility management operations&lt;/span&gt;&lt;span data-path-to-node=&quot;15,1,0,1&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span data-path-to-node=&quot;15,1,0,2&quot;&gt;.&lt;/span&gt; &lt;/span&gt;&lt;/p&gt;\n&lt;/li&gt;\n&lt;li style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;\n&lt;p id=&quot;p-rc_e7c99a547c815c92-104&quot; data-path-to-node=&quot;15,2,0&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;span data-path-to-node=&quot;15,2,0,0&quot;&gt;&lt;strong data-path-to-node=&quot;15,2,0,0&quot; data-index-in-node=&quot;0&quot;&gt;Data Integrity:&lt;/strong&gt; Complete the business conversion form accurately and fully for every single conversion on the same day&lt;/span&gt;&lt;span data-path-to-node=&quot;15,2,0,1&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span data-path-to-node=&quot;15,2,0,2&quot;&gt;.&lt;/span&gt; &lt;/span&gt;&lt;/p&gt;\n&lt;/li&gt;\n&lt;li style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;\n&lt;p id=&quot;p-rc_e7c99a547c815c92-105&quot; data-path-to-node=&quot;15,3,0&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;span data-path-to-node=&quot;15,3,0,0&quot;&gt;&lt;strong data-path-to-node=&quot;15,3,0,0&quot; data-index-in-node=&quot;0&quot;&gt;Verification:&lt;/strong&gt; Every conversion is verified&lt;/span&gt;&lt;span data-path-to-node=&quot;15,3,0,1&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span data-path-to-node=&quot;15,3,0,2&quot;&gt;. A converted business means a real, reachable business that is scheduled and ready for recording&lt;/span&gt;&lt;span data-path-to-node=&quot;15,3,0,3&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span data-path-to-node=&quot;15,3,0,4&quot;&gt;.&lt;/span&gt; &lt;/span&gt;&lt;/p&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;blockquote data-path-to-node=&quot;16&quot;&gt;\n&lt;p id=&quot;p-rc_e7c99a547c815c92-106&quot; data-path-to-node=&quot;16,0&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;span data-path-to-node=&quot;16,0,0&quot;&gt;⚠️ &lt;strong data-path-to-node=&quot;16,0,0&quot; data-index-in-node=&quot;3&quot;&gt;CRITICAL PERFORMANCE STANDARD:&lt;/strong&gt; Any week with fewer than 50 converted businesses (~8/day) is a failure to execute the core requirement of this role and will result in termination&lt;/span&gt;&lt;span data-path-to-node=&quot;16,0,1&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span data-path-to-node=&quot;16,0,2&quot;&gt;.&lt;/span&gt; &lt;/span&gt;&lt;/p&gt;\n&lt;/blockquote&gt;\n&lt;h3 data-path-to-node=&quot;17&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;strong data-path-to-node=&quot;17&quot; data-index-in-node=&quot;0&quot;&gt;2. Territory Scouting &amp;amp; Expansion&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;\n&lt;ul data-path-to-node=&quot;18&quot;&gt;\n&lt;li style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;\n&lt;p id=&quot;p-rc_e7c99a547c815c92-107&quot; data-path-to-node=&quot;18,0,0&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;span data-path-to-node=&quot;18,0,0,0&quot;&gt;Map and expand into nearby towns and industrial clusters assigned to your zone&lt;/span&gt;&lt;span data-path-to-node=&quot;18,0,0,1&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span data-path-to-node=&quot;18,0,0,2&quot;&gt;.&lt;/span&gt; &lt;/span&gt;&lt;/p&gt;\n&lt;/li&gt;\n&lt;li style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;\n&lt;p id=&quot;p-rc_e7c99a547c815c92-108&quot; data-path-to-node=&quot;18,1,0&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;span data-path-to-node=&quot;18,1,0,0&quot;&gt;Identify new commercial categories and corridors with high recording potential&lt;/span&gt;&lt;span data-path-to-node=&quot;18,1,0,1&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span data-path-to-node=&quot;18,1,0,2&quot;&gt;.&lt;/span&gt; &lt;/span&gt;&lt;/p&gt;\n&lt;/li&gt;\n&lt;li style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;\n&lt;p id=&quot;p-rc_e7c99a547c815c92-109&quot; data-path-to-node=&quot;18,2,0&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;span data-path-to-node=&quot;18,2,0,0&quot;&gt;Build corridor-level knowledge: identify which streets, estates, and clusters hold the densest concentration of qualifying businesses&lt;/span&gt;&lt;span data-path-to-node=&quot;18,2,0,1&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span data-path-to-node=&quot;18,2,0,2&quot;&gt;.&lt;/span&gt; &lt;/span&gt;&lt;/p&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3 data-path-to-node=&quot;19&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;strong data-path-to-node=&quot;19&quot; data-index-in-node=&quot;0&quot;&gt;3. Recording-Day Support&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;\n&lt;ul data-path-to-node=&quot;20&quot;&gt;\n&lt;li style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;\n&lt;p id=&quot;p-rc_e7c99a547c815c92-110&quot; data-path-to-node=&quot;20,0,0&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;span data-path-to-node=&quot;20,0,0,0&quot;&gt;Provide timely updates to your internal coordinator on pipeline status, scheduled recordings, and on-ground issues&lt;/span&gt;&lt;span data-path-to-node=&quot;20,0,0,1&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span data-path-to-node=&quot;20,0,0,2&quot;&gt;.&lt;/span&gt; &lt;/span&gt;&lt;/p&gt;\n&lt;/li&gt;\n&lt;li style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;\n&lt;p id=&quot;p-rc_e7c99a547c815c92-111&quot; data-path-to-node=&quot;20,1,0&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;span data-path-to-node=&quot;20,1,0,0&quot;&gt;Support field operations on recording days at the businesses you converted&lt;/span&gt;&lt;span data-path-to-node=&quot;20,1,0,1&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span data-path-to-node=&quot;20,1,0,2&quot;&gt;. Resolve owner concerns, access issues, and scheduling conflicts on the spot&lt;/span&gt;&lt;span data-path-to-node=&quot;20,1,0,3&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span data-path-to-node=&quot;20,1,0,4&quot;&gt;.&lt;/span&gt; &lt;/span&gt;&lt;/p&gt;\n&lt;/li&gt;\n&lt;li style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;\n&lt;p id=&quot;p-rc_e7c99a547c815c92-112&quot; data-path-to-node=&quot;20,2,0&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;span data-path-to-node=&quot;20,2,0,0&quot;&gt;Maintain relationships to ensure a business stays warm throughout its entire recording cycle&lt;/span&gt;&lt;span data-path-to-node=&quot;20,2,0,1&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span data-path-to-node=&quot;20,2,0,2&quot;&gt;.&lt;/span&gt; &lt;/span&gt;&lt;/p&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2 data-path-to-node=&quot;22&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;strong data-path-to-node=&quot;22&quot; data-index-in-node=&quot;0&quot;&gt;Role Requirements&lt;/strong&gt;&lt;/span&gt;&lt;/h2&gt;\n&lt;ul data-path-to-node=&quot;23&quot;&gt;\n&lt;li style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;\n&lt;p id=&quot;p-rc_e7c99a547c815c92-114&quot; data-path-to-node=&quot;23,1,0&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;span data-path-to-node=&quot;23,1,0,0&quot;&gt;&lt;strong data-path-to-node=&quot;23,1,0,0&quot; data-index-in-node=&quot;0&quot;&gt;Language Skills:&lt;/strong&gt; Native fluency in the local language of the zone, plus working English or Hindi&lt;/span&gt;&lt;span data-path-to-node=&quot;23,1,0,1&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span data-path-to-node=&quot;23,1,0,2&quot;&gt;.&lt;/span&gt; &lt;/span&gt;&lt;/p&gt;\n&lt;/li&gt;\n&lt;li style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;\n&lt;p id=&quot;p-rc_e7c99a547c815c92-115&quot; data-path-to-node=&quot;23,2,0&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;span data-path-to-node=&quot;23,2,0,0&quot;&gt;&lt;strong data-path-to-node=&quot;23,2,0,0&quot; data-index-in-node=&quot;0&quot;&gt;Experience:&lt;/strong&gt; Minimum 1 year of experience as a Field Sales Executive, Business Development Executive, or equivalent field-facing role&lt;/span&gt;&lt;span data-path-to-node=&quot;23,2,0,1&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span data-path-to-node=&quot;23,2,0,2&quot;&gt;.&lt;/span&gt; &lt;/span&gt;&lt;/p&gt;\n&lt;/li&gt;\n&lt;li style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;\n&lt;p id=&quot;p-rc_e7c99a547c815c92-116&quot; data-path-to-node=&quot;23,3,0&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;span data-path-to-node=&quot;23,3,0,0&quot;&gt;&lt;strong data-path-to-node=&quot;23,3,0,0&quot; data-index-in-node=&quot;0&quot;&gt;Network:&lt;/strong&gt; Existing network of business owners in the region&lt;/span&gt;&lt;span data-path-to-node=&quot;23,3,0,1&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span data-path-to-node=&quot;23,3,0,2&quot;&gt;. You should be able to name and reach real business owners in your territory (this will be verified during the interview)&lt;/span&gt;&lt;span data-path-to-node=&quot;23,3,0,3&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span data-path-to-node=&quot;23,3,0,4&quot;&gt;.&lt;/span&gt; &lt;/span&gt;&lt;/p&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3 data-path-to-node=&quot;24&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;strong data-path-to-node=&quot;24&quot; data-index-in-node=&quot;0&quot;&gt;Who Thrives in This Role?&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;\n&lt;ul data-path-to-node=&quot;25&quot;&gt;\n&lt;li style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;\n&lt;p id=&quot;p-rc_e7c99a547c815c92-117&quot; data-path-to-node=&quot;25,0,0&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;span data-path-to-node=&quot;25,0,0,0&quot;&gt;Field sales and vendor acquisition professionals who close face-to-face&lt;/span&gt;&lt;span data-path-to-node=&quot;25,0,0,1&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span data-path-to-node=&quot;25,0,0,2&quot;&gt;.&lt;/span&gt; &lt;/span&gt;&lt;/p&gt;\n&lt;/li&gt;\n&lt;li style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;\n&lt;p id=&quot;p-rc_e7c99a547c815c92-118&quot; data-path-to-node=&quot;25,1,0&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;span data-path-to-node=&quot;25,1,0,0&quot;&gt;Individuals comfortable with extensive daily travel within their zone&lt;/span&gt;&lt;span data-path-to-node=&quot;25,1,0,1&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span data-path-to-node=&quot;25,1,0,2&quot;&gt;.&lt;/span&gt; &lt;/span&gt;&lt;/p&gt;\n&lt;/li&gt;\n&lt;li style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;\n&lt;p id=&quot;p-rc_e7c99a547c815c92-119&quot; data-path-to-node=&quot;25,2,0&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;span data-path-to-node=&quot;25,2,0,0&quot;&gt;High-ownership operators who treat their territory like their own business&lt;/span&gt;&lt;span data-path-to-node=&quot;25,2,0,1&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span data-path-to-node=&quot;25,2,0,2&quot;&gt;.&lt;/span&gt; &lt;/span&gt;&lt;/p&gt;\n&lt;/li&gt;\n&lt;li style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;\n&lt;p id=&quot;p-rc_e7c99a547c815c92-120&quot; data-path-to-node=&quot;25,3,0&quot;&gt;&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;&lt;span data-path-to-node=&quot;25,3,0,0&quot;&gt;Professionals who perform exceptionally well under clear, non-negotiable daily numbers&lt;/span&gt;&lt;span data-path-to-node=&quot;25,3,0,1&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span data-path-to-node=&quot;25,3,0,2&quot;&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;Our Values&amp;nbsp;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;\n&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Empathy, Trust &amp;amp; Candor&lt;/span&gt;&lt;br&gt;&lt;/strong&gt;We put ourselves in the shoes of our colleagues and customers and don’t shy away from uncomfortable conversations, instead building trust through honest and direct feedback.&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Bias for Action&lt;/span&gt;&lt;br&gt;&lt;/strong&gt;We practice high-velocity decision-making, clear-eyed that we often operate with incomplete information. Growing quickly means it’s OK to be wrong, so long as we learn from our mistakes and course correct!&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Always Be Learning&lt;/span&gt;&lt;br&gt;&lt;/strong&gt;We’re a curious bunch, and with AI transforming our workplace we encourage everyone to learn from each other, compounding our knowledge and experience to help us change an entire industry.&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Act Like an Owner&lt;/span&gt;&lt;br&gt;&lt;/strong&gt;We work long, hard, and smart, building products that delight our users and drive growth. Your ability to impact Instawork is limited only by your courage and conviction, not your job description.&lt;/p&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;About Instawork&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Founded in 2015,&amp;nbsp;&lt;a href=&quot;https://www.instawork.com&quot;&gt;Instawork&lt;/a&gt; is the nation’s leading online labor marketplace for food services, hospitality, light industry, and logistics, connecting more than 7M skilled workers with local restaurants, hotels, warehouses, stadiums, and more. Our AI-powered platform serves thousands of businesses across more than 50 major markets in the United States and Canada. We&#39;re not just helping fill shifts, we&#39;re supporting local economies—and we&#39;re just getting started!&lt;/p&gt;\n&lt;p&gt;Instawork has been featured by CBS News, The Wall Street Journal, The Washington Post, and the Associated Press. Forbes included us on their Next Billion Dollar Startups list; RetailTech Breakthrough named us Workforce Hiring Solution of the Year for 2025; and Inc. 5000 recognized us as one of the country&#39;s top 10% fastest-growing companies two years in a row. But what matters most is our impact. We&#39;re solving real problems for real people, and we’re doing it at scale.&lt;/p&gt;\n&lt;p&gt;Join our team to help us build something that matters! We’re looking for superstars who want to help us shape the future of work. With hubs in San Francisco, Bangalore, and Chicago, city offices in New York, Phoenix, and Singapore, we&#39;re back to working together in-person five days a week because we believe the best ideas happen when great people collaborate face-to-face. We also value diverse perspectives and encourage applications from candidates of all backgrounds.&lt;br&gt;&lt;br&gt;Ready to make an impact? Learn more at &lt;a href=&quot;http://www.instawork.com/about&quot;&gt;www.instawork.com/about&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;&lt;a href=&quot;https://info.instawork.com/legal/california-personnel-privacy-policy&quot;&gt;Personnel Privacy Policy&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/div&gt;",
+        "departments": [
+          {
+            "id": 4024198006,
+            "name": "Robotics",
+            "child_ids": [],
+            "parent_id": 4002707006
+          }
+        ],
+        "offices": [
+          {
+            "id": 4001415006,
+            "name": "Bangalore",
+            "location": "Bengaluru, Karnataka, India",
+            "child_ids": [],
+            "parent_id": 4002843006
+          }
+        ],
+        "ai_disclaimer": null,
+        "include_ai_disclaimer": null,
+        "ai_opt_out_request_url": "http://app6.greenhouse.io/ai_opt_out_request/job_post/4625772006/ai_opt_out"
+      }
+    },
+    {
       "job_id": "0f18c718f79cf2bab5e160e32bbddbaf1e57940637f3a49cc62c7cbddff200ad",
       "external_id": "4646566006",
       "company": "Instawork",
@@ -1808,7 +1808,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T01:01:03-04:00",
       "updated_at": "2026-08-27T01:01:03-04:00",
-      "discovered_at": "2026-08-29T05:46:20.655248+00:00",
+      "discovered_at": "2026-08-30T05:08:21.889990+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4646566006",
         "data_compliance": [
@@ -1911,7 +1911,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T01:01:08-04:00",
       "updated_at": "2026-08-27T01:01:08-04:00",
-      "discovered_at": "2026-08-29T05:46:20.656246+00:00",
+      "discovered_at": "2026-08-30T05:08:21.908561+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4697591006",
         "data_compliance": [
@@ -2014,7 +2014,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T15:09:26-04:00",
       "updated_at": "2026-08-27T15:09:26-04:00",
-      "discovered_at": "2026-08-29T05:46:20.656985+00:00",
+      "discovered_at": "2026-08-30T05:08:21.909781+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4708994006",
         "data_compliance": [
@@ -2117,7 +2117,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T01:01:09-04:00",
       "updated_at": "2026-08-27T01:01:09-04:00",
-      "discovered_at": "2026-08-29T05:46:20.657813+00:00",
+      "discovered_at": "2026-08-30T05:08:21.910448+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4706670006",
         "data_compliance": [
@@ -2229,7 +2229,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T01:01:09-04:00",
       "updated_at": "2026-08-27T01:01:09-04:00",
-      "discovered_at": "2026-08-29T05:46:20.658500+00:00",
+      "discovered_at": "2026-08-30T05:08:21.911004+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4706444006",
         "data_compliance": [
@@ -2332,7 +2332,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-28T11:52:03-04:00",
       "updated_at": "2026-08-28T11:52:03-04:00",
-      "discovered_at": "2026-08-29T05:46:20.659963+00:00",
+      "discovered_at": "2026-08-30T05:08:21.912128+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4709116006",
         "data_compliance": [
@@ -2432,7 +2432,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T01:01:07-04:00",
       "updated_at": "2026-08-27T01:01:07-04:00",
-      "discovered_at": "2026-08-29T05:46:20.662697+00:00",
+      "discovered_at": "2026-08-30T05:08:21.913023+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4686783006",
         "data_compliance": [
@@ -2535,7 +2535,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T01:01:05-04:00",
       "updated_at": "2026-08-27T01:01:05-04:00",
-      "discovered_at": "2026-08-29T05:46:20.663520+00:00",
+      "discovered_at": "2026-08-30T05:08:21.914228+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4658861006",
         "data_compliance": [
@@ -2638,7 +2638,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T01:01:03-04:00",
       "updated_at": "2026-08-27T01:01:03-04:00",
-      "discovered_at": "2026-08-29T05:46:20.664845+00:00",
+      "discovered_at": "2026-08-30T05:08:21.915274+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4646649006",
         "data_compliance": [
@@ -2741,7 +2741,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T01:01:03-04:00",
       "updated_at": "2026-08-27T01:01:03-04:00",
-      "discovered_at": "2026-08-29T05:46:20.666354+00:00",
+      "discovered_at": "2026-08-30T05:08:21.916243+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4646658006",
         "data_compliance": [
@@ -2844,7 +2844,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T01:01:04-04:00",
       "updated_at": "2026-08-27T01:01:04-04:00",
-      "discovered_at": "2026-08-29T05:46:20.667087+00:00",
+      "discovered_at": "2026-08-30T05:08:21.916905+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4646670006",
         "data_compliance": [
@@ -2947,7 +2947,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T01:01:07-04:00",
       "updated_at": "2026-08-27T01:01:07-04:00",
-      "discovered_at": "2026-08-29T05:46:20.667668+00:00",
+      "discovered_at": "2026-08-30T05:08:21.917468+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4686498006",
         "data_compliance": [
@@ -3050,7 +3050,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T05:32:59-04:00",
       "updated_at": "2026-08-27T05:32:59-04:00",
-      "discovered_at": "2026-08-29T05:46:20.668289+00:00",
+      "discovered_at": "2026-08-30T05:08:21.918156+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4684058006",
         "data_compliance": [
@@ -3155,7 +3155,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T01:01:02-04:00",
       "updated_at": "2026-08-27T01:01:02-04:00",
-      "discovered_at": "2026-08-29T05:46:20.668973+00:00",
+      "discovered_at": "2026-08-30T05:08:21.919823+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4618554006",
         "data_compliance": [
@@ -3258,7 +3258,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T01:01:08-04:00",
       "updated_at": "2026-08-27T01:01:08-04:00",
-      "discovered_at": "2026-08-29T05:46:20.669528+00:00",
+      "discovered_at": "2026-08-30T05:08:21.920639+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4700171006",
         "data_compliance": [
@@ -3363,7 +3363,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T01:00:59-04:00",
       "updated_at": "2026-08-27T01:00:59-04:00",
-      "discovered_at": "2026-08-29T05:46:20.670235+00:00",
+      "discovered_at": "2026-08-30T05:08:21.921482+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4583588006",
         "data_compliance": [
@@ -3448,6 +3448,106 @@
       }
     },
     {
+      "job_id": "664c5bc34204b2709394c27611c2ff55bacfa52fe9a3e2016419c7f152f58610",
+      "external_id": "4350762006",
+      "company": "Instawork",
+      "title": "Product Operations Analyst",
+      "location": "Bengaluru, Karnataka, India",
+      "remote": null,
+      "department": null,
+      "team": null,
+      "employment_type": null,
+      "description": "Instawork is on a mission to create meaningful economic opportunities for skilled hourly professionals in communities around the globe. Our AI-powered labor marketplace helps local businesses scale, and enables global technology companies to push the frontiers of robotics and AI. Backed by world-class investors like Benchmark, Spark Capital, Craft Ventures, Greylock, Y Combinator, and others, we’re looking for exceptional talent to reimagine the way the world works. At our labor marketplace tech company, we believe that even in the age of AI, the core of success comes down to good people doing honest work. We're seeking a detail-oriented and automation-savvy Product Operations Analyst to help us optimize our operational processes and ensure data accuracy across our platforms. This is a fantastic opportunity to grow your career at the intersection of operations, data, and intelligent automation. Who You Are: Automation Enthusiast: You're passionate about eliminating manual work through automation. You've built workflows using tools like n8n, Zapier, or Make.com, and you're always looking for the next process to optimize. AI-Powered Problem Solver: You actively leverage AI tools like ChatGPT, Claude, or other LLMs to enhance your productivity, solve complex problems, and generate insights. You see AI as a powerful co-pilot in your daily work. Data-Driven &amp; Analytical: You're comfortable diving into databases using SQL, analyzing trends in Excel or Google Sheets, and creating dashboards to visualize operational metrics. You use data to drive decisions and measure impact. Technical Tinkerer: You enjoy building solutions using no-code/low-code platforms like Replit, Retool, or similar tools. You're not afraid to write simple scripts or work with APIs to connect systems and automate workflows. Process Optimizer: You have a natural instinct for identifying inefficiencies and redesigning processes. You're organized, detail-oriented, and obsessed with creating scalable, repeatable systems. Self-Starter &amp; Collaborative: You can work independently to manage multiple projects while also partnering effectively with cross-functional teams including Biz-Ops, product, sales, and payroll. What You'll Do: Own Data Quality &amp; Integrity: Implement and maintain robust processes for validating and verifying data accuracy, consistency, and completeness across all platforms. Develop and enforce data quality standards that become the foundation of operational excellence. Build &amp; Deploy Automation Solutions: Design and implement automation workflows using N8n, Zapier, or custom scripts to eliminate repetitive manual tasks. Identify bottlenecks in current processes and create scalable automation solutions that improve team efficiency. Leverage AI for Operational Excellence: Utilize AI tools like ChatGPT, Claude, and other LLMs to automate data processing, generate insights, create documentation, and enhance decision-making. Experiment with new AI capabilities to continuously improve operational workflows. Manage End-to-End Projects: Own short-term and long-term operational projects with comprehensive documentation and strict adherence to timelines. Define performance metrics, accuracy benchmarks, and provide proactive updates to stakeholders throughout the project lifecycle. Drive Process Improvements: Continuously identify opportunities to streamline operations through automation, better tooling, and process redesign. Collaborate with cross-functional teams to implement solutions that reduce manual work and improve data accuracy. Partner Across Functions: Work closely with Biz-Ops, product management, engineering, billing ops, and sales teams to understand data requirements and operational needs. Collaborate on initiatives that enhance data accessibility and usability for all stakeholders. Nice To Have: Bachelor's Degree: Information Technology, Computer Science, Data Analytics, or a related field is preferred but not required if you have equivalent practical experience. Scripting &amp; Development Skills: Experience with Python, JavaScript, or other scripting languages for building custom automation solutions and data processing scripts. &nbsp;API &amp; Integration Expertise: Hands-on experience working with REST APIs, webhooks, and system integrations to connect disparate platforms and automate data flows. Data Visualization Skills: Experience creating dashboards and reports using Tableau, Power BI, Looker, or similar visualization tools to communicate insights to stakeholders. Startup Experience: Previous experience working in a fast-paced startup environment where you wore multiple hats and adapted quickly to changing priorities. &nbsp; Our Values&nbsp; Empathy, Trust &amp; Candor We put ourselves in the shoes of our colleagues and customers and don’t shy away from uncomfortable conversations, instead building trust through honest and direct feedback. Bias for Action We practice high-velocity decision-making, clear-eyed that we often operate with incomplete information. Growing quickly means it’s OK to be wrong, so long as we learn from our mistakes and course correct! Always Be Learning We’re a curious bunch, and with AI transforming our workplace we encourage everyone to learn from each other, compounding our knowledge and experience to help us change an entire industry. Act Like an Owner We work long, hard, and smart, building products that delight our users and drive growth. Your ability to impact Instawork is limited only by your courage and conviction, not your job description. About Instawork Founded in 2015,&nbsp; Instawork is the nation’s leading online labor marketplace for food services, hospitality, light industry, and logistics, connecting more than 7M skilled workers with local restaurants, hotels, warehouses, stadiums, and more. Our AI-powered platform serves thousands of businesses across more than 50 major markets in the United States and Canada. We're not just helping fill shifts, we're supporting local economies—and we're just getting started! Instawork has been featured by CBS News, The Wall Street Journal, The Washington Post, and the Associated Press. Forbes included us on their Next Billion Dollar Startups list; RetailTech Breakthrough named us Workforce Hiring Solution of the Year for 2025; and Inc. 5000 recognized us as one of the country's top 10% fastest-growing companies two years in a row. But what matters most is our impact. We're solving real problems for real people, and we’re doing it at scale. Join our team to help us build something that matters! We’re looking for superstars who want to help us shape the future of work. With hubs in San Francisco, Bangalore, and Chicago, city offices in New York, Phoenix, and Singapore, we're back to working together in-person five days a week because we believe the best ideas happen when great people collaborate face-to-face. We also value diverse perspectives and encourage applications from candidates of all backgrounds. Ready to make an impact? Learn more at www.instawork.com/about . Personnel Privacy Policy &nbsp;",
+      "apply_url": "https://job-boards.greenhouse.io/instawork/jobs/4350762006",
+      "source_url": "https://job-boards.greenhouse.io/instawork/jobs/4350762006",
+      "source": "greenhouse",
+      "posted_at": "2026-08-29T02:38:01-04:00",
+      "updated_at": "2026-08-29T02:38:01-04:00",
+      "discovered_at": "2026-08-30T05:08:21.922245+00:00",
+      "raw": {
+        "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4350762006",
+        "data_compliance": [
+          {
+            "type": "gdpr",
+            "requires_consent": false,
+            "requires_processing_consent": false,
+            "requires_retention_consent": false,
+            "retention_period": null,
+            "demographic_data_consent_applies": false
+          }
+        ],
+        "internal_job_id": 4402883006,
+        "location": {
+          "name": "Bengaluru, Karnataka, India"
+        },
+        "metadata": [
+          {
+            "id": 4007329006,
+            "name": "Employment Type",
+            "value": "Full-time",
+            "value_type": "single_select"
+          },
+          {
+            "id": 4057623006,
+            "name": "Compensation Band",
+            "value": {
+              "unit": null,
+              "max_value": "0.0",
+              "min_value": "0.0"
+            },
+            "value_type": "currency_range"
+          },
+          {
+            "id": 15548033006,
+            "name": "Headcount Type",
+            "value": "Backfill",
+            "value_type": "single_select"
+          },
+          {
+            "id": 15683714006,
+            "name": "Compensation",
+            "value": null,
+            "value_type": "currency"
+          },
+          {
+            "id": 17101398006,
+            "name": "Interview slot confirmation stages",
+            "value": null,
+            "value_type": "long_text"
+          }
+        ],
+        "id": 4350762006,
+        "updated_at": "2026-08-29T02:38:01-04:00",
+        "requisition_id": "267",
+        "title": "Product Operations Analyst",
+        "company_name": "Instawork",
+        "first_published": "2024-03-25T10:06:11-04:00",
+        "language": "en",
+        "application_deadline": null,
+        "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Instawork is on a mission to create meaningful economic opportunities for skilled hourly professionals in communities around the globe. Our AI-powered labor marketplace helps local businesses scale, and enables global technology companies to push the frontiers of robotics and AI. Backed by world-class investors like Benchmark, Spark Capital, Craft Ventures, Greylock, Y Combinator, and others, we’re looking for exceptional talent to reimagine the way the world works.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;At our labor marketplace tech company, we believe that even in the age of AI, the core of success comes down to good people doing honest work. We&#39;re seeking a detail-oriented and automation-savvy Product Operations Analyst to help us optimize our operational processes and ensure data accuracy across our platforms. This is a fantastic opportunity to grow your career at the intersection of operations, data, and intelligent automation.&lt;/p&gt;\n&lt;h4&gt;&lt;strong&gt;Who You Are:&lt;/strong&gt;&lt;/h4&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Automation Enthusiast:&lt;/strong&gt; You&#39;re passionate about eliminating manual work through automation. You&#39;ve built workflows using tools like n8n, Zapier, or Make.com, and you&#39;re always looking for the next process to optimize.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;AI-Powered Problem Solver:&lt;/strong&gt; You actively leverage AI tools like ChatGPT, Claude, or other LLMs to enhance your productivity, solve complex problems, and generate insights. You see AI as a powerful co-pilot in your daily work.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Data-Driven &amp;amp; Analytical:&lt;/strong&gt; You&#39;re comfortable diving into databases using SQL, analyzing trends in Excel or Google Sheets, and creating dashboards to visualize operational metrics. You use data to drive decisions and measure impact.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Technical Tinkerer:&lt;/strong&gt; You enjoy building solutions using no-code/low-code platforms like Replit, Retool, or similar tools. You&#39;re not afraid to write simple scripts or work with APIs to connect systems and automate workflows.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Process Optimizer: &lt;/strong&gt;You have a natural instinct for identifying inefficiencies and redesigning processes. You&#39;re organized, detail-oriented, and obsessed with creating scalable, repeatable systems.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Self-Starter &amp;amp; Collaborative:&lt;/strong&gt; You can work independently to manage multiple projects while also partnering effectively with cross-functional teams including Biz-Ops, product, sales, and payroll.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h4&gt;&lt;strong&gt;What You&#39;ll Do:&lt;/strong&gt;&lt;/h4&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Own Data Quality &amp;amp; Integrity: &lt;/strong&gt;Implement and maintain robust processes for validating and verifying data accuracy, consistency, and completeness across all platforms. Develop and enforce data quality standards that become the foundation of operational excellence.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Build &amp;amp; Deploy Automation Solutions:&lt;/strong&gt; Design and implement automation workflows using N8n, Zapier, or custom scripts to eliminate repetitive manual tasks. Identify bottlenecks in current processes and create scalable automation solutions that improve team efficiency.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Leverage AI for Operational Excellence:&lt;/strong&gt; Utilize AI tools like ChatGPT, Claude, and other LLMs to automate data processing, generate insights, create documentation, and enhance decision-making. Experiment with new AI capabilities to continuously improve operational workflows.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Manage End-to-End Projects: &lt;/strong&gt;Own short-term and long-term operational projects with comprehensive documentation and strict adherence to timelines. Define performance metrics, accuracy benchmarks, and provide proactive updates to stakeholders throughout the project lifecycle.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Drive Process Improvements:&lt;/strong&gt; Continuously identify opportunities to streamline operations through automation, better tooling, and process redesign. Collaborate with cross-functional teams to implement solutions that reduce manual work and improve data accuracy.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Partner Across Functions:&lt;/strong&gt; Work closely with Biz-Ops, product management, engineering, billing ops, and sales teams to understand data requirements and operational needs. Collaborate on initiatives that enhance data accessibility and usability for all stakeholders.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h4&gt;&lt;strong&gt;Nice To Have:&lt;/strong&gt;&lt;/h4&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Bachelor&#39;s Degree:&lt;/strong&gt; Information Technology, Computer Science, Data Analytics, or a related field is preferred but not required if you have equivalent practical experience.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Scripting &amp;amp; Development Skills: &lt;/strong&gt;Experience with Python, JavaScript, or other scripting languages for building custom automation solutions and data processing scripts.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;&amp;nbsp;API &amp;amp; Integration Expertise: &lt;/strong&gt;Hands-on experience working with REST APIs, webhooks, and system integrations to connect disparate platforms and automate data flows.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Data Visualization Skills:&lt;/strong&gt; Experience creating dashboards and reports using Tableau, Power BI, Looker, or similar visualization tools to communicate insights to stakeholders.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Startup Experience:&lt;/strong&gt; Previous experience working in a fast-paced startup environment where you wore multiple hats and adapted quickly to changing priorities.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;Our Values&amp;nbsp;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;\n&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Empathy, Trust &amp;amp; Candor&lt;/span&gt;&lt;br&gt;&lt;/strong&gt;We put ourselves in the shoes of our colleagues and customers and don’t shy away from uncomfortable conversations, instead building trust through honest and direct feedback.&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Bias for Action&lt;/span&gt;&lt;br&gt;&lt;/strong&gt;We practice high-velocity decision-making, clear-eyed that we often operate with incomplete information. Growing quickly means it’s OK to be wrong, so long as we learn from our mistakes and course correct!&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Always Be Learning&lt;/span&gt;&lt;br&gt;&lt;/strong&gt;We’re a curious bunch, and with AI transforming our workplace we encourage everyone to learn from each other, compounding our knowledge and experience to help us change an entire industry.&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Act Like an Owner&lt;/span&gt;&lt;br&gt;&lt;/strong&gt;We work long, hard, and smart, building products that delight our users and drive growth. Your ability to impact Instawork is limited only by your courage and conviction, not your job description.&lt;/p&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;About Instawork&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Founded in 2015,&amp;nbsp;&lt;a href=&quot;https://www.instawork.com&quot;&gt;Instawork&lt;/a&gt; is the nation’s leading online labor marketplace for food services, hospitality, light industry, and logistics, connecting more than 7M skilled workers with local restaurants, hotels, warehouses, stadiums, and more. Our AI-powered platform serves thousands of businesses across more than 50 major markets in the United States and Canada. We&#39;re not just helping fill shifts, we&#39;re supporting local economies—and we&#39;re just getting started!&lt;/p&gt;\n&lt;p&gt;Instawork has been featured by CBS News, The Wall Street Journal, The Washington Post, and the Associated Press. Forbes included us on their Next Billion Dollar Startups list; RetailTech Breakthrough named us Workforce Hiring Solution of the Year for 2025; and Inc. 5000 recognized us as one of the country&#39;s top 10% fastest-growing companies two years in a row. But what matters most is our impact. We&#39;re solving real problems for real people, and we’re doing it at scale.&lt;/p&gt;\n&lt;p&gt;Join our team to help us build something that matters! We’re looking for superstars who want to help us shape the future of work. With hubs in San Francisco, Bangalore, and Chicago, city offices in New York, Phoenix, and Singapore, we&#39;re back to working together in-person five days a week because we believe the best ideas happen when great people collaborate face-to-face. We also value diverse perspectives and encourage applications from candidates of all backgrounds.&lt;br&gt;&lt;br&gt;Ready to make an impact? Learn more at &lt;a href=&quot;http://www.instawork.com/about&quot;&gt;www.instawork.com/about&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;&lt;a href=&quot;https://info.instawork.com/legal/california-personnel-privacy-policy&quot;&gt;Personnel Privacy Policy&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/div&gt;",
+        "departments": [
+          {
+            "id": 4022600006,
+            "name": "Product Operations",
+            "child_ids": [],
+            "parent_id": 4002719006
+          }
+        ],
+        "offices": [
+          {
+            "id": 4001415006,
+            "name": "Bangalore",
+            "location": "Bengaluru, Karnataka, India",
+            "child_ids": [],
+            "parent_id": 4002843006
+          }
+        ],
+        "ai_disclaimer": null,
+        "include_ai_disclaimer": null,
+        "ai_opt_out_request_url": "http://app6.greenhouse.io/ai_opt_out_request/job_post/4350762006/ai_opt_out"
+      }
+    },
+    {
       "job_id": "7df1e35c9a7d1d5d8cd5e2b310ad2270866bdae96b368d0d113e9e6b43e60132",
       "external_id": "4583589006",
       "company": "Instawork",
@@ -3463,7 +3563,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T01:00:59-04:00",
       "updated_at": "2026-08-27T01:00:59-04:00",
-      "discovered_at": "2026-08-29T05:46:20.671054+00:00",
+      "discovered_at": "2026-08-30T05:08:21.923147+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4583589006",
         "data_compliance": [
@@ -3563,7 +3663,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T01:01:00-04:00",
       "updated_at": "2026-08-27T01:01:00-04:00",
-      "discovered_at": "2026-08-29T05:46:20.671613+00:00",
+      "discovered_at": "2026-08-30T05:08:21.923862+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4590775006",
         "data_compliance": [
@@ -3663,7 +3763,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T01:01:08-04:00",
       "updated_at": "2026-08-27T01:01:08-04:00",
-      "discovered_at": "2026-08-29T05:46:20.672474+00:00",
+      "discovered_at": "2026-08-30T05:08:21.924631+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4702343006",
         "data_compliance": [
@@ -3773,7 +3873,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T01:01:06-04:00",
       "updated_at": "2026-08-27T01:01:06-04:00",
-      "discovered_at": "2026-08-29T05:46:20.673342+00:00",
+      "discovered_at": "2026-08-30T05:08:21.933307+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4679304006",
         "data_compliance": [
@@ -3876,7 +3976,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T01:01:06-04:00",
       "updated_at": "2026-08-27T01:01:06-04:00",
-      "discovered_at": "2026-08-29T05:46:20.674121+00:00",
+      "discovered_at": "2026-08-30T05:08:21.934356+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4667922006",
         "data_compliance": [
@@ -3979,7 +4079,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T01:01:07-04:00",
       "updated_at": "2026-08-27T01:01:07-04:00",
-      "discovered_at": "2026-08-29T05:46:20.674922+00:00",
+      "discovered_at": "2026-08-30T05:08:21.934990+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4688162006",
         "data_compliance": [
@@ -4067,109 +4167,6 @@
       }
     },
     {
-      "job_id": "11a371306986b0a70c62da469db8fb2f2bbb0c4e6dcbde22fe25748e1f007d9c",
-      "external_id": "4686689006",
-      "company": "Instawork",
-      "title": "Senior Account Executive",
-      "location": "Chicago, Illinois, United States",
-      "remote": false,
-      "department": null,
-      "team": null,
-      "employment_type": null,
-      "description": "Instawork is on a mission to create meaningful economic opportunities for skilled hourly professionals in communities around the globe. Our AI-powered labor marketplace helps local businesses scale, and enables global technology companies to push the frontiers of robotics and AI. Backed by world-class investors like Benchmark, Spark Capital, Craft Ventures, Greylock, Y Combinator, and others, we’re looking for exceptional talent to reimagine the way the world works. The future of hourly work has arrived, and we are looking for a top-performing Senior Account Executive to help lead the charge. Instawork is the #1 marketplace connecting businesses with skilled hourly workers, with 10M+ workers across 40+ markets in North America. Backed by Benchmark, Greylock, and other world-class investors, we are reinventing how businesses hire, and we are just getting started. This is your chance to sell a product that genuinely changes lives. Our AI-powered platform creates real economic opportunity for workers while solving one of the most pressing challenges businesses face: reliable, on-demand staffing. You will be selling into an expansive and exciting total addressable market, including Major Sports Stadiums, E-commerce brands, major universities, AI companies, and beyond. This is a high-impact role for a hunter who thrives on competition, loves to win, and wants to be part of something that matters. You will report to a Sales Manager and play a critical role in driving Instawork’s next phase of growth, on-site 5 days per week in our downtown Chicago office. Who You Are 3+ years of B2B sales experience with a proven, consistent track record of exceeding quota A relentless competitor who lives at the top of the leaderboard and will not settle for anything less Energized by coaching and obsessed with leveling up your craft A true hunter who thrives in fast-paced environments and knows how to build pipeline from scratch through outbound prospecting Fluent in a robust sales stack; proficiency in Salesforce, Outreach, and ZoomInfo/Sales Navigator preferred Sharp negotiator with experience navigating commercial and legal terms to close Passionate about selling a product that creates real economic opportunity and changes people’s lives An exceptional communicator who is compelling on the phone, polished on video, and persuasive in person Experience selling into large hospitality or warehousing brands is a plus What You’ll Do Own your territory and build high-value partnerships with top partners across Major Sports Stadiums, E-commerce brands, universities, AI companies, and more Drive aggressive outbound prospecting to generate your own pipeline through cold calls, targeted sequences, and creative outreach Reach executives and key decision makers, delivering compelling and tailored presentations that win Use a consultative sales approach to show prospects exactly why Instawork is the faster, smarter alternative to legacy staffing solutions Close new business over the phone, video, and in-person, then obsess over expanding those accounts from day one Negotiate commercial and legal terms with confidence to get deals across the finish line Deliver accurate weekly forecasts and own your number Collaborate with sales and operations to ensure customers experience the full power of Instawork’s platform Keep a sharp, healthy Salesforce pipeline and leverage our full sales stack to stay ahead Career Growth: We promote from within. From day one, you'll see the AE promotion path laid out, typically with 12-month success intervals For IL-based applicants The base salary for this position is $80,000, with an eligible OTE for a total of $160,000, and uncapped earning potential This position is eligible for equity in the form of stock options This position is eligible for Instawork benefits, including: A variety of medical, dental, and vision plans with coverage beginning on the date of hire Flexible paid time off At least 8 paid company holidays annually Phone stipend Commuter stipend Supplemental pay on qualified leaves Employee health savings accounts (HSA) contribution Flexible spending plans 401K plan Perkspot - discount program through Lumity #LI-Onsite Our Values&nbsp; Empathy, Trust &amp; Candor We put ourselves in the shoes of our colleagues and customers and don’t shy away from uncomfortable conversations, instead building trust through honest and direct feedback. Bias for Action We practice high-velocity decision-making, clear-eyed that we often operate with incomplete information. Growing quickly means it’s OK to be wrong, so long as we learn from our mistakes and course correct! Always Be Learning We’re a curious bunch, and with AI transforming our workplace we encourage everyone to learn from each other, compounding our knowledge and experience to help us change an entire industry. Act Like an Owner We work long, hard, and smart, building products that delight our users and drive growth. Your ability to impact Instawork is limited only by your courage and conviction, not your job description. About Instawork Founded in 2015,&nbsp; Instawork is the nation’s leading online labor marketplace for food services, hospitality, light industry, and logistics, connecting more than 7M skilled workers with local restaurants, hotels, warehouses, stadiums, and more. Our AI-powered platform serves thousands of businesses across more than 50 major markets in the United States and Canada. We're not just helping fill shifts, we're supporting local economies—and we're just getting started! Instawork has been featured by CBS News, The Wall Street Journal, The Washington Post, and the Associated Press. Forbes included us on their Next Billion Dollar Startups list; RetailTech Breakthrough named us Workforce Hiring Solution of the Year for 2025; and Inc. 5000 recognized us as one of the country's top 10% fastest-growing companies two years in a row. But what matters most is our impact. We're solving real problems for real people, and we’re doing it at scale. Join our team to help us build something that matters! We’re looking for superstars who want to help us shape the future of work. With hubs in San Francisco, Bangalore, and Chicago, city offices in New York, Phoenix, and Singapore, we're back to working together in-person five days a week because we believe the best ideas happen when great people collaborate face-to-face. We also value diverse perspectives and encourage applications from candidates of all backgrounds. Ready to make an impact? Learn more at www.instawork.com/about . Personnel Privacy Policy &nbsp;",
-      "apply_url": "https://job-boards.greenhouse.io/instawork/jobs/4686689006",
-      "source_url": "https://job-boards.greenhouse.io/instawork/jobs/4686689006",
-      "source": "greenhouse",
-      "posted_at": "2026-08-27T01:01:07-04:00",
-      "updated_at": "2026-08-27T01:01:07-04:00",
-      "discovered_at": "2026-08-29T05:46:20.675629+00:00",
-      "raw": {
-        "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4686689006",
-        "data_compliance": [
-          {
-            "type": "gdpr",
-            "requires_consent": false,
-            "requires_processing_consent": false,
-            "requires_retention_consent": false,
-            "retention_period": null,
-            "demographic_data_consent_applies": false
-          }
-        ],
-        "internal_job_id": 4550376006,
-        "location": {
-          "name": "Chicago, Illinois, United States"
-        },
-        "metadata": [
-          {
-            "id": 4007329006,
-            "name": "Employment Type",
-            "value": "Full-time",
-            "value_type": "single_select"
-          },
-          {
-            "id": 4057623006,
-            "name": "Compensation Band",
-            "value": {
-              "unit": "USD",
-              "max_value": "80000.0",
-              "min_value": "80000.0"
-            },
-            "value_type": "currency_range"
-          },
-          {
-            "id": 15548033006,
-            "name": "Headcount Type",
-            "value": "Backfill",
-            "value_type": "single_select"
-          },
-          {
-            "id": 15683714006,
-            "name": "Compensation",
-            "value": {
-              "unit": null,
-              "amount": "0.0"
-            },
-            "value_type": "currency"
-          },
-          {
-            "id": 17101398006,
-            "name": "Interview slot confirmation stages",
-            "value": null,
-            "value_type": "long_text"
-          }
-        ],
-        "id": 4686689006,
-        "updated_at": "2026-08-27T01:01:07-04:00",
-        "requisition_id": "560",
-        "title": "Senior Account Executive",
-        "company_name": "Instawork",
-        "first_published": "2026-06-04T10:45:47-04:00",
-        "language": "en",
-        "application_deadline": null,
-        "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Instawork is on a mission to create meaningful economic opportunities for skilled hourly professionals in communities around the globe. Our AI-powered labor marketplace helps local businesses scale, and enables global technology companies to push the frontiers of robotics and AI. Backed by world-class investors like Benchmark, Spark Capital, Craft Ventures, Greylock, Y Combinator, and others, we’re looking for exceptional talent to reimagine the way the world works.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;The future of hourly work has arrived, and we are looking for a top-performing Senior Account Executive to help lead the charge. Instawork is the #1 marketplace connecting businesses with skilled hourly workers, with 10M+ workers across 40+ markets in North America. Backed by Benchmark, Greylock, and other world-class investors, we are reinventing how businesses hire, and we are just getting started.&lt;/p&gt;\n&lt;p&gt;This is your chance to sell a product that genuinely changes lives. Our AI-powered platform creates real economic opportunity for workers while solving one of the most pressing challenges businesses face: reliable, on-demand staffing. You will be selling into an expansive and exciting total addressable market, including Major Sports Stadiums, E-commerce brands, major universities, AI companies, and beyond.&lt;/p&gt;\n&lt;p&gt;This is a high-impact role for a hunter who thrives on competition, loves to win, and wants to be part of something that matters. You will report to a Sales Manager and play a critical role in driving Instawork’s next phase of growth, on-site 5 days per week in our downtown Chicago office.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Who You Are&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;3+ years of B2B sales experience with a proven, consistent track record of exceeding quota&lt;/li&gt;\n&lt;li&gt;A relentless competitor who lives at the top of the leaderboard and will not settle for anything less&lt;/li&gt;\n&lt;li&gt;Energized by coaching and obsessed with leveling up your craft&lt;/li&gt;\n&lt;li&gt;A true hunter who thrives in fast-paced environments and knows how to build pipeline from scratch through outbound prospecting&lt;/li&gt;\n&lt;li&gt;Fluent in a robust sales stack; proficiency in Salesforce, Outreach, and ZoomInfo/Sales Navigator preferred&lt;/li&gt;\n&lt;li&gt;Sharp negotiator with experience navigating commercial and legal terms to close&lt;/li&gt;\n&lt;li&gt;Passionate about selling a product that creates real economic opportunity and changes people’s lives&lt;/li&gt;\n&lt;li&gt;An exceptional communicator who is compelling on the phone, polished on video, and persuasive in person&lt;/li&gt;\n&lt;li&gt;Experience selling into large hospitality or warehousing brands is a plus&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;What You’ll Do&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Own your territory and build high-value partnerships with top partners across Major Sports Stadiums, E-commerce brands, universities, AI companies, and more&lt;/li&gt;\n&lt;li&gt;Drive aggressive outbound prospecting to generate your own pipeline through cold calls, targeted sequences, and creative outreach&lt;/li&gt;\n&lt;li&gt;Reach executives and key decision makers, delivering compelling and tailored presentations that win&lt;/li&gt;\n&lt;li&gt;Use a consultative sales approach to show prospects exactly why Instawork is the faster, smarter alternative to legacy staffing solutions&lt;/li&gt;\n&lt;li&gt;Close new business over the phone, video, and in-person, then obsess over expanding those accounts from day one&lt;/li&gt;\n&lt;li&gt;Negotiate commercial and legal terms with confidence to get deals across the finish line&lt;/li&gt;\n&lt;li&gt;Deliver accurate weekly forecasts and own your number&lt;/li&gt;\n&lt;li&gt;Collaborate with sales and operations to ensure customers experience the full power of Instawork’s platform&lt;/li&gt;\n&lt;li&gt;Keep a sharp, healthy Salesforce pipeline and leverage our full sales stack to stay ahead&lt;/li&gt;\n&lt;li&gt;Career Growth: We promote from within. From day one, you&#39;ll see the AE promotion path laid out, typically with 12-month success intervals&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;&lt;strong&gt;For IL-based applicants&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;The base salary for this position is $80,000, with an eligible OTE for a total of $160,000, and uncapped earning potential&lt;/li&gt;\n&lt;li&gt;This position is eligible for equity in the form of stock options&lt;/li&gt;\n&lt;li&gt;This position is eligible for Instawork benefits, including:\n&lt;ul&gt;\n&lt;li&gt;A variety of medical, dental, and vision plans with coverage beginning on the date of hire&lt;/li&gt;\n&lt;li&gt;Flexible paid time off&lt;/li&gt;\n&lt;li&gt;At least 8 paid company holidays annually&lt;/li&gt;\n&lt;li&gt;Phone stipend&lt;/li&gt;\n&lt;li&gt;Commuter stipend&lt;/li&gt;\n&lt;li&gt;Supplemental pay on qualified leaves&lt;/li&gt;\n&lt;li&gt;Employee health savings accounts (HSA) contribution&lt;/li&gt;\n&lt;li&gt;Flexible spending plans&lt;/li&gt;\n&lt;li&gt;401K plan&lt;/li&gt;\n&lt;li&gt;Perkspot - discount program through Lumity&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;#LI-Onsite&lt;/span&gt;&lt;/p&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;Our Values&amp;nbsp;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;\n&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Empathy, Trust &amp;amp; Candor&lt;/span&gt;&lt;br&gt;&lt;/strong&gt;We put ourselves in the shoes of our colleagues and customers and don’t shy away from uncomfortable conversations, instead building trust through honest and direct feedback.&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Bias for Action&lt;/span&gt;&lt;br&gt;&lt;/strong&gt;We practice high-velocity decision-making, clear-eyed that we often operate with incomplete information. Growing quickly means it’s OK to be wrong, so long as we learn from our mistakes and course correct!&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Always Be Learning&lt;/span&gt;&lt;br&gt;&lt;/strong&gt;We’re a curious bunch, and with AI transforming our workplace we encourage everyone to learn from each other, compounding our knowledge and experience to help us change an entire industry.&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Act Like an Owner&lt;/span&gt;&lt;br&gt;&lt;/strong&gt;We work long, hard, and smart, building products that delight our users and drive growth. Your ability to impact Instawork is limited only by your courage and conviction, not your job description.&lt;/p&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;About Instawork&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Founded in 2015,&amp;nbsp;&lt;a href=&quot;https://www.instawork.com&quot;&gt;Instawork&lt;/a&gt; is the nation’s leading online labor marketplace for food services, hospitality, light industry, and logistics, connecting more than 7M skilled workers with local restaurants, hotels, warehouses, stadiums, and more. Our AI-powered platform serves thousands of businesses across more than 50 major markets in the United States and Canada. We&#39;re not just helping fill shifts, we&#39;re supporting local economies—and we&#39;re just getting started!&lt;/p&gt;\n&lt;p&gt;Instawork has been featured by CBS News, The Wall Street Journal, The Washington Post, and the Associated Press. Forbes included us on their Next Billion Dollar Startups list; RetailTech Breakthrough named us Workforce Hiring Solution of the Year for 2025; and Inc. 5000 recognized us as one of the country&#39;s top 10% fastest-growing companies two years in a row. But what matters most is our impact. We&#39;re solving real problems for real people, and we’re doing it at scale.&lt;/p&gt;\n&lt;p&gt;Join our team to help us build something that matters! We’re looking for superstars who want to help us shape the future of work. With hubs in San Francisco, Bangalore, and Chicago, city offices in New York, Phoenix, and Singapore, we&#39;re back to working together in-person five days a week because we believe the best ideas happen when great people collaborate face-to-face. We also value diverse perspectives and encourage applications from candidates of all backgrounds.&lt;br&gt;&lt;br&gt;Ready to make an impact? Learn more at &lt;a href=&quot;http://www.instawork.com/about&quot;&gt;www.instawork.com/about&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;&lt;a href=&quot;https://info.instawork.com/legal/california-personnel-privacy-policy&quot;&gt;Personnel Privacy Policy&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/div&gt;",
-        "departments": [
-          {
-            "id": 4002709006,
-            "name": "Sales",
-            "child_ids": [],
-            "parent_id": null
-          }
-        ],
-        "offices": [
-          {
-            "id": 4001408006,
-            "name": "Chicago",
-            "location": "Chicago, Illinois, United States",
-            "child_ids": [],
-            "parent_id": 4002845006
-          }
-        ],
-        "ai_disclaimer": null,
-        "include_ai_disclaimer": null,
-        "ai_opt_out_request_url": "http://app6.greenhouse.io/ai_opt_out_request/job_post/4686689006/ai_opt_out"
-      }
-    },
-    {
       "job_id": "b58bf9715153eee909deaa997b483f44e5ea89244e395f61fa42a874b897a078",
       "external_id": "4702015006",
       "company": "Instawork",
@@ -4185,7 +4182,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T01:01:08-04:00",
       "updated_at": "2026-08-27T01:01:08-04:00",
-      "discovered_at": "2026-08-29T05:46:20.676604+00:00",
+      "discovered_at": "2026-08-30T05:08:21.935661+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4702015006",
         "data_compliance": [
@@ -4273,6 +4270,109 @@
       }
     },
     {
+      "job_id": "11a371306986b0a70c62da469db8fb2f2bbb0c4e6dcbde22fe25748e1f007d9c",
+      "external_id": "4686689006",
+      "company": "Instawork",
+      "title": "Senior Account Executive",
+      "location": "Chicago, Illinois, United States",
+      "remote": false,
+      "department": null,
+      "team": null,
+      "employment_type": null,
+      "description": "Instawork is on a mission to create meaningful economic opportunities for skilled hourly professionals in communities around the globe. Our AI-powered labor marketplace helps local businesses scale, and enables global technology companies to push the frontiers of robotics and AI. Backed by world-class investors like Benchmark, Spark Capital, Craft Ventures, Greylock, Y Combinator, and others, we’re looking for exceptional talent to reimagine the way the world works. The future of hourly work has arrived, and we are looking for a top-performing Senior Account Executive to help lead the charge. Instawork is the #1 marketplace connecting businesses with skilled hourly workers, with 10M+ workers across 40+ markets in North America. Backed by Benchmark, Greylock, and other world-class investors, we are reinventing how businesses hire, and we are just getting started. This is your chance to sell a product that genuinely changes lives. Our AI-powered platform creates real economic opportunity for workers while solving one of the most pressing challenges businesses face: reliable, on-demand staffing. You will be selling into an expansive and exciting total addressable market, including Major Sports Stadiums, E-commerce brands, major universities, AI companies, and beyond. This is a high-impact role for a hunter who thrives on competition, loves to win, and wants to be part of something that matters. You will report to a Sales Manager and play a critical role in driving Instawork’s next phase of growth, on-site 5 days per week in our downtown Chicago office. Who You Are 3+ years of B2B sales experience with a proven, consistent track record of exceeding quota A relentless competitor who lives at the top of the leaderboard and will not settle for anything less Energized by coaching and obsessed with leveling up your craft A true hunter who thrives in fast-paced environments and knows how to build pipeline from scratch through outbound prospecting Fluent in a robust sales stack; proficiency in Salesforce, Outreach, and ZoomInfo/Sales Navigator preferred Sharp negotiator with experience navigating commercial and legal terms to close Passionate about selling a product that creates real economic opportunity and changes people’s lives An exceptional communicator who is compelling on the phone, polished on video, and persuasive in person Experience selling into large hospitality or warehousing brands is a plus What You’ll Do Own your territory and build high-value partnerships with top partners across Major Sports Stadiums, E-commerce brands, universities, AI companies, and more Drive aggressive outbound prospecting to generate your own pipeline through cold calls, targeted sequences, and creative outreach Reach executives and key decision makers, delivering compelling and tailored presentations that win Use a consultative sales approach to show prospects exactly why Instawork is the faster, smarter alternative to legacy staffing solutions Close new business over the phone, video, and in-person, then obsess over expanding those accounts from day one Negotiate commercial and legal terms with confidence to get deals across the finish line Deliver accurate weekly forecasts and own your number Collaborate with sales and operations to ensure customers experience the full power of Instawork’s platform Keep a sharp, healthy Salesforce pipeline and leverage our full sales stack to stay ahead Career Growth: We promote from within. From day one, you'll see the AE promotion path laid out, typically with 12-month success intervals For IL-based applicants The base salary for this position is $80,000, with an eligible OTE for a total of $160,000, and uncapped earning potential This position is eligible for equity in the form of stock options This position is eligible for Instawork benefits, including: A variety of medical, dental, and vision plans with coverage beginning on the date of hire Flexible paid time off At least 8 paid company holidays annually Phone stipend Commuter stipend Supplemental pay on qualified leaves Employee health savings accounts (HSA) contribution Flexible spending plans 401K plan Perkspot - discount program through Lumity #LI-Onsite Our Values&nbsp; Empathy, Trust &amp; Candor We put ourselves in the shoes of our colleagues and customers and don’t shy away from uncomfortable conversations, instead building trust through honest and direct feedback. Bias for Action We practice high-velocity decision-making, clear-eyed that we often operate with incomplete information. Growing quickly means it’s OK to be wrong, so long as we learn from our mistakes and course correct! Always Be Learning We’re a curious bunch, and with AI transforming our workplace we encourage everyone to learn from each other, compounding our knowledge and experience to help us change an entire industry. Act Like an Owner We work long, hard, and smart, building products that delight our users and drive growth. Your ability to impact Instawork is limited only by your courage and conviction, not your job description. About Instawork Founded in 2015,&nbsp; Instawork is the nation’s leading online labor marketplace for food services, hospitality, light industry, and logistics, connecting more than 7M skilled workers with local restaurants, hotels, warehouses, stadiums, and more. Our AI-powered platform serves thousands of businesses across more than 50 major markets in the United States and Canada. We're not just helping fill shifts, we're supporting local economies—and we're just getting started! Instawork has been featured by CBS News, The Wall Street Journal, The Washington Post, and the Associated Press. Forbes included us on their Next Billion Dollar Startups list; RetailTech Breakthrough named us Workforce Hiring Solution of the Year for 2025; and Inc. 5000 recognized us as one of the country's top 10% fastest-growing companies two years in a row. But what matters most is our impact. We're solving real problems for real people, and we’re doing it at scale. Join our team to help us build something that matters! We’re looking for superstars who want to help us shape the future of work. With hubs in San Francisco, Bangalore, and Chicago, city offices in New York, Phoenix, and Singapore, we're back to working together in-person five days a week because we believe the best ideas happen when great people collaborate face-to-face. We also value diverse perspectives and encourage applications from candidates of all backgrounds. Ready to make an impact? Learn more at www.instawork.com/about . Personnel Privacy Policy &nbsp;",
+      "apply_url": "https://job-boards.greenhouse.io/instawork/jobs/4686689006",
+      "source_url": "https://job-boards.greenhouse.io/instawork/jobs/4686689006",
+      "source": "greenhouse",
+      "posted_at": "2026-08-27T01:01:07-04:00",
+      "updated_at": "2026-08-27T01:01:07-04:00",
+      "discovered_at": "2026-08-30T05:08:21.936431+00:00",
+      "raw": {
+        "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4686689006",
+        "data_compliance": [
+          {
+            "type": "gdpr",
+            "requires_consent": false,
+            "requires_processing_consent": false,
+            "requires_retention_consent": false,
+            "retention_period": null,
+            "demographic_data_consent_applies": false
+          }
+        ],
+        "internal_job_id": 4550376006,
+        "location": {
+          "name": "Chicago, Illinois, United States"
+        },
+        "metadata": [
+          {
+            "id": 4007329006,
+            "name": "Employment Type",
+            "value": "Full-time",
+            "value_type": "single_select"
+          },
+          {
+            "id": 4057623006,
+            "name": "Compensation Band",
+            "value": {
+              "unit": "USD",
+              "max_value": "80000.0",
+              "min_value": "80000.0"
+            },
+            "value_type": "currency_range"
+          },
+          {
+            "id": 15548033006,
+            "name": "Headcount Type",
+            "value": "Backfill",
+            "value_type": "single_select"
+          },
+          {
+            "id": 15683714006,
+            "name": "Compensation",
+            "value": {
+              "unit": null,
+              "amount": "0.0"
+            },
+            "value_type": "currency"
+          },
+          {
+            "id": 17101398006,
+            "name": "Interview slot confirmation stages",
+            "value": null,
+            "value_type": "long_text"
+          }
+        ],
+        "id": 4686689006,
+        "updated_at": "2026-08-27T01:01:07-04:00",
+        "requisition_id": "560",
+        "title": "Senior Account Executive",
+        "company_name": "Instawork",
+        "first_published": "2026-06-04T10:45:47-04:00",
+        "language": "en",
+        "application_deadline": null,
+        "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Instawork is on a mission to create meaningful economic opportunities for skilled hourly professionals in communities around the globe. Our AI-powered labor marketplace helps local businesses scale, and enables global technology companies to push the frontiers of robotics and AI. Backed by world-class investors like Benchmark, Spark Capital, Craft Ventures, Greylock, Y Combinator, and others, we’re looking for exceptional talent to reimagine the way the world works.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;The future of hourly work has arrived, and we are looking for a top-performing Senior Account Executive to help lead the charge. Instawork is the #1 marketplace connecting businesses with skilled hourly workers, with 10M+ workers across 40+ markets in North America. Backed by Benchmark, Greylock, and other world-class investors, we are reinventing how businesses hire, and we are just getting started.&lt;/p&gt;\n&lt;p&gt;This is your chance to sell a product that genuinely changes lives. Our AI-powered platform creates real economic opportunity for workers while solving one of the most pressing challenges businesses face: reliable, on-demand staffing. You will be selling into an expansive and exciting total addressable market, including Major Sports Stadiums, E-commerce brands, major universities, AI companies, and beyond.&lt;/p&gt;\n&lt;p&gt;This is a high-impact role for a hunter who thrives on competition, loves to win, and wants to be part of something that matters. You will report to a Sales Manager and play a critical role in driving Instawork’s next phase of growth, on-site 5 days per week in our downtown Chicago office.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Who You Are&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;3+ years of B2B sales experience with a proven, consistent track record of exceeding quota&lt;/li&gt;\n&lt;li&gt;A relentless competitor who lives at the top of the leaderboard and will not settle for anything less&lt;/li&gt;\n&lt;li&gt;Energized by coaching and obsessed with leveling up your craft&lt;/li&gt;\n&lt;li&gt;A true hunter who thrives in fast-paced environments and knows how to build pipeline from scratch through outbound prospecting&lt;/li&gt;\n&lt;li&gt;Fluent in a robust sales stack; proficiency in Salesforce, Outreach, and ZoomInfo/Sales Navigator preferred&lt;/li&gt;\n&lt;li&gt;Sharp negotiator with experience navigating commercial and legal terms to close&lt;/li&gt;\n&lt;li&gt;Passionate about selling a product that creates real economic opportunity and changes people’s lives&lt;/li&gt;\n&lt;li&gt;An exceptional communicator who is compelling on the phone, polished on video, and persuasive in person&lt;/li&gt;\n&lt;li&gt;Experience selling into large hospitality or warehousing brands is a plus&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;What You’ll Do&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Own your territory and build high-value partnerships with top partners across Major Sports Stadiums, E-commerce brands, universities, AI companies, and more&lt;/li&gt;\n&lt;li&gt;Drive aggressive outbound prospecting to generate your own pipeline through cold calls, targeted sequences, and creative outreach&lt;/li&gt;\n&lt;li&gt;Reach executives and key decision makers, delivering compelling and tailored presentations that win&lt;/li&gt;\n&lt;li&gt;Use a consultative sales approach to show prospects exactly why Instawork is the faster, smarter alternative to legacy staffing solutions&lt;/li&gt;\n&lt;li&gt;Close new business over the phone, video, and in-person, then obsess over expanding those accounts from day one&lt;/li&gt;\n&lt;li&gt;Negotiate commercial and legal terms with confidence to get deals across the finish line&lt;/li&gt;\n&lt;li&gt;Deliver accurate weekly forecasts and own your number&lt;/li&gt;\n&lt;li&gt;Collaborate with sales and operations to ensure customers experience the full power of Instawork’s platform&lt;/li&gt;\n&lt;li&gt;Keep a sharp, healthy Salesforce pipeline and leverage our full sales stack to stay ahead&lt;/li&gt;\n&lt;li&gt;Career Growth: We promote from within. From day one, you&#39;ll see the AE promotion path laid out, typically with 12-month success intervals&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;&lt;strong&gt;For IL-based applicants&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;The base salary for this position is $80,000, with an eligible OTE for a total of $160,000, and uncapped earning potential&lt;/li&gt;\n&lt;li&gt;This position is eligible for equity in the form of stock options&lt;/li&gt;\n&lt;li&gt;This position is eligible for Instawork benefits, including:\n&lt;ul&gt;\n&lt;li&gt;A variety of medical, dental, and vision plans with coverage beginning on the date of hire&lt;/li&gt;\n&lt;li&gt;Flexible paid time off&lt;/li&gt;\n&lt;li&gt;At least 8 paid company holidays annually&lt;/li&gt;\n&lt;li&gt;Phone stipend&lt;/li&gt;\n&lt;li&gt;Commuter stipend&lt;/li&gt;\n&lt;li&gt;Supplemental pay on qualified leaves&lt;/li&gt;\n&lt;li&gt;Employee health savings accounts (HSA) contribution&lt;/li&gt;\n&lt;li&gt;Flexible spending plans&lt;/li&gt;\n&lt;li&gt;401K plan&lt;/li&gt;\n&lt;li&gt;Perkspot - discount program through Lumity&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;#LI-Onsite&lt;/span&gt;&lt;/p&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;Our Values&amp;nbsp;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;\n&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Empathy, Trust &amp;amp; Candor&lt;/span&gt;&lt;br&gt;&lt;/strong&gt;We put ourselves in the shoes of our colleagues and customers and don’t shy away from uncomfortable conversations, instead building trust through honest and direct feedback.&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Bias for Action&lt;/span&gt;&lt;br&gt;&lt;/strong&gt;We practice high-velocity decision-making, clear-eyed that we often operate with incomplete information. Growing quickly means it’s OK to be wrong, so long as we learn from our mistakes and course correct!&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Always Be Learning&lt;/span&gt;&lt;br&gt;&lt;/strong&gt;We’re a curious bunch, and with AI transforming our workplace we encourage everyone to learn from each other, compounding our knowledge and experience to help us change an entire industry.&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Act Like an Owner&lt;/span&gt;&lt;br&gt;&lt;/strong&gt;We work long, hard, and smart, building products that delight our users and drive growth. Your ability to impact Instawork is limited only by your courage and conviction, not your job description.&lt;/p&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;About Instawork&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Founded in 2015,&amp;nbsp;&lt;a href=&quot;https://www.instawork.com&quot;&gt;Instawork&lt;/a&gt; is the nation’s leading online labor marketplace for food services, hospitality, light industry, and logistics, connecting more than 7M skilled workers with local restaurants, hotels, warehouses, stadiums, and more. Our AI-powered platform serves thousands of businesses across more than 50 major markets in the United States and Canada. We&#39;re not just helping fill shifts, we&#39;re supporting local economies—and we&#39;re just getting started!&lt;/p&gt;\n&lt;p&gt;Instawork has been featured by CBS News, The Wall Street Journal, The Washington Post, and the Associated Press. Forbes included us on their Next Billion Dollar Startups list; RetailTech Breakthrough named us Workforce Hiring Solution of the Year for 2025; and Inc. 5000 recognized us as one of the country&#39;s top 10% fastest-growing companies two years in a row. But what matters most is our impact. We&#39;re solving real problems for real people, and we’re doing it at scale.&lt;/p&gt;\n&lt;p&gt;Join our team to help us build something that matters! We’re looking for superstars who want to help us shape the future of work. With hubs in San Francisco, Bangalore, and Chicago, city offices in New York, Phoenix, and Singapore, we&#39;re back to working together in-person five days a week because we believe the best ideas happen when great people collaborate face-to-face. We also value diverse perspectives and encourage applications from candidates of all backgrounds.&lt;br&gt;&lt;br&gt;Ready to make an impact? Learn more at &lt;a href=&quot;http://www.instawork.com/about&quot;&gt;www.instawork.com/about&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;&lt;a href=&quot;https://info.instawork.com/legal/california-personnel-privacy-policy&quot;&gt;Personnel Privacy Policy&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/div&gt;",
+        "departments": [
+          {
+            "id": 4002709006,
+            "name": "Sales",
+            "child_ids": [],
+            "parent_id": null
+          }
+        ],
+        "offices": [
+          {
+            "id": 4001408006,
+            "name": "Chicago",
+            "location": "Chicago, Illinois, United States",
+            "child_ids": [],
+            "parent_id": 4002845006
+          }
+        ],
+        "ai_disclaimer": null,
+        "include_ai_disclaimer": null,
+        "ai_opt_out_request_url": "http://app6.greenhouse.io/ai_opt_out_request/job_post/4686689006/ai_opt_out"
+      }
+    },
+    {
       "job_id": "8d400fea277cfcbb55559edc4626591f12087ab45e744d35010591c5e9cfb4cc",
       "external_id": "4690553006",
       "company": "Instawork",
@@ -4288,7 +4388,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T01:01:07-04:00",
       "updated_at": "2026-08-27T01:01:07-04:00",
-      "discovered_at": "2026-08-29T05:46:20.677382+00:00",
+      "discovered_at": "2026-08-30T05:08:21.937073+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4690553006",
         "data_compliance": [
@@ -4391,7 +4491,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T01:01:05-04:00",
       "updated_at": "2026-08-27T01:01:05-04:00",
-      "discovered_at": "2026-08-29T05:46:20.678992+00:00",
+      "discovered_at": "2026-08-30T05:08:21.938896+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4665986006",
         "data_compliance": [
@@ -4494,7 +4594,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T01:01:05-04:00",
       "updated_at": "2026-08-27T01:01:05-04:00",
-      "discovered_at": "2026-08-29T05:46:20.680214+00:00",
+      "discovered_at": "2026-08-30T05:08:21.939609+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4660142006",
         "data_compliance": [
@@ -4597,7 +4697,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T01:01:07-04:00",
       "updated_at": "2026-08-27T01:01:07-04:00",
-      "discovered_at": "2026-08-29T05:46:20.680943+00:00",
+      "discovered_at": "2026-08-30T05:08:21.940280+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4683726006",
         "data_compliance": [
@@ -4700,7 +4800,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T10:59:33-04:00",
       "updated_at": "2026-08-27T10:59:33-04:00",
-      "discovered_at": "2026-08-29T05:46:20.682093+00:00",
+      "discovered_at": "2026-08-30T05:08:21.941151+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4708919006",
         "data_compliance": [
@@ -4800,7 +4900,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T01:01:05-04:00",
       "updated_at": "2026-08-27T01:01:05-04:00",
-      "discovered_at": "2026-08-29T05:46:20.683028+00:00",
+      "discovered_at": "2026-08-30T05:08:21.941625+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4659349006",
         "data_compliance": [
@@ -4905,7 +5005,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T01:01:06-04:00",
       "updated_at": "2026-08-27T01:01:06-04:00",
-      "discovered_at": "2026-08-29T05:46:20.683788+00:00",
+      "discovered_at": "2026-08-30T05:08:21.942238+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4674046006",
         "data_compliance": [
@@ -5012,7 +5112,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T01:01:06-04:00",
       "updated_at": "2026-08-27T01:01:06-04:00",
-      "discovered_at": "2026-08-29T05:46:20.684385+00:00",
+      "discovered_at": "2026-08-30T05:08:21.942678+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4669236006",
         "data_compliance": [
@@ -5119,7 +5219,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T01:01:05-04:00",
       "updated_at": "2026-08-27T01:01:05-04:00",
-      "discovered_at": "2026-08-29T05:46:20.684995+00:00",
+      "discovered_at": "2026-08-30T05:08:21.943340+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4658887006",
         "data_compliance": [
@@ -5226,7 +5326,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T01:01:07-04:00",
       "updated_at": "2026-08-27T01:01:07-04:00",
-      "discovered_at": "2026-08-29T05:46:20.685593+00:00",
+      "discovered_at": "2026-08-30T05:08:21.943971+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4689180006",
         "data_compliance": [
@@ -5329,7 +5429,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T01:01:07-04:00",
       "updated_at": "2026-08-27T01:01:07-04:00",
-      "discovered_at": "2026-08-29T05:46:20.686193+00:00",
+      "discovered_at": "2026-08-30T05:08:21.946857+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4689263006",
         "data_compliance": [
@@ -5432,7 +5532,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T01:01:08-04:00",
       "updated_at": "2026-08-27T01:01:08-04:00",
-      "discovered_at": "2026-08-29T05:46:20.687083+00:00",
+      "discovered_at": "2026-08-30T05:08:21.947525+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4702990006",
         "data_compliance": [
@@ -5549,7 +5649,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T01:01:05-04:00",
       "updated_at": "2026-08-27T01:01:05-04:00",
-      "discovered_at": "2026-08-29T05:46:20.687713+00:00",
+      "discovered_at": "2026-08-30T05:08:21.948113+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4664793006",
         "data_compliance": [
@@ -5652,7 +5752,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T01:01:04-04:00",
       "updated_at": "2026-08-27T01:01:04-04:00",
-      "discovered_at": "2026-08-29T05:46:20.688549+00:00",
+      "discovered_at": "2026-08-30T05:08:21.949003+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4651150006",
         "data_compliance": [
@@ -5755,7 +5855,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T01:01:08-04:00",
       "updated_at": "2026-08-27T01:01:08-04:00",
-      "discovered_at": "2026-08-29T05:46:20.689253+00:00",
+      "discovered_at": "2026-08-30T05:08:21.949923+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/instawork/jobs/4701739006",
         "data_compliance": [

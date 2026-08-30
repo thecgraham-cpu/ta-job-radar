@@ -4,7 +4,7 @@
   "career_page": "https://jobs.ashbyhq.com/eightsleep",
   "source": "ashby",
   "identifier": "eightsleep",
-  "scanned_at": "2026-08-29T05:46:19.632441+00:00",
+  "scanned_at": "2026-08-30T05:08:20.768444+00:00",
   "count": 56,
   "total_available": 56,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "ashby",
       "posted_at": "2026-05-15T19:02:41.550+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.567717+00:00",
+      "discovered_at": "2026-08-30T05:08:20.733826+00:00",
       "raw": {
         "id": "63460635-19a5-46b5-89a9-7b307abeee6a",
         "title": "Senior Firmware Engineer, Connectivity",
@@ -76,7 +76,7 @@
       "source": "ashby",
       "posted_at": "2025-01-25T19:47:41.969+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.568165+00:00",
+      "discovered_at": "2026-08-30T05:08:20.734247+00:00",
       "raw": {
         "id": "f88ec4a1-0031-41f3-aed7-270e1a5a5e7c",
         "title": "Industrial Designer",
@@ -118,7 +118,7 @@
       "source": "ashby",
       "posted_at": "2024-05-16T16:05:04.731+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.568625+00:00",
+      "discovered_at": "2026-08-30T05:08:20.734609+00:00",
       "raw": {
         "id": "ab0c84db-dcee-4f4a-9096-a6ea88b62a44",
         "title": "Business Operations Manager (NY or SF)",
@@ -171,7 +171,7 @@
       "source": "ashby",
       "posted_at": "2026-05-14T15:56:01.960+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.568985+00:00",
+      "discovered_at": "2026-08-30T05:08:20.735094+00:00",
       "raw": {
         "id": "d48659e7-608b-4c0e-9e5f-4131b5df50ca",
         "title": "Senior Backend Engineer",
@@ -211,7 +211,7 @@
       "source": "ashby",
       "posted_at": "2026-03-11T17:30:10.733+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.569436+00:00",
+      "discovered_at": "2026-08-30T05:08:20.735558+00:00",
       "raw": {
         "id": "9f71549a-d17f-4137-a334-bd7b162274b0",
         "title": "Data Scientist, Growth",
@@ -262,7 +262,7 @@
       "source": "ashby",
       "posted_at": "2026-05-17T22:56:03.402+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.570184+00:00",
+      "discovered_at": "2026-08-30T05:08:20.735956+00:00",
       "raw": {
         "id": "2fef2cd1-f874-4254-8e7b-1865799a0edd",
         "title": "Senior Software Engineer - Mobile (Android)",
@@ -313,7 +313,7 @@
       "source": "ashby",
       "posted_at": "2026-02-20T23:29:24.114+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.570920+00:00",
+      "discovered_at": "2026-08-30T05:08:20.736340+00:00",
       "raw": {
         "id": "ad48addf-a96e-4633-9d73-a0a49f086f1d",
         "title": "Senior Embedded Software Engineer",
@@ -355,7 +355,7 @@
       "source": "ashby",
       "posted_at": "2026-06-10T20:55:10.927+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.571600+00:00",
+      "discovered_at": "2026-08-30T05:08:20.736697+00:00",
       "raw": {
         "id": "8da6ebe5-6ac7-42a2-a769-fcaea5b3c6c7",
         "title": "Senior Thermal Engineer",
@@ -397,7 +397,7 @@
       "source": "ashby",
       "posted_at": "2026-05-17T22:55:28.661+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.585612+00:00",
+      "discovered_at": "2026-08-30T05:08:20.737042+00:00",
       "raw": {
         "id": "b1c37913-179d-4927-8745-f6ef88a02e82",
         "title": "Senior Software Engineer - Mobile (iOS)",
@@ -439,7 +439,7 @@
       "source": "ashby",
       "posted_at": "2026-03-11T17:40:50.179+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.586278+00:00",
+      "discovered_at": "2026-08-30T05:08:20.737526+00:00",
       "raw": {
         "id": "e23f8002-ffc8-49b6-b44e-2f14f27b6159",
         "title": "Data Engineer",
@@ -481,7 +481,7 @@
       "source": "ashby",
       "posted_at": "2026-06-18T08:34:03.713+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.587229+00:00",
+      "discovered_at": "2026-08-30T05:08:20.738015+00:00",
       "raw": {
         "id": "68e2d1b4-a705-4ec9-a0c0-4157d963261c",
         "title": "International Marketing Manager (Milan) ",
@@ -523,7 +523,7 @@
       "source": "ashby",
       "posted_at": "2026-05-29T21:44:08.085+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.588248+00:00",
+      "discovered_at": "2026-08-30T05:08:20.738543+00:00",
       "raw": {
         "id": "5d26a418-240e-4db2-9e4e-f4ac81fd61b8",
         "title": "Senior Reliability Engineer",
@@ -565,7 +565,7 @@
       "source": "ashby",
       "posted_at": "2025-09-12T21:48:37.508+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.590226+00:00",
+      "discovered_at": "2026-08-30T05:08:20.739349+00:00",
       "raw": {
         "id": "95078a15-645e-4acd-8d95-cbc4bfc55f31",
         "title": "Product Designer, App (NYC)",
@@ -607,7 +607,7 @@
       "source": "ashby",
       "posted_at": "2026-05-26T18:13:08.705+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.591092+00:00",
+      "discovered_at": "2026-08-30T05:08:20.739807+00:00",
       "raw": {
         "id": "39182d99-3d03-4a9b-85e5-8c8830c9f3fa",
         "title": "Senior Firmware Engineer",
@@ -649,7 +649,7 @@
       "source": "ashby",
       "posted_at": "2025-09-22T18:39:29.422+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.593388+00:00",
+      "discovered_at": "2026-08-30T05:08:20.740153+00:00",
       "raw": {
         "id": "b34ee05f-19e9-4151-92e3-5ee837ac7055",
         "title": "Business Operations Manager (Milan)",
@@ -691,7 +691,7 @@
       "source": "ashby",
       "posted_at": "2026-08-28T17:44:45.507+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.593999+00:00",
+      "discovered_at": "2026-08-30T05:08:20.740512+00:00",
       "raw": {
         "id": "fc296bc9-0e05-4639-a95f-5f89c0cd2b96",
         "title": "Mechanical Engineer (New Grad / Spring 2027)",
@@ -733,7 +733,7 @@
       "source": "ashby",
       "posted_at": "2025-10-07T15:23:57.263+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.594841+00:00",
+      "discovered_at": "2026-08-30T05:08:20.740974+00:00",
       "raw": {
         "id": "b6c2e6f6-eadd-4d67-93e9-1426be4f2035",
         "title": "AI/ML Research Internship",
@@ -775,7 +775,7 @@
       "source": "ashby",
       "posted_at": "2026-02-20T06:53:02.973+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.595507+00:00",
+      "discovered_at": "2026-08-30T05:08:20.741320+00:00",
       "raw": {
         "id": "e009226b-f04a-43d1-b895-0719599e8f6c",
         "title": "Senior ML Operations (MLOps) Engineer",
@@ -815,7 +815,7 @@
       "source": "ashby",
       "posted_at": "2026-02-24T05:57:38.860+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.596661+00:00",
+      "discovered_at": "2026-08-30T05:08:20.741970+00:00",
       "raw": {
         "id": "38715e93-e8c4-4ee9-8f93-88f76cf58a42",
         "title": "ML Research Scientist (Health & Sensing)",
@@ -857,7 +857,7 @@
       "source": "ashby",
       "posted_at": "2026-01-21T04:01:12.174+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.597532+00:00",
+      "discovered_at": "2026-08-30T05:08:20.742448+00:00",
       "raw": {
         "id": "ef81d491-6991-49f7-8195-d3de86d951b0",
         "title": "Machine Learning Engineer (Foundation Models & Personalization)",
@@ -899,7 +899,7 @@
       "source": "ashby",
       "posted_at": "2026-08-16T21:34:44.812+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.598141+00:00",
+      "discovered_at": "2026-08-30T05:08:20.742940+00:00",
       "raw": {
         "id": "3a7a9940-8137-4f9d-becd-e981de527218",
         "title": "Director of Clinical Affairs",
@@ -952,7 +952,7 @@
       "source": "ashby",
       "posted_at": "2026-05-27T19:47:33.910+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.598550+00:00",
+      "discovered_at": "2026-08-30T05:08:20.743361+00:00",
       "raw": {
         "id": "d1859983-528b-4766-bdb2-a175e18651d6",
         "title": "Senior Accountant",
@@ -992,7 +992,7 @@
       "source": "ashby",
       "posted_at": "2026-01-29T20:39:59.826+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.598988+00:00",
+      "discovered_at": "2026-08-30T05:08:20.743876+00:00",
       "raw": {
         "id": "05a32566-9806-44e4-81d4-e61434554f30",
         "title": "Full Stack Engineer - Customer Experience",
@@ -1034,7 +1034,7 @@
       "source": "ashby",
       "posted_at": "2026-04-28T19:45:38.924+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.603009+00:00",
+      "discovered_at": "2026-08-30T05:08:20.744382+00:00",
       "raw": {
         "id": "5a2480c0-3d87-4c21-b8d2-00d593c95b89",
         "title": "Staff Product Designer",
@@ -1076,7 +1076,7 @@
       "source": "ashby",
       "posted_at": "2026-06-22T17:18:58.025+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.603667+00:00",
+      "discovered_at": "2026-08-30T05:08:20.745017+00:00",
       "raw": {
         "id": "8441114d-b3d3-4783-8451-a1d7a15e850f",
         "title": "Lead Mechanical/ Product Design Engineer, Special Projects ",
@@ -1127,7 +1127,7 @@
       "source": "ashby",
       "posted_at": "2026-04-03T16:15:15.659+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.604168+00:00",
+      "discovered_at": "2026-08-30T05:08:20.745501+00:00",
       "raw": {
         "id": "8549be8e-cff9-4a51-a3b9-10d78629ea6c",
         "title": "Senior Clinical Trial Manager",
@@ -1169,7 +1169,7 @@
       "source": "ashby",
       "posted_at": "2026-04-13T20:50:56.935+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.604630+00:00",
+      "discovered_at": "2026-08-30T05:08:20.745919+00:00",
       "raw": {
         "id": "081c4b69-c107-4314-a71e-00168b54154e",
         "title": "Office Manager, NYC",
@@ -1211,7 +1211,7 @@
       "source": "ashby",
       "posted_at": "2026-08-25T21:34:20.523+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.604834+00:00",
+      "discovered_at": "2026-08-30T05:08:20.746124+00:00",
       "raw": {
         "id": "f8de63e3-605e-404a-98b4-5b58d9fe7bc5",
         "title": "Hardware Support & Test Intern",
@@ -1253,7 +1253,7 @@
       "source": "ashby",
       "posted_at": "2026-04-27T23:19:40.253+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.606326+00:00",
+      "discovered_at": "2026-08-30T05:08:20.746508+00:00",
       "raw": {
         "id": "3a51d610-2a7c-4fd3-b77e-7281d7f8c6aa",
         "title": "Strategic Finance Manager",
@@ -1295,7 +1295,7 @@
       "source": "ashby",
       "posted_at": "2026-04-27T23:19:37.093+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.607122+00:00",
+      "discovered_at": "2026-08-30T05:08:20.746888+00:00",
       "raw": {
         "id": "ed5c3037-7ea3-4591-8dcb-f25fb330ab0b",
         "title": "Strategic Finance Manager",
@@ -1337,7 +1337,7 @@
       "source": "ashby",
       "posted_at": "2026-04-27T23:19:32.249+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.607807+00:00",
+      "discovered_at": "2026-08-30T05:08:20.747257+00:00",
       "raw": {
         "id": "69312d91-a5bf-41f9-9af9-75a35a91f154",
         "title": "Strategic Finance Manager",
@@ -1379,7 +1379,7 @@
       "source": "ashby",
       "posted_at": "2026-05-18T21:08:24.993+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.608252+00:00",
+      "discovered_at": "2026-08-30T05:08:20.747672+00:00",
       "raw": {
         "id": "8f2d0aa2-ddb7-431e-b607-07b0e08b0f4b",
         "title": "Growth Marketing Manager ",
@@ -1430,7 +1430,7 @@
       "source": "ashby",
       "posted_at": "2026-05-26T19:01:41.615+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.609636+00:00",
+      "discovered_at": "2026-08-30T05:08:20.748198+00:00",
       "raw": {
         "id": "04a37ce9-ff55-4b51-b3d2-f145734eb188",
         "title": "Hardware Prototype & Test Engineer ",
@@ -1472,7 +1472,7 @@
       "source": "ashby",
       "posted_at": "2026-06-10T20:53:51.868+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.610442+00:00",
+      "discovered_at": "2026-08-30T05:08:20.748590+00:00",
       "raw": {
         "id": "25c11222-e6b7-4f8e-b615-22a9a38d3a50",
         "title": "Senior Electrical Engineer",
@@ -1514,7 +1514,7 @@
       "source": "ashby",
       "posted_at": "2026-07-15T07:24:07.604+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.611621+00:00",
+      "discovered_at": "2026-08-30T05:08:20.749196+00:00",
       "raw": {
         "id": "da0f9483-e9a5-4fb9-8867-1da6d03bf90c",
         "title": "Growth Engineer (Milan)",
@@ -1556,7 +1556,7 @@
       "source": "ashby",
       "posted_at": "2026-06-27T10:55:49.997+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.612691+00:00",
+      "discovered_at": "2026-08-30T05:08:20.750598+00:00",
       "raw": {
         "id": "658cd12c-130b-4133-82e9-2d300235d654",
         "title": "International Performance Marketing Manager (Milan)",
@@ -1598,7 +1598,7 @@
       "source": "ashby",
       "posted_at": "2026-08-03T15:26:52.565+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.613746+00:00",
+      "discovered_at": "2026-08-30T05:08:20.751632+00:00",
       "raw": {
         "id": "ffc6db02-7b50-466a-b0d2-8341952fb651",
         "title": "Business Development Representative | B2B",
@@ -1649,7 +1649,7 @@
       "source": "ashby",
       "posted_at": "2026-07-10T19:49:46.894+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.614752+00:00",
+      "discovered_at": "2026-08-30T05:08:20.752620+00:00",
       "raw": {
         "id": "99c69848-1531-4cd1-afc1-053ccd850a9e",
         "title": "Amazon Channel Program Manager",
@@ -1700,7 +1700,7 @@
       "source": "ashby",
       "posted_at": "2026-07-10T21:12:10.773+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.619093+00:00",
+      "discovered_at": "2026-08-30T05:08:20.753248+00:00",
       "raw": {
         "id": "4cc115de-94e1-4ae2-95ae-7d665b20be51",
         "title": "Recruiter (Milan)",
@@ -1742,7 +1742,7 @@
       "source": "ashby",
       "posted_at": "2026-07-15T14:07:35.897+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.619555+00:00",
+      "discovered_at": "2026-08-30T05:08:20.753717+00:00",
       "raw": {
         "id": "c007651e-f62d-4a72-a092-fbe84106b3f3",
         "title": "Director of Medical Operations",
@@ -1784,7 +1784,7 @@
       "source": "ashby",
       "posted_at": "2026-07-15T18:31:29.501+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.620278+00:00",
+      "discovered_at": "2026-08-30T05:08:20.754082+00:00",
       "raw": {
         "id": "8d3c53d3-8ee0-4aa4-b45b-5e5b942d414a",
         "title": "Director of Regulatory Affairs and Quality Assurance (RA / QA)",
@@ -1826,7 +1826,7 @@
       "source": "ashby",
       "posted_at": "2026-07-27T10:12:42.546+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.620974+00:00",
+      "discovered_at": "2026-08-30T05:08:20.754634+00:00",
       "raw": {
         "id": "8b72ec07-0dc0-487c-8e0f-0d9aad1e2e6a",
         "title": "Sr. Product Designer (Milan)",
@@ -1879,7 +1879,7 @@
       "source": "ashby",
       "posted_at": "2026-07-24T19:39:35.099+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.621473+00:00",
+      "discovered_at": "2026-08-30T05:08:20.755185+00:00",
       "raw": {
         "id": "41deb5d8-4f25-45f9-95bc-81a6724bb540",
         "title": "Video Editor (Milan)",
@@ -1932,7 +1932,7 @@
       "source": "ashby",
       "posted_at": "2026-07-27T09:54:04.806+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.623074+00:00",
+      "discovered_at": "2026-08-30T05:08:20.755541+00:00",
       "raw": {
         "id": "18cf8571-7f62-440a-b2fc-a9e7193bfc90",
         "title": "Senior Software Engineer - Mobile (iOS) - (Milan)",
@@ -1985,7 +1985,7 @@
       "source": "ashby",
       "posted_at": "2026-07-27T09:59:13.047+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.624210+00:00",
+      "discovered_at": "2026-08-30T05:08:20.755888+00:00",
       "raw": {
         "id": "2951fe99-cd5b-4969-bd16-ab12d9e94c41",
         "title": "Senior Software Engineer - Mobile (Android) - (Milan)",
@@ -2038,7 +2038,7 @@
       "source": "ashby",
       "posted_at": "2026-07-27T10:03:10.531+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.625803+00:00",
+      "discovered_at": "2026-08-30T05:08:20.756234+00:00",
       "raw": {
         "id": "4913e6e2-db3f-4ec4-9b48-ed5098b0af9f",
         "title": "Senior Backend Engineer (Milan)",
@@ -2091,7 +2091,7 @@
       "source": "ashby",
       "posted_at": "2026-07-29T22:05:51.427+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.626304+00:00",
+      "discovered_at": "2026-08-30T05:08:20.758582+00:00",
       "raw": {
         "id": "1e278e13-8a00-40d8-94c8-1ff025895a88",
         "title": "Engineering Program Manager, HW",
@@ -2133,7 +2133,7 @@
       "source": "ashby",
       "posted_at": "2026-07-29T22:07:24.442+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.626731+00:00",
+      "discovered_at": "2026-08-30T05:08:20.759270+00:00",
       "raw": {
         "id": "173a1a05-2f39-468d-ae4a-e33767f06ae3",
         "title": "Staff Mechanical Engineer",
@@ -2175,7 +2175,7 @@
       "source": "ashby",
       "posted_at": "2026-07-29T22:09:42.650+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.627574+00:00",
+      "discovered_at": "2026-08-30T05:08:20.760085+00:00",
       "raw": {
         "id": "7584b004-cfa0-4957-bd45-de9644172731",
         "title": "Manager, Mechanical Engineering",
@@ -2217,7 +2217,7 @@
       "source": "ashby",
       "posted_at": "2026-07-29T22:06:36.784+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.628056+00:00",
+      "discovered_at": "2026-08-30T05:08:20.760752+00:00",
       "raw": {
         "id": "24f36699-b873-4ae9-a663-384f346fec8e",
         "title": "Senior Mechanical Engineer",
@@ -2259,7 +2259,7 @@
       "source": "ashby",
       "posted_at": "2026-07-29T22:07:53.013+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.628477+00:00",
+      "discovered_at": "2026-08-30T05:08:20.761474+00:00",
       "raw": {
         "id": "53ced027-cb41-4898-b659-c6a2560c28a5",
         "title": "Director, Mechanical Engineering",
@@ -2301,7 +2301,7 @@
       "source": "ashby",
       "posted_at": "2026-08-24T16:47:04.173+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.629579+00:00",
+      "discovered_at": "2026-08-30T05:08:20.762276+00:00",
       "raw": {
         "id": "c1ec2c51-c271-416d-a62d-9b492f43a942",
         "title": "Principal Counsel, Regulatory & Privacy",
@@ -2343,7 +2343,7 @@
       "source": "ashby",
       "posted_at": "2026-08-27T12:27:00.870+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.630295+00:00",
+      "discovered_at": "2026-08-30T05:08:20.762944+00:00",
       "raw": {
         "id": "4bf1489b-8acd-4cff-bf99-28440f89806e",
         "title": "Frontend Web Developer (Milan)",
@@ -2385,7 +2385,7 @@
       "source": "ashby",
       "posted_at": "2026-08-27T12:23:09.159+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.631132+00:00",
+      "discovered_at": "2026-08-30T05:08:20.763506+00:00",
       "raw": {
         "id": "6f370439-8d15-4878-bffc-364c93e041e0",
         "title": "Software Engineer (Milan)",
@@ -2427,7 +2427,7 @@
       "source": "ashby",
       "posted_at": "2026-08-28T20:47:04.443+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.631786+00:00",
+      "discovered_at": "2026-08-30T05:08:20.767824+00:00",
       "raw": {
         "id": "ce1bebc3-42f5-4010-93cb-b31090b16294",
         "title": "Electrical Engineer (New Grad / Spring 2027)",
@@ -2469,7 +2469,7 @@
       "source": "ashby",
       "posted_at": "2026-08-28T08:08:21.743+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.632379+00:00",
+      "discovered_at": "2026-08-30T05:08:20.768401+00:00",
       "raw": {
         "id": "ea1e34c9-862b-46cf-b76b-f5120cad2dc2",
         "title": "Director of Clinical Research",

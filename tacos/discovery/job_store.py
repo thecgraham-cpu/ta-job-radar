@@ -2,12 +2,19 @@
 
 from __future__ import annotations
 
+import fcntl
 import json
+import os
+import tempfile
+import threading
+from contextlib import contextmanager
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any
+from typing import Any, Iterator
 
 DEFAULT_JOB_STORE_PATH = Path("data/discovered_jobs.json")
+
+_STORE_LOCK = threading.RLock()
 
 
 def _now_iso() -> str:
@@ -22,17 +29,57 @@ def _empty_store() -> dict[str, Any]:
     }
 
 
-def load_job_store(
-    path: Path = DEFAULT_JOB_STORE_PATH,
-) -> dict[str, Any]:
-    """Load the persistent discovered-job store."""
+def _lock_path(
+    path: Path,
+) -> Path:
+    return path.with_suffix(path.suffix + ".lock")
 
+
+@contextmanager
+def _file_lock(
+    path: Path,
+) -> Iterator[None]:
+    """
+    Cross-process exclusive lock for a job-store file.
+
+    The threading RLock protects workers inside one
+    HirePilot process. flock protects separate Python
+    processes that share the same persistent store.
+    """
+
+    lock_path = _lock_path(path)
+
+    lock_path.parent.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
+
+    with lock_path.open(
+        "a+",
+        encoding="utf-8",
+    ) as lock_file:
+        fcntl.flock(
+            lock_file.fileno(),
+            fcntl.LOCK_EX,
+        )
+
+        try:
+            yield
+        finally:
+            fcntl.flock(
+                lock_file.fileno(),
+                fcntl.LOCK_UN,
+            )
+
+
+def _load_job_store_unlocked(
+    path: Path,
+) -> dict[str, Any]:
     if not path.exists():
         return _empty_store()
 
     try:
         data = json.loads(path.read_text(encoding="utf-8"))
-
     except (
         json.JSONDecodeError,
         OSError,
@@ -45,26 +92,35 @@ def load_job_store(
     jobs = data.get("jobs")
 
     if not isinstance(jobs, dict):
-        data["jobs"] = {}
+        jobs = {}
 
-    data.setdefault(
-        "version",
-        1,
-    )
-
-    data.setdefault(
-        "updated_at",
-        None,
-    )
-
-    return data
+    return {
+        "version": data.get(
+            "version",
+            1,
+        ),
+        "updated_at": data.get("updated_at"),
+        "jobs": jobs,
+    }
 
 
-def save_job_store(
-    store: dict[str, Any],
+def load_job_store(
     path: Path = DEFAULT_JOB_STORE_PATH,
+) -> dict[str, Any]:
+    with _STORE_LOCK:
+        with _file_lock(path):
+            return _load_job_store_unlocked(path)
+
+
+def _save_job_store_unlocked(
+    store: dict[str, Any],
+    path: Path,
 ) -> None:
-    """Atomically save the discovered-job store."""
+    """
+    Atomically save the store using a unique temp file.
+
+    The caller must already hold the appropriate locks.
+    """
 
     path.parent.mkdir(
         parents=True,
@@ -73,35 +129,67 @@ def save_job_store(
 
     store["updated_at"] = _now_iso()
 
-    temp_path = path.with_suffix(path.suffix + ".tmp")
-
-    temp_path.write_text(
-        json.dumps(
-            store,
-            indent=2,
-            ensure_ascii=False,
-        ),
-        encoding="utf-8",
+    payload = json.dumps(
+        store,
+        indent=2,
+        ensure_ascii=False,
+        sort_keys=True,
     )
 
-    temp_path.replace(path)
+    fd, temp_name = tempfile.mkstemp(
+        prefix=f".{path.name}.",
+        suffix=".tmp",
+        dir=str(path.parent),
+        text=True,
+    )
+
+    temp_path = Path(temp_name)
+
+    try:
+        with os.fdopen(
+            fd,
+            "w",
+            encoding="utf-8",
+        ) as handle:
+            handle.write(payload)
+            handle.flush()
+            os.fsync(handle.fileno())
+
+        os.replace(
+            temp_path,
+            path,
+        )
+
+    except Exception:
+        try:
+            temp_path.unlink(missing_ok=True)
+        except OSError:
+            pass
+
+        raise
+
+
+def save_job_store(
+    store: dict[str, Any],
+    path: Path = DEFAULT_JOB_STORE_PATH,
+) -> None:
+    with _STORE_LOCK:
+        with _file_lock(path):
+            _save_job_store_unlocked(
+                store,
+                path,
+            )
 
 
 def _job_key(
     job: dict[str, Any],
-) -> str | None:
-    """
-    Return the canonical key for one normalized job.
-
-    Normalized HirePilot jobs should always contain job_id.
-    """
-
+) -> str:
     job_id = job.get("job_id")
 
     if not job_id:
-        return None
+        raise ValueError("Normalized job is missing job_id.")
 
-    return str(job_id).strip() or None
+    return str(job_id)
 
 
 def ingest_job(
@@ -110,13 +198,27 @@ def ingest_job(
     discovery_source: str | None = None,
     path: Path = DEFAULT_JOB_STORE_PATH,
 ) -> dict[str, Any]:
-    """Insert or update one normalized job."""
-
-    return ingest_jobs(
+    result = ingest_jobs(
         [job],
         discovery_source=discovery_source,
         path=path,
     )
+
+    if result["new_jobs"]:
+        return {
+            "added": True,
+            "job": result["new_jobs"][0],
+        }
+
+    key = _job_key(job)
+
+    return {
+        "added": False,
+        "job": get_job(
+            key,
+            path=path,
+        ),
+    }
 
 
 def ingest_jobs(
@@ -128,204 +230,120 @@ def ingest_jobs(
     """
     Insert normalized jobs into the persistent store.
 
-    Existing jobs are updated rather than duplicated.
-
-    Returns newly discovered jobs separately so downstream
-    matching and notification can happen immediately.
+    The entire read -> merge -> write transaction is
+    protected against both concurrent threads and
+    separate HirePilot Python processes.
     """
 
-    store = load_job_store(path)
+    with _STORE_LOCK:
+        with _file_lock(path):
+            store = _load_job_store_unlocked(path)
 
-    stored_jobs = store.setdefault(
-        "jobs",
-        {},
-    )
+            stored_jobs = store["jobs"]
 
-    now = _now_iso()
+            received = len(jobs)
+            added = 0
+            existing = 0
+            invalid = 0
 
-    added = 0
-    existing = 0
-    invalid = 0
+            new_jobs: list[dict[str, Any]] = []
 
-    new_jobs: list[dict[str, Any]] = []
+            now = _now_iso()
 
-    for job in jobs:
-        if not isinstance(job, dict):
-            invalid += 1
-            continue
+            for incoming_job in jobs:
+                if not isinstance(
+                    incoming_job,
+                    dict,
+                ):
+                    invalid += 1
+                    continue
 
-        key = _job_key(job)
+                try:
+                    key = _job_key(incoming_job)
+                except ValueError:
+                    invalid += 1
+                    continue
 
-        if not key:
-            invalid += 1
-            continue
+                current = stored_jobs.get(key)
 
-        current = stored_jobs.get(key)
+                if current is None:
+                    stored_job = dict(incoming_job)
 
-        if current is None:
-            record = {
-                **job,
-                "first_seen_at": now,
-                "last_seen_at": now,
+                    stored_job["first_seen_at"] = now
+
+                    stored_job["last_seen_at"] = now
+
+                    if discovery_source:
+                        stored_job["discovery_source"] = discovery_source
+
+                    stored_jobs[key] = stored_job
+
+                    new_jobs.append(dict(stored_job))
+
+                    added += 1
+                    continue
+
+                existing += 1
+
+                first_seen_at = current.get("first_seen_at") or now
+
+                merged = {
+                    **current,
+                    **incoming_job,
+                }
+
+                merged["first_seen_at"] = first_seen_at
+
+                merged["last_seen_at"] = now
+
+                if discovery_source:
+                    merged["discovery_source"] = discovery_source
+
+                elif current.get("discovery_source"):
+                    merged["discovery_source"] = current["discovery_source"]
+
+                stored_jobs[key] = merged
+
+            store["jobs"] = stored_jobs
+
+            _save_job_store_unlocked(
+                store,
+                path,
+            )
+
+            return {
+                "received": received,
+                "added": added,
+                "existing": existing,
+                "invalid": invalid,
+                "new_jobs": new_jobs,
+                "total_jobs": len(stored_jobs),
             }
-
-            if discovery_source:
-                record["discovery_source"] = discovery_source
-
-            stored_jobs[key] = record
-
-            new_jobs.append(record)
-
-            added += 1
-
-            continue
-
-        if not isinstance(current, dict):
-            current = {}
-
-        first_seen = current.get("first_seen_at") or now
-
-        existing_discovery_source = current.get("discovery_source")
-
-        record = {
-            **current,
-            **job,
-            "first_seen_at": first_seen,
-            "last_seen_at": now,
-        }
-
-        if discovery_source:
-            record["discovery_source"] = discovery_source
-
-        elif existing_discovery_source:
-            record["discovery_source"] = existing_discovery_source
-
-        stored_jobs[key] = record
-
-        existing += 1
-
-    save_job_store(
-        store,
-        path,
-    )
-
-    return {
-        "received": len(jobs),
-        "added": added,
-        "existing": existing,
-        "invalid": invalid,
-        "new_jobs": new_jobs,
-        "total_jobs": len(stored_jobs),
-    }
 
 
 def get_job(
     job_id: str,
+    *,
     path: Path = DEFAULT_JOB_STORE_PATH,
 ) -> dict[str, Any] | None:
-    """Return one stored job."""
+    with _STORE_LOCK:
+        with _file_lock(path):
+            store = _load_job_store_unlocked(path)
 
-    store = load_job_store(path)
+            job = store["jobs"].get(str(job_id))
 
-    job = store.get(
-        "jobs",
-        {},
-    ).get(job_id)
+            if job is None:
+                return None
 
-    return job if isinstance(job, dict) else None
+            return dict(job)
 
 
 def list_jobs(
     *,
-    limit: int | None = None,
-    newest_first: bool = True,
     path: Path = DEFAULT_JOB_STORE_PATH,
 ) -> list[dict[str, Any]]:
-    """Return jobs from the persistent store."""
+    with _STORE_LOCK:
+        with _file_lock(path):
+            store = _load_job_store_unlocked(path)
 
-    store = load_job_store(path)
-
-    values = [
-        job
-        for job in store.get(
-            "jobs",
-            {},
-        ).values()
-        if isinstance(job, dict)
-    ]
-
-    if newest_first:
-        values.sort(
-            key=lambda job: str(job.get("first_seen_at") or ""),
-            reverse=True,
-        )
-
-    if limit is not None:
-        values = values[:limit]
-
-    return values
-
-
-def job_store_stats(
-    path: Path = DEFAULT_JOB_STORE_PATH,
-) -> dict[str, Any]:
-    """Return basic discovered-job statistics."""
-
-    store = load_job_store(path)
-
-    jobs = [
-        job
-        for job in store.get(
-            "jobs",
-            {},
-        ).values()
-        if isinstance(job, dict)
-    ]
-
-    sources: dict[str, int] = {}
-
-    discovery_sources: dict[str, int] = {}
-
-    for job in jobs:
-        source = str(job.get("source") or "unknown")
-
-        sources[source] = (
-            sources.get(
-                source,
-                0,
-            )
-            + 1
-        )
-
-        discovery_source = str(job.get("discovery_source") or "unknown")
-
-        discovery_sources[discovery_source] = (
-            discovery_sources.get(
-                discovery_source,
-                0,
-            )
-            + 1
-        )
-
-    return {
-        "total_jobs": len(jobs),
-        "sources": dict(
-            sorted(
-                sources.items(),
-                key=lambda item: (
-                    -item[1],
-                    item[0],
-                ),
-            )
-        ),
-        "discovery_sources": dict(
-            sorted(
-                discovery_sources.items(),
-                key=lambda item: (
-                    -item[1],
-                    item[0],
-                ),
-            )
-        ),
-        "updated_at": store.get("updated_at"),
-    }
+            return [dict(job) for job in store["jobs"].values()]

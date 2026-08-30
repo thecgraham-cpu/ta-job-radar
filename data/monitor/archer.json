@@ -4,7 +4,7 @@
   "career_page": "https://job-boards.greenhouse.io/archer",
   "source": "greenhouse",
   "identifier": "archer",
-  "scanned_at": "2026-08-29T05:46:16.593145+00:00",
+  "scanned_at": "2026-08-30T05:08:19.275368+00:00",
   "count": 1,
   "total_available": 1,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-26T10:37:05-04:00",
       "updated_at": "2026-08-26T10:37:05-04:00",
-      "discovered_at": "2026-08-29T05:46:16.593102+00:00",
+      "discovered_at": "2026-08-30T05:08:19.275342+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/archer/jobs/4213164002?gh_jid=4213164002",
         "data_compliance": [

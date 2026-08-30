@@ -4,7 +4,7 @@
   "career_page": "https://jobs.ashbyhq.com/polymath",
   "source": "ashby",
   "identifier": "polymath",
-  "scanned_at": "2026-08-29T05:46:21.601573+00:00",
+  "scanned_at": "2026-08-30T05:08:22.776547+00:00",
   "count": 5,
   "total_available": 5,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "ashby",
       "posted_at": "2026-04-05T23:11:47.934+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:21.600831+00:00",
+      "discovered_at": "2026-08-30T05:08:22.775914+00:00",
       "raw": {
         "id": "8550d81d-806a-45db-a5c8-02588729b861",
         "title": "Strategic Projects Lead",
@@ -67,7 +67,7 @@
       "source": "ashby",
       "posted_at": "2026-04-14T01:59:05.824+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:21.601051+00:00",
+      "discovered_at": "2026-08-30T05:08:22.776099+00:00",
       "raw": {
         "id": "02503610-2a98-4760-9003-4177cf884c20",
         "title": "Member of Technical Staff - Research",
@@ -109,7 +109,7 @@
       "source": "ashby",
       "posted_at": "2026-04-14T02:04:22.217+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:21.601245+00:00",
+      "discovered_at": "2026-08-30T05:08:22.776248+00:00",
       "raw": {
         "id": "3ca0fc20-761d-4cac-996d-d3fae18bf657",
         "title": "Member of Technical Staff - Engineering",
@@ -151,7 +151,7 @@
       "source": "ashby",
       "posted_at": "2026-04-14T02:02:04.570+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:21.601396+00:00",
+      "discovered_at": "2026-08-30T05:08:22.776394+00:00",
       "raw": {
         "id": "feac8f33-2e28-4434-bff5-cf26c849f270",
         "title": "AI Research Resident",
@@ -193,7 +193,7 @@
       "source": "ashby",
       "posted_at": "2026-04-14T02:08:12.651+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:21.601555+00:00",
+      "discovered_at": "2026-08-30T05:08:22.776529+00:00",
       "raw": {
         "id": "44812b4a-b41c-4288-8232-e0131da6eefe",
         "title": "Software Engineer",

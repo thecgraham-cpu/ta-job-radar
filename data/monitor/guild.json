@@ -4,7 +4,7 @@
   "career_page": "https://job-boards.greenhouse.io/guild",
   "source": "greenhouse",
   "identifier": "guild",
-  "scanned_at": "2026-08-29T05:46:19.316574+00:00",
+  "scanned_at": "2026-08-30T05:08:20.592320+00:00",
   "count": 4,
   "total_available": 4,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-22T15:26:10-04:00",
       "updated_at": "2026-07-22T15:26:10-04:00",
-      "discovered_at": "2026-08-29T05:46:19.312572+00:00",
+      "discovered_at": "2026-08-30T05:08:20.590357+00:00",
       "raw": {
         "absolute_url": "https://www.guild.com/open-positions-at-guild?gh_jid=8065382",
         "data_compliance": [
@@ -90,7 +90,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-14T13:40:48-04:00",
       "updated_at": "2026-08-14T13:40:48-04:00",
-      "discovered_at": "2026-08-29T05:46:19.313652+00:00",
+      "discovered_at": "2026-08-30T05:08:20.591041+00:00",
       "raw": {
         "absolute_url": "https://www.guild.com/open-positions-at-guild?gh_jid=8095504",
         "data_compliance": [
@@ -155,7 +155,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-17T17:00:49-04:00",
       "updated_at": "2026-08-17T17:00:49-04:00",
-      "discovered_at": "2026-08-29T05:46:19.315015+00:00",
+      "discovered_at": "2026-08-30T05:08:20.591621+00:00",
       "raw": {
         "absolute_url": "https://www.guild.com/open-positions-at-guild?gh_jid=8092408",
         "data_compliance": [
@@ -220,7 +220,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-22T12:39:23-04:00",
       "updated_at": "2026-07-22T12:39:23-04:00",
-      "discovered_at": "2026-08-29T05:46:19.316530+00:00",
+      "discovered_at": "2026-08-30T05:08:20.592299+00:00",
       "raw": {
         "absolute_url": "https://www.guild.com/open-positions-at-guild?gh_jid=8074485",
         "data_compliance": [

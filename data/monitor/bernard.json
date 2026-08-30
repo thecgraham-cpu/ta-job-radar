@@ -4,7 +4,7 @@
   "career_page": "https://jobs.ashbyhq.com/bernard",
   "source": "ashby",
   "identifier": "bernard",
-  "scanned_at": "2026-08-29T05:46:16.972367+00:00",
+  "scanned_at": "2026-08-30T05:08:19.432664+00:00",
   "count": 5,
   "total_available": 5,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "ashby",
       "posted_at": "2025-12-08T08:04:41.402+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.971103+00:00",
+      "discovered_at": "2026-08-30T05:08:19.431494+00:00",
       "raw": {
         "id": "c5f60356-a562-42c8-b821-fdb0603a481c",
         "title": "Product Engineer, AI",
@@ -65,7 +65,7 @@
       "source": "ashby",
       "posted_at": "2026-03-18T21:25:16.874+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.971421+00:00",
+      "discovered_at": "2026-08-30T05:08:19.431793+00:00",
       "raw": {
         "id": "47cc1fe4-089c-4199-b3f5-81ceb2d22ac5",
         "title": "Client Success Manager",
@@ -107,7 +107,7 @@
       "source": "ashby",
       "posted_at": "2026-03-19T05:02:46.687+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.971723+00:00",
+      "discovered_at": "2026-08-30T05:08:19.432066+00:00",
       "raw": {
         "id": "d1f288ab-d4d1-4fe7-b03f-395e75d8a7cd",
         "title": "GTM Engineer",
@@ -149,7 +149,7 @@
       "source": "ashby",
       "posted_at": "2026-03-19T18:31:16.991+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.972023+00:00",
+      "discovered_at": "2026-08-30T05:08:19.432365+00:00",
       "raw": {
         "id": "25f28d29-799c-4415-9219-b86a65a8108d",
         "title": "Founding Account Executive",
@@ -191,7 +191,7 @@
       "source": "ashby",
       "posted_at": "2026-03-21T13:29:59.463+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.972341+00:00",
+      "discovered_at": "2026-08-30T05:08:19.432645+00:00",
       "raw": {
         "id": "a2ed8653-9418-499a-bf63-4dc3df6ba0d8",
         "title": "Founding Solutions Engineer",

@@ -4,7 +4,7 @@
   "career_page": "https://stripe.com/careers/search",
   "source": "custom",
   "identifier": "https://stripe.com/careers/search",
-  "scanned_at": "2026-08-29T05:40:38.661757+00:00",
+  "scanned_at": "2026-08-30T05:00:35.902050+00:00",
   "count": 40,
   "total_available": 40,
   "partial_scan": true,
@@ -25,7 +25,7 @@
       "source": "custom",
       "posted_at": "2026-08-19T18:12:04.609Z",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:38.649062+00:00",
+      "discovered_at": "2026-08-30T05:00:35.889281+00:00",
       "raw": {
         "id": "8130725",
         "external_id": "8130725",
@@ -57,7 +57,7 @@
       "source": "custom",
       "posted_at": "2026-07-30T11:12:15.862Z",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:38.649364+00:00",
+      "discovered_at": "2026-08-30T05:00:35.889587+00:00",
       "raw": {
         "id": "8023928",
         "external_id": "8023928",
@@ -89,7 +89,7 @@
       "source": "custom",
       "posted_at": "2026-07-22T17:32:22.558Z",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:38.649726+00:00",
+      "discovered_at": "2026-08-30T05:00:35.889897+00:00",
       "raw": {
         "id": "8077887",
         "external_id": "8077887",
@@ -121,7 +121,7 @@
       "source": "custom",
       "posted_at": "2026-08-11T23:52:13.812Z",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:38.650089+00:00",
+      "discovered_at": "2026-08-30T05:00:35.890081+00:00",
       "raw": {
         "id": "8123027",
         "external_id": "8123027",
@@ -153,7 +153,7 @@
       "source": "custom",
       "posted_at": "2026-04-17T04:52:33.335Z",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:38.650444+00:00",
+      "discovered_at": "2026-08-30T05:00:35.890320+00:00",
       "raw": {
         "id": "7789539",
         "external_id": "7789539",
@@ -185,7 +185,7 @@
       "source": "custom",
       "posted_at": "2026-08-21T09:11:55.483Z",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:38.650765+00:00",
+      "discovered_at": "2026-08-30T05:00:35.890585+00:00",
       "raw": {
         "id": "8141211",
         "external_id": "8141211",
@@ -217,7 +217,7 @@
       "source": "custom",
       "posted_at": "2026-07-21T02:32:19.358Z",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:38.651200+00:00",
+      "discovered_at": "2026-08-30T05:00:35.890935+00:00",
       "raw": {
         "id": "7893199",
         "external_id": "7893199",
@@ -249,7 +249,7 @@
       "source": "custom",
       "posted_at": "2026-08-14T07:52:06.052Z",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:38.651660+00:00",
+      "discovered_at": "2026-08-30T05:00:35.891251+00:00",
       "raw": {
         "id": "8041076",
         "external_id": "8041076",
@@ -281,7 +281,7 @@
       "source": "custom",
       "posted_at": "2026-08-12T15:12:49.817Z",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:38.652019+00:00",
+      "discovered_at": "2026-08-30T05:00:35.891520+00:00",
       "raw": {
         "id": "8119822",
         "external_id": "8119822",
@@ -313,7 +313,7 @@
       "source": "custom",
       "posted_at": "2026-08-06T11:12:36.975Z",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:38.652313+00:00",
+      "discovered_at": "2026-08-30T05:00:35.891876+00:00",
       "raw": {
         "id": "7825578",
         "external_id": "7825578",
@@ -345,7 +345,7 @@
       "source": "custom",
       "posted_at": "2026-08-27T17:51:44.264Z",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:38.652496+00:00",
+      "discovered_at": "2026-08-30T05:00:35.892144+00:00",
       "raw": {
         "id": "8114458",
         "external_id": "8114458",
@@ -377,7 +377,7 @@
       "source": "custom",
       "posted_at": "2026-08-27T17:51:48.045Z",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:38.652775+00:00",
+      "discovered_at": "2026-08-30T05:00:35.892470+00:00",
       "raw": {
         "id": "8129956",
         "external_id": "8129956",
@@ -409,7 +409,7 @@
       "source": "custom",
       "posted_at": "2026-06-09T17:54:16.713Z",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:38.652952+00:00",
+      "discovered_at": "2026-08-30T05:00:35.892660+00:00",
       "raw": {
         "id": "7993151",
         "external_id": "7993151",
@@ -441,7 +441,7 @@
       "source": "custom",
       "posted_at": "2026-08-10T13:32:52.072Z",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:38.653128+00:00",
+      "discovered_at": "2026-08-30T05:00:35.892865+00:00",
       "raw": {
         "id": "8107136",
         "external_id": "8107136",
@@ -473,7 +473,7 @@
       "source": "custom",
       "posted_at": "2026-06-29T13:32:58.363Z",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:38.653301+00:00",
+      "discovered_at": "2026-08-30T05:00:35.893061+00:00",
       "raw": {
         "id": "7997146",
         "external_id": "7997146",
@@ -505,7 +505,7 @@
       "source": "custom",
       "posted_at": "2026-01-11T13:52:37.658Z",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:38.653546+00:00",
+      "discovered_at": "2026-08-30T05:00:35.893356+00:00",
       "raw": {
         "id": "7528816",
         "external_id": "7528816",
@@ -537,7 +537,7 @@
       "source": "custom",
       "posted_at": "2026-06-10T14:33:04.650Z",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:38.653679+00:00",
+      "discovered_at": "2026-08-30T05:00:35.893541+00:00",
       "raw": {
         "id": "7994330",
         "external_id": "7994330",
@@ -569,7 +569,7 @@
       "source": "custom",
       "posted_at": "2026-05-22T22:32:32.080Z",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:38.653932+00:00",
+      "discovered_at": "2026-08-30T05:00:35.893995+00:00",
       "raw": {
         "id": "7576967",
         "external_id": "7576967",
@@ -601,7 +601,7 @@
       "source": "custom",
       "posted_at": "2026-06-11T15:33:24.990Z",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:38.654196+00:00",
+      "discovered_at": "2026-08-30T05:00:35.894408+00:00",
       "raw": {
         "id": "7961609",
         "external_id": "7961609",
@@ -633,7 +633,7 @@
       "source": "custom",
       "posted_at": "2026-08-06T19:33:13.116Z",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:38.654465+00:00",
+      "discovered_at": "2026-08-30T05:00:35.894857+00:00",
       "raw": {
         "id": "8077971",
         "external_id": "8077971",
@@ -665,7 +665,7 @@
       "source": "custom",
       "posted_at": "2026-07-27T20:18:13.829Z",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:38.654662+00:00",
+      "discovered_at": "2026-08-30T05:00:35.895066+00:00",
       "raw": {
         "id": "8075473",
         "external_id": "8075473",
@@ -697,7 +697,7 @@
       "source": "custom",
       "posted_at": "2026-08-25T20:11:59.107Z",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:38.654833+00:00",
+      "discovered_at": "2026-08-30T05:00:35.895280+00:00",
       "raw": {
         "id": "8138042",
         "external_id": "8138042",
@@ -729,7 +729,7 @@
       "source": "custom",
       "posted_at": "2026-08-14T15:32:48.099Z",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:38.655028+00:00",
+      "discovered_at": "2026-08-30T05:00:35.895580+00:00",
       "raw": {
         "id": "8119697",
         "external_id": "8119697",
@@ -761,7 +761,7 @@
       "source": "custom",
       "posted_at": "2026-08-07T15:52:39.815Z",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:38.655192+00:00",
+      "discovered_at": "2026-08-30T05:00:35.895773+00:00",
       "raw": {
         "id": "8114155",
         "external_id": "8114155",
@@ -793,7 +793,7 @@
       "source": "custom",
       "posted_at": "2026-07-13T15:56:35.421Z",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:38.655529+00:00",
+      "discovered_at": "2026-08-30T05:00:35.896042+00:00",
       "raw": {
         "id": "8048193",
         "external_id": "8048193",
@@ -825,7 +825,7 @@
       "source": "custom",
       "posted_at": "2026-08-13T14:12:37.008Z",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:38.656291+00:00",
+      "discovered_at": "2026-08-30T05:00:35.896379+00:00",
       "raw": {
         "id": "8121419",
         "external_id": "8121419",
@@ -857,7 +857,7 @@
       "source": "custom",
       "posted_at": "2026-08-25T14:15:01.808Z",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:38.656872+00:00",
+      "discovered_at": "2026-08-30T05:00:35.896712+00:00",
       "raw": {
         "id": "8121421",
         "external_id": "8121421",
@@ -889,7 +889,7 @@
       "source": "custom",
       "posted_at": "2026-08-19T17:15:18.778Z",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:38.657296+00:00",
+      "discovered_at": "2026-08-30T05:00:35.896952+00:00",
       "raw": {
         "id": "8138662",
         "external_id": "8138662",
@@ -921,7 +921,7 @@
       "source": "custom",
       "posted_at": "2026-08-14T15:52:05.141Z",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:38.657704+00:00",
+      "discovered_at": "2026-08-30T05:00:35.897209+00:00",
       "raw": {
         "id": "8130052",
         "external_id": "8130052",
@@ -953,7 +953,7 @@
       "source": "custom",
       "posted_at": "2026-08-21T18:32:16.294Z",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:38.658196+00:00",
+      "discovered_at": "2026-08-30T05:00:35.897710+00:00",
       "raw": {
         "id": "8122192",
         "external_id": "8122192",
@@ -985,7 +985,7 @@
       "source": "custom",
       "posted_at": "2026-08-18T12:12:08.952Z",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:38.658481+00:00",
+      "discovered_at": "2026-08-30T05:00:35.898038+00:00",
       "raw": {
         "id": "8121659",
         "external_id": "8121659",
@@ -1017,7 +1017,7 @@
       "source": "custom",
       "posted_at": "2026-08-18T11:51:45.650Z",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:38.658752+00:00",
+      "discovered_at": "2026-08-30T05:00:35.898335+00:00",
       "raw": {
         "id": "8129702",
         "external_id": "8129702",
@@ -1049,7 +1049,7 @@
       "source": "custom",
       "posted_at": "2026-08-24T18:51:45.384Z",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:38.659041+00:00",
+      "discovered_at": "2026-08-30T05:00:35.898720+00:00",
       "raw": {
         "id": "7298935",
         "external_id": "7298935",
@@ -1081,7 +1081,7 @@
       "source": "custom",
       "posted_at": "2026-08-11T08:52:02.569Z",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:38.659607+00:00",
+      "discovered_at": "2026-08-30T05:00:35.899216+00:00",
       "raw": {
         "id": "8108891",
         "external_id": "8108891",
@@ -1113,7 +1113,7 @@
       "source": "custom",
       "posted_at": "2026-04-23T18:35:19.164Z",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:38.659868+00:00",
+      "discovered_at": "2026-08-30T05:00:35.899481+00:00",
       "raw": {
         "id": "7844214",
         "external_id": "7844214",
@@ -1145,7 +1145,7 @@
       "source": "custom",
       "posted_at": "2026-08-26T15:11:49.105Z",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:38.660258+00:00",
+      "discovered_at": "2026-08-30T05:00:35.899927+00:00",
       "raw": {
         "id": "8044460",
         "external_id": "8044460",
@@ -1177,7 +1177,7 @@
       "source": "custom",
       "posted_at": "2026-08-21T17:12:16.868Z",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:38.660582+00:00",
+      "discovered_at": "2026-08-30T05:00:35.900272+00:00",
       "raw": {
         "id": "8146159",
         "external_id": "8146159",
@@ -1209,7 +1209,7 @@
       "source": "custom",
       "posted_at": "2026-04-21T01:32:46.176Z",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:38.661213+00:00",
+      "discovered_at": "2026-08-30T05:00:35.901128+00:00",
       "raw": {
         "id": "7764914",
         "external_id": "7764914",
@@ -1241,7 +1241,7 @@
       "source": "custom",
       "posted_at": "2026-08-10T16:12:26.593Z",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:38.661486+00:00",
+      "discovered_at": "2026-08-30T05:00:35.901667+00:00",
       "raw": {
         "id": "8113337",
         "external_id": "8113337",
@@ -1273,7 +1273,7 @@
       "source": "custom",
       "posted_at": "2026-07-22T17:32:18.887Z",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:38.661709+00:00",
+      "discovered_at": "2026-08-30T05:00:35.901969+00:00",
       "raw": {
         "id": "8078126",
         "external_id": "8078126",

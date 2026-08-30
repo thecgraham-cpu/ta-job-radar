@@ -4,7 +4,7 @@
   "career_page": "https://jobs.ashbyhq.com/lightfield",
   "source": "ashby",
   "identifier": "lightfield",
-  "scanned_at": "2026-08-29T05:46:20.288405+00:00",
+  "scanned_at": "2026-08-30T05:08:21.754148+00:00",
   "count": 18,
   "total_available": 18,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "ashby",
       "posted_at": "2024-10-10T13:08:41.780+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.276725+00:00",
+      "discovered_at": "2026-08-30T05:08:21.746416+00:00",
       "raw": {
         "id": "b10fed3d-9c2e-4755-91df-8d83e97b3a28",
         "title": "Machine Learning Engineer (Staff)",
@@ -67,7 +67,7 @@
       "source": "ashby",
       "posted_at": "2025-01-23T17:38:23.826+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.277285+00:00",
+      "discovered_at": "2026-08-30T05:08:21.746705+00:00",
       "raw": {
         "id": "156e5bba-b60a-4fa4-8952-de9de8719718",
         "title": "Software Engineer, Infrastructure (Staff)",
@@ -122,7 +122,7 @@
       "source": "ashby",
       "posted_at": "2026-05-14T20:23:25.623+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.277770+00:00",
+      "discovered_at": "2026-08-30T05:08:21.746964+00:00",
       "raw": {
         "id": "b32dc57b-ffa0-4bb7-99c8-f469c3876002",
         "title": "Software Engineer, Applied AI (Staff)",
@@ -164,7 +164,7 @@
       "source": "ashby",
       "posted_at": "2026-08-02T20:01:04.899+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.278183+00:00",
+      "discovered_at": "2026-08-30T05:08:21.747194+00:00",
       "raw": {
         "id": "4386721e-6c4b-44fd-9a0f-9ba3311cf3d0",
         "title": "Software Engineer, Full Stack (Staff)",
@@ -206,7 +206,7 @@
       "source": "ashby",
       "posted_at": "2026-08-19T14:27:49.124+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.278966+00:00",
+      "discovered_at": "2026-08-30T05:08:21.747568+00:00",
       "raw": {
         "id": "3eeec270-2e02-447b-bf0c-3db34d14a1c2",
         "title": "Community and Events Lead",
@@ -248,7 +248,7 @@
       "source": "ashby",
       "posted_at": "2026-08-24T16:31:03.411+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.279434+00:00",
+      "discovered_at": "2026-08-30T05:08:21.747782+00:00",
       "raw": {
         "id": "197c8486-2734-43a5-9bab-677965cf7c94",
         "title": "Founding Account Executive",
@@ -290,7 +290,7 @@
       "source": "ashby",
       "posted_at": "2026-03-10T18:25:05.689+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.280467+00:00",
+      "discovered_at": "2026-08-30T05:08:21.748290+00:00",
       "raw": {
         "id": "46e9843d-3b60-4f54-b4f8-ae8784559383",
         "title": "Sofware Engineer, Backend (Staff)",
@@ -345,7 +345,7 @@
       "source": "ashby",
       "posted_at": "2026-08-19T14:59:00.257+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.282258+00:00",
+      "discovered_at": "2026-08-30T05:08:21.748772+00:00",
       "raw": {
         "id": "53136a59-0336-47b7-ac8e-1e08bcb0ba6d",
         "title": "Head of Product Marketing",
@@ -387,7 +387,7 @@
       "source": "ashby",
       "posted_at": "2026-05-08T23:10:55.295+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.283168+00:00",
+      "discovered_at": "2026-08-30T05:08:21.749271+00:00",
       "raw": {
         "id": "e99f09a6-bb39-45bd-b963-a00666feae1d",
         "title": "Performance Marketing Lead",
@@ -429,7 +429,7 @@
       "source": "ashby",
       "posted_at": "2026-08-19T07:20:25.254+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.283751+00:00",
+      "discovered_at": "2026-08-30T05:08:21.750062+00:00",
       "raw": {
         "id": "b28053f9-2c70-4bc1-8003-0fc76a1fb011",
         "title": "Founding Recruiter, Technical",
@@ -471,7 +471,7 @@
       "source": "ashby",
       "posted_at": "2026-08-03T20:57:20.265+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.284542+00:00",
+      "discovered_at": "2026-08-30T05:08:21.750822+00:00",
       "raw": {
         "id": "094fac84-e417-4fd7-b9fd-49d7efec8a2e",
         "title": "Software Engineer, Data Infrastructure (Staff)",
@@ -526,7 +526,7 @@
       "source": "ashby",
       "posted_at": "2026-08-19T15:37:31.148+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.285181+00:00",
+      "discovered_at": "2026-08-30T05:08:21.751469+00:00",
       "raw": {
         "id": "b7b4cc0a-fd54-4b85-a065-e98f0978924d",
         "title": "Head of Content",
@@ -568,7 +568,7 @@
       "source": "ashby",
       "posted_at": "2026-08-25T19:50:55.107+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.285665+00:00",
+      "discovered_at": "2026-08-30T05:08:21.752516+00:00",
       "raw": {
         "id": "f3a6a9c3-1e21-4216-bd6a-cbd1598ed164",
         "title": "Founding Account Executive, Strategic Accounts",
@@ -610,7 +610,7 @@
       "source": "ashby",
       "posted_at": "2026-07-16T00:04:56.496+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.286024+00:00",
+      "discovered_at": "2026-08-30T05:08:21.752823+00:00",
       "raw": {
         "id": "fc93a467-773d-4805-b342-bf470950732d",
         "title": "Software Engineer, Applied AI (Early Career)",
@@ -652,7 +652,7 @@
       "source": "ashby",
       "posted_at": "2026-07-31T17:05:31.768+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.286539+00:00",
+      "discovered_at": "2026-08-30T05:08:21.753159+00:00",
       "raw": {
         "id": "81aa566c-356e-4938-a6f6-4e94eb5b6a42",
         "title": "Founding Customer Success Manager",
@@ -694,7 +694,7 @@
       "source": "ashby",
       "posted_at": "2026-08-01T06:51:31.563+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.287007+00:00",
+      "discovered_at": "2026-08-30T05:08:21.753462+00:00",
       "raw": {
         "id": "57d8b0bf-946d-4bed-8135-931d10429c6e",
         "title": "Founding Growth & Delivery Lead",
@@ -736,7 +736,7 @@
       "source": "ashby",
       "posted_at": "2026-08-02T21:20:23.481+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.287673+00:00",
+      "discovered_at": "2026-08-30T05:08:21.753774+00:00",
       "raw": {
         "id": "9a7ef2f9-577a-4242-b884-719e3cdf4420",
         "title": "Software Engineer, Infrastructure (Early Career)",
@@ -780,7 +780,7 @@
       "source": "ashby",
       "posted_at": "2026-08-12T08:58:51.868+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.288339+00:00",
+      "discovered_at": "2026-08-30T05:08:21.754037+00:00",
       "raw": {
         "id": "18c7c385-69f3-4dcb-91f2-c9edee8bcb20",
         "title": "Founding Recruiter, GTM",

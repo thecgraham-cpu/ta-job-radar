@@ -4,7 +4,7 @@
   "career_page": "https://job-boards.greenhouse.io/trident",
   "source": "greenhouse",
   "identifier": "trident",
-  "scanned_at": "2026-08-29T05:46:23.305964+00:00",
+  "scanned_at": "2026-08-30T05:08:25.506856+00:00",
   "count": 6,
   "total_available": 6,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "greenhouse",
       "posted_at": "2025-05-02T15:43:02-04:00",
       "updated_at": "2025-05-02T15:43:02-04:00",
-      "discovered_at": "2026-08-29T05:46:23.304248+00:00",
+      "discovered_at": "2026-08-30T05:08:25.504253+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/trident/jobs/4251882008",
         "data_compliance": [
@@ -90,7 +90,7 @@
       "source": "greenhouse",
       "posted_at": "2025-05-02T15:43:02-04:00",
       "updated_at": "2025-05-02T15:43:02-04:00",
-      "discovered_at": "2026-08-29T05:46:23.304404+00:00",
+      "discovered_at": "2026-08-30T05:08:25.504504+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/trident/jobs/4251879008",
         "data_compliance": [
@@ -155,7 +155,7 @@
       "source": "greenhouse",
       "posted_at": "2025-05-02T15:43:02-04:00",
       "updated_at": "2025-05-02T15:43:02-04:00",
-      "discovered_at": "2026-08-29T05:46:23.304916+00:00",
+      "discovered_at": "2026-08-30T05:08:25.505199+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/trident/jobs/4567537008",
         "data_compliance": [
@@ -220,7 +220,7 @@
       "source": "greenhouse",
       "posted_at": "2025-05-02T15:43:02-04:00",
       "updated_at": "2025-05-02T15:43:02-04:00",
-      "discovered_at": "2026-08-29T05:46:23.305256+00:00",
+      "discovered_at": "2026-08-30T05:08:25.505724+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/trident/jobs/4486800008",
         "data_compliance": [
@@ -285,7 +285,7 @@
       "source": "greenhouse",
       "posted_at": "2025-05-02T15:43:02-04:00",
       "updated_at": "2025-05-02T15:43:02-04:00",
-      "discovered_at": "2026-08-29T05:46:23.305570+00:00",
+      "discovered_at": "2026-08-30T05:08:25.506261+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/trident/jobs/4500619008",
         "data_compliance": [
@@ -350,7 +350,7 @@
       "source": "greenhouse",
       "posted_at": "2025-05-02T15:43:02-04:00",
       "updated_at": "2025-05-02T15:43:02-04:00",
-      "discovered_at": "2026-08-29T05:46:23.305918+00:00",
+      "discovered_at": "2026-08-30T05:08:25.506825+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/trident/jobs/4249306008",
         "data_compliance": [

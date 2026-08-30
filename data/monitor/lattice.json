@@ -4,7 +4,7 @@
   "career_page": "https://job-boards.greenhouse.io/lattice",
   "source": "greenhouse",
   "identifier": "lattice",
-  "scanned_at": "2026-08-29T05:46:20.047044+00:00",
+  "scanned_at": "2026-08-30T05:08:21.494083+00:00",
   "count": 11,
   "total_available": 11,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-28T12:10:48-04:00",
       "updated_at": "2026-08-28T12:10:48-04:00",
-      "discovered_at": "2026-08-29T05:46:20.038714+00:00",
+      "discovered_at": "2026-08-30T05:08:21.473037+00:00",
       "raw": {
         "absolute_url": "https://lattice.com/job?gh_jid=8576037002",
         "data_compliance": [
@@ -92,7 +92,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-24T12:46:33-04:00",
       "updated_at": "2026-07-24T12:46:33-04:00",
-      "discovered_at": "2026-08-29T05:46:20.040081+00:00",
+      "discovered_at": "2026-08-30T05:08:21.473746+00:00",
       "raw": {
         "absolute_url": "https://lattice.com/job?gh_jid=8614333002",
         "data_compliance": [
@@ -174,7 +174,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-24T12:46:33-04:00",
       "updated_at": "2026-07-24T12:46:33-04:00",
-      "discovered_at": "2026-08-29T05:46:20.041134+00:00",
+      "discovered_at": "2026-08-30T05:08:21.474831+00:00",
       "raw": {
         "absolute_url": "https://lattice.com/job?gh_jid=8623297002",
         "data_compliance": [
@@ -256,7 +256,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-31T11:48:08-04:00",
       "updated_at": "2026-07-31T11:48:08-04:00",
-      "discovered_at": "2026-08-29T05:46:20.041838+00:00",
+      "discovered_at": "2026-08-30T05:08:21.475633+00:00",
       "raw": {
         "absolute_url": "https://lattice.com/job?gh_jid=8570063002",
         "data_compliance": [
@@ -324,7 +324,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-20T10:10:23-04:00",
       "updated_at": "2026-08-20T10:10:23-04:00",
-      "discovered_at": "2026-08-29T05:46:20.042311+00:00",
+      "discovered_at": "2026-08-30T05:08:21.476287+00:00",
       "raw": {
         "absolute_url": "https://lattice.com/job?gh_jid=8723133002",
         "data_compliance": [
@@ -389,7 +389,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-11T17:07:19-04:00",
       "updated_at": "2026-08-11T17:07:19-04:00",
-      "discovered_at": "2026-08-29T05:46:20.042834+00:00",
+      "discovered_at": "2026-08-30T05:08:21.477205+00:00",
       "raw": {
         "absolute_url": "https://lattice.com/job?gh_jid=8684299002",
         "data_compliance": [
@@ -454,7 +454,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T15:45:33-04:00",
       "updated_at": "2026-08-27T15:45:33-04:00",
-      "discovered_at": "2026-08-29T05:46:20.043918+00:00",
+      "discovered_at": "2026-08-30T05:08:21.491497+00:00",
       "raw": {
         "absolute_url": "https://lattice.com/job?gh_jid=8756830002",
         "data_compliance": [
@@ -550,7 +550,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T15:45:31-04:00",
       "updated_at": "2026-08-27T15:45:31-04:00",
-      "discovered_at": "2026-08-29T05:46:20.044492+00:00",
+      "discovered_at": "2026-08-30T05:08:21.492199+00:00",
       "raw": {
         "absolute_url": "https://lattice.com/job?gh_jid=8581368002",
         "data_compliance": [
@@ -646,7 +646,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-06T15:01:46-04:00",
       "updated_at": "2026-08-06T15:01:46-04:00",
-      "discovered_at": "2026-08-29T05:46:20.045656+00:00",
+      "discovered_at": "2026-08-30T05:08:21.492908+00:00",
       "raw": {
         "absolute_url": "https://lattice.com/job?gh_jid=8618117002",
         "data_compliance": [
@@ -711,7 +711,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-31T20:01:28-04:00",
       "updated_at": "2026-07-31T20:01:28-04:00",
-      "discovered_at": "2026-08-29T05:46:20.046325+00:00",
+      "discovered_at": "2026-08-30T05:08:21.493426+00:00",
       "raw": {
         "absolute_url": "https://lattice.com/job?gh_jid=8487540002",
         "data_compliance": [
@@ -793,7 +793,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T14:26:55-04:00",
       "updated_at": "2026-08-27T14:26:55-04:00",
-      "discovered_at": "2026-08-29T05:46:20.047013+00:00",
+      "discovered_at": "2026-08-30T05:08:21.494054+00:00",
       "raw": {
         "absolute_url": "https://lattice.com/job?gh_jid=8747049002",
         "data_compliance": [

@@ -4,7 +4,7 @@
   "career_page": "https://jobs.ashbyhq.com/snapdocs",
   "source": "ashby",
   "identifier": "snapdocs",
-  "scanned_at": "2026-08-29T05:46:22.406842+00:00",
+  "scanned_at": "2026-08-30T05:08:25.044261+00:00",
   "count": 4,
   "total_available": 4,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "ashby",
       "posted_at": "2026-05-01T19:46:35.935+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:22.404160+00:00",
+      "discovered_at": "2026-08-30T05:08:25.042073+00:00",
       "raw": {
         "id": "07b18cf6-5947-4991-8905-354710aec870",
         "title": "Senior Manager, Revenue Marketing - Settlement & Strategic Verticals",
@@ -67,7 +67,7 @@
       "source": "ashby",
       "posted_at": "2026-06-10T16:05:30.856+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:22.404861+00:00",
+      "discovered_at": "2026-08-30T05:08:25.042561+00:00",
       "raw": {
         "id": "d725e93c-e215-461f-9468-4bc7caf1a506",
         "title": "Enterprise Account Executive",
@@ -109,7 +109,7 @@
       "source": "ashby",
       "posted_at": "2026-06-08T16:52:25.152+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:22.405430+00:00",
+      "discovered_at": "2026-08-30T05:08:25.043456+00:00",
       "raw": {
         "id": "7bca3a10-4dac-408e-b7b7-93d0aef0d6e0",
         "title": "Senior Manager, Engineering",
@@ -151,7 +151,7 @@
       "source": "ashby",
       "posted_at": "2026-08-12T21:08:06.440+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:22.406781+00:00",
+      "discovered_at": "2026-08-30T05:08:25.044194+00:00",
       "raw": {
         "id": "88f9a598-f0fd-4ab7-8e18-600ad5f6815d",
         "title": "Controller",

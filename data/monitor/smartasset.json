@@ -4,7 +4,7 @@
   "career_page": "https://job-boards.greenhouse.io/smartasset",
   "source": "greenhouse",
   "identifier": "smartasset",
-  "scanned_at": "2026-08-29T05:46:22.288404+00:00",
+  "scanned_at": "2026-08-30T05:08:25.117694+00:00",
   "count": 5,
   "total_available": 5,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-07T15:37:17-04:00",
       "updated_at": "2026-08-07T15:37:17-04:00",
-      "discovered_at": "2026-08-29T05:46:22.284789+00:00",
+      "discovered_at": "2026-08-30T05:08:25.115003+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/smartasset/jobs/8691974002",
         "data_compliance": [
@@ -84,7 +84,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-06T17:37:09-04:00",
       "updated_at": "2026-08-06T17:37:09-04:00",
-      "discovered_at": "2026-08-29T05:46:22.285420+00:00",
+      "discovered_at": "2026-08-30T05:08:25.115947+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/smartasset/jobs/8659747002",
         "data_compliance": [
@@ -141,7 +141,7 @@
       "source": "greenhouse",
       "posted_at": "2026-06-12T13:21:14-04:00",
       "updated_at": "2026-06-12T13:21:14-04:00",
-      "discovered_at": "2026-08-29T05:46:22.286012+00:00",
+      "discovered_at": "2026-08-30T05:08:25.116467+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/smartasset/jobs/8579105002",
         "data_compliance": [
@@ -198,7 +198,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-03T17:07:06-04:00",
       "updated_at": "2026-08-03T17:07:06-04:00",
-      "discovered_at": "2026-08-29T05:46:22.287152+00:00",
+      "discovered_at": "2026-08-30T05:08:25.116972+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/smartasset/jobs/8653668002",
         "data_compliance": [
@@ -255,7 +255,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-28T11:39:37-04:00",
       "updated_at": "2026-07-28T11:39:37-04:00",
-      "discovered_at": "2026-08-29T05:46:22.288344+00:00",
+      "discovered_at": "2026-08-30T05:08:25.117659+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/smartasset/jobs/8626665002",
         "data_compliance": [

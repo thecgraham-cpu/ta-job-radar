@@ -4,7 +4,7 @@
   "career_page": "https://jobs.ashbyhq.com/mosaic",
   "source": "ashby",
   "identifier": "mosaic",
-  "scanned_at": "2026-08-29T05:46:20.561685+00:00",
+  "scanned_at": "2026-08-30T05:08:22.148512+00:00",
   "count": 7,
   "total_available": 7,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "ashby",
       "posted_at": "2026-01-25T00:38:44.281+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.553576+00:00",
+      "discovered_at": "2026-08-30T05:08:22.146358+00:00",
       "raw": {
         "id": "e71d1c90-fc06-41b3-8e87-ecbe89526136",
         "title": "Global Head of Sales",
@@ -67,7 +67,7 @@
       "source": "ashby",
       "posted_at": "2026-01-25T00:47:45.861+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.554318+00:00",
+      "discovered_at": "2026-08-30T05:08:22.146823+00:00",
       "raw": {
         "id": "3497eb75-bb31-49ae-a525-7d0ebb3f4cf3",
         "title": "Head of EMEA Sales",
@@ -109,7 +109,7 @@
       "source": "ashby",
       "posted_at": "2026-01-20T03:48:33.772+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.554980+00:00",
+      "discovered_at": "2026-08-30T05:08:22.147176+00:00",
       "raw": {
         "id": "49f2511d-4835-4d18-813f-e8dec4cdd7da",
         "title": "Software Engineer",
@@ -151,7 +151,7 @@
       "source": "ashby",
       "posted_at": "2026-01-20T03:26:49.354+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.555936+00:00",
+      "discovered_at": "2026-08-30T05:08:22.147517+00:00",
       "raw": {
         "id": "08e08ef9-f308-4e04-9e00-8d4f768f73f3",
         "title": "GTM Associate - Banking & Credit",
@@ -193,7 +193,7 @@
       "source": "ashby",
       "posted_at": "2026-01-20T03:33:24.441+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.556568+00:00",
+      "discovered_at": "2026-08-30T05:08:22.147818+00:00",
       "raw": {
         "id": "797823c8-40a6-444b-b49f-6dea2b71869e",
         "title": "GTM Associate - Private Equity",
@@ -235,7 +235,7 @@
       "source": "ashby",
       "posted_at": "2026-08-06T20:23:54.673+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.557974+00:00",
+      "discovered_at": "2026-08-30T05:08:22.148191+00:00",
       "raw": {
         "id": "c6c6f07d-5c69-4be6-a387-a11fa745c6ff",
         "title": "Head of Marketing",
@@ -277,7 +277,7 @@
       "source": "ashby",
       "posted_at": "2026-08-17T15:52:59.834+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.561268+00:00",
+      "discovered_at": "2026-08-30T05:08:22.148493+00:00",
       "raw": {
         "id": "14b240bf-7bbe-4460-af8f-d1b5553e0f44",
         "title": "Deployment Strategist",

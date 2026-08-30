@@ -4,7 +4,7 @@
   "career_page": "https://jobs.ashbyhq.com/carnot-ai",
   "source": "ashby",
   "identifier": "carnot-ai",
-  "scanned_at": "2026-08-29T05:46:25.218826+00:00",
+  "scanned_at": "2026-08-30T05:08:26.398083+00:00",
   "count": 9,
   "total_available": 9,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "ashby",
       "posted_at": "2025-12-14T01:43:07.924+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.216676+00:00",
+      "discovered_at": "2026-08-30T05:08:26.396852+00:00",
       "raw": {
         "id": "e88c7892-b64d-4b5d-a813-deac00db724d",
         "title": "Founding Engineer",
@@ -67,7 +67,7 @@
       "source": "ashby",
       "posted_at": "2025-12-14T02:44:32.905+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.216958+00:00",
+      "discovered_at": "2026-08-30T05:08:26.397007+00:00",
       "raw": {
         "id": "ccb377b8-95b9-489a-b144-8d143596b4ac",
         "title": "Forward Deployed Engineer",
@@ -109,7 +109,7 @@
       "source": "ashby",
       "posted_at": "2025-12-14T02:46:12.109+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.217214+00:00",
+      "discovered_at": "2026-08-30T05:08:26.397137+00:00",
       "raw": {
         "id": "a40fb268-379d-4905-b370-3e82c64108ec",
         "title": "Forward Deployed Engineer",
@@ -151,7 +151,7 @@
       "source": "ashby",
       "posted_at": "2025-12-14T03:09:36.072+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.217435+00:00",
+      "discovered_at": "2026-08-30T05:08:26.397267+00:00",
       "raw": {
         "id": "188a54f1-bd8b-48ad-a62d-b0be8168878a",
         "title": "Founding Sales Lead",
@@ -193,7 +193,7 @@
       "source": "ashby",
       "posted_at": "2025-12-14T03:15:21.445+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.217653+00:00",
+      "discovered_at": "2026-08-30T05:08:26.397389+00:00",
       "raw": {
         "id": "f8e9170f-e276-47e8-b7b8-a74e906f0ed3",
         "title": "Founding Design Engineer",
@@ -235,7 +235,7 @@
       "source": "ashby",
       "posted_at": "2025-12-14T03:23:54.053+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.217907+00:00",
+      "discovered_at": "2026-08-30T05:08:26.397519+00:00",
       "raw": {
         "id": "fcdd1e5e-41c3-452f-8e31-a3dfa228aa6d",
         "title": "Senior Frontend Engineer",
@@ -277,7 +277,7 @@
       "source": "ashby",
       "posted_at": "2026-01-19T22:07:35.368+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.218136+00:00",
+      "discovered_at": "2026-08-30T05:08:26.397641+00:00",
       "raw": {
         "id": "32bbce0a-591b-498b-9b72-901eeb4a0ab4",
         "title": "Chief of Staff",
@@ -319,7 +319,7 @@
       "source": "ashby",
       "posted_at": "2026-01-28T04:04:48.155+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.218400+00:00",
+      "discovered_at": "2026-08-30T05:08:26.397780+00:00",
       "raw": {
         "id": "e759b704-b006-41cb-becd-5b9b46111bc6",
         "title": "Senior Engineer (Growth)",
@@ -361,7 +361,7 @@
       "source": "ashby",
       "posted_at": "2026-02-10T06:51:38.112+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.218787+00:00",
+      "discovered_at": "2026-08-30T05:08:26.398061+00:00",
       "raw": {
         "id": "38a7a3ff-eea9-473a-8ad3-cc3581c20715",
         "title": "Product Designer",

@@ -4,7 +4,7 @@
   "career_page": "https://careers.airbnb.com/positions/",
   "source": "custom",
   "identifier": "https://careers.airbnb.com/positions/",
-  "scanned_at": "2026-08-29T05:40:53.886123+00:00",
+  "scanned_at": "2026-08-30T05:00:58.312952+00:00",
   "count": 32,
   "total_available": 30,
   "partial_scan": true,
@@ -25,7 +25,7 @@
       "source": "custom",
       "posted_at": null,
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:53.884448+00:00",
+      "discovered_at": "2026-08-30T05:00:58.311272+00:00",
       "raw": {
         "id": "7532824",
         "external_id": "7532824",
@@ -57,7 +57,7 @@
       "source": "custom",
       "posted_at": null,
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:53.884527+00:00",
+      "discovered_at": "2026-08-30T05:00:58.311346+00:00",
       "raw": {
         "id": "7590542",
         "external_id": "7590542",
@@ -89,7 +89,7 @@
       "source": "custom",
       "posted_at": null,
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:53.884642+00:00",
+      "discovered_at": "2026-08-30T05:00:58.311436+00:00",
       "raw": {
         "id": "7732569",
         "external_id": "7732569",
@@ -121,7 +121,7 @@
       "source": "custom",
       "posted_at": null,
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:53.884692+00:00",
+      "discovered_at": "2026-08-30T05:00:58.311497+00:00",
       "raw": {
         "id": "7760914",
         "external_id": "7760914",
@@ -153,7 +153,7 @@
       "source": "custom",
       "posted_at": null,
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:53.884751+00:00",
+      "discovered_at": "2026-08-30T05:00:58.311571+00:00",
       "raw": {
         "id": "7834481",
         "external_id": "7834481",
@@ -185,7 +185,7 @@
       "source": "custom",
       "posted_at": null,
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:53.884804+00:00",
+      "discovered_at": "2026-08-30T05:00:58.311633+00:00",
       "raw": {
         "id": "7839229",
         "external_id": "7839229",
@@ -217,7 +217,7 @@
       "source": "custom",
       "posted_at": null,
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:53.884868+00:00",
+      "discovered_at": "2026-08-30T05:00:58.311697+00:00",
       "raw": {
         "id": "7862110",
         "external_id": "7862110",
@@ -249,7 +249,7 @@
       "source": "custom",
       "posted_at": null,
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:53.884918+00:00",
+      "discovered_at": "2026-08-30T05:00:58.311755+00:00",
       "raw": {
         "id": "7948314",
         "external_id": "7948314",
@@ -281,7 +281,7 @@
       "source": "custom",
       "posted_at": null,
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:53.884969+00:00",
+      "discovered_at": "2026-08-30T05:00:58.311806+00:00",
       "raw": {
         "id": "7964205",
         "external_id": "7964205",
@@ -313,7 +313,7 @@
       "source": "custom",
       "posted_at": null,
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:53.885017+00:00",
+      "discovered_at": "2026-08-30T05:00:58.311882+00:00",
       "raw": {
         "id": "7964249",
         "external_id": "7964249",
@@ -345,7 +345,7 @@
       "source": "custom",
       "posted_at": null,
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:53.885122+00:00",
+      "discovered_at": "2026-08-30T05:00:58.312261+00:00",
       "raw": {
         "id": "7982715",
         "external_id": "7982715",
@@ -377,7 +377,7 @@
       "source": "custom",
       "posted_at": null,
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:53.885177+00:00",
+      "discovered_at": "2026-08-30T05:00:58.312312+00:00",
       "raw": {
         "id": "7995153",
         "external_id": "7995153",
@@ -409,7 +409,7 @@
       "source": "custom",
       "posted_at": null,
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:53.885227+00:00",
+      "discovered_at": "2026-08-30T05:00:58.312349+00:00",
       "raw": {
         "id": "7995199",
         "external_id": "7995199",
@@ -441,7 +441,7 @@
       "source": "custom",
       "posted_at": null,
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:53.885284+00:00",
+      "discovered_at": "2026-08-30T05:00:58.312388+00:00",
       "raw": {
         "id": "7999656",
         "external_id": "7999656",
@@ -473,7 +473,7 @@
       "source": "custom",
       "posted_at": null,
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:53.885334+00:00",
+      "discovered_at": "2026-08-30T05:00:58.312425+00:00",
       "raw": {
         "id": "8009372",
         "external_id": "8009372",
@@ -537,7 +537,7 @@
       "source": "custom",
       "posted_at": null,
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:53.885384+00:00",
+      "discovered_at": "2026-08-30T05:00:58.312461+00:00",
       "raw": {
         "id": "8031907",
         "external_id": "8031907",
@@ -569,7 +569,7 @@
       "source": "custom",
       "posted_at": null,
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:53.885439+00:00",
+      "discovered_at": "2026-08-30T05:00:58.312496+00:00",
       "raw": {
         "id": "8052941",
         "external_id": "8052941",
@@ -601,7 +601,7 @@
       "source": "custom",
       "posted_at": null,
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:53.885491+00:00",
+      "discovered_at": "2026-08-30T05:00:58.312533+00:00",
       "raw": {
         "id": "8055459",
         "external_id": "8055459",
@@ -633,7 +633,7 @@
       "source": "custom",
       "posted_at": null,
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:53.885540+00:00",
+      "discovered_at": "2026-08-30T05:00:58.312568+00:00",
       "raw": {
         "id": "8070656",
         "external_id": "8070656",
@@ -697,7 +697,7 @@
       "source": "custom",
       "posted_at": null,
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:53.885594+00:00",
+      "discovered_at": "2026-08-30T05:00:58.312602+00:00",
       "raw": {
         "id": "8104102",
         "external_id": "8104102",
@@ -729,7 +729,7 @@
       "source": "custom",
       "posted_at": null,
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:53.885642+00:00",
+      "discovered_at": "2026-08-30T05:00:58.312639+00:00",
       "raw": {
         "id": "8120458",
         "external_id": "8120458",
@@ -761,7 +761,7 @@
       "source": "custom",
       "posted_at": null,
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:53.885694+00:00",
+      "discovered_at": "2026-08-30T05:00:58.312672+00:00",
       "raw": {
         "id": "8125981",
         "external_id": "8125981",
@@ -793,7 +793,7 @@
       "source": "custom",
       "posted_at": null,
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:53.885746+00:00",
+      "discovered_at": "2026-08-30T05:00:58.312712+00:00",
       "raw": {
         "id": "8144691",
         "external_id": "8144691",
@@ -825,7 +825,7 @@
       "source": "custom",
       "posted_at": null,
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:53.885794+00:00",
+      "discovered_at": "2026-08-30T05:00:58.312745+00:00",
       "raw": {
         "id": "8152131",
         "external_id": "8152131",
@@ -857,7 +857,7 @@
       "source": "custom",
       "posted_at": null,
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:53.885852+00:00",
+      "discovered_at": "2026-08-30T05:00:58.312784+00:00",
       "raw": {
         "id": "8152132",
         "external_id": "8152132",
@@ -889,7 +889,7 @@
       "source": "custom",
       "posted_at": null,
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:53.885928+00:00",
+      "discovered_at": "2026-08-30T05:00:58.312819+00:00",
       "raw": {
         "id": "8153094",
         "external_id": "8153094",
@@ -921,7 +921,7 @@
       "source": "custom",
       "posted_at": null,
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:53.885982+00:00",
+      "discovered_at": "2026-08-30T05:00:58.312860+00:00",
       "raw": {
         "id": "8154749",
         "external_id": "8154749",
@@ -953,7 +953,7 @@
       "source": "custom",
       "posted_at": null,
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:53.886034+00:00",
+      "discovered_at": "2026-08-30T05:00:58.312898+00:00",
       "raw": {
         "id": "8157013",
         "external_id": "8157013",
@@ -985,7 +985,7 @@
       "source": "custom",
       "posted_at": null,
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:53.884588+00:00",
+      "discovered_at": "2026-08-30T05:00:58.311394+00:00",
       "raw": {
         "id": "7716341",
         "external_id": "7716341",
@@ -1017,7 +1017,7 @@
       "source": "custom",
       "posted_at": null,
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:40:53.885071+00:00",
+      "discovered_at": "2026-08-30T05:00:58.312091+00:00",
       "raw": {
         "id": "7967712",
         "external_id": "7967712",

@@ -4,7 +4,7 @@
   "career_page": "https://jobs.ashbyhq.com/haladir",
   "source": "ashby",
   "identifier": "haladir",
-  "scanned_at": "2026-08-29T05:46:19.491363+00:00",
+  "scanned_at": "2026-08-30T05:08:20.794000+00:00",
   "count": 5,
   "total_available": 5,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "ashby",
       "posted_at": "2026-08-17T22:28:12.928+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.490491+00:00",
+      "discovered_at": "2026-08-30T05:08:20.793532+00:00",
       "raw": {
         "id": "c57fd80b-c8c5-4a3a-b8d9-7b1b4eb9d710",
         "title": "Software Engineering Intern (Fall 2026)",
@@ -67,7 +67,7 @@
       "source": "ashby",
       "posted_at": "2026-08-17T22:25:44.728+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.490640+00:00",
+      "discovered_at": "2026-08-30T05:08:20.793631+00:00",
       "raw": {
         "id": "c2a5957f-57c2-40c9-a7c2-f4dcbf9328b1",
         "title": "GTM Engineering Intern (Fall 2026)",
@@ -109,7 +109,7 @@
       "source": "ashby",
       "posted_at": "2026-08-17T22:35:26.036+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.490754+00:00",
+      "discovered_at": "2026-08-30T05:08:20.793740+00:00",
       "raw": {
         "id": "9bb5d727-10ba-4738-9d1b-6a46ec9bad0f",
         "title": "Software Engineer (Full Time)",
@@ -151,7 +151,7 @@
       "source": "ashby",
       "posted_at": "2026-08-17T22:42:43.873+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.491083+00:00",
+      "discovered_at": "2026-08-30T05:08:20.793867+00:00",
       "raw": {
         "id": "40f52dc0-5577-43fb-8bee-3e21900a2fdd",
         "title": "Founding Operations Research Engineer (Full Time)",
@@ -193,7 +193,7 @@
       "source": "ashby",
       "posted_at": "2026-08-17T23:18:08.234+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.491325+00:00",
+      "discovered_at": "2026-08-30T05:08:20.793984+00:00",
       "raw": {
         "id": "e15be508-6c00-4ff8-b163-0e06b8266998",
         "title": "Operations Research Engineering Intern (Fall 2026)",

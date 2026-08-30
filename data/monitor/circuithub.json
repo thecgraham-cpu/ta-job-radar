@@ -4,7 +4,7 @@
   "career_page": "https://jobs.ashbyhq.com/circuithub",
   "source": "ashby",
   "identifier": "circuithub",
-  "scanned_at": "2026-08-29T05:46:17.293620+00:00",
+  "scanned_at": "2026-08-30T05:08:19.706712+00:00",
   "count": 9,
   "total_available": 9,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "ashby",
       "posted_at": "2025-05-27T15:47:11.984+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.291701+00:00",
+      "discovered_at": "2026-08-30T05:08:19.703794+00:00",
       "raw": {
         "id": "6ce5e5f2-7dd4-4c5c-8978-ab6f3e2e1e1d",
         "title": "Full-Stack Robotics Engineer",
@@ -67,7 +67,7 @@
       "source": "ashby",
       "posted_at": "2025-06-27T15:16:43.964+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.291967+00:00",
+      "discovered_at": "2026-08-30T05:08:19.704200+00:00",
       "raw": {
         "id": "5d6379b9-044b-48f5-af9a-852dcf4516b6",
         "title": "Production Operator",
@@ -109,7 +109,7 @@
       "source": "ashby",
       "posted_at": "2025-08-29T14:59:22.714+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.292163+00:00",
+      "discovered_at": "2026-08-30T05:08:19.704522+00:00",
       "raw": {
         "id": "3ed17f67-7055-444b-af21-5b5088f83902",
         "title": "High-Paying Part-Time Roles for UMass Engineering Students",
@@ -151,7 +151,7 @@
       "source": "ashby",
       "posted_at": "2026-07-24T11:45:22.202+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.292348+00:00",
+      "discovered_at": "2026-08-30T05:08:19.704832+00:00",
       "raw": {
         "id": "cedd280e-75b4-4811-8595-9b0b96da74a5",
         "title": "Haskell Engineer",
@@ -191,7 +191,7 @@
       "source": "ashby",
       "posted_at": "2026-01-15T15:27:00.766+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.292520+00:00",
+      "discovered_at": "2026-08-30T05:08:19.705136+00:00",
       "raw": {
         "id": "b2cc04ac-fe39-4fca-8928-a022579420c4",
         "title": "Mechanical Engineer, Factory Automation",
@@ -233,7 +233,7 @@
       "source": "ashby",
       "posted_at": "2026-06-20T10:00:29.031+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.292749+00:00",
+      "discovered_at": "2026-08-30T05:08:19.705555+00:00",
       "raw": {
         "id": "394313d1-fb6d-44bc-a948-ccd9c9bec2db",
         "title": "Product Engineer (Operations & Manufacturing Software)",
@@ -273,7 +273,7 @@
       "source": "ashby",
       "posted_at": "2026-07-10T15:06:06.574+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.292990+00:00",
+      "discovered_at": "2026-08-30T05:08:19.705951+00:00",
       "raw": {
         "id": "a23c03cf-b383-4834-a392-0d759c292d5b",
         "title": "Automation System Build Engineer",
@@ -315,7 +315,7 @@
       "source": "ashby",
       "posted_at": "2026-07-13T11:22:17.191+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.293346+00:00",
+      "discovered_at": "2026-08-30T05:08:19.706292+00:00",
       "raw": {
         "id": "ce1c7adf-d6dd-4e40-a903-420e5dec51f7",
         "title": "Full-Stack Robotics/Automation Engineer",
@@ -357,7 +357,7 @@
       "source": "ashby",
       "posted_at": "2026-07-13T11:23:00.734+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.293599+00:00",
+      "discovered_at": "2026-08-30T05:08:19.706681+00:00",
       "raw": {
         "id": "9ece563f-6f07-4b47-a64d-4d724672b865",
         "title": "Mechanical Engineer - Factory Automation",

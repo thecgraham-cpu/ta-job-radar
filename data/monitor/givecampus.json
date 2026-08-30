@@ -4,7 +4,7 @@
   "career_page": "https://job-boards.greenhouse.io/givecampus",
   "source": "greenhouse",
   "identifier": "givecampus",
-  "scanned_at": "2026-08-29T05:46:18.913639+00:00",
+  "scanned_at": "2026-08-30T05:08:20.677659+00:00",
   "count": 16,
   "total_available": 16,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-14T01:00:23-04:00",
       "updated_at": "2026-08-14T01:00:23-04:00",
-      "discovered_at": "2026-08-29T05:46:18.874710+00:00",
+      "discovered_at": "2026-08-30T05:08:20.659569+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/givecampus/jobs/4021844009",
         "data_compliance": [
@@ -90,7 +90,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-14T01:00:25-04:00",
       "updated_at": "2026-08-14T01:00:25-04:00",
-      "discovered_at": "2026-08-29T05:46:18.875265+00:00",
+      "discovered_at": "2026-08-30T05:08:20.660115+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/givecampus/jobs/4273287009",
         "data_compliance": [
@@ -155,7 +155,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-14T01:00:23-04:00",
       "updated_at": "2026-08-14T01:00:23-04:00",
-      "discovered_at": "2026-08-29T05:46:18.876300+00:00",
+      "discovered_at": "2026-08-30T05:08:20.660589+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/givecampus/jobs/4021331009",
         "data_compliance": [
@@ -220,7 +220,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-14T01:00:25-04:00",
       "updated_at": "2026-08-14T01:00:25-04:00",
-      "discovered_at": "2026-08-29T05:46:18.877582+00:00",
+      "discovered_at": "2026-08-30T05:08:20.661052+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/givecampus/jobs/4244189009",
         "data_compliance": [
@@ -285,7 +285,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-14T01:00:25-04:00",
       "updated_at": "2026-08-14T01:00:25-04:00",
-      "discovered_at": "2026-08-29T05:46:18.878268+00:00",
+      "discovered_at": "2026-08-30T05:08:20.661513+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/givecampus/jobs/4244179009",
         "data_compliance": [
@@ -350,7 +350,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-14T11:36:43-04:00",
       "updated_at": "2026-08-14T11:36:43-04:00",
-      "discovered_at": "2026-08-29T05:46:18.899746+00:00",
+      "discovered_at": "2026-08-30T05:08:20.661939+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/givecampus/jobs/4370403009",
         "data_compliance": [
@@ -415,7 +415,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-14T01:00:24-04:00",
       "updated_at": "2026-08-14T01:00:24-04:00",
-      "discovered_at": "2026-08-29T05:46:18.900508+00:00",
+      "discovered_at": "2026-08-30T05:08:20.662370+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/givecampus/jobs/4208436009",
         "data_compliance": [
@@ -480,7 +480,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-18T16:14:23-04:00",
       "updated_at": "2026-08-18T16:14:23-04:00",
-      "discovered_at": "2026-08-29T05:46:18.901006+00:00",
+      "discovered_at": "2026-08-30T05:08:20.662787+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/givecampus/jobs/4374696009",
         "data_compliance": [
@@ -545,7 +545,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T11:03:45-04:00",
       "updated_at": "2026-08-24T11:03:45-04:00",
-      "discovered_at": "2026-08-29T05:46:18.901661+00:00",
+      "discovered_at": "2026-08-30T05:08:20.663369+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/givecampus/jobs/4315171009",
         "data_compliance": [
@@ -610,7 +610,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-14T01:00:25-04:00",
       "updated_at": "2026-08-14T01:00:25-04:00",
-      "discovered_at": "2026-08-29T05:46:18.902249+00:00",
+      "discovered_at": "2026-08-30T05:08:20.674066+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/givecampus/jobs/4342398009",
         "data_compliance": [
@@ -675,7 +675,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-14T01:00:25-04:00",
       "updated_at": "2026-08-14T01:00:25-04:00",
-      "discovered_at": "2026-08-29T05:46:18.903492+00:00",
+      "discovered_at": "2026-08-30T05:08:20.675032+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/givecampus/jobs/4303701009",
         "data_compliance": [
@@ -740,7 +740,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-14T01:00:24-04:00",
       "updated_at": "2026-08-14T01:00:24-04:00",
-      "discovered_at": "2026-08-29T05:46:18.904219+00:00",
+      "discovered_at": "2026-08-30T05:08:20.675582+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/givecampus/jobs/4112793009",
         "data_compliance": [
@@ -805,7 +805,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-14T01:00:25-04:00",
       "updated_at": "2026-08-14T01:00:25-04:00",
-      "discovered_at": "2026-08-29T05:46:18.904783+00:00",
+      "discovered_at": "2026-08-30T05:08:20.676038+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/givecampus/jobs/4362301009",
         "data_compliance": [
@@ -870,7 +870,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-18T15:51:02-04:00",
       "updated_at": "2026-08-18T15:51:02-04:00",
-      "discovered_at": "2026-08-29T05:46:18.910830+00:00",
+      "discovered_at": "2026-08-30T05:08:20.676558+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/givecampus/jobs/4374577009",
         "data_compliance": [
@@ -935,7 +935,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-18T15:56:45-04:00",
       "updated_at": "2026-08-18T15:56:45-04:00",
-      "discovered_at": "2026-08-29T05:46:18.911514+00:00",
+      "discovered_at": "2026-08-30T05:08:20.677112+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/givecampus/jobs/4005082009",
         "data_compliance": [
@@ -1000,7 +1000,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-14T01:00:25-04:00",
       "updated_at": "2026-08-14T01:00:25-04:00",
-      "discovered_at": "2026-08-29T05:46:18.913557+00:00",
+      "discovered_at": "2026-08-30T05:08:20.677636+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/givecampus/jobs/4278428009",
         "data_compliance": [

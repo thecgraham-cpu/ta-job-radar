@@ -4,7 +4,7 @@
   "career_page": "https://jobs.ashbyhq.com/9-mothers",
   "source": "ashby",
   "identifier": "9-mothers",
-  "scanned_at": "2026-08-29T05:46:16.738309+00:00",
+  "scanned_at": "2026-08-30T05:08:19.147945+00:00",
   "count": 12,
   "total_available": 12,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "ashby",
       "posted_at": "2026-04-23T19:38:52.167+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.729054+00:00",
+      "discovered_at": "2026-08-30T05:08:19.143190+00:00",
       "raw": {
         "id": "fd8c2655-efe2-490e-bff8-e8fed5dbf9aa",
         "title": "Perception Engineer, Senior",
@@ -67,7 +67,7 @@
       "source": "ashby",
       "posted_at": "2026-01-26T14:26:59.814+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.729641+00:00",
+      "discovered_at": "2026-08-30T05:08:19.143476+00:00",
       "raw": {
         "id": "4371c968-1ddf-450a-bfad-41b43ed8c302",
         "title": "Robotics Engineer, Senior",
@@ -109,7 +109,7 @@
       "source": "ashby",
       "posted_at": "2026-03-04T20:22:52.089+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.730480+00:00",
+      "discovered_at": "2026-08-30T05:08:19.143720+00:00",
       "raw": {
         "id": "7d718e91-35b6-412a-9278-aaf0f9966c4d",
         "title": "Robotics Engineer, Staff",
@@ -151,7 +151,7 @@
       "source": "ashby",
       "posted_at": "2026-05-14T19:01:49.668+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.731324+00:00",
+      "discovered_at": "2026-08-30T05:08:19.144215+00:00",
       "raw": {
         "id": "87342437-0377-4256-93a8-05e29795fd54",
         "title": "R&D Test Engineer",
@@ -193,7 +193,7 @@
       "source": "ashby",
       "posted_at": "2026-05-19T17:22:24.532+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.732193+00:00",
+      "discovered_at": "2026-08-30T05:08:19.144816+00:00",
       "raw": {
         "id": "0ef2b8c3-a414-4432-b048-944ceaba0b51",
         "title": "R&D Test Engineer, Senior",
@@ -235,7 +235,7 @@
       "source": "ashby",
       "posted_at": "2026-08-25T20:12:09.250+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.733184+00:00",
+      "discovered_at": "2026-08-30T05:08:19.145348+00:00",
       "raw": {
         "id": "d25a11b2-200d-4abb-b2eb-e00729210adc",
         "title": "Manufacturing Engineering Lead",
@@ -277,7 +277,7 @@
       "source": "ashby",
       "posted_at": "2026-08-25T20:11:03.025+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.733780+00:00",
+      "discovered_at": "2026-08-30T05:08:19.145947+00:00",
       "raw": {
         "id": "d04104fd-1349-44b0-a29b-7d76330f5989",
         "title": "Technical Project Manager",
@@ -319,7 +319,7 @@
       "source": "ashby",
       "posted_at": "2026-07-27T17:17:31.195+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.734345+00:00",
+      "discovered_at": "2026-08-30T05:08:19.146284+00:00",
       "raw": {
         "id": "32220c7f-c577-475a-9a97-e06f3c28ae47",
         "title": "Field Applications Engineer",
@@ -361,7 +361,7 @@
       "source": "ashby",
       "posted_at": "2026-07-22T14:08:12.247+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.735259+00:00",
+      "discovered_at": "2026-08-30T05:08:19.146734+00:00",
       "raw": {
         "id": "f0f9ca48-6ac5-4ee4-8a0a-4e2b24fed801",
         "title": "Electronics & Hardware Buyer/Purchaser",
@@ -403,7 +403,7 @@
       "source": "ashby",
       "posted_at": "2026-07-22T14:07:13.208+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.736548+00:00",
+      "discovered_at": "2026-08-30T05:08:19.147161+00:00",
       "raw": {
         "id": "9fbbd391-4194-42a9-bd32-3752b774811b",
         "title": "Electronics & Hardware Buyer/Purchaser, Senior",
@@ -445,7 +445,7 @@
       "source": "ashby",
       "posted_at": "2026-07-31T18:19:58.205+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.737338+00:00",
+      "discovered_at": "2026-08-30T05:08:19.147553+00:00",
       "raw": {
         "id": "82442837-bbe1-47c4-9f6a-f9da88ddf4bf",
         "title": "Integration Engineer",
@@ -487,7 +487,7 @@
       "source": "ashby",
       "posted_at": "2026-08-26T13:00:57.233+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.738246+00:00",
+      "discovered_at": "2026-08-30T05:08:19.147911+00:00",
       "raw": {
         "id": "431e3669-d302-461c-9cad-6f0ca8d97900",
         "title": "IT Support Engineer",

@@ -4,7 +4,7 @@
   "career_page": "https://jobs.ashbyhq.com/helion",
   "source": "ashby",
   "identifier": "helion",
-  "scanned_at": "2026-08-29T05:46:25.893808+00:00",
+  "scanned_at": "2026-08-30T05:08:26.635326+00:00",
   "count": 102,
   "total_available": 102,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "ashby",
       "posted_at": "2026-02-13T22:42:43.048+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.843419+00:00",
+      "discovered_at": "2026-08-30T05:08:26.599777+00:00",
       "raw": {
         "id": "e5cd14f6-e6da-4437-808a-b8b4c284263d",
         "title": "R&D Hardware Test & Development Manager",
@@ -67,7 +67,7 @@
       "source": "ashby",
       "posted_at": "2026-05-06T22:47:08.824+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.843729+00:00",
+      "discovered_at": "2026-08-30T05:08:26.600284+00:00",
       "raw": {
         "id": "e42c934d-0271-4071-b722-5e0edcad6495",
         "title": "Senior Technologist - Materials",
@@ -109,7 +109,7 @@
       "source": "ashby",
       "posted_at": "2024-12-19T22:46:49.734+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.843955+00:00",
+      "discovered_at": "2026-08-30T05:08:26.600671+00:00",
       "raw": {
         "id": "0cbe8d0c-3a85-483f-b9e0-7460d6f3bd1b",
         "title": "Senior Electrical Engineer",
@@ -151,7 +151,7 @@
       "source": "ashby",
       "posted_at": "2024-12-19T22:46:50.487+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.844322+00:00",
+      "discovered_at": "2026-08-30T05:08:26.601042+00:00",
       "raw": {
         "id": "691cb280-44e4-449b-9734-c8b3633611d3",
         "title": "Senior Power Electronics Engineer",
@@ -193,7 +193,7 @@
       "source": "ashby",
       "posted_at": "2025-02-11T23:40:08.768+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.844600+00:00",
+      "discovered_at": "2026-08-30T05:08:26.601424+00:00",
       "raw": {
         "id": "09454fbe-75df-472b-adbe-016de6180fe8",
         "title": "Senior Computational Plasma Scientist - MHD",
@@ -235,7 +235,7 @@
       "source": "ashby",
       "posted_at": "2025-07-14T04:31:33.645+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.844829+00:00",
+      "discovered_at": "2026-08-30T05:08:26.601807+00:00",
       "raw": {
         "id": "459de46a-cfc0-4efe-bc9a-c87d59038ba5",
         "title": "Senior Mechanical Engineer, Plasma Diagnostics",
@@ -277,7 +277,7 @@
       "source": "ashby",
       "posted_at": "2025-08-08T18:50:36.113+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.845066+00:00",
+      "discovered_at": "2026-08-30T05:08:26.602185+00:00",
       "raw": {
         "id": "1ab0850a-50e2-4853-8fd7-c05e9a36c20f",
         "title": "Principal Experimental Scientist",
@@ -319,7 +319,7 @@
       "source": "ashby",
       "posted_at": "2025-10-01T21:38:21.550+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.845298+00:00",
+      "discovered_at": "2026-08-30T05:08:26.602575+00:00",
       "raw": {
         "id": "a45f7359-1915-4646-b593-4d0397d5aa6f",
         "title": "Principal Nuclear Materials Engineer",
@@ -361,7 +361,7 @@
       "source": "ashby",
       "posted_at": "2025-10-17T22:51:20.948+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.845482+00:00",
+      "discovered_at": "2026-08-30T05:08:26.602888+00:00",
       "raw": {
         "id": "27648fb4-e835-47db-b697-06b994b1ca91",
         "title": "HERCULES Proposal Submission Form ",
@@ -403,7 +403,7 @@
       "source": "ashby",
       "posted_at": "2026-05-27T18:15:15.458+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.845680+00:00",
+      "discovered_at": "2026-08-30T05:08:26.603231+00:00",
       "raw": {
         "id": "54718170-4ad0-4b47-ab96-4dddedb1beb8",
         "title": "High Voltage Test Technician ",
@@ -445,7 +445,7 @@
       "source": "ashby",
       "posted_at": "2026-07-08T14:57:23.731+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.845940+00:00",
+      "discovered_at": "2026-08-30T05:08:26.603681+00:00",
       "raw": {
         "id": "3901a045-7e58-47b9-9ba8-3049485490de",
         "title": "Technical Program Manager, IS&T",
@@ -487,7 +487,7 @@
       "source": "ashby",
       "posted_at": "2025-11-20T21:49:09.333+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.846202+00:00",
+      "discovered_at": "2026-08-30T05:08:26.604247+00:00",
       "raw": {
         "id": "d9e0e2c2-5fda-44e2-b8f6-693590dd7702",
         "title": "Process Design Lead, Fuel Cycle",
@@ -529,7 +529,7 @@
       "source": "ashby",
       "posted_at": "2025-10-23T20:36:41.235+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.846796+00:00",
+      "discovered_at": "2026-08-30T05:08:26.604827+00:00",
       "raw": {
         "id": "dbf521f9-711d-42b7-9060-57c1c755fdaa",
         "title": "Technical Program Manager - HERCULES",
@@ -571,7 +571,7 @@
       "source": "ashby",
       "posted_at": "2026-02-26T19:33:52.573+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.847184+00:00",
+      "discovered_at": "2026-08-30T05:08:26.606666+00:00",
       "raw": {
         "id": "48b798be-5137-4d66-9b1b-473c9c92c0a7",
         "title": "Electrical Engineer",
@@ -613,7 +613,7 @@
       "source": "ashby",
       "posted_at": "2026-03-17T18:43:08.534+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.847549+00:00",
+      "discovered_at": "2026-08-30T05:08:26.607343+00:00",
       "raw": {
         "id": "1e4cac3b-5e40-4baa-81b9-d9030c6198e3",
         "title": "Electrical Systems Engineer",
@@ -655,7 +655,7 @@
       "source": "ashby",
       "posted_at": "2026-08-26T20:40:57.931+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.847755+00:00",
+      "discovered_at": "2026-08-30T05:08:26.607686+00:00",
       "raw": {
         "id": "9a2f04d6-9fe1-4d87-8d7e-77877a418ac2",
         "title": "Manager, Electrical Engineering",
@@ -697,7 +697,7 @@
       "source": "ashby",
       "posted_at": "2026-07-24T15:30:24.304+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.847951+00:00",
+      "discovered_at": "2026-08-30T05:08:26.608025+00:00",
       "raw": {
         "id": "056d0a90-61c6-403b-91d6-1c605f02014b",
         "title": "Mechanical Engineering Manager, Structures",
@@ -739,7 +739,7 @@
       "source": "ashby",
       "posted_at": "2026-07-24T15:31:21.530+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.848238+00:00",
+      "discovered_at": "2026-08-30T05:08:26.608544+00:00",
       "raw": {
         "id": "24e6b2d6-d935-43dd-845c-f46847f24a37",
         "title": "Principal Capacitor Engineer",
@@ -781,7 +781,7 @@
       "source": "ashby",
       "posted_at": "2025-12-19T19:05:41.815+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.848469+00:00",
+      "discovered_at": "2026-08-30T05:08:26.608934+00:00",
       "raw": {
         "id": "443266d6-75c3-4279-ad8a-7473cf05f6c8",
         "title": "Principal Electrical Engineer",
@@ -823,7 +823,7 @@
       "source": "ashby",
       "posted_at": "2025-12-19T19:05:43.317+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.849465+00:00",
+      "discovered_at": "2026-08-30T05:08:26.609327+00:00",
       "raw": {
         "id": "485ea7e2-af46-4b79-a6dc-df859e3eaa9b",
         "title": "Principal Power Electronics Engineer",
@@ -865,7 +865,7 @@
       "source": "ashby",
       "posted_at": "2025-12-19T19:15:16.858+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.849743+00:00",
+      "discovered_at": "2026-08-30T05:08:26.609741+00:00",
       "raw": {
         "id": "520b0d15-04e0-4da0-8d27-9b76e879548a",
         "title": "Senior Electrical Simulation Engineer",
@@ -907,7 +907,7 @@
       "source": "ashby",
       "posted_at": "2025-12-19T19:16:44.881+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.850092+00:00",
+      "discovered_at": "2026-08-30T05:08:26.610369+00:00",
       "raw": {
         "id": "b5659fa4-aadc-47d0-9746-f58cf8bc51e2",
         "title": "Senior Electrical Systems Engineer",
@@ -949,7 +949,7 @@
       "source": "ashby",
       "posted_at": "2025-12-19T19:19:03.080+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.850317+00:00",
+      "discovered_at": "2026-08-30T05:08:26.610774+00:00",
       "raw": {
         "id": "4c29decd-568f-45d6-aa8b-4e6334b71f2f",
         "title": "Senior Manager, Electrical Engineering",
@@ -991,7 +991,7 @@
       "source": "ashby",
       "posted_at": "2026-07-24T15:33:19.033+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.850524+00:00",
+      "discovered_at": "2026-08-30T05:08:26.611155+00:00",
       "raw": {
         "id": "77f67235-ec72-4f14-8230-f99ed38a31de",
         "title": "Senior Mechanical Engineer",
@@ -1033,7 +1033,7 @@
       "source": "ashby",
       "posted_at": "2026-08-18T22:36:23.974+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.850716+00:00",
+      "discovered_at": "2026-08-30T05:08:26.611492+00:00",
       "raw": {
         "id": "915d42ad-2618-4eba-997c-f36cc8991742",
         "title": "Senior Mechanical Engineer, Thermal",
@@ -1075,7 +1075,7 @@
       "source": "ashby",
       "posted_at": "2026-07-24T15:35:53.044+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.850950+00:00",
+      "discovered_at": "2026-08-30T05:08:26.611918+00:00",
       "raw": {
         "id": "2c79c829-73cd-4558-9934-ea5f848a040a",
         "title": "Senior Software Engineer, Data Platform",
@@ -1117,7 +1117,7 @@
       "source": "ashby",
       "posted_at": "2026-07-24T15:35:31.654+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.851170+00:00",
+      "discovered_at": "2026-08-30T05:08:26.612300+00:00",
       "raw": {
         "id": "3e9903d0-45d1-4ab6-81c9-864f2318b772",
         "title": "Senior Software Engineer, Full Stack",
@@ -1159,7 +1159,7 @@
       "source": "ashby",
       "posted_at": "2025-12-19T19:49:14.019+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.851406+00:00",
+      "discovered_at": "2026-08-30T05:08:26.612720+00:00",
       "raw": {
         "id": "c50d7377-a506-4de5-804b-67f1df306393",
         "title": "Senior Supplier Development Engineer, Electrical",
@@ -1201,7 +1201,7 @@
       "source": "ashby",
       "posted_at": "2025-12-19T19:52:13.398+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.851633+00:00",
+      "discovered_at": "2026-08-30T05:08:26.613412+00:00",
       "raw": {
         "id": "b4efeb48-dbd7-42f3-b6a9-4f97c2074bf3",
         "title": "Supplier Development Engineer, Electrical",
@@ -1243,7 +1243,7 @@
       "source": "ashby",
       "posted_at": "2025-12-19T21:38:14.935+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.851929+00:00",
+      "discovered_at": "2026-08-30T05:08:26.613924+00:00",
       "raw": {
         "id": "3a958165-7937-4eb1-b0b3-9d8dab3c0d1d",
         "title": "Senior Test Engineer",
@@ -1285,7 +1285,7 @@
       "source": "ashby",
       "posted_at": "2025-12-19T23:51:20.691+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.852452+00:00",
+      "discovered_at": "2026-08-30T05:08:26.614296+00:00",
       "raw": {
         "id": "423a9d67-00c6-46ab-9fe1-a1b469a9a049",
         "title": "Senior Semiconductor Device Engineer",
@@ -1327,7 +1327,7 @@
       "source": "ashby",
       "posted_at": "2026-06-17T21:09:17.145+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.853070+00:00",
+      "discovered_at": "2026-08-30T05:08:26.614913+00:00",
       "raw": {
         "id": "76ee70fa-9803-4b21-b87a-4c1168add50b",
         "title": "Senior Engineering Technician, Operations Support",
@@ -1369,7 +1369,7 @@
       "source": "ashby",
       "posted_at": "2026-01-14T22:24:46.816+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.853470+00:00",
+      "discovered_at": "2026-08-30T05:08:26.615297+00:00",
       "raw": {
         "id": "424e1bb6-efd4-4306-b659-ff4fea3eb7f2",
         "title": "R&D Manager - LabVIEW Controls Systems",
@@ -1411,7 +1411,7 @@
       "source": "ashby",
       "posted_at": "2026-07-24T15:32:53.501+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.853691+00:00",
+      "discovered_at": "2026-08-30T05:08:26.615664+00:00",
       "raw": {
         "id": "c4724186-c706-458e-a47f-5be613ed9442",
         "title": "Senior Manager Mechanical Engineering, Structures",
@@ -1453,7 +1453,7 @@
       "source": "ashby",
       "posted_at": "2026-07-23T21:59:37.391+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.853943+00:00",
+      "discovered_at": "2026-08-30T05:08:26.615998+00:00",
       "raw": {
         "id": "266bb6e9-153a-4ec2-9929-5194392fc26d",
         "title": "LabVIEW Controls Engineer",
@@ -1495,7 +1495,7 @@
       "source": "ashby",
       "posted_at": "2026-05-05T17:49:48.590+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.854202+00:00",
+      "discovered_at": "2026-08-30T05:08:26.616280+00:00",
       "raw": {
         "id": "0e786f93-c149-41eb-b8ba-7eb41df18b13",
         "title": "Knowledge Systems Engineer - Fusion Systems",
@@ -1537,7 +1537,7 @@
       "source": "ashby",
       "posted_at": "2026-08-18T17:08:58.315+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.854460+00:00",
+      "discovered_at": "2026-08-30T05:08:26.616582+00:00",
       "raw": {
         "id": "47995610-109e-45b7-9855-919adde1e803",
         "title": "Principal Applied Plasma Data Scientist",
@@ -1579,7 +1579,7 @@
       "source": "ashby",
       "posted_at": "2026-02-26T19:56:09.435+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.854684+00:00",
+      "discovered_at": "2026-08-30T05:08:26.616803+00:00",
       "raw": {
         "id": "bfb14f68-c80a-4c07-8552-4c9bf5bed413",
         "title": "Integration and Test Engineer",
@@ -1621,7 +1621,7 @@
       "source": "ashby",
       "posted_at": "2025-12-13T00:37:58.223+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.854883+00:00",
+      "discovered_at": "2026-08-30T05:08:26.616990+00:00",
       "raw": {
         "id": "a1969b3f-8e12-4d74-9e0a-840472ffa46d",
         "title": "Senior Manager, Plasma Diagnostics",
@@ -1663,7 +1663,7 @@
       "source": "ashby",
       "posted_at": "2026-08-17T18:44:45.035+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.855123+00:00",
+      "discovered_at": "2026-08-30T05:08:26.617212+00:00",
       "raw": {
         "id": "99e6fa04-9412-453a-a350-4b6d6f38aec3",
         "title": "Senior Mechanical Engineer, Modules",
@@ -1705,7 +1705,7 @@
       "source": "ashby",
       "posted_at": "2026-07-24T15:24:05.087+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.855340+00:00",
+      "discovered_at": "2026-08-30T05:08:26.617413+00:00",
       "raw": {
         "id": "a54af2f6-88e0-4e42-902b-478ddb658233",
         "title": "Build Engineer",
@@ -1747,7 +1747,7 @@
       "source": "ashby",
       "posted_at": "2026-07-21T17:43:43.519+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.856145+00:00",
+      "discovered_at": "2026-08-30T05:08:26.617644+00:00",
       "raw": {
         "id": "bb7f7949-acc7-49bd-8de4-d7ef240e41c2",
         "title": "Principal Operations Systems Engineer",
@@ -1789,7 +1789,7 @@
       "source": "ashby",
       "posted_at": "2026-08-05T21:45:48.249+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.856586+00:00",
+      "discovered_at": "2026-08-30T05:08:26.617977+00:00",
       "raw": {
         "id": "8a5133b4-2fa3-4f20-9029-c8dd05c5538d",
         "title": "Principal Manufacturing Engineer",
@@ -1831,7 +1831,7 @@
       "source": "ashby",
       "posted_at": "2026-06-03T23:44:46.538+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.857222+00:00",
+      "discovered_at": "2026-08-30T05:08:26.618368+00:00",
       "raw": {
         "id": "7c48cf04-62db-4cb8-9b7e-c23f267f45c1",
         "title": "Software Engineer, Plant Control",
@@ -1873,7 +1873,7 @@
       "source": "ashby",
       "posted_at": "2026-02-25T20:01:16.318+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.857850+00:00",
+      "discovered_at": "2026-08-30T05:08:26.618687+00:00",
       "raw": {
         "id": "71eb8e1f-c424-4671-9b8d-d9ce81887c37",
         "title": "Senior Electrical Engineer, Hardware in the Loop",
@@ -1915,7 +1915,7 @@
       "source": "ashby",
       "posted_at": "2026-02-26T02:22:50.730+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.858193+00:00",
+      "discovered_at": "2026-08-30T05:08:26.619360+00:00",
       "raw": {
         "id": "237a3a65-81e5-4122-82da-bc03a2699c86",
         "title": "Senior Software Engineer, Cybersecurity",
@@ -1957,7 +1957,7 @@
       "source": "ashby",
       "posted_at": "2026-02-26T19:24:54.850+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.858502+00:00",
+      "discovered_at": "2026-08-30T05:08:26.619684+00:00",
       "raw": {
         "id": "4f0b0e62-cdd6-4f66-803b-c2d8ee3703c0",
         "title": "Power Electronics Engineer",
@@ -1999,7 +1999,7 @@
       "source": "ashby",
       "posted_at": "2026-03-02T18:36:34.957+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.858840+00:00",
+      "discovered_at": "2026-08-30T05:08:26.619979+00:00",
       "raw": {
         "id": "22d1b06a-57c3-40cd-a14b-ab1c261dd42c",
         "title": "Principal Electrical Engineer - RF ",
@@ -2041,7 +2041,7 @@
       "source": "ashby",
       "posted_at": "2026-06-10T23:02:23.176+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.859389+00:00",
+      "discovered_at": "2026-08-30T05:08:26.620241+00:00",
       "raw": {
         "id": "dd981d5d-f9ad-432b-ae48-f408ba60a45f",
         "title": "Senior Engineering Technician, Electrical Engineering",
@@ -2083,7 +2083,7 @@
       "source": "ashby",
       "posted_at": "2026-03-04T23:18:15.822+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.859720+00:00",
+      "discovered_at": "2026-08-30T05:08:26.620539+00:00",
       "raw": {
         "id": "e8e70c75-ebb7-4c93-8b9d-b0cf076a293d",
         "title": "Capacitor R&D Supervisor ",
@@ -2125,7 +2125,7 @@
       "source": "ashby",
       "posted_at": "2026-03-04T23:44:39.457+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.859996+00:00",
+      "discovered_at": "2026-08-30T05:08:26.620768+00:00",
       "raw": {
         "id": "967ff349-0e5e-4431-993d-136026d71239",
         "title": "Mechanical Engineer",
@@ -2167,7 +2167,7 @@
       "source": "ashby",
       "posted_at": "2026-03-11T00:48:50.346+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.860497+00:00",
+      "discovered_at": "2026-08-30T05:08:26.621066+00:00",
       "raw": {
         "id": "ad92a1bb-cc5e-462e-b41e-4fda4ac48a21",
         "title": "Senior Multiphysics Modeling Engineer",
@@ -2209,7 +2209,7 @@
       "source": "ashby",
       "posted_at": "2026-03-20T20:35:34.421+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.861005+00:00",
+      "discovered_at": "2026-08-30T05:08:26.621290+00:00",
       "raw": {
         "id": "348e3002-542c-4083-93e4-af19f7086b1f",
         "title": "Skillbridge",
@@ -2251,7 +2251,7 @@
       "source": "ashby",
       "posted_at": "2026-03-27T20:44:48.691+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.861299+00:00",
+      "discovered_at": "2026-08-30T05:08:26.621529+00:00",
       "raw": {
         "id": "483e8771-3980-486b-b49d-abf0c136090f",
         "title": "Manager, Fusion Test & Operations",
@@ -2293,7 +2293,7 @@
       "source": "ashby",
       "posted_at": "2026-03-30T18:42:01.477+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.861574+00:00",
+      "discovered_at": "2026-08-30T05:08:26.621825+00:00",
       "raw": {
         "id": "6a2e2e50-692e-4696-a986-f0ab14d5eda1",
         "title": "Senior Financial Analyst",
@@ -2335,7 +2335,7 @@
       "source": "ashby",
       "posted_at": "2026-06-25T21:01:54.830+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.861822+00:00",
+      "discovered_at": "2026-08-30T05:08:26.622075+00:00",
       "raw": {
         "id": "71f44aec-7b3c-4449-a705-9bf55943f689",
         "title": "Senior Data Scientist – Fusion Systems",
@@ -2377,7 +2377,7 @@
       "source": "ashby",
       "posted_at": "2026-04-07T22:22:44.836+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.862263+00:00",
+      "discovered_at": "2026-08-30T05:08:26.622291+00:00",
       "raw": {
         "id": "de3f4ad2-27f1-47b2-98b1-fc8eb492bd45",
         "title": "Senior Materials Chemist",
@@ -2419,7 +2419,7 @@
       "source": "ashby",
       "posted_at": "2026-05-12T16:05:44.704+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.862505+00:00",
+      "discovered_at": "2026-08-30T05:08:26.622486+00:00",
       "raw": {
         "id": "5c546f3f-4db4-4f9b-80d4-d2b4e55314ba",
         "title": "Senior Superconductor Engineer",
@@ -2461,7 +2461,7 @@
       "source": "ashby",
       "posted_at": "2026-04-06T16:59:59.364+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.862772+00:00",
+      "discovered_at": "2026-08-30T05:08:26.622875+00:00",
       "raw": {
         "id": "f1844ffb-0a67-4152-95c1-93ef595fa422",
         "title": "Senior Materials Engineer, Ceramic Fabrication",
@@ -2503,7 +2503,7 @@
       "source": "ashby",
       "posted_at": "2026-04-08T18:47:58.918+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.863022+00:00",
+      "discovered_at": "2026-08-30T05:08:26.623159+00:00",
       "raw": {
         "id": "1170a020-6c60-4449-86b5-55ea0bbde734",
         "title": "Senior Materials Engineer, Diagnostics",
@@ -2545,7 +2545,7 @@
       "source": "ashby",
       "posted_at": "2026-05-18T21:28:54.672+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.863267+00:00",
+      "discovered_at": "2026-08-30T05:08:26.623477+00:00",
       "raw": {
         "id": "9b11de3a-b129-432a-81c2-56dbdf64e5a9",
         "title": "Senior Process Engineer, Fuel Cycle",
@@ -2587,7 +2587,7 @@
       "source": "ashby",
       "posted_at": "2026-08-25T17:44:34.572+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.863443+00:00",
+      "discovered_at": "2026-08-30T05:08:26.623665+00:00",
       "raw": {
         "id": "e6255239-b8d1-43a1-9e37-c1964f6aa956",
         "title": "Inventory Control Technician",
@@ -2629,7 +2629,7 @@
       "source": "ashby",
       "posted_at": "2026-04-10T21:22:16.198+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.863696+00:00",
+      "discovered_at": "2026-08-30T05:08:26.623973+00:00",
       "raw": {
         "id": "411c557c-d386-4cb2-9ecf-1ba94bf30501",
         "title": "Senior Construction Project Engineer",
@@ -2671,7 +2671,7 @@
       "source": "ashby",
       "posted_at": "2026-04-24T00:36:22.025+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.863924+00:00",
+      "discovered_at": "2026-08-30T05:08:26.625110+00:00",
       "raw": {
         "id": "11798e74-79e3-463d-ac82-94a1049581e1",
         "title": "Process Engineer, Fuel Cycle",
@@ -2713,7 +2713,7 @@
       "source": "ashby",
       "posted_at": "2026-04-27T20:58:16.296+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.864221+00:00",
+      "discovered_at": "2026-08-30T05:08:26.625502+00:00",
       "raw": {
         "id": "e903954d-8e1b-4dd8-86b1-30c0e42204ac",
         "title": "Principal Process Engineer, Fuel Cycle",
@@ -2755,7 +2755,7 @@
       "source": "ashby",
       "posted_at": "2026-05-06T15:29:01.527+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.864527+00:00",
+      "discovered_at": "2026-08-30T05:08:26.625856+00:00",
       "raw": {
         "id": "546d8e0e-e57a-4866-bec8-6c3a0a2c7ef4",
         "title": "Principal Experimental Scientist - RF",
@@ -2797,7 +2797,7 @@
       "source": "ashby",
       "posted_at": "2026-05-13T22:44:39.620+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.865016+00:00",
+      "discovered_at": "2026-08-30T05:08:26.626143+00:00",
       "raw": {
         "id": "7e2b8df0-70ca-48c7-9238-ef5dfd1c5833",
         "title": "PR Lead",
@@ -2839,7 +2839,7 @@
       "source": "ashby",
       "posted_at": "2026-05-21T23:38:35.775+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.865422+00:00",
+      "discovered_at": "2026-08-30T05:08:26.626343+00:00",
       "raw": {
         "id": "90f4d795-6496-4ac3-bec8-704ad27cadf8",
         "title": "Procurement Specialist",
@@ -2881,7 +2881,7 @@
       "source": "ashby",
       "posted_at": "2026-05-17T22:39:45.680+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.865810+00:00",
+      "discovered_at": "2026-08-30T05:08:26.626567+00:00",
       "raw": {
         "id": "1e2ff97c-9a78-4f90-99f5-89cfcc9e9eba",
         "title": "Director of Plasma Physics",
@@ -2923,7 +2923,7 @@
       "source": "ashby",
       "posted_at": "2026-05-19T20:45:56.634+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.866126+00:00",
+      "discovered_at": "2026-08-30T05:08:26.626890+00:00",
       "raw": {
         "id": "747a593f-ec17-4a7b-a715-9416cfb40e46",
         "title": "System Administrator",
@@ -2965,7 +2965,7 @@
       "source": "ashby",
       "posted_at": "2026-06-15T17:41:16.929+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.866346+00:00",
+      "discovered_at": "2026-08-30T05:08:26.627105+00:00",
       "raw": {
         "id": "8ab1a5c0-a9c6-44c9-8caf-cb618db38890",
         "title": "Senior Manufacturing Engineer",
@@ -3007,7 +3007,7 @@
       "source": "ashby",
       "posted_at": "2026-06-08T21:04:16.360+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.866578+00:00",
+      "discovered_at": "2026-08-30T05:08:26.627397+00:00",
       "raw": {
         "id": "a600ee86-9fb0-4520-9d11-7b96ffe2da29",
         "title": "Technical Program Manager, Orion - Reporting to the CTO",
@@ -3049,7 +3049,7 @@
       "source": "ashby",
       "posted_at": "2026-06-01T18:02:41.839+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.866820+00:00",
+      "discovered_at": "2026-08-30T05:08:26.627666+00:00",
       "raw": {
         "id": "a325fe3e-e975-49a8-9a86-7169d279bacd",
         "title": "Senior Experimental Scientist",
@@ -3091,7 +3091,7 @@
       "source": "ashby",
       "posted_at": "2026-05-28T22:56:07.665+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.867092+00:00",
+      "discovered_at": "2026-08-30T05:08:26.627957+00:00",
       "raw": {
         "id": "a68ac2cc-9d87-484b-a417-4893ce95b515",
         "title": "Senior Computational Plasma Scientist - Kinetic / PIC Modeling",
@@ -3133,7 +3133,7 @@
       "source": "ashby",
       "posted_at": "2026-05-21T19:14:38.563+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.867341+00:00",
+      "discovered_at": "2026-08-30T05:08:26.628260+00:00",
       "raw": {
         "id": "c575251c-1851-4296-a12a-3779ec56c6c3",
         "title": "Materials Engineer",
@@ -3175,7 +3175,7 @@
       "source": "ashby",
       "posted_at": "2026-06-01T17:53:45.284+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.868390+00:00",
+      "discovered_at": "2026-08-30T05:08:26.628507+00:00",
       "raw": {
         "id": "18a4093b-9c2f-4590-8df1-88af83d02022",
         "title": "Senior Manager, Materials Science",
@@ -3217,7 +3217,7 @@
       "source": "ashby",
       "posted_at": "2026-06-15T17:58:52.108+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.868927+00:00",
+      "discovered_at": "2026-08-30T05:08:26.628720+00:00",
       "raw": {
         "id": "46839c07-8a42-4bfe-a832-70678541f1d5",
         "title": "Manufacturing Engineer",
@@ -3259,7 +3259,7 @@
       "source": "ashby",
       "posted_at": "2026-06-15T17:48:51.522+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.869207+00:00",
+      "discovered_at": "2026-08-30T05:08:26.628926+00:00",
       "raw": {
         "id": "263c3ab3-3d9f-4c72-a2f8-fa0fe52c2eb4",
         "title": "Manufacturing Engineer",
@@ -3301,7 +3301,7 @@
       "source": "ashby",
       "posted_at": "2026-06-15T18:06:18.357+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.869550+00:00",
+      "discovered_at": "2026-08-30T05:08:26.629172+00:00",
       "raw": {
         "id": "11d1f007-d4d0-44d1-a956-e3bd0bb8c53e",
         "title": "Controls Development Engineer",
@@ -3343,7 +3343,7 @@
       "source": "ashby",
       "posted_at": "2026-06-09T16:42:01.947+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.869978+00:00",
+      "discovered_at": "2026-08-30T05:08:26.629356+00:00",
       "raw": {
         "id": "7bd14ec3-4563-4b92-a28c-15bc249d0021",
         "title": "Principal Power Electronics Packaging Engineer",
@@ -3385,7 +3385,7 @@
       "source": "ashby",
       "posted_at": "2026-08-18T17:08:40.396+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.870510+00:00",
+      "discovered_at": "2026-08-30T05:08:26.629613+00:00",
       "raw": {
         "id": "8ba990f2-6221-4834-8f50-75a237fe614a",
         "title": "Senior Applied Plasma Data Scientist",
@@ -3427,7 +3427,7 @@
       "source": "ashby",
       "posted_at": "2026-07-17T21:21:18.260+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.870774+00:00",
+      "discovered_at": "2026-08-30T05:08:26.629803+00:00",
       "raw": {
         "id": "a79a46b2-8653-49b6-8516-b18b9900de55",
         "title": "Manager, Plasma Diagnostics",
@@ -3469,7 +3469,7 @@
       "source": "ashby",
       "posted_at": "2026-06-22T16:37:25.399+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.871085+00:00",
+      "discovered_at": "2026-08-30T05:08:26.630052+00:00",
       "raw": {
         "id": "4388852c-2dd6-410f-a5c5-7ba64c7b23c5",
         "title": "Senior Materials Engineer, Dielectrics",
@@ -3511,7 +3511,7 @@
       "source": "ashby",
       "posted_at": "2026-08-14T22:06:31.574+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.871444+00:00",
+      "discovered_at": "2026-08-30T05:08:26.630329+00:00",
       "raw": {
         "id": "2b3a9652-dd8e-4a24-a4a7-4aea4dd71e1c",
         "title": "Procurement Manager ",
@@ -3553,7 +3553,7 @@
       "source": "ashby",
       "posted_at": "2026-06-23T22:54:35.966+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.871843+00:00",
+      "discovered_at": "2026-08-30T05:08:26.630769+00:00",
       "raw": {
         "id": "a30faf99-e156-46ec-8dc0-23f87bfe2dba",
         "title": "Test Automation Engineer, Manufacturing",
@@ -3595,7 +3595,7 @@
       "source": "ashby",
       "posted_at": "2026-06-24T18:45:22.612+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.872109+00:00",
+      "discovered_at": "2026-08-30T05:08:26.631038+00:00",
       "raw": {
         "id": "e22479a1-1707-47c3-9dad-c07db50de815",
         "title": "Experimental Scientist",
@@ -3637,7 +3637,7 @@
       "source": "ashby",
       "posted_at": "2026-08-05T16:27:17.047+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.872346+00:00",
+      "discovered_at": "2026-08-30T05:08:26.631287+00:00",
       "raw": {
         "id": "73a363fb-a22e-4b72-85fb-00f8881c4ac8",
         "title": "Senior Supplier Development Engineer, Mechanical",
@@ -3679,7 +3679,7 @@
       "source": "ashby",
       "posted_at": "2026-07-10T15:29:37.560+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.872601+00:00",
+      "discovered_at": "2026-08-30T05:08:26.631653+00:00",
       "raw": {
         "id": "c0fa122b-d4fc-4692-b78d-c14bedf53f36",
         "title": "Manager, Quality ",
@@ -3721,7 +3721,7 @@
       "source": "ashby",
       "posted_at": "2026-07-10T16:09:09.157+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.872930+00:00",
+      "discovered_at": "2026-08-30T05:08:26.631956+00:00",
       "raw": {
         "id": "8757830e-49ee-4309-af0d-3bf6c33afc6b",
         "title": "Senior Director of Build",
@@ -3763,7 +3763,7 @@
       "source": "ashby",
       "posted_at": "2026-07-14T00:28:44.123+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.873313+00:00",
+      "discovered_at": "2026-08-30T05:08:26.632187+00:00",
       "raw": {
         "id": "b47c6a96-3eaa-4de8-b8bf-d5ad960a0ab8",
         "title": "Manager, Nuclear Engineering",
@@ -3805,7 +3805,7 @@
       "source": "ashby",
       "posted_at": "2026-07-21T19:51:28.095+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.873585+00:00",
+      "discovered_at": "2026-08-30T05:08:26.632471+00:00",
       "raw": {
         "id": "cba60be8-430b-4f1c-8fb0-c3e79a43606f",
         "title": "R&D Engineer - Fusion Generator Operations",
@@ -3847,7 +3847,7 @@
       "source": "ashby",
       "posted_at": "2026-07-17T15:28:57.412+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.873866+00:00",
+      "discovered_at": "2026-08-30T05:08:26.632743+00:00",
       "raw": {
         "id": "b459ceac-bf0f-4b87-8557-5579ddb26900",
         "title": "Director of Engineering, Modules ",
@@ -3889,7 +3889,7 @@
       "source": "ashby",
       "posted_at": "2026-07-17T17:33:05.663+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.874146+00:00",
+      "discovered_at": "2026-08-30T05:08:26.633019+00:00",
       "raw": {
         "id": "41cb7e9a-04c5-4ae9-a53d-c9dab0e23ea1",
         "title": "Director of Talent Acquisition",
@@ -3931,7 +3931,7 @@
       "source": "ashby",
       "posted_at": "2026-07-30T21:00:38.728+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.874355+00:00",
+      "discovered_at": "2026-08-30T05:08:26.633222+00:00",
       "raw": {
         "id": "e4b32a69-c550-4e2c-934d-6f7fc1b764ef",
         "title": "Senior Mechanical Engineer, Vacuum Systems",
@@ -3973,7 +3973,7 @@
       "source": "ashby",
       "posted_at": "2026-07-30T21:00:41.118+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.890744+00:00",
+      "discovered_at": "2026-08-30T05:08:26.633412+00:00",
       "raw": {
         "id": "3969dbcd-116f-41ed-ba7d-13405a917c02",
         "title": "Mechanical Engineer, Vacuum Systems",
@@ -4015,7 +4015,7 @@
       "source": "ashby",
       "posted_at": "2026-08-05T17:20:00.194+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.891151+00:00",
+      "discovered_at": "2026-08-30T05:08:26.633672+00:00",
       "raw": {
         "id": "9c65be39-b245-44c2-ac2b-8a75a8e4e853",
         "title": "Manager of Multistate Public Affairs",
@@ -4057,7 +4057,7 @@
       "source": "ashby",
       "posted_at": "2026-08-05T21:56:51.597+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.891560+00:00",
+      "discovered_at": "2026-08-30T05:08:26.633982+00:00",
       "raw": {
         "id": "f094a448-3e71-47f1-b8c2-ca85bf9ac58d",
         "title": "Quality Inspector, Receiving and MRB",
@@ -4099,7 +4099,7 @@
       "source": "ashby",
       "posted_at": "2026-08-05T21:54:33.778+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.892367+00:00",
+      "discovered_at": "2026-08-30T05:08:26.634309+00:00",
       "raw": {
         "id": "d8872ba8-52f8-44dd-8613-951e1aaef821",
         "title": "CMM Operator ",
@@ -4141,7 +4141,7 @@
       "source": "ashby",
       "posted_at": "2026-08-17T19:40:24.435+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.892729+00:00",
+      "discovered_at": "2026-08-30T05:08:26.634579+00:00",
       "raw": {
         "id": "cb703a2b-0b03-4366-8815-19840584c419",
         "title": "Senior Manager, Software Engineering, Plant Control",
@@ -4183,7 +4183,7 @@
       "source": "ashby",
       "posted_at": "2026-08-18T19:58:37.256+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.892950+00:00",
+      "discovered_at": "2026-08-30T05:08:26.634781+00:00",
       "raw": {
         "id": "3390a376-30db-4b32-b2a4-b56aa44e9679",
         "title": "Mechanical Engineer, Fluids",
@@ -4225,7 +4225,7 @@
       "source": "ashby",
       "posted_at": "2026-08-14T21:49:08.518+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.893419+00:00",
+      "discovered_at": "2026-08-30T05:08:26.635044+00:00",
       "raw": {
         "id": "244e0436-0b9a-459d-b1cd-0b5ba95c5610",
         "title": "Category Manager, Technical Equipment",
@@ -4267,7 +4267,7 @@
       "source": "ashby",
       "posted_at": "2026-08-20T00:14:54.489+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.893716+00:00",
+      "discovered_at": "2026-08-30T05:08:26.635261+00:00",
       "raw": {
         "id": "75f42db7-5dc6-4905-9ae1-6517d90bec06",
         "title": "Senior Production Controller",

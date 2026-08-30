@@ -4,7 +4,7 @@
   "career_page": "https://jobs.ashbyhq.com/moss",
   "source": "ashby",
   "identifier": "moss",
-  "scanned_at": "2026-08-29T05:46:20.760453+00:00",
+  "scanned_at": "2026-08-30T05:08:22.199775+00:00",
   "count": 31,
   "total_available": 31,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "ashby",
       "posted_at": "2026-07-08T09:23:08.289+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.744196+00:00",
+      "discovered_at": "2026-08-30T05:08:22.189782+00:00",
       "raw": {
         "id": "08752b8d-993a-408c-9843-350d10b97706",
         "title": "Business Development Representative - Netherlands (f/m/d)",
@@ -67,7 +67,7 @@
       "source": "ashby",
       "posted_at": "2025-04-07T15:35:47.498+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.744607+00:00",
+      "discovered_at": "2026-08-30T05:08:22.190187+00:00",
       "raw": {
         "id": "a46b0577-2c58-41ef-a277-643691f9d16f",
         "title": "Customer Success Manager (f/m/d)",
@@ -109,7 +109,7 @@
       "source": "ashby",
       "posted_at": "2026-08-05T12:12:58.702+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.744924+00:00",
+      "discovered_at": "2026-08-30T05:08:22.190552+00:00",
       "raw": {
         "id": "a49e7ac5-da65-420b-93b1-cf964bf48d44",
         "title": "Business Development Representative (f/m/d)",
@@ -151,7 +151,7 @@
       "source": "ashby",
       "posted_at": "2025-04-07T15:35:42.956+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.745466+00:00",
+      "discovered_at": "2026-08-30T05:08:22.190873+00:00",
       "raw": {
         "id": "c17bdb8a-86b5-41ba-9c23-f8548269614a",
         "title": "Account Manager (f/m/d)",
@@ -193,7 +193,7 @@
       "source": "ashby",
       "posted_at": "2026-07-13T08:50:52.723+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.745988+00:00",
+      "discovered_at": "2026-08-30T05:08:22.191207+00:00",
       "raw": {
         "id": "5173ab99-7972-4427-b7d6-745dd867e451",
         "title": "Senior Backend Engineer (f/m/d)",
@@ -235,7 +235,7 @@
       "source": "ashby",
       "posted_at": "2026-07-15T09:40:55.407+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.746314+00:00",
+      "discovered_at": "2026-08-30T05:08:22.191483+00:00",
       "raw": {
         "id": "f63366f9-bf82-4a71-bc7d-f05e45941bbc",
         "title": "Customer Support Specialist - German / English (f/m/d)",
@@ -277,7 +277,7 @@
       "source": "ashby",
       "posted_at": "2026-08-04T09:17:13.399+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.746688+00:00",
+      "discovered_at": "2026-08-30T05:08:22.191812+00:00",
       "raw": {
         "id": "9cc20912-6cca-4a9c-84cb-db4f19a89c61",
         "title": " Deputy MLRO (f/m/d)",
@@ -330,7 +330,7 @@
       "source": "ashby",
       "posted_at": "2026-07-13T08:51:55.824+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.747052+00:00",
+      "discovered_at": "2026-08-30T05:08:22.192137+00:00",
       "raw": {
         "id": "53d46420-3605-4f98-85e5-7d1a4f3cd979",
         "title": "Backend Engineer (f/m/d)",
@@ -372,7 +372,7 @@
       "source": "ashby",
       "posted_at": "2026-07-30T08:38:50.324+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.747359+00:00",
+      "discovered_at": "2026-08-30T05:08:22.192407+00:00",
       "raw": {
         "id": "d6b1998b-3d40-4670-9c45-31878bf438b8",
         "title": "Graduate Sales Associate (f/m/d)",
@@ -414,7 +414,7 @@
       "source": "ashby",
       "posted_at": "2026-02-12T12:28:25.698+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.747938+00:00",
+      "discovered_at": "2026-08-30T05:08:22.192688+00:00",
       "raw": {
         "id": "5866aba2-4ab3-4913-a135-62fd582280fb",
         "title": "Account Manager (f/m/d)",
@@ -456,7 +456,7 @@
       "source": "ashby",
       "posted_at": "2026-05-19T11:34:15.441+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.748332+00:00",
+      "discovered_at": "2026-08-30T05:08:22.192974+00:00",
       "raw": {
         "id": "9af5e9e0-8d18-4a09-a987-31af87d3ca57",
         "title": "(Senior) Account Executive, DACH (f/m/d)",
@@ -498,7 +498,7 @@
       "source": "ashby",
       "posted_at": "2026-08-04T14:39:15.798+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.748676+00:00",
+      "discovered_at": "2026-08-30T05:08:22.193257+00:00",
       "raw": {
         "id": "f5516914-6d26-463c-9a6d-1097fbd99f4e",
         "title": "Customer Success Manager (f/m/d)",
@@ -540,7 +540,7 @@
       "source": "ashby",
       "posted_at": "2026-06-25T17:08:22.328+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.748960+00:00",
+      "discovered_at": "2026-08-30T05:08:22.193535+00:00",
       "raw": {
         "id": "6841ab40-426c-4cf8-a74f-0fbc39f2a962",
         "title": "Account Manager",
@@ -582,7 +582,7 @@
       "source": "ashby",
       "posted_at": "2026-07-17T13:20:18.129+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.750573+00:00",
+      "discovered_at": "2026-08-30T05:08:22.193875+00:00",
       "raw": {
         "id": "e7d57c83-fcc4-43cf-b6cb-e6672460892f",
         "title": "Senior Product Designer",
@@ -655,7 +655,7 @@
       "source": "ashby",
       "posted_at": "2026-02-12T12:28:22.929+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.751251+00:00",
+      "discovered_at": "2026-08-30T05:08:22.194166+00:00",
       "raw": {
         "id": "4c725910-ddbc-49c7-92e3-052e1478778b",
         "title": "Customer Success Manager (f/m/d)",
@@ -697,7 +697,7 @@
       "source": "ashby",
       "posted_at": "2026-07-15T11:11:04.465+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.751679+00:00",
+      "discovered_at": "2026-08-30T05:08:22.194433+00:00",
       "raw": {
         "id": "95bee7f4-8539-4c01-a72a-c4fbbb3a0ad9",
         "title": "KYC Intern (f/m/d) ",
@@ -739,7 +739,7 @@
       "source": "ashby",
       "posted_at": "2026-02-23T17:59:13.915+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.752296+00:00",
+      "discovered_at": "2026-08-30T05:08:22.194782+00:00",
       "raw": {
         "id": "89470d75-c6e1-4056-8a18-f7878572350b",
         "title": "Senior Platform Engineer (f/m/d)",
@@ -781,7 +781,7 @@
       "source": "ashby",
       "posted_at": "2026-05-08T07:19:41.308+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.752751+00:00",
+      "discovered_at": "2026-08-30T05:08:22.195080+00:00",
       "raw": {
         "id": "4c5c2cba-9f11-4bb3-b5fc-e63c52c0a9bd",
         "title": "Customer Operations Associate (f/m/d)",
@@ -823,7 +823,7 @@
       "source": "ashby",
       "posted_at": "2026-07-02T14:24:08.880+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.752996+00:00",
+      "discovered_at": "2026-08-30T05:08:22.195547+00:00",
       "raw": {
         "id": "2d6ae20b-2fd9-4fde-89c2-847df1a86ede",
         "title": "Senior Data Scientist (f/m/d)",
@@ -886,7 +886,7 @@
       "source": "ashby",
       "posted_at": "2026-06-10T14:58:25.199+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.753421+00:00",
+      "discovered_at": "2026-08-30T05:08:22.195894+00:00",
       "raw": {
         "id": "cee0747b-3e0d-4de7-a0e4-61b7e6e9938e",
         "title": "Customer Support Associate (f/m/d)",
@@ -928,7 +928,7 @@
       "source": "ashby",
       "posted_at": "2026-08-20T08:25:45.465+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.753791+00:00",
+      "discovered_at": "2026-08-30T05:08:22.196173+00:00",
       "raw": {
         "id": "9201245b-9e9a-4281-80b4-3f90a2b9df01",
         "title": "Partnerships Associate Manager - GER",
@@ -970,7 +970,7 @@
       "source": "ashby",
       "posted_at": "2026-05-27T08:56:48.829+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.754080+00:00",
+      "discovered_at": "2026-08-30T05:08:22.196463+00:00",
       "raw": {
         "id": "890e27cb-8cc2-4c53-8e66-b189bbe15fc6",
         "title": "(Senior) Account Executive, DACH (f/m/d)",
@@ -1012,7 +1012,7 @@
       "source": "ashby",
       "posted_at": "2026-06-12T10:00:49.665+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.754454+00:00",
+      "discovered_at": "2026-08-30T05:08:22.196767+00:00",
       "raw": {
         "id": "c8910470-62ec-47d4-8055-e6adbd43c346",
         "title": "Head of Channel Partnerships f/m/d",
@@ -1065,7 +1065,7 @@
       "source": "ashby",
       "posted_at": "2026-06-09T11:12:12.677+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.755369+00:00",
+      "discovered_at": "2026-08-30T05:08:22.197079+00:00",
       "raw": {
         "id": "e5113767-6807-463f-8d08-08de024c9a36",
         "title": "Business Development Team Lead (m/f/d)",
@@ -1107,7 +1107,7 @@
       "source": "ashby",
       "posted_at": "2026-06-10T15:05:54.463+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.756473+00:00",
+      "discovered_at": "2026-08-30T05:08:22.197395+00:00",
       "raw": {
         "id": "f8c201d8-7d51-4bb7-8e44-7c8945093ff9",
         "title": "Customer Experience Associate (f/m/d)",
@@ -1149,7 +1149,7 @@
       "source": "ashby",
       "posted_at": "2026-06-24T16:06:19.672+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.757105+00:00",
+      "discovered_at": "2026-08-30T05:08:22.197750+00:00",
       "raw": {
         "id": "e4be1a41-b343-4c8b-856a-411ba7e58da6",
         "title": "Head of Sales - GER (f/m/d)",
@@ -1191,7 +1191,7 @@
       "source": "ashby",
       "posted_at": "2026-07-03T16:08:37.952+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.758086+00:00",
+      "discovered_at": "2026-08-30T05:08:22.198076+00:00",
       "raw": {
         "id": "d9326162-4255-4bd3-9047-8dda11eab716",
         "title": "Rev Ops Tooling Manager - Top of Funnel (f/m/d)",
@@ -1254,7 +1254,7 @@
       "source": "ashby",
       "posted_at": "2026-08-28T14:04:54.765+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.758664+00:00",
+      "discovered_at": "2026-08-30T05:08:22.198367+00:00",
       "raw": {
         "id": "970fce34-4483-4f76-a8f1-145a9efb9584",
         "title": "Global Talent Acquisition Partner (f/m/d)",
@@ -1307,7 +1307,7 @@
       "source": "ashby",
       "posted_at": "2026-05-19T07:41:07.056+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.759254+00:00",
+      "discovered_at": "2026-08-30T05:08:22.198707+00:00",
       "raw": {
         "id": "ab9fc0b1-a590-421e-afb3-4b9960929efb",
         "title": "Product AI Workflow Specialist (n8n)",
@@ -1360,7 +1360,7 @@
       "source": "ashby",
       "posted_at": "2026-08-27T15:12:41.909+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.759803+00:00",
+      "discovered_at": "2026-08-30T05:08:22.199181+00:00",
       "raw": {
         "id": "a4cd2807-aabc-4dfb-9256-0b3736582efe",
         "title": "Applied AI Engineer",
@@ -1423,7 +1423,7 @@
       "source": "ashby",
       "posted_at": "2026-08-26T09:25:18.910+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.760408+00:00",
+      "discovered_at": "2026-08-30T05:08:22.199725+00:00",
       "raw": {
         "id": "9a6c3c3f-fbbd-41c8-b107-482a680d7ea9",
         "title": "IT Program Manager (f/m/d)",

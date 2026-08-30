@@ -4,7 +4,7 @@
   "career_page": "https://job-boards.greenhouse.io/ginkgobioworks",
   "source": "greenhouse",
   "identifier": "ginkgobioworks",
-  "scanned_at": "2026-08-29T05:46:16.159821+00:00",
+  "scanned_at": "2026-08-30T05:08:19.053629+00:00",
   "count": 19,
   "total_available": 19,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-10T10:11:17-04:00",
       "updated_at": "2026-08-10T10:11:17-04:00",
-      "discovered_at": "2026-08-29T05:46:16.140818+00:00",
+      "discovered_at": "2026-08-30T05:08:19.039988+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/ginkgobioworks/jobs/5185285007",
         "data_compliance": [
@@ -90,7 +90,7 @@
       "source": "greenhouse",
       "posted_at": "2026-06-17T14:34:46-04:00",
       "updated_at": "2026-06-17T14:34:46-04:00",
-      "discovered_at": "2026-08-29T05:46:16.141923+00:00",
+      "discovered_at": "2026-08-30T05:08:19.040636+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/ginkgobioworks/jobs/5099624007",
         "data_compliance": [
@@ -156,7 +156,7 @@
       "source": "greenhouse",
       "posted_at": "2026-04-01T08:35:30-04:00",
       "updated_at": "2026-04-01T08:35:30-04:00",
-      "discovered_at": "2026-08-29T05:46:16.142694+00:00",
+      "discovered_at": "2026-08-30T05:08:19.041154+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/ginkgobioworks/jobs/5022683007",
         "data_compliance": [
@@ -222,7 +222,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-25T10:13:08-04:00",
       "updated_at": "2026-08-25T10:13:08-04:00",
-      "discovered_at": "2026-08-29T05:46:16.144014+00:00",
+      "discovered_at": "2026-08-30T05:08:19.042108+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/ginkgobioworks/jobs/5220505007",
         "data_compliance": [
@@ -288,7 +288,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:10:01-04:00",
       "updated_at": "2026-08-24T13:10:01-04:00",
-      "discovered_at": "2026-08-29T05:46:16.145171+00:00",
+      "discovered_at": "2026-08-30T05:08:19.043035+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/ginkgobioworks/jobs/5219763007",
         "data_compliance": [
@@ -354,7 +354,7 @@
       "source": "greenhouse",
       "posted_at": "2026-05-31T20:52:47-04:00",
       "updated_at": "2026-05-31T20:52:47-04:00",
-      "discovered_at": "2026-08-29T05:46:16.147486+00:00",
+      "discovered_at": "2026-08-30T05:08:19.043814+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/ginkgobioworks/jobs/5137761007",
         "data_compliance": [
@@ -420,7 +420,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-06T10:30:06-04:00",
       "updated_at": "2026-07-06T10:30:06-04:00",
-      "discovered_at": "2026-08-29T05:46:16.148411+00:00",
+      "discovered_at": "2026-08-30T05:08:19.044399+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/ginkgobioworks/jobs/5179478007",
         "data_compliance": [
@@ -486,7 +486,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-21T10:10:36-04:00",
       "updated_at": "2026-07-21T10:10:36-04:00",
-      "discovered_at": "2026-08-29T05:46:16.149086+00:00",
+      "discovered_at": "2026-08-30T05:08:19.044791+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/ginkgobioworks/jobs/5191277007",
         "data_compliance": [
@@ -552,7 +552,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-18T15:23:56-04:00",
       "updated_at": "2026-08-18T15:23:56-04:00",
-      "discovered_at": "2026-08-29T05:46:16.150444+00:00",
+      "discovered_at": "2026-08-30T05:08:19.046363+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/ginkgobioworks/jobs/5206099007",
         "data_compliance": [
@@ -618,7 +618,7 @@
       "source": "greenhouse",
       "posted_at": "2026-06-04T10:31:36-04:00",
       "updated_at": "2026-06-04T10:31:36-04:00",
-      "discovered_at": "2026-08-29T05:46:16.151149+00:00",
+      "discovered_at": "2026-08-30T05:08:19.047082+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/ginkgobioworks/jobs/5046746007",
         "data_compliance": [
@@ -684,7 +684,7 @@
       "source": "greenhouse",
       "posted_at": "2026-06-23T10:01:55-04:00",
       "updated_at": "2026-06-23T10:01:55-04:00",
-      "discovered_at": "2026-08-29T05:46:16.151980+00:00",
+      "discovered_at": "2026-08-30T05:08:19.048063+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/ginkgobioworks/jobs/5166922007",
         "data_compliance": [
@@ -750,7 +750,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-22T09:39:42-04:00",
       "updated_at": "2026-07-22T09:39:42-04:00",
-      "discovered_at": "2026-08-29T05:46:16.152826+00:00",
+      "discovered_at": "2026-08-30T05:08:19.048930+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/ginkgobioworks/jobs/5186637007",
         "data_compliance": [
@@ -816,7 +816,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-21T12:30:54-04:00",
       "updated_at": "2026-07-21T12:30:54-04:00",
-      "discovered_at": "2026-08-29T05:46:16.154372+00:00",
+      "discovered_at": "2026-08-30T05:08:19.049912+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/ginkgobioworks/jobs/5191252007",
         "data_compliance": [
@@ -882,7 +882,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-05T10:58:48-04:00",
       "updated_at": "2026-08-05T10:58:48-04:00",
-      "discovered_at": "2026-08-29T05:46:16.155463+00:00",
+      "discovered_at": "2026-08-30T05:08:19.050886+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/ginkgobioworks/jobs/5152834007",
         "data_compliance": [
@@ -948,7 +948,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-05T10:59:25-04:00",
       "updated_at": "2026-08-05T10:59:25-04:00",
-      "discovered_at": "2026-08-29T05:46:16.156064+00:00",
+      "discovered_at": "2026-08-30T05:08:19.051525+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/ginkgobioworks/jobs/5167398007",
         "data_compliance": [
@@ -1014,7 +1014,7 @@
       "source": "greenhouse",
       "posted_at": "2026-02-19T12:58:03-05:00",
       "updated_at": "2026-02-19T12:58:03-05:00",
-      "discovered_at": "2026-08-29T05:46:16.156688+00:00",
+      "discovered_at": "2026-08-30T05:08:19.052099+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/ginkgobioworks/jobs/5047518007",
         "data_compliance": [
@@ -1080,7 +1080,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-05T11:01:58-04:00",
       "updated_at": "2026-08-05T11:01:58-04:00",
-      "discovered_at": "2026-08-29T05:46:16.158164+00:00",
+      "discovered_at": "2026-08-30T05:08:19.052876+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/ginkgobioworks/jobs/5166911007",
         "data_compliance": [
@@ -1146,7 +1146,7 @@
       "source": "greenhouse",
       "posted_at": "2026-04-01T08:37:48-04:00",
       "updated_at": "2026-04-01T08:37:48-04:00",
-      "discovered_at": "2026-08-29T05:46:16.159252+00:00",
+      "discovered_at": "2026-08-30T05:08:19.053243+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/ginkgobioworks/jobs/5033171007",
         "data_compliance": [
@@ -1212,7 +1212,7 @@
       "source": "greenhouse",
       "posted_at": "2026-04-01T08:39:10-04:00",
       "updated_at": "2026-04-01T08:39:10-04:00",
-      "discovered_at": "2026-08-29T05:46:16.159782+00:00",
+      "discovered_at": "2026-08-30T05:08:19.053603+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/ginkgobioworks/jobs/5033167007",
         "data_compliance": [

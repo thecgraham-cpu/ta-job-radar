@@ -4,7 +4,7 @@
   "career_page": "https://jobs.ashbyhq.com/zapier",
   "source": "ashby",
   "identifier": "zapier",
-  "scanned_at": "2026-08-29T05:46:24.909431+00:00",
+  "scanned_at": "2026-08-30T05:08:26.251929+00:00",
   "count": 7,
   "total_available": 7,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "ashby",
       "posted_at": "2026-06-08T21:00:14.036+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:24.905449+00:00",
+      "discovered_at": "2026-08-30T05:08:26.246240+00:00",
       "raw": {
         "id": "6adee270-03bf-4b1b-915b-eba5fb56d1b6",
         "title": "Sales Assist Representative",
@@ -63,7 +63,7 @@
       "source": "ashby",
       "posted_at": "2026-08-11T18:20:33.004+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:24.906309+00:00",
+      "discovered_at": "2026-08-30T05:08:26.247333+00:00",
       "raw": {
         "id": "76142710-4f88-486a-aa4a-3814023e1651",
         "title": "Director, Engineering, Enterprise",
@@ -105,7 +105,7 @@
       "source": "ashby",
       "posted_at": "2026-08-26T18:09:24.238+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:24.906892+00:00",
+      "discovered_at": "2026-08-30T05:08:26.248198+00:00",
       "raw": {
         "id": "d4576c10-a27e-47fa-a056-30c898b9e672",
         "title": "Account Executive, Mid Market",
@@ -147,7 +147,7 @@
       "source": "ashby",
       "posted_at": "2026-06-30T21:44:34.478+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:24.907429+00:00",
+      "discovered_at": "2026-08-30T05:08:26.249057+00:00",
       "raw": {
         "id": "38434b88-086c-424b-8d18-8d006e0b71b8",
         "title": "Engineer, Applied AI",
@@ -196,7 +196,7 @@
       "source": "ashby",
       "posted_at": "2026-06-30T21:30:07.895+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:24.908094+00:00",
+      "discovered_at": "2026-08-30T05:08:26.250169+00:00",
       "raw": {
         "id": "1767482d-de23-460c-80eb-6d0a3caa72ab",
         "title": "Staff Backend Engineer, Revenue",
@@ -251,7 +251,7 @@
       "source": "ashby",
       "posted_at": "2026-07-10T13:45:21.854+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:24.908495+00:00",
+      "discovered_at": "2026-08-30T05:08:26.250903+00:00",
       "raw": {
         "id": "375dd701-86ba-45cd-8c24-daff6cc49223",
         "title": "Incident Operations Specialist",
@@ -293,7 +293,7 @@
       "source": "ashby",
       "posted_at": "2026-08-26T15:46:24.987+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:24.909392+00:00",
+      "discovered_at": "2026-08-30T05:08:26.251882+00:00",
       "raw": {
         "id": "7dd68291-3696-4fd0-a5d0-24ab73d22fff",
         "title": "Manager, GTM Analytics",

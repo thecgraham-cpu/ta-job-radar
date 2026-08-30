@@ -4,7 +4,7 @@
   "career_page": "https://jobs.ashbyhq.com/tsenta",
   "source": "ashby",
   "identifier": "tsenta",
-  "scanned_at": "2026-08-29T05:46:23.472067+00:00",
+  "scanned_at": "2026-08-30T05:08:25.834314+00:00",
   "count": 1,
   "total_available": 1,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "ashby",
       "posted_at": "2026-07-05T18:24:46.528+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:23.472034+00:00",
+      "discovered_at": "2026-08-30T05:08:25.834280+00:00",
       "raw": {
         "id": "6f260369-fb1b-4025-abd3-ec48c2087c14",
         "title": "Founding Engineer",

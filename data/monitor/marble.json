@@ -4,7 +4,7 @@
   "career_page": "https://jobs.ashbyhq.com/marble",
   "source": "ashby",
   "identifier": "marble",
-  "scanned_at": "2026-08-29T05:46:20.176524+00:00",
+  "scanned_at": "2026-08-30T05:08:21.658945+00:00",
   "count": 4,
   "total_available": 4,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "ashby",
       "posted_at": "2026-03-31T13:14:26.214+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.173976+00:00",
+      "discovered_at": "2026-08-30T05:08:21.657475+00:00",
       "raw": {
         "id": "c01d8027-2971-4ba2-8ef5-1c543435992a",
         "title": "Co-Founder, CTO, Construction Robotics",
@@ -65,7 +65,7 @@
       "source": "ashby",
       "posted_at": "2026-05-07T13:59:57.522+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.174771+00:00",
+      "discovered_at": "2026-08-30T05:08:21.657991+00:00",
       "raw": {
         "id": "a1c26641-ddcd-42d8-932b-0ebb92bdca6b",
         "title": "Founding Software Engineer, Construction Operations",
@@ -101,7 +101,7 @@
       "source": "ashby",
       "posted_at": "2026-05-12T12:09:20.643+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.175559+00:00",
+      "discovered_at": "2026-08-30T05:08:21.658421+00:00",
       "raw": {
         "id": "a6372990-3153-444d-a623-530c6b65caa0",
         "title": "Co-Founder, CTO, Physical AI for Process Industries",
@@ -155,7 +155,7 @@
       "source": "ashby",
       "posted_at": "2026-06-10T14:34:26.118+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.176467+00:00",
+      "discovered_at": "2026-08-30T05:08:21.658920+00:00",
       "raw": {
         "id": "5a743502-86c7-4b96-90ed-842b8c78e51c",
         "title": "Co-Founder, CTO, Construction Operations",

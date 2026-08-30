@@ -4,7 +4,7 @@
   "career_page": "https://jobs.ashbyhq.com/complir",
   "source": "ashby",
   "identifier": "complir",
-  "scanned_at": "2026-08-29T05:46:17.873347+00:00",
+  "scanned_at": "2026-08-30T05:08:20.038048+00:00",
   "count": 6,
   "total_available": 6,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "ashby",
       "posted_at": "2026-07-16T12:16:52.622+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.872151+00:00",
+      "discovered_at": "2026-08-30T05:08:20.035912+00:00",
       "raw": {
         "id": "023a3dfc-4b2c-4ba2-8a0b-530d3d41fc6e",
         "title": "Head of Germany",
@@ -78,7 +78,7 @@
       "source": "ashby",
       "posted_at": "2026-07-17T08:15:41.259+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.872503+00:00",
+      "discovered_at": "2026-08-30T05:08:20.036323+00:00",
       "raw": {
         "id": "2477a7b6-2ebf-47d9-a9d9-2aaf3b0b7259",
         "title": "Backend Engineer",
@@ -120,7 +120,7 @@
       "source": "ashby",
       "posted_at": "2026-07-17T08:21:48.850+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.872732+00:00",
+      "discovered_at": "2026-08-30T05:08:20.036741+00:00",
       "raw": {
         "id": "6f0d7ce1-723b-4c53-8b27-28acfff87300",
         "title": "Fullstack Engineer",
@@ -162,7 +162,7 @@
       "source": "ashby",
       "posted_at": "2026-07-17T08:27:53.707+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.873007+00:00",
+      "discovered_at": "2026-08-30T05:08:20.037253+00:00",
       "raw": {
         "id": "358c1ad1-6ac2-4720-b81b-61bdb18273bc",
         "title": "Head of UK",
@@ -204,7 +204,7 @@
       "source": "ashby",
       "posted_at": "2026-07-17T12:01:06.113+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.873112+00:00",
+      "discovered_at": "2026-08-30T05:08:20.037524+00:00",
       "raw": {
         "id": "2943969a-087b-4156-9e10-3f10dced1d5c",
         "title": "Open Application",
@@ -246,7 +246,7 @@
       "source": "ashby",
       "posted_at": "2026-07-29T08:21:16.568+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.873328+00:00",
+      "discovered_at": "2026-08-30T05:08:20.038006+00:00",
       "raw": {
         "id": "9ca13457-23b4-46f1-8e42-fe217eb480c3",
         "title": "Data Engineer",

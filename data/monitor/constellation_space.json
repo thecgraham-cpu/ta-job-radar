@@ -4,7 +4,7 @@
   "career_page": "https://jobs.ashbyhq.com/constellationspace",
   "source": "ashby",
   "identifier": "constellationspace",
-  "scanned_at": "2026-08-29T05:46:18.113268+00:00",
+  "scanned_at": "2026-08-30T05:08:20.013499+00:00",
   "count": 4,
   "total_available": 4,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "ashby",
       "posted_at": "2026-04-24T21:19:55.457+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:18.112465+00:00",
+      "discovered_at": "2026-08-30T05:08:20.012656+00:00",
       "raw": {
         "id": "b763d4ba-7b77-479b-89a0-f632d9d02f4a",
         "title": "Graduate/PhD Research Intern, Machine Learning",
@@ -67,7 +67,7 @@
       "source": "ashby",
       "posted_at": "2026-04-24T23:59:09.455+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:18.112864+00:00",
+      "discovered_at": "2026-08-30T05:08:20.013215+00:00",
       "raw": {
         "id": "c32309ae-2956-454a-807e-adb6966f08e0",
         "title": "Software Engineer",
@@ -109,7 +109,7 @@
       "source": "ashby",
       "posted_at": "2026-06-30T19:49:11.961+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:18.113039+00:00",
+      "discovered_at": "2026-08-30T05:08:20.013409+00:00",
       "raw": {
         "id": "4b79bd50-b782-4e9b-83e1-78b28fd657e5",
         "title": "Machine Learning Engineer",
@@ -151,7 +151,7 @@
       "source": "ashby",
       "posted_at": "2026-06-30T19:45:05.093+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:18.113230+00:00",
+      "discovered_at": "2026-08-30T05:08:20.013480+00:00",
       "raw": {
         "id": "ee8cbdf1-279e-46af-be71-9acd651a9fcf",
         "title": "Flight Software Engineer",

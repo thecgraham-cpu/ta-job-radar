@@ -4,7 +4,7 @@
   "career_page": "https://jobs.ashbyhq.com/tenor",
   "source": "ashby",
   "identifier": "tenor",
-  "scanned_at": "2026-08-29T05:46:23.247139+00:00",
+  "scanned_at": "2026-08-30T05:08:25.193512+00:00",
   "count": 2,
   "total_available": 2,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "ashby",
       "posted_at": "2026-03-14T15:15:34.266+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:23.246756+00:00",
+      "discovered_at": "2026-08-30T05:08:25.193219+00:00",
       "raw": {
         "id": "13e40438-bd46-443c-a02c-3e1529dfe821",
         "title": "Sales Development Rep (AI Startup)",
@@ -76,7 +76,7 @@
       "source": "ashby",
       "posted_at": "2026-07-27T21:54:08.849+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:23.247108+00:00",
+      "discovered_at": "2026-08-30T05:08:25.193493+00:00",
       "raw": {
         "id": "6aa2ce51-9243-4167-979c-741689a1e977",
         "title": "Senior AI Product Engineer",

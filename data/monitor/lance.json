@@ -4,7 +4,7 @@
   "career_page": "https://jobs.ashbyhq.com/lance",
   "source": "ashby",
   "identifier": "lance",
-  "scanned_at": "2026-08-29T05:46:20.172962+00:00",
+  "scanned_at": "2026-08-30T05:08:21.504247+00:00",
   "count": 5,
   "total_available": 5,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "ashby",
       "posted_at": "2026-05-02T00:15:55.264+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.171604+00:00",
+      "discovered_at": "2026-08-30T05:08:21.503413+00:00",
       "raw": {
         "id": "0f86cbc1-f89e-49e7-bf31-c112b223c87d",
         "title": "Member of Technical Staff",
@@ -67,7 +67,7 @@
       "source": "ashby",
       "posted_at": "2026-05-02T00:35:53.867+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.171749+00:00",
+      "discovered_at": "2026-08-30T05:08:21.503554+00:00",
       "raw": {
         "id": "294e2602-725c-4d84-a7a0-a1fc602acec8",
         "title": "Product Engineer",
@@ -109,7 +109,7 @@
       "source": "ashby",
       "posted_at": "2026-05-03T01:49:25.612+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.172129+00:00",
+      "discovered_at": "2026-08-30T05:08:21.503732+00:00",
       "raw": {
         "id": "a4d0d349-2642-4f96-b8aa-f283366a1507",
         "title": "Product Marketing Manager",
@@ -151,7 +151,7 @@
       "source": "ashby",
       "posted_at": "2026-06-02T17:58:50.266+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.172541+00:00",
+      "discovered_at": "2026-08-30T05:08:21.504021+00:00",
       "raw": {
         "id": "5a84b228-961d-41e8-9f2b-af6a8713533f",
         "title": "Founding Product Designer (UI/UX)",
@@ -193,7 +193,7 @@
       "source": "ashby",
       "posted_at": "2026-06-02T18:02:42.558+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.172920+00:00",
+      "discovered_at": "2026-08-30T05:08:21.504229+00:00",
       "raw": {
         "id": "ff409e63-db70-4e5a-82c0-9058e1b29751",
         "title": "Account Executive",

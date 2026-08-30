@@ -4,7 +4,7 @@
   "career_page": "https://jobs.ashbyhq.com/deepgram",
   "source": "ashby",
   "identifier": "deepgram",
-  "scanned_at": "2026-08-29T05:46:19.842789+00:00",
+  "scanned_at": "2026-08-30T05:08:21.121531+00:00",
   "count": 93,
   "total_available": 93,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "ashby",
       "posted_at": "2026-04-14T13:57:44.092+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.740719+00:00",
+      "discovered_at": "2026-08-30T05:08:20.977772+00:00",
       "raw": {
         "id": "1395ef4d-883a-4006-85a1-4e7d44623431",
         "title": "Pre-Sales Solutions Engineer (EST or PST)",
@@ -67,7 +67,7 @@
       "source": "ashby",
       "posted_at": "2026-01-14T20:53:10.921+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.741035+00:00",
+      "discovered_at": "2026-08-30T05:08:20.978120+00:00",
       "raw": {
         "id": "7fe7bd7d-b337-4337-b459-a892be80789e",
         "title": "Strategic Account Executive",
@@ -109,7 +109,7 @@
       "source": "ashby",
       "posted_at": "2026-08-23T17:43:40.888+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.742271+00:00",
+      "discovered_at": "2026-08-30T05:08:20.980525+00:00",
       "raw": {
         "id": "7cf277bc-a192-4007-a77a-fafbf8276a5e",
         "title": "Research Staff, Voice AI Foundations",
@@ -172,7 +172,7 @@
       "source": "ashby",
       "posted_at": "2025-07-15T15:50:58.140+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.742853+00:00",
+      "discovered_at": "2026-08-30T05:08:20.980796+00:00",
       "raw": {
         "id": "a6c59ee7-4d92-423c-a6e6-99adcd9e6ff3",
         "title": "Sales Development Representative",
@@ -214,7 +214,7 @@
       "source": "ashby",
       "posted_at": "2026-04-16T19:43:40.252+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.743712+00:00",
+      "discovered_at": "2026-08-30T05:08:20.981280+00:00",
       "raw": {
         "id": "844ec2d9-4256-4be0-a6c6-78ebf1391a78",
         "title": "Solutions Architect (EST or PST)",
@@ -256,7 +256,7 @@
       "source": "ashby",
       "posted_at": "2026-08-20T19:24:17.709+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.744570+00:00",
+      "discovered_at": "2026-08-30T05:08:20.981676+00:00",
       "raw": {
         "id": "ba60a541-fdf7-44bf-a6bb-0e821f15af54",
         "title": "Senior Data Scientist, Data Flywheel",
@@ -298,7 +298,7 @@
       "source": "ashby",
       "posted_at": "2025-09-05T17:07:40.052+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.744921+00:00",
+      "discovered_at": "2026-08-30T05:08:20.981943+00:00",
       "raw": {
         "id": "91ea80f4-cc54-4c52-8ef5-d2c2b2764640",
         "title": "Corporate Account Executive",
@@ -340,7 +340,7 @@
       "source": "ashby",
       "posted_at": "2026-08-23T17:44:15.890+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.751641+00:00",
+      "discovered_at": "2026-08-30T05:08:20.982282+00:00",
       "raw": {
         "id": "fdb4073a-4c1c-48d6-b6d5-f407d3e78d17",
         "title": "Research Staff, Data Science",
@@ -403,7 +403,7 @@
       "source": "ashby",
       "posted_at": "2026-08-23T17:44:04.985+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.752607+00:00",
+      "discovered_at": "2026-08-30T05:08:20.982762+00:00",
       "raw": {
         "id": "39c2b79b-0269-4711-9354-be5ccf747a98",
         "title": "Research Staff, LLMs",
@@ -466,7 +466,7 @@
       "source": "ashby",
       "posted_at": "2026-03-17T19:36:50.771+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.753537+00:00",
+      "discovered_at": "2026-08-30T05:08:20.983201+00:00",
       "raw": {
         "id": "7ac1a5bc-f305-4f2a-a547-394566a549b2",
         "title": "Senior Pre-Sales Solutions Engineer - Europe",
@@ -506,7 +506,7 @@
       "source": "ashby",
       "posted_at": "2026-03-17T19:36:40.656+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.754443+00:00",
+      "discovered_at": "2026-08-30T05:08:20.983627+00:00",
       "raw": {
         "id": "9cb09363-9b68-4957-869a-da70b95ad6bd",
         "title": "Senior Solutions Architect - Europe",
@@ -546,7 +546,7 @@
       "source": "ashby",
       "posted_at": "2026-03-19T00:49:22.415+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.755941+00:00",
+      "discovered_at": "2026-08-30T05:08:20.984133+00:00",
       "raw": {
         "id": "1278975c-e0d8-45be-82dd-8d0d1f2774e5",
         "title": "Senior Pre-Sales Solutions Engineer - India",
@@ -587,7 +587,7 @@
       "source": "ashby",
       "posted_at": "2026-03-19T00:47:33.678+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.756773+00:00",
+      "discovered_at": "2026-08-30T05:08:20.984541+00:00",
       "raw": {
         "id": "64895340-1377-4b40-b182-1ec6b9644997",
         "title": "Senior Solutions Architect - India",
@@ -627,7 +627,7 @@
       "source": "ashby",
       "posted_at": "2026-04-24T23:58:42.185+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.757472+00:00",
+      "discovered_at": "2026-08-30T05:08:20.984983+00:00",
       "raw": {
         "id": "8a010608-6239-42ca-81de-c01139153eb2",
         "title": "Partner Success Engineer",
@@ -669,7 +669,7 @@
       "source": "ashby",
       "posted_at": "2026-04-24T17:15:08.100+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.759646+00:00",
+      "discovered_at": "2026-08-30T05:08:20.985341+00:00",
       "raw": {
         "id": "faef2c32-5084-48ca-8fff-e86d653f2697",
         "title": "Customer Success Engineer (Americas)",
@@ -711,7 +711,7 @@
       "source": "ashby",
       "posted_at": "2026-03-09T19:22:14.219+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.760318+00:00",
+      "discovered_at": "2026-08-30T05:08:20.985677+00:00",
       "raw": {
         "id": "cdecda60-85d8-4b7f-94db-c4665b3d5988",
         "title": "EMEA Account Executive",
@@ -762,7 +762,7 @@
       "source": "ashby",
       "posted_at": "2026-02-23T20:42:19.453+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.760803+00:00",
+      "discovered_at": "2026-08-30T05:08:20.985968+00:00",
       "raw": {
         "id": "f8b9322f-67a4-448f-bd2c-e9a102c4a55d",
         "title": "EMEA Account Executive (German speaking)",
@@ -813,7 +813,7 @@
       "source": "ashby",
       "posted_at": "2026-07-04T00:07:30.026+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.761333+00:00",
+      "discovered_at": "2026-08-30T05:08:21.011796+00:00",
       "raw": {
         "id": "68372d7d-b7a9-439e-a0a7-76690576aba4",
         "title": "Software Engineer - Applied AI (Senior or Staff Level)",
@@ -866,7 +866,7 @@
       "source": "ashby",
       "posted_at": "2026-08-14T18:28:20.862+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.761918+00:00",
+      "discovered_at": "2026-08-30T05:08:21.012110+00:00",
       "raw": {
         "id": "8fd3acd1-31c0-4dad-a249-a8d3d5d79cc9",
         "title": "Enterprise AI Strategist, Deepgram for Restaurants",
@@ -908,7 +908,7 @@
       "source": "ashby",
       "posted_at": "2026-06-24T03:28:07.386+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.762493+00:00",
+      "discovered_at": "2026-08-30T05:08:21.012511+00:00",
       "raw": {
         "id": "790579d8-6474-42ca-9104-9a4bafcf13e9",
         "title": "Staff Product Analyst (Product-Led Growth)",
@@ -950,7 +950,7 @@
       "source": "ashby",
       "posted_at": "2026-07-07T14:54:09.308+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.763166+00:00",
+      "discovered_at": "2026-08-30T05:08:21.013192+00:00",
       "raw": {
         "id": "4cc235e0-f195-4f44-84f3-c30e07c4a388",
         "title": "Customer Success Engineer (Singapore)",
@@ -986,7 +986,7 @@
       "source": "ashby",
       "posted_at": "2026-08-23T17:43:54.220+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.763553+00:00",
+      "discovered_at": "2026-08-30T05:08:21.013608+00:00",
       "raw": {
         "id": "9a030b32-d671-43e0-a221-4653bb73ba29",
         "title": "Research Engineer, Machine Learning Systems",
@@ -1049,7 +1049,7 @@
       "source": "ashby",
       "posted_at": "2026-07-03T18:10:26.112+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.763915+00:00",
+      "discovered_at": "2026-08-30T05:08:21.014197+00:00",
       "raw": {
         "id": "f424ef6a-c27f-4984-9e77-40a1ad16ae28",
         "title": "Platform Engineer - AI/ML Infrastructure (Kubernetes & Terraform)",
@@ -1091,7 +1091,7 @@
       "source": "ashby",
       "posted_at": "2026-02-18T20:51:56.568+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.764174+00:00",
+      "discovered_at": "2026-08-30T05:08:21.014639+00:00",
       "raw": {
         "id": "7c7064bb-2bf0-4f64-81cc-14afe79a15c1",
         "title": "Backend Software Engineer - Engine Team (Voice Agent)",
@@ -1133,7 +1133,7 @@
       "source": "ashby",
       "posted_at": "2026-07-04T00:07:39.953+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.764496+00:00",
+      "discovered_at": "2026-08-30T05:08:21.015195+00:00",
       "raw": {
         "id": "4a873ede-8555-42ae-9ddc-ac89afdd7278",
         "title": "Software Engineer, Voice Agents & AI (Senior or Staff Level)",
@@ -1186,7 +1186,7 @@
       "source": "ashby",
       "posted_at": "2026-03-06T17:44:04.903+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.765822+00:00",
+      "discovered_at": "2026-08-30T05:08:21.015801+00:00",
       "raw": {
         "id": "2fc57802-1d2d-4796-aaea-e00586dc6792",
         "title": "Senior Forward-Deployed Engineer, Federal",
@@ -1228,7 +1228,7 @@
       "source": "ashby",
       "posted_at": "2026-03-10T17:58:08.933+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.766168+00:00",
+      "discovered_at": "2026-08-30T05:08:21.016079+00:00",
       "raw": {
         "id": "98150e77-5458-4382-9575-ac3a3ab1e205",
         "title": "EMEA Account Executive",
@@ -1268,7 +1268,7 @@
       "source": "ashby",
       "posted_at": "2026-07-09T00:31:35.047+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.766477+00:00",
+      "discovered_at": "2026-08-30T05:08:21.016309+00:00",
       "raw": {
         "id": "2084edc0-2df0-4bd4-b759-0f05c38d5ef5",
         "title": "Backend Engineer- Inference Services",
@@ -1310,7 +1310,7 @@
       "source": "ashby",
       "posted_at": "2026-03-26T18:20:26.094+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.767087+00:00",
+      "discovered_at": "2026-08-30T05:08:21.016729+00:00",
       "raw": {
         "id": "8884965c-8a55-414c-ba86-a52d527f5dff",
         "title": "Solutions Engineer, Enterprise",
@@ -1363,7 +1363,7 @@
       "source": "ashby",
       "posted_at": "2026-03-26T18:25:35.532+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.767683+00:00",
+      "discovered_at": "2026-08-30T05:08:21.042994+00:00",
       "raw": {
         "id": "a58e4a11-7f98-4686-98e8-2612b52d7bbd",
         "title": "Senior Forward Deployed Engineer, Enterprise",
@@ -1416,7 +1416,7 @@
       "source": "ashby",
       "posted_at": "2026-03-27T12:01:20.840+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.768298+00:00",
+      "discovered_at": "2026-08-30T05:08:21.043642+00:00",
       "raw": {
         "id": "b10db691-f77c-4a65-8f7c-ff9574f53f1e",
         "title": "Senior Solutions Engineer, Federal",
@@ -1458,7 +1458,7 @@
       "source": "ashby",
       "posted_at": "2026-04-06T11:46:15.333+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.768740+00:00",
+      "discovered_at": "2026-08-30T05:08:21.044066+00:00",
       "raw": {
         "id": "7ced4c1f-4126-44fe-9cf1-da427a9e4e3e",
         "title": "ML Ops Infrastructure Engineer",
@@ -1500,7 +1500,7 @@
       "source": "ashby",
       "posted_at": "2026-04-06T12:06:29.198+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.769270+00:00",
+      "discovered_at": "2026-08-30T05:08:21.044458+00:00",
       "raw": {
         "id": "ff392127-1eb6-4fc7-838e-a3243923ba76",
         "title": "Systems Architect AI/ML Infrastructure",
@@ -1542,7 +1542,7 @@
       "source": "ashby",
       "posted_at": "2026-04-21T11:55:37.116+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.769851+00:00",
+      "discovered_at": "2026-08-30T05:08:21.045001+00:00",
       "raw": {
         "id": "378e83b4-28c0-4b4e-8cf0-9355712bd06d",
         "title": "Billing & Analytics Software Engineer",
@@ -1584,7 +1584,7 @@
       "source": "ashby",
       "posted_at": "2026-04-21T11:56:09.690+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.770403+00:00",
+      "discovered_at": "2026-08-30T05:08:21.045478+00:00",
       "raw": {
         "id": "66aa70a5-7de9-4657-a710-6af3dbb4c262",
         "title": "Defense / Edge Tech Lead",
@@ -1626,7 +1626,7 @@
       "source": "ashby",
       "posted_at": "2026-04-15T00:51:05.735+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.770890+00:00",
+      "discovered_at": "2026-08-30T05:08:21.045911+00:00",
       "raw": {
         "id": "f904ff60-f5d1-45c7-8fa2-8456c47b4204",
         "title": "Pre-Sales Solutions Engineer (San Francisco, CA)",
@@ -1668,7 +1668,7 @@
       "source": "ashby",
       "posted_at": "2026-04-15T17:15:32.203+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.771154+00:00",
+      "discovered_at": "2026-08-30T05:08:21.046159+00:00",
       "raw": {
         "id": "ae992d89-1bb3-4bea-ae91-0a07043e9756",
         "title": "Senior Data Intelligence Engineer",
@@ -1710,7 +1710,7 @@
       "source": "ashby",
       "posted_at": "2026-04-16T19:48:00.048+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.773595+00:00",
+      "discovered_at": "2026-08-30T05:08:21.046530+00:00",
       "raw": {
         "id": "be9609b4-b48d-4421-90e5-69049ad0d6ce",
         "title": "Solutions Architect (San Francisco, CA)",
@@ -1752,7 +1752,7 @@
       "source": "ashby",
       "posted_at": "2026-07-28T18:09:06.183+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.774264+00:00",
+      "discovered_at": "2026-08-30T05:08:21.046842+00:00",
       "raw": {
         "id": "e90eefc1-88ec-4d3c-948b-b21c57ef6b18",
         "title": "Engineering Manager, Console Team (Product-Led Growth Strategy)",
@@ -1794,7 +1794,7 @@
       "source": "ashby",
       "posted_at": "2026-07-27T21:25:13.138+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.774910+00:00",
+      "discovered_at": "2026-08-30T05:08:21.047064+00:00",
       "raw": {
         "id": "f924e637-6bfa-46fc-a05a-b4bcdb176f78",
         "title": "German Speaking- Sales Development Representative, EMEA",
@@ -1845,7 +1845,7 @@
       "source": "ashby",
       "posted_at": "2026-05-08T18:00:44.126+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.775579+00:00",
+      "discovered_at": "2026-08-30T05:08:21.047435+00:00",
       "raw": {
         "id": "2baf2ee6-3cb2-4d86-9623-165a959be79f",
         "title": "Director, Technical Accounting & Financial Reporting",
@@ -1887,7 +1887,7 @@
       "source": "ashby",
       "posted_at": "2026-05-12T11:43:14.119+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.776122+00:00",
+      "discovered_at": "2026-08-30T05:08:21.047935+00:00",
       "raw": {
         "id": "00fd8024-7804-4278-a38b-c9d60d929dbb",
         "title": "Staff Product Designer (PST)",
@@ -1929,7 +1929,7 @@
       "source": "ashby",
       "posted_at": "2026-05-15T01:53:37.546+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.776879+00:00",
+      "discovered_at": "2026-08-30T05:08:21.048357+00:00",
       "raw": {
         "id": "623dcf1a-becc-4cab-85a3-eb7ebe37e3c0",
         "title": "Strategic Partner Manager",
@@ -1971,7 +1971,7 @@
       "source": "ashby",
       "posted_at": "2026-07-30T14:13:42.203+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.777740+00:00",
+      "discovered_at": "2026-08-30T05:08:21.063256+00:00",
       "raw": {
         "id": "aafbab17-4caa-4b87-811c-21acfc566cf4",
         "title": "APAC Partner Business Development Manager",
@@ -2007,7 +2007,7 @@
       "source": "ashby",
       "posted_at": "2026-07-10T13:27:03.731+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.778122+00:00",
+      "discovered_at": "2026-08-30T05:08:21.063558+00:00",
       "raw": {
         "id": "d98e6723-3485-4b58-9494-d6bf028fa905",
         "title": "Sr. Backend Engineer - Engine Team: API",
@@ -2049,7 +2049,7 @@
       "source": "ashby",
       "posted_at": "2026-06-03T21:19:55.599+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.778566+00:00",
+      "discovered_at": "2026-08-30T05:08:21.063923+00:00",
       "raw": {
         "id": "072271ea-2006-47af-8c4f-e8f9e54daa11",
         "title": "Senior Director, Accounting",
@@ -2091,7 +2091,7 @@
       "source": "ashby",
       "posted_at": "2026-07-09T15:02:25.467+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.780635+00:00",
+      "discovered_at": "2026-08-30T05:08:21.064307+00:00",
       "raw": {
         "id": "c91de352-9f25-479e-8877-fbea9576a52c",
         "title": "Head of AI Enablement Engineering",
@@ -2133,7 +2133,7 @@
       "source": "ashby",
       "posted_at": "2026-06-10T16:00:35.912+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.781212+00:00",
+      "discovered_at": "2026-08-30T05:08:21.064635+00:00",
       "raw": {
         "id": "f5aeae73-25db-4a2d-b5e3-6b43cf2e2ed5",
         "title": "Senior Strategic Renewals Manager",
@@ -2175,7 +2175,7 @@
       "source": "ashby",
       "posted_at": "2026-08-22T17:01:30.420+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.781998+00:00",
+      "discovered_at": "2026-08-30T05:08:21.065172+00:00",
       "raw": {
         "id": "e3c33ed8-c80f-4af6-a904-7da6c413b074",
         "title": "Solutions Architect - MENA",
@@ -2215,7 +2215,7 @@
       "source": "ashby",
       "posted_at": "2026-06-30T21:09:58.618+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.782296+00:00",
+      "discovered_at": "2026-08-30T05:08:21.065464+00:00",
       "raw": {
         "id": "0d90a2af-50f6-47b1-aea8-51f6f08122cb",
         "title": "Senior Technical Program Manager (Engineering)",
@@ -2257,7 +2257,7 @@
       "source": "ashby",
       "posted_at": "2026-07-09T05:30:01.149+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.782825+00:00",
+      "discovered_at": "2026-08-30T05:08:21.065871+00:00",
       "raw": {
         "id": "1c34f6ba-6998-447c-9485-d4cf56db42de",
         "title": "Senior Technical Program Manager (Engineering) - AI Tooling & Systems",
@@ -2299,7 +2299,7 @@
       "source": "ashby",
       "posted_at": "2026-07-09T00:47:49.019+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.783388+00:00",
+      "discovered_at": "2026-08-30T05:08:21.066306+00:00",
       "raw": {
         "id": "94ae2781-a85f-493a-86c1-ff85a9289355",
         "title": "Applied ML Engineer",
@@ -2341,7 +2341,7 @@
       "source": "ashby",
       "posted_at": "2026-07-07T05:28:22.190+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.783906+00:00",
+      "discovered_at": "2026-08-30T05:08:21.066732+00:00",
       "raw": {
         "id": "fea36d64-10f4-4531-bfa9-a917118a570b",
         "title": "VP of Demand Generation",
@@ -2383,7 +2383,7 @@
       "source": "ashby",
       "posted_at": "2026-07-07T17:26:51.021+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.784394+00:00",
+      "discovered_at": "2026-08-30T05:08:21.067416+00:00",
       "raw": {
         "id": "a0188b8a-d580-4f13-8925-13f41a84aa8c",
         "title": "Customer Success Engineer - German Speaker (Switzerland)",
@@ -2419,7 +2419,7 @@
       "source": "ashby",
       "posted_at": "2026-07-07T17:44:07.351+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.784994+00:00",
+      "discovered_at": "2026-08-30T05:08:21.068099+00:00",
       "raw": {
         "id": "0b7494b3-a91e-4540-9439-5b10a1e5b391",
         "title": "Embedded AI Engineer, On-Device Models",
@@ -2461,7 +2461,7 @@
       "source": "ashby",
       "posted_at": "2026-07-10T20:53:00.887+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.785402+00:00",
+      "discovered_at": "2026-08-30T05:08:21.075114+00:00",
       "raw": {
         "id": "d483b474-0d4d-49ac-887f-0027456dd82e",
         "title": "Senior Software Engineer - Saga / Voice OS",
@@ -2503,7 +2503,7 @@
       "source": "ashby",
       "posted_at": "2026-07-10T21:16:10.241+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.786205+00:00",
+      "discovered_at": "2026-08-30T05:08:21.075686+00:00",
       "raw": {
         "id": "d75d6f84-1d54-4354-a364-609b48267658",
         "title": "Partner Success Engineer (Infrastructure)",
@@ -2545,7 +2545,7 @@
       "source": "ashby",
       "posted_at": "2026-07-17T16:26:24.780+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.786819+00:00",
+      "discovered_at": "2026-08-30T05:08:21.076143+00:00",
       "raw": {
         "id": "c0a4b3fb-2c15-4b03-86f9-688eec8a8187",
         "title": "Staff Developer Experience (DX) Engineer",
@@ -2587,7 +2587,7 @@
       "source": "ashby",
       "posted_at": "2026-07-15T21:12:42.612+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.787135+00:00",
+      "discovered_at": "2026-08-30T05:08:21.076409+00:00",
       "raw": {
         "id": "a7073f3a-69b4-4351-b733-ded45e9ef710",
         "title": "Senior Full-stack Engineer, Console Team (Product-Led Growth Strategy)",
@@ -2629,7 +2629,7 @@
       "source": "ashby",
       "posted_at": "2026-07-15T21:09:06.960+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.787418+00:00",
+      "discovered_at": "2026-08-30T05:08:21.076652+00:00",
       "raw": {
         "id": "8cd2cf6b-ec99-4747-bb0a-06c149a628f0",
         "title": "Senior Frontend Engineer, Console Team (Product-Led Growth Strategy)",
@@ -2671,7 +2671,7 @@
       "source": "ashby",
       "posted_at": "2026-07-22T08:38:01.059+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.787929+00:00",
+      "discovered_at": "2026-08-30T05:08:21.077100+00:00",
       "raw": {
         "id": "da0ec864-10e8-4b1b-abd3-b6c15b3b111c",
         "title": "Sales Country Leader (India)",
@@ -2712,7 +2712,7 @@
       "source": "ashby",
       "posted_at": "2026-07-16T10:26:23.902+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.788683+00:00",
+      "discovered_at": "2026-08-30T05:08:21.077584+00:00",
       "raw": {
         "id": "02b34c52-9d44-415d-affe-80f4bb016f90",
         "title": "Account Executive (Singapore)",
@@ -2748,7 +2748,7 @@
       "source": "ashby",
       "posted_at": "2026-07-16T17:16:46.797+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.789680+00:00",
+      "discovered_at": "2026-08-30T05:08:21.077940+00:00",
       "raw": {
         "id": "82aee0a3-055d-481f-b081-b1691febc209",
         "title": "Senior People Partner ",
@@ -2790,7 +2790,7 @@
       "source": "ashby",
       "posted_at": "2026-07-22T10:57:49.354+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.801811+00:00",
+      "discovered_at": "2026-08-30T05:08:21.078425+00:00",
       "raw": {
         "id": "94443791-d22f-4f63-a4dd-fd3efb3fc82e",
         "title": "Account Executive (Korean Speaking)",
@@ -2826,7 +2826,7 @@
       "source": "ashby",
       "posted_at": "2026-07-24T18:03:56.440+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.802590+00:00",
+      "discovered_at": "2026-08-30T05:08:21.078756+00:00",
       "raw": {
         "id": "3a12f539-7734-46fa-9e3b-28e041e56074",
         "title": "Senior Product Manager, Enterprise",
@@ -2868,7 +2868,7 @@
       "source": "ashby",
       "posted_at": "2026-07-29T00:11:02.063+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.803086+00:00",
+      "discovered_at": "2026-08-30T05:08:21.079139+00:00",
       "raw": {
         "id": "17f95148-fa1c-4c34-82c8-333589bef789",
         "title": "Staff Product Manager, Agentic Experiences (Former Engineer)",
@@ -2910,7 +2910,7 @@
       "source": "ashby",
       "posted_at": "2026-07-23T16:55:39.541+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.803434+00:00",
+      "discovered_at": "2026-08-30T05:08:21.079391+00:00",
       "raw": {
         "id": "573b3d93-5c4d-4d6a-928e-4fec4c0bd9a4",
         "title": "Sales Development Representative, Inbound",
@@ -2952,7 +2952,7 @@
       "source": "ashby",
       "posted_at": "2026-07-29T16:40:59.410+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.803724+00:00",
+      "discovered_at": "2026-08-30T05:08:21.079635+00:00",
       "raw": {
         "id": "dbf01f1a-3441-4528-be17-0941ccf49191",
         "title": "Sales Development Representative",
@@ -2988,7 +2988,7 @@
       "source": "ashby",
       "posted_at": "2026-07-25T00:08:55.683+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.804145+00:00",
+      "discovered_at": "2026-08-30T05:08:21.079986+00:00",
       "raw": {
         "id": "d0660127-6c26-4053-943c-c006990b8edc",
         "title": "Staff Product Manager (Product-Led Growth)",
@@ -3030,7 +3030,7 @@
       "source": "ashby",
       "posted_at": "2026-07-23T21:20:42.010+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.804551+00:00",
+      "discovered_at": "2026-08-30T05:08:21.080355+00:00",
       "raw": {
         "id": "3852739c-938c-4ff9-a201-ab7587755809",
         "title": "Head of Editorial Content ",
@@ -3072,7 +3072,7 @@
       "source": "ashby",
       "posted_at": "2026-07-23T23:34:44.837+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.804918+00:00",
+      "discovered_at": "2026-08-30T05:08:21.096769+00:00",
       "raw": {
         "id": "b9a134fe-2ede-4081-a927-319d538d430a",
         "title": "Head of Communications",
@@ -3114,7 +3114,7 @@
       "source": "ashby",
       "posted_at": "2026-07-28T00:36:28.421+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.805854+00:00",
+      "discovered_at": "2026-08-30T05:08:21.097240+00:00",
       "raw": {
         "id": "6f3d761e-4873-43af-a9b1-daeb147661f9",
         "title": "Senior Software Engineer - Model Evaluation & AI Systems",
@@ -3156,7 +3156,7 @@
       "source": "ashby",
       "posted_at": "2026-07-29T14:51:20.616+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.806558+00:00",
+      "discovered_at": "2026-08-30T05:08:21.097576+00:00",
       "raw": {
         "id": "681c5324-1234-4222-b783-a8a7a9440005",
         "title": "Senior Program Manager, Data Operations",
@@ -3198,7 +3198,7 @@
       "source": "ashby",
       "posted_at": "2026-07-30T16:36:34.271+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.807045+00:00",
+      "discovered_at": "2026-08-30T05:08:21.097981+00:00",
       "raw": {
         "id": "d9d5aa44-b675-46e9-b596-45c1c5dca858",
         "title": "Customer Success Engineer ( London)",
@@ -3240,7 +3240,7 @@
       "source": "ashby",
       "posted_at": "2026-07-31T13:27:17.340+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.811803+00:00",
+      "discovered_at": "2026-08-30T05:08:21.098480+00:00",
       "raw": {
         "id": "fcd70595-9e0c-4347-914e-cb4a51be3492",
         "title": "Federal Partner Manager",
@@ -3282,7 +3282,7 @@
       "source": "ashby",
       "posted_at": "2026-08-03T18:38:06.078+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.812829+00:00",
+      "discovered_at": "2026-08-30T05:08:21.098995+00:00",
       "raw": {
         "id": "c22e34a4-018a-4123-a752-31ed64c320c8",
         "title": "Enterprise Account Executive (Federal Civilian)",
@@ -3335,7 +3335,7 @@
       "source": "ashby",
       "posted_at": "2026-08-05T17:17:10.279+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.813824+00:00",
+      "discovered_at": "2026-08-30T05:08:21.099460+00:00",
       "raw": {
         "id": "8a9bcce3-858f-4cc0-8459-2fe552b6aaa5",
         "title": "Senior Pre-Sales Solutions Engineer (Australia)",
@@ -3377,7 +3377,7 @@
       "source": "ashby",
       "posted_at": "2026-08-05T17:21:33.231+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.814751+00:00",
+      "discovered_at": "2026-08-30T05:08:21.099924+00:00",
       "raw": {
         "id": "d28f0a61-4a59-4817-b101-3457077b01b7",
         "title": "Senior Pre-Sales Solutions Engineer (Singapore)",
@@ -3417,7 +3417,7 @@
       "source": "ashby",
       "posted_at": "2026-08-06T19:02:46.116+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.815405+00:00",
+      "discovered_at": "2026-08-30T05:08:21.100276+00:00",
       "raw": {
         "id": "0f597b67-3cd4-4d56-b951-d555031ee5cc",
         "title": "Senior Product Marketing Manager, Solutions Marketing",
@@ -3459,7 +3459,7 @@
       "source": "ashby",
       "posted_at": "2026-08-06T19:04:36.426+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.815913+00:00",
+      "discovered_at": "2026-08-30T05:08:21.100673+00:00",
       "raw": {
         "id": "928303de-61d6-46ec-b10a-08709e1deb4a",
         "title": "Senior Product Marketing Manager, Voice Agent",
@@ -3501,7 +3501,7 @@
       "source": "ashby",
       "posted_at": "2026-08-13T17:02:02.990+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.816546+00:00",
+      "discovered_at": "2026-08-30T05:08:21.101208+00:00",
       "raw": {
         "id": "4f9648d7-e25c-440c-8ec6-566a405c7c23",
         "title": "Staff Web Engineer, Marketing",
@@ -3543,7 +3543,7 @@
       "source": "ashby",
       "posted_at": "2026-08-14T13:53:15.247+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.817463+00:00",
+      "discovered_at": "2026-08-30T05:08:21.101723+00:00",
       "raw": {
         "id": "410cab78-0105-4270-a936-bec653ae5928",
         "title": "Global Head of Real Estate and Workplace",
@@ -3585,7 +3585,7 @@
       "source": "ashby",
       "posted_at": "2026-08-18T02:05:20.747+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.828222+00:00",
+      "discovered_at": "2026-08-30T05:08:21.102044+00:00",
       "raw": {
         "id": "b74b4d59-5b3e-46ac-9928-a5c8f6b7d321",
         "title": "Executive Assistant, Marketing",
@@ -3627,7 +3627,7 @@
       "source": "ashby",
       "posted_at": "2026-08-21T23:24:37.584+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.829052+00:00",
+      "discovered_at": "2026-08-30T05:08:21.102503+00:00",
       "raw": {
         "id": "17a6e0f9-6db3-4e68-b02c-2cf7318dd442",
         "title": "Accounting Manager, GL& Close",
@@ -3669,7 +3669,7 @@
       "source": "ashby",
       "posted_at": "2026-08-21T23:50:59.714+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.829673+00:00",
+      "discovered_at": "2026-08-30T05:08:21.116729+00:00",
       "raw": {
         "id": "6e3344f4-48c7-4127-871c-3f1dada45323",
         "title": "Director of Research, Text to Speech",
@@ -3732,7 +3732,7 @@
       "source": "ashby",
       "posted_at": "2026-08-26T13:40:46.065+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.830673+00:00",
+      "discovered_at": "2026-08-30T05:08:21.117230+00:00",
       "raw": {
         "id": "d7dc5974-8540-432a-a2ec-2a6691c9bb51",
         "title": "Director, Brand Strategy & Narrative",
@@ -3774,7 +3774,7 @@
       "source": "ashby",
       "posted_at": "2026-08-21T19:59:40.934+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.831518+00:00",
+      "discovered_at": "2026-08-30T05:08:21.117699+00:00",
       "raw": {
         "id": "b856d0c2-df8e-492a-9044-62b0fd3c30b6",
         "title": "Customer Success Engineer (Scaled)",
@@ -3816,7 +3816,7 @@
       "source": "ashby",
       "posted_at": "2026-08-24T17:18:07.208+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.832334+00:00",
+      "discovered_at": "2026-08-30T05:08:21.118513+00:00",
       "raw": {
         "id": "67874cff-a23f-4130-aeef-845f5f739621",
         "title": "Revenue Accounting Manager",
@@ -3858,7 +3858,7 @@
       "source": "ashby",
       "posted_at": "2026-08-22T01:04:32.392+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.833356+00:00",
+      "discovered_at": "2026-08-30T05:08:21.119153+00:00",
       "raw": {
         "id": "4bfadd29-fa58-4e06-bbf0-7b5dbc41a621",
         "title": "Forward-Deployed Engineer (FDE), Strategic Accounts",
@@ -3911,7 +3911,7 @@
       "source": "ashby",
       "posted_at": "2026-08-24T07:37:41.548+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.840116+00:00",
+      "discovered_at": "2026-08-30T05:08:21.119604+00:00",
       "raw": {
         "id": "85fddd5f-8a08-48d4-975a-de845e1b81ac",
         "title": "Account Executive (Melbourne)",
@@ -3953,7 +3953,7 @@
       "source": "ashby",
       "posted_at": "2026-08-25T19:51:20.409+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.840964+00:00",
+      "discovered_at": "2026-08-30T05:08:21.120289+00:00",
       "raw": {
         "id": "ac705109-ea86-41da-a3f2-811c35248c6a",
         "title": "Partner Success Engineer (AWS)",
@@ -3995,7 +3995,7 @@
       "source": "ashby",
       "posted_at": "2026-08-26T22:02:20.979+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.841794+00:00",
+      "discovered_at": "2026-08-30T05:08:21.120891+00:00",
       "raw": {
         "id": "c8799e26-121b-47be-8bc4-7b342fa32275",
         "title": "GM, Sales (EMEA)",
@@ -4037,7 +4037,7 @@
       "source": "ashby",
       "posted_at": "2026-08-27T13:49:35.686+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.842684+00:00",
+      "discovered_at": "2026-08-30T05:08:21.121453+00:00",
       "raw": {
         "id": "4a6b5eb2-4720-4ec8-8d7d-4ae0f7bbe2cc",
         "title": "Software Test Engineer",

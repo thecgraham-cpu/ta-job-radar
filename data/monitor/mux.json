@@ -4,7 +4,7 @@
   "career_page": "https://jobs.ashbyhq.com/mux",
   "source": "ashby",
   "identifier": "mux",
-  "scanned_at": "2026-08-29T05:46:20.441991+00:00",
+  "scanned_at": "2026-08-30T05:08:22.069915+00:00",
   "count": 2,
   "total_available": 2,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "ashby",
       "posted_at": "2026-06-30T19:02:06.801+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.440877+00:00",
+      "discovered_at": "2026-08-30T05:08:22.069423+00:00",
       "raw": {
         "id": "a412fae6-fb6a-499f-988e-717ea4a78497",
         "title": "Senior Platform Engineer",
@@ -61,7 +61,7 @@
       "source": "ashby",
       "posted_at": "2026-07-23T21:13:06.648+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.441952+00:00",
+      "discovered_at": "2026-08-30T05:08:22.069888+00:00",
       "raw": {
         "id": "50f9c589-c1e3-4f6c-a3d6-d11341cd38bd",
         "title": "Technical Customer Success Manager",

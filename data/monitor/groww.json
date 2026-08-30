@@ -4,7 +4,7 @@
   "career_page": "https://job-boards.greenhouse.io/groww",
   "source": "greenhouse",
   "identifier": "groww",
-  "scanned_at": "2026-08-29T05:46:16.089508+00:00",
+  "scanned_at": "2026-08-30T05:08:19.001151+00:00",
   "count": 5,
   "total_available": 5,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T07:35:34-04:00",
       "updated_at": "2026-08-27T07:35:34-04:00",
-      "discovered_at": "2026-08-29T05:46:16.087684+00:00",
+      "discovered_at": "2026-08-30T05:08:18.999811+00:00",
       "raw": {
         "absolute_url": "https://job-boards.eu.greenhouse.io/groww/jobs/4880153101",
         "data_compliance": [
@@ -106,7 +106,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-25T07:25:07-04:00",
       "updated_at": "2026-08-25T07:25:07-04:00",
-      "discovered_at": "2026-08-29T05:46:16.088049+00:00",
+      "discovered_at": "2026-08-30T05:08:19.000169+00:00",
       "raw": {
         "absolute_url": "https://job-boards.eu.greenhouse.io/groww/jobs/4588364101",
         "data_compliance": [
@@ -184,7 +184,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-25T07:25:07-04:00",
       "updated_at": "2026-08-25T07:25:07-04:00",
-      "discovered_at": "2026-08-29T05:46:16.088525+00:00",
+      "discovered_at": "2026-08-30T05:08:19.000592+00:00",
       "raw": {
         "absolute_url": "https://job-boards.eu.greenhouse.io/groww/jobs/4728765101",
         "data_compliance": [
@@ -268,7 +268,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-25T07:25:07-04:00",
       "updated_at": "2026-08-25T07:25:07-04:00",
-      "discovered_at": "2026-08-29T05:46:16.088816+00:00",
+      "discovered_at": "2026-08-30T05:08:19.000881+00:00",
       "raw": {
         "absolute_url": "https://job-boards.eu.greenhouse.io/groww/jobs/4714065101",
         "data_compliance": [
@@ -347,7 +347,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-25T07:25:07-04:00",
       "updated_at": "2026-08-25T07:25:07-04:00",
-      "discovered_at": "2026-08-29T05:46:16.089460+00:00",
+      "discovered_at": "2026-08-30T05:08:19.001133+00:00",
       "raw": {
         "absolute_url": "https://job-boards.eu.greenhouse.io/groww/jobs/4714061101",
         "data_compliance": [

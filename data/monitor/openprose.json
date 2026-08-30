@@ -4,7 +4,7 @@
   "career_page": "https://jobs.ashbyhq.com/prose",
   "source": "ashby",
   "identifier": "prose",
-  "scanned_at": "2026-08-29T05:46:21.023680+00:00",
+  "scanned_at": "2026-08-30T05:08:22.441972+00:00",
   "count": 2,
   "total_available": 2,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "ashby",
       "posted_at": "2026-07-22T21:04:05.426+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:21.023081+00:00",
+      "discovered_at": "2026-08-30T05:08:22.441322+00:00",
       "raw": {
         "id": "5f54f2de-dc07-4428-aeb4-5652fac7a2f6",
         "title": "Paid Acquisition Manager",
@@ -69,7 +69,7 @@
       "source": "ashby",
       "posted_at": "2026-08-14T20:45:25.307+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:21.023662+00:00",
+      "discovered_at": "2026-08-30T05:08:22.441952+00:00",
       "raw": {
         "id": "66573e5a-cd64-491d-acf2-a8f3915bfc74",
         "title": "Senior Full-stack Engineer",

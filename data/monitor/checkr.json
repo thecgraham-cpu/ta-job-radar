@@ -4,7 +4,7 @@
   "career_page": "https://job-boards.greenhouse.io/checkr",
   "source": "greenhouse",
   "identifier": "checkr",
-  "scanned_at": "2026-08-29T05:46:16.292652+00:00",
+  "scanned_at": "2026-08-30T05:08:19.123416+00:00",
   "count": 47,
   "total_available": 47,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-21T16:14:06-04:00",
       "updated_at": "2026-08-21T16:14:06-04:00",
-      "discovered_at": "2026-08-29T05:46:16.255643+00:00",
+      "discovered_at": "2026-08-30T05:08:19.072002+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/checkr/jobs/8132600",
         "data_compliance": [
@@ -97,7 +97,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-30T17:54:08-04:00",
       "updated_at": "2026-07-30T17:54:08-04:00",
-      "discovered_at": "2026-08-29T05:46:16.256292+00:00",
+      "discovered_at": "2026-08-30T05:08:19.072593+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/checkr/jobs/7958414",
         "data_compliance": [
@@ -169,7 +169,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-08T17:11:17-04:00",
       "updated_at": "2026-07-08T17:11:17-04:00",
-      "discovered_at": "2026-08-29T05:46:16.256845+00:00",
+      "discovered_at": "2026-08-30T05:08:19.073128+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/checkr/jobs/7913718",
         "data_compliance": [
@@ -234,7 +234,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-07T12:57:43-04:00",
       "updated_at": "2026-08-07T12:57:43-04:00",
-      "discovered_at": "2026-08-29T05:46:16.257780+00:00",
+      "discovered_at": "2026-08-30T05:08:19.073799+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/checkr/jobs/8027296",
         "data_compliance": [
@@ -299,7 +299,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-29T17:08:02-04:00",
       "updated_at": "2026-07-29T17:08:02-04:00",
-      "discovered_at": "2026-08-29T05:46:16.258377+00:00",
+      "discovered_at": "2026-08-30T05:08:19.074282+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/checkr/jobs/8095226",
         "data_compliance": [
@@ -364,7 +364,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-08T17:11:17-04:00",
       "updated_at": "2026-07-08T17:11:17-04:00",
-      "discovered_at": "2026-08-29T05:46:16.258891+00:00",
+      "discovered_at": "2026-08-30T05:08:19.074776+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/checkr/jobs/8022521",
         "data_compliance": [
@@ -429,7 +429,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-11T11:48:38-04:00",
       "updated_at": "2026-08-11T11:48:38-04:00",
-      "discovered_at": "2026-08-29T05:46:16.259622+00:00",
+      "discovered_at": "2026-08-30T05:08:19.075289+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/checkr/jobs/8121846",
         "data_compliance": [
@@ -494,7 +494,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T23:43:32-04:00",
       "updated_at": "2026-08-27T23:43:32-04:00",
-      "discovered_at": "2026-08-29T05:46:16.260262+00:00",
+      "discovered_at": "2026-08-30T05:08:19.075851+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/checkr/jobs/8156502",
         "data_compliance": [
@@ -559,7 +559,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-08T17:11:17-04:00",
       "updated_at": "2026-07-08T17:11:17-04:00",
-      "discovered_at": "2026-08-29T05:46:16.260950+00:00",
+      "discovered_at": "2026-08-30T05:08:19.076544+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/checkr/jobs/7947606",
         "data_compliance": [
@@ -624,7 +624,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-09T11:41:54-04:00",
       "updated_at": "2026-07-09T11:41:54-04:00",
-      "discovered_at": "2026-08-29T05:46:16.261696+00:00",
+      "discovered_at": "2026-08-30T05:08:19.077091+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/checkr/jobs/8051911",
         "data_compliance": [
@@ -689,7 +689,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-28T13:39:54-04:00",
       "updated_at": "2026-08-28T13:39:54-04:00",
-      "discovered_at": "2026-08-29T05:46:16.262372+00:00",
+      "discovered_at": "2026-08-30T05:08:19.079917+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/checkr/jobs/8162782",
         "data_compliance": [
@@ -754,7 +754,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-28T13:40:07-04:00",
       "updated_at": "2026-08-28T13:40:07-04:00",
-      "discovered_at": "2026-08-29T05:46:16.262986+00:00",
+      "discovered_at": "2026-08-30T05:08:19.080545+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/checkr/jobs/8154516",
         "data_compliance": [
@@ -804,71 +804,6 @@
       }
     },
     {
-      "job_id": "19912265383dde8c7a35e646993c9591a1ab0163cf6bdcf4e5dbe39bde668ece",
-      "external_id": "8155079",
-      "company": "Checkr",
-      "title": "Engineering Manager, Mortgage",
-      "location": "San Francisco, California, United States",
-      "remote": true,
-      "department": null,
-      "team": null,
-      "employment_type": null,
-      "description": "About Checkr Checkr is building the data platform to power safe and fair decisions. Over 140,000 companies and millions of people rely on Checkr for AI verification in the moments that matter most: getting a new job, a new place to live, a car ride, childcare, even a date. Customers include Uber, Pennymac, Airbnb, Doordash, and Anthropic. We’re a team that thrives on solving complex problems with innovative solutions that advance our mission. Checkr is recognized on Forbes Cloud 100 2025 List and is a Y Combinator 2024 Breakthrough Company . About the role The Truework Team at Checkr is looking for a motivated Engineering Manager to lead our Mortgage Verifications Team. This team is responsible for building and launching new products, customer-facing experiences, and enhancing the Truework platform. As the Engineering Manager for this team, you will work hand-in-hand with product managers and key stakeholders to create the software and experiences that delight our customers. The projects you’ll be working on are high impact and scale: you’ll be advancing our architecture and systems to lead Truework and Checkr into the next generation of product offerings. The decisions you make will impact potentially millions of consumers every year, and help businesses make fast, informed, and safe decisions. What you’ll do: Drive technical vision for the team that motivates and inspires the team for the next chapter Partner closely with product management to build new features and enhance existing ones&nbsp; Work with the team to reduce technical debt and sustainably scale our architecture Build relationships with customers and drive results with them&nbsp; Nurture and grow team members based on their career aspirations Hire the best of the talent and continue to raise the bar for the team Represent the team in planning and product meetings Optimize engineering processes and policies to drive velocity and quality What you bring: 4+ years as an engineering manager&nbsp; 8+ years as an engineer Strong skills in critical thinking, decision making, problem-solving, and attention to detail Experience managing quality incidents as both a technical lead and communication lead Experience working on products at scale, and understanding the data, legal, human impact, and technical nuances of supporting highly regulated products Strong experience with TDD, pair programming, and agile methodologies Deep understanding of service architecture and system design as well as lean software development principles Ability to make high-level prioritization decisions quickly and thoughtfully Able to develop inclusive teams to foster growth and diversity&nbsp; Humility, openness to feedback, and eagerness to learn Experience with machine learning and AI is a plus An A-player mindset with a strong bias for action: you raise the bar, move with urgency, stay resilient through ambiguity, and take ownership to deliver meaningful outcomes. &nbsp; Pay Transparency Disclosure We use geographic cost of labor as an input to develop ranges for our roles and as such, each location where we hire may have a different range. If this role is remote, we have listed the top to the bottom of the possible range, but we will specify the target range for an exact location when you are selected for a recruiting discussion. For more information on our compensation philosophy, see our website . On-target Earnings OR Base Salary range (San Francisco, CA) $233,000 &mdash; $274,000 USD What We Offer A fast-paced and collaborative environment Learning and development allowance Competitive cash and equity compensation, and opportunity for advancement 100% medical, dental, and vision coverage Up to $25K reimbursement for fertility, adoption, and parental planning services Flexible PTO policy Monthly wellness stipend &nbsp; At Checkr, we believe an in office work environment strengthens collaboration, drives innovation, and encourages connection. Our hub locations are Denver, CO; San Francisco, CA; Nashville, TN; and Santiago, Chile. Individuals are expected to work from the office 3+ days a week. In-office perks are provided, such as lunch five times a week, a commuter stipend, and an abundance of snacks and beverages. A relocation stipend may be available for those willing to relocate to a Checkr hub location. Equal Employment Opportunities at Checkr Checkr is committed to building the best product and company, which requires hiring talented and qualified individuals with a diverse set of perspectives and lived experiences. Checkr believes in hiring people of all backgrounds, including those whose histories are impacted by the justice system in accordance with local, state, and/or federal laws, including the San Francisco’s Fair Chance Ordinance . Applicant Privacy Policy If you are a California resident or are located in Alberta or British Columbia, our Applicant Privacy Policy applies to our collection and processing of your personal information when you apply for a role with us or otherwise participate in our recruitment process. *Legitimate Checkr emails will always include our official domain name after the @ symbol (e.g., name@checkr.com or name@ext.checkr.com ).",
-      "apply_url": "https://job-boards.greenhouse.io/checkr/jobs/8155079",
-      "source_url": "https://job-boards.greenhouse.io/checkr/jobs/8155079",
-      "source": "greenhouse",
-      "posted_at": "2026-08-24T16:07:13-04:00",
-      "updated_at": "2026-08-24T16:07:13-04:00",
-      "discovered_at": "2026-08-29T05:46:16.263568+00:00",
-      "raw": {
-        "absolute_url": "https://job-boards.greenhouse.io/checkr/jobs/8155079",
-        "data_compliance": [
-          {
-            "type": "gdpr",
-            "requires_consent": false,
-            "requires_processing_consent": false,
-            "requires_retention_consent": false,
-            "retention_period": null,
-            "demographic_data_consent_applies": false
-          }
-        ],
-        "internal_job_id": 3330329,
-        "location": {
-          "name": "San Francisco, California, United States"
-        },
-        "metadata": null,
-        "id": 8155079,
-        "updated_at": "2026-08-24T16:07:13-04:00",
-        "requisition_id": "R3690",
-        "title": "Engineering Manager, Mortgage",
-        "company_name": "Checkr",
-        "first_published": "2026-08-24T16:07:13-04:00",
-        "language": "en",
-        "application_deadline": null,
-        "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;strong&gt;About Checkr&lt;br&gt;&lt;/strong&gt;&lt;/span&gt;Checkr is building the data platform to power safe and fair decisions. Over 140,000 companies and millions of people rely on Checkr for AI verification in the moments that matter most: getting a new job, a new place to live, a car ride, childcare, even a date. Customers include Uber, Pennymac, Airbnb, Doordash, and Anthropic.&lt;br&gt;&lt;br&gt;We’re a team that thrives on solving complex problems with innovative solutions that advance our mission. Checkr is recognized on &lt;a href=&quot;https://www.forbes.com/lists/cloud100/&quot; target=&quot;_blank&quot;&gt;Forbes Cloud 100 2025 List&lt;/a&gt; and is a Y Combinator 2024 &lt;a href=&quot;https://www.ycombinator.com/blog/yc-top-companies-2024&quot;&gt;Breakthrough Company&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;About the role&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;The Truework Team at Checkr is looking for a motivated Engineering Manager to lead our Mortgage Verifications Team. This team is responsible for building and launching new products, customer-facing experiences, and enhancing the Truework platform. As the Engineering Manager for this team, you will work hand-in-hand with product managers and key stakeholders to create the software and experiences that delight our customers. The projects you’ll be working on are high impact and scale: you’ll be advancing our architecture and systems to lead Truework and Checkr into the next generation of product offerings. The decisions you make will impact potentially millions of consumers every year, and help businesses make fast, informed, and safe decisions.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;What you’ll do:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Drive technical vision for the team that motivates and inspires the team for the next chapter&lt;/li&gt;\n&lt;li&gt;Partner closely with product management to build new features and enhance existing ones&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Work with the team to reduce technical debt and sustainably scale our architecture&lt;/li&gt;\n&lt;li&gt;Build relationships with customers and drive results with them&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Nurture and grow team members based on their career aspirations&lt;/li&gt;\n&lt;li&gt;Hire the best of the talent and continue to raise the bar for the team&lt;/li&gt;\n&lt;li&gt;Represent the team in planning and product meetings&lt;/li&gt;\n&lt;li&gt;Optimize engineering processes and policies to drive velocity and quality&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;What you bring:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;4+ years as an engineering manager&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;8+ years as an engineer&lt;/li&gt;\n&lt;li&gt;Strong skills in critical thinking, decision making, problem-solving, and attention to detail&lt;/li&gt;\n&lt;li&gt;Experience managing quality incidents as both a technical lead and communication lead&lt;/li&gt;\n&lt;li&gt;Experience working on products at scale, and understanding the data, legal, human impact, and technical nuances of supporting highly regulated products&lt;/li&gt;\n&lt;li&gt;Strong experience with TDD, pair programming, and agile methodologies&lt;/li&gt;\n&lt;li&gt;Deep understanding of service architecture and system design as well as lean software development principles&lt;/li&gt;\n&lt;li&gt;Ability to make high-level prioritization decisions quickly and thoughtfully&lt;/li&gt;\n&lt;li&gt;Able to develop inclusive teams to foster growth and diversity&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Humility, openness to feedback, and eagerness to learn&lt;/li&gt;\n&lt;li&gt;Experience with machine learning and AI is a plus&lt;/li&gt;\n&lt;li&gt;&lt;span data-sheets-root=&quot;1&quot;&gt;An A-player mindset with a strong bias for action: you raise the bar, move with urgency, stay resilient through ambiguity, and take ownership to deliver meaningful outcomes.&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;&lt;strong&gt;Pay Transparency Disclosure&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;We use geographic cost of labor as an input to develop ranges for our roles and as such, each location where we hire may have a different range. If this role is remote, we have listed the top to the bottom of the possible range, but we will specify the target range for an exact location when you are selected for a recruiting discussion. For more information on our compensation philosophy, see&lt;/em&gt;&lt;a href=&quot;https://checkr.com/company/careers&quot;&gt;&lt;em&gt; &lt;/em&gt;&lt;em&gt;our website&lt;/em&gt;&lt;/a&gt;&lt;em&gt;.&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;On-target Earnings OR Base Salary range (San Francisco, CA)&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$233,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$274,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;What We Offer&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;A fast-paced and collaborative environment&lt;/li&gt;\n&lt;li&gt;Learning and development allowance&lt;/li&gt;\n&lt;li&gt;Competitive cash and equity compensation, and opportunity for advancement&lt;/li&gt;\n&lt;li&gt;100% medical, dental, and vision coverage&lt;/li&gt;\n&lt;li&gt;Up to $25K reimbursement for fertility, adoption, and parental planning services&lt;/li&gt;\n&lt;li&gt;Flexible PTO policy&lt;/li&gt;\n&lt;li&gt;Monthly wellness stipend&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;At Checkr, we believe an in office work environment strengthens collaboration, drives innovation, and encourages connection. Our hub locations are Denver, CO; San Francisco, CA; Nashville, TN; and Santiago, Chile. Individuals are expected to work from the office 3+ days a week. In-office perks are provided, such as lunch five times a week, a commuter stipend, and an abundance of snacks and beverages. A relocation stipend may be available for those willing to relocate to a Checkr hub location.&lt;/em&gt;&lt;strong&gt;&lt;br&gt;&lt;/strong&gt;&lt;strong&gt;&lt;br&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Equal Employment Opportunities at Checkr&lt;/strong&gt;&lt;br&gt;&lt;em&gt;Checkr is committed to building the best product and company, which requires hiring talented and qualified individuals with a diverse set of perspectives and lived experiences. Checkr believes in hiring people of all backgrounds, including those whose histories are impacted by the justice system in accordance with local, state, and/or federal laws, including the &lt;/em&gt;&lt;a href=&quot;https://www.sf.gov/worker-rights-san-francisco&quot;&gt;&lt;em&gt;San Francisco’s Fair Chance Ordinance&lt;/em&gt;&lt;/a&gt;&lt;em&gt;.&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Applicant Privacy Policy&lt;/strong&gt;&lt;br&gt;If you are a California resident or are located in Alberta or British Columbia, our &lt;a href=&quot;https://checkr.com/legal/applicant-privacy-policy&quot; target=&quot;_blank&quot;&gt;Applicant Privacy Policy&lt;/a&gt; applies to our collection and processing of your personal information when you apply for a role with us or otherwise participate in our recruitment process.&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;*Legitimate Checkr emails will always include our official domain name after the @ symbol (e.g., &lt;a href=&quot;mailto:name@checkr.com&quot;&gt;name@checkr.com&lt;/a&gt; or &lt;a href=&quot;mailto:name@ext.checkr.com&quot;&gt;name@ext.checkr.com&lt;/a&gt;).&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;",
-        "departments": [
-          {
-            "id": 8787,
-            "name": "Engineering",
-            "child_ids": [],
-            "parent_id": null
-          }
-        ],
-        "offices": [
-          {
-            "id": 5439,
-            "name": "San Francisco",
-            "location": "San Francisco, California, United States",
-            "child_ids": [],
-            "parent_id": null
-          }
-        ],
-        "ai_disclaimer": null,
-        "include_ai_disclaimer": null,
-        "ai_opt_out_request_url": null
-      }
-    },
-    {
       "job_id": "834ef61dec7b64e2ebe914d3785122db0f1994ac706e84b7e14cd63a4453489a",
       "external_id": "8103978",
       "company": "Checkr",
@@ -884,7 +819,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-03T16:09:51-04:00",
       "updated_at": "2026-08-03T16:09:51-04:00",
-      "discovered_at": "2026-08-29T05:46:16.264220+00:00",
+      "discovered_at": "2026-08-30T05:08:19.081078+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/checkr/jobs/8103978",
         "data_compliance": [
@@ -934,6 +869,71 @@
       }
     },
     {
+      "job_id": "19912265383dde8c7a35e646993c9591a1ab0163cf6bdcf4e5dbe39bde668ece",
+      "external_id": "8155079",
+      "company": "Checkr",
+      "title": "Engineering Manager, Mortgage",
+      "location": "San Francisco, California, United States",
+      "remote": true,
+      "department": null,
+      "team": null,
+      "employment_type": null,
+      "description": "About Checkr Checkr is building the data platform to power safe and fair decisions. Over 140,000 companies and millions of people rely on Checkr for AI verification in the moments that matter most: getting a new job, a new place to live, a car ride, childcare, even a date. Customers include Uber, Pennymac, Airbnb, Doordash, and Anthropic. We’re a team that thrives on solving complex problems with innovative solutions that advance our mission. Checkr is recognized on Forbes Cloud 100 2025 List and is a Y Combinator 2024 Breakthrough Company . About the role The Truework Team at Checkr is looking for a motivated Engineering Manager to lead our Mortgage Verifications Team. This team is responsible for building and launching new products, customer-facing experiences, and enhancing the Truework platform. As the Engineering Manager for this team, you will work hand-in-hand with product managers and key stakeholders to create the software and experiences that delight our customers. The projects you’ll be working on are high impact and scale: you’ll be advancing our architecture and systems to lead Truework and Checkr into the next generation of product offerings. The decisions you make will impact potentially millions of consumers every year, and help businesses make fast, informed, and safe decisions. What you’ll do: Drive technical vision for the team that motivates and inspires the team for the next chapter Partner closely with product management to build new features and enhance existing ones&nbsp; Work with the team to reduce technical debt and sustainably scale our architecture Build relationships with customers and drive results with them&nbsp; Nurture and grow team members based on their career aspirations Hire the best of the talent and continue to raise the bar for the team Represent the team in planning and product meetings Optimize engineering processes and policies to drive velocity and quality What you bring: 4+ years as an engineering manager&nbsp; 8+ years as an engineer Strong skills in critical thinking, decision making, problem-solving, and attention to detail Experience managing quality incidents as both a technical lead and communication lead Experience working on products at scale, and understanding the data, legal, human impact, and technical nuances of supporting highly regulated products Strong experience with TDD, pair programming, and agile methodologies Deep understanding of service architecture and system design as well as lean software development principles Ability to make high-level prioritization decisions quickly and thoughtfully Able to develop inclusive teams to foster growth and diversity&nbsp; Humility, openness to feedback, and eagerness to learn Experience with machine learning and AI is a plus An A-player mindset with a strong bias for action: you raise the bar, move with urgency, stay resilient through ambiguity, and take ownership to deliver meaningful outcomes. &nbsp; Pay Transparency Disclosure We use geographic cost of labor as an input to develop ranges for our roles and as such, each location where we hire may have a different range. If this role is remote, we have listed the top to the bottom of the possible range, but we will specify the target range for an exact location when you are selected for a recruiting discussion. For more information on our compensation philosophy, see our website . On-target Earnings OR Base Salary range (San Francisco, CA) $233,000 &mdash; $274,000 USD What We Offer A fast-paced and collaborative environment Learning and development allowance Competitive cash and equity compensation, and opportunity for advancement 100% medical, dental, and vision coverage Up to $25K reimbursement for fertility, adoption, and parental planning services Flexible PTO policy Monthly wellness stipend &nbsp; At Checkr, we believe an in office work environment strengthens collaboration, drives innovation, and encourages connection. Our hub locations are Denver, CO; San Francisco, CA; Nashville, TN; and Santiago, Chile. Individuals are expected to work from the office 3+ days a week. In-office perks are provided, such as lunch five times a week, a commuter stipend, and an abundance of snacks and beverages. A relocation stipend may be available for those willing to relocate to a Checkr hub location. Equal Employment Opportunities at Checkr Checkr is committed to building the best product and company, which requires hiring talented and qualified individuals with a diverse set of perspectives and lived experiences. Checkr believes in hiring people of all backgrounds, including those whose histories are impacted by the justice system in accordance with local, state, and/or federal laws, including the San Francisco’s Fair Chance Ordinance . Applicant Privacy Policy If you are a California resident or are located in Alberta or British Columbia, our Applicant Privacy Policy applies to our collection and processing of your personal information when you apply for a role with us or otherwise participate in our recruitment process. *Legitimate Checkr emails will always include our official domain name after the @ symbol (e.g., name@checkr.com or name@ext.checkr.com ).",
+      "apply_url": "https://job-boards.greenhouse.io/checkr/jobs/8155079",
+      "source_url": "https://job-boards.greenhouse.io/checkr/jobs/8155079",
+      "source": "greenhouse",
+      "posted_at": "2026-08-24T16:07:13-04:00",
+      "updated_at": "2026-08-24T16:07:13-04:00",
+      "discovered_at": "2026-08-30T05:08:19.081588+00:00",
+      "raw": {
+        "absolute_url": "https://job-boards.greenhouse.io/checkr/jobs/8155079",
+        "data_compliance": [
+          {
+            "type": "gdpr",
+            "requires_consent": false,
+            "requires_processing_consent": false,
+            "requires_retention_consent": false,
+            "retention_period": null,
+            "demographic_data_consent_applies": false
+          }
+        ],
+        "internal_job_id": 3330329,
+        "location": {
+          "name": "San Francisco, California, United States"
+        },
+        "metadata": null,
+        "id": 8155079,
+        "updated_at": "2026-08-24T16:07:13-04:00",
+        "requisition_id": "R3690",
+        "title": "Engineering Manager, Mortgage",
+        "company_name": "Checkr",
+        "first_published": "2026-08-24T16:07:13-04:00",
+        "language": "en",
+        "application_deadline": null,
+        "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;strong&gt;About Checkr&lt;br&gt;&lt;/strong&gt;&lt;/span&gt;Checkr is building the data platform to power safe and fair decisions. Over 140,000 companies and millions of people rely on Checkr for AI verification in the moments that matter most: getting a new job, a new place to live, a car ride, childcare, even a date. Customers include Uber, Pennymac, Airbnb, Doordash, and Anthropic.&lt;br&gt;&lt;br&gt;We’re a team that thrives on solving complex problems with innovative solutions that advance our mission. Checkr is recognized on &lt;a href=&quot;https://www.forbes.com/lists/cloud100/&quot; target=&quot;_blank&quot;&gt;Forbes Cloud 100 2025 List&lt;/a&gt; and is a Y Combinator 2024 &lt;a href=&quot;https://www.ycombinator.com/blog/yc-top-companies-2024&quot;&gt;Breakthrough Company&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;About the role&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;The Truework Team at Checkr is looking for a motivated Engineering Manager to lead our Mortgage Verifications Team. This team is responsible for building and launching new products, customer-facing experiences, and enhancing the Truework platform. As the Engineering Manager for this team, you will work hand-in-hand with product managers and key stakeholders to create the software and experiences that delight our customers. The projects you’ll be working on are high impact and scale: you’ll be advancing our architecture and systems to lead Truework and Checkr into the next generation of product offerings. The decisions you make will impact potentially millions of consumers every year, and help businesses make fast, informed, and safe decisions.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;What you’ll do:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Drive technical vision for the team that motivates and inspires the team for the next chapter&lt;/li&gt;\n&lt;li&gt;Partner closely with product management to build new features and enhance existing ones&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Work with the team to reduce technical debt and sustainably scale our architecture&lt;/li&gt;\n&lt;li&gt;Build relationships with customers and drive results with them&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Nurture and grow team members based on their career aspirations&lt;/li&gt;\n&lt;li&gt;Hire the best of the talent and continue to raise the bar for the team&lt;/li&gt;\n&lt;li&gt;Represent the team in planning and product meetings&lt;/li&gt;\n&lt;li&gt;Optimize engineering processes and policies to drive velocity and quality&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;What you bring:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;4+ years as an engineering manager&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;8+ years as an engineer&lt;/li&gt;\n&lt;li&gt;Strong skills in critical thinking, decision making, problem-solving, and attention to detail&lt;/li&gt;\n&lt;li&gt;Experience managing quality incidents as both a technical lead and communication lead&lt;/li&gt;\n&lt;li&gt;Experience working on products at scale, and understanding the data, legal, human impact, and technical nuances of supporting highly regulated products&lt;/li&gt;\n&lt;li&gt;Strong experience with TDD, pair programming, and agile methodologies&lt;/li&gt;\n&lt;li&gt;Deep understanding of service architecture and system design as well as lean software development principles&lt;/li&gt;\n&lt;li&gt;Ability to make high-level prioritization decisions quickly and thoughtfully&lt;/li&gt;\n&lt;li&gt;Able to develop inclusive teams to foster growth and diversity&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Humility, openness to feedback, and eagerness to learn&lt;/li&gt;\n&lt;li&gt;Experience with machine learning and AI is a plus&lt;/li&gt;\n&lt;li&gt;&lt;span data-sheets-root=&quot;1&quot;&gt;An A-player mindset with a strong bias for action: you raise the bar, move with urgency, stay resilient through ambiguity, and take ownership to deliver meaningful outcomes.&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;&lt;strong&gt;Pay Transparency Disclosure&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;We use geographic cost of labor as an input to develop ranges for our roles and as such, each location where we hire may have a different range. If this role is remote, we have listed the top to the bottom of the possible range, but we will specify the target range for an exact location when you are selected for a recruiting discussion. For more information on our compensation philosophy, see&lt;/em&gt;&lt;a href=&quot;https://checkr.com/company/careers&quot;&gt;&lt;em&gt; &lt;/em&gt;&lt;em&gt;our website&lt;/em&gt;&lt;/a&gt;&lt;em&gt;.&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;On-target Earnings OR Base Salary range (San Francisco, CA)&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$233,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$274,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;What We Offer&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;A fast-paced and collaborative environment&lt;/li&gt;\n&lt;li&gt;Learning and development allowance&lt;/li&gt;\n&lt;li&gt;Competitive cash and equity compensation, and opportunity for advancement&lt;/li&gt;\n&lt;li&gt;100% medical, dental, and vision coverage&lt;/li&gt;\n&lt;li&gt;Up to $25K reimbursement for fertility, adoption, and parental planning services&lt;/li&gt;\n&lt;li&gt;Flexible PTO policy&lt;/li&gt;\n&lt;li&gt;Monthly wellness stipend&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;At Checkr, we believe an in office work environment strengthens collaboration, drives innovation, and encourages connection. Our hub locations are Denver, CO; San Francisco, CA; Nashville, TN; and Santiago, Chile. Individuals are expected to work from the office 3+ days a week. In-office perks are provided, such as lunch five times a week, a commuter stipend, and an abundance of snacks and beverages. A relocation stipend may be available for those willing to relocate to a Checkr hub location.&lt;/em&gt;&lt;strong&gt;&lt;br&gt;&lt;/strong&gt;&lt;strong&gt;&lt;br&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Equal Employment Opportunities at Checkr&lt;/strong&gt;&lt;br&gt;&lt;em&gt;Checkr is committed to building the best product and company, which requires hiring talented and qualified individuals with a diverse set of perspectives and lived experiences. Checkr believes in hiring people of all backgrounds, including those whose histories are impacted by the justice system in accordance with local, state, and/or federal laws, including the &lt;/em&gt;&lt;a href=&quot;https://www.sf.gov/worker-rights-san-francisco&quot;&gt;&lt;em&gt;San Francisco’s Fair Chance Ordinance&lt;/em&gt;&lt;/a&gt;&lt;em&gt;.&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Applicant Privacy Policy&lt;/strong&gt;&lt;br&gt;If you are a California resident or are located in Alberta or British Columbia, our &lt;a href=&quot;https://checkr.com/legal/applicant-privacy-policy&quot; target=&quot;_blank&quot;&gt;Applicant Privacy Policy&lt;/a&gt; applies to our collection and processing of your personal information when you apply for a role with us or otherwise participate in our recruitment process.&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;*Legitimate Checkr emails will always include our official domain name after the @ symbol (e.g., &lt;a href=&quot;mailto:name@checkr.com&quot;&gt;name@checkr.com&lt;/a&gt; or &lt;a href=&quot;mailto:name@ext.checkr.com&quot;&gt;name@ext.checkr.com&lt;/a&gt;).&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;",
+        "departments": [
+          {
+            "id": 8787,
+            "name": "Engineering",
+            "child_ids": [],
+            "parent_id": null
+          }
+        ],
+        "offices": [
+          {
+            "id": 5439,
+            "name": "San Francisco",
+            "location": "San Francisco, California, United States",
+            "child_ids": [],
+            "parent_id": null
+          }
+        ],
+        "ai_disclaimer": null,
+        "include_ai_disclaimer": null,
+        "ai_opt_out_request_url": null
+      }
+    },
+    {
       "job_id": "295a76d8b3ed01da01c5e35d9ef813a3a29276e1ba6c3e6a75f96782b06e16fe",
       "external_id": "8155082",
       "company": "Checkr",
@@ -949,7 +949,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T16:08:11-04:00",
       "updated_at": "2026-08-24T16:08:11-04:00",
-      "discovered_at": "2026-08-29T05:46:16.265197+00:00",
+      "discovered_at": "2026-08-30T05:08:19.082255+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/checkr/jobs/8155082",
         "data_compliance": [
@@ -1014,7 +1014,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-21T11:46:27-04:00",
       "updated_at": "2026-08-21T11:46:27-04:00",
-      "discovered_at": "2026-08-29T05:46:16.265980+00:00",
+      "discovered_at": "2026-08-30T05:08:19.082865+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/checkr/jobs/8144106",
         "data_compliance": [
@@ -1079,7 +1079,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-15T15:22:21-04:00",
       "updated_at": "2026-07-15T15:22:21-04:00",
-      "discovered_at": "2026-08-29T05:46:16.266679+00:00",
+      "discovered_at": "2026-08-30T05:08:19.083455+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/checkr/jobs/7397715",
         "data_compliance": [
@@ -1144,7 +1144,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-28T17:04:42-04:00",
       "updated_at": "2026-07-28T17:04:42-04:00",
-      "discovered_at": "2026-08-29T05:46:16.267389+00:00",
+      "discovered_at": "2026-08-30T05:08:19.084108+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/checkr/jobs/8092999",
         "data_compliance": [
@@ -1209,7 +1209,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-08T17:11:17-04:00",
       "updated_at": "2026-07-08T17:11:17-04:00",
-      "discovered_at": "2026-08-29T05:46:16.268047+00:00",
+      "discovered_at": "2026-08-30T05:08:19.084645+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/checkr/jobs/7808923",
         "data_compliance": [
@@ -1274,7 +1274,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-16T19:58:30-04:00",
       "updated_at": "2026-07-16T19:58:30-04:00",
-      "discovered_at": "2026-08-29T05:46:16.268666+00:00",
+      "discovered_at": "2026-08-30T05:08:19.085243+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/checkr/jobs/8068441",
         "data_compliance": [
@@ -1339,7 +1339,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T18:18:38-04:00",
       "updated_at": "2026-08-24T18:18:38-04:00",
-      "discovered_at": "2026-08-29T05:46:16.269393+00:00",
+      "discovered_at": "2026-08-30T05:08:19.085724+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/checkr/jobs/8008408",
         "data_compliance": [
@@ -1389,71 +1389,6 @@
       }
     },
     {
-      "job_id": "168073d4cd6ef8d0c9ab9cfeeb0a752ac64739cae8d9ef90d2d63883f9ea91a3",
-      "external_id": "8080752",
-      "company": "Checkr",
-      "title": "SEC Reporting Technical Lead",
-      "location": "Denver, Colorado, United States; San Francisco, California, United States",
-      "remote": true,
-      "department": null,
-      "team": null,
-      "employment_type": null,
-      "description": "About Checkr Checkr is building the data platform to power safe and fair decisions. Over 140,000 companies and millions of people rely on Checkr for AI verification in the moments that matter most: getting a new job, a new place to live, a car ride, childcare, even a date. Customers include Uber, Pennymac, Airbnb, Doordash, and Anthropic. We’re a team that thrives on solving complex problems with innovative solutions that advance our mission. Checkr is recognized on Forbes Cloud 100 2025 List and is a Y Combinator 2024 Breakthrough Company . About the team/role Reporting to the Senior Manager of Revenue Accounting and based in San Francisco, CA or Denver, CO, you'll play a strategic, highly visible role within Checkr's Finance Operations (FinOps) organization — shaping how deals are structured and new revenue models come to market while ensuring alignment with ASC 606 and U.S. GAAP. You'll lead technical revenue accounting analyses, own the revenue close process, and translate accounting guidance into clear, scalable policies that balance compliance, efficiency, and commercial impact. You'll partner closely with Sales, Deal Desk, Legal, and RevOps to influence decisions that directly shape Checkr's continued growth. What you’ll do Own technical revenue accounting under ASC 606, serving as subject matter expert for complex revenue recognition matters, including contract assessments, non-standard deal structures, and evolving pricing and product models. Lead the revenue accounting close for month-end and quarter-end, ensuring accurate and timely revenue recognition, reconciliations, and reporting. Provide strategic accounting guidance to the business, partnering with Sales, Deal Desk, Legal, RevOps, and FP&amp;A to influence deal structures, product launches, and go-to-market initiatives before execution. Design, prototype, and ship AI-enabled tools and agents that automate manual work across the quote-to-cash lifecycle, compounding impact within the team and beyond. Draft technical accounting memos and maintain SOX-ready documentation, owning key controls and supporting audit readiness across revenue processes as the business scales. Lead high-impact revenue initiatives and special projects, applying technical judgment and analytical insight to enable compliant growth and data-driven decision-making. What you bring Bachelor's degree in Accounting or related field; CPA strongly preferred; 6+ years of progressive revenue accounting experience (Big 4 plus industry preferred). Deep technical expertise in U.S. GAAP and ASC 606, with demonstrated experience evaluating complex customer contracts, non-standard deal structures, and revenue recognition judgments. Track record owning revenue close activities with increasing scope, speed, and accuracy, plus strong project ownership leading ambiguous or cross-functional initiatives. Demonstrated AI fluency — you've moved past using AI for one-off tasks toward building and shipping tools or agents (e.g., with Claude, Lovable, Cursor, Gemini, or similar) that create leverage for the broader team, with hands-on SQL/BI experience. Excellent written and verbal communicator who partners effectively with Sales, Deal Desk, Legal, Product, RevOps, FP&amp;A, and Engineering — translating technical accounting conclusions for non-technical stakeholders. An A-player mindset with a strong bias for action: you raise the bar, move with urgency, stay resilient through ambiguity, and take ownership to deliver meaningful outcomes. #LI-CJ2 Pay Transparency Disclosure We use geographic cost of labor as an input to develop ranges for our roles and as such, each location where we hire may have a different range. If this role is remote, we have listed the top to the bottom of the possible range, but we will specify the target range for an exact location when you are selected for a recruiting discussion. For more information on our compensation philosophy, see our website . On-target Earnings OR Base Salary range (San Francisco, CA) $151,000 &mdash; $178,000 USD On-target Earnings OR Base Salary range (Denver, CO) $128,000 &mdash; $151,000 USD What We Offer A fast-paced and collaborative environment Learning and development allowance Competitive cash and equity compensation, and opportunity for advancement 100% medical, dental, and vision coverage Up to $25K reimbursement for fertility, adoption, and parental planning services Flexible PTO policy Monthly wellness stipend &nbsp; At Checkr, we believe an in office work environment strengthens collaboration, drives innovation, and encourages connection. Our hub locations are Denver, CO; San Francisco, CA; Nashville, TN; and Santiago, Chile. Individuals are expected to work from the office 3+ days a week. In-office perks are provided, such as lunch five times a week, a commuter stipend, and an abundance of snacks and beverages. A relocation stipend may be available for those willing to relocate to a Checkr hub location. Equal Employment Opportunities at Checkr Checkr is committed to building the best product and company, which requires hiring talented and qualified individuals with a diverse set of perspectives and lived experiences. Checkr believes in hiring people of all backgrounds, including those whose histories are impacted by the justice system in accordance with local, state, and/or federal laws, including the San Francisco’s Fair Chance Ordinance . Applicant Privacy Policy If you are a California resident or are located in Alberta or British Columbia, our Applicant Privacy Policy applies to our collection and processing of your personal information when you apply for a role with us or otherwise participate in our recruitment process. *Legitimate Checkr emails will always include our official domain name after the @ symbol (e.g., name@checkr.com or name@ext.checkr.com ).",
-      "apply_url": "https://job-boards.greenhouse.io/checkr/jobs/8080752",
-      "source_url": "https://job-boards.greenhouse.io/checkr/jobs/8080752",
-      "source": "greenhouse",
-      "posted_at": "2026-08-26T23:21:27-04:00",
-      "updated_at": "2026-08-26T23:21:27-04:00",
-      "discovered_at": "2026-08-29T05:46:16.270038+00:00",
-      "raw": {
-        "absolute_url": "https://job-boards.greenhouse.io/checkr/jobs/8080752",
-        "data_compliance": [
-          {
-            "type": "gdpr",
-            "requires_consent": false,
-            "requires_processing_consent": false,
-            "requires_retention_consent": false,
-            "retention_period": null,
-            "demographic_data_consent_applies": false
-          }
-        ],
-        "internal_job_id": 3500852,
-        "location": {
-          "name": "Denver, Colorado, United States; San Francisco, California, United States"
-        },
-        "metadata": null,
-        "id": 8080752,
-        "updated_at": "2026-08-26T23:21:27-04:00",
-        "requisition_id": "R4087",
-        "title": "SEC Reporting Technical Lead",
-        "company_name": "Checkr",
-        "first_published": "2026-07-29T15:13:58-04:00",
-        "language": "en",
-        "application_deadline": null,
-        "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;strong&gt;About Checkr&lt;br&gt;&lt;/strong&gt;&lt;/span&gt;Checkr is building the data platform to power safe and fair decisions. Over 140,000 companies and millions of people rely on Checkr for AI verification in the moments that matter most: getting a new job, a new place to live, a car ride, childcare, even a date. Customers include Uber, Pennymac, Airbnb, Doordash, and Anthropic.&lt;br&gt;&lt;br&gt;We’re a team that thrives on solving complex problems with innovative solutions that advance our mission. Checkr is recognized on &lt;a href=&quot;https://www.forbes.com/lists/cloud100/&quot; target=&quot;_blank&quot;&gt;Forbes Cloud 100 2025 List&lt;/a&gt; and is a Y Combinator 2024 &lt;a href=&quot;https://www.ycombinator.com/blog/yc-top-companies-2024&quot;&gt;Breakthrough Company&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;About the team/role&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Reporting to the Senior Manager of Revenue Accounting and based in San Francisco, CA or Denver, CO, you&#39;ll play a strategic, highly visible role within Checkr&#39;s Finance Operations (FinOps) organization — shaping how deals are structured and new revenue models come to market while ensuring alignment with ASC 606 and U.S. GAAP. You&#39;ll lead technical revenue accounting analyses, own the revenue close process, and translate accounting guidance into clear, scalable policies that balance compliance, efficiency, and commercial impact. You&#39;ll partner closely with Sales, Deal Desk, Legal, and RevOps to influence decisions that directly shape Checkr&#39;s continued growth.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;What you’ll do&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Own technical revenue accounting under ASC 606, serving as subject matter expert for complex revenue recognition matters, including contract assessments, non-standard deal structures, and evolving pricing and product models.&lt;/li&gt;\n&lt;li&gt;Lead the revenue accounting close for month-end and quarter-end, ensuring accurate and timely revenue recognition, reconciliations, and reporting.&lt;/li&gt;\n&lt;li&gt;Provide strategic accounting guidance to the business, partnering with Sales, Deal Desk, Legal, RevOps, and FP&amp;amp;A to influence deal structures, product launches, and go-to-market initiatives before execution.&lt;/li&gt;\n&lt;li&gt;Design, prototype, and ship AI-enabled tools and agents that automate manual work across the quote-to-cash lifecycle, compounding impact within the team and beyond.&lt;/li&gt;\n&lt;li&gt;Draft technical accounting memos and maintain SOX-ready documentation, owning key controls and supporting audit readiness across revenue processes as the business scales.&lt;/li&gt;\n&lt;li&gt;Lead high-impact revenue initiatives and special projects, applying technical judgment and analytical insight to enable compliant growth and data-driven decision-making.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;What you bring&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Bachelor&#39;s degree in Accounting or related field; CPA strongly preferred; 6+ years of progressive revenue accounting experience (Big 4 plus industry preferred).&lt;/li&gt;\n&lt;li&gt;Deep technical expertise in U.S. GAAP and ASC 606, with demonstrated experience evaluating complex customer contracts, non-standard deal structures, and revenue recognition judgments.&lt;/li&gt;\n&lt;li&gt;Track record owning revenue close activities with increasing scope, speed, and accuracy, plus strong project ownership leading ambiguous or cross-functional initiatives.&lt;/li&gt;\n&lt;li&gt;Demonstrated AI fluency — you&#39;ve moved past using AI for one-off tasks toward building and shipping tools or agents (e.g., with Claude, Lovable, Cursor, Gemini, or similar) that create leverage for the broader team, with hands-on SQL/BI experience.&lt;/li&gt;\n&lt;li&gt;Excellent written and verbal communicator who partners effectively with Sales, Deal Desk, Legal, Product, RevOps, FP&amp;amp;A, and Engineering — translating technical accounting conclusions for non-technical stakeholders.&lt;/li&gt;\n&lt;li&gt;An A-player mindset with a strong bias for action: you raise the bar, move with urgency, stay resilient through ambiguity, and take ownership to deliver meaningful outcomes.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;#LI-CJ2&lt;/span&gt;&lt;/p&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;&lt;strong&gt;Pay Transparency Disclosure&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;We use geographic cost of labor as an input to develop ranges for our roles and as such, each location where we hire may have a different range. If this role is remote, we have listed the top to the bottom of the possible range, but we will specify the target range for an exact location when you are selected for a recruiting discussion. For more information on our compensation philosophy, see&lt;/em&gt;&lt;a href=&quot;https://checkr.com/company/careers&quot;&gt;&lt;em&gt; &lt;/em&gt;&lt;em&gt;our website&lt;/em&gt;&lt;/a&gt;&lt;em&gt;.&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;On-target Earnings OR Base Salary range (San Francisco, CA)&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$151,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$178,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;title&quot;&gt;On-target Earnings OR Base Salary range (Denver, CO)&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$128,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$151,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;What We Offer&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;A fast-paced and collaborative environment&lt;/li&gt;\n&lt;li&gt;Learning and development allowance&lt;/li&gt;\n&lt;li&gt;Competitive cash and equity compensation, and opportunity for advancement&lt;/li&gt;\n&lt;li&gt;100% medical, dental, and vision coverage&lt;/li&gt;\n&lt;li&gt;Up to $25K reimbursement for fertility, adoption, and parental planning services&lt;/li&gt;\n&lt;li&gt;Flexible PTO policy&lt;/li&gt;\n&lt;li&gt;Monthly wellness stipend&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;At Checkr, we believe an in office work environment strengthens collaboration, drives innovation, and encourages connection. Our hub locations are Denver, CO; San Francisco, CA; Nashville, TN; and Santiago, Chile. Individuals are expected to work from the office 3+ days a week. In-office perks are provided, such as lunch five times a week, a commuter stipend, and an abundance of snacks and beverages. A relocation stipend may be available for those willing to relocate to a Checkr hub location.&lt;/em&gt;&lt;strong&gt;&lt;br&gt;&lt;/strong&gt;&lt;strong&gt;&lt;br&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Equal Employment Opportunities at Checkr&lt;/strong&gt;&lt;br&gt;&lt;em&gt;Checkr is committed to building the best product and company, which requires hiring talented and qualified individuals with a diverse set of perspectives and lived experiences. Checkr believes in hiring people of all backgrounds, including those whose histories are impacted by the justice system in accordance with local, state, and/or federal laws, including the &lt;/em&gt;&lt;a href=&quot;https://www.sf.gov/worker-rights-san-francisco&quot;&gt;&lt;em&gt;San Francisco’s Fair Chance Ordinance&lt;/em&gt;&lt;/a&gt;&lt;em&gt;.&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Applicant Privacy Policy&lt;/strong&gt;&lt;br&gt;If you are a California resident or are located in Alberta or British Columbia, our &lt;a href=&quot;https://checkr.com/legal/applicant-privacy-policy&quot; target=&quot;_blank&quot;&gt;Applicant Privacy Policy&lt;/a&gt; applies to our collection and processing of your personal information when you apply for a role with us or otherwise participate in our recruitment process.&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;*Legitimate Checkr emails will always include our official domain name after the @ symbol (e.g., &lt;a href=&quot;mailto:name@checkr.com&quot;&gt;name@checkr.com&lt;/a&gt; or &lt;a href=&quot;mailto:name@ext.checkr.com&quot;&gt;name@ext.checkr.com&lt;/a&gt;).&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;",
-        "departments": [
-          {
-            "id": 9557,
-            "name": "Finance",
-            "child_ids": [],
-            "parent_id": null
-          }
-        ],
-        "offices": [
-          {
-            "id": 5439,
-            "name": "San Francisco",
-            "location": "San Francisco, California, United States",
-            "child_ids": [],
-            "parent_id": null
-          }
-        ],
-        "ai_disclaimer": null,
-        "include_ai_disclaimer": null,
-        "ai_opt_out_request_url": null
-      }
-    },
-    {
       "job_id": "5c6cb947c837d0346d2238c141433f20ff77efa18e63abbadf426d33e6c1eb55",
       "external_id": "8157068",
       "company": "Checkr",
@@ -1469,7 +1404,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-25T13:00:45-04:00",
       "updated_at": "2026-08-25T13:00:45-04:00",
-      "discovered_at": "2026-08-29T05:46:16.270857+00:00",
+      "discovered_at": "2026-08-30T05:08:19.087578+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/checkr/jobs/8157068",
         "data_compliance": [
@@ -1534,7 +1469,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-14T15:26:49-04:00",
       "updated_at": "2026-08-14T15:26:49-04:00",
-      "discovered_at": "2026-08-29T05:46:16.271552+00:00",
+      "discovered_at": "2026-08-30T05:08:19.088347+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/checkr/jobs/8126358",
         "data_compliance": [
@@ -1599,7 +1534,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-14T16:23:14-04:00",
       "updated_at": "2026-07-14T16:23:14-04:00",
-      "discovered_at": "2026-08-29T05:46:16.272096+00:00",
+      "discovered_at": "2026-08-30T05:08:19.089055+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/checkr/jobs/7650448",
         "data_compliance": [
@@ -1664,7 +1599,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-26T11:20:07-04:00",
       "updated_at": "2026-08-26T11:20:07-04:00",
-      "discovered_at": "2026-08-29T05:46:16.272622+00:00",
+      "discovered_at": "2026-08-30T05:08:19.089606+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/checkr/jobs/8145212",
         "data_compliance": [
@@ -1729,7 +1664,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-20T09:04:23-04:00",
       "updated_at": "2026-08-20T09:04:23-04:00",
-      "discovered_at": "2026-08-29T05:46:16.273112+00:00",
+      "discovered_at": "2026-08-30T05:08:19.090097+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/checkr/jobs/8097492",
         "data_compliance": [
@@ -1794,7 +1729,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-15T19:59:31-04:00",
       "updated_at": "2026-07-15T19:59:31-04:00",
-      "discovered_at": "2026-08-29T05:46:16.276342+00:00",
+      "discovered_at": "2026-08-30T05:08:19.090638+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/checkr/jobs/8060903",
         "data_compliance": [
@@ -1859,7 +1794,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-17T13:28:21-04:00",
       "updated_at": "2026-08-17T13:28:21-04:00",
-      "discovered_at": "2026-08-29T05:46:16.277092+00:00",
+      "discovered_at": "2026-08-30T05:08:19.091218+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/checkr/jobs/8134319",
         "data_compliance": [
@@ -1924,7 +1859,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-20T09:04:52-04:00",
       "updated_at": "2026-08-20T09:04:52-04:00",
-      "discovered_at": "2026-08-29T05:46:16.277674+00:00",
+      "discovered_at": "2026-08-30T05:08:19.091783+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/checkr/jobs/7697852",
         "data_compliance": [
@@ -1996,7 +1931,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-14T20:51:36-04:00",
       "updated_at": "2026-08-14T20:51:36-04:00",
-      "discovered_at": "2026-08-29T05:46:16.278459+00:00",
+      "discovered_at": "2026-08-30T05:08:19.103484+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/checkr/jobs/7675919",
         "data_compliance": [
@@ -2061,7 +1996,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T16:09:01-04:00",
       "updated_at": "2026-08-24T16:09:01-04:00",
-      "discovered_at": "2026-08-29T05:46:16.279363+00:00",
+      "discovered_at": "2026-08-30T05:08:19.104243+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/checkr/jobs/8155083",
         "data_compliance": [
@@ -2126,7 +2061,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-27T17:33:44-04:00",
       "updated_at": "2026-07-27T17:33:44-04:00",
-      "discovered_at": "2026-08-29T05:46:16.279919+00:00",
+      "discovered_at": "2026-08-30T05:08:19.104753+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/checkr/jobs/7816362",
         "data_compliance": [
@@ -2191,7 +2126,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-21T17:55:41-04:00",
       "updated_at": "2026-08-21T17:55:41-04:00",
-      "discovered_at": "2026-08-29T05:46:16.280468+00:00",
+      "discovered_at": "2026-08-30T05:08:19.105243+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/checkr/jobs/8133344",
         "data_compliance": [
@@ -2256,7 +2191,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-26T13:45:52-04:00",
       "updated_at": "2026-08-26T13:45:52-04:00",
-      "discovered_at": "2026-08-29T05:46:16.281113+00:00",
+      "discovered_at": "2026-08-30T05:08:19.105918+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/checkr/jobs/8110103",
         "data_compliance": [
@@ -2321,7 +2256,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T14:09:31-04:00",
       "updated_at": "2026-08-27T14:09:31-04:00",
-      "discovered_at": "2026-08-29T05:46:16.282299+00:00",
+      "discovered_at": "2026-08-30T05:08:19.106475+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/checkr/jobs/6917810",
         "data_compliance": [
@@ -2393,7 +2328,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-25T22:01:27-04:00",
       "updated_at": "2026-08-25T22:01:27-04:00",
-      "discovered_at": "2026-08-29T05:46:16.283114+00:00",
+      "discovered_at": "2026-08-30T05:08:19.107249+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/checkr/jobs/8154536",
         "data_compliance": [
@@ -2458,7 +2393,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-08T19:18:18-04:00",
       "updated_at": "2026-07-08T19:18:18-04:00",
-      "discovered_at": "2026-08-29T05:46:16.283885+00:00",
+      "discovered_at": "2026-08-30T05:08:19.108034+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/checkr/jobs/8048826",
         "data_compliance": [
@@ -2523,7 +2458,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-04T11:40:17-04:00",
       "updated_at": "2026-08-04T11:40:17-04:00",
-      "discovered_at": "2026-08-29T05:46:16.284542+00:00",
+      "discovered_at": "2026-08-30T05:08:19.108905+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/checkr/jobs/8103823",
         "data_compliance": [
@@ -2588,7 +2523,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-13T14:36:31-04:00",
       "updated_at": "2026-07-13T14:36:31-04:00",
-      "discovered_at": "2026-08-29T05:46:16.285115+00:00",
+      "discovered_at": "2026-08-30T05:08:19.109451+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/checkr/jobs/8054618",
         "data_compliance": [
@@ -2653,7 +2588,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-08T17:11:17-04:00",
       "updated_at": "2026-07-08T17:11:17-04:00",
-      "discovered_at": "2026-08-29T05:46:16.285809+00:00",
+      "discovered_at": "2026-08-30T05:08:19.110192+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/checkr/jobs/7727737",
         "data_compliance": [
@@ -2718,7 +2653,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-23T12:06:38-04:00",
       "updated_at": "2026-07-23T12:06:38-04:00",
-      "discovered_at": "2026-08-29T05:46:16.286358+00:00",
+      "discovered_at": "2026-08-30T05:08:19.110809+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/checkr/jobs/8078265",
         "data_compliance": [
@@ -2783,7 +2718,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-17T13:27:32-04:00",
       "updated_at": "2026-08-17T13:27:32-04:00",
-      "discovered_at": "2026-08-29T05:46:16.286937+00:00",
+      "discovered_at": "2026-08-30T05:08:19.111417+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/checkr/jobs/8134277",
         "data_compliance": [
@@ -2848,7 +2783,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-20T09:04:01-04:00",
       "updated_at": "2026-08-20T09:04:01-04:00",
-      "discovered_at": "2026-08-29T05:46:16.287480+00:00",
+      "discovered_at": "2026-08-30T05:08:19.112091+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/checkr/jobs/7819220",
         "data_compliance": [
@@ -2920,7 +2855,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-20T09:03:21-04:00",
       "updated_at": "2026-08-20T09:03:21-04:00",
-      "discovered_at": "2026-08-29T05:46:16.290044+00:00",
+      "discovered_at": "2026-08-30T05:08:19.113025+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/checkr/jobs/8024912",
         "data_compliance": [
@@ -2992,7 +2927,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-13T16:26:20-04:00",
       "updated_at": "2026-07-13T16:26:20-04:00",
-      "discovered_at": "2026-08-29T05:46:16.291160+00:00",
+      "discovered_at": "2026-08-30T05:08:19.114051+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/checkr/jobs/8052671",
         "data_compliance": [
@@ -3057,7 +2992,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T15:47:30-04:00",
       "updated_at": "2026-08-24T15:47:30-04:00",
-      "discovered_at": "2026-08-29T05:46:16.292592+00:00",
+      "discovered_at": "2026-08-30T05:08:19.122489+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/checkr/jobs/8145302",
         "data_compliance": [
@@ -3084,6 +3019,71 @@
         "language": "en",
         "application_deadline": null,
         "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;strong&gt;About Checkr&lt;br&gt;&lt;/strong&gt;&lt;/span&gt;Checkr is building the data platform to power safe and fair decisions. Over 140,000 companies and millions of people rely on Checkr for AI verification in the moments that matter most: getting a new job, a new place to live, a car ride, childcare, even a date. Customers include Uber, Pennymac, Airbnb, Doordash, and Anthropic.&lt;br&gt;&lt;br&gt;We’re a team that thrives on solving complex problems with innovative solutions that advance our mission. Checkr is recognized on &lt;a href=&quot;https://www.forbes.com/lists/cloud100/&quot; target=&quot;_blank&quot;&gt;Forbes Cloud 100 2025 List&lt;/a&gt; and is a Y Combinator 2024 &lt;a href=&quot;https://www.ycombinator.com/blog/yc-top-companies-2024&quot;&gt;Breakthrough Company&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;About the team and role&lt;/strong&gt;&lt;strong&gt;&lt;br&gt;&lt;/strong&gt;The Financial Planning &amp;amp; Strategy (FP&amp;amp;S) team at Checkr sits at the intersection of finance, strategy, and execution. We don&#39;t just report on the business, we shape it.&amp;nbsp; We drive strategic decision-making through deep cross-functional partnership, financial and strategic analyses, and domain expertise. We proactively identify opportunities to fuel growth toward Checkr’s goals and deliver the highest impact outcomes.&lt;/p&gt;\n&lt;p&gt;We are looking for several &lt;strong&gt;Strategic Finance Senior Analysts &lt;/strong&gt;to join our growing team. We focus on delivering actionable insights into business performance and optimizing resource allocation to accelerate growth. This person will play a pivotal role in how we scale our growth businesses.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;What you’ll do&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Model Ownership: &lt;/strong&gt;Own revenue and opex models that set goals and measure business performance.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Build the next-generation StratFin team:&lt;/strong&gt; Develop AI-powered workflows, automated analyses, and intelligence systems that redefine what a strategic finance team can do.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Strategy: &lt;/strong&gt;Assess and define our existing and potential future strategic priorities. Quantitatively validate and drive influence toward the highest revenue impact and ROI initiatives.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Insights: &lt;/strong&gt;Proactively deliver data-driven insights and recommendations that inform go-to-market tactics, product features and experiments, budget allocations, Board of Directors / investor materials, and other cross-functional roadmaps.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Business Partnership: &lt;/strong&gt;Collaborate with cross-functional partners across Sales, Product, Finance, Corporate Development, and more.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Strategic Planning: &lt;/strong&gt;Contribute to our long-range, annual, and quarterly planning processes, including the strategic plan that positions us to accomplish our goals.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;What you bring&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;4+ years of experience. Foundational experience in investment banking, private equity, or strategic finance/business operations is preferred. Experience with consumption-based business models is a meaningful plus.&lt;/li&gt;\n&lt;li&gt;Proven track record of driving business outcomes through data analytics and financial insights.&lt;/li&gt;\n&lt;li&gt;You&#39;ve built something with AI- a model, a workflow, an automated analysis. You&#39;re eager to do more of it. You see AI as a core part of how great finance teams will operate, not a novelty.&lt;/li&gt;\n&lt;li&gt;Expert-level modeling ability, translating complex business drivers into clear frameworks.&lt;/li&gt;\n&lt;li&gt;Experience with Adaptive, Claude, Lovable, Salesforce, BI tools (ie. Omni), SQL.&lt;/li&gt;\n&lt;li&gt;You identify problems before they&#39;re handed to you, and you thrive when the answer isn&#39;t obvious.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;An A-player mindset with a strong bias for action: you raise the bar, move with urgency, stay resilient through ambiguity, and take ownership to deliver meaningful outcomes&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;&lt;strong&gt;Pay Transparency Disclosure&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;We use geographic cost of labor as an input to develop ranges for our roles and as such, each location where we hire may have a different range. If this role is remote, we have listed the top to the bottom of the possible range, but we will specify the target range for an exact location when you are selected for a recruiting discussion. For more information on our compensation philosophy, see&lt;/em&gt;&lt;a href=&quot;https://checkr.com/company/careers&quot;&gt;&lt;em&gt; &lt;/em&gt;&lt;em&gt;our website&lt;/em&gt;&lt;/a&gt;&lt;em&gt;.&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;On-target Earnings OR Base Salary range (San Francisco, CA)&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$128,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$173,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;What We Offer&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;A fast-paced and collaborative environment&lt;/li&gt;\n&lt;li&gt;Learning and development allowance&lt;/li&gt;\n&lt;li&gt;Competitive cash and equity compensation, and opportunity for advancement&lt;/li&gt;\n&lt;li&gt;100% medical, dental, and vision coverage&lt;/li&gt;\n&lt;li&gt;Up to $25K reimbursement for fertility, adoption, and parental planning services&lt;/li&gt;\n&lt;li&gt;Flexible PTO policy&lt;/li&gt;\n&lt;li&gt;Monthly wellness stipend&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;At Checkr, we believe an in office work environment strengthens collaboration, drives innovation, and encourages connection. Our hub locations are Denver, CO; San Francisco, CA; Nashville, TN; and Santiago, Chile. Individuals are expected to work from the office 3+ days a week. In-office perks are provided, such as lunch five times a week, a commuter stipend, and an abundance of snacks and beverages. A relocation stipend may be available for those willing to relocate to a Checkr hub location.&lt;/em&gt;&lt;strong&gt;&lt;br&gt;&lt;/strong&gt;&lt;strong&gt;&lt;br&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Equal Employment Opportunities at Checkr&lt;/strong&gt;&lt;br&gt;&lt;em&gt;Checkr is committed to building the best product and company, which requires hiring talented and qualified individuals with a diverse set of perspectives and lived experiences. Checkr believes in hiring people of all backgrounds, including those whose histories are impacted by the justice system in accordance with local, state, and/or federal laws, including the &lt;/em&gt;&lt;a href=&quot;https://www.sf.gov/worker-rights-san-francisco&quot;&gt;&lt;em&gt;San Francisco’s Fair Chance Ordinance&lt;/em&gt;&lt;/a&gt;&lt;em&gt;.&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Applicant Privacy Policy&lt;/strong&gt;&lt;br&gt;If you are a California resident or are located in Alberta or British Columbia, our &lt;a href=&quot;https://checkr.com/legal/applicant-privacy-policy&quot; target=&quot;_blank&quot;&gt;Applicant Privacy Policy&lt;/a&gt; applies to our collection and processing of your personal information when you apply for a role with us or otherwise participate in our recruitment process.&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;*Legitimate Checkr emails will always include our official domain name after the @ symbol (e.g., &lt;a href=&quot;mailto:name@checkr.com&quot;&gt;name@checkr.com&lt;/a&gt; or &lt;a href=&quot;mailto:name@ext.checkr.com&quot;&gt;name@ext.checkr.com&lt;/a&gt;).&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;",
+        "departments": [
+          {
+            "id": 9557,
+            "name": "Finance",
+            "child_ids": [],
+            "parent_id": null
+          }
+        ],
+        "offices": [
+          {
+            "id": 5439,
+            "name": "San Francisco",
+            "location": "San Francisco, California, United States",
+            "child_ids": [],
+            "parent_id": null
+          }
+        ],
+        "ai_disclaimer": null,
+        "include_ai_disclaimer": null,
+        "ai_opt_out_request_url": null
+      }
+    },
+    {
+      "job_id": "168073d4cd6ef8d0c9ab9cfeeb0a752ac64739cae8d9ef90d2d63883f9ea91a3",
+      "external_id": "8080752",
+      "company": "Checkr",
+      "title": "Technical Revenue Accounting Manager",
+      "location": "Denver, Colorado, United States; San Francisco, California, United States",
+      "remote": true,
+      "department": null,
+      "team": null,
+      "employment_type": null,
+      "description": "About Checkr Checkr is building the data platform to power safe and fair decisions. Over 140,000 companies and millions of people rely on Checkr for AI verification in the moments that matter most: getting a new job, a new place to live, a car ride, childcare, even a date. Customers include Uber, Pennymac, Airbnb, Doordash, and Anthropic. We’re a team that thrives on solving complex problems with innovative solutions that advance our mission. Checkr is recognized on Forbes Cloud 100 2025 List and is a Y Combinator 2024 Breakthrough Company . About the team/role Reporting to the Senior Manager of Revenue Accounting and based in San Francisco, CA or Denver, CO, you'll play a strategic, highly visible role within Checkr's Finance Operations (FinOps) organization — shaping how deals are structured and new revenue models come to market while ensuring alignment with ASC 606 and U.S. GAAP. You'll lead technical revenue accounting analyses, own the revenue close process, and translate accounting guidance into clear, scalable policies that balance compliance, efficiency, and commercial impact. You'll partner closely with Sales, Deal Desk, Legal, and RevOps to influence decisions that directly shape Checkr's continued growth. What you’ll do Own technical revenue accounting under ASC 606, serving as subject matter expert for complex revenue recognition matters, including contract assessments, non-standard deal structures, and evolving pricing and product models. Lead the revenue accounting close for month-end and quarter-end, ensuring accurate and timely revenue recognition, reconciliations, and reporting. Provide strategic accounting guidance to the business, partnering with Sales, Deal Desk, Legal, RevOps, and FP&amp;A to influence deal structures, product launches, and go-to-market initiatives before execution. Design, prototype, and ship AI-enabled tools and agents that automate manual work across the quote-to-cash lifecycle, compounding impact within the team and beyond. Draft technical accounting memos and maintain SOX-ready documentation, owning key controls and supporting audit readiness across revenue processes as the business scales. Lead high-impact revenue initiatives and special projects, applying technical judgment and analytical insight to enable compliant growth and data-driven decision-making. What you bring Bachelor's degree in Accounting or related field; CPA strongly preferred; 6+ years of progressive revenue accounting experience (Big 4 plus industry preferred). Deep technical expertise in U.S. GAAP and ASC 606, with demonstrated experience evaluating complex customer contracts, non-standard deal structures, and revenue recognition judgments. Track record owning revenue close activities with increasing scope, speed, and accuracy, plus strong project ownership leading ambiguous or cross-functional initiatives. Demonstrated AI fluency — you've moved past using AI for one-off tasks toward building and shipping tools or agents (e.g., with Claude, Lovable, Cursor, Gemini, or similar) that create leverage for the broader team, with hands-on SQL/BI experience. Excellent written and verbal communicator who partners effectively with Sales, Deal Desk, Legal, Product, RevOps, FP&amp;A, and Engineering — translating technical accounting conclusions for non-technical stakeholders. An A-player mindset with a strong bias for action: you raise the bar, move with urgency, stay resilient through ambiguity, and take ownership to deliver meaningful outcomes. #LI-CJ2 Pay Transparency Disclosure We use geographic cost of labor as an input to develop ranges for our roles and as such, each location where we hire may have a different range. If this role is remote, we have listed the top to the bottom of the possible range, but we will specify the target range for an exact location when you are selected for a recruiting discussion. For more information on our compensation philosophy, see our website . On-target Earnings OR Base Salary range (San Francisco, CA) $151,000 &mdash; $178,000 USD On-target Earnings OR Base Salary range (Denver, CO) $128,000 &mdash; $151,000 USD What We Offer A fast-paced and collaborative environment Learning and development allowance Competitive cash and equity compensation, and opportunity for advancement 100% medical, dental, and vision coverage Up to $25K reimbursement for fertility, adoption, and parental planning services Flexible PTO policy Monthly wellness stipend &nbsp; At Checkr, we believe an in office work environment strengthens collaboration, drives innovation, and encourages connection. Our hub locations are Denver, CO; San Francisco, CA; Nashville, TN; and Santiago, Chile. Individuals are expected to work from the office 3+ days a week. In-office perks are provided, such as lunch five times a week, a commuter stipend, and an abundance of snacks and beverages. A relocation stipend may be available for those willing to relocate to a Checkr hub location. Equal Employment Opportunities at Checkr Checkr is committed to building the best product and company, which requires hiring talented and qualified individuals with a diverse set of perspectives and lived experiences. Checkr believes in hiring people of all backgrounds, including those whose histories are impacted by the justice system in accordance with local, state, and/or federal laws, including the San Francisco’s Fair Chance Ordinance . Applicant Privacy Policy If you are a California resident or are located in Alberta or British Columbia, our Applicant Privacy Policy applies to our collection and processing of your personal information when you apply for a role with us or otherwise participate in our recruitment process. *Legitimate Checkr emails will always include our official domain name after the @ symbol (e.g., name@checkr.com or name@ext.checkr.com ).",
+      "apply_url": "https://job-boards.greenhouse.io/checkr/jobs/8080752",
+      "source_url": "https://job-boards.greenhouse.io/checkr/jobs/8080752",
+      "source": "greenhouse",
+      "posted_at": "2026-08-29T09:36:07-04:00",
+      "updated_at": "2026-08-29T09:36:07-04:00",
+      "discovered_at": "2026-08-30T05:08:19.123369+00:00",
+      "raw": {
+        "absolute_url": "https://job-boards.greenhouse.io/checkr/jobs/8080752",
+        "data_compliance": [
+          {
+            "type": "gdpr",
+            "requires_consent": false,
+            "requires_processing_consent": false,
+            "requires_retention_consent": false,
+            "retention_period": null,
+            "demographic_data_consent_applies": false
+          }
+        ],
+        "internal_job_id": 3500852,
+        "location": {
+          "name": "Denver, Colorado, United States; San Francisco, California, United States"
+        },
+        "metadata": null,
+        "id": 8080752,
+        "updated_at": "2026-08-29T09:36:07-04:00",
+        "requisition_id": "R4087",
+        "title": "Technical Revenue Accounting Manager",
+        "company_name": "Checkr",
+        "first_published": "2026-07-29T15:13:58-04:00",
+        "language": "en",
+        "application_deadline": null,
+        "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;strong&gt;About Checkr&lt;br&gt;&lt;/strong&gt;&lt;/span&gt;Checkr is building the data platform to power safe and fair decisions. Over 140,000 companies and millions of people rely on Checkr for AI verification in the moments that matter most: getting a new job, a new place to live, a car ride, childcare, even a date. Customers include Uber, Pennymac, Airbnb, Doordash, and Anthropic.&lt;br&gt;&lt;br&gt;We’re a team that thrives on solving complex problems with innovative solutions that advance our mission. Checkr is recognized on &lt;a href=&quot;https://www.forbes.com/lists/cloud100/&quot; target=&quot;_blank&quot;&gt;Forbes Cloud 100 2025 List&lt;/a&gt; and is a Y Combinator 2024 &lt;a href=&quot;https://www.ycombinator.com/blog/yc-top-companies-2024&quot;&gt;Breakthrough Company&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;About the team/role&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Reporting to the Senior Manager of Revenue Accounting and based in San Francisco, CA or Denver, CO, you&#39;ll play a strategic, highly visible role within Checkr&#39;s Finance Operations (FinOps) organization — shaping how deals are structured and new revenue models come to market while ensuring alignment with ASC 606 and U.S. GAAP. You&#39;ll lead technical revenue accounting analyses, own the revenue close process, and translate accounting guidance into clear, scalable policies that balance compliance, efficiency, and commercial impact. You&#39;ll partner closely with Sales, Deal Desk, Legal, and RevOps to influence decisions that directly shape Checkr&#39;s continued growth.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;What you’ll do&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Own technical revenue accounting under ASC 606, serving as subject matter expert for complex revenue recognition matters, including contract assessments, non-standard deal structures, and evolving pricing and product models.&lt;/li&gt;\n&lt;li&gt;Lead the revenue accounting close for month-end and quarter-end, ensuring accurate and timely revenue recognition, reconciliations, and reporting.&lt;/li&gt;\n&lt;li&gt;Provide strategic accounting guidance to the business, partnering with Sales, Deal Desk, Legal, RevOps, and FP&amp;amp;A to influence deal structures, product launches, and go-to-market initiatives before execution.&lt;/li&gt;\n&lt;li&gt;Design, prototype, and ship AI-enabled tools and agents that automate manual work across the quote-to-cash lifecycle, compounding impact within the team and beyond.&lt;/li&gt;\n&lt;li&gt;Draft technical accounting memos and maintain SOX-ready documentation, owning key controls and supporting audit readiness across revenue processes as the business scales.&lt;/li&gt;\n&lt;li&gt;Lead high-impact revenue initiatives and special projects, applying technical judgment and analytical insight to enable compliant growth and data-driven decision-making.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;What you bring&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Bachelor&#39;s degree in Accounting or related field; CPA strongly preferred; 6+ years of progressive revenue accounting experience (Big 4 plus industry preferred).&lt;/li&gt;\n&lt;li&gt;Deep technical expertise in U.S. GAAP and ASC 606, with demonstrated experience evaluating complex customer contracts, non-standard deal structures, and revenue recognition judgments.&lt;/li&gt;\n&lt;li&gt;Track record owning revenue close activities with increasing scope, speed, and accuracy, plus strong project ownership leading ambiguous or cross-functional initiatives.&lt;/li&gt;\n&lt;li&gt;Demonstrated AI fluency — you&#39;ve moved past using AI for one-off tasks toward building and shipping tools or agents (e.g., with Claude, Lovable, Cursor, Gemini, or similar) that create leverage for the broader team, with hands-on SQL/BI experience.&lt;/li&gt;\n&lt;li&gt;Excellent written and verbal communicator who partners effectively with Sales, Deal Desk, Legal, Product, RevOps, FP&amp;amp;A, and Engineering — translating technical accounting conclusions for non-technical stakeholders.&lt;/li&gt;\n&lt;li&gt;An A-player mindset with a strong bias for action: you raise the bar, move with urgency, stay resilient through ambiguity, and take ownership to deliver meaningful outcomes.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;#LI-CJ2&lt;/span&gt;&lt;/p&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;&lt;strong&gt;Pay Transparency Disclosure&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;We use geographic cost of labor as an input to develop ranges for our roles and as such, each location where we hire may have a different range. If this role is remote, we have listed the top to the bottom of the possible range, but we will specify the target range for an exact location when you are selected for a recruiting discussion. For more information on our compensation philosophy, see&lt;/em&gt;&lt;a href=&quot;https://checkr.com/company/careers&quot;&gt;&lt;em&gt; &lt;/em&gt;&lt;em&gt;our website&lt;/em&gt;&lt;/a&gt;&lt;em&gt;.&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;On-target Earnings OR Base Salary range (San Francisco, CA)&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$151,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$178,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;title&quot;&gt;On-target Earnings OR Base Salary range (Denver, CO)&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$128,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$151,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;What We Offer&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;A fast-paced and collaborative environment&lt;/li&gt;\n&lt;li&gt;Learning and development allowance&lt;/li&gt;\n&lt;li&gt;Competitive cash and equity compensation, and opportunity for advancement&lt;/li&gt;\n&lt;li&gt;100% medical, dental, and vision coverage&lt;/li&gt;\n&lt;li&gt;Up to $25K reimbursement for fertility, adoption, and parental planning services&lt;/li&gt;\n&lt;li&gt;Flexible PTO policy&lt;/li&gt;\n&lt;li&gt;Monthly wellness stipend&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;At Checkr, we believe an in office work environment strengthens collaboration, drives innovation, and encourages connection. Our hub locations are Denver, CO; San Francisco, CA; Nashville, TN; and Santiago, Chile. Individuals are expected to work from the office 3+ days a week. In-office perks are provided, such as lunch five times a week, a commuter stipend, and an abundance of snacks and beverages. A relocation stipend may be available for those willing to relocate to a Checkr hub location.&lt;/em&gt;&lt;strong&gt;&lt;br&gt;&lt;/strong&gt;&lt;strong&gt;&lt;br&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Equal Employment Opportunities at Checkr&lt;/strong&gt;&lt;br&gt;&lt;em&gt;Checkr is committed to building the best product and company, which requires hiring talented and qualified individuals with a diverse set of perspectives and lived experiences. Checkr believes in hiring people of all backgrounds, including those whose histories are impacted by the justice system in accordance with local, state, and/or federal laws, including the &lt;/em&gt;&lt;a href=&quot;https://www.sf.gov/worker-rights-san-francisco&quot;&gt;&lt;em&gt;San Francisco’s Fair Chance Ordinance&lt;/em&gt;&lt;/a&gt;&lt;em&gt;.&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Applicant Privacy Policy&lt;/strong&gt;&lt;br&gt;If you are a California resident or are located in Alberta or British Columbia, our &lt;a href=&quot;https://checkr.com/legal/applicant-privacy-policy&quot; target=&quot;_blank&quot;&gt;Applicant Privacy Policy&lt;/a&gt; applies to our collection and processing of your personal information when you apply for a role with us or otherwise participate in our recruitment process.&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;*Legitimate Checkr emails will always include our official domain name after the @ symbol (e.g., &lt;a href=&quot;mailto:name@checkr.com&quot;&gt;name@checkr.com&lt;/a&gt; or &lt;a href=&quot;mailto:name@ext.checkr.com&quot;&gt;name@ext.checkr.com&lt;/a&gt;).&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;",
         "departments": [
           {
             "id": 9557,

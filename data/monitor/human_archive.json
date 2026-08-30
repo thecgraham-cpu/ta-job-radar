@@ -4,7 +4,7 @@
   "career_page": "https://jobs.ashbyhq.com/humanarchive",
   "source": "ashby",
   "identifier": "humanarchive",
-  "scanned_at": "2026-08-29T05:46:19.875429+00:00",
+  "scanned_at": "2026-08-30T05:08:21.266238+00:00",
   "count": 19,
   "total_available": 19,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "ashby",
       "posted_at": "2026-05-06T16:52:48.793+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.863860+00:00",
+      "discovered_at": "2026-08-30T05:08:21.262434+00:00",
       "raw": {
         "id": "2b3cb160-6588-40fe-9416-5e5205f11e48",
         "title": "Head of Engineering",
@@ -61,7 +61,7 @@
       "source": "ashby",
       "posted_at": "2026-05-09T08:36:36.774+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.864325+00:00",
+      "discovered_at": "2026-08-30T05:08:21.262703+00:00",
       "raw": {
         "id": "98291570-1c51-4517-93f8-845fea602f43",
         "title": "Machine Learning Engineer",
@@ -97,7 +97,7 @@
       "source": "ashby",
       "posted_at": "2026-05-09T09:28:30.783+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.864838+00:00",
+      "discovered_at": "2026-08-30T05:08:21.262939+00:00",
       "raw": {
         "id": "d0a106eb-9431-4f4b-93e3-9656ee137dce",
         "title": "Firmware Engineer",
@@ -139,7 +139,7 @@
       "source": "ashby",
       "posted_at": "2026-05-09T08:59:06.446+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.865342+00:00",
+      "discovered_at": "2026-08-30T05:08:21.263157+00:00",
       "raw": {
         "id": "5afe8933-d380-4b12-a59e-ed82ccd64c6e",
         "title": "Head of Operations",
@@ -181,7 +181,7 @@
       "source": "ashby",
       "posted_at": "2026-05-09T09:08:04.237+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.865811+00:00",
+      "discovered_at": "2026-08-30T05:08:21.263367+00:00",
       "raw": {
         "id": "f922a56c-4f79-4d69-8d5a-f9980c118692",
         "title": "Research Engineer",
@@ -217,7 +217,7 @@
       "source": "ashby",
       "posted_at": "2026-05-09T09:16:22.698+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.866567+00:00",
+      "discovered_at": "2026-08-30T05:08:21.263598+00:00",
       "raw": {
         "id": "1034b7e6-8280-4b1c-975e-b1e146070d99",
         "title": "Operations ",
@@ -257,7 +257,7 @@
       "source": "ashby",
       "posted_at": "2026-05-09T09:23:35.005+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.867136+00:00",
+      "discovered_at": "2026-08-30T05:08:21.263811+00:00",
       "raw": {
         "id": "7b865c18-f967-4389-a2dd-cc603cdacbcf",
         "title": "Mechanical Engineer",
@@ -299,7 +299,7 @@
       "source": "ashby",
       "posted_at": "2026-05-09T09:40:25.158+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.867678+00:00",
+      "discovered_at": "2026-08-30T05:08:21.264081+00:00",
       "raw": {
         "id": "6ad9527a-990b-45ce-8826-525250f40caa",
         "title": "Embedded / Electrical Engineer",
@@ -341,7 +341,7 @@
       "source": "ashby",
       "posted_at": "2026-05-11T16:54:25.713+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.868193+00:00",
+      "discovered_at": "2026-08-30T05:08:21.264292+00:00",
       "raw": {
         "id": "cd219802-77b3-48b2-bb26-2a117f318d3f",
         "title": "Infrastructure Engineer",
@@ -377,7 +377,7 @@
       "source": "ashby",
       "posted_at": "2026-05-25T09:42:45.084+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.870870+00:00",
+      "discovered_at": "2026-08-30T05:08:21.264505+00:00",
       "raw": {
         "id": "9e67c170-ff6a-44f1-a2e7-69eaf78ab2f5",
         "title": "Camera Systems and Calibration Engineer",
@@ -419,7 +419,7 @@
       "source": "ashby",
       "posted_at": "2026-08-03T15:42:07.890+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.871138+00:00",
+      "discovered_at": "2026-08-30T05:08:21.264701+00:00",
       "raw": {
         "id": "8f373ae1-2315-481d-b789-6407b4574a8a",
         "title": "Dark Store & Inventory Operations Lead",
@@ -455,7 +455,7 @@
       "source": "ashby",
       "posted_at": "2026-08-03T16:00:15.382+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.871910+00:00",
+      "discovered_at": "2026-08-30T05:08:21.264912+00:00",
       "raw": {
         "id": "a670da53-a205-4d8f-ab0c-e9316366335d",
         "title": "Founder's Office ",
@@ -491,7 +491,7 @@
       "source": "ashby",
       "posted_at": "2026-08-03T16:11:23.145+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.872229+00:00",
+      "discovered_at": "2026-08-30T05:08:21.265007+00:00",
       "raw": {
         "id": "15617d2b-054c-45dd-ba8c-1a1e3dfd2089",
         "title": "Strategy & Project Lead (Data Operations)",
@@ -527,7 +527,7 @@
       "source": "ashby",
       "posted_at": "2026-08-03T16:18:14.532+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.872629+00:00",
+      "discovered_at": "2026-08-30T05:08:21.265136+00:00",
       "raw": {
         "id": "02450494-adb8-4c8e-8720-492f5319247d",
         "title": "Operations Manager",
@@ -563,7 +563,7 @@
       "source": "ashby",
       "posted_at": "2026-08-06T15:44:35.976+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.873433+00:00",
+      "discovered_at": "2026-08-30T05:08:21.265386+00:00",
       "raw": {
         "id": "64998dcd-4f97-4c9f-b908-3ccb61311790",
         "title": "Deployment Associate - Field Operations",
@@ -599,7 +599,7 @@
       "source": "ashby",
       "posted_at": "2026-08-13T10:54:43.205+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.874433+00:00",
+      "discovered_at": "2026-08-30T05:08:21.265802+00:00",
       "raw": {
         "id": "9843105d-f7c0-4e5e-ad6e-999836e61fc5",
         "title": "Operations Manager (on-site)",
@@ -635,7 +635,7 @@
       "source": "ashby",
       "posted_at": "2026-08-12T10:10:21.381+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.874841+00:00",
+      "discovered_at": "2026-08-30T05:08:21.265954+00:00",
       "raw": {
         "id": "4c694746-a082-4ee9-9dcd-06a1b82f44ee",
         "title": "Founder's Office Intern - Partnerships ",
@@ -671,7 +671,7 @@
       "source": "ashby",
       "posted_at": "2026-08-20T09:43:00.675+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.875197+00:00",
+      "discovered_at": "2026-08-30T05:08:21.266127+00:00",
       "raw": {
         "id": "4f240685-57f2-4b60-b988-d54d043855ec",
         "title": "Head of Talent Acquisition",
@@ -707,7 +707,7 @@
       "source": "ashby",
       "posted_at": "2026-08-18T08:04:32.141+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.875384+00:00",
+      "discovered_at": "2026-08-30T05:08:21.266214+00:00",
       "raw": {
         "id": "08389253-b397-4e12-bb3f-7278e12fe4b9",
         "title": "Chief of Staff",

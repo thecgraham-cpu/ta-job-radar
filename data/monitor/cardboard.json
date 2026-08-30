@@ -4,7 +4,7 @@
   "career_page": "https://jobs.ashbyhq.com/cardboard",
   "source": "ashby",
   "identifier": "cardboard",
-  "scanned_at": "2026-08-29T05:46:17.076085+00:00",
+  "scanned_at": "2026-08-30T05:08:19.585222+00:00",
   "count": 6,
   "total_available": 6,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "ashby",
       "posted_at": "2026-07-04T17:16:16.928+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.074796+00:00",
+      "discovered_at": "2026-08-30T05:08:19.584226+00:00",
       "raw": {
         "id": "5eadc9e2-784a-47e6-a605-30327a27bb6f",
         "title": "Growth Operator",
@@ -67,7 +67,7 @@
       "source": "ashby",
       "posted_at": "2026-08-13T08:11:17.881+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.075041+00:00",
+      "discovered_at": "2026-08-30T05:08:19.584442+00:00",
       "raw": {
         "id": "71a37ec3-d1df-4769-b018-a1c8f986bc1f",
         "title": "Backend Engineer",
@@ -109,7 +109,7 @@
       "source": "ashby",
       "posted_at": "2026-06-20T12:35:52.703+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.075228+00:00",
+      "discovered_at": "2026-08-30T05:08:19.584610+00:00",
       "raw": {
         "id": "921e0575-f829-4721-923d-36c2a8d6c7c7",
         "title": "Founding Designer",
@@ -162,7 +162,7 @@
       "source": "ashby",
       "posted_at": "2026-06-22T11:31:57.236+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.075545+00:00",
+      "discovered_at": "2026-08-30T05:08:19.584784+00:00",
       "raw": {
         "id": "8ef0724c-e8f8-48ca-9f11-e21096b7474c",
         "title": "Founding Design Engineer",
@@ -215,7 +215,7 @@
       "source": "ashby",
       "posted_at": "2026-08-26T18:44:09.204+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.075796+00:00",
+      "discovered_at": "2026-08-30T05:08:19.584981+00:00",
       "raw": {
         "id": "744b9881-cf83-4b20-b6dd-5ef8e8082e62",
         "title": "Fullstack Engineer",
@@ -257,7 +257,7 @@
       "source": "ashby",
       "posted_at": "2026-08-15T11:14:50.917+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.076060+00:00",
+      "discovered_at": "2026-08-30T05:08:19.585205+00:00",
       "raw": {
         "id": "2aa3c489-f09e-4b92-b338-67dc86feec7d",
         "title": "Senior Applied ML Engineer, Evals & Data",

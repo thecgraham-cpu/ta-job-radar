@@ -4,7 +4,7 @@
   "career_page": "https://jobs.ashbyhq.com/the-token-company",
   "source": "ashby",
   "identifier": "the-token-company",
-  "scanned_at": "2026-08-29T05:46:25.376364+00:00",
+  "scanned_at": "2026-08-30T05:08:26.606223+00:00",
   "count": 3,
   "total_available": 3,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "ashby",
       "posted_at": "2026-06-13T23:03:19.305+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.375858+00:00",
+      "discovered_at": "2026-08-30T05:08:26.605880+00:00",
       "raw": {
         "id": "186695fa-a558-4373-88d6-e9c9e1b39c07",
         "title": "Member of Technical Staff, Research",
@@ -67,7 +67,7 @@
       "source": "ashby",
       "posted_at": "2026-06-13T23:03:45.593+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.376199+00:00",
+      "discovered_at": "2026-08-30T05:08:26.606069+00:00",
       "raw": {
         "id": "18371043-b36a-4934-b2d6-e7d5d4f655d5",
         "title": "Member of Technical Staff, Infrastructure",
@@ -109,7 +109,7 @@
       "source": "ashby",
       "posted_at": "2026-06-13T23:01:47.220+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.376343+00:00",
+      "discovered_at": "2026-08-30T05:08:26.606200+00:00",
       "raw": {
         "id": "f260de86-1338-42ab-8165-0817f16aefa4",
         "title": "Founding GTM / Head of Sales",

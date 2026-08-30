@@ -4,7 +4,7 @@
   "career_page": "https://job-boards.greenhouse.io/clever",
   "source": "greenhouse",
   "identifier": "clever",
-  "scanned_at": "2026-08-29T05:46:17.972130+00:00",
+  "scanned_at": "2026-08-30T05:08:19.859499+00:00",
   "count": 7,
   "total_available": 7,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-17T11:46:37-04:00",
       "updated_at": "2026-08-17T11:46:37-04:00",
-      "discovered_at": "2026-08-29T05:46:17.950209+00:00",
+      "discovered_at": "2026-08-30T05:08:19.851892+00:00",
       "raw": {
         "absolute_url": "https://www.clever.com/about/careers?gh_jid=8110207",
         "data_compliance": [
@@ -104,7 +104,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-30T16:35:40-04:00",
       "updated_at": "2026-07-30T16:35:40-04:00",
-      "discovered_at": "2026-08-29T05:46:17.951386+00:00",
+      "discovered_at": "2026-08-30T05:08:19.853515+00:00",
       "raw": {
         "absolute_url": "https://www.clever.com/about/careers?gh_jid=8053624",
         "data_compliance": [
@@ -183,7 +183,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-10T13:27:57-04:00",
       "updated_at": "2026-07-10T13:27:57-04:00",
-      "discovered_at": "2026-08-29T05:46:17.952038+00:00",
+      "discovered_at": "2026-08-30T05:08:19.854516+00:00",
       "raw": {
         "absolute_url": "https://www.clever.com/about/careers?gh_jid=7883214",
         "data_compliance": [
@@ -262,7 +262,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-10T13:28:37-04:00",
       "updated_at": "2026-07-10T13:28:37-04:00",
-      "discovered_at": "2026-08-29T05:46:17.952717+00:00",
+      "discovered_at": "2026-08-30T05:08:19.856424+00:00",
       "raw": {
         "absolute_url": "https://www.clever.com/about/careers?gh_jid=7958645",
         "data_compliance": [
@@ -341,7 +341,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-16T11:43:30-04:00",
       "updated_at": "2026-07-16T11:43:30-04:00",
-      "discovered_at": "2026-08-29T05:46:17.953662+00:00",
+      "discovered_at": "2026-08-30T05:08:19.857495+00:00",
       "raw": {
         "absolute_url": "https://www.clever.com/about/careers?gh_jid=7921013",
         "data_compliance": [
@@ -420,7 +420,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-14T19:32:34-04:00",
       "updated_at": "2026-07-14T19:32:34-04:00",
-      "discovered_at": "2026-08-29T05:46:17.971540+00:00",
+      "discovered_at": "2026-08-30T05:08:19.858458+00:00",
       "raw": {
         "absolute_url": "https://www.clever.com/about/careers?gh_jid=7952001",
         "data_compliance": [
@@ -499,7 +499,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-20T17:28:18-04:00",
       "updated_at": "2026-07-20T17:28:18-04:00",
-      "discovered_at": "2026-08-29T05:46:17.972104+00:00",
+      "discovered_at": "2026-08-30T05:08:19.859455+00:00",
       "raw": {
         "absolute_url": "https://www.clever.com/about/careers?gh_jid=8067162",
         "data_compliance": [

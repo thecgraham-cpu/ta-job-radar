@@ -4,7 +4,7 @@
   "career_page": "https://job-boards.greenhouse.io/instacart",
   "source": "greenhouse",
   "identifier": "instacart",
-  "scanned_at": "2026-08-29T05:46:17.117939+00:00",
+  "scanned_at": "2026-08-30T05:08:19.623267+00:00",
   "count": 123,
   "total_available": 123,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:16.929082+00:00",
+      "discovered_at": "2026-08-30T05:08:19.528367+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=7144697",
         "data_compliance": [
@@ -109,7 +109,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:16.930542+00:00",
+      "discovered_at": "2026-08-30T05:08:19.529498+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=7658241",
         "data_compliance": [
@@ -193,7 +193,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:16.931380+00:00",
+      "discovered_at": "2026-08-30T05:08:19.530444+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=7495338",
         "data_compliance": [
@@ -277,7 +277,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:16.932175+00:00",
+      "discovered_at": "2026-08-30T05:08:19.531334+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8145998",
         "data_compliance": [
@@ -361,7 +361,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:16.932841+00:00",
+      "discovered_at": "2026-08-30T05:08:19.532049+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8146070",
         "data_compliance": [
@@ -445,7 +445,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-26T18:00:29-04:00",
       "updated_at": "2026-08-26T18:00:29-04:00",
-      "discovered_at": "2026-08-29T05:46:16.933497+00:00",
+      "discovered_at": "2026-08-30T05:08:19.532686+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8157774",
         "data_compliance": [
@@ -529,7 +529,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:16.937735+00:00",
+      "discovered_at": "2026-08-30T05:08:19.534548+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8112138",
         "data_compliance": [
@@ -623,7 +623,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:16.938611+00:00",
+      "discovered_at": "2026-08-30T05:08:19.535376+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8112136",
         "data_compliance": [
@@ -717,7 +717,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T16:36:40-04:00",
       "updated_at": "2026-08-27T16:36:40-04:00",
-      "discovered_at": "2026-08-29T05:46:16.939266+00:00",
+      "discovered_at": "2026-08-30T05:08:19.536114+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8160738",
         "data_compliance": [
@@ -801,7 +801,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T16:36:46-04:00",
       "updated_at": "2026-08-27T16:36:46-04:00",
-      "discovered_at": "2026-08-29T05:46:16.939810+00:00",
+      "discovered_at": "2026-08-30T05:08:19.536618+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8160786",
         "data_compliance": [
@@ -885,7 +885,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T19:13:11-04:00",
       "updated_at": "2026-08-27T19:13:11-04:00",
-      "discovered_at": "2026-08-29T05:46:16.940789+00:00",
+      "discovered_at": "2026-08-30T05:08:19.537105+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8163310",
         "data_compliance": [
@@ -969,7 +969,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T19:13:09-04:00",
       "updated_at": "2026-08-27T19:13:09-04:00",
-      "discovered_at": "2026-08-29T05:46:16.942865+00:00",
+      "discovered_at": "2026-08-30T05:08:19.537662+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8163246",
         "data_compliance": [
@@ -1053,7 +1053,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-28T15:47:32-04:00",
       "updated_at": "2026-08-28T15:47:32-04:00",
-      "discovered_at": "2026-08-29T05:46:16.947721+00:00",
+      "discovered_at": "2026-08-30T05:08:19.538533+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=7991599",
         "data_compliance": [
@@ -1137,7 +1137,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-28T15:47:31-04:00",
       "updated_at": "2026-08-28T15:47:31-04:00",
-      "discovered_at": "2026-08-29T05:46:16.948961+00:00",
+      "discovered_at": "2026-08-30T05:08:19.539460+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=7991597",
         "data_compliance": [
@@ -1221,7 +1221,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:16.951101+00:00",
+      "discovered_at": "2026-08-30T05:08:19.540201+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8120705",
         "data_compliance": [
@@ -1305,7 +1305,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:16.953400+00:00",
+      "discovered_at": "2026-08-30T05:08:19.541020+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=7871823",
         "data_compliance": [
@@ -1389,7 +1389,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:16.954012+00:00",
+      "discovered_at": "2026-08-30T05:08:19.541436+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=7960988",
         "data_compliance": [
@@ -1473,7 +1473,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:16.954584+00:00",
+      "discovered_at": "2026-08-30T05:08:19.541900+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=7960958",
         "data_compliance": [
@@ -1558,7 +1558,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:16.956263+00:00",
+      "discovered_at": "2026-08-30T05:08:19.542355+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=7927378",
         "data_compliance": [
@@ -1642,7 +1642,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:16.956965+00:00",
+      "discovered_at": "2026-08-30T05:08:19.542735+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=7980129",
         "data_compliance": [
@@ -1730,7 +1730,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:16.957492+00:00",
+      "discovered_at": "2026-08-30T05:08:19.543114+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=7980000",
         "data_compliance": [
@@ -1818,7 +1818,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:16.959103+00:00",
+      "discovered_at": "2026-08-30T05:08:19.543716+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=4995818",
         "data_compliance": [
@@ -1906,7 +1906,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:16.960057+00:00",
+      "discovered_at": "2026-08-30T05:08:19.544085+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=7976883",
         "data_compliance": [
@@ -1994,7 +1994,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-28T17:46:28-04:00",
       "updated_at": "2026-08-28T17:46:28-04:00",
-      "discovered_at": "2026-08-29T05:46:16.960945+00:00",
+      "discovered_at": "2026-08-30T05:08:19.544439+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8165286",
         "data_compliance": [
@@ -2082,7 +2082,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-28T17:34:03-04:00",
       "updated_at": "2026-08-28T17:34:03-04:00",
-      "discovered_at": "2026-08-29T05:46:16.961722+00:00",
+      "discovered_at": "2026-08-30T05:08:19.544793+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8060210",
         "data_compliance": [
@@ -2170,7 +2170,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-28T17:35:08-04:00",
       "updated_at": "2026-08-28T17:35:08-04:00",
-      "discovered_at": "2026-08-29T05:46:16.962555+00:00",
+      "discovered_at": "2026-08-30T05:08:19.545141+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8165257",
         "data_compliance": [
@@ -2258,7 +2258,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:16.964026+00:00",
+      "discovered_at": "2026-08-30T05:08:19.545691+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8115834",
         "data_compliance": [
@@ -2342,7 +2342,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:16.965495+00:00",
+      "discovered_at": "2026-08-30T05:08:19.547137+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8115836",
         "data_compliance": [
@@ -2426,7 +2426,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T16:50:35-04:00",
       "updated_at": "2026-08-24T16:50:35-04:00",
-      "discovered_at": "2026-08-29T05:46:16.965969+00:00",
+      "discovered_at": "2026-08-30T05:08:19.547595+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8154479",
         "data_compliance": [
@@ -2510,7 +2510,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-26T11:13:39-04:00",
       "updated_at": "2026-08-26T11:13:39-04:00",
-      "discovered_at": "2026-08-29T05:46:16.966808+00:00",
+      "discovered_at": "2026-08-30T05:08:19.548406+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=7958561",
         "data_compliance": [
@@ -2598,7 +2598,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:16.967525+00:00",
+      "discovered_at": "2026-08-30T05:08:19.549256+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=7958563",
         "data_compliance": [
@@ -2686,7 +2686,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:16.968021+00:00",
+      "discovered_at": "2026-08-30T05:08:19.549727+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8143263",
         "data_compliance": [
@@ -2770,7 +2770,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:16.968526+00:00",
+      "discovered_at": "2026-08-30T05:08:19.550484+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8142172",
         "data_compliance": [
@@ -2854,7 +2854,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:16.969103+00:00",
+      "discovered_at": "2026-08-30T05:08:19.551551+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8142143",
         "data_compliance": [
@@ -2938,7 +2938,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-25T19:02:29-04:00",
       "updated_at": "2026-08-25T19:02:29-04:00",
-      "discovered_at": "2026-08-29T05:46:16.969765+00:00",
+      "discovered_at": "2026-08-30T05:08:19.553165+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8157911",
         "data_compliance": [
@@ -3022,7 +3022,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-25T19:02:27-04:00",
       "updated_at": "2026-08-25T19:02:27-04:00",
-      "discovered_at": "2026-08-29T05:46:16.981453+00:00",
+      "discovered_at": "2026-08-30T05:08:19.554472+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8157831",
         "data_compliance": [
@@ -3106,7 +3106,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T16:50:57-04:00",
       "updated_at": "2026-08-24T16:50:57-04:00",
-      "discovered_at": "2026-08-29T05:46:16.983549+00:00",
+      "discovered_at": "2026-08-30T05:08:19.555294+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8155140",
         "data_compliance": [
@@ -3190,7 +3190,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:16.984655+00:00",
+      "discovered_at": "2026-08-30T05:08:19.556026+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8145979",
         "data_compliance": [
@@ -3274,7 +3274,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:16.985528+00:00",
+      "discovered_at": "2026-08-30T05:08:19.556812+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8145958",
         "data_compliance": [
@@ -3358,7 +3358,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:16.986706+00:00",
+      "discovered_at": "2026-08-30T05:08:19.557365+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8122997",
         "data_compliance": [
@@ -3442,7 +3442,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:16.987594+00:00",
+      "discovered_at": "2026-08-30T05:08:19.557821+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8123029",
         "data_compliance": [
@@ -3526,7 +3526,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:16.988360+00:00",
+      "discovered_at": "2026-08-30T05:08:19.559214+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8122970",
         "data_compliance": [
@@ -3610,7 +3610,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:16.989047+00:00",
+      "discovered_at": "2026-08-30T05:08:19.559709+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8122992",
         "data_compliance": [
@@ -3694,7 +3694,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:16.990604+00:00",
+      "discovered_at": "2026-08-30T05:08:19.560289+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=7712406",
         "data_compliance": [
@@ -3778,7 +3778,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T14:39:59-04:00",
       "updated_at": "2026-08-24T14:39:59-04:00",
-      "discovered_at": "2026-08-29T05:46:16.991595+00:00",
+      "discovered_at": "2026-08-30T05:08:19.560825+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=7558978",
         "data_compliance": [
@@ -3862,7 +3862,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:16.992823+00:00",
+      "discovered_at": "2026-08-30T05:08:19.561370+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8069983",
         "data_compliance": [
@@ -3946,7 +3946,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:16.993906+00:00",
+      "discovered_at": "2026-08-30T05:08:19.561899+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8069980",
         "data_compliance": [
@@ -4030,7 +4030,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:16.994650+00:00",
+      "discovered_at": "2026-08-30T05:08:19.562493+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8029661",
         "data_compliance": [
@@ -4114,7 +4114,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:16.995937+00:00",
+      "discovered_at": "2026-08-30T05:08:19.563165+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8029663",
         "data_compliance": [
@@ -4198,7 +4198,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:16.997218+00:00",
+      "discovered_at": "2026-08-30T05:08:19.563798+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8080474",
         "data_compliance": [
@@ -4282,7 +4282,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T10:29:29-04:00",
       "updated_at": "2026-08-27T10:29:29-04:00",
-      "discovered_at": "2026-08-29T05:46:16.998652+00:00",
+      "discovered_at": "2026-08-30T05:08:19.564390+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8093228",
         "data_compliance": [
@@ -4366,7 +4366,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T14:03:40-04:00",
       "updated_at": "2026-08-24T14:03:40-04:00",
-      "discovered_at": "2026-08-29T05:46:16.999314+00:00",
+      "discovered_at": "2026-08-30T05:08:19.564954+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8147298",
         "data_compliance": [
@@ -4450,7 +4450,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T14:03:48-04:00",
       "updated_at": "2026-08-24T14:03:48-04:00",
-      "discovered_at": "2026-08-29T05:46:16.999831+00:00",
+      "discovered_at": "2026-08-30T05:08:19.565455+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8147300",
         "data_compliance": [
@@ -4534,7 +4534,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.000427+00:00",
+      "discovered_at": "2026-08-30T05:08:19.566022+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=7793391",
         "data_compliance": [
@@ -4618,7 +4618,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.001094+00:00",
+      "discovered_at": "2026-08-30T05:08:19.566526+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8132846",
         "data_compliance": [
@@ -4709,7 +4709,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.001611+00:00",
+      "discovered_at": "2026-08-30T05:08:19.566948+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8126023",
         "data_compliance": [
@@ -4800,7 +4800,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.002125+00:00",
+      "discovered_at": "2026-08-30T05:08:19.567366+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=4949335",
         "data_compliance": [
@@ -4884,7 +4884,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.002703+00:00",
+      "discovered_at": "2026-08-30T05:08:19.567890+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=4949339",
         "data_compliance": [
@@ -4968,7 +4968,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.004350+00:00",
+      "discovered_at": "2026-08-30T05:08:19.568309+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8154308",
         "data_compliance": [
@@ -5052,7 +5052,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.005013+00:00",
+      "discovered_at": "2026-08-30T05:08:19.568754+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8154300",
         "data_compliance": [
@@ -5136,7 +5136,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.005624+00:00",
+      "discovered_at": "2026-08-30T05:08:19.569241+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8084166",
         "data_compliance": [
@@ -5220,7 +5220,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-28T16:51:46-04:00",
       "updated_at": "2026-08-28T16:51:46-04:00",
-      "discovered_at": "2026-08-29T05:46:17.006239+00:00",
+      "discovered_at": "2026-08-30T05:08:19.571205+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8084349",
         "data_compliance": [
@@ -5305,7 +5305,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-28T16:51:47-04:00",
       "updated_at": "2026-08-28T16:51:47-04:00",
-      "discovered_at": "2026-08-29T05:46:17.006507+00:00",
+      "discovered_at": "2026-08-30T05:08:19.571489+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8084350",
         "data_compliance": [
@@ -5390,7 +5390,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.007044+00:00",
+      "discovered_at": "2026-08-30T05:08:19.572011+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8143147",
         "data_compliance": [
@@ -5474,7 +5474,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.008303+00:00",
+      "discovered_at": "2026-08-30T05:08:19.572533+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8143145",
         "data_compliance": [
@@ -5558,7 +5558,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T16:26:27-04:00",
       "updated_at": "2026-08-27T16:26:27-04:00",
-      "discovered_at": "2026-08-29T05:46:17.009080+00:00",
+      "discovered_at": "2026-08-30T05:08:19.573022+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8157736",
         "data_compliance": [
@@ -5642,7 +5642,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T16:26:30-04:00",
       "updated_at": "2026-08-27T16:26:30-04:00",
-      "discovered_at": "2026-08-29T05:46:17.009645+00:00",
+      "discovered_at": "2026-08-30T05:08:19.573435+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8157738",
         "data_compliance": [
@@ -5726,7 +5726,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.013877+00:00",
+      "discovered_at": "2026-08-30T05:08:19.574093+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=7963838",
         "data_compliance": [
@@ -5810,7 +5810,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.014974+00:00",
+      "discovered_at": "2026-08-30T05:08:19.574586+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=7565508",
         "data_compliance": [
@@ -5894,7 +5894,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.016539+00:00",
+      "discovered_at": "2026-08-30T05:08:19.575017+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=7793089",
         "data_compliance": [
@@ -5978,7 +5978,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.020799+00:00",
+      "discovered_at": "2026-08-30T05:08:19.575610+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8122176",
         "data_compliance": [
@@ -6062,7 +6062,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.021452+00:00",
+      "discovered_at": "2026-08-30T05:08:19.576098+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8122333",
         "data_compliance": [
@@ -6146,7 +6146,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.022042+00:00",
+      "discovered_at": "2026-08-30T05:08:19.576565+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8077679",
         "data_compliance": [
@@ -6230,7 +6230,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.022701+00:00",
+      "discovered_at": "2026-08-30T05:08:19.578076+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8077677",
         "data_compliance": [
@@ -6314,7 +6314,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.023296+00:00",
+      "discovered_at": "2026-08-30T05:08:19.578848+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=7963780",
         "data_compliance": [
@@ -6398,7 +6398,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.024156+00:00",
+      "discovered_at": "2026-08-30T05:08:19.579683+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=7963779",
         "data_compliance": [
@@ -6482,7 +6482,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-26T17:15:18-04:00",
       "updated_at": "2026-08-26T17:15:18-04:00",
-      "discovered_at": "2026-08-29T05:46:17.042843+00:00",
+      "discovered_at": "2026-08-30T05:08:19.580276+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8160008",
         "data_compliance": [
@@ -6573,7 +6573,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-26T17:15:20-04:00",
       "updated_at": "2026-08-26T17:15:20-04:00",
-      "discovered_at": "2026-08-29T05:46:17.043424+00:00",
+      "discovered_at": "2026-08-30T05:08:19.580732+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8160010",
         "data_compliance": [
@@ -6664,7 +6664,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.044016+00:00",
+      "discovered_at": "2026-08-30T05:08:19.581263+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8077510",
         "data_compliance": [
@@ -6748,7 +6748,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.045252+00:00",
+      "discovered_at": "2026-08-30T05:08:19.581746+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8077512",
         "data_compliance": [
@@ -6832,7 +6832,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.046364+00:00",
+      "discovered_at": "2026-08-30T05:08:19.582513+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8100148",
         "data_compliance": [
@@ -6923,7 +6923,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.047371+00:00",
+      "discovered_at": "2026-08-30T05:08:19.586534+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8100150",
         "data_compliance": [
@@ -7014,7 +7014,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.052583+00:00",
+      "discovered_at": "2026-08-30T05:08:19.587236+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8120469",
         "data_compliance": [
@@ -7105,7 +7105,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.053757+00:00",
+      "discovered_at": "2026-08-30T05:08:19.587859+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8120471",
         "data_compliance": [
@@ -7196,7 +7196,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.054551+00:00",
+      "discovered_at": "2026-08-30T05:08:19.588612+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8143272",
         "data_compliance": [
@@ -7280,7 +7280,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.055372+00:00",
+      "discovered_at": "2026-08-30T05:08:19.589303+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8143270",
         "data_compliance": [
@@ -7364,7 +7364,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.056096+00:00",
+      "discovered_at": "2026-08-30T05:08:19.589876+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=7963724",
         "data_compliance": [
@@ -7448,7 +7448,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.056565+00:00",
+      "discovered_at": "2026-08-30T05:08:19.590303+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=7963726",
         "data_compliance": [
@@ -7532,7 +7532,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.059036+00:00",
+      "discovered_at": "2026-08-30T05:08:19.590950+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8014060",
         "data_compliance": [
@@ -7616,7 +7616,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.060236+00:00",
+      "discovered_at": "2026-08-30T05:08:19.591507+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8014062",
         "data_compliance": [
@@ -7700,7 +7700,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.060963+00:00",
+      "discovered_at": "2026-08-30T05:08:19.595392+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8017071",
         "data_compliance": [
@@ -7784,7 +7784,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.062046+00:00",
+      "discovered_at": "2026-08-30T05:08:19.596013+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8017073",
         "data_compliance": [
@@ -7868,7 +7868,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.062725+00:00",
+      "discovered_at": "2026-08-30T05:08:19.596629+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8104343",
         "data_compliance": [
@@ -7952,7 +7952,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.063551+00:00",
+      "discovered_at": "2026-08-30T05:08:19.597230+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8104341",
         "data_compliance": [
@@ -8036,7 +8036,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.069177+00:00",
+      "discovered_at": "2026-08-30T05:08:19.597971+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8091193",
         "data_compliance": [
@@ -8120,7 +8120,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.069964+00:00",
+      "discovered_at": "2026-08-30T05:08:19.598774+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8091191",
         "data_compliance": [
@@ -8204,7 +8204,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-26T14:13:38-04:00",
       "updated_at": "2026-08-26T14:13:38-04:00",
-      "discovered_at": "2026-08-29T05:46:17.070650+00:00",
+      "discovered_at": "2026-08-30T05:08:19.599511+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=7931358",
         "data_compliance": [
@@ -8288,7 +8288,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.071498+00:00",
+      "discovered_at": "2026-08-30T05:08:19.600153+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=7939947",
         "data_compliance": [
@@ -8372,7 +8372,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.072609+00:00",
+      "discovered_at": "2026-08-30T05:08:19.601024+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=7974573",
         "data_compliance": [
@@ -8456,7 +8456,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-25T14:09:57-04:00",
       "updated_at": "2026-08-25T14:09:57-04:00",
-      "discovered_at": "2026-08-29T05:46:17.073244+00:00",
+      "discovered_at": "2026-08-30T05:08:19.601971+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8155585",
         "data_compliance": [
@@ -8540,7 +8540,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.078700+00:00",
+      "discovered_at": "2026-08-30T05:08:19.602799+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=7951926",
         "data_compliance": [
@@ -8624,7 +8624,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.080053+00:00",
+      "discovered_at": "2026-08-30T05:08:19.603790+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8113993",
         "data_compliance": [
@@ -8708,7 +8708,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.080737+00:00",
+      "discovered_at": "2026-08-30T05:08:19.604900+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8130034",
         "data_compliance": [
@@ -8792,7 +8792,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.082160+00:00",
+      "discovered_at": "2026-08-30T05:08:19.605798+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=7979769",
         "data_compliance": [
@@ -8876,7 +8876,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.083842+00:00",
+      "discovered_at": "2026-08-30T05:08:19.608971+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=7951938",
         "data_compliance": [
@@ -8960,7 +8960,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.087372+00:00",
+      "discovered_at": "2026-08-30T05:08:19.610065+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8141533",
         "data_compliance": [
@@ -9051,7 +9051,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.088806+00:00",
+      "discovered_at": "2026-08-30T05:08:19.610766+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8141535",
         "data_compliance": [
@@ -9142,7 +9142,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.089798+00:00",
+      "discovered_at": "2026-08-30T05:08:19.611648+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8089322",
         "data_compliance": [
@@ -9226,7 +9226,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.091172+00:00",
+      "discovered_at": "2026-08-30T05:08:19.612628+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8119683",
         "data_compliance": [
@@ -9310,7 +9310,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-28T15:42:06-04:00",
       "updated_at": "2026-08-28T15:42:06-04:00",
-      "discovered_at": "2026-08-29T05:46:17.092514+00:00",
+      "discovered_at": "2026-08-30T05:08:19.614007+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8137862",
         "data_compliance": [
@@ -9394,7 +9394,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-28T15:42:14-04:00",
       "updated_at": "2026-08-28T15:42:14-04:00",
-      "discovered_at": "2026-08-29T05:46:17.093502+00:00",
+      "discovered_at": "2026-08-30T05:08:19.615203+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8137960",
         "data_compliance": [
@@ -9478,7 +9478,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.094636+00:00",
+      "discovered_at": "2026-08-30T05:08:19.615823+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8121910",
         "data_compliance": [
@@ -9562,7 +9562,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.095899+00:00",
+      "discovered_at": "2026-08-30T05:08:19.616295+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=7963661",
         "data_compliance": [
@@ -9646,7 +9646,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.104712+00:00",
+      "discovered_at": "2026-08-30T05:08:19.617021+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8084090",
         "data_compliance": [
@@ -9730,7 +9730,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.106141+00:00",
+      "discovered_at": "2026-08-30T05:08:19.617821+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8084089",
         "data_compliance": [
@@ -9814,7 +9814,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.107477+00:00",
+      "discovered_at": "2026-08-30T05:08:19.618347+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8080312",
         "data_compliance": [
@@ -9898,7 +9898,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.108705+00:00",
+      "discovered_at": "2026-08-30T05:08:19.618968+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8080310",
         "data_compliance": [
@@ -9982,7 +9982,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.109800+00:00",
+      "discovered_at": "2026-08-30T05:08:19.619550+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=7778693",
         "data_compliance": [
@@ -10066,7 +10066,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.113008+00:00",
+      "discovered_at": "2026-08-30T05:08:19.620253+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8110286",
         "data_compliance": [
@@ -10150,7 +10150,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.114430+00:00",
+      "discovered_at": "2026-08-30T05:08:19.621212+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8141481",
         "data_compliance": [
@@ -10241,7 +10241,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.115750+00:00",
+      "discovered_at": "2026-08-30T05:08:19.622066+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8141483",
         "data_compliance": [
@@ -10332,7 +10332,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.116567+00:00",
+      "discovered_at": "2026-08-30T05:08:19.622613+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8131047",
         "data_compliance": [
@@ -10420,7 +10420,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:15:00-04:00",
       "updated_at": "2026-08-24T13:15:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.117801+00:00",
+      "discovered_at": "2026-08-30T05:08:19.623192+00:00",
       "raw": {
         "absolute_url": "https://instacart.careers/job/?gh_jid=8130849",
         "data_compliance": [

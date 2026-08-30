@@ -446,6 +446,119 @@ def _extract_smartrecruiters(
     )
 
 
+
+def _extract_workable(
+    raw: dict,
+    company: str,
+) -> dict:
+    """Normalize one Workable job."""
+
+    title = _clean_text(
+        raw.get("title")
+        or raw.get("name")
+    )
+
+    external_id = _clean_text(
+        raw.get("shortcode")
+        or raw.get("id")
+    )
+
+    url = _clean_text(
+        raw.get("url")
+        or raw.get("application_url")
+    )
+
+    location_data = raw.get("location")
+
+    if isinstance(location_data, dict):
+        city = _clean_text(
+            location_data.get("city")
+        )
+        region = _clean_text(
+            location_data.get("region")
+            or location_data.get("state")
+        )
+        country = _clean_text(
+            location_data.get("country")
+        )
+    else:
+        city = _clean_text(raw.get("city"))
+        region = _clean_text(
+            raw.get("state")
+            or raw.get("region")
+        )
+        country = _clean_text(
+            raw.get("country")
+        )
+
+    location = ", ".join(
+        part
+        for part in (
+            city,
+            region,
+            country,
+        )
+        if part
+    )
+
+    remote = bool(
+        raw.get("telecommuting")
+        or raw.get("remote")
+    )
+
+    department = _clean_text(
+        raw.get("department")
+    )
+
+    employment_type = _clean_text(
+        raw.get("employment_type")
+        or raw.get("type")
+    )
+
+    description = _clean_text(
+        raw.get("description")
+        or raw.get("description_plain")
+    )
+
+    posted_at = (
+        raw.get("published_on")
+        or raw.get("created_at")
+        or raw.get("published_at")
+    )
+
+    updated_at = (
+        raw.get("updated_at")
+        or raw.get("modified_at")
+    )
+
+    stable_id = _stable_id(
+        source="workable",
+        external_id=external_id,
+        url=url,
+        company=company,
+        title=title,
+    )
+
+    return {
+        "job_id": stable_id,
+        "external_id": external_id,
+        "company": company,
+        "title": title,
+        "location": location,
+        "remote": remote,
+        "department": department,
+        "team": department,
+        "employment_type": employment_type,
+        "description": description,
+        "apply_url": url,
+        "source_url": url,
+        "source": "workable",
+        "posted_at": posted_at,
+        "updated_at": updated_at,
+        "discovered_at": _now_iso(),
+        "raw": raw,
+    }
+
 def _extract_custom(
     job: dict[str, Any],
     company: str,
@@ -513,6 +626,12 @@ def normalize_job(
 
     if source == "smartrecruiters":
         return _extract_smartrecruiters(
+            job,
+            company,
+        )
+
+    if source == "workable":
+        return _extract_workable(
             job,
             company,
         )

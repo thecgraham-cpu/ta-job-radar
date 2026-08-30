@@ -4,7 +4,7 @@
   "career_page": "https://jobs.ashbyhq.com/ironcladhq",
   "source": "ashby",
   "identifier": "ironcladhq",
-  "scanned_at": "2026-08-29T05:46:25.797438+00:00",
+  "scanned_at": "2026-08-30T05:08:26.451706+00:00",
   "count": 28,
   "total_available": 28,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "ashby",
       "posted_at": "2026-02-11T04:22:07.300+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.760445+00:00",
+      "discovered_at": "2026-08-30T05:08:26.426789+00:00",
       "raw": {
         "id": "c4b2241e-4b3b-40f1-953f-b997a8c55934",
         "title": "Staff Software Engineer",
@@ -98,7 +98,7 @@
       "source": "ashby",
       "posted_at": "2026-07-17T14:11:19.905+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.761249+00:00",
+      "discovered_at": "2026-08-30T05:08:26.427300+00:00",
       "raw": {
         "id": "ffad759b-ff33-47bd-98d2-3da2827697be",
         "title": "Demo Engineer",
@@ -161,7 +161,7 @@
       "source": "ashby",
       "posted_at": "2026-08-25T15:55:10.033+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.761905+00:00",
+      "discovered_at": "2026-08-30T05:08:26.427709+00:00",
       "raw": {
         "id": "eca48af4-57f1-47f9-8462-8835ffb8050a",
         "title": "Senior Staff Product Manager, Workflow Efficiency",
@@ -214,7 +214,7 @@
       "source": "ashby",
       "posted_at": "2026-03-11T14:44:34.744+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.762453+00:00",
+      "discovered_at": "2026-08-30T05:08:26.428081+00:00",
       "raw": {
         "id": "22342a23-32bb-4600-8f8e-4813b81440a1",
         "title": "Sales Development Representative, EMEA (Outbound)",
@@ -256,7 +256,7 @@
       "source": "ashby",
       "posted_at": "2026-08-10T20:29:05.836+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.763162+00:00",
+      "discovered_at": "2026-08-30T05:08:26.428513+00:00",
       "raw": {
         "id": "787067e0-87b3-4bfa-9e4d-d0ace4ccee1f",
         "title": "Staff Data Scientist - Product Analytics",
@@ -309,7 +309,7 @@
       "source": "ashby",
       "posted_at": "2026-06-17T22:23:43.821+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.763606+00:00",
+      "discovered_at": "2026-08-30T05:08:26.428900+00:00",
       "raw": {
         "id": "b5d4466f-ffe3-4b31-9463-22a926206ece",
         "title": "Staff Application Security Engineer",
@@ -351,7 +351,7 @@
       "source": "ashby",
       "posted_at": "2026-08-14T15:41:02.975+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.763965+00:00",
+      "discovered_at": "2026-08-30T05:08:26.429275+00:00",
       "raw": {
         "id": "99176d6d-3813-4400-b34a-c5198ebac94d",
         "title": "GTM Finance Senior Manager",
@@ -393,7 +393,7 @@
       "source": "ashby",
       "posted_at": "2026-06-15T20:50:36.385+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.764381+00:00",
+      "discovered_at": "2026-08-30T05:08:26.429806+00:00",
       "raw": {
         "id": "f0ccaa2e-2124-4021-936e-6beedd71a078",
         "title": "Senior Adoption Strategist, EMEA (Engagement Manager)",
@@ -435,7 +435,7 @@
       "source": "ashby",
       "posted_at": "2026-05-01T23:15:33.786+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.764909+00:00",
+      "discovered_at": "2026-08-30T05:08:26.430216+00:00",
       "raw": {
         "id": "18ac97be-a2dd-49c2-a334-ae77d85d4dd0",
         "title": "Principal Engineer ",
@@ -477,7 +477,7 @@
       "source": "ashby",
       "posted_at": "2026-06-17T20:10:48.405+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.767350+00:00",
+      "discovered_at": "2026-08-30T05:08:26.430619+00:00",
       "raw": {
         "id": "9d44c8b0-8c81-4ad2-8ae6-8f7e916cfe8b",
         "title": "Sr. Enterprise Architect",
@@ -517,7 +517,7 @@
       "source": "ashby",
       "posted_at": "2026-05-11T21:21:14.863+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.767821+00:00",
+      "discovered_at": "2026-08-30T05:08:26.431059+00:00",
       "raw": {
         "id": "f01fb172-7a43-4686-b897-10f1288fbcd0",
         "title": "Senior Staff Software Engineer",
@@ -559,7 +559,7 @@
       "source": "ashby",
       "posted_at": "2026-05-12T22:52:51.610+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.769291+00:00",
+      "discovered_at": "2026-08-30T05:08:26.431511+00:00",
       "raw": {
         "id": "f1d34492-22eb-4bc9-a358-d430b612fc82",
         "title": "Head of Global GTM & G&A Talent Acquisition",
@@ -601,7 +601,7 @@
       "source": "ashby",
       "posted_at": "2026-05-29T20:16:41.810+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.769981+00:00",
+      "discovered_at": "2026-08-30T05:08:26.444343+00:00",
       "raw": {
         "id": "a460a920-d839-4bcb-9a05-3ea1f07b4742",
         "title": "Staff Site Reliability Engineer",
@@ -664,7 +664,7 @@
       "source": "ashby",
       "posted_at": "2026-06-25T20:57:25.924+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.770570+00:00",
+      "discovered_at": "2026-08-30T05:08:26.444710+00:00",
       "raw": {
         "id": "29f8753e-5ff4-4bfd-9e83-b6ee6c2e8293",
         "title": "Senior Finance Systems & AI Engineer",
@@ -717,7 +717,7 @@
       "source": "ashby",
       "posted_at": "2026-06-18T16:50:01.784+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.771389+00:00",
+      "discovered_at": "2026-08-30T05:08:26.445151+00:00",
       "raw": {
         "id": "5c842db4-5f0a-4eba-88a4-4d12eaf6feba",
         "title": "Senior Staff Product Manager, Growth",
@@ -770,7 +770,7 @@
       "source": "ashby",
       "posted_at": "2026-06-18T22:58:40.536+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.772561+00:00",
+      "discovered_at": "2026-08-30T05:08:26.445602+00:00",
       "raw": {
         "id": "fa6f1cdc-4e73-4041-a8cc-aeb26a75e647",
         "title": "Senior Software Engineer, AI - Squad Team",
@@ -812,7 +812,7 @@
       "source": "ashby",
       "posted_at": "2026-06-22T22:21:14.486+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.790993+00:00",
+      "discovered_at": "2026-08-30T05:08:26.445957+00:00",
       "raw": {
         "id": "c7ec0dfe-dab0-414d-8441-75800a05075c",
         "title": "Director, Revenue Enablement",
@@ -875,7 +875,7 @@
       "source": "ashby",
       "posted_at": "2026-07-10T21:21:46.537+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.791531+00:00",
+      "discovered_at": "2026-08-30T05:08:26.446373+00:00",
       "raw": {
         "id": "356d073d-fbed-4f72-959a-65e077612b11",
         "title": "Senior Director, Total Rewards",
@@ -917,7 +917,7 @@
       "source": "ashby",
       "posted_at": "2026-07-15T19:11:06.850+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.792025+00:00",
+      "discovered_at": "2026-08-30T05:08:26.446835+00:00",
       "raw": {
         "id": "c2d02073-ce72-4141-87cb-897e8f577bc7",
         "title": "Technical Lead Manager, AI",
@@ -970,7 +970,7 @@
       "source": "ashby",
       "posted_at": "2026-08-19T19:09:54.939+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.792790+00:00",
+      "discovered_at": "2026-08-30T05:08:26.447136+00:00",
       "raw": {
         "id": "ef3ed83c-14dd-4490-a446-7d03802b3a6f",
         "title": "Talent and Performance Senior Manager",
@@ -1012,7 +1012,7 @@
       "source": "ashby",
       "posted_at": "2026-08-04T19:09:24.727+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.793456+00:00",
+      "discovered_at": "2026-08-30T05:08:26.447688+00:00",
       "raw": {
         "id": "d736da90-3f2e-499b-84bc-d690a73d63b1",
         "title": "Principal Product Manager, Search & Contract Understanding",
@@ -1065,7 +1065,7 @@
       "source": "ashby",
       "posted_at": "2026-08-11T17:45:40.773+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.793824+00:00",
+      "discovered_at": "2026-08-30T05:08:26.448047+00:00",
       "raw": {
         "id": "87403aa8-8dc1-4d70-ba43-6d5a85b5f463",
         "title": "Executive Assistant - Engineering, Product & Design",
@@ -1107,7 +1107,7 @@
       "source": "ashby",
       "posted_at": "2026-08-10T22:27:49.890+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.794747+00:00",
+      "discovered_at": "2026-08-30T05:08:26.448535+00:00",
       "raw": {
         "id": "688815e0-0d73-4dfb-b67a-a6f181cfb829",
         "title": "Senior Associate Technical Adoption Architect (Implementation Consultant)",
@@ -1170,7 +1170,7 @@
       "source": "ashby",
       "posted_at": "2026-08-10T22:32:30.930+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.795366+00:00",
+      "discovered_at": "2026-08-30T05:08:26.449350+00:00",
       "raw": {
         "id": "fcd0caa5-5814-451a-bd20-459f88b0f34e",
         "title": "Technical Adoption Architect (Implementation Consultant)",
@@ -1233,7 +1233,7 @@
       "source": "ashby",
       "posted_at": "2026-08-14T22:42:50.253+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.795874+00:00",
+      "discovered_at": "2026-08-30T05:08:26.450263+00:00",
       "raw": {
         "id": "6f00816c-be55-4910-91c1-266a2fd0570a",
         "title": "Assistant General Counsel, Product, Privacy, and IP",
@@ -1275,7 +1275,7 @@
       "source": "ashby",
       "posted_at": "2026-08-25T20:47:44.879+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.796241+00:00",
+      "discovered_at": "2026-08-30T05:08:26.450685+00:00",
       "raw": {
         "id": "4be2d35a-9aa0-415c-ba13-30da080158ad",
         "title": "Staff/Senior Staff Software Engineer, Agentic Search",
@@ -1317,7 +1317,7 @@
       "source": "ashby",
       "posted_at": "2026-08-17T15:43:07.009+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.796617+00:00",
+      "discovered_at": "2026-08-30T05:08:26.451063+00:00",
       "raw": {
         "id": "82084080-f38b-4ac8-b79b-54e41494161f",
         "title": "Adoption Strategist (Engagement Manager)",
@@ -1380,7 +1380,7 @@
       "source": "ashby",
       "posted_at": "2026-08-25T21:43:36.618+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.797395+00:00",
+      "discovered_at": "2026-08-30T05:08:26.451650+00:00",
       "raw": {
         "id": "d58d6ff6-40fc-434e-adbd-010c77522573",
         "title": "Staff IT Engineer",

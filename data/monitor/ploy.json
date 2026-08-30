@@ -4,7 +4,7 @@
   "career_page": "https://jobs.ashbyhq.com/ployai",
   "source": "ashby",
   "identifier": "ployai",
-  "scanned_at": "2026-08-29T05:46:25.465207+00:00",
+  "scanned_at": "2026-08-30T05:08:26.532480+00:00",
   "count": 3,
   "total_available": 3,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "ashby",
       "posted_at": "2026-07-07T05:46:23.617+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.444197+00:00",
+      "discovered_at": "2026-08-30T05:08:26.531688+00:00",
       "raw": {
         "id": "1dc75674-84dd-400d-b0fa-311a374ab697",
         "title": "Software Engineer",
@@ -67,7 +67,7 @@
       "source": "ashby",
       "posted_at": "2026-07-07T05:49:28.200+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.464642+00:00",
+      "discovered_at": "2026-08-30T05:08:26.532017+00:00",
       "raw": {
         "id": "7f8f50b6-0bd8-4df5-8d38-ddd6cfae7b1f",
         "title": "Founding Growth Manager",
@@ -109,7 +109,7 @@
       "source": "ashby",
       "posted_at": "2026-07-07T05:55:32.648+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.465136+00:00",
+      "discovered_at": "2026-08-30T05:08:26.532449+00:00",
       "raw": {
         "id": "9dcda264-9248-4aed-a637-775489cae601",
         "title": "Founding Community Lead",

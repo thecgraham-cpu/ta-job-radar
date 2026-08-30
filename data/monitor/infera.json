@@ -4,7 +4,7 @@
   "career_page": "https://jobs.ashbyhq.com/infera",
   "source": "ashby",
   "identifier": "infera",
-  "scanned_at": "2026-08-29T05:46:19.880005+00:00",
+  "scanned_at": "2026-08-30T05:08:21.104888+00:00",
   "count": 3,
   "total_available": 3,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "ashby",
       "posted_at": "2026-07-01T21:44:34.615+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.878902+00:00",
+      "discovered_at": "2026-08-30T05:08:21.104470+00:00",
       "raw": {
         "id": "1a378690-d97d-4e4a-ad3a-8e5ea6141dcc",
         "title": "Sr. Full-Stack Engineer",
@@ -66,7 +66,7 @@
       "source": "ashby",
       "posted_at": "2026-07-01T21:47:28.976+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.879556+00:00",
+      "discovered_at": "2026-08-30T05:08:21.104726+00:00",
       "raw": {
         "id": "a0c0f201-a48f-4f21-ab1b-d034527d47b4",
         "title": "Jr. Software Engineer In-Test",
@@ -107,7 +107,7 @@
       "source": "ashby",
       "posted_at": "2026-07-01T21:50:54.182+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.879953+00:00",
+      "discovered_at": "2026-08-30T05:08:21.104871+00:00",
       "raw": {
         "id": "11a26698-a0a7-4099-b836-1598ec5c70f0",
         "title": "Jr. Full-Stack Engineer",

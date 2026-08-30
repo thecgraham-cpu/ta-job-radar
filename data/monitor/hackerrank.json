@@ -4,7 +4,7 @@
   "career_page": "https://job-boards.greenhouse.io/hackerrank",
   "source": "greenhouse",
   "identifier": "hackerrank",
-  "scanned_at": "2026-08-29T05:46:19.748611+00:00",
+  "scanned_at": "2026-08-30T05:08:21.000060+00:00",
   "count": 31,
   "total_available": 31,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-17T14:59:40-04:00",
       "updated_at": "2026-08-17T14:59:40-04:00",
-      "discovered_at": "2026-08-29T05:46:19.689204+00:00",
+      "discovered_at": "2026-08-30T05:08:20.952804+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/hackerrank/jobs/7567121",
         "data_compliance": [
@@ -103,7 +103,7 @@
       "source": "greenhouse",
       "posted_at": "2026-06-10T04:20:43-04:00",
       "updated_at": "2026-06-10T04:20:43-04:00",
-      "discovered_at": "2026-08-29T05:46:19.690276+00:00",
+      "discovered_at": "2026-08-30T05:08:20.953383+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/hackerrank/jobs/7959585",
         "data_compliance": [
@@ -181,7 +181,7 @@
       "source": "greenhouse",
       "posted_at": "2026-06-05T02:19:08-04:00",
       "updated_at": "2026-06-05T02:19:08-04:00",
-      "discovered_at": "2026-08-29T05:46:19.691153+00:00",
+      "discovered_at": "2026-08-30T05:08:20.953787+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/hackerrank/jobs/7405039",
         "data_compliance": [
@@ -251,7 +251,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-04T11:54:17-04:00",
       "updated_at": "2026-08-04T11:54:17-04:00",
-      "discovered_at": "2026-08-29T05:46:19.692343+00:00",
+      "discovered_at": "2026-08-30T05:08:20.954526+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/hackerrank/jobs/7861045",
         "data_compliance": [
@@ -329,7 +329,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-20T11:31:58-04:00",
       "updated_at": "2026-08-20T11:31:58-04:00",
-      "discovered_at": "2026-08-29T05:46:19.704763+00:00",
+      "discovered_at": "2026-08-30T05:08:20.955455+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/hackerrank/jobs/8078029",
         "data_compliance": [
@@ -407,7 +407,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T10:16:44-04:00",
       "updated_at": "2026-08-27T10:16:44-04:00",
-      "discovered_at": "2026-08-29T05:46:19.706611+00:00",
+      "discovered_at": "2026-08-30T05:08:20.956483+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/hackerrank/jobs/8127535",
         "data_compliance": [
@@ -485,7 +485,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-14T01:27:54-04:00",
       "updated_at": "2026-08-14T01:27:54-04:00",
-      "discovered_at": "2026-08-29T05:46:19.708489+00:00",
+      "discovered_at": "2026-08-30T05:08:20.986720+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/hackerrank/jobs/6993983",
         "data_compliance": [
@@ -563,7 +563,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-11T08:30:40-04:00",
       "updated_at": "2026-08-11T08:30:40-04:00",
-      "discovered_at": "2026-08-29T05:46:19.709736+00:00",
+      "discovered_at": "2026-08-30T05:08:20.987178+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/hackerrank/jobs/8102780",
         "data_compliance": [
@@ -641,7 +641,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-28T05:32:36-04:00",
       "updated_at": "2026-07-28T05:32:36-04:00",
-      "discovered_at": "2026-08-29T05:46:19.711665+00:00",
+      "discovered_at": "2026-08-30T05:08:20.987843+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/hackerrank/jobs/8051441",
         "data_compliance": [
@@ -719,7 +719,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T10:51:46-04:00",
       "updated_at": "2026-08-27T10:51:46-04:00",
-      "discovered_at": "2026-08-29T05:46:19.712804+00:00",
+      "discovered_at": "2026-08-30T05:08:20.988348+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/hackerrank/jobs/7824249",
         "data_compliance": [
@@ -797,7 +797,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-28T05:28:04-04:00",
       "updated_at": "2026-08-28T05:28:04-04:00",
-      "discovered_at": "2026-08-29T05:46:19.713857+00:00",
+      "discovered_at": "2026-08-30T05:08:20.988841+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/hackerrank/jobs/8009429",
         "data_compliance": [
@@ -877,7 +877,7 @@
       "source": "greenhouse",
       "posted_at": "2026-06-05T02:19:08-04:00",
       "updated_at": "2026-06-05T02:19:08-04:00",
-      "discovered_at": "2026-08-29T05:46:19.714914+00:00",
+      "discovered_at": "2026-08-30T05:08:20.989235+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/hackerrank/jobs/7521197",
         "data_compliance": [
@@ -955,7 +955,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T15:15:18-04:00",
       "updated_at": "2026-08-24T15:15:18-04:00",
-      "discovered_at": "2026-08-29T05:46:19.715827+00:00",
+      "discovered_at": "2026-08-30T05:08:20.989657+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/hackerrank/jobs/7601341",
         "data_compliance": [
@@ -1033,7 +1033,7 @@
       "source": "greenhouse",
       "posted_at": "2026-06-08T12:35:37-04:00",
       "updated_at": "2026-06-08T12:35:37-04:00",
-      "discovered_at": "2026-08-29T05:46:19.716499+00:00",
+      "discovered_at": "2026-08-30T05:08:20.990041+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/hackerrank/jobs/7482137",
         "data_compliance": [
@@ -1111,7 +1111,7 @@
       "source": "greenhouse",
       "posted_at": "2026-06-10T06:08:05-04:00",
       "updated_at": "2026-06-10T06:08:05-04:00",
-      "discovered_at": "2026-08-29T05:46:19.717062+00:00",
+      "discovered_at": "2026-08-30T05:08:20.990403+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/hackerrank/jobs/7461142",
         "data_compliance": [
@@ -1189,7 +1189,7 @@
       "source": "greenhouse",
       "posted_at": "2026-06-05T02:19:08-04:00",
       "updated_at": "2026-06-05T02:19:08-04:00",
-      "discovered_at": "2026-08-29T05:46:19.717414+00:00",
+      "discovered_at": "2026-08-30T05:08:20.990703+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/hackerrank/jobs/7439518",
         "data_compliance": [
@@ -1259,7 +1259,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-02T09:08:38-04:00",
       "updated_at": "2026-08-02T09:08:38-04:00",
-      "discovered_at": "2026-08-29T05:46:19.718064+00:00",
+      "discovered_at": "2026-08-30T05:08:20.991229+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/hackerrank/jobs/8093648",
         "data_compliance": [
@@ -1337,7 +1337,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-21T06:49:11-04:00",
       "updated_at": "2026-07-21T06:49:11-04:00",
-      "discovered_at": "2026-08-29T05:46:19.718756+00:00",
+      "discovered_at": "2026-08-30T05:08:20.991720+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/hackerrank/jobs/7959595",
         "data_compliance": [
@@ -1415,7 +1415,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-26T14:17:13-04:00",
       "updated_at": "2026-08-26T14:17:13-04:00",
-      "discovered_at": "2026-08-29T05:46:19.719413+00:00",
+      "discovered_at": "2026-08-30T05:08:20.992156+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/hackerrank/jobs/8146911",
         "data_compliance": [
@@ -1495,7 +1495,7 @@
       "source": "greenhouse",
       "posted_at": "2026-06-05T02:19:08-04:00",
       "updated_at": "2026-06-05T02:19:08-04:00",
-      "discovered_at": "2026-08-29T05:46:19.720324+00:00",
+      "discovered_at": "2026-08-30T05:08:20.993894+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/hackerrank/jobs/7733208",
         "data_compliance": [
@@ -1573,7 +1573,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-27T08:56:48-04:00",
       "updated_at": "2026-07-27T08:56:48-04:00",
-      "discovered_at": "2026-08-29T05:46:19.720956+00:00",
+      "discovered_at": "2026-08-30T05:08:20.994351+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/hackerrank/jobs/7959598",
         "data_compliance": [
@@ -1653,7 +1653,7 @@
       "source": "greenhouse",
       "posted_at": "2026-06-05T02:19:08-04:00",
       "updated_at": "2026-06-05T02:19:08-04:00",
-      "discovered_at": "2026-08-29T05:46:19.721784+00:00",
+      "discovered_at": "2026-08-30T05:08:20.994955+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/hackerrank/jobs/7729208",
         "data_compliance": [
@@ -1731,7 +1731,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T06:10:21-04:00",
       "updated_at": "2026-08-24T06:10:21-04:00",
-      "discovered_at": "2026-08-29T05:46:19.724861+00:00",
+      "discovered_at": "2026-08-30T05:08:20.995532+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/hackerrank/jobs/7693789",
         "data_compliance": [
@@ -1809,7 +1809,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-26T04:17:01-04:00",
       "updated_at": "2026-08-26T04:17:01-04:00",
-      "discovered_at": "2026-08-29T05:46:19.725874+00:00",
+      "discovered_at": "2026-08-30T05:08:20.996146+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/hackerrank/jobs/8141681",
         "data_compliance": [
@@ -1887,7 +1887,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-28T05:28:23-04:00",
       "updated_at": "2026-08-28T05:28:23-04:00",
-      "discovered_at": "2026-08-29T05:46:19.726436+00:00",
+      "discovered_at": "2026-08-30T05:08:20.996550+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/hackerrank/jobs/7907492",
         "data_compliance": [
@@ -1967,7 +1967,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-25T17:30:28-04:00",
       "updated_at": "2026-08-25T17:30:28-04:00",
-      "discovered_at": "2026-08-29T05:46:19.727643+00:00",
+      "discovered_at": "2026-08-30T05:08:20.997294+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/hackerrank/jobs/8157066",
         "data_compliance": [
@@ -2045,7 +2045,7 @@
       "source": "greenhouse",
       "posted_at": "2026-06-23T06:08:08-04:00",
       "updated_at": "2026-06-23T06:08:08-04:00",
-      "discovered_at": "2026-08-29T05:46:19.728601+00:00",
+      "discovered_at": "2026-08-30T05:08:20.997902+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/hackerrank/jobs/7907962",
         "data_compliance": [
@@ -2123,7 +2123,7 @@
       "source": "greenhouse",
       "posted_at": "2026-06-22T07:02:44-04:00",
       "updated_at": "2026-06-22T07:02:44-04:00",
-      "discovered_at": "2026-08-29T05:46:19.729557+00:00",
+      "discovered_at": "2026-08-30T05:08:20.998445+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/hackerrank/jobs/8018143",
         "data_compliance": [
@@ -2201,7 +2201,7 @@
       "source": "greenhouse",
       "posted_at": "2026-06-05T02:19:08-04:00",
       "updated_at": "2026-06-05T02:19:08-04:00",
-      "discovered_at": "2026-08-29T05:46:19.747150+00:00",
+      "discovered_at": "2026-08-30T05:08:20.999136+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/hackerrank/jobs/7527218",
         "data_compliance": [
@@ -2279,7 +2279,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-23T11:48:14-04:00",
       "updated_at": "2026-08-23T11:48:14-04:00",
-      "discovered_at": "2026-08-29T05:46:19.747910+00:00",
+      "discovered_at": "2026-08-30T05:08:20.999648+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/hackerrank/jobs/7771695",
         "data_compliance": [
@@ -2357,7 +2357,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-17T08:24:43-04:00",
       "updated_at": "2026-08-17T08:24:43-04:00",
-      "discovered_at": "2026-08-29T05:46:19.748572+00:00",
+      "discovered_at": "2026-08-30T05:08:21.000027+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/hackerrank/jobs/8121555",
         "data_compliance": [

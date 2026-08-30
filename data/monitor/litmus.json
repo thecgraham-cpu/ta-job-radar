@@ -4,7 +4,7 @@
   "career_page": "https://jobs.ashbyhq.com/litmus",
   "source": "ashby",
   "identifier": "litmus",
-  "scanned_at": "2026-08-29T05:46:20.532510+00:00",
+  "scanned_at": "2026-08-30T05:08:21.992335+00:00",
   "count": 28,
   "total_available": 28,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "ashby",
       "posted_at": "2026-04-09T17:20:28.893+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.465874+00:00",
+      "discovered_at": "2026-08-30T05:08:21.961343+00:00",
       "raw": {
         "id": "9b644f12-4c10-4f40-8573-827940681209",
         "title": "Senior Software Engineer - Golang",
@@ -69,7 +69,7 @@
       "source": "ashby",
       "posted_at": "2026-04-09T19:24:22.195+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.477898+00:00",
+      "discovered_at": "2026-08-30T05:08:21.961986+00:00",
       "raw": {
         "id": "08a264c7-ad84-410b-9557-029ad755f5dc",
         "title": "Senior Software Engineer - Industrial, GCC",
@@ -113,7 +113,7 @@
       "source": "ashby",
       "posted_at": "2026-05-22T20:06:31.314+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.479068+00:00",
+      "discovered_at": "2026-08-30T05:08:21.962379+00:00",
       "raw": {
         "id": "269b7374-5c4f-45a2-9437-e683199c2dca",
         "title": "Senior Software Engineer - Industrial",
@@ -170,7 +170,7 @@
       "source": "ashby",
       "posted_at": "2026-04-09T19:49:37.645+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.480497+00:00",
+      "discovered_at": "2026-08-30T05:08:21.962981+00:00",
       "raw": {
         "id": "7b1c0627-da65-41c6-84b0-dc5656127cb3",
         "title": "Lead DevOps Engineer",
@@ -214,7 +214,7 @@
       "source": "ashby",
       "posted_at": "2026-06-03T19:21:51.377+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.481134+00:00",
+      "discovered_at": "2026-08-30T05:08:21.963576+00:00",
       "raw": {
         "id": "dfb01dba-d5d0-49a8-acce-d1fe23f766f5",
         "title": "Partner Sales Engineer",
@@ -258,7 +258,7 @@
       "source": "ashby",
       "posted_at": "2026-05-07T18:41:31.535+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.482226+00:00",
+      "discovered_at": "2026-08-30T05:08:21.964499+00:00",
       "raw": {
         "id": "288e8202-573e-49a2-8a82-3c09d5d5abaa",
         "title": "Customer Support Analyst - 24/7 support ",
@@ -302,7 +302,7 @@
       "source": "ashby",
       "posted_at": "2026-05-07T20:39:12.044+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.483168+00:00",
+      "discovered_at": "2026-08-30T05:08:21.965135+00:00",
       "raw": {
         "id": "0572265b-a96f-4c0f-9c3b-52465350e75e",
         "title": "Senior Product Manager",
@@ -346,7 +346,7 @@
       "source": "ashby",
       "posted_at": "2026-05-27T18:48:04.976+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.490114+00:00",
+      "discovered_at": "2026-08-30T05:08:21.965519+00:00",
       "raw": {
         "id": "fd606cef-8fd5-4d45-be49-8338d73cd036",
         "title": "Senior Yocto Developer GCC",
@@ -390,7 +390,7 @@
       "source": "ashby",
       "posted_at": "2026-05-25T16:37:40.202+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.491252+00:00",
+      "discovered_at": "2026-08-30T05:08:21.965902+00:00",
       "raw": {
         "id": "68b5d99b-b11a-45af-a117-4b9c02570106",
         "title": "Deployment Project Manager",
@@ -434,7 +434,7 @@
       "source": "ashby",
       "posted_at": "2026-06-04T20:35:35.605+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.491909+00:00",
+      "discovered_at": "2026-08-30T05:08:21.983397+00:00",
       "raw": {
         "id": "515bd978-1803-4c9d-819b-e6020991fda0",
         "title": "Sales Engineer",
@@ -477,7 +477,7 @@
       "source": "ashby",
       "posted_at": "2026-06-09T19:52:35.754+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.492853+00:00",
+      "discovered_at": "2026-08-30T05:08:21.983794+00:00",
       "raw": {
         "id": "778b419e-2b6d-4747-bf11-b7fb2773d26b",
         "title": "Business Development Representative ",
@@ -521,7 +521,7 @@
       "source": "ashby",
       "posted_at": "2026-07-09T07:50:17.503+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.493732+00:00",
+      "discovered_at": "2026-08-30T05:08:21.984545+00:00",
       "raw": {
         "id": "1c4a3763-8ac8-4373-b5d0-9c9cbb8c7632",
         "title": "Principal  Engineer ",
@@ -565,7 +565,7 @@
       "source": "ashby",
       "posted_at": "2026-08-18T13:14:29.205+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.495040+00:00",
+      "discovered_at": "2026-08-30T05:08:21.985025+00:00",
       "raw": {
         "id": "9fc1e69b-86b8-4d79-84a0-aeeba93cc2c5",
         "title": "Customer Success Account Manager",
@@ -609,7 +609,7 @@
       "source": "ashby",
       "posted_at": "2026-07-10T20:26:21.541+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.496070+00:00",
+      "discovered_at": "2026-08-30T05:08:21.985488+00:00",
       "raw": {
         "id": "3296fcb6-3dd9-44b0-b3c0-b77b59e342b2",
         "title": "Senior GTM Stack Developer, Litmus GCC",
@@ -653,7 +653,7 @@
       "source": "ashby",
       "posted_at": "2026-08-24T10:09:45.848+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.497811+00:00",
+      "discovered_at": "2026-08-30T05:08:21.985838+00:00",
       "raw": {
         "id": "f8b071c6-9997-46d2-bd3d-310a46af7d82",
         "title": "Senior Technical Writer",
@@ -697,7 +697,7 @@
       "source": "ashby",
       "posted_at": "2026-07-17T04:47:53.349+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.499179+00:00",
+      "discovered_at": "2026-08-30T05:08:21.986202+00:00",
       "raw": {
         "id": "cd657661-7f6b-46a6-86ad-3b883280f892",
         "title": "Customer Success Application Engineer, Litmus GCC",
@@ -741,7 +741,7 @@
       "source": "ashby",
       "posted_at": "2026-07-17T05:01:45.668+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.499925+00:00",
+      "discovered_at": "2026-08-30T05:08:21.986694+00:00",
       "raw": {
         "id": "82defbd8-2ee7-4096-baa2-b7b3ca2ab1f0",
         "title": "Customer Success Application Engineer, Litmus GCC",
@@ -785,7 +785,7 @@
       "source": "ashby",
       "posted_at": "2026-07-29T17:14:02.483+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.500488+00:00",
+      "discovered_at": "2026-08-30T05:08:21.987134+00:00",
       "raw": {
         "id": "043fef9b-3062-41dc-b1bc-6974ae8a2c0d",
         "title": "Partner Success Manager",
@@ -828,7 +828,7 @@
       "source": "ashby",
       "posted_at": "2026-07-29T17:02:47.053+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.501139+00:00",
+      "discovered_at": "2026-08-30T05:08:21.987586+00:00",
       "raw": {
         "id": "d00efab0-c4f6-4371-a63f-7427d2101972",
         "title": "Partner Success Manager",
@@ -872,7 +872,7 @@
       "source": "ashby",
       "posted_at": "2026-07-29T17:26:09.068+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.506011+00:00",
+      "discovered_at": "2026-08-30T05:08:21.988432+00:00",
       "raw": {
         "id": "25e26f3f-301f-4eb2-bdec-d4f5ba36df7b",
         "title": "Principal Application Engineer ",
@@ -916,7 +916,7 @@
       "source": "ashby",
       "posted_at": "2026-07-30T17:15:25.521+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.506739+00:00",
+      "discovered_at": "2026-08-30T05:08:21.988933+00:00",
       "raw": {
         "id": "a9911466-ed74-4e3b-ba0c-de0a5a445cbf",
         "title": "Customer Success Application Engineer ",
@@ -960,7 +960,7 @@
       "source": "ashby",
       "posted_at": "2026-07-30T17:34:47.974+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.507746+00:00",
+      "discovered_at": "2026-08-30T05:08:21.989315+00:00",
       "raw": {
         "id": "55905b6a-12d7-442b-a61f-4b2b7ad33d7d",
         "title": "Customer Success Application Engineer (EMEA)",
@@ -1003,7 +1003,7 @@
       "source": "ashby",
       "posted_at": "2026-07-30T17:51:46.226+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.508483+00:00",
+      "discovered_at": "2026-08-30T05:08:21.990363+00:00",
       "raw": {
         "id": "79414eda-3c38-497f-9922-4149ab1fbc10",
         "title": "Customer Success Application Engineer (Japan)",
@@ -1043,7 +1043,7 @@
       "source": "ashby",
       "posted_at": "2026-08-05T21:26:47.250+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.509428+00:00",
+      "discovered_at": "2026-08-30T05:08:21.990807+00:00",
       "raw": {
         "id": "6873f57e-351e-45e2-8454-c1dcb90bfb2f",
         "title": "Strategic Partner Manager",
@@ -1087,7 +1087,7 @@
       "source": "ashby",
       "posted_at": "2026-08-05T19:43:19.669+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.510626+00:00",
+      "discovered_at": "2026-08-30T05:08:21.991247+00:00",
       "raw": {
         "id": "a2250c34-6808-40c9-b23a-f4783949c01f",
         "title": "Sales Director - Japan & Asia",
@@ -1127,7 +1127,7 @@
       "source": "ashby",
       "posted_at": "2026-08-05T21:22:02.684+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.531080+00:00",
+      "discovered_at": "2026-08-30T05:08:21.991606+00:00",
       "raw": {
         "id": "ac5a2aed-4b4b-403d-8e20-6ed9177144cd",
         "title": "Site Reliability Engineer, Litmus GCC",
@@ -1171,7 +1171,7 @@
       "source": "ashby",
       "posted_at": "2026-08-20T16:52:06.338+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.531877+00:00",
+      "discovered_at": "2026-08-30T05:08:21.992024+00:00",
       "raw": {
         "id": "5dd5a528-7c2c-49eb-8096-1bf1ce1ebd85",
         "title": "Senior Product Manager, Cloud, AI & Strategic Partnerships",
@@ -1219,7 +1219,7 @@
       "source": "ashby",
       "posted_at": "2026-08-27T20:03:52.010+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:20.532452+00:00",
+      "discovered_at": "2026-08-30T05:08:21.992302+00:00",
       "raw": {
         "id": "866b4b47-ef34-4d05-88d9-8f213e5734a9",
         "title": "QA Architect",

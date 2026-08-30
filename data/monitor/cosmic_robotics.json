@@ -4,7 +4,7 @@
   "career_page": "https://jobs.ashbyhq.com/cosmic-robotics",
   "source": "ashby",
   "identifier": "cosmic-robotics",
-  "scanned_at": "2026-08-29T05:46:24.903749+00:00",
+  "scanned_at": "2026-08-30T05:08:26.285885+00:00",
   "count": 4,
   "total_available": 4,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "ashby",
       "posted_at": "2026-08-19T15:58:25.272+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:24.903273+00:00",
+      "discovered_at": "2026-08-30T05:08:26.285018+00:00",
       "raw": {
         "id": "c134a5d0-284a-4a4e-b0f3-05aa1c793614",
         "title": "Senior Electrical Engineer",
@@ -67,7 +67,7 @@
       "source": "ashby",
       "posted_at": "2026-08-19T16:00:41.985+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:24.903449+00:00",
+      "discovered_at": "2026-08-30T05:08:26.285346+00:00",
       "raw": {
         "id": "202fcf8a-48d1-40b5-a142-c1d63713ce2d",
         "title": "Senior Mechanical Engineer",
@@ -109,7 +109,7 @@
       "source": "ashby",
       "posted_at": "2026-08-19T16:07:16.429+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:24.903572+00:00",
+      "discovered_at": "2026-08-30T05:08:26.285546+00:00",
       "raw": {
         "id": "6ab9c5a1-cfee-442d-b9ca-dfe0117d4836",
         "title": "General Applicant",
@@ -151,7 +151,7 @@
       "source": "ashby",
       "posted_at": "2026-08-19T15:53:20.485+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:24.903734+00:00",
+      "discovered_at": "2026-08-30T05:08:26.285854+00:00",
       "raw": {
         "id": "c7112880-fa0c-4386-8c01-6eac0b31bc65",
         "title": "Forward Deployed Software Engineer",

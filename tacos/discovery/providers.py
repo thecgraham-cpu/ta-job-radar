@@ -17,9 +17,16 @@ from tacos.discovery.parsers.lever_jobs import (
 from tacos.discovery.parsers.rippling_jobs import (
     fetch_rippling_jobs,
 )
+from tacos.discovery.parsers.smartrecruiters_jobs import (
+    fetch_smartrecruiters_jobs,
+)
+from tacos.discovery.parsers.workable_jobs import (
+    fetch_workable_jobs,
+)
 from tacos.discovery.parsers.workday_jobs import (
     fetch_workday_jobs,
 )
+
 
 ProviderFetcher = Callable[
     ...,
@@ -34,6 +41,10 @@ PROVIDER_FETCHERS: dict[
     "greenhouse": fetch_greenhouse_jobs,
     "ashby": fetch_ashby_jobs,
     "lever": fetch_lever_jobs,
+    "smartrecruiters": (
+        fetch_smartrecruiters_jobs
+    ),
+    "workable": fetch_workable_jobs,
     "rippling": fetch_rippling_jobs,
     "workday": fetch_workday_jobs,
 }
@@ -42,12 +53,12 @@ PROVIDER_FETCHERS: dict[
 def get_provider_fetcher(
     provider: str,
 ) -> ProviderFetcher | None:
-    """Return the fetcher for a supported ATS provider."""
-
-    return PROVIDER_FETCHERS.get(provider.lower().strip())
+    return PROVIDER_FETCHERS.get(
+        provider.lower().strip()
+    )
 
 
 def list_supported_providers() -> list[str]:
-    """Return all ATS providers HirePilot can currently fetch."""
-
-    return sorted(PROVIDER_FETCHERS.keys())
+    return sorted(
+        PROVIDER_FETCHERS.keys()
+    )

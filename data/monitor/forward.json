@@ -4,7 +4,7 @@
   "career_page": "https://job-boards.greenhouse.io/forward",
   "source": "greenhouse",
   "identifier": "forward",
-  "scanned_at": "2026-08-29T05:46:18.730048+00:00",
+  "scanned_at": "2026-08-30T05:08:20.516931+00:00",
   "count": 5,
   "total_available": 5,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "greenhouse",
       "posted_at": "2026-05-27T12:44:10-04:00",
       "updated_at": "2026-05-27T12:44:10-04:00",
-      "discovered_at": "2026-08-29T05:46:18.718888+00:00",
+      "discovered_at": "2026-08-30T05:08:20.514240+00:00",
       "raw": {
         "absolute_url": "https://getfwd.com/careers?gh_jid=5129606007",
         "data_compliance": [
@@ -91,7 +91,7 @@
       "source": "greenhouse",
       "posted_at": "2026-05-19T14:27:03-04:00",
       "updated_at": "2026-05-19T14:27:03-04:00",
-      "discovered_at": "2026-08-29T05:46:18.719981+00:00",
+      "discovered_at": "2026-08-30T05:08:20.514946+00:00",
       "raw": {
         "absolute_url": "https://getfwd.com/careers?gh_jid=5135645007",
         "data_compliance": [
@@ -157,7 +157,7 @@
       "source": "greenhouse",
       "posted_at": "2026-05-19T17:07:42-04:00",
       "updated_at": "2026-05-19T17:07:42-04:00",
-      "discovered_at": "2026-08-29T05:46:18.721571+00:00",
+      "discovered_at": "2026-08-30T05:08:20.515869+00:00",
       "raw": {
         "absolute_url": "https://getfwd.com/careers?gh_jid=5135662007",
         "data_compliance": [
@@ -223,7 +223,7 @@
       "source": "greenhouse",
       "posted_at": "2026-05-19T17:08:24-04:00",
       "updated_at": "2026-05-19T17:08:24-04:00",
-      "discovered_at": "2026-08-29T05:46:18.722575+00:00",
+      "discovered_at": "2026-08-30T05:08:20.516388+00:00",
       "raw": {
         "absolute_url": "https://getfwd.com/careers?gh_jid=5135076007",
         "data_compliance": [
@@ -288,7 +288,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-19T09:53:47-04:00",
       "updated_at": "2026-08-19T09:53:47-04:00",
-      "discovered_at": "2026-08-29T05:46:18.729968+00:00",
+      "discovered_at": "2026-08-30T05:08:20.516906+00:00",
       "raw": {
         "absolute_url": "https://getfwd.com/careers?gh_jid=5128202007",
         "data_compliance": [

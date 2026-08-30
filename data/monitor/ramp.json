@@ -4,9 +4,9 @@
   "career_page": "https://ramp.com/careers#jobs",
   "source": "ashby",
   "identifier": "ramp",
-  "scanned_at": "2026-08-29T05:46:17.403520+00:00",
-  "count": 138,
-  "total_available": 138,
+  "scanned_at": "2026-08-30T05:08:19.772858+00:00",
+  "count": 139,
+  "total_available": 139,
   "partial_scan": false,
   "jobs": [
     {
@@ -25,7 +25,7 @@
       "source": "ashby",
       "posted_at": "2026-04-07T17:12:35.753+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.215484+00:00",
+      "discovered_at": "2026-08-30T05:08:19.682298+00:00",
       "raw": {
         "id": "34413f8d-26bf-4bbc-8ade-eb309a0e2245",
         "title": " Security Engineer, Cloud",
@@ -94,7 +94,7 @@
       "source": "ashby",
       "posted_at": "2025-07-31T21:58:34.674+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.216100+00:00",
+      "discovered_at": "2026-08-30T05:08:19.682634+00:00",
       "raw": {
         "id": "f564dcf9-9390-4a3f-896f-8047a5086040",
         "title": "Mobile Engineer, Android",
@@ -163,7 +163,7 @@
       "source": "ashby",
       "posted_at": "2023-03-09T17:44:00.817+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.216662+00:00",
+      "discovered_at": "2026-08-30T05:08:19.682917+00:00",
       "raw": {
         "id": "4e64ab86-4e30-403b-b1b9-41dc052570ce",
         "title": "Software Engineer, Frontend",
@@ -242,7 +242,7 @@
       "source": "ashby",
       "posted_at": "2026-05-22T16:15:13.252+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.217571+00:00",
+      "discovered_at": "2026-08-30T05:08:19.683283+00:00",
       "raw": {
         "id": "1db75064-e38c-4b21-8310-21471943d0be",
         "title": "Technical Program Manager",
@@ -284,7 +284,7 @@
       "source": "ashby",
       "posted_at": "2026-08-12T20:22:32.685+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.218732+00:00",
+      "discovered_at": "2026-08-30T05:08:19.683763+00:00",
       "raw": {
         "id": "4745807e-82f4-4b1a-857c-dc8dadc73076",
         "title": "Credit Risk Associate",
@@ -326,7 +326,7 @@
       "source": "ashby",
       "posted_at": "2026-08-11T17:13:52.073+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.219501+00:00",
+      "discovered_at": "2026-08-30T05:08:19.684112+00:00",
       "raw": {
         "id": "707d5f91-bcf7-42b2-a0e6-8130bf13e56b",
         "title": "Account Executive | Strategic ",
@@ -368,7 +368,7 @@
       "source": "ashby",
       "posted_at": "2025-07-31T21:50:51.242+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.220335+00:00",
+      "discovered_at": "2026-08-30T05:08:19.684398+00:00",
       "raw": {
         "id": "4859cd5e-f2a9-44d7-81f7-8bfc0e62369f",
         "title": "Mobile Engineer, iOS",
@@ -437,7 +437,7 @@
       "source": "ashby",
       "posted_at": "2026-08-27T20:34:35.116+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.221187+00:00",
+      "discovered_at": "2026-08-30T05:08:19.685083+00:00",
       "raw": {
         "id": "081dbe29-8a06-4cb2-bda5-4b0bfb35c2e8",
         "title": "Product Operations Specialist | Generalist",
@@ -479,7 +479,7 @@
       "source": "ashby",
       "posted_at": "2026-08-24T21:00:55.877+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.222016+00:00",
+      "discovered_at": "2026-08-30T05:08:19.685668+00:00",
       "raw": {
         "id": "87de7e0e-5214-49bc-bb81-54782e9c3ad5",
         "title": "GTM Senior Business Systems Analyst",
@@ -542,7 +542,7 @@
       "source": "ashby",
       "posted_at": "2026-07-11T20:22:52.649+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.222802+00:00",
+      "discovered_at": "2026-08-30T05:08:19.686101+00:00",
       "raw": {
         "id": "ffc09fc0-7785-48db-a203-a148f62534be",
         "title": "GTM Systems Engineer, Salesforce",
@@ -595,7 +595,7 @@
       "source": "ashby",
       "posted_at": "2025-07-25T17:14:33.373+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.223470+00:00",
+      "discovered_at": "2026-08-30T05:08:19.686452+00:00",
       "raw": {
         "id": "b55447c0-4adc-42eb-9ca2-f88fd44e0e5b",
         "title": "Partner Development Representative | Accounting ",
@@ -646,7 +646,7 @@
       "source": "ashby",
       "posted_at": "2026-06-23T15:09:33.356+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.224545+00:00",
+      "discovered_at": "2026-08-30T05:08:19.686828+00:00",
       "raw": {
         "id": "60ed4fac-3833-4495-9b0f-75e6dfe4b36c",
         "title": "Manager, Account Executive | Mid-Market",
@@ -699,7 +699,7 @@
       "source": "ashby",
       "posted_at": "2025-12-10T14:44:21.253+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.271799+00:00",
+      "discovered_at": "2026-08-30T05:08:19.687211+00:00",
       "raw": {
         "id": "b9568fb8-a47e-4738-87fb-a6d88c3a505f",
         "title": "Account Manager | Commercial",
@@ -772,7 +772,7 @@
       "source": "ashby",
       "posted_at": "2026-02-09T20:22:43.425+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.272345+00:00",
+      "discovered_at": "2026-08-30T05:08:19.687621+00:00",
       "raw": {
         "id": "eca54d0e-232a-4c3e-bfcc-d6c6add393f5",
         "title": "Product Designer",
@@ -814,7 +814,7 @@
       "source": "ashby",
       "posted_at": "2026-07-29T20:23:40.144+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.272769+00:00",
+      "discovered_at": "2026-08-30T05:08:19.688270+00:00",
       "raw": {
         "id": "29d188c7-0529-4bc8-a04a-57902df2a7ae",
         "title": "Partner Development Representative | Private Equity",
@@ -885,7 +885,7 @@
       "source": "ashby",
       "posted_at": "2025-06-05T17:33:32.680+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.273387+00:00",
+      "discovered_at": "2026-08-30T05:08:19.688811+00:00",
       "raw": {
         "id": "d84bbf19-572a-499c-9c87-0c154ce85caf",
         "title": "Account Manager | Mid-Market",
@@ -946,7 +946,7 @@
       "source": "ashby",
       "posted_at": "2026-08-06T19:42:50.847+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.274236+00:00",
+      "discovered_at": "2026-08-30T05:08:19.689333+00:00",
       "raw": {
         "id": "cdc3cb5a-8c6d-4820-86cf-5f9daa2b41fc",
         "title": "Senior Product Marketing Manager - New Products",
@@ -999,7 +999,7 @@
       "source": "ashby",
       "posted_at": "2026-03-11T14:55:30.277+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.274692+00:00",
+      "discovered_at": "2026-08-30T05:08:19.689614+00:00",
       "raw": {
         "id": "bca0346c-b843-4795-96df-6091f51e421b",
         "title": "Software Engineer, Data Platform ",
@@ -1041,7 +1041,7 @@
       "source": "ashby",
       "posted_at": "2025-03-27T22:17:14.532+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.275348+00:00",
+      "discovered_at": "2026-08-30T05:08:19.690080+00:00",
       "raw": {
         "id": "09a9381c-677b-40a5-9ff1-027bd4302c13",
         "title": "Customer Activation Manager | Enterprise",
@@ -1094,7 +1094,7 @@
       "source": "ashby",
       "posted_at": "2026-02-19T14:50:34.267+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.275845+00:00",
+      "discovered_at": "2026-08-30T05:08:19.690491+00:00",
       "raw": {
         "id": "8086c65e-b4cc-4bdd-8f1f-5bdf03130ff4",
         "title": "Customer Activation Manager | Mid-Market",
@@ -1147,7 +1147,7 @@
       "source": "ashby",
       "posted_at": "2026-05-13T20:28:09.574+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.276186+00:00",
+      "discovered_at": "2026-08-30T05:08:19.690807+00:00",
       "raw": {
         "id": "d1183b00-6590-4fe4-a585-28d84e578fe3",
         "title": "Software Engineer, Security, Stablecoin",
@@ -1208,7 +1208,7 @@
       "source": "ashby",
       "posted_at": "2025-10-09T20:16:19.133+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.276506+00:00",
+      "discovered_at": "2026-08-30T05:08:19.691087+00:00",
       "raw": {
         "id": "8c004352-f162-4d89-858f-75a649e77ec4",
         "title": "Account Executive | Commercial",
@@ -1261,7 +1261,7 @@
       "source": "ashby",
       "posted_at": "2026-08-10T16:22:34.383+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.276981+00:00",
+      "discovered_at": "2026-08-30T05:08:19.691415+00:00",
       "raw": {
         "id": "94d79eed-34db-42c8-b47c-5edef335b7f2",
         "title": "Customer Activation Manager | Scaled",
@@ -1314,7 +1314,7 @@
       "source": "ashby",
       "posted_at": "2026-07-30T14:42:40.767+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.281644+00:00",
+      "discovered_at": "2026-08-30T05:08:19.691858+00:00",
       "raw": {
         "id": "a8451979-2691-440e-851b-49a3b807729b",
         "title": "Senior Brand Designer, Growth",
@@ -1356,7 +1356,7 @@
       "source": "ashby",
       "posted_at": "2025-08-07T20:49:38.961+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.282097+00:00",
+      "discovered_at": "2026-08-30T05:08:19.692236+00:00",
       "raw": {
         "id": "67fadb77-43d8-4449-954b-d4cf2c6d3b8b",
         "title": "Software Engineer Internship, Android ",
@@ -1409,7 +1409,7 @@
       "source": "ashby",
       "posted_at": "2026-07-28T18:22:37.155+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.282892+00:00",
+      "discovered_at": "2026-08-30T05:08:19.692791+00:00",
       "raw": {
         "id": "6a20b3b8-8111-4cbd-be4b-423b60660738",
         "title": "Office Coordinator, NYC",
@@ -1451,7 +1451,7 @@
       "source": "ashby",
       "posted_at": "2026-08-06T16:05:16.694+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.283373+00:00",
+      "discovered_at": "2026-08-30T05:08:19.693192+00:00",
       "raw": {
         "id": "3f94674f-6af8-4e10-9631-77b1b0a410bf",
         "title": "Commercial Account Executive, Canada",
@@ -1493,7 +1493,7 @@
       "source": "ashby",
       "posted_at": "2026-06-25T19:57:44.435+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.283956+00:00",
+      "discovered_at": "2026-08-30T05:08:19.693766+00:00",
       "raw": {
         "id": "29b679a8-9990-48c1-b91e-001c566ced27",
         "title": "Solutions Consultant, Enterprise ",
@@ -1564,7 +1564,7 @@
       "source": "ashby",
       "posted_at": "2025-09-29T22:46:04.471+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.284338+00:00",
+      "discovered_at": "2026-08-30T05:08:19.698076+00:00",
       "raw": {
         "id": "f5b60cf1-c0ec-42c1-89db-ece853e998ab",
         "title": "Software Engineer, Growth Platform",
@@ -1617,7 +1617,7 @@
       "source": "ashby",
       "posted_at": "2026-01-20T21:47:15.308+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.284632+00:00",
+      "discovered_at": "2026-08-30T05:08:19.698421+00:00",
       "raw": {
         "id": "7c26780b-7923-42d5-8111-9825ff996966",
         "title": "Security Engineer, Product",
@@ -1659,7 +1659,7 @@
       "source": "ashby",
       "posted_at": "2025-11-05T16:45:58.645+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.284926+00:00",
+      "discovered_at": "2026-08-30T05:08:19.698768+00:00",
       "raw": {
         "id": "deca582c-a1d0-4705-9975-60aed81ba89f",
         "title": "Software Engineer, Enterprise Product",
@@ -1712,7 +1712,7 @@
       "source": "ashby",
       "posted_at": "2026-06-29T22:26:00.004+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.285269+00:00",
+      "discovered_at": "2026-08-30T05:08:19.699110+00:00",
       "raw": {
         "id": "afe866c3-3725-4416-9e5f-530ed89b295d",
         "title": "Manager, Scaled Customer Success",
@@ -1773,7 +1773,7 @@
       "source": "ashby",
       "posted_at": "2026-06-24T20:35:48.583+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.285822+00:00",
+      "discovered_at": "2026-08-30T05:08:19.699419+00:00",
       "raw": {
         "id": "803e8ace-6c1d-4807-99d3-e35fe45b2fc9",
         "title": "Senior Manager, Equity Operations",
@@ -1834,7 +1834,7 @@
       "source": "ashby",
       "posted_at": "2026-01-20T21:47:19.654+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.286107+00:00",
+      "discovered_at": "2026-08-30T05:08:19.699794+00:00",
       "raw": {
         "id": "95f450a1-0d38-4d58-9aac-9d7e655adc36",
         "title": "Security Engineer, Privacy",
@@ -1895,7 +1895,7 @@
       "source": "ashby",
       "posted_at": "2026-08-18T14:26:06.075+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.286428+00:00",
+      "discovered_at": "2026-08-30T05:08:19.700312+00:00",
       "raw": {
         "id": "440606b5-1923-4f9d-a0ed-c126445b9477",
         "title": "Channel Partner Manager | Accounting  ",
@@ -1958,7 +1958,7 @@
       "source": "ashby",
       "posted_at": "2026-01-16T18:04:53.200+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.298110+00:00",
+      "discovered_at": "2026-08-30T05:08:19.700824+00:00",
       "raw": {
         "id": "f330ccd7-59f5-4032-82b0-4448482769e4",
         "title": "Customer Activation Manager | Strategic Enterprise",
@@ -2011,7 +2011,7 @@
       "source": "ashby",
       "posted_at": "2026-06-15T19:10:56.634+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.298796+00:00",
+      "discovered_at": "2026-08-30T05:08:19.701358+00:00",
       "raw": {
         "id": "ee493d8f-c75e-4ca4-b665-1576e835f522",
         "title": "Lead Recruiter | Design",
@@ -2053,7 +2053,7 @@
       "source": "ashby",
       "posted_at": "2026-01-20T16:41:04.185+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.299212+00:00",
+      "discovered_at": "2026-08-30T05:08:19.702090+00:00",
       "raw": {
         "id": "5fe4c64e-9336-4384-9e6f-ff32eeb3fdae",
         "title": "Software Engineer, Core Product",
@@ -2095,7 +2095,7 @@
       "source": "ashby",
       "posted_at": "2026-08-10T20:47:19.474+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.299771+00:00",
+      "discovered_at": "2026-08-30T05:08:19.702670+00:00",
       "raw": {
         "id": "4904547a-e2ca-407c-b113-8aae2be0790c",
         "title": "Customer Activation | Partnerships ",
@@ -2158,7 +2158,7 @@
       "source": "ashby",
       "posted_at": "2026-07-28T22:26:04.023+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.300190+00:00",
+      "discovered_at": "2026-08-30T05:08:19.713731+00:00",
       "raw": {
         "id": "f36f233b-bb27-4334-87df-8dc02b897724",
         "title": "Solutions Consultant, Mid-Market",
@@ -2237,7 +2237,7 @@
       "source": "ashby",
       "posted_at": "2026-07-07T20:47:09.753+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.300677+00:00",
+      "discovered_at": "2026-08-30T05:08:19.714349+00:00",
       "raw": {
         "id": "03e2d4e1-73ad-4f09-a058-2eb9ce34c2bc",
         "title": "Technical Consultant, Mid-Market",
@@ -2298,7 +2298,7 @@
       "source": "ashby",
       "posted_at": "2026-05-07T21:54:56.273+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.301502+00:00",
+      "discovered_at": "2026-08-30T05:08:19.714992+00:00",
       "raw": {
         "id": "624cd0cc-7471-4c9a-99be-56b90809d2ce",
         "title": "Technical Recruiter | Engineering ",
@@ -2340,7 +2340,7 @@
       "source": "ashby",
       "posted_at": "2026-08-10T16:22:38.329+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.302314+00:00",
+      "discovered_at": "2026-08-30T05:08:19.715425+00:00",
       "raw": {
         "id": "f0f95d20-fb64-4c06-86ff-6142e937fe0b",
         "title": "Senior Customer Activation Manager | Scaled",
@@ -2393,7 +2393,7 @@
       "source": "ashby",
       "posted_at": "2026-01-12T16:46:17.571+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.302983+00:00",
+      "discovered_at": "2026-08-30T05:08:19.715733+00:00",
       "raw": {
         "id": "d204e136-2749-42de-82b4-88a0dd352090",
         "title": "Applied AI Engineer",
@@ -2446,7 +2446,7 @@
       "source": "ashby",
       "posted_at": "2026-08-10T20:09:27.474+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.304881+00:00",
+      "discovered_at": "2026-08-30T05:08:19.716113+00:00",
       "raw": {
         "id": "cce684de-191d-4a8a-bc42-7ded3ccd47af",
         "title": "Business Development Representative | Ontario, Canada",
@@ -2488,7 +2488,7 @@
       "source": "ashby",
       "posted_at": "2026-08-21T23:16:14.436+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.305606+00:00",
+      "discovered_at": "2026-08-30T05:08:19.716432+00:00",
       "raw": {
         "id": "f98771d6-e685-4b91-a466-71789c238e33",
         "title": "Sales Development Representative | Inbound",
@@ -2559,7 +2559,7 @@
       "source": "ashby",
       "posted_at": "2026-01-22T16:43:09.624+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.306318+00:00",
+      "discovered_at": "2026-08-30T05:08:19.716883+00:00",
       "raw": {
         "id": "71e5c2bf-6014-499e-92b5-c4b3241bbbcd",
         "title": "Social Media Manager",
@@ -2601,7 +2601,7 @@
       "source": "ashby",
       "posted_at": "2026-03-27T20:01:22.099+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.306919+00:00",
+      "discovered_at": "2026-08-30T05:08:19.717200+00:00",
       "raw": {
         "id": "8fa367de-71ba-409e-befd-175a163acb1b",
         "title": "Software Engineer, Fraud & Identity",
@@ -2643,7 +2643,7 @@
       "source": "ashby",
       "posted_at": "2026-05-13T20:28:14.340+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.307517+00:00",
+      "discovered_at": "2026-08-30T05:08:19.717510+00:00",
       "raw": {
         "id": "5598f7b8-4ae2-4105-a2b4-2d0f55c54c40",
         "title": "Software Engineer, Credit",
@@ -2685,7 +2685,7 @@
       "source": "ashby",
       "posted_at": "2025-10-29T20:06:15.084+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.308159+00:00",
+      "discovered_at": "2026-08-30T05:08:19.717984+00:00",
       "raw": {
         "id": "2a4968ae-220c-471b-b890-a011de570bbb",
         "title": "Software Engineer, Bill Pay & Procurement",
@@ -2738,7 +2738,7 @@
       "source": "ashby",
       "posted_at": "2026-06-03T17:53:31.348+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.308786+00:00",
+      "discovered_at": "2026-08-30T05:08:19.718354+00:00",
       "raw": {
         "id": "e577622f-6657-4e53-8941-b3a774b04448",
         "title": "Data Scientist",
@@ -2799,7 +2799,7 @@
       "source": "ashby",
       "posted_at": "2026-08-10T20:47:02.283+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.309421+00:00",
+      "discovered_at": "2026-08-30T05:08:19.723082+00:00",
       "raw": {
         "id": "97898101-f97b-47c8-a991-267afc517ae5",
         "title": "Senior Customer Activation Manager | Partnerships ",
@@ -2862,7 +2862,7 @@
       "source": "ashby",
       "posted_at": "2026-08-04T17:33:05.466+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.310032+00:00",
+      "discovered_at": "2026-08-30T05:08:19.723643+00:00",
       "raw": {
         "id": "a4ecdd59-e379-4841-9bd3-c3f1f86da008",
         "title": "Customer Activation Manager | Commercial ",
@@ -2915,7 +2915,7 @@
       "source": "ashby",
       "posted_at": "2026-02-13T00:05:38.250+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.311581+00:00",
+      "discovered_at": "2026-08-30T05:08:19.724095+00:00",
       "raw": {
         "id": "f2ad6068-02e7-4986-967e-804ecef9e043",
         "title": "Financial Partnerships Manager, International",
@@ -2968,7 +2968,7 @@
       "source": "ashby",
       "posted_at": "2026-06-29T17:10:36.236+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.312220+00:00",
+      "discovered_at": "2026-08-30T05:08:19.724395+00:00",
       "raw": {
         "id": "42527ca9-03b9-499e-a5c4-18e4245af138",
         "title": "Software Engineer, Developer API",
@@ -3010,7 +3010,7 @@
       "source": "ashby",
       "posted_at": "2026-03-05T20:28:39.997+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.312744+00:00",
+      "discovered_at": "2026-08-30T05:08:19.724697+00:00",
       "raw": {
         "id": "f0918978-d6da-4cd7-b248-055aaa108426",
         "title": "Detection & Response, Lead",
@@ -3052,7 +3052,7 @@
       "source": "ashby",
       "posted_at": "2026-02-16T21:45:14.991+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.313354+00:00",
+      "discovered_at": "2026-08-30T05:08:19.725059+00:00",
       "raw": {
         "id": "bdd28c40-f95b-43df-bebe-3b8a25c8f602",
         "title": "Senior Manager, Head of Talent Operations",
@@ -3113,7 +3113,7 @@
       "source": "ashby",
       "posted_at": "2026-02-26T21:56:47.552+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.314027+00:00",
+      "discovered_at": "2026-08-30T05:08:19.725403+00:00",
       "raw": {
         "id": "1540a41f-d88f-4c89-9b08-5b9fade1ee81",
         "title": "Software Engineer, Frontend, Ramp Revenue",
@@ -3155,7 +3155,7 @@
       "source": "ashby",
       "posted_at": "2026-07-01T18:00:02.705+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.314895+00:00",
+      "discovered_at": "2026-08-30T05:08:19.725835+00:00",
       "raw": {
         "id": "30323399-3039-499d-a0b6-a891ced89e1e",
         "title": "Head of Brand",
@@ -3197,7 +3197,7 @@
       "source": "ashby",
       "posted_at": "2026-03-04T19:24:48.925+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.315649+00:00",
+      "discovered_at": "2026-08-30T05:08:19.726226+00:00",
       "raw": {
         "id": "7bfa613e-151c-469b-9973-c89ee3d14838",
         "title": "Backend Engineer, Ops Engineering",
@@ -3239,7 +3239,7 @@
       "source": "ashby",
       "posted_at": "2026-07-13T21:37:52.553+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.316180+00:00",
+      "discovered_at": "2026-08-30T05:08:19.726635+00:00",
       "raw": {
         "id": "220e674a-fc70-439f-bacf-687553ca59c9",
         "title": "Solutions Consultant, Commercial",
@@ -3328,7 +3328,7 @@
       "source": "ashby",
       "posted_at": "2026-07-08T14:57:40.553+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.316949+00:00",
+      "discovered_at": "2026-08-30T05:08:19.726993+00:00",
       "raw": {
         "id": "b68aca53-16c0-4ced-ab1d-e8beb2940b4f",
         "title": "Design Engineer",
@@ -3370,7 +3370,7 @@
       "source": "ashby",
       "posted_at": "2026-04-15T19:28:26.012+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.318685+00:00",
+      "discovered_at": "2026-08-30T05:08:19.727292+00:00",
       "raw": {
         "id": "ca9a8794-b40c-44bc-8f8a-d85182c62c6e",
         "title": "Senior Channel Partner Manager, Franchise  ",
@@ -3431,7 +3431,7 @@
       "source": "ashby",
       "posted_at": "2026-08-14T22:05:34.197+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.319502+00:00",
+      "discovered_at": "2026-08-30T05:08:19.727685+00:00",
       "raw": {
         "id": "157bb000-868b-4a6d-9143-67619871812f",
         "title": "Solutions Consultant, Public Sector",
@@ -3473,7 +3473,7 @@
       "source": "ashby",
       "posted_at": "2026-04-07T23:33:56.484+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.319992+00:00",
+      "discovered_at": "2026-08-30T05:08:19.727973+00:00",
       "raw": {
         "id": "ecbd340c-f7ca-43ef-9d0e-f562494c4078",
         "title": "Channel Partner Manager, Franchise  ",
@@ -3534,7 +3534,7 @@
       "source": "ashby",
       "posted_at": "2026-07-22T23:28:36.319+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.320675+00:00",
+      "discovered_at": "2026-08-30T05:08:19.728341+00:00",
       "raw": {
         "id": "6c68ed4b-dab8-4e2d-b677-a7b6ddca0272",
         "title": "Channel Partner Manager, Embedded  ISV",
@@ -3585,7 +3585,7 @@
       "source": "ashby",
       "posted_at": "2026-06-16T21:07:21.159+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.321156+00:00",
+      "discovered_at": "2026-08-30T05:08:19.728899+00:00",
       "raw": {
         "id": "f7c4de3c-1d64-42e9-8111-f38e265327d8",
         "title": " Account Executive | Mid-Market",
@@ -3646,7 +3646,7 @@
       "source": "ashby",
       "posted_at": "2026-08-27T03:05:26.969+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.322019+00:00",
+      "discovered_at": "2026-08-30T05:08:19.729684+00:00",
       "raw": {
         "id": "8efd3a0a-fc66-46e2-9415-bffba10e2919",
         "title": "AI Solutions Engineer",
@@ -3688,7 +3688,7 @@
       "source": "ashby",
       "posted_at": "2026-04-27T13:02:46.196+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.322493+00:00",
+      "discovered_at": "2026-08-30T05:08:19.730077+00:00",
       "raw": {
         "id": "198150d6-789a-4ef8-999f-93a49656d4f1",
         "title": "Software Engineer, Engineering Platform",
@@ -3730,7 +3730,7 @@
       "source": "ashby",
       "posted_at": "2026-07-29T18:19:15.778+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.322947+00:00",
+      "discovered_at": "2026-08-30T05:08:19.730465+00:00",
       "raw": {
         "id": "b8291945-567a-4ed6-8a06-3deab4e18fd7",
         "title": "Senior Channel Partner Manager, Embedded ISV",
@@ -3791,7 +3791,7 @@
       "source": "ashby",
       "posted_at": "2026-04-27T16:15:05.326+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.326838+00:00",
+      "discovered_at": "2026-08-30T05:08:19.731062+00:00",
       "raw": {
         "id": "be496b52-cfbf-494e-b862-61fb4a188b24",
         "title": "Software Engineer, Production Engineering",
@@ -3860,7 +3860,7 @@
       "source": "ashby",
       "posted_at": "2026-05-13T23:29:57.643+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.327487+00:00",
+      "discovered_at": "2026-08-30T05:08:19.731468+00:00",
       "raw": {
         "id": "428f41e2-48e8-409d-b5e3-8053f7fc7a27",
         "title": "Software Engineer, Backend, Marketing Product",
@@ -3902,7 +3902,7 @@
       "source": "ashby",
       "posted_at": "2026-08-11T22:25:11.605+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.327974+00:00",
+      "discovered_at": "2026-08-30T05:08:19.731863+00:00",
       "raw": {
         "id": "f5cf4790-0b77-47be-b332-02ca6ec755fd",
         "title": "Account Manager | Enterprise",
@@ -3955,7 +3955,7 @@
       "source": "ashby",
       "posted_at": "2026-05-12T21:45:54.326+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.328707+00:00",
+      "discovered_at": "2026-08-30T05:08:19.732245+00:00",
       "raw": {
         "id": "b4cbb19e-8249-4339-8eac-20e3806d7999",
         "title": "Enterprise Account Executive, Juno",
@@ -4016,7 +4016,7 @@
       "source": "ashby",
       "posted_at": "2026-06-08T20:49:17.168+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.329404+00:00",
+      "discovered_at": "2026-08-30T05:08:19.732596+00:00",
       "raw": {
         "id": "78b98c66-af59-4fa8-a5ae-d8af8d737976",
         "title": "Director, Product Design",
@@ -4058,7 +4058,7 @@
       "source": "ashby",
       "posted_at": "2026-05-21T22:15:05.301+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.330116+00:00",
+      "discovered_at": "2026-08-30T05:08:19.732998+00:00",
       "raw": {
         "id": "72ba7873-254f-45dc-9e7b-595c9d1f8acf",
         "title": "Lead Recruiter | GTM",
@@ -4111,7 +4111,7 @@
       "source": "ashby",
       "posted_at": "2026-07-01T14:12:47.507+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.331002+00:00",
+      "discovered_at": "2026-08-30T05:08:19.733444+00:00",
       "raw": {
         "id": "f0e3a8bb-5f86-4ce1-b345-80d8912f9ddc",
         "title": "Procurement Product Activation Manager",
@@ -4172,7 +4172,7 @@
       "source": "ashby",
       "posted_at": "2026-07-01T14:14:07.210+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.331656+00:00",
+      "discovered_at": "2026-08-30T05:08:19.733879+00:00",
       "raw": {
         "id": "d238a056-3a1f-4dcc-99de-fadc95b9f31c",
         "title": "Senior Manager, Procurement Product Activation",
@@ -4233,7 +4233,7 @@
       "source": "ashby",
       "posted_at": "2026-05-29T18:37:46.619+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.332005+00:00",
+      "discovered_at": "2026-08-30T05:08:19.734185+00:00",
       "raw": {
         "id": "606475af-b74f-42c4-978a-dde138a86ac7",
         "title": "Associate, Strategic Finance",
@@ -4286,7 +4286,7 @@
       "source": "ashby",
       "posted_at": "2026-06-18T14:28:49.655+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.332990+00:00",
+      "discovered_at": "2026-08-30T05:08:19.734498+00:00",
       "raw": {
         "id": "77578727-0710-43dd-a294-ac3cbb6b52a7",
         "title": "Virtual Events Associate",
@@ -4337,7 +4337,7 @@
       "source": "ashby",
       "posted_at": "2026-06-04T17:51:00.028+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.333354+00:00",
+      "discovered_at": "2026-08-30T05:08:19.734792+00:00",
       "raw": {
         "id": "5cc4e600-1b28-4083-8a70-90f790112f89",
         "title": "Senior Associate, Strategic Finance",
@@ -4390,7 +4390,7 @@
       "source": "ashby",
       "posted_at": "2026-06-08T16:55:08.200+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.333777+00:00",
+      "discovered_at": "2026-08-30T05:08:19.735577+00:00",
       "raw": {
         "id": "f1b3ca8d-d55f-4159-9a3b-f69ad0d981bc",
         "title": "Software Engineer, Onboarding",
@@ -4432,7 +4432,7 @@
       "source": "ashby",
       "posted_at": "2026-06-08T19:17:53.481+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.334093+00:00",
+      "discovered_at": "2026-08-30T05:08:19.735947+00:00",
       "raw": {
         "id": "1515fe6d-1d8e-475b-a5ee-cefe43e78cb7",
         "title": "Account Executive",
@@ -4473,7 +4473,7 @@
       "source": "ashby",
       "posted_at": "2026-06-11T19:19:38.436+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.334467+00:00",
+      "discovered_at": "2026-08-30T05:08:19.736273+00:00",
       "raw": {
         "id": "c495a261-789f-4718-9286-3bba81052b4b",
         "title": "Business Development",
@@ -4514,7 +4514,7 @@
       "source": "ashby",
       "posted_at": "2026-06-10T18:45:18.963+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.334890+00:00",
+      "discovered_at": "2026-08-30T05:08:19.736660+00:00",
       "raw": {
         "id": "7a6ad0e2-8249-476e-a173-2b1a6bd7766b",
         "title": "Engagement Manager",
@@ -4555,7 +4555,7 @@
       "source": "ashby",
       "posted_at": "2026-06-24T14:30:42.943+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.335325+00:00",
+      "discovered_at": "2026-08-30T05:08:19.736961+00:00",
       "raw": {
         "id": "6a7e382f-240a-4952-b9e5-7fe2b3856bc9",
         "title": "Applied AI Engineer, Fullstack",
@@ -4608,7 +4608,7 @@
       "source": "ashby",
       "posted_at": "2026-06-12T16:46:21.549+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.335856+00:00",
+      "discovered_at": "2026-08-30T05:08:19.737558+00:00",
       "raw": {
         "id": "80a2e918-1b21-44c3-92f9-a6da507130ef",
         "title": "Growth Manager, Verticalization & Startups GM",
@@ -4650,7 +4650,7 @@
       "source": "ashby",
       "posted_at": "2026-08-13T20:39:51.629+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.336197+00:00",
+      "discovered_at": "2026-08-30T05:08:19.737935+00:00",
       "raw": {
         "id": "2c101be9-f4b8-4a63-a634-9798d9a09eaa",
         "title": "Director, Brand Operations",
@@ -4692,7 +4692,7 @@
       "source": "ashby",
       "posted_at": "2026-06-16T15:54:03.167+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.336712+00:00",
+      "discovered_at": "2026-08-30T05:08:19.738373+00:00",
       "raw": {
         "id": "cf3516f6-4d6b-4872-831f-c8ef4a3078ee",
         "title": "Product Manager | Vendor Intelligence & Marketplace",
@@ -4745,7 +4745,7 @@
       "source": "ashby",
       "posted_at": "2026-06-17T15:11:56.824+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.339059+00:00",
+      "discovered_at": "2026-08-30T05:08:19.739293+00:00",
       "raw": {
         "id": "504e34ff-dbd9-49a7-8f68-327092672164",
         "title": "Sales Enablement | SDR",
@@ -4787,7 +4787,7 @@
       "source": "ashby",
       "posted_at": "2026-06-16T21:27:54.724+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.339717+00:00",
+      "discovered_at": "2026-08-30T05:08:19.739673+00:00",
       "raw": {
         "id": "be75224c-854c-4a55-9da5-62ca2dcc09df",
         "title": "Software Engineer, International",
@@ -4828,7 +4828,7 @@
       "source": "ashby",
       "posted_at": "2026-06-29T17:26:10.126+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.340601+00:00",
+      "discovered_at": "2026-08-30T05:08:19.740120+00:00",
       "raw": {
         "id": "e7f612e1-a9db-41a3-9e4f-9e6389c9111d",
         "title": "Product Marketing Manager",
@@ -4869,7 +4869,7 @@
       "source": "ashby",
       "posted_at": "2026-06-23T13:59:09.109+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.341301+00:00",
+      "discovered_at": "2026-08-30T05:08:19.740427+00:00",
       "raw": {
         "id": "36c24531-5ab8-4b30-982f-588f033c21c0",
         "title": "Senior Marketing Media Manager",
@@ -4911,7 +4911,7 @@
       "source": "ashby",
       "posted_at": "2026-08-18T14:56:03.303+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.342046+00:00",
+      "discovered_at": "2026-08-30T05:08:19.742408+00:00",
       "raw": {
         "id": "66b5410f-339d-4656-92a6-cf4e31285bc9",
         "title": "Manager, Channel Partnerships | Private Equity",
@@ -4953,7 +4953,7 @@
       "source": "ashby",
       "posted_at": "2026-06-30T19:45:52.993+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.342519+00:00",
+      "discovered_at": "2026-08-30T05:08:19.742999+00:00",
       "raw": {
         "id": "397d2098-59c4-4987-9ca9-ec019c37000e",
         "title": "Senior Credit Underwriter | UK",
@@ -4994,7 +4994,7 @@
       "source": "ashby",
       "posted_at": "2026-07-07T20:05:42.418+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.342954+00:00",
+      "discovered_at": "2026-08-30T05:08:19.743540+00:00",
       "raw": {
         "id": "218e3fef-0fa7-4ad4-b401-9ba0c76c0ff0",
         "title": "Technical Consultant, S/4HANA",
@@ -5073,7 +5073,7 @@
       "source": "ashby",
       "posted_at": "2026-08-27T16:09:14.442+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.343371+00:00",
+      "discovered_at": "2026-08-30T05:08:19.743954+00:00",
       "raw": {
         "id": "9226150c-47df-42f4-8626-7a0aea6b9991",
         "title": "Product Operations Specialist | Bill Pay",
@@ -5126,7 +5126,7 @@
       "source": "ashby",
       "posted_at": "2026-07-07T18:16:31.775+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.343750+00:00",
+      "discovered_at": "2026-08-30T05:08:19.744319+00:00",
       "raw": {
         "id": "492823d8-9651-46cf-9d33-a632ef706879",
         "title": "Solutions Consultant, Post Sales, Mid-Market",
@@ -5215,7 +5215,7 @@
       "source": "ashby",
       "posted_at": "2026-07-08T14:39:41.822+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.344062+00:00",
+      "discovered_at": "2026-08-30T05:08:19.744644+00:00",
       "raw": {
         "id": "e5232cce-a23a-4f03-b12e-dac510d08cd3",
         "title": "Senior Security Engineer, Endpoint",
@@ -5257,7 +5257,7 @@
       "source": "ashby",
       "posted_at": "2026-07-07T20:05:52.829+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.344910+00:00",
+      "discovered_at": "2026-08-30T05:08:19.745036+00:00",
       "raw": {
         "id": "13fe8467-b624-4f30-8aad-af441dfb1797",
         "title": "Technical Consultant, Strategic, Oracle Cloud",
@@ -5346,7 +5346,7 @@
       "source": "ashby",
       "posted_at": "2026-07-07T20:05:33.803+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.348405+00:00",
+      "discovered_at": "2026-08-30T05:08:19.745409+00:00",
       "raw": {
         "id": "85bb97ba-b1fe-4a3b-be35-df4d40b7455e",
         "title": "Technical Consultant, Workday",
@@ -5435,7 +5435,7 @@
       "source": "ashby",
       "posted_at": "2026-07-07T19:59:45.152+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.349176+00:00",
+      "discovered_at": "2026-08-30T05:08:19.745753+00:00",
       "raw": {
         "id": "8ca5c32b-e6c7-47e3-af23-291f122fa0f8",
         "title": "Solutions Consultant, Post Sales, Commercial",
@@ -5524,7 +5524,7 @@
       "source": "ashby",
       "posted_at": "2026-07-09T16:53:41.429+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.349729+00:00",
+      "discovered_at": "2026-08-30T05:08:19.746211+00:00",
       "raw": {
         "id": "971abc99-f20b-43f0-91d6-90bcbfa2c8d9",
         "title": "Solutions Consultant, Post Sales, Enterprise",
@@ -5613,7 +5613,7 @@
       "source": "ashby",
       "posted_at": "2026-07-09T20:08:09.008+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.350322+00:00",
+      "discovered_at": "2026-08-30T05:08:19.746749+00:00",
       "raw": {
         "id": "17ded8ac-6a17-4311-8353-9aa5d20072a5",
         "title": "Senior Partner Field Marketing Manager",
@@ -5674,7 +5674,7 @@
       "source": "ashby",
       "posted_at": "2026-07-15T19:00:35.235+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.350710+00:00",
+      "discovered_at": "2026-08-30T05:08:19.747045+00:00",
       "raw": {
         "id": "690c661d-7ef7-472c-841b-2e20fb4c5db3",
         "title": "Marketing Media Strategist, International (Contract)",
@@ -5715,7 +5715,7 @@
       "source": "ashby",
       "posted_at": "2026-07-16T21:03:16.114+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.351099+00:00",
+      "discovered_at": "2026-08-30T05:08:19.747345+00:00",
       "raw": {
         "id": "aa37bb0b-6b22-4197-a53c-4a4848234f0c",
         "title": "Lead Counsel, UK & Europe",
@@ -5756,7 +5756,7 @@
       "source": "ashby",
       "posted_at": "2026-07-17T17:21:25.284+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.351538+00:00",
+      "discovered_at": "2026-08-30T05:08:19.747659+00:00",
       "raw": {
         "id": "1368191c-94bc-4cfd-b3d2-a2a72f847360",
         "title": "Manager, Advisory and Services Partnerships",
@@ -5798,7 +5798,7 @@
       "source": "ashby",
       "posted_at": "2026-08-07T16:28:53.710+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.351965+00:00",
+      "discovered_at": "2026-08-30T05:08:19.748220+00:00",
       "raw": {
         "id": "c826e3bf-f165-4b7c-af8e-301ad7e2dcda",
         "title": "Senior Manager, Deal Desk",
@@ -5859,7 +5859,7 @@
       "source": "ashby",
       "posted_at": "2026-07-21T19:20:17.701+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.352322+00:00",
+      "discovered_at": "2026-08-30T05:08:19.751313+00:00",
       "raw": {
         "id": "1b6a5a22-d6ed-4591-987d-6cc5b7bca8e1",
         "title": "Money Laundering Reporting Officer, AML",
@@ -5901,7 +5901,7 @@
       "source": "ashby",
       "posted_at": "2026-07-28T15:03:18.007+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.352793+00:00",
+      "discovered_at": "2026-08-30T05:08:19.752110+00:00",
       "raw": {
         "id": "ea9f6e2d-8981-417a-ac96-87d421ccbf4c",
         "title": "Business Operations Lead, Compensation & Equity",
@@ -5943,7 +5943,7 @@
       "source": "ashby",
       "posted_at": "2026-07-28T17:56:57.225+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.353150+00:00",
+      "discovered_at": "2026-08-30T05:08:19.752710+00:00",
       "raw": {
         "id": "b614563f-3ce6-4dca-b5ba-0e5a6c8bda27",
         "title": "Software Engineer, Forward Deployed AI",
@@ -5985,7 +5985,7 @@
       "source": "ashby",
       "posted_at": "2026-07-30T17:37:17.545+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.354549+00:00",
+      "discovered_at": "2026-08-30T05:08:19.753203+00:00",
       "raw": {
         "id": "70958953-f10f-4dba-a606-80a10f80a8f6",
         "title": "Senior Scaled Customer Activation Manager | Canada",
@@ -6027,7 +6027,7 @@
       "source": "ashby",
       "posted_at": "2026-07-30T17:18:41.787+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.354962+00:00",
+      "discovered_at": "2026-08-30T05:08:19.753870+00:00",
       "raw": {
         "id": "0e0af209-d25c-49ce-95f8-74706798a0ea",
         "title": "Associate Counsel, Commercial",
@@ -6069,7 +6069,7 @@
       "source": "ashby",
       "posted_at": "2026-08-06T15:30:18.046+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.355371+00:00",
+      "discovered_at": "2026-08-30T05:08:19.754450+00:00",
       "raw": {
         "id": "f65b0f22-e2b1-4081-b4db-a4a0b0e31055",
         "title": "Commercial Account Manager, Canada ",
@@ -6111,7 +6111,7 @@
       "source": "ashby",
       "posted_at": "2026-08-17T17:52:22.860+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.357424+00:00",
+      "discovered_at": "2026-08-30T05:08:19.755261+00:00",
       "raw": {
         "id": "4e9886c1-134b-4cc7-9bcf-eb56bd0ca71f",
         "title": "Product Operations | AI Revenue Systems",
@@ -6153,7 +6153,7 @@
       "source": "ashby",
       "posted_at": "2026-08-04T00:34:51.913+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.358110+00:00",
+      "discovered_at": "2026-08-30T05:08:19.756024+00:00",
       "raw": {
         "id": "f859c941-4579-402a-aad5-a7bacbf33175",
         "title": "People Operations | Global Mobility, Immigration, and Scale",
@@ -6195,7 +6195,7 @@
       "source": "ashby",
       "posted_at": "2026-08-04T13:37:43.169+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.358628+00:00",
+      "discovered_at": "2026-08-30T05:08:19.756749+00:00",
       "raw": {
         "id": "881f9f7d-9ec5-4b69-b50d-a67000264ca8",
         "title": "Product Manager | Tax",
@@ -6248,7 +6248,7 @@
       "source": "ashby",
       "posted_at": "2026-08-06T19:42:42.102+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.359159+00:00",
+      "discovered_at": "2026-08-30T05:08:19.760822+00:00",
       "raw": {
         "id": "2e07fb9f-fefd-44a4-a6ef-235b4e567432",
         "title": "Lead Product Marketing Manager - Verticals ",
@@ -6301,7 +6301,7 @@
       "source": "ashby",
       "posted_at": "2026-08-07T01:12:02.946+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.359514+00:00",
+      "discovered_at": "2026-08-30T05:08:19.761428+00:00",
       "raw": {
         "id": "59ae3776-2d0a-41b0-a5b2-ffd1262b92d2",
         "title": "Associate, Capital Markets",
@@ -6354,7 +6354,7 @@
       "source": "ashby",
       "posted_at": "2026-08-06T00:16:58.038+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.360747+00:00",
+      "discovered_at": "2026-08-30T05:08:19.762201+00:00",
       "raw": {
         "id": "4d3197eb-49dc-4827-a1e6-26cf0ff24b55",
         "title": "Product Operations Specialist | Customer Setup",
@@ -6407,7 +6407,7 @@
       "source": "ashby",
       "posted_at": "2026-08-11T17:23:19.988+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.361499+00:00",
+      "discovered_at": "2026-08-30T05:08:19.762806+00:00",
       "raw": {
         "id": "2ddd97a8-70b2-4030-ba42-21124ad304d3",
         "title": "Associate Manager, Premier Support (Customer Experience)",
@@ -6488,7 +6488,7 @@
       "source": "ashby",
       "posted_at": "2026-08-11T17:30:41.629+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.362296+00:00",
+      "discovered_at": "2026-08-30T05:08:19.763207+00:00",
       "raw": {
         "id": "6a3f42e6-00d6-4e9d-9caa-9663ffac6d53",
         "title": "Technical Consultant, Enterprise, Oracle Cloud",
@@ -6577,7 +6577,7 @@
       "source": "ashby",
       "posted_at": "2026-08-14T20:18:48.830+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.362683+00:00",
+      "discovered_at": "2026-08-30T05:08:19.763525+00:00",
       "raw": {
         "id": "0cf79980-4cb6-4001-8bea-635f3b22914f",
         "title": "BDR, Manager ",
@@ -6618,7 +6618,7 @@
       "source": "ashby",
       "posted_at": "2026-08-10T17:56:11.095+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.362975+00:00",
+      "discovered_at": "2026-08-30T05:08:19.763815+00:00",
       "raw": {
         "id": "af262319-1c4f-4a36-93bd-ef260cb02aed",
         "title": "Recruiting Coordinator (Contract)",
@@ -6660,7 +6660,7 @@
       "source": "ashby",
       "posted_at": "2026-08-20T16:50:30.773+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.363973+00:00",
+      "discovered_at": "2026-08-30T05:08:19.764362+00:00",
       "raw": {
         "id": "1285aefc-d2c4-4f7c-8357-6e8f97fb22d4",
         "title": "Director, Customer Experience",
@@ -6721,7 +6721,7 @@
       "source": "ashby",
       "posted_at": "2026-08-11T16:02:54.137+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.364316+00:00",
+      "discovered_at": "2026-08-30T05:08:19.764683+00:00",
       "raw": {
         "id": "aa5512b1-d973-4d74-9d10-d56446ecf803",
         "title": "Data Scientist, Finance",
@@ -6774,7 +6774,7 @@
       "source": "ashby",
       "posted_at": "2026-08-11T13:09:41.462+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.364801+00:00",
+      "discovered_at": "2026-08-30T05:08:19.765280+00:00",
       "raw": {
         "id": "4bc09b14-0389-40cd-9d5b-f5557f451d50",
         "title": "IT Site Specialist",
@@ -6816,7 +6816,7 @@
       "source": "ashby",
       "posted_at": "2026-08-12T16:29:18.851+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.365681+00:00",
+      "discovered_at": "2026-08-30T05:08:19.765940+00:00",
       "raw": {
         "id": "a450c0e4-7002-47a8-920d-f6937b0cb641",
         "title": "Finance Storytelling Lead",
@@ -6858,7 +6858,7 @@
       "source": "ashby",
       "posted_at": "2026-08-11T17:31:01.954+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.372842+00:00",
+      "discovered_at": "2026-08-30T05:08:19.767766+00:00",
       "raw": {
         "id": "32fb4396-1976-45de-8137-79e6eecf40b3",
         "title": "Technical Consultant, Enterprise, Microsoft Dynamics F&O",
@@ -6947,7 +6947,7 @@
       "source": "ashby",
       "posted_at": "2026-08-12T16:28:16.614+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.377193+00:00",
+      "discovered_at": "2026-08-30T05:08:19.768228+00:00",
       "raw": {
         "id": "8baec095-2235-41ab-ab64-9abc57823b4b",
         "title": "Product Manager | International",
@@ -7000,7 +7000,7 @@
       "source": "ashby",
       "posted_at": "2026-08-12T16:55:50.601+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.386943+00:00",
+      "discovered_at": "2026-08-30T05:08:19.768751+00:00",
       "raw": {
         "id": "8432f456-a0b4-4417-bd1f-4593c0f58f8f",
         "title": "Channel Partner Manager, Canada",
@@ -7040,7 +7040,7 @@
       "source": "ashby",
       "posted_at": "2026-08-24T16:32:32.665+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.388095+00:00",
+      "discovered_at": "2026-08-30T05:08:19.769313+00:00",
       "raw": {
         "id": "ac7edc29-103a-420f-9002-5d4d43afb159",
         "title": "Senior Manager, Strategic Technical Consulting",
@@ -7093,7 +7093,7 @@
       "source": "ashby",
       "posted_at": "2026-08-18T20:35:41.285+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.388974+00:00",
+      "discovered_at": "2026-08-30T05:08:19.769741+00:00",
       "raw": {
         "id": "b0433f82-e0c0-4dd8-9d41-c6bf2371c2ea",
         "title": "Senior Recruiter, Emerging Talent",
@@ -7135,7 +7135,7 @@
       "source": "ashby",
       "posted_at": "2026-08-19T20:12:19.749+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.389570+00:00",
+      "discovered_at": "2026-08-30T05:08:19.770070+00:00",
       "raw": {
         "id": "8bee5d26-d5fe-4837-8ab0-e7dc12004f24",
         "title": "Senior Manager, Emerging Talent",
@@ -7196,7 +7196,7 @@
       "source": "ashby",
       "posted_at": "2026-08-24T22:55:03.147+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.390627+00:00",
+      "discovered_at": "2026-08-30T05:08:19.770501+00:00",
       "raw": {
         "id": "a91527c9-d2e7-489d-9506-ad72091b5125",
         "title": "Senior Financial Crimes Compliance Controls Strategist",
@@ -7247,7 +7247,7 @@
       "source": "ashby",
       "posted_at": "2026-08-28T17:02:25.332+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.391553+00:00",
+      "discovered_at": "2026-08-30T05:08:19.770992+00:00",
       "raw": {
         "id": "f99558f9-639c-4f36-81af-2d0910703560",
         "title": "Senior Recruiter | GTM Expansion",
@@ -7289,7 +7289,7 @@
       "source": "ashby",
       "posted_at": "2026-08-26T21:23:31.708+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.395989+00:00",
+      "discovered_at": "2026-08-30T05:08:19.771612+00:00",
       "raw": {
         "id": "d64609dd-c391-45a2-bfdb-c1bb34e8f93c",
         "title": "Customer Experience Associate",
@@ -7360,7 +7360,7 @@
       "source": "ashby",
       "posted_at": "2026-08-28T16:01:13.008+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:17.403377+00:00",
+      "discovered_at": "2026-08-30T05:08:19.772185+00:00",
       "raw": {
         "id": "c01a2ed9-fcb4-48c0-ad7a-c59476d9c986",
         "title": "TLM, Production Engineering",
@@ -7411,6 +7411,48 @@
         "applyUrl": "https://jobs.ashbyhq.com/ramp/c01a2ed9-fcb4-48c0-ad7a-c59476d9c986/application",
         "descriptionHtml": "<h1><strong>About Ramp</strong></h1><p style=\"min-height:1.5em\">Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.</p><p style=\"min-height:1.5em\">The problems are high-stakes, data-dense, and unforgiving.</p><p style=\"min-height:1.5em\">We hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.</p><p style=\"min-height:1.5em\">The median Ramp customer saves 5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.</p><p style=\"min-height:1.5em\">If you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it.</p><p style=\"min-height:1.5em\"></p><h2>About Production Engineering</h2><p style=\"min-height:1.5em\">Production Engineering is Ramp's infrastructure ownership layer. We exist to make Ramp faster, more reliable, and more scalable — and we do that by being embedded in the problems, not adjacent to them.</p><p style=\"min-height:1.5em\">A few things that define how we operate:</p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\"><strong>One team, one company, one objective.</strong> There is no \"infra team\" and \"product team\" — there is Ramp. We share the company's goals as our own. When a product team struggles with reliability or scalability, that is our struggle.</p></li><li><p style=\"min-height:1.5em\"><strong>If reliability or scalability is at risk, we own it.</strong> We don't wait to be invited, and we don't ask whose code it is. If a system is slow, if it breaks, if it won't scale — that's ours to lead, regardless of where it lives in the stack.</p></li><li><p style=\"min-height:1.5em\"><strong>We go first, and we go fast.</strong> When the path isn't obvious, we don't wait for someone else to find it. We move with urgency, propose the solution, align the stakeholders, and stay in until it's done — not until our ticket is closed.</p></li><li><p style=\"min-height:1.5em\"><strong>We lead the way.</strong> We find the next problem before it finds us. And when we solve it, we don't just fix it for ourselves — the patterns and standards we establish become the foundation the rest of Ramp builds on. That's not a side effect of the job; it's the job.</p></li><li><p style=\"min-height:1.5em\"><strong>We stay calibrated.</strong> Speed means nothing if we're moving in the wrong direction. We regularly stop and ask honestly whether what we're working on is still the highest-leverage thing we could be doing — the discipline that makes sure our effort compounds toward what actually matters.</p></li></ul><p style=\"min-height:1.5em\"><strong>You cannot build the future of finance on shaky infrastructure.</strong></p><p style=\"min-height:1.5em\"></p><h2>Our Teams</h2><p style=\"min-height:1.5em\">Production Engineering is organized into teams — but we think about teams differently. Teams are mutable. We build them around what needs to be done, not around what we need to do given the teams we already have. The structure below reflects our current priorities; it will evolve as Ramp does.</p><p style=\"min-height:1.5em\">Right now, we operate across four areas:</p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\"><strong>Compute</strong> — the foundation everything runs on: container orchestration, networking, load balancing, edge infrastructure, and the deployment systems that get code from engineers' laptops to production reliably and at scale</p></li><li><p style=\"min-height:1.5em\"><strong>Storage</strong> — databases, caching, object storage, and the data infrastructure that underpins everything</p></li><li><p style=\"min-height:1.5em\"><strong>Workflows &amp; Messaging</strong> — the systems that power Ramp's financial workflows and event-driven architecture</p></li><li><p style=\"min-height:1.5em\"><strong>Internal Infrastructure</strong> — the platform that makes every builder at Ramp faster and more autonomous: observability, cost attribution, and CI/CD systems that give teams visibility into what they build and what it costs</p></li></ul><p style=\"min-height:1.5em\"></p><h2>What You'll Do</h2><p style=\"min-height:1.5em\">Production Engineers at Ramp are <strong>full software engineers who happen to specialize in infrastructure</strong>. You write production code, you own systems end-to-end, and you drive technical outcomes across the organization — not just within your team.</p><p style=\"min-height:1.5em\">Day to day, you will:</p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\"><strong>Build and operate critical infrastructure</strong> across Ramp's compute, storage, messaging, and observability stack — owning the systems that handle real financial transactions at scale.</p></li><li><p style=\"min-height:1.5em\"><strong>Drive architectural change</strong> — not just flag problems. When you surface a reliability or scalability issue, you own the path forward: you propose the solution, find the owners across engineering, and stay in until it's resolved.</p></li><li><p style=\"min-height:1.5em\"><strong>Partner with product teams</strong> at the design phase — reviewing architectures, embedding golden paths, and making it easy to build correctly the first time.</p></li><li><p style=\"min-height:1.5em\"><strong>Build Ramp's next level of scale</strong> — you'll be a hands-on contributor to the most consequential infrastructure shift happening right now: our move to a cellular architecture, enabling Ramp to scale, reach international markets, operate in highly regulated and constrained environments (e.g. FedRAMP), and deliver on enterprise-grade SLAs.</p></li><li><p style=\"min-height:1.5em\"><strong>Enable AI-native engineering</strong> — as Ramp builds increasingly AI-powered products, PE is the team that makes sure the platform can support them. You'll proactively partner with product teams on AI infrastructure patterns, define the golden paths that turn one-off solutions into reusable foundations, and stay ahead of emerging challenges before they become blockers.</p></li><li><p style=\"min-height:1.5em\"><strong>Build developer tooling and self-service infrastructure</strong> — so that other teams can answer their own questions (cost, performance, reliability) without involving PE.</p></li><li><p style=\"min-height:1.5em\"><strong>Participate in on-call rotation</strong> — and more importantly, use every incident as a signal to eliminate the root cause, not just resolve the symptom.</p></li><li><p style=\"min-height:1.5em\"><strong>Lead across the company</strong> — PE doesn't just review designs or show up when called. We proactively initiate cross-team architectural reviews, and we take full ownership of company-wide reliability and scalability initiatives: identifying the problem, proposing the solution, aligning the stakeholders, and staying in until it's done.</p></li></ul><p style=\"min-height:1.5em\"></p><h2>What We Look For</h2><p style=\"min-height:1.5em\">We don't hire for a checklist. We hire for the instincts that make someone exceptional on this team.</p><p style=\"min-height:1.5em\"><strong>The mindset we're looking for:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">You can't walk past something broken without wanting to fix it — and you don't stop at the workaround. You find the root cause and eliminate the class of problem.</p></li><li><p style=\"min-height:1.5em\">You think in systems, not tasks. You understand that \"fixing the bug\" is step one; making it so the bug can't happen again is the job.</p></li><li><p style=\"min-height:1.5em\">You move with urgency but without chaos. You know when to go fast and when to slow down and do it right.</p></li><li><p style=\"min-height:1.5em\">You treat product teams as your users. You build for them, communicate with them proactively, and measure success by how much faster they can ship. But you're also an owner — when something is broken or blocking, you don't wait to be asked. We win when our customers win.</p></li><li><p style=\"min-height:1.5em\">You leave things better than you found them. Every system you touch, every process you encounter — you move it forward. Not always dramatically, but always directionally. You picked it up in a certain state; you leave it in a better one.</p></li><li><p style=\"min-height:1.5em\">You are equally comfortable reading a database query plan, reviewing a system design doc, writing a Terraform module, and jumping into an incident at 2am.</p></li></ul><p style=\"min-height:1.5em\"><strong>Experience profile:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">3+ years of software engineering management shipping high-quality architectures for critical systems </p></li><li><p style=\"min-height:1.5em\">Strong software engineering fundamentals — you write clean, well-tested, production-ready code</p></li><li><p style=\"min-height:1.5em\">Hands-on experience with distributed systems at production scale</p></li><li><p style=\"min-height:1.5em\">Experience with at least one major cloud provider (AWS preferred)</p></li><li><p style=\"min-height:1.5em\">Familiarity with observability practices (SLOs, error budgets, alerting, dashboards)</p></li><li><p style=\"min-height:1.5em\">Track record of leading technical projects end-to-end, including cross-team coordination</p></li><li><p style=\"min-height:1.5em\">Comfortable using AI tooling and coding agents as part of your everyday engineering workflow — we expect our engineers to leverage these tools to move faster and think bigger</p></li></ul><p style=\"min-height:1.5em\"><strong>Bonus (not required):</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Experience with cellular or multi-tenant architecture patterns</p></li><li><p style=\"min-height:1.5em\">Prior work on workflow orchestration systems (Temporal)</p></li><li><p style=\"min-height:1.5em\">Contributions to developer experience or internal platform tooling</p></li><li><p style=\"min-height:1.5em\">Experience in fintech, payments, or regulated industries (FedRAMP, SOC 2)</p></li></ul><p style=\"min-height:1.5em\"></p><h2><strong>Benefits available to all full-time Ramp employees (Global)</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Flexible PTO</p></li><li><p style=\"min-height:1.5em\">Centralized home-office equipment ordering</p></li><li><p style=\"min-height:1.5em\">Health and wellness stipend</p></li><li><p style=\"min-height:1.5em\">Budget for intra-office travel</p></li><li><p style=\"min-height:1.5em\">Weekly coffee stipend</p></li></ul><p style=\"min-height:1.5em\"></p><h2><strong>United States</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">100% medical, dental &amp; vision insurance coverage for you, with partial coverage for dependents</p></li><li><p style=\"min-height:1.5em\">One Medical annual membership</p></li><li><p style=\"min-height:1.5em\">401(k), including employer match on contributions made while employed by Ramp</p></li><li><p style=\"min-height:1.5em\">Fertility HRA (up to $10,000 per year)</p></li><li><p style=\"min-height:1.5em\">Parental leave: up to 16 weeks (birthing + bonding) or 8 weeks (bonding only) at 100% pay</p></li><li><p style=\"min-height:1.5em\">Pet insurance</p></li><li><p style=\"min-height:1.5em\">In-office perks: lunch, snacks, drinks, and more</p></li><li><p style=\"min-height:1.5em\">Relocation expense coverage to NYC or SF (if needed)</p><p style=\"min-height:1.5em\"></p></li></ul><h2><strong>Canada</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Group medical, dental, and vision coverage through Sun Life</p></li><li><p style=\"min-height:1.5em\">Life, AD&amp;D, and disability coverage</p></li><li><p style=\"min-height:1.5em\">Fertility drug coverage (up to $4,000 lifetime)</p></li><li><p style=\"min-height:1.5em\">Group Retirement Plan with employer match (RRSP + DPSP)</p></li><li><p style=\"min-height:1.5em\">Parental leave: up to 16 weeks (birthing + bonding) or 8 weeks (bonding only) at 100% pay, with additional time available at reduced pay</p></li><li><p style=\"min-height:1.5em\">Employee Assistance Program and virtual care through Lumino Health</p></li></ul><p style=\"min-height:1.5em\"></p><h2><strong>United Kingdom</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Private medical insurance through Freedom Elite</p></li><li><p style=\"min-height:1.5em\">Virtual GP and at-home care via eMed x Livi</p></li><li><p style=\"min-height:1.5em\">Workplace pension through Penfold, with salary sacrifice option</p></li><li><p style=\"min-height:1.5em\">Parental leave: up to 16 weeks (birthing + bonding) or 8 weeks (bonding only) at 100% pay with additional time available at reduced pay</p></li></ul><p style=\"min-height:1.5em\"></p><h2><strong>Referral Instructions</strong></h2><p style=\"min-height:1.5em\">If you are being referred for the role, please contact that person to apply on your behalf.</p><div style=\"min-height:1.2em;margin-top:0;margin-bottom:0\"> </div><h2><strong>Other notices</strong></h2><p style=\"min-height:1.5em\">Pursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.</p><div style=\"min-height:1.2em;margin-top:0;margin-bottom:0\"> </div><p style=\"min-height:1.5em\"><em>Beware of recruiting scams: Ramp will only contact you through official @</em><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"http://Ramp.com\"><em>Ramp.com</em></a><em> email addresses and will never ask for payment or sensitive personal information during the hiring process.</em></p><div style=\"min-height:1.2em;margin-top:0;margin-bottom:0\"> </div><p style=\"min-height:1.5em\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://ramp.com/legal/applicant-privacy-notice\">Ramp Applicant Privacy Notice</a></p>",
         "descriptionPlain": "ABOUT RAMP\n\nRamp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.\n\nThe median Ramp customer saves 5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.\n\nIf you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it.\n\n\n\n\nABOUT PRODUCTION ENGINEERING\n\nProduction Engineering is Ramp's infrastructure ownership layer. We exist to make Ramp faster, more reliable, and more scalable — and we do that by being embedded in the problems, not adjacent to them.\n\nA few things that define how we operate:\n\n - One team, one company, one objective. There is no \"infra team\" and \"product team\" — there is Ramp. We share the company's goals as our own. When a product team struggles with reliability or scalability, that is our struggle.\n\n - If reliability or scalability is at risk, we own it. We don't wait to be invited, and we don't ask whose code it is. If a system is slow, if it breaks, if it won't scale — that's ours to lead, regardless of where it lives in the stack.\n\n - We go first, and we go fast. When the path isn't obvious, we don't wait for someone else to find it. We move with urgency, propose the solution, align the stakeholders, and stay in until it's done — not until our ticket is closed.\n\n - We lead the way. We find the next problem before it finds us. And when we solve it, we don't just fix it for ourselves — the patterns and standards we establish become the foundation the rest of Ramp builds on. That's not a side effect of the job; it's the job.\n\n - We stay calibrated. Speed means nothing if we're moving in the wrong direction. We regularly stop and ask honestly whether what we're working on is still the highest-leverage thing we could be doing — the discipline that makes sure our effort compounds toward what actually matters.\n\nYou cannot build the future of finance on shaky infrastructure.\n\n\n\n\nOUR TEAMS\n\nProduction Engineering is organized into teams — but we think about teams differently. Teams are mutable. We build them around what needs to be done, not around what we need to do given the teams we already have. The structure below reflects our current priorities; it will evolve as Ramp does.\n\nRight now, we operate across four areas:\n\n - Compute — the foundation everything runs on: container orchestration, networking, load balancing, edge infrastructure, and the deployment systems that get code from engineers' laptops to production reliably and at scale\n\n - Storage — databases, caching, object storage, and the data infrastructure that underpins everything\n\n - Workflows & Messaging — the systems that power Ramp's financial workflows and event-driven architecture\n\n - Internal Infrastructure — the platform that makes every builder at Ramp faster and more autonomous: observability, cost attribution, and CI/CD systems that give teams visibility into what they build and what it costs\n\n\n\n\nWHAT YOU'LL DO\n\nProduction Engineers at Ramp are full software engineers who happen to specialize in infrastructure. You write production code, you own systems end-to-end, and you drive technical outcomes across the organization — not just within your team.\n\nDay to day, you will:\n\n - Build and operate critical infrastructure across Ramp's compute, storage, messaging, and observability stack — owning the systems that handle real financial transactions at scale.\n\n - Drive architectural change — not just flag problems. When you surface a reliability or scalability issue, you own the path forward: you propose the solution, find the owners across engineering, and stay in until it's resolved.\n\n - Partner with product teams at the design phase — reviewing architectures, embedding golden paths, and making it easy to build correctly the first time.\n\n - Build Ramp's next level of scale — you'll be a hands-on contributor to the most consequential infrastructure shift happening right now: our move to a cellular architecture, enabling Ramp to scale, reach international markets, operate in highly regulated and constrained environments (e.g. FedRAMP), and deliver on enterprise-grade SLAs.\n\n - Enable AI-native engineering — as Ramp builds increasingly AI-powered products, PE is the team that makes sure the platform can support them. You'll proactively partner with product teams on AI infrastructure patterns, define the golden paths that turn one-off solutions into reusable foundations, and stay ahead of emerging challenges before they become blockers.\n\n - Build developer tooling and self-service infrastructure — so that other teams can answer their own questions (cost, performance, reliability) without involving PE.\n\n - Participate in on-call rotation — and more importantly, use every incident as a signal to eliminate the root cause, not just resolve the symptom.\n\n - Lead across the company — PE doesn't just review designs or show up when called. We proactively initiate cross-team architectural reviews, and we take full ownership of company-wide reliability and scalability initiatives: identifying the problem, proposing the solution, aligning the stakeholders, and staying in until it's done.\n\n\n\n\nWHAT WE LOOK FOR\n\nWe don't hire for a checklist. We hire for the instincts that make someone exceptional on this team.\n\nThe mindset we're looking for:\n\n - You can't walk past something broken without wanting to fix it — and you don't stop at the workaround. You find the root cause and eliminate the class of problem.\n\n - You think in systems, not tasks. You understand that \"fixing the bug\" is step one; making it so the bug can't happen again is the job.\n\n - You move with urgency but without chaos. You know when to go fast and when to slow down and do it right.\n\n - You treat product teams as your users. You build for them, communicate with them proactively, and measure success by how much faster they can ship. But you're also an owner — when something is broken or blocking, you don't wait to be asked. We win when our customers win.\n\n - You leave things better than you found them. Every system you touch, every process you encounter — you move it forward. Not always dramatically, but always directionally. You picked it up in a certain state; you leave it in a better one.\n\n - You are equally comfortable reading a database query plan, reviewing a system design doc, writing a Terraform module, and jumping into an incident at 2am.\n\nExperience profile:\n\n - 3+ years of software engineering management shipping high-quality architectures for critical systems \n\n - Strong software engineering fundamentals — you write clean, well-tested, production-ready code\n\n - Hands-on experience with distributed systems at production scale\n\n - Experience with at least one major cloud provider (AWS preferred)\n\n - Familiarity with observability practices (SLOs, error budgets, alerting, dashboards)\n\n - Track record of leading technical projects end-to-end, including cross-team coordination\n\n - Comfortable using AI tooling and coding agents as part of your everyday engineering workflow — we expect our engineers to leverage these tools to move faster and think bigger\n\nBonus (not required):\n\n - Experience with cellular or multi-tenant architecture patterns\n\n - Prior work on workflow orchestration systems (Temporal)\n\n - Contributions to developer experience or internal platform tooling\n\n - Experience in fintech, payments, or regulated industries (FedRAMP, SOC 2)\n\n\n\n\nBENEFITS AVAILABLE TO ALL FULL-TIME RAMP EMPLOYEES (GLOBAL)\n\n - Flexible PTO\n\n - Centralized home-office equipment ordering\n\n - Health and wellness stipend\n\n - Budget for intra-office travel\n\n - Weekly coffee stipend\n\n\n\n\nUNITED STATES\n\n - 100% medical, dental & vision insurance coverage for you, with partial coverage for dependents\n\n - One Medical annual membership\n\n - 401(k), including employer match on contributions made while employed by Ramp\n\n - Fertility HRA (up to $10,000 per year)\n\n - Parental leave: up to 16 weeks (birthing + bonding) or 8 weeks (bonding only) at 100% pay\n\n - Pet insurance\n\n - In-office perks: lunch, snacks, drinks, and more\n\n - Relocation expense coverage to NYC or SF (if needed)\n   \n   \n\n\nCANADA\n\n - Group medical, dental, and vision coverage through Sun Life\n\n - Life, AD&D, and disability coverage\n\n - Fertility drug coverage (up to $4,000 lifetime)\n\n - Group Retirement Plan with employer match (RRSP + DPSP)\n\n - Parental leave: up to 16 weeks (birthing + bonding) or 8 weeks (bonding only) at 100% pay, with additional time available at reduced pay\n\n - Employee Assistance Program and virtual care through Lumino Health\n\n\n\n\nUNITED KINGDOM\n\n - Private medical insurance through Freedom Elite\n\n - Virtual GP and at-home care via eMed x Livi\n\n - Workplace pension through Penfold, with salary sacrifice option\n\n - Parental leave: up to 16 weeks (birthing + bonding) or 8 weeks (bonding only) at 100% pay with additional time available at reduced pay\n\n\n\n\nREFERRAL INSTRUCTIONS\n\nIf you are being referred for the role, please contact that person to apply on your behalf.\n\n \n\n\nOTHER NOTICES\n\nPursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.\n\n \n\nBeware of recruiting scams: Ramp will only contact you through official @Ramp.com http://Ramp.com email addresses and will never ask for payment or sensitive personal information during the hiring process.\n\n \n\nRamp Applicant Privacy Notice https://ramp.com/legal/applicant-privacy-notice"
+      }
+    },
+    {
+      "job_id": "c62308d72450e042d10654b6233878f7c1879027fe6eef59ea4bddcbf0698a85",
+      "external_id": "ee45197b-f2f7-455e-8a5e-f0a1db5088e5",
+      "company": "Ramp",
+      "title": "Senior Recruiter | G&A",
+      "location": "New York, NY (HQ)",
+      "remote": false,
+      "department": "People & Talent",
+      "team": "People & Talent",
+      "employment_type": "FullTime",
+      "description": "ABOUT RAMP Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books. The problems are high-stakes, data-dense, and unforgiving. We hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome. The median Ramp customer saves 5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same. If you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it. ABOUT THE ROLE Ramp is hiring a Senior Recruiter to lead critical searches across our G&A functions. These teams shape how Ramp grows, protects the business, and maintains a high bar as we scale. You will own searches from initial scoping through close, partnering directly with leaders across Recruiting, Risk, and other G&A functions. You will be expected to develop real fluency in each area you support, translate ambiguous business needs into clear hiring strategies, and bring an independent point of view on talent. This is a hands-on role for someone who is equally strong at research, assessment, stakeholder partnership, and closing. You should be comfortable challenging assumptions, navigating sensitive searches, and creating structure without slowing the business down. WHAT YOU'LL DO - Own full-cycle recruiting across Recruiting, Risk, and other G&A functions, from intake and market mapping through offer and close. - Develop real fluency in the functions you support so you can identify the signals that distinguish exceptional talent beyond title, company, and tenure. - Partner with hiring leaders to define the hiring thesis, calibrate the bar, and translate ambiguous needs into clear search strategies and interview plans. - Build proactive pipelines through market research, targeted sourcing, referrals, and thoughtful engagement with passive candidates. - Advise leaders using market intelligence, recruiting data, and candidate feedback to challenge assumptions and improve hiring decisions. - Run disciplined, high-velocity processes while delivering a personal candidate experience and leading thoughtful closing strategies for competitive hires. WHAT YOU NEED - 5+ years of full-cycle recruiting experience, including significant ownership of G&A, corporate, or specialized business-function searches. - Experience recruiting for functions such as Risk, Compliance, Legal, Finance, People, or Recruiting. - A track record of independently leading complex or senior-level searches from initial scoping through accepted offer. - Strong talent judgment and research instincts. You can map a market, identify meaningful signals, and explain why someone is likely to excel at Ramp. - The credibility to advise senior leaders, challenge requirements, and influence hiring decisions through clear communication, market insight, and data. - Strong execution and closing skills, including comfort with AI-enabled recruiting workflows, ATS and funnel discipline, competing offers, and sensitive searches. NICE-TO-HAVE - Experience supporting multiple G&A functions in a high-growth, technology, or similarly fast-moving company. - Familiarity with the talent landscape across fintech, financial services, SaaS, or other regulated industries. - Experience improving interview architecture, scorecards, market maps, or recruiting processes where structure was limited or still being built. - Experience developing AI-enabled recruiting workflows that were adopted beyond your own individual searches. BENEFITS AVAILABLE TO ALL FULL-TIME RAMP EMPLOYEES (GLOBAL) - Flexible PTO - Centralized home-office equipment ordering - Health and wellness stipend - Budget for intra-office travel - Weekly coffee stipend UNITED STATES - 100% medical, dental & vision insurance coverage for you, with partial coverage for dependents - One Medical annual membership - 401(k), including employer match on contributions made while employed by Ramp - Fertility HRA (up to $10,000 per year) - Parental leave: up to 16 weeks (birthing + bonding) or 8 weeks (bonding only) at 100% pay - Pet insurance - In-office perks: lunch, snacks, drinks, and more - Relocation expense coverage to NYC or SF (if needed) CANADA - Group medical, dental, and vision coverage through Sun Life - Life, AD&D, and disability coverage - Fertility drug coverage (up to $4,000 lifetime) - Group Retirement Plan with employer match (RRSP + DPSP) - Parental leave: up to 16 weeks (birthing + bonding) or 8 weeks (bonding only) at 100% pay, with additional time available at reduced pay - Employee Assistance Program and virtual care through Lumino Health UNITED KINGDOM - Private medical insurance through Freedom Elite - Virtual GP and at-home care via eMed x Livi - Workplace pension through Penfold, with salary sacrifice option - Parental leave: up to 16 weeks (birthing + bonding) or 8 weeks (bonding only) at 100% pay with additional time available at reduced pay REFERRAL INSTRUCTIONS If you are being referred for the role, please contact that person to apply on your behalf. OTHER NOTICES Pursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records. Beware of recruiting scams: Ramp will only contact you through official @Ramp.com http://Ramp.com email addresses and will never ask for payment or sensitive personal information during the hiring process. Ramp Applicant Privacy Notice https://ramp.com/legal/applicant-privacy-notice",
+      "apply_url": "https://jobs.ashbyhq.com/ramp/ee45197b-f2f7-455e-8a5e-f0a1db5088e5",
+      "source_url": "https://jobs.ashbyhq.com/ramp/ee45197b-f2f7-455e-8a5e-f0a1db5088e5",
+      "source": "ashby",
+      "posted_at": "2026-08-29T14:17:31.007+00:00",
+      "updated_at": null,
+      "discovered_at": "2026-08-30T05:08:19.772715+00:00",
+      "raw": {
+        "id": "ee45197b-f2f7-455e-8a5e-f0a1db5088e5",
+        "title": "Senior Recruiter | G&A",
+        "department": "People & Talent",
+        "team": "People & Talent",
+        "employmentType": "FullTime",
+        "location": "New York, NY (HQ)",
+        "secondaryLocations": [],
+        "publishedAt": "2026-08-29T14:17:31.007+00:00",
+        "isListed": true,
+        "isRemote": true,
+        "workplaceType": "Hybrid",
+        "address": {
+          "postalAddress": {
+            "addressRegion": "NY",
+            "addressCountry": "USA",
+            "addressLocality": "New York City"
+          }
+        },
+        "jobUrl": "https://jobs.ashbyhq.com/ramp/ee45197b-f2f7-455e-8a5e-f0a1db5088e5",
+        "applyUrl": "https://jobs.ashbyhq.com/ramp/ee45197b-f2f7-455e-8a5e-f0a1db5088e5/application",
+        "descriptionHtml": "<h1><strong>About Ramp</strong></h1><p style=\"min-height:1.5em\">Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.</p><p style=\"min-height:1.5em\">The problems are high-stakes, data-dense, and unforgiving.</p><p style=\"min-height:1.5em\">We hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.</p><p style=\"min-height:1.5em\">The median Ramp customer saves 5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.</p><p style=\"min-height:1.5em\">If you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it.</p><p style=\"min-height:1.5em\"></p><h1><strong>About the Role</strong></h1><p style=\"min-height:1.5em\">Ramp is hiring a Senior Recruiter to lead critical searches across our G&amp;A functions.</p><p style=\"min-height:1.5em\">These teams shape how Ramp grows, protects the business, and maintains a high bar as we scale. You will own searches from initial scoping through close, partnering directly with leaders across Recruiting, Risk, and other G&amp;A functions. You will be expected to develop real fluency in each area you support, translate ambiguous business needs into clear hiring strategies, and bring an independent point of view on talent.</p><p style=\"min-height:1.5em\">This is a hands-on role for someone who is equally strong at research, assessment, stakeholder partnership, and closing. You should be comfortable challenging assumptions, navigating sensitive searches, and creating structure without slowing the business down.</p><div style=\"min-height:1.2em;margin-top:0;margin-bottom:0\"> </div><h2><strong>What You'll Do</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Own full-cycle recruiting across Recruiting, Risk, and other G&amp;A functions, from intake and market mapping through offer and close.</p></li><li><p style=\"min-height:1.5em\">Develop real fluency in the functions you support so you can identify the signals that distinguish exceptional talent beyond title, company, and tenure.</p></li><li><p style=\"min-height:1.5em\">Partner with hiring leaders to define the hiring thesis, calibrate the bar, and translate ambiguous needs into clear search strategies and interview plans.</p></li><li><p style=\"min-height:1.5em\">Build proactive pipelines through market research, targeted sourcing, referrals, and thoughtful engagement with passive candidates.</p></li><li><p style=\"min-height:1.5em\">Advise leaders using market intelligence, recruiting data, and candidate feedback to challenge assumptions and improve hiring decisions.</p></li><li><p style=\"min-height:1.5em\">Run disciplined, high-velocity processes while delivering a personal candidate experience and leading thoughtful closing strategies for competitive hires.</p></li></ul><div style=\"min-height:1.2em;margin-top:0;margin-bottom:0\"> </div><h2><strong>What You Need</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">5+ years of full-cycle recruiting experience, including significant ownership of G&amp;A, corporate, or specialized business-function searches.</p></li><li><p style=\"min-height:1.5em\">Experience recruiting for functions such as Risk, Compliance, Legal, Finance, People, or Recruiting.</p></li><li><p style=\"min-height:1.5em\">A track record of independently leading complex or senior-level searches from initial scoping through accepted offer.</p></li><li><p style=\"min-height:1.5em\">Strong talent judgment and research instincts. You can map a market, identify meaningful signals, and explain why someone is likely to excel at Ramp.</p></li><li><p style=\"min-height:1.5em\">The credibility to advise senior leaders, challenge requirements, and influence hiring decisions through clear communication, market insight, and data.</p></li><li><p style=\"min-height:1.5em\">Strong execution and closing skills, including comfort with AI-enabled recruiting workflows, ATS and funnel discipline, competing offers, and sensitive searches.</p><div style=\"min-height:1.2em;margin-top:0;margin-bottom:0\"> </div></li></ul><h2><strong>Nice-to-Have</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Experience supporting multiple G&amp;A functions in a high-growth, technology, or similarly fast-moving company.</p></li><li><p style=\"min-height:1.5em\">Familiarity with the talent landscape across fintech, financial services, SaaS, or other regulated industries.</p></li><li><p style=\"min-height:1.5em\">Experience improving interview architecture, scorecards, market maps, or recruiting processes where structure was limited or still being built.</p></li><li><p style=\"min-height:1.5em\">Experience developing AI-enabled recruiting workflows that were adopted beyond your own individual searches.</p></li></ul><p style=\"min-height:1.5em\"></p><h2><strong>Benefits available to all full-time Ramp employees (Global)</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Flexible PTO</p></li><li><p style=\"min-height:1.5em\">Centralized home-office equipment ordering</p></li><li><p style=\"min-height:1.5em\">Health and wellness stipend</p></li><li><p style=\"min-height:1.5em\">Budget for intra-office travel</p></li><li><p style=\"min-height:1.5em\">Weekly coffee stipend</p></li></ul><p style=\"min-height:1.5em\"></p><h2><strong>United States</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">100% medical, dental &amp; vision insurance coverage for you, with partial coverage for dependents</p></li><li><p style=\"min-height:1.5em\">One Medical annual membership</p></li><li><p style=\"min-height:1.5em\">401(k), including employer match on contributions made while employed by Ramp</p></li><li><p style=\"min-height:1.5em\">Fertility HRA (up to $10,000 per year)</p></li><li><p style=\"min-height:1.5em\">Parental leave: up to 16 weeks (birthing + bonding) or 8 weeks (bonding only) at 100% pay</p></li><li><p style=\"min-height:1.5em\">Pet insurance</p></li><li><p style=\"min-height:1.5em\">In-office perks: lunch, snacks, drinks, and more</p></li><li><p style=\"min-height:1.5em\">Relocation expense coverage to NYC or SF (if needed)</p><p style=\"min-height:1.5em\"></p></li></ul><h2><strong>Canada</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Group medical, dental, and vision coverage through Sun Life</p></li><li><p style=\"min-height:1.5em\">Life, AD&amp;D, and disability coverage</p></li><li><p style=\"min-height:1.5em\">Fertility drug coverage (up to $4,000 lifetime)</p></li><li><p style=\"min-height:1.5em\">Group Retirement Plan with employer match (RRSP + DPSP)</p></li><li><p style=\"min-height:1.5em\">Parental leave: up to 16 weeks (birthing + bonding) or 8 weeks (bonding only) at 100% pay, with additional time available at reduced pay</p></li><li><p style=\"min-height:1.5em\">Employee Assistance Program and virtual care through Lumino Health</p></li></ul><p style=\"min-height:1.5em\"></p><h2><strong>United Kingdom</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Private medical insurance through Freedom Elite</p></li><li><p style=\"min-height:1.5em\">Virtual GP and at-home care via eMed x Livi</p></li><li><p style=\"min-height:1.5em\">Workplace pension through Penfold, with salary sacrifice option</p></li><li><p style=\"min-height:1.5em\">Parental leave: up to 16 weeks (birthing + bonding) or 8 weeks (bonding only) at 100% pay with additional time available at reduced pay</p></li></ul><p style=\"min-height:1.5em\"></p><h2><strong>Referral Instructions</strong></h2><p style=\"min-height:1.5em\">If you are being referred for the role, please contact that person to apply on your behalf.</p><div style=\"min-height:1.2em;margin-top:0;margin-bottom:0\"> </div><h2><strong>Other notices</strong></h2><p style=\"min-height:1.5em\">Pursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.</p><div style=\"min-height:1.2em;margin-top:0;margin-bottom:0\"> </div><p style=\"min-height:1.5em\"><em>Beware of recruiting scams: Ramp will only contact you through official @</em><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"http://Ramp.com\"><em>Ramp.com</em></a><em> email addresses and will never ask for payment or sensitive personal information during the hiring process.</em></p><div style=\"min-height:1.2em;margin-top:0;margin-bottom:0\"> </div><p style=\"min-height:1.5em\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://ramp.com/legal/applicant-privacy-notice\">Ramp Applicant Privacy Notice</a></p>",
+        "descriptionPlain": "ABOUT RAMP\n\nRamp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.\n\nThe median Ramp customer saves 5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.\n\nIf you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it.\n\n\n\n\nABOUT THE ROLE\n\nRamp is hiring a Senior Recruiter to lead critical searches across our G&A functions.\n\nThese teams shape how Ramp grows, protects the business, and maintains a high bar as we scale. You will own searches from initial scoping through close, partnering directly with leaders across Recruiting, Risk, and other G&A functions. You will be expected to develop real fluency in each area you support, translate ambiguous business needs into clear hiring strategies, and bring an independent point of view on talent.\n\nThis is a hands-on role for someone who is equally strong at research, assessment, stakeholder partnership, and closing. You should be comfortable challenging assumptions, navigating sensitive searches, and creating structure without slowing the business down.\n\n \n\n\nWHAT YOU'LL DO\n\n - Own full-cycle recruiting across Recruiting, Risk, and other G&A functions, from intake and market mapping through offer and close.\n\n - Develop real fluency in the functions you support so you can identify the signals that distinguish exceptional talent beyond title, company, and tenure.\n\n - Partner with hiring leaders to define the hiring thesis, calibrate the bar, and translate ambiguous needs into clear search strategies and interview plans.\n\n - Build proactive pipelines through market research, targeted sourcing, referrals, and thoughtful engagement with passive candidates.\n\n - Advise leaders using market intelligence, recruiting data, and candidate feedback to challenge assumptions and improve hiring decisions.\n\n - Run disciplined, high-velocity processes while delivering a personal candidate experience and leading thoughtful closing strategies for competitive hires.\n\n \n\n\nWHAT YOU NEED\n\n - 5+ years of full-cycle recruiting experience, including significant ownership of G&A, corporate, or specialized business-function searches.\n\n - Experience recruiting for functions such as Risk, Compliance, Legal, Finance, People, or Recruiting.\n\n - A track record of independently leading complex or senior-level searches from initial scoping through accepted offer.\n\n - Strong talent judgment and research instincts. You can map a market, identify meaningful signals, and explain why someone is likely to excel at Ramp.\n\n - The credibility to advise senior leaders, challenge requirements, and influence hiring decisions through clear communication, market insight, and data.\n\n - Strong execution and closing skills, including comfort with AI-enabled recruiting workflows, ATS and funnel discipline, competing offers, and sensitive searches.\n   \n    \n\n\nNICE-TO-HAVE\n\n - Experience supporting multiple G&A functions in a high-growth, technology, or similarly fast-moving company.\n\n - Familiarity with the talent landscape across fintech, financial services, SaaS, or other regulated industries.\n\n - Experience improving interview architecture, scorecards, market maps, or recruiting processes where structure was limited or still being built.\n\n - Experience developing AI-enabled recruiting workflows that were adopted beyond your own individual searches.\n\n\n\n\nBENEFITS AVAILABLE TO ALL FULL-TIME RAMP EMPLOYEES (GLOBAL)\n\n - Flexible PTO\n\n - Centralized home-office equipment ordering\n\n - Health and wellness stipend\n\n - Budget for intra-office travel\n\n - Weekly coffee stipend\n\n\n\n\nUNITED STATES\n\n - 100% medical, dental & vision insurance coverage for you, with partial coverage for dependents\n\n - One Medical annual membership\n\n - 401(k), including employer match on contributions made while employed by Ramp\n\n - Fertility HRA (up to $10,000 per year)\n\n - Parental leave: up to 16 weeks (birthing + bonding) or 8 weeks (bonding only) at 100% pay\n\n - Pet insurance\n\n - In-office perks: lunch, snacks, drinks, and more\n\n - Relocation expense coverage to NYC or SF (if needed)\n   \n   \n\n\nCANADA\n\n - Group medical, dental, and vision coverage through Sun Life\n\n - Life, AD&D, and disability coverage\n\n - Fertility drug coverage (up to $4,000 lifetime)\n\n - Group Retirement Plan with employer match (RRSP + DPSP)\n\n - Parental leave: up to 16 weeks (birthing + bonding) or 8 weeks (bonding only) at 100% pay, with additional time available at reduced pay\n\n - Employee Assistance Program and virtual care through Lumino Health\n\n\n\n\nUNITED KINGDOM\n\n - Private medical insurance through Freedom Elite\n\n - Virtual GP and at-home care via eMed x Livi\n\n - Workplace pension through Penfold, with salary sacrifice option\n\n - Parental leave: up to 16 weeks (birthing + bonding) or 8 weeks (bonding only) at 100% pay with additional time available at reduced pay\n\n\n\n\nREFERRAL INSTRUCTIONS\n\nIf you are being referred for the role, please contact that person to apply on your behalf.\n\n \n\n\nOTHER NOTICES\n\nPursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.\n\n \n\nBeware of recruiting scams: Ramp will only contact you through official @Ramp.com http://Ramp.com email addresses and will never ask for payment or sensitive personal information during the hiring process.\n\n \n\nRamp Applicant Privacy Notice https://ramp.com/legal/applicant-privacy-notice"
       }
     }
   ]

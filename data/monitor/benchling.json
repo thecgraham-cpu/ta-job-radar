@@ -4,9 +4,9 @@
   "career_page": "https://www.benchling.com/careers#jobListing",
   "source": "ashby",
   "identifier": "benchling",
-  "scanned_at": "2026-08-29T05:46:16.035602+00:00",
-  "count": 59,
-  "total_available": 59,
+  "scanned_at": "2026-08-30T05:08:19.192785+00:00",
+  "count": 58,
+  "total_available": 58,
   "partial_scan": false,
   "jobs": [
     {
@@ -25,7 +25,7 @@
       "source": "ashby",
       "posted_at": "2026-08-25T18:43:47.823+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.010514+00:00",
+      "discovered_at": "2026-08-30T05:08:19.169573+00:00",
       "raw": {
         "id": "63d7d126-efaf-4a48-b328-f8d85b640ebf",
         "title": "Software Engineer, Platform (Developer Experience)",
@@ -67,7 +67,7 @@
       "source": "ashby",
       "posted_at": "2025-11-13T23:37:02.023+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.010980+00:00",
+      "discovered_at": "2026-08-30T05:08:19.169888+00:00",
       "raw": {
         "id": "9165e6e5-7209-490f-91ff-72ee719bcce7",
         "title": "Software Engineer, Agents (Growth) ",
@@ -109,7 +109,7 @@
       "source": "ashby",
       "posted_at": "2026-08-25T18:43:54.489+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.011453+00:00",
+      "discovered_at": "2026-08-30T05:08:19.170150+00:00",
       "raw": {
         "id": "a338cb38-bf43-40dd-9fbf-dc9205b30bb1",
         "title": "Software Engineer, Platform (Developer Experience)",
@@ -151,7 +151,7 @@
       "source": "ashby",
       "posted_at": "2026-08-12T18:30:52.195+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.012007+00:00",
+      "discovered_at": "2026-08-30T05:08:19.170384+00:00",
       "raw": {
         "id": "ce18198f-f7f4-4c57-b110-70a7cdd39d95",
         "title": "Recruiting Coordinator - Contractor",
@@ -193,7 +193,7 @@
       "source": "ashby",
       "posted_at": "2026-03-29T23:34:22.924+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.012590+00:00",
+      "discovered_at": "2026-08-30T05:08:19.170732+00:00",
       "raw": {
         "id": "3687b373-439c-48d8-8de1-a8368c7527a2",
         "title": "Software Engineer, Full Stack (Enterprise Lifecycle) (High Seniority)",
@@ -235,7 +235,7 @@
       "source": "ashby",
       "posted_at": "2026-07-08T14:53:26.245+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.012975+00:00",
+      "discovered_at": "2026-08-30T05:08:19.171023+00:00",
       "raw": {
         "id": "d897a65f-eddf-4b45-ade1-029b0c029b95",
         "title": "SMB Account Executive",
@@ -277,7 +277,7 @@
       "source": "ashby",
       "posted_at": "2026-08-06T21:29:44.684+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.013385+00:00",
+      "discovered_at": "2026-08-30T05:08:19.171397+00:00",
       "raw": {
         "id": "78ae90cf-22ff-4dd9-b597-a132ade29abf",
         "title": "Technical Account Manager",
@@ -318,7 +318,7 @@
       "source": "ashby",
       "posted_at": "2026-04-22T19:49:44.789+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.013655+00:00",
+      "discovered_at": "2026-08-30T05:08:19.171648+00:00",
       "raw": {
         "id": "323e4f43-cd7d-4b6c-acad-981893636bfb",
         "title": "Full Stack Engineer, Scientific AI Models",
@@ -360,7 +360,7 @@
       "source": "ashby",
       "posted_at": "2026-04-24T22:07:17.130+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.014258+00:00",
+      "discovered_at": "2026-08-30T05:08:19.172050+00:00",
       "raw": {
         "id": "14002943-e011-425c-8f72-3c727c543668",
         "title": "Software Engineer, Full Stack (Enterprise Lifecycle)",
@@ -402,7 +402,7 @@
       "source": "ashby",
       "posted_at": "2026-06-05T18:07:31.740+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.014785+00:00",
+      "discovered_at": "2026-08-30T05:08:19.172425+00:00",
       "raw": {
         "id": "128a2d50-3311-49f5-b762-4654e680a06d",
         "title": "Product Support Analyst",
@@ -444,7 +444,7 @@
       "source": "ashby",
       "posted_at": "2026-08-11T16:05:52.984+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.015084+00:00",
+      "discovered_at": "2026-08-30T05:08:19.172696+00:00",
       "raw": {
         "id": "49454722-ea62-41da-80f8-864ff06e9265",
         "title": "Strategic Financial Analyst (GTM/Sales Business Partner)",
@@ -486,7 +486,7 @@
       "source": "ashby",
       "posted_at": "2026-05-14T16:38:41.770+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.015475+00:00",
+      "discovered_at": "2026-08-30T05:08:19.173079+00:00",
       "raw": {
         "id": "61b20c5a-5c3d-4388-a19d-13a89886e73f",
         "title": "Product Manager, Developer Platform",
@@ -528,7 +528,7 @@
       "source": "ashby",
       "posted_at": "2026-05-20T22:13:56.565+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.015842+00:00",
+      "discovered_at": "2026-08-30T05:08:19.173417+00:00",
       "raw": {
         "id": "73b44c32-f5ab-48e5-a812-c70f09858f15",
         "title": "SMB Account Executive",
@@ -569,7 +569,7 @@
       "source": "ashby",
       "posted_at": "2026-05-20T15:54:41.125+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.016267+00:00",
+      "discovered_at": "2026-08-30T05:08:19.173773+00:00",
       "raw": {
         "id": "9ff817e6-9274-4613-9ac3-1bc012b7ff8a",
         "title": "Global Program Manager",
@@ -620,7 +620,7 @@
       "source": "ashby",
       "posted_at": "2026-05-22T22:53:47.040+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.016802+00:00",
+      "discovered_at": "2026-08-30T05:08:19.174442+00:00",
       "raw": {
         "id": "2d954274-719c-4d6c-968b-5e1b868bb2a5",
         "title": "Agentic AI Engineer",
@@ -662,7 +662,7 @@
       "source": "ashby",
       "posted_at": "2026-06-01T22:35:40.586+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.017139+00:00",
+      "discovered_at": "2026-08-30T05:08:19.174998+00:00",
       "raw": {
         "id": "2537278d-5417-4af0-a6a8-c0b145e3cc0c",
         "title": "Field Enablement Manager (Partner Enablement Program Manager)",
@@ -715,7 +715,7 @@
       "source": "ashby",
       "posted_at": "2026-06-01T22:30:35.601+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.017470+00:00",
+      "discovered_at": "2026-08-30T05:08:19.175616+00:00",
       "raw": {
         "id": "1a6a2f2e-b0e7-43b1-a985-d1e27ddb0d2e",
         "title": "Field Enablement Manager (Enablement Program and Platform Manager)",
@@ -768,7 +768,7 @@
       "source": "ashby",
       "posted_at": "2026-06-04T18:38:52.345+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.017883+00:00",
+      "discovered_at": "2026-08-30T05:08:19.176256+00:00",
       "raw": {
         "id": "1fdf5825-d013-47af-92cf-b5e50d51e85a",
         "title": "Product Support Analyst",
@@ -809,7 +809,7 @@
       "source": "ashby",
       "posted_at": "2026-06-11T21:29:09.844+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.018218+00:00",
+      "discovered_at": "2026-08-30T05:08:19.176657+00:00",
       "raw": {
         "id": "77e774c8-b0ed-4a87-8e25-60f9a0105f62",
         "title": "Enterprise Account Executive",
@@ -882,7 +882,7 @@
       "source": "ashby",
       "posted_at": "2026-08-12T18:49:21.403+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.018503+00:00",
+      "discovered_at": "2026-08-30T05:08:19.176957+00:00",
       "raw": {
         "id": "d6f4c094-8947-40da-b9f0-fef5f9052bca",
         "title": "GTM Strategy & Operations",
@@ -924,7 +924,7 @@
       "source": "ashby",
       "posted_at": "2026-06-22T21:26:43.422+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.018787+00:00",
+      "discovered_at": "2026-08-30T05:08:19.177248+00:00",
       "raw": {
         "id": "0796012f-3e8c-40b7-a869-b98ab5290380",
         "title": "Product Manager, Schemas",
@@ -966,7 +966,7 @@
       "source": "ashby",
       "posted_at": "2026-07-01T17:05:25.627+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.019111+00:00",
+      "discovered_at": "2026-08-30T05:08:19.177578+00:00",
       "raw": {
         "id": "a7e9452b-b702-4818-9e2a-3315bf7861ca",
         "title": "Strategic Account Executive",
@@ -1008,7 +1008,7 @@
       "source": "ashby",
       "posted_at": "2026-07-01T17:29:37.604+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.019410+00:00",
+      "discovered_at": "2026-08-30T05:08:19.177921+00:00",
       "raw": {
         "id": "29392bd3-ec2a-4017-925b-10975ba09054",
         "title": "Strategic Account Executive",
@@ -1035,48 +1035,6 @@
       }
     },
     {
-      "job_id": "83a2babbe9317077d0fa9d82d735dda40517c91c81cd53f4f20e57039b78ba3b",
-      "external_id": "ab671b98-ac39-43a1-8960-eadf1cf73e18",
-      "company": "Benchling",
-      "title": "Head of Global Deal Desk",
-      "location": "San Francisco, CA",
-      "remote": false,
-      "department": "Finance",
-      "team": "Finance",
-      "employment_type": "FullTime",
-      "description": "We are rebuilding biotech for the AI era. When a breakthrough is delayed, the world waits. Getting a molecule from discovery to patients, or a crop from lab to field, involves thousands of slow, manual, disconnected steps. AI has the potential to change this, compressing decades of R&D work into years. But that only happens when clean, structured scientific data and AI are built into how science gets done. Benchling is the AI platform for biotech R&D. Scientists use Benchling to design experiments, capture structured data, and run AI agents and models directly in their workflows. Over 200,000 scientists around the world trust Benchling to power their most important work, from academic labs to Sanofi, Moderna, and more than half of the world's top 50 biopharma. We’re building an AI scientist for our customers. We can’t do that if we haven’t built the muscle ourselves. AI fluency is the foundation we build on; it's core to how we work, and we're committed to helping every new hire integrate it into their day-to-day. As part of our interview process, you'll complete a brief AI-focused exercise or discussion so we can understand how you think about and use AI to drive impact in your role. Feel free to reference any tools, platforms, or workflows you use today. ROLE OVERVIEW Benchling is looking for a strategic leader comfortable with change and execution to lead our deal strategy and order management team as we scale. Sitting at the intersection of revenue growth, new products, financial control, and cross-functional partnership, you'll be a trusted commercial advisor to sales on deal strategy, help operationalize an updated pricing and packaging strategy, and drive operational improvement across the team. As a hand-on leader who also manages a team, you'll stay close enough to the hardest deals while driving high impact change as the company grows through its next phase. RESPONSIBILITIES - Enterprise deal strategy & structuring. Coach, partner and proactively advise enterprise account executives and sales leadership around the architecture and pricing of our largest and most complex agreements. With your deep experience in complex enterprise software deals (large, multi-year ramped deals, ELAs, etc), you will be a trusted thought partner with sales as they structure, price, and optimize customer agreements for long-term growth across multiple dimensions, and support high-value negotiations alongside sales leadership. Having built trusted relationships with stakeholders, you will help the team win today’s deal while protecting long-term objectives across the company portfolio. Leverage your experience with your order management team members to get scale across our whole book of business. - Lead our global deal desk team & connect our partners. Lead, develop, and scale a trusted global deal strategy and order management team, keeping the field unblocked and serving as the connective tissue between Sales, Finance, Product and Legal. You will help evolve and proactively deliver executive-grade reporting and insights to finance and field leadership on deal mix, discount and pricing trends, win/loss, cycle time, and other key metrics to drive better business outcomes. Sponsor and deploy automation and AI-assisted execution alongside coaching and development, so the function scales on leverage, not just headcount. - Transformation. Serve as a key leader in operationalizing our redesigned pricing and packaging, and driving continued enhancement of the CPQ system that deploys it. Help advise and support implementation of new sales motions to the field, and devise playbooks that lead to optimal business outcomes, while minimizing customer and sales friction. Serve as a key leader and sponsor of cross-functional quote-to-cash system initiatives, driving lower-touch deal pathways, leveraging scrappiness to make progress, and distilling — and helping the team distill — what actually matters from what doesn't, so we move the model forward. - Operational execution and excellence. Own how deal desk partners with the business, and moves deals from quote through to clean, booked revenue with laser focus on operational excellence: the right balance of speed and control, continuously minimizing touches and exceptions, and sponsoring a continuous improvement mindset. Own the approval framework, ensuring clear, enforceable definitions, and anticipating and resolving downstream risk through process rather than reactivity. Maintain controls that align with public-company readiness without unnecessary bureaucracy so we scale at pace, but with the right deal governance and business outcomes. QUALIFICATIONS Requirements: - 10+ years in Deal Desk, Revenue/Sales Operations, Commercial Strategy, and/or Finance, including experience leading and scaling a team, ideally in high-growth B2B enterprise SaaS or life-sciences software. - Track record advising on the structure and close of complex enterprise agreements, exercising judgment and enforcing commercial guardrails while keeping deals moving. - Fluency in SaaS bookings policy and revenue, subscription, and consumption/usage-based models. - Strong cross-functional partnership skills — communication, relationship building, and operational excellence across Sales, Finance, Product, and Legal. - Working knowledge of CPQ tools and process (Salesforce/Steelbrick or similar) — approval frameworks, quote configuration, and the realities of contract generation in a broader quote-to-cash stack (NetSuite, Gong, etc.). - Experience with process improvement and automating SaaS deal and order workflows to balance control and speed at scale. Nice to have: - Experience owning or co-owning a CPQ implementation or major quote-to-cash systems initiative. - Experience structuring consumption/usage-based deals (commits, ramps, overages, true-ups) for recurring revenue. - Ownership of pricing governance — discount authority matrices, approval hierarchies, exception policy — across a global deal portfolio. - Experience operationalizing a pricing and packaging change across a live selling organization. - Familiarity with cloud marketplace (AWS/GCP/Azure) private offers, reseller and partner billing, and international/EMEA deal nuances. - Fluency in BI/SQL/spreadsheets to turn deal data into decisions. HOW WE WORK We offer a flexible hybrid work arrangement that prioritizes in-office collaboration. Employees are expected to be on-site 3 days per week (Monday, Tuesday, and Thursday). #LI-Hybrid #BI-Hybrid Benchling welcomes everyone. We believe diversity enriches our team so we hire people with a wide range of identities, backgrounds, and experiences. We are an equal opportunity employer. That means we don’t discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status. We also consider for employment qualified applicants with arrest and conviction records, consistent with applicable federal, state and local law, including but not limited to the San Francisco Fair Chance Ordinance.",
-      "apply_url": "https://jobs.ashbyhq.com/benchling/ab671b98-ac39-43a1-8960-eadf1cf73e18",
-      "source_url": "https://jobs.ashbyhq.com/benchling/ab671b98-ac39-43a1-8960-eadf1cf73e18",
-      "source": "ashby",
-      "posted_at": "2026-07-23T20:08:17.892+00:00",
-      "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.019792+00:00",
-      "raw": {
-        "id": "ab671b98-ac39-43a1-8960-eadf1cf73e18",
-        "title": "Head of Global Deal Desk",
-        "department": "Finance",
-        "team": "Finance",
-        "employmentType": "FullTime",
-        "location": "San Francisco, CA",
-        "secondaryLocations": [],
-        "publishedAt": "2026-07-23T20:08:17.892+00:00",
-        "isListed": true,
-        "isRemote": true,
-        "workplaceType": "Hybrid",
-        "address": {
-          "postalAddress": {
-            "addressRegion": "California",
-            "addressCountry": "United States",
-            "addressLocality": "San Francisco"
-          }
-        },
-        "jobUrl": "https://jobs.ashbyhq.com/benchling/ab671b98-ac39-43a1-8960-eadf1cf73e18",
-        "applyUrl": "https://jobs.ashbyhq.com/benchling/ab671b98-ac39-43a1-8960-eadf1cf73e18/application",
-        "descriptionHtml": "<p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">We are rebuilding biotech for the AI era.<br /><br />When a breakthrough is delayed, the world waits. Getting a molecule from discovery to patients, or a crop from lab to field, involves thousands of slow, manual, disconnected steps. AI has the potential to change this, compressing decades of R&amp;D work into years. But that only happens when clean, structured scientific data and AI are built into how science gets done.<br /><br />Benchling is the AI platform for biotech R&amp;D. Scientists use Benchling to design experiments, capture structured data, and run AI agents and models directly in their workflows. Over 200,000 scientists around the world trust Benchling to power their most important work, from academic labs to Sanofi, Moderna, and more than half of the world's top 50 biopharma.<br /><br />We’re building an AI scientist for our customers. We can’t do that if we haven’t built the muscle ourselves. AI fluency is the foundation we build on; it's core to how we work, and we're committed to helping every new hire integrate it into their day-to-day. As part of our interview process, you'll complete a brief AI-focused exercise or discussion so we can understand how you think about and use AI to drive impact in your role. Feel free to reference any tools, platforms, or workflows you use today.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"></p><h2><strong>ROLE OVERVIEW</strong></h2><p style=\"min-height:1.5em\">Benchling is looking for a strategic leader comfortable with change and execution to lead our deal strategy and order management team as we scale.  Sitting at the intersection of revenue growth, new products, financial control, and cross-functional partnership, you'll be a trusted commercial advisor to sales on deal strategy, help operationalize an updated pricing and packaging strategy, and drive operational improvement across the team.  </p><p style=\"min-height:1.5em\">As a hand-on leader who also manages a team, you'll stay close enough to the hardest deals while driving high impact change as the company grows through its next phase.</p><p style=\"min-height:1.5em\"> </p><h2><strong>RESPONSIBILITIES</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\"><strong>Enterprise deal strategy &amp; structuring.</strong> Coach, partner and proactively advise enterprise account executives and sales leadership around the architecture and pricing of our largest and most complex agreements.  With your deep experience in complex enterprise software deals (large, multi-year ramped deals, ELAs, etc), you will be a trusted thought partner with sales as they structure, price, and optimize customer agreements for long-term growth across multiple dimensions, and support high-value negotiations alongside sales leadership.  Having built trusted relationships with stakeholders, you will help the team win today’s deal while protecting long-term objectives across the company portfolio.  Leverage your experience with your order management team members to get scale across our whole book of business.</p></li><li><p style=\"min-height:1.5em\"><strong>Lead our global deal desk team &amp; connect our partners.</strong> Lead, develop, and scale a trusted global deal strategy and order management team, keeping the field unblocked and serving as the connective tissue between Sales, Finance, Product and Legal. You will help evolve and proactively deliver executive-grade reporting and insights to finance and field leadership on deal mix, discount and pricing trends, win/loss, cycle time, and other key metrics to drive better business outcomes. Sponsor and deploy automation and AI-assisted execution alongside coaching and development, so the function scales on leverage, not just headcount.</p></li><li><p style=\"min-height:1.5em\"><strong>Transformation.</strong> Serve as a key leader in operationalizing our redesigned pricing and packaging, and driving continued enhancement of the CPQ system that deploys it. Help advise and support implementation of new sales motions to the field, and devise playbooks that lead to optimal business outcomes, while minimizing customer and sales friction. Serve as a key leader and sponsor of cross-functional quote-to-cash system initiatives, driving lower-touch deal pathways, leveraging scrappiness to make progress, and distilling — and helping the team distill — what actually matters from what doesn't, so we move the model forward.</p></li><li><p style=\"min-height:1.5em\"><strong>Operational execution and excellence.</strong>  Own how deal desk partners with the business, and moves deals from quote through to clean, booked revenue with laser focus on operational excellence: the right balance of speed and control, continuously minimizing touches and exceptions, and sponsoring a continuous improvement mindset. Own the approval framework, ensuring clear, enforceable definitions, and anticipating and resolving downstream risk through process rather than reactivity.  Maintain controls that align with public-company readiness without unnecessary bureaucracy so we scale at pace, but with the right deal governance and business outcomes.</p></li></ul><p style=\"min-height:1.5em\"> </p><h2><strong>QUALIFICATIONS</strong></h2><p style=\"min-height:1.5em\"><strong>Requirements:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">10+ years in Deal Desk, Revenue/Sales Operations, Commercial Strategy, and/or Finance, including experience leading and scaling a team, ideally in high-growth B2B enterprise SaaS or life-sciences software.</p></li><li><p style=\"min-height:1.5em\">Track record advising on the structure and close of complex enterprise agreements, exercising judgment and enforcing commercial guardrails while keeping deals moving.</p></li><li><p style=\"min-height:1.5em\">Fluency in SaaS bookings policy and revenue, subscription, and consumption/usage-based models.</p></li><li><p style=\"min-height:1.5em\">Strong cross-functional partnership skills — communication, relationship building, and operational excellence across Sales, Finance, Product, and Legal.</p></li><li><p style=\"min-height:1.5em\">Working knowledge of CPQ tools and process (Salesforce/Steelbrick or similar) — approval frameworks, quote configuration, and the realities of contract generation in a broader quote-to-cash stack (NetSuite, Gong, etc.).</p></li><li><p style=\"min-height:1.5em\">Experience with process improvement and automating SaaS deal and order workflows to balance control and speed at scale.</p></li></ul><p style=\"min-height:1.5em\"><strong>Nice to have:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Experience owning or co-owning a CPQ implementation or major quote-to-cash systems initiative.</p></li><li><p style=\"min-height:1.5em\">Experience structuring consumption/usage-based deals (commits, ramps, overages, true-ups) for recurring revenue.</p></li><li><p style=\"min-height:1.5em\">Ownership of pricing governance — discount authority matrices, approval hierarchies, exception policy — across a global deal portfolio.</p></li><li><p style=\"min-height:1.5em\">Experience operationalizing a pricing and packaging change across a live selling organization.</p></li><li><p style=\"min-height:1.5em\">Familiarity with cloud marketplace (AWS/GCP/Azure) private offers, reseller and partner billing, and international/EMEA deal nuances.</p></li><li><p style=\"min-height:1.5em\">Fluency in BI/SQL/spreadsheets to turn deal data into decisions.</p></li></ul><p style=\"min-height:1.5em\"> </p><h2><strong>HOW WE WORK</strong></h2><p style=\"min-height:1.5em\">We offer a flexible hybrid work arrangement that prioritizes in-office collaboration. Employees are expected to be on-site 3 days per week (Monday, Tuesday, and Thursday).<br /></p><p style=\"min-height:1.5em\">#LI-Hybrid </p><p style=\"min-height:1.5em\">#BI-Hybrid </p><p style=\"min-height:1.5em\"><strong>Benchling welcomes everyone.</strong></p><p style=\"min-height:1.5em\">We believe diversity enriches our team so we hire people with a wide range of identities, backgrounds, and experiences. <br /><br />We are an equal opportunity employer. That means we don’t discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status. We also consider for employment qualified applicants with arrest and conviction records, consistent with applicable federal, state and local law, including but not limited to the San Francisco Fair Chance Ordinance.</p>",
-        "descriptionPlain": "We are rebuilding biotech for the AI era.\n\nWhen a breakthrough is delayed, the world waits. Getting a molecule from discovery to patients, or a crop from lab to field, involves thousands of slow, manual, disconnected steps. AI has the potential to change this, compressing decades of R&D work into years. But that only happens when clean, structured scientific data and AI are built into how science gets done.\n\nBenchling is the AI platform for biotech R&D. Scientists use Benchling to design experiments, capture structured data, and run AI agents and models directly in their workflows. Over 200,000 scientists around the world trust Benchling to power their most important work, from academic labs to Sanofi, Moderna, and more than half of the world's top 50 biopharma.\n\nWe’re building an AI scientist for our customers. We can’t do that if we haven’t built the muscle ourselves. AI fluency is the foundation we build on; it's core to how we work, and we're committed to helping every new hire integrate it into their day-to-day. As part of our interview process, you'll complete a brief AI-focused exercise or discussion so we can understand how you think about and use AI to drive impact in your role. Feel free to reference any tools, platforms, or workflows you use today.\n\n\n\n\n\n\nROLE OVERVIEW\n\nBenchling is looking for a strategic leader comfortable with change and execution to lead our deal strategy and order management team as we scale.  Sitting at the intersection of revenue growth, new products, financial control, and cross-functional partnership, you'll be a trusted commercial advisor to sales on deal strategy, help operationalize an updated pricing and packaging strategy, and drive operational improvement across the team.  \n\nAs a hand-on leader who also manages a team, you'll stay close enough to the hardest deals while driving high impact change as the company grows through its next phase.\n\n \n\n\nRESPONSIBILITIES\n\n - Enterprise deal strategy & structuring. Coach, partner and proactively advise enterprise account executives and sales leadership around the architecture and pricing of our largest and most complex agreements.  With your deep experience in complex enterprise software deals (large, multi-year ramped deals, ELAs, etc), you will be a trusted thought partner with sales as they structure, price, and optimize customer agreements for long-term growth across multiple dimensions, and support high-value negotiations alongside sales leadership.  Having built trusted relationships with stakeholders, you will help the team win today’s deal while protecting long-term objectives across the company portfolio.  Leverage your experience with your order management team members to get scale across our whole book of business.\n\n - Lead our global deal desk team & connect our partners. Lead, develop, and scale a trusted global deal strategy and order management team, keeping the field unblocked and serving as the connective tissue between Sales, Finance, Product and Legal. You will help evolve and proactively deliver executive-grade reporting and insights to finance and field leadership on deal mix, discount and pricing trends, win/loss, cycle time, and other key metrics to drive better business outcomes. Sponsor and deploy automation and AI-assisted execution alongside coaching and development, so the function scales on leverage, not just headcount.\n\n - Transformation. Serve as a key leader in operationalizing our redesigned pricing and packaging, and driving continued enhancement of the CPQ system that deploys it. Help advise and support implementation of new sales motions to the field, and devise playbooks that lead to optimal business outcomes, while minimizing customer and sales friction. Serve as a key leader and sponsor of cross-functional quote-to-cash system initiatives, driving lower-touch deal pathways, leveraging scrappiness to make progress, and distilling — and helping the team distill — what actually matters from what doesn't, so we move the model forward.\n\n - Operational execution and excellence.  Own how deal desk partners with the business, and moves deals from quote through to clean, booked revenue with laser focus on operational excellence: the right balance of speed and control, continuously minimizing touches and exceptions, and sponsoring a continuous improvement mindset. Own the approval framework, ensuring clear, enforceable definitions, and anticipating and resolving downstream risk through process rather than reactivity.  Maintain controls that align with public-company readiness without unnecessary bureaucracy so we scale at pace, but with the right deal governance and business outcomes.\n\n \n\n\nQUALIFICATIONS\n\nRequirements:\n\n - 10+ years in Deal Desk, Revenue/Sales Operations, Commercial Strategy, and/or Finance, including experience leading and scaling a team, ideally in high-growth B2B enterprise SaaS or life-sciences software.\n\n - Track record advising on the structure and close of complex enterprise agreements, exercising judgment and enforcing commercial guardrails while keeping deals moving.\n\n - Fluency in SaaS bookings policy and revenue, subscription, and consumption/usage-based models.\n\n - Strong cross-functional partnership skills — communication, relationship building, and operational excellence across Sales, Finance, Product, and Legal.\n\n - Working knowledge of CPQ tools and process (Salesforce/Steelbrick or similar) — approval frameworks, quote configuration, and the realities of contract generation in a broader quote-to-cash stack (NetSuite, Gong, etc.).\n\n - Experience with process improvement and automating SaaS deal and order workflows to balance control and speed at scale.\n\nNice to have:\n\n - Experience owning or co-owning a CPQ implementation or major quote-to-cash systems initiative.\n\n - Experience structuring consumption/usage-based deals (commits, ramps, overages, true-ups) for recurring revenue.\n\n - Ownership of pricing governance — discount authority matrices, approval hierarchies, exception policy — across a global deal portfolio.\n\n - Experience operationalizing a pricing and packaging change across a live selling organization.\n\n - Familiarity with cloud marketplace (AWS/GCP/Azure) private offers, reseller and partner billing, and international/EMEA deal nuances.\n\n - Fluency in BI/SQL/spreadsheets to turn deal data into decisions.\n\n \n\n\nHOW WE WORK\n\nWe offer a flexible hybrid work arrangement that prioritizes in-office collaboration. Employees are expected to be on-site 3 days per week (Monday, Tuesday, and Thursday).\n\n\n#LI-Hybrid \n\n#BI-Hybrid \n\nBenchling welcomes everyone.\n\nWe believe diversity enriches our team so we hire people with a wide range of identities, backgrounds, and experiences. \n\nWe are an equal opportunity employer. That means we don’t discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status. We also consider for employment qualified applicants with arrest and conviction records, consistent with applicable federal, state and local law, including but not limited to the San Francisco Fair Chance Ordinance."
-      }
-    },
-    {
       "job_id": "4a7466e7e77afc176daa2246ad7966fb871910d71b6e7a8a7a51404b3e32c7a6",
       "external_id": "a70c765d-1699-4c15-8196-7b8446870cdd",
       "company": "Benchling",
@@ -1092,7 +1050,7 @@
       "source": "ashby",
       "posted_at": "2026-07-02T21:40:57.411+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.020082+00:00",
+      "discovered_at": "2026-08-30T05:08:19.178267+00:00",
       "raw": {
         "id": "a70c765d-1699-4c15-8196-7b8446870cdd",
         "title": "Implementation Manager",
@@ -1134,7 +1092,7 @@
       "source": "ashby",
       "posted_at": "2026-07-23T01:02:04.625+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.020350+00:00",
+      "discovered_at": "2026-08-30T05:08:19.178626+00:00",
       "raw": {
         "id": "8f47c31f-4fd1-4108-92c0-98fc85feb7b0",
         "title": "Enterprise Solutions Architect",
@@ -1187,7 +1145,7 @@
       "source": "ashby",
       "posted_at": "2026-07-06T21:53:48.973+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.021067+00:00",
+      "discovered_at": "2026-08-30T05:08:19.179101+00:00",
       "raw": {
         "id": "2cdda810-2650-48f5-8135-0725adb2596d",
         "title": "Solution Consultant - Business Value",
@@ -1240,7 +1198,7 @@
       "source": "ashby",
       "posted_at": "2026-07-06T21:53:53.989+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.021561+00:00",
+      "discovered_at": "2026-08-30T05:08:19.179494+00:00",
       "raw": {
         "id": "e3e8a87c-826c-4b71-83b9-fa67e5a31fbf",
         "title": "Solution Consultant - Business Value",
@@ -1280,7 +1238,7 @@
       "source": "ashby",
       "posted_at": "2026-07-07T21:19:25.533+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.021880+00:00",
+      "discovered_at": "2026-08-30T05:08:19.179819+00:00",
       "raw": {
         "id": "dc25d641-aff0-4804-8276-8c3406119c4b",
         "title": "Product Manager, Growth, Scientific AI Models",
@@ -1322,7 +1280,7 @@
       "source": "ashby",
       "posted_at": "2026-07-10T00:15:26.881+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.022228+00:00",
+      "discovered_at": "2026-08-30T05:08:19.180157+00:00",
       "raw": {
         "id": "33c85327-b9aa-41c6-a2e7-4dac4381087e",
         "title": "Enterprise Account Executive",
@@ -1393,7 +1351,7 @@
       "source": "ashby",
       "posted_at": "2026-07-17T02:28:24.877+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.022533+00:00",
+      "discovered_at": "2026-08-30T05:08:19.180457+00:00",
       "raw": {
         "id": "c5d40183-f39b-4de3-ac78-cd6867b89d00",
         "title": "Implementation Manager",
@@ -1434,7 +1392,7 @@
       "source": "ashby",
       "posted_at": "2026-07-20T16:55:10.545+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.022840+00:00",
+      "discovered_at": "2026-08-30T05:08:19.180757+00:00",
       "raw": {
         "id": "a3aa0c06-baee-4ef1-9eae-6eb44b48446e",
         "title": "Implementation Manager - Bilingual (English/French)",
@@ -1475,7 +1433,7 @@
       "source": "ashby",
       "posted_at": "2026-07-21T20:31:22.575+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.023197+00:00",
+      "discovered_at": "2026-08-30T05:08:19.182144+00:00",
       "raw": {
         "id": "e0efc252-363f-4b3b-ad21-2f1785f2a6ad",
         "title": "Technical Account Manager",
@@ -1517,7 +1475,7 @@
       "source": "ashby",
       "posted_at": "2026-07-20T19:41:38.681+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.023600+00:00",
+      "discovered_at": "2026-08-30T05:08:19.182549+00:00",
       "raw": {
         "id": "ea4f3ac8-cbe5-4d91-b870-18f77e73e893",
         "title": "Implementation Manager",
@@ -1557,7 +1515,7 @@
       "source": "ashby",
       "posted_at": "2026-07-22T00:30:14.003+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.024166+00:00",
+      "discovered_at": "2026-08-30T05:08:19.183291+00:00",
       "raw": {
         "id": "1d637755-eba0-4c0f-99aa-a7201779bcf6",
         "title": "Implementation Manager",
@@ -1599,7 +1557,7 @@
       "source": "ashby",
       "posted_at": "2026-07-20T19:56:51.050+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.024591+00:00",
+      "discovered_at": "2026-08-30T05:08:19.183904+00:00",
       "raw": {
         "id": "5f98903f-739c-44d4-8ce9-80767baf569b",
         "title": "Software Engineer, Applications (Scientific Development Solutions) (High Seniority)",
@@ -1641,7 +1599,7 @@
       "source": "ashby",
       "posted_at": "2026-07-22T17:02:36.582+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.025333+00:00",
+      "discovered_at": "2026-08-30T05:08:19.184362+00:00",
       "raw": {
         "id": "6beeaebc-fd49-47d7-a179-dd674bab58b7",
         "title": "Software Engineer, Applications (App Foundations) (High Seniority)",
@@ -1683,7 +1641,7 @@
       "source": "ashby",
       "posted_at": "2026-07-21T19:39:05.147+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.025894+00:00",
+      "discovered_at": "2026-08-30T05:08:19.184740+00:00",
       "raw": {
         "id": "ab7ea47a-c9af-4d2d-9ba3-002a556a7686",
         "title": "Product Support Analyst",
@@ -1725,7 +1683,7 @@
       "source": "ashby",
       "posted_at": "2026-07-22T18:46:49.870+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.026345+00:00",
+      "discovered_at": "2026-08-30T05:08:19.185175+00:00",
       "raw": {
         "id": "3b50ebb7-4e9e-4ede-aaf7-d5ce91ca7eb3",
         "title": "Product Manager, Scientific Development Solutions",
@@ -1767,7 +1725,7 @@
       "source": "ashby",
       "posted_at": "2026-07-24T19:18:00.992+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.026978+00:00",
+      "discovered_at": "2026-08-30T05:08:19.185523+00:00",
       "raw": {
         "id": "437e3e90-d1ba-40f2-9016-ced2bc3f6de8",
         "title": "Solution Consultant - R&D",
@@ -1808,7 +1766,7 @@
       "source": "ashby",
       "posted_at": "2026-07-24T19:18:07.456+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.027420+00:00",
+      "discovered_at": "2026-08-30T05:08:19.185845+00:00",
       "raw": {
         "id": "7dbe7590-4d01-4a3e-9ce0-3e91e334eab7",
         "title": "Solution Consultant - R&D",
@@ -1858,7 +1816,7 @@
       "source": "ashby",
       "posted_at": "2026-08-03T18:48:09.206+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.027729+00:00",
+      "discovered_at": "2026-08-30T05:08:19.186110+00:00",
       "raw": {
         "id": "66b9e6ec-70ae-49f5-aeb8-93e6a0a53319",
         "title": "Marketing Data Analyst - Contractor",
@@ -1900,7 +1858,7 @@
       "source": "ashby",
       "posted_at": "2026-08-03T21:13:42.584+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.028121+00:00",
+      "discovered_at": "2026-08-30T05:08:19.186515+00:00",
       "raw": {
         "id": "290097be-7476-42e1-a929-302f3a4b8751",
         "title": "Technical Recruiter (6 Month Contract)",
@@ -1942,7 +1900,7 @@
       "source": "ashby",
       "posted_at": "2026-08-05T21:01:08.657+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.028715+00:00",
+      "discovered_at": "2026-08-30T05:08:19.186890+00:00",
       "raw": {
         "id": "874062e7-7903-4fd3-9930-ea538a4cac1e",
         "title": "Product Marketing Manager",
@@ -1984,7 +1942,7 @@
       "source": "ashby",
       "posted_at": "2026-08-11T18:30:21.420+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.029124+00:00",
+      "discovered_at": "2026-08-30T05:08:19.188116+00:00",
       "raw": {
         "id": "fc421d57-1a11-4693-939a-6001cf4c5c3e",
         "title": "Customer Experience Communications Operations Manager",
@@ -2037,7 +1995,7 @@
       "source": "ashby",
       "posted_at": "2026-08-13T17:48:20.081+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.029445+00:00",
+      "discovered_at": "2026-08-30T05:08:19.188462+00:00",
       "raw": {
         "id": "d627fcc2-2e34-4bde-9be2-242c89c19436",
         "title": "Software Engineer, Full Stack (Document Canvas)",
@@ -2079,7 +2037,7 @@
       "source": "ashby",
       "posted_at": "2026-08-14T22:07:50.565+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.029970+00:00",
+      "discovered_at": "2026-08-30T05:08:19.188852+00:00",
       "raw": {
         "id": "df9f0b19-c0a7-4d2f-954c-c056f3908f68",
         "title": "Solutions Delivery Manager",
@@ -2132,7 +2090,7 @@
       "source": "ashby",
       "posted_at": "2026-08-19T23:46:10.745+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.030454+00:00",
+      "discovered_at": "2026-08-30T05:08:19.189159+00:00",
       "raw": {
         "id": "d5b653c0-47c0-4606-8611-72d00fa1378e",
         "title": "Head of EMEA Enterprise Solution Consulting R&D",
@@ -2173,7 +2131,7 @@
       "source": "ashby",
       "posted_at": "2026-08-19T23:46:15.675+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.030878+00:00",
+      "discovered_at": "2026-08-30T05:08:19.189464+00:00",
       "raw": {
         "id": "8888ee2c-fcf2-4d54-ab48-5d10a5e4807a",
         "title": "Head of EMEA Enterprise Solution Consulting R&D",
@@ -2213,7 +2171,7 @@
       "source": "ashby",
       "posted_at": "2026-08-21T23:35:59.566+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.031487+00:00",
+      "discovered_at": "2026-08-30T05:08:19.189832+00:00",
       "raw": {
         "id": "cb8c6fa5-051f-4a99-aaa0-d0ce3d7178c3",
         "title": "Portfolio Leader, Commercial Professional Services",
@@ -2254,7 +2212,7 @@
       "source": "ashby",
       "posted_at": "2026-08-21T23:36:04.362+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.032132+00:00",
+      "discovered_at": "2026-08-30T05:08:19.190191+00:00",
       "raw": {
         "id": "a9aeb47a-cc62-4ef3-997f-5c78d36d9cb2",
         "title": "Portfolio Leader, Commercial Professional Services",
@@ -2294,7 +2252,7 @@
       "source": "ashby",
       "posted_at": "2026-08-24T22:22:55.143+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.032858+00:00",
+      "discovered_at": "2026-08-30T05:08:19.190464+00:00",
       "raw": {
         "id": "3fbb23bd-c06c-49da-8834-4da67200275e",
         "title": " Software Engineer, Model Evaluation and Improvement",
@@ -2336,7 +2294,7 @@
       "source": "ashby",
       "posted_at": "2026-08-24T23:11:45.680+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.033326+00:00",
+      "discovered_at": "2026-08-30T05:08:19.190778+00:00",
       "raw": {
         "id": "5c0d73ca-fc8c-4562-89ab-5ff815279f58",
         "title": "Leader, Professional Services",
@@ -2378,7 +2336,7 @@
       "source": "ashby",
       "posted_at": "2026-08-27T16:33:01.692+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.033773+00:00",
+      "discovered_at": "2026-08-30T05:08:19.191097+00:00",
       "raw": {
         "id": "d0b3c752-1f78-4de2-84bf-6008a4a190f5",
         "title": "Head of Strategic Finance",
@@ -2420,7 +2378,7 @@
       "source": "ashby",
       "posted_at": "2026-08-28T16:13:20.796+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.034256+00:00",
+      "discovered_at": "2026-08-30T05:08:19.191474+00:00",
       "raw": {
         "id": "c1ad7288-ad78-4a0f-8f19-1fcc3f6cf85b",
         "title": "Data Engineer",
@@ -2462,7 +2420,7 @@
       "source": "ashby",
       "posted_at": "2026-08-28T16:13:25.522+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.034637+00:00",
+      "discovered_at": "2026-08-30T05:08:19.191831+00:00",
       "raw": {
         "id": "f0c70d09-5a30-4380-a3a6-c73f4fd75f40",
         "title": "Data Engineer",
@@ -2502,7 +2460,7 @@
       "source": "ashby",
       "posted_at": "2026-08-27T22:18:35.274+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.034948+00:00",
+      "discovered_at": "2026-08-30T05:08:19.192121+00:00",
       "raw": {
         "id": "3309acf5-0fc2-43ee-a3da-242faa81f7e4",
         "title": "Revenue Accountant Lead",
@@ -2544,7 +2502,7 @@
       "source": "ashby",
       "posted_at": "2026-08-28T22:10:48.467+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.035243+00:00",
+      "discovered_at": "2026-08-30T05:08:19.192408+00:00",
       "raw": {
         "id": "6a18cd23-4c31-4df5-b321-442037b48b3a",
         "title": "Implementation Manager",
@@ -2586,7 +2544,7 @@
       "source": "ashby",
       "posted_at": "2026-08-28T22:42:28.737+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.035561+00:00",
+      "discovered_at": "2026-08-30T05:08:19.192746+00:00",
       "raw": {
         "id": "93ed650d-3730-45b1-a0ae-0d2c046bb829",
         "title": "Salesforce Engineer, Business Technology Team",

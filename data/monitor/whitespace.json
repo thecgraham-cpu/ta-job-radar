@@ -4,7 +4,7 @@
   "career_page": "https://job-boards.greenhouse.io/whitespace",
   "source": "greenhouse",
   "identifier": "whitespace",
-  "scanned_at": "2026-08-29T05:46:24.454201+00:00",
+  "scanned_at": "2026-08-30T05:08:25.884458+00:00",
   "count": 1,
   "total_available": 1,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "greenhouse",
       "posted_at": "2026-06-04T16:28:05-04:00",
       "updated_at": "2026-06-04T16:28:05-04:00",
-      "discovered_at": "2026-08-29T05:46:24.454173+00:00",
+      "discovered_at": "2026-08-30T05:08:25.884422+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/whitespace/jobs/5413152004",
         "data_compliance": [

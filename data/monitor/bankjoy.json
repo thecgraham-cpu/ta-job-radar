@@ -4,7 +4,7 @@
   "career_page": "https://jobs.ashbyhq.com/bankjoy",
   "source": "ashby",
   "identifier": "bankjoy",
-  "scanned_at": "2026-08-29T05:46:16.866697+00:00",
+  "scanned_at": "2026-08-30T05:08:19.444971+00:00",
   "count": 8,
   "total_available": 8,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "ashby",
       "posted_at": "2026-08-17T18:46:25.558+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.855337+00:00",
+      "discovered_at": "2026-08-30T05:08:19.442007+00:00",
       "raw": {
         "id": "222bf32a-8344-453d-9358-f39243040e4d",
         "title": "Quality Assurance Analyst",
@@ -76,7 +76,7 @@
       "source": "ashby",
       "posted_at": "2026-06-30T22:07:00.196+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.855917+00:00",
+      "discovered_at": "2026-08-30T05:08:19.442422+00:00",
       "raw": {
         "id": "dc2303b4-fd3e-4574-ab17-ea09acac1a32",
         "title": "Client Success Manager",
@@ -127,7 +127,7 @@
       "source": "ashby",
       "posted_at": "2026-08-04T02:56:05.850+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.856357+00:00",
+      "discovered_at": "2026-08-30T05:08:19.442780+00:00",
       "raw": {
         "id": "35c0c7e2-5b87-49be-a25d-855120f9230f",
         "title": "Director of Partnerships",
@@ -178,7 +178,7 @@
       "source": "ashby",
       "posted_at": "2026-08-07T22:17:47.358+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.858365+00:00",
+      "discovered_at": "2026-08-30T05:08:19.443019+00:00",
       "raw": {
         "id": "ad341633-a304-4412-970f-7da919e31ae0",
         "title": "Senior Account Executive",
@@ -229,7 +229,7 @@
       "source": "ashby",
       "posted_at": "2026-08-11T05:22:59.397+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.863630+00:00",
+      "discovered_at": "2026-08-30T05:08:19.443581+00:00",
       "raw": {
         "id": "c8a88c78-973b-4293-a5be-894be8d7b416",
         "title": "VP of Systems Engineering - USA",
@@ -280,7 +280,7 @@
       "source": "ashby",
       "posted_at": "2026-08-21T02:00:30.338+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.864572+00:00",
+      "discovered_at": "2026-08-30T05:08:19.444093+00:00",
       "raw": {
         "id": "cf928059-852e-488a-a536-3d772cf1a9ee",
         "title": "VP of Systems Engineering - Canada",
@@ -331,7 +331,7 @@
       "source": "ashby",
       "posted_at": "2026-08-24T20:56:43.806+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.864984+00:00",
+      "discovered_at": "2026-08-30T05:08:19.444485+00:00",
       "raw": {
         "id": "64833636-dcdb-467e-9135-9c7de9a07b04",
         "title": "Product Manager Level III",
@@ -391,7 +391,7 @@
       "source": "ashby",
       "posted_at": "2026-08-28T17:42:36.991+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.866331+00:00",
+      "discovered_at": "2026-08-30T05:08:19.444941+00:00",
       "raw": {
         "id": "50ad7c1c-beb2-4791-8441-9bfabf59274a",
         "title": "Lead Software Engineer ",

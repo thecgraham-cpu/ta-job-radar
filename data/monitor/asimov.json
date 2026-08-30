@@ -4,7 +4,7 @@
   "career_page": "https://jobs.ashbyhq.com/asimov",
   "source": "ashby",
   "identifier": "asimov",
-  "scanned_at": "2026-08-29T05:46:16.656366+00:00",
+  "scanned_at": "2026-08-30T05:08:19.310972+00:00",
   "count": 3,
   "total_available": 3,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "ashby",
       "posted_at": "2025-11-26T18:54:22.566+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.655089+00:00",
+      "discovered_at": "2026-08-30T05:08:19.310495+00:00",
       "raw": {
         "id": "5f4f9be7-d2be-47e4-956c-7c8568d1dbab",
         "title": "Staff Software Engineer",
@@ -67,7 +67,7 @@
       "source": "ashby",
       "posted_at": "2026-03-10T15:02:32.348+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.655788+00:00",
+      "discovered_at": "2026-08-30T05:08:19.310733+00:00",
       "raw": {
         "id": "63faa6b3-f84f-4181-bc2e-8e0c0f885cc8",
         "title": "Senior Scientist, Biologics Cell Line Development",
@@ -109,7 +109,7 @@
       "source": "ashby",
       "posted_at": "2026-04-13T20:49:34.395+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:16.656321+00:00",
+      "discovered_at": "2026-08-30T05:08:19.310953+00:00",
       "raw": {
         "id": "f27c8759-5ebf-4605-a30c-dd6da318ad97",
         "title": "Principal Scientist, Biologics Cell Line Development",

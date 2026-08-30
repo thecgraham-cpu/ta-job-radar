@@ -4,7 +4,7 @@
   "career_page": "https://job-boards.greenhouse.io/coinbase",
   "source": "greenhouse",
   "identifier": "coinbase",
-  "scanned_at": "2026-08-29T05:46:18.006299+00:00",
+  "scanned_at": "2026-08-30T05:08:20.126994+00:00",
   "count": 188,
   "total_available": 188,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-28T10:51:50-04:00",
       "updated_at": "2026-08-28T10:51:50-04:00",
-      "discovered_at": "2026-08-29T05:46:17.700366+00:00",
+      "discovered_at": "2026-08-30T05:08:19.946281+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8053751?gh_jid=8053751",
         "data_compliance": [
@@ -123,7 +123,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-06T20:34:18-04:00",
       "updated_at": "2026-07-06T20:34:18-04:00",
-      "discovered_at": "2026-08-29T05:46:17.700836+00:00",
+      "discovered_at": "2026-08-30T05:08:19.946917+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/7822885?gh_jid=7822885",
         "data_compliance": [
@@ -221,7 +221,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-03T14:09:55-04:00",
       "updated_at": "2026-08-03T14:09:55-04:00",
-      "discovered_at": "2026-08-29T05:46:17.701290+00:00",
+      "discovered_at": "2026-08-30T05:08:19.947825+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8093264?gh_jid=8093264",
         "data_compliance": [
@@ -319,7 +319,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T01:18:06-04:00",
       "updated_at": "2026-08-24T01:18:06-04:00",
-      "discovered_at": "2026-08-29T05:46:17.701730+00:00",
+      "discovered_at": "2026-08-30T05:08:19.948557+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/7532645?gh_jid=7532645",
         "data_compliance": [
@@ -417,7 +417,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-28T18:25:44-04:00",
       "updated_at": "2026-08-28T18:25:44-04:00",
-      "discovered_at": "2026-08-29T05:46:17.702222+00:00",
+      "discovered_at": "2026-08-30T05:08:19.949405+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8164862?gh_jid=8164862",
         "data_compliance": [
@@ -515,7 +515,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-21T06:18:52-04:00",
       "updated_at": "2026-08-21T06:18:52-04:00",
-      "discovered_at": "2026-08-29T05:46:17.702682+00:00",
+      "discovered_at": "2026-08-30T05:08:19.950243+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/7942306?gh_jid=7942306",
         "data_compliance": [
@@ -613,7 +613,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-13T18:10:43-04:00",
       "updated_at": "2026-07-13T18:10:43-04:00",
-      "discovered_at": "2026-08-29T05:46:17.703114+00:00",
+      "discovered_at": "2026-08-30T05:08:19.951103+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/7875558?gh_jid=7875558",
         "data_compliance": [
@@ -711,7 +711,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-26T16:36:16-04:00",
       "updated_at": "2026-08-26T16:36:16-04:00",
-      "discovered_at": "2026-08-29T05:46:17.703522+00:00",
+      "discovered_at": "2026-08-30T05:08:19.953416+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8160489?gh_jid=8160489",
         "data_compliance": [
@@ -809,7 +809,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T16:07:27-04:00",
       "updated_at": "2026-08-24T16:07:27-04:00",
-      "discovered_at": "2026-08-29T05:46:17.703986+00:00",
+      "discovered_at": "2026-08-30T05:08:19.954335+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8154987?gh_jid=8154987",
         "data_compliance": [
@@ -907,7 +907,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-22T19:23:41-04:00",
       "updated_at": "2026-07-22T19:23:41-04:00",
-      "discovered_at": "2026-08-29T05:46:17.704514+00:00",
+      "discovered_at": "2026-08-30T05:08:19.955310+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8080028?gh_jid=8080028",
         "data_compliance": [
@@ -1005,7 +1005,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-07T10:02:41-04:00",
       "updated_at": "2026-07-07T10:02:41-04:00",
-      "discovered_at": "2026-08-29T05:46:17.705012+00:00",
+      "discovered_at": "2026-08-30T05:08:19.956710+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/7980600?gh_jid=7980600",
         "data_compliance": [
@@ -1103,7 +1103,7 @@
       "source": "greenhouse",
       "posted_at": "2026-06-20T21:48:42-04:00",
       "updated_at": "2026-06-20T21:48:42-04:00",
-      "discovered_at": "2026-08-29T05:46:17.705556+00:00",
+      "discovered_at": "2026-08-30T05:08:19.958108+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8013889?gh_jid=8013889",
         "data_compliance": [
@@ -1201,7 +1201,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-18T10:04:09-04:00",
       "updated_at": "2026-08-18T10:04:09-04:00",
-      "discovered_at": "2026-08-29T05:46:17.706004+00:00",
+      "discovered_at": "2026-08-30T05:08:19.962532+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8131316?gh_jid=8131316",
         "data_compliance": [
@@ -1299,7 +1299,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-17T16:29:11-04:00",
       "updated_at": "2026-07-17T16:29:11-04:00",
-      "discovered_at": "2026-08-29T05:46:17.715422+00:00",
+      "discovered_at": "2026-08-30T05:08:19.963483+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/7746572?gh_jid=7746572",
         "data_compliance": [
@@ -1397,7 +1397,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-21T06:19:15-04:00",
       "updated_at": "2026-08-21T06:19:15-04:00",
-      "discovered_at": "2026-08-29T05:46:17.716138+00:00",
+      "discovered_at": "2026-08-30T05:08:19.964513+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8064692?gh_jid=8064692",
         "data_compliance": [
@@ -1495,7 +1495,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-09T19:18:23-04:00",
       "updated_at": "2026-07-09T19:18:23-04:00",
-      "discovered_at": "2026-08-29T05:46:17.717121+00:00",
+      "discovered_at": "2026-08-30T05:08:19.965990+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8031253?gh_jid=8031253",
         "data_compliance": [
@@ -1593,7 +1593,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-09T19:19:06-04:00",
       "updated_at": "2026-07-09T19:19:06-04:00",
-      "discovered_at": "2026-08-29T05:46:17.717630+00:00",
+      "discovered_at": "2026-08-30T05:08:19.967023+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8031308?gh_jid=8031308",
         "data_compliance": [
@@ -1691,7 +1691,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-28T15:44:35-04:00",
       "updated_at": "2026-07-28T15:44:35-04:00",
-      "discovered_at": "2026-08-29T05:46:17.718103+00:00",
+      "discovered_at": "2026-08-30T05:08:19.968283+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/7994501?gh_jid=7994501",
         "data_compliance": [
@@ -1789,7 +1789,7 @@
       "source": "greenhouse",
       "posted_at": "2026-06-23T19:21:49-04:00",
       "updated_at": "2026-06-23T19:21:49-04:00",
-      "discovered_at": "2026-08-29T05:46:17.718581+00:00",
+      "discovered_at": "2026-08-30T05:08:19.968917+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/7994498?gh_jid=7994498",
         "data_compliance": [
@@ -1887,7 +1887,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-15T00:41:18-04:00",
       "updated_at": "2026-08-15T00:41:18-04:00",
-      "discovered_at": "2026-08-29T05:46:17.719009+00:00",
+      "discovered_at": "2026-08-30T05:08:19.969412+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8030594?gh_jid=8030594",
         "data_compliance": [
@@ -1985,7 +1985,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-20T01:43:45-04:00",
       "updated_at": "2026-08-20T01:43:45-04:00",
-      "discovered_at": "2026-08-29T05:46:17.719844+00:00",
+      "discovered_at": "2026-08-30T05:08:19.969963+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/7602261?gh_jid=7602261",
         "data_compliance": [
@@ -2083,7 +2083,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-22T03:22:26-04:00",
       "updated_at": "2026-07-22T03:22:26-04:00",
-      "discovered_at": "2026-08-29T05:46:17.720408+00:00",
+      "discovered_at": "2026-08-30T05:08:19.970504+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/7606826?gh_jid=7606826",
         "data_compliance": [
@@ -2181,7 +2181,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-14T20:46:23-04:00",
       "updated_at": "2026-08-14T20:46:23-04:00",
-      "discovered_at": "2026-08-29T05:46:17.726747+00:00",
+      "discovered_at": "2026-08-30T05:08:19.971385+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8131356?gh_jid=8131356",
         "data_compliance": [
@@ -2279,7 +2279,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T07:29:30-04:00",
       "updated_at": "2026-08-27T07:29:30-04:00",
-      "discovered_at": "2026-08-29T05:46:17.727222+00:00",
+      "discovered_at": "2026-08-30T05:08:19.972384+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8160067?gh_jid=8160067",
         "data_compliance": [
@@ -2377,7 +2377,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-25T16:48:14-04:00",
       "updated_at": "2026-08-25T16:48:14-04:00",
-      "discovered_at": "2026-08-29T05:46:17.727723+00:00",
+      "discovered_at": "2026-08-30T05:08:19.973112+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8120315?gh_jid=8120315",
         "data_compliance": [
@@ -2475,7 +2475,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-05T16:18:24-04:00",
       "updated_at": "2026-08-05T16:18:24-04:00",
-      "discovered_at": "2026-08-29T05:46:17.728202+00:00",
+      "discovered_at": "2026-08-30T05:08:19.974031+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8097446?gh_jid=8097446",
         "data_compliance": [
@@ -2573,7 +2573,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-25T16:03:36-04:00",
       "updated_at": "2026-08-25T16:03:36-04:00",
-      "discovered_at": "2026-08-29T05:46:17.728823+00:00",
+      "discovered_at": "2026-08-30T05:08:19.974970+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8021857?gh_jid=8021857",
         "data_compliance": [
@@ -2671,7 +2671,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-16T15:40:09-04:00",
       "updated_at": "2026-07-16T15:40:09-04:00",
-      "discovered_at": "2026-08-29T05:46:17.729664+00:00",
+      "discovered_at": "2026-08-30T05:08:19.975456+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8068385?gh_jid=8068385",
         "data_compliance": [
@@ -2767,7 +2767,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-14T13:52:37-04:00",
       "updated_at": "2026-08-14T13:52:37-04:00",
-      "discovered_at": "2026-08-29T05:46:17.730267+00:00",
+      "discovered_at": "2026-08-30T05:08:19.976049+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/7741187?gh_jid=7741187",
         "data_compliance": [
@@ -2865,7 +2865,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-17T18:49:48-04:00",
       "updated_at": "2026-08-17T18:49:48-04:00",
-      "discovered_at": "2026-08-29T05:46:17.731100+00:00",
+      "discovered_at": "2026-08-30T05:08:19.976567+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8138031?gh_jid=8138031",
         "data_compliance": [
@@ -2963,7 +2963,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-28T16:07:21-04:00",
       "updated_at": "2026-08-28T16:07:21-04:00",
-      "discovered_at": "2026-08-29T05:46:17.744542+00:00",
+      "discovered_at": "2026-08-30T05:08:19.977116+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8154270?gh_jid=8154270",
         "data_compliance": [
@@ -3061,7 +3061,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-21T06:03:02-04:00",
       "updated_at": "2026-08-21T06:03:02-04:00",
-      "discovered_at": "2026-08-29T05:46:17.745128+00:00",
+      "discovered_at": "2026-08-30T05:08:19.977699+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8099099?gh_jid=8099099",
         "data_compliance": [
@@ -3159,7 +3159,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-10T12:08:43-04:00",
       "updated_at": "2026-08-10T12:08:43-04:00",
-      "discovered_at": "2026-08-29T05:46:17.746119+00:00",
+      "discovered_at": "2026-08-30T05:08:19.978327+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8072932?gh_jid=8072932",
         "data_compliance": [
@@ -3266,7 +3266,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-15T00:41:31-04:00",
       "updated_at": "2026-08-15T00:41:31-04:00",
-      "discovered_at": "2026-08-29T05:46:17.746664+00:00",
+      "discovered_at": "2026-08-30T05:08:19.980051+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8060884?gh_jid=8060884",
         "data_compliance": [
@@ -3364,7 +3364,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-16T16:35:38-04:00",
       "updated_at": "2026-07-16T16:35:38-04:00",
-      "discovered_at": "2026-08-29T05:46:17.747289+00:00",
+      "discovered_at": "2026-08-30T05:08:19.981202+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8070046?gh_jid=8070046",
         "data_compliance": [
@@ -3462,7 +3462,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-21T18:36:02-04:00",
       "updated_at": "2026-07-21T18:36:02-04:00",
-      "discovered_at": "2026-08-29T05:46:17.748042+00:00",
+      "discovered_at": "2026-08-30T05:08:19.981833+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8060662?gh_jid=8060662",
         "data_compliance": [
@@ -3560,7 +3560,7 @@
       "source": "greenhouse",
       "posted_at": "2026-06-26T07:32:59-04:00",
       "updated_at": "2026-06-26T07:32:59-04:00",
-      "discovered_at": "2026-08-29T05:46:17.748984+00:00",
+      "discovered_at": "2026-08-30T05:08:19.982349+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/7701642?gh_jid=7701642",
         "data_compliance": [
@@ -3658,7 +3658,7 @@
       "source": "greenhouse",
       "posted_at": "2026-06-19T18:00:31-04:00",
       "updated_at": "2026-06-19T18:00:31-04:00",
-      "discovered_at": "2026-08-29T05:46:17.757933+00:00",
+      "discovered_at": "2026-08-30T05:08:19.982860+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/7997785?gh_jid=7997785",
         "data_compliance": [
@@ -3756,7 +3756,7 @@
       "source": "greenhouse",
       "posted_at": "2026-06-19T15:25:26-04:00",
       "updated_at": "2026-06-19T15:25:26-04:00",
-      "discovered_at": "2026-08-29T05:46:17.758440+00:00",
+      "discovered_at": "2026-08-30T05:08:19.983337+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8017607?gh_jid=8017607",
         "data_compliance": [
@@ -3854,7 +3854,7 @@
       "source": "greenhouse",
       "posted_at": "2026-06-26T12:24:14-04:00",
       "updated_at": "2026-06-26T12:24:14-04:00",
-      "discovered_at": "2026-08-29T05:46:17.758902+00:00",
+      "discovered_at": "2026-08-30T05:08:19.983985+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/7789404?gh_jid=7789404",
         "data_compliance": [
@@ -3952,7 +3952,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-25T16:18:24-04:00",
       "updated_at": "2026-08-25T16:18:24-04:00",
-      "discovered_at": "2026-08-29T05:46:17.759561+00:00",
+      "discovered_at": "2026-08-30T05:08:19.984544+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/7993445?gh_jid=7993445",
         "data_compliance": [
@@ -4050,7 +4050,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-21T14:19:20-04:00",
       "updated_at": "2026-07-21T14:19:20-04:00",
-      "discovered_at": "2026-08-29T05:46:17.760278+00:00",
+      "discovered_at": "2026-08-30T05:08:19.985025+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/7304930?gh_jid=7304930",
         "data_compliance": [
@@ -4148,7 +4148,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-18T10:03:47-04:00",
       "updated_at": "2026-08-18T10:03:47-04:00",
-      "discovered_at": "2026-08-29T05:46:17.760922+00:00",
+      "discovered_at": "2026-08-30T05:08:19.986530+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/7997879?gh_jid=7997879",
         "data_compliance": [
@@ -4246,7 +4246,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-05T16:18:06-04:00",
       "updated_at": "2026-08-05T16:18:06-04:00",
-      "discovered_at": "2026-08-29T05:46:17.761520+00:00",
+      "discovered_at": "2026-08-30T05:08:19.987088+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8031603?gh_jid=8031603",
         "data_compliance": [
@@ -4344,7 +4344,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-14T20:51:13-04:00",
       "updated_at": "2026-08-14T20:51:13-04:00",
-      "discovered_at": "2026-08-29T05:46:17.762360+00:00",
+      "discovered_at": "2026-08-30T05:08:19.987614+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8109575?gh_jid=8109575",
         "data_compliance": [
@@ -4442,7 +4442,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-09T15:03:36-04:00",
       "updated_at": "2026-07-09T15:03:36-04:00",
-      "discovered_at": "2026-08-29T05:46:17.769409+00:00",
+      "discovered_at": "2026-08-30T05:08:19.988136+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/7365422?gh_jid=7365422",
         "data_compliance": [
@@ -4540,7 +4540,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-09T15:03:41-04:00",
       "updated_at": "2026-07-09T15:03:41-04:00",
-      "discovered_at": "2026-08-29T05:46:17.769996+00:00",
+      "discovered_at": "2026-08-30T05:08:19.989049+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/7755116?gh_jid=7755116",
         "data_compliance": [
@@ -4638,7 +4638,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-30T15:14:47-04:00",
       "updated_at": "2026-07-30T15:14:47-04:00",
-      "discovered_at": "2026-08-29T05:46:17.770663+00:00",
+      "discovered_at": "2026-08-30T05:08:19.989807+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8097292?gh_jid=8097292",
         "data_compliance": [
@@ -4736,7 +4736,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-07T18:15:32-04:00",
       "updated_at": "2026-08-07T18:15:32-04:00",
-      "discovered_at": "2026-08-29T05:46:17.771331+00:00",
+      "discovered_at": "2026-08-30T05:08:19.990357+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8114684?gh_jid=8114684",
         "data_compliance": [
@@ -4834,7 +4834,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-25T20:02:57-04:00",
       "updated_at": "2026-08-25T20:02:57-04:00",
-      "discovered_at": "2026-08-29T05:46:17.771831+00:00",
+      "discovered_at": "2026-08-30T05:08:19.990882+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8097880?gh_jid=8097880",
         "data_compliance": [
@@ -4932,7 +4932,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T23:06:47-04:00",
       "updated_at": "2026-08-24T23:06:47-04:00",
-      "discovered_at": "2026-08-29T05:46:17.772365+00:00",
+      "discovered_at": "2026-08-30T05:08:19.991422+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8129321?gh_jid=8129321",
         "data_compliance": [
@@ -5030,7 +5030,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-15T00:41:15-04:00",
       "updated_at": "2026-08-15T00:41:15-04:00",
-      "discovered_at": "2026-08-29T05:46:17.773090+00:00",
+      "discovered_at": "2026-08-30T05:08:19.992428+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8030591?gh_jid=8030591",
         "data_compliance": [
@@ -5128,7 +5128,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-17T12:02:02-04:00",
       "updated_at": "2026-07-17T12:02:02-04:00",
-      "discovered_at": "2026-08-29T05:46:17.774662+00:00",
+      "discovered_at": "2026-08-30T05:08:19.993394+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8072054?gh_jid=8072054",
         "data_compliance": [
@@ -5226,7 +5226,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-30T12:40:45-04:00",
       "updated_at": "2026-07-30T12:40:45-04:00",
-      "discovered_at": "2026-08-29T05:46:17.775717+00:00",
+      "discovered_at": "2026-08-30T05:08:19.994094+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/7985187?gh_jid=7985187",
         "data_compliance": [
@@ -5324,7 +5324,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-25T12:33:38-04:00",
       "updated_at": "2026-08-25T12:33:38-04:00",
-      "discovered_at": "2026-08-29T05:46:17.776447+00:00",
+      "discovered_at": "2026-08-30T05:08:19.994634+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8031260?gh_jid=8031260",
         "data_compliance": [
@@ -5422,7 +5422,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-07T13:20:12-04:00",
       "updated_at": "2026-08-07T13:20:12-04:00",
-      "discovered_at": "2026-08-29T05:46:17.777006+00:00",
+      "discovered_at": "2026-08-30T05:08:19.995354+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8069671?gh_jid=8069671",
         "data_compliance": [
@@ -5520,7 +5520,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-21T06:18:56-04:00",
       "updated_at": "2026-08-21T06:18:56-04:00",
-      "discovered_at": "2026-08-29T05:46:17.777750+00:00",
+      "discovered_at": "2026-08-30T05:08:19.995926+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8001778?gh_jid=8001778",
         "data_compliance": [
@@ -5618,7 +5618,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-16T12:45:54-04:00",
       "updated_at": "2026-07-16T12:45:54-04:00",
-      "discovered_at": "2026-08-29T05:46:17.778276+00:00",
+      "discovered_at": "2026-08-30T05:08:19.996524+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/7286062?gh_jid=7286062",
         "data_compliance": [
@@ -5716,7 +5716,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T17:14:49-04:00",
       "updated_at": "2026-08-27T17:14:49-04:00",
-      "discovered_at": "2026-08-29T05:46:17.779218+00:00",
+      "discovered_at": "2026-08-30T05:08:19.997129+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8160771?gh_jid=8160771",
         "data_compliance": [
@@ -5814,7 +5814,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-03T16:46:29-04:00",
       "updated_at": "2026-08-03T16:46:29-04:00",
-      "discovered_at": "2026-08-29T05:46:17.780353+00:00",
+      "discovered_at": "2026-08-30T05:08:19.997774+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8089161?gh_jid=8089161",
         "data_compliance": [
@@ -5912,7 +5912,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-25T16:47:50-04:00",
       "updated_at": "2026-08-25T16:47:50-04:00",
-      "discovered_at": "2026-08-29T05:46:17.787864+00:00",
+      "discovered_at": "2026-08-30T05:08:19.998549+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8022718?gh_jid=8022718",
         "data_compliance": [
@@ -6010,7 +6010,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-25T16:47:50-04:00",
       "updated_at": "2026-08-25T16:47:50-04:00",
-      "discovered_at": "2026-08-29T05:46:17.789226+00:00",
+      "discovered_at": "2026-08-30T05:08:19.999381+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/7927054?gh_jid=7927054",
         "data_compliance": [
@@ -6108,7 +6108,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-14T15:27:43-04:00",
       "updated_at": "2026-08-14T15:27:43-04:00",
-      "discovered_at": "2026-08-29T05:46:17.790803+00:00",
+      "discovered_at": "2026-08-30T05:08:20.000144+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8013718?gh_jid=8013718",
         "data_compliance": [
@@ -6206,7 +6206,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T08:12:32-04:00",
       "updated_at": "2026-08-27T08:12:32-04:00",
-      "discovered_at": "2026-08-29T05:46:17.791822+00:00",
+      "discovered_at": "2026-08-30T05:08:20.000948+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8160090?gh_jid=8160090",
         "data_compliance": [
@@ -6304,7 +6304,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-23T12:18:11-04:00",
       "updated_at": "2026-07-23T12:18:11-04:00",
-      "discovered_at": "2026-08-29T05:46:17.805425+00:00",
+      "discovered_at": "2026-08-30T05:08:20.001750+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/7984814?gh_jid=7984814",
         "data_compliance": [
@@ -6402,7 +6402,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T12:31:18-04:00",
       "updated_at": "2026-08-24T12:31:18-04:00",
-      "discovered_at": "2026-08-29T05:46:17.806439+00:00",
+      "discovered_at": "2026-08-30T05:08:20.002315+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8008372?gh_jid=8008372",
         "data_compliance": [
@@ -6500,7 +6500,7 @@
       "source": "greenhouse",
       "posted_at": "2026-06-17T17:49:34-04:00",
       "updated_at": "2026-06-17T17:49:34-04:00",
-      "discovered_at": "2026-08-29T05:46:17.808431+00:00",
+      "discovered_at": "2026-08-30T05:08:20.003065+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8013951?gh_jid=8013951",
         "data_compliance": [
@@ -6598,7 +6598,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-18T10:04:02-04:00",
       "updated_at": "2026-08-18T10:04:02-04:00",
-      "discovered_at": "2026-08-29T05:46:17.809240+00:00",
+      "discovered_at": "2026-08-30T05:08:20.007251+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8106071?gh_jid=8106071",
         "data_compliance": [
@@ -6696,7 +6696,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-21T18:32:58-04:00",
       "updated_at": "2026-08-21T18:32:58-04:00",
-      "discovered_at": "2026-08-29T05:46:17.810188+00:00",
+      "discovered_at": "2026-08-30T05:08:20.008226+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8050322?gh_jid=8050322",
         "data_compliance": [
@@ -6794,7 +6794,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-12T17:41:17-04:00",
       "updated_at": "2026-08-12T17:41:17-04:00",
-      "discovered_at": "2026-08-29T05:46:17.819710+00:00",
+      "discovered_at": "2026-08-30T05:08:20.009352+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8126896?gh_jid=8126896",
         "data_compliance": [
@@ -6892,7 +6892,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-21T18:04:19-04:00",
       "updated_at": "2026-08-21T18:04:19-04:00",
-      "discovered_at": "2026-08-29T05:46:17.820299+00:00",
+      "discovered_at": "2026-08-30T05:08:20.010327+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8148171?gh_jid=8148171",
         "data_compliance": [
@@ -6990,7 +6990,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-07T20:10:51-04:00",
       "updated_at": "2026-07-07T20:10:51-04:00",
-      "discovered_at": "2026-08-29T05:46:17.821042+00:00",
+      "discovered_at": "2026-08-30T05:08:20.011273+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/7982771?gh_jid=7982771",
         "data_compliance": [
@@ -7088,7 +7088,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T23:23:39-04:00",
       "updated_at": "2026-08-27T23:23:39-04:00",
-      "discovered_at": "2026-08-29T05:46:17.821618+00:00",
+      "discovered_at": "2026-08-30T05:08:20.012180+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/7572514?gh_jid=7572514",
         "data_compliance": [
@@ -7186,7 +7186,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-28T19:32:47-04:00",
       "updated_at": "2026-08-28T19:32:47-04:00",
-      "discovered_at": "2026-08-29T05:46:17.822073+00:00",
+      "discovered_at": "2026-08-30T05:08:20.015690+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8165389?gh_jid=8165389",
         "data_compliance": [
@@ -7284,7 +7284,7 @@
       "source": "greenhouse",
       "posted_at": "2026-06-22T22:51:20-04:00",
       "updated_at": "2026-06-22T22:51:20-04:00",
-      "discovered_at": "2026-08-29T05:46:17.822554+00:00",
+      "discovered_at": "2026-08-30T05:08:20.016696+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8021644?gh_jid=8021644",
         "data_compliance": [
@@ -7382,7 +7382,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-22T23:59:54-04:00",
       "updated_at": "2026-07-22T23:59:54-04:00",
-      "discovered_at": "2026-08-29T05:46:17.823118+00:00",
+      "discovered_at": "2026-08-30T05:08:20.017400+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8078239?gh_jid=8078239",
         "data_compliance": [
@@ -7480,7 +7480,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-26T03:38:20-04:00",
       "updated_at": "2026-08-26T03:38:20-04:00",
-      "discovered_at": "2026-08-29T05:46:17.824501+00:00",
+      "discovered_at": "2026-08-30T05:08:20.018064+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8152576?gh_jid=8152576",
         "data_compliance": [
@@ -7578,7 +7578,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-30T17:20:49-04:00",
       "updated_at": "2026-07-30T17:20:49-04:00",
-      "discovered_at": "2026-08-29T05:46:17.831377+00:00",
+      "discovered_at": "2026-08-30T05:08:20.019000+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/7774051?gh_jid=7774051",
         "data_compliance": [
@@ -7676,7 +7676,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-06T19:17:43-04:00",
       "updated_at": "2026-08-06T19:17:43-04:00",
-      "discovered_at": "2026-08-29T05:46:17.832234+00:00",
+      "discovered_at": "2026-08-30T05:08:20.019790+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8049976?gh_jid=8049976",
         "data_compliance": [
@@ -7774,7 +7774,7 @@
       "source": "greenhouse",
       "posted_at": "2026-06-26T17:48:50-04:00",
       "updated_at": "2026-06-26T17:48:50-04:00",
-      "discovered_at": "2026-08-29T05:46:17.832832+00:00",
+      "discovered_at": "2026-08-30T05:08:20.029059+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8030686?gh_jid=8030686",
         "data_compliance": [
@@ -7872,7 +7872,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-08T16:08:39-04:00",
       "updated_at": "2026-07-08T16:08:39-04:00",
-      "discovered_at": "2026-08-29T05:46:17.833345+00:00",
+      "discovered_at": "2026-08-30T05:08:20.029602+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8052192?gh_jid=8052192",
         "data_compliance": [
@@ -7970,7 +7970,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T08:34:27-04:00",
       "updated_at": "2026-08-27T08:34:27-04:00",
-      "discovered_at": "2026-08-29T05:46:17.833797+00:00",
+      "discovered_at": "2026-08-30T05:08:20.030076+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8147669?gh_jid=8147669",
         "data_compliance": [
@@ -8068,7 +8068,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-25T16:24:28-04:00",
       "updated_at": "2026-08-25T16:24:28-04:00",
-      "discovered_at": "2026-08-29T05:46:17.834290+00:00",
+      "discovered_at": "2026-08-30T05:08:20.030594+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8157661?gh_jid=8157661",
         "data_compliance": [
@@ -8166,7 +8166,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-04T16:18:07-04:00",
       "updated_at": "2026-08-04T16:18:07-04:00",
-      "discovered_at": "2026-08-29T05:46:17.834734+00:00",
+      "discovered_at": "2026-08-30T05:08:20.031055+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8067443?gh_jid=8067443",
         "data_compliance": [
@@ -8264,7 +8264,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-25T15:19:00-04:00",
       "updated_at": "2026-08-25T15:19:00-04:00",
-      "discovered_at": "2026-08-29T05:46:17.835196+00:00",
+      "discovered_at": "2026-08-30T05:08:20.031764+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8024880?gh_jid=8024880",
         "data_compliance": [
@@ -8362,7 +8362,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-13T16:16:22-04:00",
       "updated_at": "2026-08-13T16:16:22-04:00",
-      "discovered_at": "2026-08-29T05:46:17.835625+00:00",
+      "discovered_at": "2026-08-30T05:08:20.032658+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8070386?gh_jid=8070386",
         "data_compliance": [
@@ -8460,7 +8460,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-25T12:03:46-04:00",
       "updated_at": "2026-08-25T12:03:46-04:00",
-      "discovered_at": "2026-08-29T05:46:17.836046+00:00",
+      "discovered_at": "2026-08-30T05:08:20.033528+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8060577?gh_jid=8060577",
         "data_compliance": [
@@ -8558,7 +8558,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-30T13:09:10-04:00",
       "updated_at": "2026-07-30T13:09:10-04:00",
-      "discovered_at": "2026-08-29T05:46:17.836514+00:00",
+      "discovered_at": "2026-08-30T05:08:20.034447+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8096740?gh_jid=8096740",
         "data_compliance": [
@@ -8656,7 +8656,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T04:08:27-04:00",
       "updated_at": "2026-08-27T04:08:27-04:00",
-      "discovered_at": "2026-08-29T05:46:17.875353+00:00",
+      "discovered_at": "2026-08-30T05:08:20.039641+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/7611263?gh_jid=7611263",
         "data_compliance": [
@@ -8754,7 +8754,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-15T00:41:21-04:00",
       "updated_at": "2026-08-15T00:41:21-04:00",
-      "discovered_at": "2026-08-29T05:46:17.875993+00:00",
+      "discovered_at": "2026-08-30T05:08:20.040192+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8069582?gh_jid=8069582",
         "data_compliance": [
@@ -8852,7 +8852,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-15T00:41:12-04:00",
       "updated_at": "2026-08-15T00:41:12-04:00",
-      "discovered_at": "2026-08-29T05:46:17.876778+00:00",
+      "discovered_at": "2026-08-30T05:08:20.040687+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/7994338?gh_jid=7994338",
         "data_compliance": [
@@ -8950,7 +8950,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-21T16:49:20-04:00",
       "updated_at": "2026-08-21T16:49:20-04:00",
-      "discovered_at": "2026-08-29T05:46:17.877560+00:00",
+      "discovered_at": "2026-08-30T05:08:20.041195+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8147917?gh_jid=8147917",
         "data_compliance": [
@@ -9048,7 +9048,7 @@
       "source": "greenhouse",
       "posted_at": "2026-06-24T10:31:37-04:00",
       "updated_at": "2026-06-24T10:31:37-04:00",
-      "discovered_at": "2026-08-29T05:46:17.878138+00:00",
+      "discovered_at": "2026-08-30T05:08:20.041687+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8009392?gh_jid=8009392",
         "data_compliance": [
@@ -9146,7 +9146,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-12T01:44:55-04:00",
       "updated_at": "2026-08-12T01:44:55-04:00",
-      "discovered_at": "2026-08-29T05:46:17.878910+00:00",
+      "discovered_at": "2026-08-30T05:08:20.042245+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8124224?gh_jid=8124224",
         "data_compliance": [
@@ -9244,7 +9244,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-03T17:58:15-04:00",
       "updated_at": "2026-08-03T17:58:15-04:00",
-      "discovered_at": "2026-08-29T05:46:17.879808+00:00",
+      "discovered_at": "2026-08-30T05:08:20.042731+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/7652048?gh_jid=7652048",
         "data_compliance": [
@@ -9342,7 +9342,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-25T15:23:14-04:00",
       "updated_at": "2026-08-25T15:23:14-04:00",
-      "discovered_at": "2026-08-29T05:46:17.881413+00:00",
+      "discovered_at": "2026-08-30T05:08:20.043578+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8154856?gh_jid=8154856",
         "data_compliance": [
@@ -9440,7 +9440,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-27T16:43:23-04:00",
       "updated_at": "2026-07-27T16:43:23-04:00",
-      "discovered_at": "2026-08-29T05:46:17.882250+00:00",
+      "discovered_at": "2026-08-30T05:08:20.044095+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8084049?gh_jid=8084049",
         "data_compliance": [
@@ -9538,7 +9538,7 @@
       "source": "greenhouse",
       "posted_at": "2026-06-17T21:47:47-04:00",
       "updated_at": "2026-06-17T21:47:47-04:00",
-      "discovered_at": "2026-08-29T05:46:17.882850+00:00",
+      "discovered_at": "2026-08-30T05:08:20.044596+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/7993006?gh_jid=7993006",
         "data_compliance": [
@@ -9636,7 +9636,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T19:57:45-04:00",
       "updated_at": "2026-08-27T19:57:45-04:00",
-      "discovered_at": "2026-08-29T05:46:17.883529+00:00",
+      "discovered_at": "2026-08-30T05:08:20.046180+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8162911?gh_jid=8162911",
         "data_compliance": [
@@ -9734,7 +9734,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T21:37:43-04:00",
       "updated_at": "2026-08-27T21:37:43-04:00",
-      "discovered_at": "2026-08-29T05:46:17.884025+00:00",
+      "discovered_at": "2026-08-30T05:08:20.046659+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8162914?gh_jid=8162914",
         "data_compliance": [
@@ -9832,7 +9832,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-25T13:32:57-04:00",
       "updated_at": "2026-08-25T13:32:57-04:00",
-      "discovered_at": "2026-08-29T05:46:17.884476+00:00",
+      "discovered_at": "2026-08-30T05:08:20.047094+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8095207?gh_jid=8095207",
         "data_compliance": [
@@ -9930,7 +9930,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-29T12:47:45-04:00",
       "updated_at": "2026-07-29T12:47:45-04:00",
-      "discovered_at": "2026-08-29T05:46:17.884927+00:00",
+      "discovered_at": "2026-08-30T05:08:20.047542+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8054055?gh_jid=8054055",
         "data_compliance": [
@@ -10028,7 +10028,7 @@
       "source": "greenhouse",
       "posted_at": "2026-06-22T12:59:07-04:00",
       "updated_at": "2026-06-22T12:59:07-04:00",
-      "discovered_at": "2026-08-29T05:46:17.885464+00:00",
+      "discovered_at": "2026-08-30T05:08:20.048067+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/7739592?gh_jid=7739592",
         "data_compliance": [
@@ -10126,7 +10126,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-25T12:33:29-04:00",
       "updated_at": "2026-08-25T12:33:29-04:00",
-      "discovered_at": "2026-08-29T05:46:17.899819+00:00",
+      "discovered_at": "2026-08-30T05:08:20.048634+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8008569?gh_jid=8008569",
         "data_compliance": [
@@ -10224,7 +10224,7 @@
       "source": "greenhouse",
       "posted_at": "2026-06-09T19:23:24-04:00",
       "updated_at": "2026-06-09T19:23:24-04:00",
-      "discovered_at": "2026-08-29T05:46:17.900466+00:00",
+      "discovered_at": "2026-08-30T05:08:20.049133+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/7948222?gh_jid=7948222",
         "data_compliance": [
@@ -10322,7 +10322,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-07T19:02:57-04:00",
       "updated_at": "2026-08-07T19:02:57-04:00",
-      "discovered_at": "2026-08-29T05:46:17.901076+00:00",
+      "discovered_at": "2026-08-30T05:08:20.049570+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8023815?gh_jid=8023815",
         "data_compliance": [
@@ -10420,7 +10420,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-06T00:37:18-04:00",
       "updated_at": "2026-08-06T00:37:18-04:00",
-      "discovered_at": "2026-08-29T05:46:17.901691+00:00",
+      "discovered_at": "2026-08-30T05:08:20.050340+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8110496?gh_jid=8110496",
         "data_compliance": [
@@ -10518,7 +10518,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-18T10:03:52-04:00",
       "updated_at": "2026-08-18T10:03:52-04:00",
-      "discovered_at": "2026-08-29T05:46:17.902201+00:00",
+      "discovered_at": "2026-08-30T05:08:20.052615+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8051630?gh_jid=8051630",
         "data_compliance": [
@@ -10616,7 +10616,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-06T16:46:53-04:00",
       "updated_at": "2026-08-06T16:46:53-04:00",
-      "discovered_at": "2026-08-29T05:46:17.902696+00:00",
+      "discovered_at": "2026-08-30T05:08:20.053526+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/7997926?gh_jid=7997926",
         "data_compliance": [
@@ -10714,7 +10714,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-07T13:31:21-04:00",
       "updated_at": "2026-08-07T13:31:21-04:00",
-      "discovered_at": "2026-08-29T05:46:17.903169+00:00",
+      "discovered_at": "2026-08-30T05:08:20.054305+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8114474?gh_jid=8114474",
         "data_compliance": [
@@ -10812,7 +10812,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-28T13:48:04-04:00",
       "updated_at": "2026-08-28T13:48:04-04:00",
-      "discovered_at": "2026-08-29T05:46:17.903851+00:00",
+      "discovered_at": "2026-08-30T05:08:20.055144+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8008033?gh_jid=8008033",
         "data_compliance": [
@@ -10910,7 +10910,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-06T17:04:46-04:00",
       "updated_at": "2026-07-06T17:04:46-04:00",
-      "discovered_at": "2026-08-29T05:46:17.904551+00:00",
+      "discovered_at": "2026-08-30T05:08:20.055632+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8031208?gh_jid=8031208",
         "data_compliance": [
@@ -11008,7 +11008,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-10T15:18:26-04:00",
       "updated_at": "2026-08-10T15:18:26-04:00",
-      "discovered_at": "2026-08-29T05:46:17.905061+00:00",
+      "discovered_at": "2026-08-30T05:08:20.056106+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8077090?gh_jid=8077090",
         "data_compliance": [
@@ -11106,7 +11106,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-18T10:03:54-04:00",
       "updated_at": "2026-08-18T10:03:54-04:00",
-      "discovered_at": "2026-08-29T05:46:17.905505+00:00",
+      "discovered_at": "2026-08-30T05:08:20.056538+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8064788?gh_jid=8064788",
         "data_compliance": [
@@ -11204,7 +11204,7 @@
       "source": "greenhouse",
       "posted_at": "2026-06-12T14:48:07-04:00",
       "updated_at": "2026-06-12T14:48:07-04:00",
-      "discovered_at": "2026-08-29T05:46:17.906740+00:00",
+      "discovered_at": "2026-08-30T05:08:20.056946+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/7961318?gh_jid=7961318",
         "data_compliance": [
@@ -11302,7 +11302,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-23T12:48:11-04:00",
       "updated_at": "2026-07-23T12:48:11-04:00",
-      "discovered_at": "2026-08-29T05:46:17.907504+00:00",
+      "discovered_at": "2026-08-30T05:08:20.057360+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8021647?gh_jid=8021647",
         "data_compliance": [
@@ -11400,7 +11400,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-28T15:33:16-04:00",
       "updated_at": "2026-07-28T15:33:16-04:00",
-      "discovered_at": "2026-08-29T05:46:17.908028+00:00",
+      "discovered_at": "2026-08-30T05:08:20.058835+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8092651?gh_jid=8092651",
         "data_compliance": [
@@ -11498,7 +11498,7 @@
       "source": "greenhouse",
       "posted_at": "2026-06-08T13:57:31-04:00",
       "updated_at": "2026-06-08T13:57:31-04:00",
-      "discovered_at": "2026-08-29T05:46:17.908630+00:00",
+      "discovered_at": "2026-08-30T05:08:20.059388+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/7930686?gh_jid=7930686",
         "data_compliance": [
@@ -11596,7 +11596,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-22T12:22:55-04:00",
       "updated_at": "2026-07-22T12:22:55-04:00",
-      "discovered_at": "2026-08-29T05:46:17.909173+00:00",
+      "discovered_at": "2026-08-30T05:08:20.059874+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8051871?gh_jid=8051871",
         "data_compliance": [
@@ -11694,7 +11694,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-03T13:50:36-04:00",
       "updated_at": "2026-08-03T13:50:36-04:00",
-      "discovered_at": "2026-08-29T05:46:17.909655+00:00",
+      "discovered_at": "2026-08-30T05:08:20.060316+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8095252?gh_jid=8095252",
         "data_compliance": [
@@ -11792,7 +11792,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-23T12:48:07-04:00",
       "updated_at": "2026-07-23T12:48:07-04:00",
-      "discovered_at": "2026-08-29T05:46:17.910114+00:00",
+      "discovered_at": "2026-08-30T05:08:20.060743+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/7967649?gh_jid=7967649",
         "data_compliance": [
@@ -11890,7 +11890,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-20T12:21:28-04:00",
       "updated_at": "2026-08-20T12:21:28-04:00",
-      "discovered_at": "2026-08-29T05:46:17.910782+00:00",
+      "discovered_at": "2026-08-30T05:08:20.061204+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8105437?gh_jid=8105437",
         "data_compliance": [
@@ -11997,7 +11997,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-26T14:18:07-04:00",
       "updated_at": "2026-08-26T14:18:07-04:00",
-      "discovered_at": "2026-08-29T05:46:17.911272+00:00",
+      "discovered_at": "2026-08-30T05:08:20.061664+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8013129?gh_jid=8013129",
         "data_compliance": [
@@ -12104,7 +12104,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T12:15:09-04:00",
       "updated_at": "2026-08-27T12:15:09-04:00",
-      "discovered_at": "2026-08-29T05:46:17.911902+00:00",
+      "discovered_at": "2026-08-30T05:08:20.062122+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/7701645?gh_jid=7701645",
         "data_compliance": [
@@ -12202,7 +12202,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-26T23:01:01-04:00",
       "updated_at": "2026-08-26T23:01:01-04:00",
-      "discovered_at": "2026-08-29T05:46:17.916259+00:00",
+      "discovered_at": "2026-08-30T05:08:20.062699+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8067033?gh_jid=8067033",
         "data_compliance": [
@@ -12309,7 +12309,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-23T15:17:15-04:00",
       "updated_at": "2026-07-23T15:17:15-04:00",
-      "discovered_at": "2026-08-29T05:46:17.916841+00:00",
+      "discovered_at": "2026-08-30T05:08:20.063213+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/7847431?gh_jid=7847431",
         "data_compliance": [
@@ -12407,7 +12407,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-30T20:09:18-04:00",
       "updated_at": "2026-07-30T20:09:18-04:00",
-      "discovered_at": "2026-08-29T05:46:17.917451+00:00",
+      "discovered_at": "2026-08-30T05:08:20.063859+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8097944?gh_jid=8097944",
         "data_compliance": [
@@ -12505,7 +12505,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-06T18:57:15-04:00",
       "updated_at": "2026-08-06T18:57:15-04:00",
-      "discovered_at": "2026-08-29T05:46:17.917992+00:00",
+      "discovered_at": "2026-08-30T05:08:20.064352+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8082199?gh_jid=8082199",
         "data_compliance": [
@@ -12603,7 +12603,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T16:02:55-04:00",
       "updated_at": "2026-08-27T16:02:55-04:00",
-      "discovered_at": "2026-08-29T05:46:17.918614+00:00",
+      "discovered_at": "2026-08-30T05:08:20.066572+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8064873?gh_jid=8064873",
         "data_compliance": [
@@ -12701,7 +12701,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-09T10:13:16-04:00",
       "updated_at": "2026-07-09T10:13:16-04:00",
-      "discovered_at": "2026-08-29T05:46:17.919426+00:00",
+      "discovered_at": "2026-08-30T05:08:20.067338+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/7483221?gh_jid=7483221",
         "data_compliance": [
@@ -12799,7 +12799,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-13T18:36:49-04:00",
       "updated_at": "2026-08-13T18:36:49-04:00",
-      "discovered_at": "2026-08-29T05:46:17.919986+00:00",
+      "discovered_at": "2026-08-30T05:08:20.067940+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8088201?gh_jid=8088201",
         "data_compliance": [
@@ -12897,7 +12897,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-28T18:32:54-04:00",
       "updated_at": "2026-08-28T18:32:54-04:00",
-      "discovered_at": "2026-08-29T05:46:17.920513+00:00",
+      "discovered_at": "2026-08-30T05:08:20.068748+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8029035?gh_jid=8029035",
         "data_compliance": [
@@ -12995,7 +12995,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-28T15:56:50-04:00",
       "updated_at": "2026-08-28T15:56:50-04:00",
-      "discovered_at": "2026-08-29T05:46:17.921171+00:00",
+      "discovered_at": "2026-08-30T05:08:20.069582+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8165015?gh_jid=8165015",
         "data_compliance": [
@@ -13093,7 +13093,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-21T17:05:50-04:00",
       "updated_at": "2026-08-21T17:05:50-04:00",
-      "discovered_at": "2026-08-29T05:46:17.922536+00:00",
+      "discovered_at": "2026-08-30T05:08:20.070085+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8146039?gh_jid=8146039",
         "data_compliance": [
@@ -13191,7 +13191,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-18T09:17:58-04:00",
       "updated_at": "2026-08-18T09:17:58-04:00",
-      "discovered_at": "2026-08-29T05:46:17.923487+00:00",
+      "discovered_at": "2026-08-30T05:08:20.070544+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8103569?gh_jid=8103569",
         "data_compliance": [
@@ -13298,7 +13298,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-06T17:52:33-04:00",
       "updated_at": "2026-08-06T17:52:33-04:00",
-      "discovered_at": "2026-08-29T05:46:17.924131+00:00",
+      "discovered_at": "2026-08-30T05:08:20.071131+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8104873?gh_jid=8104873",
         "data_compliance": [
@@ -13396,7 +13396,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-06T02:50:09-04:00",
       "updated_at": "2026-07-06T02:50:09-04:00",
-      "discovered_at": "2026-08-29T05:46:17.924589+00:00",
+      "discovered_at": "2026-08-30T05:08:20.071730+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/7866674?gh_jid=7866674",
         "data_compliance": [
@@ -13494,7 +13494,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-14T15:26:37-04:00",
       "updated_at": "2026-07-14T15:26:37-04:00",
-      "discovered_at": "2026-08-29T05:46:17.925089+00:00",
+      "discovered_at": "2026-08-30T05:08:20.072164+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8017697?gh_jid=8017697",
         "data_compliance": [
@@ -13592,7 +13592,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-15T16:18:54-04:00",
       "updated_at": "2026-07-15T16:18:54-04:00",
-      "discovered_at": "2026-08-29T05:46:17.925614+00:00",
+      "discovered_at": "2026-08-30T05:08:20.072590+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/7366208?gh_jid=7366208",
         "data_compliance": [
@@ -13690,7 +13690,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-15T16:18:51-04:00",
       "updated_at": "2026-07-15T16:18:51-04:00",
-      "discovered_at": "2026-08-29T05:46:17.926213+00:00",
+      "discovered_at": "2026-08-30T05:08:20.074218+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/7580292?gh_jid=7580292",
         "data_compliance": [
@@ -13788,7 +13788,7 @@
       "source": "greenhouse",
       "posted_at": "2026-06-23T19:49:36-04:00",
       "updated_at": "2026-06-23T19:49:36-04:00",
-      "discovered_at": "2026-08-29T05:46:17.933532+00:00",
+      "discovered_at": "2026-08-30T05:08:20.074693+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/7711287?gh_jid=7711287",
         "data_compliance": [
@@ -13895,7 +13895,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-13T17:45:21-04:00",
       "updated_at": "2026-07-13T17:45:21-04:00",
-      "discovered_at": "2026-08-29T05:46:17.934128+00:00",
+      "discovered_at": "2026-08-30T05:08:20.075173+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8060842?gh_jid=8060842",
         "data_compliance": [
@@ -13993,7 +13993,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-22T11:04:14-04:00",
       "updated_at": "2026-07-22T11:04:14-04:00",
-      "discovered_at": "2026-08-29T05:46:17.934607+00:00",
+      "discovered_at": "2026-08-30T05:08:20.075588+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8056068?gh_jid=8056068",
         "data_compliance": [
@@ -14091,7 +14091,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-18T10:04:05-04:00",
       "updated_at": "2026-08-18T10:04:05-04:00",
-      "discovered_at": "2026-08-29T05:46:17.935082+00:00",
+      "discovered_at": "2026-08-30T05:08:20.076069+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8126484?gh_jid=8126484",
         "data_compliance": [
@@ -14189,7 +14189,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-28T12:17:43-04:00",
       "updated_at": "2026-08-28T12:17:43-04:00",
-      "discovered_at": "2026-08-29T05:46:17.935598+00:00",
+      "discovered_at": "2026-08-30T05:08:20.076578+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8088912?gh_jid=8088912",
         "data_compliance": [
@@ -14287,7 +14287,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-26T10:47:57-04:00",
       "updated_at": "2026-08-26T10:47:57-04:00",
-      "discovered_at": "2026-08-29T05:46:17.936029+00:00",
+      "discovered_at": "2026-08-30T05:08:20.077009+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8147657?gh_jid=8147657",
         "data_compliance": [
@@ -14385,7 +14385,7 @@
       "source": "greenhouse",
       "posted_at": "2026-06-26T14:29:14-04:00",
       "updated_at": "2026-06-26T14:29:14-04:00",
-      "discovered_at": "2026-08-29T05:46:17.936470+00:00",
+      "discovered_at": "2026-08-30T05:08:20.077458+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8003605?gh_jid=8003605",
         "data_compliance": [
@@ -14483,7 +14483,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-28T15:50:04-04:00",
       "updated_at": "2026-08-28T15:50:04-04:00",
-      "discovered_at": "2026-08-29T05:46:17.936925+00:00",
+      "discovered_at": "2026-08-30T05:08:20.077877+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8164730?gh_jid=8164730",
         "data_compliance": [
@@ -14590,7 +14590,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-17T16:17:38-04:00",
       "updated_at": "2026-08-17T16:17:38-04:00",
-      "discovered_at": "2026-08-29T05:46:17.937348+00:00",
+      "discovered_at": "2026-08-30T05:08:20.078252+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8092485?gh_jid=8092485",
         "data_compliance": [
@@ -14688,7 +14688,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-25T12:33:42-04:00",
       "updated_at": "2026-08-25T12:33:42-04:00",
-      "discovered_at": "2026-08-29T05:46:17.937832+00:00",
+      "discovered_at": "2026-08-30T05:08:20.079086+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8100066?gh_jid=8100066",
         "data_compliance": [
@@ -14786,7 +14786,7 @@
       "source": "greenhouse",
       "posted_at": "2026-06-22T15:08:18-04:00",
       "updated_at": "2026-06-22T15:08:18-04:00",
-      "discovered_at": "2026-08-29T05:46:17.938531+00:00",
+      "discovered_at": "2026-08-30T05:08:20.079645+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/7558051?gh_jid=7558051",
         "data_compliance": [
@@ -14884,7 +14884,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-25T12:33:23-04:00",
       "updated_at": "2026-08-25T12:33:23-04:00",
-      "discovered_at": "2026-08-29T05:46:17.938970+00:00",
+      "discovered_at": "2026-08-30T05:08:20.080880+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8024814?gh_jid=8024814",
         "data_compliance": [
@@ -14982,7 +14982,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-28T19:26:55-04:00",
       "updated_at": "2026-08-28T19:26:55-04:00",
-      "discovered_at": "2026-08-29T05:46:17.939439+00:00",
+      "discovered_at": "2026-08-30T05:08:20.081390+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8165441?gh_jid=8165441",
         "data_compliance": [
@@ -15080,7 +15080,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-19T14:12:43-04:00",
       "updated_at": "2026-08-19T14:12:43-04:00",
-      "discovered_at": "2026-08-29T05:46:17.943844+00:00",
+      "discovered_at": "2026-08-30T05:08:20.081781+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8056065?gh_jid=8056065",
         "data_compliance": [
@@ -15178,7 +15178,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-19T14:12:51-04:00",
       "updated_at": "2026-08-19T14:12:51-04:00",
-      "discovered_at": "2026-08-29T05:46:17.944584+00:00",
+      "discovered_at": "2026-08-30T05:08:20.082172+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8096720?gh_jid=8096720",
         "data_compliance": [
@@ -15276,7 +15276,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-11T22:33:52-04:00",
       "updated_at": "2026-08-11T22:33:52-04:00",
-      "discovered_at": "2026-08-29T05:46:17.945517+00:00",
+      "discovered_at": "2026-08-30T05:08:20.082557+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8122777?gh_jid=8122777",
         "data_compliance": [
@@ -15374,7 +15374,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-14T20:55:23-04:00",
       "updated_at": "2026-08-14T20:55:23-04:00",
-      "discovered_at": "2026-08-29T05:46:17.946422+00:00",
+      "discovered_at": "2026-08-30T05:08:20.082938+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8126403?gh_jid=8126403",
         "data_compliance": [
@@ -15472,7 +15472,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-18T10:03:43-04:00",
       "updated_at": "2026-08-18T10:03:43-04:00",
-      "discovered_at": "2026-08-29T05:46:17.947148+00:00",
+      "discovered_at": "2026-08-30T05:08:20.083337+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8024968?gh_jid=8024968",
         "data_compliance": [
@@ -15570,7 +15570,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-25T12:36:05-04:00",
       "updated_at": "2026-08-25T12:36:05-04:00",
-      "discovered_at": "2026-08-29T05:46:17.947729+00:00",
+      "discovered_at": "2026-08-30T05:08:20.083747+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8144772?gh_jid=8144772",
         "data_compliance": [
@@ -15668,7 +15668,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-25T12:37:12-04:00",
       "updated_at": "2026-08-25T12:37:12-04:00",
-      "discovered_at": "2026-08-29T05:46:17.948811+00:00",
+      "discovered_at": "2026-08-30T05:08:20.084157+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8144776?gh_jid=8144776",
         "data_compliance": [
@@ -15766,7 +15766,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-06T17:32:09-04:00",
       "updated_at": "2026-08-06T17:32:09-04:00",
-      "discovered_at": "2026-08-29T05:46:17.966390+00:00",
+      "discovered_at": "2026-08-30T05:08:20.084604+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8104148?gh_jid=8104148",
         "data_compliance": [
@@ -15864,7 +15864,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-14T16:47:47-04:00",
       "updated_at": "2026-08-14T16:47:47-04:00",
-      "discovered_at": "2026-08-29T05:46:17.966835+00:00",
+      "discovered_at": "2026-08-30T05:08:20.084974+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8083051?gh_jid=8083051",
         "data_compliance": [
@@ -15962,7 +15962,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-20T17:05:21-04:00",
       "updated_at": "2026-08-20T17:05:21-04:00",
-      "discovered_at": "2026-08-29T05:46:17.967250+00:00",
+      "discovered_at": "2026-08-30T05:08:20.085350+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8144836?gh_jid=8144836",
         "data_compliance": [
@@ -16069,7 +16069,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-20T16:42:47-04:00",
       "updated_at": "2026-08-20T16:42:47-04:00",
-      "discovered_at": "2026-08-29T05:46:17.967691+00:00",
+      "discovered_at": "2026-08-30T05:08:20.094743+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8144769?gh_jid=8144769",
         "data_compliance": [
@@ -16176,7 +16176,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T13:05:38-04:00",
       "updated_at": "2026-08-24T13:05:38-04:00",
-      "discovered_at": "2026-08-29T05:46:17.968103+00:00",
+      "discovered_at": "2026-08-30T05:08:20.095584+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8148396?gh_jid=8148396",
         "data_compliance": [
@@ -16274,7 +16274,7 @@
       "source": "greenhouse",
       "posted_at": "2026-06-12T16:43:31-04:00",
       "updated_at": "2026-06-12T16:43:31-04:00",
-      "discovered_at": "2026-08-29T05:46:17.968537+00:00",
+      "discovered_at": "2026-08-30T05:08:20.096062+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/7891045?gh_jid=7891045",
         "data_compliance": [
@@ -16372,7 +16372,7 @@
       "source": "greenhouse",
       "posted_at": "2026-06-26T19:47:05-04:00",
       "updated_at": "2026-06-26T19:47:05-04:00",
-      "discovered_at": "2026-08-29T05:46:17.968994+00:00",
+      "discovered_at": "2026-08-30T05:08:20.096519+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8014564?gh_jid=8014564",
         "data_compliance": [
@@ -16470,7 +16470,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-13T11:14:08-04:00",
       "updated_at": "2026-08-13T11:14:08-04:00",
-      "discovered_at": "2026-08-29T05:46:17.969391+00:00",
+      "discovered_at": "2026-08-30T05:08:20.096922+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8064324?gh_jid=8064324",
         "data_compliance": [
@@ -16568,7 +16568,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-23T12:48:14-04:00",
       "updated_at": "2026-07-23T12:48:14-04:00",
-      "discovered_at": "2026-08-29T05:46:17.969758+00:00",
+      "discovered_at": "2026-08-30T05:08:20.097398+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8021650?gh_jid=8021650",
         "data_compliance": [
@@ -16666,7 +16666,7 @@
       "source": "greenhouse",
       "posted_at": "2026-06-26T18:29:44-04:00",
       "updated_at": "2026-06-26T18:29:44-04:00",
-      "discovered_at": "2026-08-29T05:46:17.970207+00:00",
+      "discovered_at": "2026-08-30T05:08:20.097918+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/7997840?gh_jid=7997840",
         "data_compliance": [
@@ -16764,7 +16764,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-23T01:13:37-04:00",
       "updated_at": "2026-07-23T01:13:37-04:00",
-      "discovered_at": "2026-08-29T05:46:17.970645+00:00",
+      "discovered_at": "2026-08-30T05:08:20.098334+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8064916?gh_jid=8064916",
         "data_compliance": [
@@ -16862,7 +16862,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T17:19:13-04:00",
       "updated_at": "2026-08-24T17:19:13-04:00",
-      "discovered_at": "2026-08-29T05:46:17.989092+00:00",
+      "discovered_at": "2026-08-30T05:08:20.098740+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8154983?gh_jid=8154983",
         "data_compliance": [
@@ -16960,7 +16960,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-26T20:36:40-04:00",
       "updated_at": "2026-08-26T20:36:40-04:00",
-      "discovered_at": "2026-08-29T05:46:17.989899+00:00",
+      "discovered_at": "2026-08-30T05:08:20.099191+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8160557?gh_jid=8160557",
         "data_compliance": [
@@ -17058,7 +17058,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-23T15:17:22-04:00",
       "updated_at": "2026-07-23T15:17:22-04:00",
-      "discovered_at": "2026-08-29T05:46:17.990668+00:00",
+      "discovered_at": "2026-08-30T05:08:20.099633+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/7991691?gh_jid=7991691",
         "data_compliance": [
@@ -17156,7 +17156,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-09T15:05:42-04:00",
       "updated_at": "2026-07-09T15:05:42-04:00",
-      "discovered_at": "2026-08-29T05:46:17.991435+00:00",
+      "discovered_at": "2026-08-30T05:08:20.100163+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8054153?gh_jid=8054153",
         "data_compliance": [
@@ -17254,7 +17254,7 @@
       "source": "greenhouse",
       "posted_at": "2026-06-24T16:02:54-04:00",
       "updated_at": "2026-06-24T16:02:54-04:00",
-      "discovered_at": "2026-08-29T05:46:17.991923+00:00",
+      "discovered_at": "2026-08-30T05:08:20.100604+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/7964410?gh_jid=7964410",
         "data_compliance": [
@@ -17352,7 +17352,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-19T13:00:03-04:00",
       "updated_at": "2026-08-19T13:00:03-04:00",
-      "discovered_at": "2026-08-29T05:46:17.992412+00:00",
+      "discovered_at": "2026-08-30T05:08:20.116516+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/6784618?gh_jid=6784618",
         "data_compliance": [
@@ -17450,7 +17450,7 @@
       "source": "greenhouse",
       "posted_at": "2026-06-12T16:33:28-04:00",
       "updated_at": "2026-06-12T16:33:28-04:00",
-      "discovered_at": "2026-08-29T05:46:17.992879+00:00",
+      "discovered_at": "2026-08-30T05:08:20.117208+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/7629141?gh_jid=7629141",
         "data_compliance": [
@@ -17548,7 +17548,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-21T17:04:19-04:00",
       "updated_at": "2026-08-21T17:04:19-04:00",
-      "discovered_at": "2026-08-29T05:46:17.993338+00:00",
+      "discovered_at": "2026-08-30T05:08:20.117693+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8114877?gh_jid=8114877",
         "data_compliance": [
@@ -17646,7 +17646,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-17T17:26:51-04:00",
       "updated_at": "2026-07-17T17:26:51-04:00",
-      "discovered_at": "2026-08-29T05:46:17.993886+00:00",
+      "discovered_at": "2026-08-30T05:08:20.118276+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/7773776?gh_jid=7773776",
         "data_compliance": [
@@ -17744,7 +17744,7 @@
       "source": "greenhouse",
       "posted_at": "2026-06-26T12:23:54-04:00",
       "updated_at": "2026-06-26T12:23:54-04:00",
-      "discovered_at": "2026-08-29T05:46:18.002810+00:00",
+      "discovered_at": "2026-08-30T05:08:20.119063+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/7684298?gh_jid=7684298",
         "data_compliance": [
@@ -17851,7 +17851,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-28T14:18:46-04:00",
       "updated_at": "2026-08-28T14:18:46-04:00",
-      "discovered_at": "2026-08-29T05:46:18.003354+00:00",
+      "discovered_at": "2026-08-30T05:08:20.119588+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8047657?gh_jid=8047657",
         "data_compliance": [
@@ -17949,7 +17949,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-25T20:07:45-04:00",
       "updated_at": "2026-08-25T20:07:45-04:00",
-      "discovered_at": "2026-08-29T05:46:18.003798+00:00",
+      "discovered_at": "2026-08-30T05:08:20.120020+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8148248?gh_jid=8148248",
         "data_compliance": [
@@ -18047,7 +18047,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-24T14:06:26-04:00",
       "updated_at": "2026-07-24T14:06:26-04:00",
-      "discovered_at": "2026-08-29T05:46:18.004274+00:00",
+      "discovered_at": "2026-08-30T05:08:20.120543+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8083758?gh_jid=8083758",
         "data_compliance": [
@@ -18145,7 +18145,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-24T14:49:43-04:00",
       "updated_at": "2026-07-24T14:49:43-04:00",
-      "discovered_at": "2026-08-29T05:46:18.004721+00:00",
+      "discovered_at": "2026-08-30T05:08:20.121013+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8082829?gh_jid=8082829",
         "data_compliance": [
@@ -18243,7 +18243,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-20T14:09:52-04:00",
       "updated_at": "2026-07-20T14:09:52-04:00",
-      "discovered_at": "2026-08-29T05:46:18.005294+00:00",
+      "discovered_at": "2026-08-30T05:08:20.121648+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8013948?gh_jid=8013948",
         "data_compliance": [
@@ -18341,7 +18341,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-15T13:57:52-04:00",
       "updated_at": "2026-07-15T13:57:52-04:00",
-      "discovered_at": "2026-08-29T05:46:18.005766+00:00",
+      "discovered_at": "2026-08-30T05:08:20.126220+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8013892?gh_jid=8013892",
         "data_compliance": [
@@ -18439,7 +18439,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-28T19:29:34-04:00",
       "updated_at": "2026-08-28T19:29:34-04:00",
-      "discovered_at": "2026-08-29T05:46:18.006197+00:00",
+      "discovered_at": "2026-08-30T05:08:20.126894+00:00",
       "raw": {
         "absolute_url": "https://www.coinbase.com/careers/positions/8142975?gh_jid=8142975",
         "data_compliance": [

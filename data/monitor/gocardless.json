@@ -4,7 +4,7 @@
   "career_page": "https://job-boards.greenhouse.io/gocardless",
   "source": "greenhouse",
   "identifier": "gocardless",
-  "scanned_at": "2026-08-29T05:46:19.699499+00:00",
+  "scanned_at": "2026-08-30T05:08:20.710275+00:00",
   "count": 25,
   "total_available": 25,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-20T06:33:26-04:00",
       "updated_at": "2026-08-20T06:33:26-04:00",
-      "discovered_at": "2026-08-29T05:46:19.660469+00:00",
+      "discovered_at": "2026-08-30T05:08:20.686442+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/gocardless/jobs/8141651",
         "data_compliance": [
@@ -90,7 +90,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-25T06:58:32-04:00",
       "updated_at": "2026-08-25T06:58:32-04:00",
-      "discovered_at": "2026-08-29T05:46:19.661620+00:00",
+      "discovered_at": "2026-08-30T05:08:20.687065+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/gocardless/jobs/8138520",
         "data_compliance": [
@@ -155,7 +155,7 @@
       "source": "greenhouse",
       "posted_at": "2026-05-18T06:02:30-04:00",
       "updated_at": "2026-05-18T06:02:30-04:00",
-      "discovered_at": "2026-08-29T05:46:19.662638+00:00",
+      "discovered_at": "2026-08-30T05:08:20.688045+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/gocardless/jobs/7699256",
         "data_compliance": [
@@ -227,7 +227,7 @@
       "source": "greenhouse",
       "posted_at": "2026-05-18T06:02:11-04:00",
       "updated_at": "2026-05-18T06:02:11-04:00",
-      "discovered_at": "2026-08-29T05:46:19.663528+00:00",
+      "discovered_at": "2026-08-30T05:08:20.688859+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/gocardless/jobs/7699254",
         "data_compliance": [
@@ -299,7 +299,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-30T10:42:31-04:00",
       "updated_at": "2026-07-30T10:42:31-04:00",
-      "discovered_at": "2026-08-29T05:46:19.664423+00:00",
+      "discovered_at": "2026-08-30T05:08:20.689505+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/gocardless/jobs/8059763",
         "data_compliance": [
@@ -364,7 +364,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T08:23:58-04:00",
       "updated_at": "2026-08-24T08:23:58-04:00",
-      "discovered_at": "2026-08-29T05:46:19.666404+00:00",
+      "discovered_at": "2026-08-30T05:08:20.690166+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/gocardless/jobs/8127296",
         "data_compliance": [
@@ -429,7 +429,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T09:56:00-04:00",
       "updated_at": "2026-08-27T09:56:00-04:00",
-      "discovered_at": "2026-08-29T05:46:19.667379+00:00",
+      "discovered_at": "2026-08-30T05:08:20.690992+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/gocardless/jobs/8156316",
         "data_compliance": [
@@ -494,7 +494,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T08:54:53-04:00",
       "updated_at": "2026-08-27T08:54:53-04:00",
-      "discovered_at": "2026-08-29T05:46:19.668094+00:00",
+      "discovered_at": "2026-08-30T05:08:20.692617+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/gocardless/jobs/8127884",
         "data_compliance": [
@@ -559,7 +559,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-18T04:42:08-04:00",
       "updated_at": "2026-08-18T04:42:08-04:00",
-      "discovered_at": "2026-08-29T05:46:19.668842+00:00",
+      "discovered_at": "2026-08-30T05:08:20.693516+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/gocardless/jobs/8045004",
         "data_compliance": [
@@ -624,7 +624,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-19T02:03:43-04:00",
       "updated_at": "2026-08-19T02:03:43-04:00",
-      "discovered_at": "2026-08-29T05:46:19.669576+00:00",
+      "discovered_at": "2026-08-30T05:08:20.694416+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/gocardless/jobs/8124747",
         "data_compliance": [
@@ -689,7 +689,7 @@
       "source": "greenhouse",
       "posted_at": "2026-05-19T04:57:10-04:00",
       "updated_at": "2026-05-19T04:57:10-04:00",
-      "discovered_at": "2026-08-29T05:46:19.670337+00:00",
+      "discovered_at": "2026-08-30T05:08:20.695226+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/gocardless/jobs/7938467",
         "data_compliance": [
@@ -754,7 +754,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-20T09:26:25-04:00",
       "updated_at": "2026-08-20T09:26:25-04:00",
-      "discovered_at": "2026-08-29T05:46:19.671247+00:00",
+      "discovered_at": "2026-08-30T05:08:20.695859+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/gocardless/jobs/8143812",
         "data_compliance": [
@@ -819,7 +819,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T06:29:39-04:00",
       "updated_at": "2026-08-27T06:29:39-04:00",
-      "discovered_at": "2026-08-29T05:46:19.673902+00:00",
+      "discovered_at": "2026-08-30T05:08:20.696456+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/gocardless/jobs/7988744",
         "data_compliance": [
@@ -884,7 +884,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-16T05:11:23-04:00",
       "updated_at": "2026-07-16T05:11:23-04:00",
-      "discovered_at": "2026-08-29T05:46:19.674736+00:00",
+      "discovered_at": "2026-08-30T05:08:20.697005+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/gocardless/jobs/8066856",
         "data_compliance": [
@@ -949,7 +949,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-07T07:03:14-04:00",
       "updated_at": "2026-08-07T07:03:14-04:00",
-      "discovered_at": "2026-08-29T05:46:19.675901+00:00",
+      "discovered_at": "2026-08-30T05:08:20.697611+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/gocardless/jobs/7526075",
         "data_compliance": [
@@ -1028,7 +1028,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-07T07:03:14-04:00",
       "updated_at": "2026-08-07T07:03:14-04:00",
-      "discovered_at": "2026-08-29T05:46:19.677366+00:00",
+      "discovered_at": "2026-08-30T05:08:20.698345+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/gocardless/jobs/7526068",
         "data_compliance": [
@@ -1107,7 +1107,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-07T07:03:14-04:00",
       "updated_at": "2026-08-07T07:03:14-04:00",
-      "discovered_at": "2026-08-29T05:46:19.678456+00:00",
+      "discovered_at": "2026-08-30T05:08:20.702051+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/gocardless/jobs/7526078",
         "data_compliance": [
@@ -1186,7 +1186,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-05T11:27:16-04:00",
       "updated_at": "2026-08-05T11:27:16-04:00",
-      "discovered_at": "2026-08-29T05:46:19.683070+00:00",
+      "discovered_at": "2026-08-30T05:08:20.703137+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/gocardless/jobs/8010060",
         "data_compliance": [
@@ -1258,7 +1258,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-05T11:27:17-04:00",
       "updated_at": "2026-08-05T11:27:17-04:00",
-      "discovered_at": "2026-08-29T05:46:19.684077+00:00",
+      "discovered_at": "2026-08-30T05:08:20.704268+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/gocardless/jobs/8010061",
         "data_compliance": [
@@ -1330,7 +1330,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-20T04:01:05-04:00",
       "updated_at": "2026-07-20T04:01:05-04:00",
-      "discovered_at": "2026-08-29T05:46:19.684978+00:00",
+      "discovered_at": "2026-08-30T05:08:20.705740+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/gocardless/jobs/8064518",
         "data_compliance": [
@@ -1395,7 +1395,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-25T01:51:12-04:00",
       "updated_at": "2026-08-25T01:51:12-04:00",
-      "discovered_at": "2026-08-29T05:46:19.685726+00:00",
+      "discovered_at": "2026-08-30T05:08:20.706475+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/gocardless/jobs/7996584",
         "data_compliance": [
@@ -1460,7 +1460,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-10T07:40:13-04:00",
       "updated_at": "2026-08-10T07:40:13-04:00",
-      "discovered_at": "2026-08-29T05:46:19.686488+00:00",
+      "discovered_at": "2026-08-30T05:08:20.708009+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/gocardless/jobs/7310810",
         "data_compliance": [
@@ -1525,7 +1525,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-13T10:12:04-04:00",
       "updated_at": "2026-07-13T10:12:04-04:00",
-      "discovered_at": "2026-08-29T05:46:19.695099+00:00",
+      "discovered_at": "2026-08-30T05:08:20.708833+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/gocardless/jobs/8059725",
         "data_compliance": [
@@ -1590,7 +1590,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-20T07:34:01-04:00",
       "updated_at": "2026-07-20T07:34:01-04:00",
-      "discovered_at": "2026-08-29T05:46:19.697220+00:00",
+      "discovered_at": "2026-08-30T05:08:20.709593+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/gocardless/jobs/7374850",
         "data_compliance": [
@@ -1655,7 +1655,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-26T09:30:17-04:00",
       "updated_at": "2026-08-26T09:30:17-04:00",
-      "discovered_at": "2026-08-29T05:46:19.699316+00:00",
+      "discovered_at": "2026-08-30T05:08:20.710244+00:00",
       "raw": {
         "absolute_url": "https://job-boards.greenhouse.io/gocardless/jobs/8159050",
         "data_compliance": [

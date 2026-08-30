@@ -4,7 +4,7 @@
   "career_page": "https://jobs.ashbyhq.com/frontcareers",
   "source": "ashby",
   "identifier": "frontcareers",
-  "scanned_at": "2026-08-29T05:46:25.508741+00:00",
+  "scanned_at": "2026-08-30T05:08:26.389502+00:00",
   "count": 23,
   "total_available": 23,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "ashby",
       "posted_at": "2026-05-05T19:24:23.706+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.482712+00:00",
+      "discovered_at": "2026-08-30T05:08:26.379839+00:00",
       "raw": {
         "id": "91e4b4ad-9ce3-4bc7-896e-f36ff234eca1",
         "title": "Account Executive, SMB",
@@ -67,7 +67,7 @@
       "source": "ashby",
       "posted_at": "2026-02-18T18:03:58.046+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.483125+00:00",
+      "discovered_at": "2026-08-30T05:08:26.380362+00:00",
       "raw": {
         "id": "071af87c-644e-4677-b4f8-ce0646ccc608",
         "title": "AI Engineering Manager (Core AI Platform)",
@@ -109,7 +109,7 @@
       "source": "ashby",
       "posted_at": "2026-08-04T18:41:28.619+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.483453+00:00",
+      "discovered_at": "2026-08-30T05:08:26.380773+00:00",
       "raw": {
         "id": "5fc319f6-b860-466e-aea5-fe222003ee8b",
         "title": "Senior Software Engineer (Backend), Deliverability ",
@@ -151,7 +151,7 @@
       "source": "ashby",
       "posted_at": "2026-08-03T18:09:53.093+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.483896+00:00",
+      "discovered_at": "2026-08-30T05:08:26.381376+00:00",
       "raw": {
         "id": "f8ee1ada-f72b-4a09-a150-35dc954324cf",
         "title": "Senior Design Engineer",
@@ -193,7 +193,7 @@
       "source": "ashby",
       "posted_at": "2026-06-09T23:23:12.481+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.484244+00:00",
+      "discovered_at": "2026-08-30T05:08:26.381872+00:00",
       "raw": {
         "id": "47e7d42a-0988-4445-b5d3-09ed4534c94a",
         "title": "Senior Product Manager - AI ",
@@ -235,7 +235,7 @@
       "source": "ashby",
       "posted_at": "2026-05-15T23:10:20.413+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.484865+00:00",
+      "discovered_at": "2026-08-30T05:08:26.382349+00:00",
       "raw": {
         "id": "6ca0f3aa-4593-4ca2-8c64-dcb61e96465d",
         "title": "Head of Product Design",
@@ -277,7 +277,7 @@
       "source": "ashby",
       "posted_at": "2026-08-19T20:39:00.998+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.485879+00:00",
+      "discovered_at": "2026-08-30T05:08:26.382679+00:00",
       "raw": {
         "id": "ac0d7219-d569-481f-bda9-efd755ffd715",
         "title": "Senior Applied AI Engineer",
@@ -319,7 +319,7 @@
       "source": "ashby",
       "posted_at": "2026-07-06T02:18:42.203+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.486485+00:00",
+      "discovered_at": "2026-08-30T05:08:26.383039+00:00",
       "raw": {
         "id": "9b24503f-b0c5-4120-9297-c73c37dcbd08",
         "title": "Senior Product Manager (Developer Platform)",
@@ -361,7 +361,7 @@
       "source": "ashby",
       "posted_at": "2026-06-09T23:23:08.624+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.487056+00:00",
+      "discovered_at": "2026-08-30T05:08:26.383403+00:00",
       "raw": {
         "id": "ef22a4eb-df20-4ba5-acd4-1c4bbd341935",
         "title": "Senior Product Manager - AI ",
@@ -403,7 +403,7 @@
       "source": "ashby",
       "posted_at": "2026-08-05T17:11:20.361+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.487661+00:00",
+      "discovered_at": "2026-08-30T05:08:26.383805+00:00",
       "raw": {
         "id": "bae3ca2b-1f07-41f7-947a-5833a8ee9904",
         "title": "Senior Software Engineer, Core Product",
@@ -445,7 +445,7 @@
       "source": "ashby",
       "posted_at": "2026-07-03T14:13:23.171+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.488328+00:00",
+      "discovered_at": "2026-08-30T05:08:26.384221+00:00",
       "raw": {
         "id": "152ba592-a6d7-455e-a98b-290ed6e357f3",
         "title": "Customer Success Manager - Tech Touch",
@@ -487,7 +487,7 @@
       "source": "ashby",
       "posted_at": "2026-07-31T23:18:12.325+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.488652+00:00",
+      "discovered_at": "2026-08-30T05:08:26.385182+00:00",
       "raw": {
         "id": "6fdf9a6f-124a-4665-82f7-1bc95c74afd8",
         "title": "Senior Marketing Operations Manager",
@@ -529,7 +529,7 @@
       "source": "ashby",
       "posted_at": "2026-07-15T17:20:41.067+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.489041+00:00",
+      "discovered_at": "2026-08-30T05:08:26.385615+00:00",
       "raw": {
         "id": "cafd38ae-06b9-4737-ae27-0517f46ffbd6",
         "title": "Senior Corporate FP&A Manager",
@@ -571,7 +571,7 @@
       "source": "ashby",
       "posted_at": "2026-07-24T21:13:51.959+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.489357+00:00",
+      "discovered_at": "2026-08-30T05:08:26.385930+00:00",
       "raw": {
         "id": "9af2a994-c917-4da2-9d5d-8deb2548ff2f",
         "title": "Staff Data Engineer",
@@ -613,7 +613,7 @@
       "source": "ashby",
       "posted_at": "2026-07-30T19:39:05.953+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.489631+00:00",
+      "discovered_at": "2026-08-30T05:08:26.386195+00:00",
       "raw": {
         "id": "60162568-23f1-4667-acd2-643d84a59454",
         "title": "Customer Support Specialist",
@@ -655,7 +655,7 @@
       "source": "ashby",
       "posted_at": "2026-08-07T14:47:26.268+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.490555+00:00",
+      "discovered_at": "2026-08-30T05:08:26.386586+00:00",
       "raw": {
         "id": "f23dc110-ca43-4a30-b077-7d74f293643d",
         "title": "Senior Solutions Engineer",
@@ -697,7 +697,7 @@
       "source": "ashby",
       "posted_at": "2026-08-12T13:04:47.353+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.491180+00:00",
+      "discovered_at": "2026-08-30T05:08:26.386878+00:00",
       "raw": {
         "id": "1026a32c-f8cc-4eee-992b-bacdf771d9fc",
         "title": "Software Engineering Intern - Spring/Summer 2027",
@@ -739,7 +739,7 @@
       "source": "ashby",
       "posted_at": "2026-08-19T17:30:52.207+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.491732+00:00",
+      "discovered_at": "2026-08-30T05:08:26.387283+00:00",
       "raw": {
         "id": "8680c054-832c-407b-aa53-abb7df3810db",
         "title": "Director, Account Management",
@@ -781,7 +781,7 @@
       "source": "ashby",
       "posted_at": "2026-08-19T17:31:15.114+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.492081+00:00",
+      "discovered_at": "2026-08-30T05:08:26.387625+00:00",
       "raw": {
         "id": "c1e61672-6e07-4e31-a6f3-ec3e4fcb81e2",
         "title": "Director, Account Management",
@@ -823,7 +823,7 @@
       "source": "ashby",
       "posted_at": "2026-08-20T15:46:28.931+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.493383+00:00",
+      "discovered_at": "2026-08-30T05:08:26.388578+00:00",
       "raw": {
         "id": "9376f2fd-b9ac-4090-8a0d-4ea60a3ed4c5",
         "title": "Senior Platform Security Engineer - Contract to Hire",
@@ -865,7 +865,7 @@
       "source": "ashby",
       "posted_at": "2026-08-21T11:15:45.487+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.493923+00:00",
+      "discovered_at": "2026-08-30T05:08:26.388950+00:00",
       "raw": {
         "id": "4569d010-5644-4329-9f84-dbcb36a67b8f",
         "title": "Senior Account Executive, EMEA",
@@ -907,7 +907,7 @@
       "source": "ashby",
       "posted_at": "2026-08-28T20:37:25.132+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.494251+00:00",
+      "discovered_at": "2026-08-30T05:08:26.389226+00:00",
       "raw": {
         "id": "538bc90a-c043-4048-9679-4c15ba497195",
         "title": "Full Stack Engineer - Integrations",
@@ -949,7 +949,7 @@
       "source": "ashby",
       "posted_at": "2026-08-28T20:39:04.773+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:25.508661+00:00",
+      "discovered_at": "2026-08-30T05:08:26.389473+00:00",
       "raw": {
         "id": "fcb28a8e-8463-4722-bd30-d7312bc80c9c",
         "title": "Full Stack Engineer - Integrations",

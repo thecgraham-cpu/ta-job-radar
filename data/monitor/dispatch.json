@@ -4,7 +4,7 @@
   "career_page": "https://job-boards.greenhouse.io/dispatch",
   "source": "greenhouse",
   "identifier": "dispatch",
-  "scanned_at": "2026-08-29T05:46:18.703369+00:00",
+  "scanned_at": "2026-08-30T05:08:20.210357+00:00",
   "count": 4,
   "total_available": 4,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-27T12:49:24-04:00",
       "updated_at": "2026-07-27T12:49:24-04:00",
-      "discovered_at": "2026-08-29T05:46:18.700650+00:00",
+      "discovered_at": "2026-08-30T05:08:20.207435+00:00",
       "raw": {
         "absolute_url": "https://dispatch.me/about/careers/apply-now?gh_jid=6118890004",
         "data_compliance": [
@@ -82,7 +82,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T13:57:32-04:00",
       "updated_at": "2026-08-27T13:57:32-04:00",
-      "discovered_at": "2026-08-29T05:46:18.701706+00:00",
+      "discovered_at": "2026-08-30T05:08:20.208902+00:00",
       "raw": {
         "absolute_url": "https://dispatch.me/about/careers/apply-now?gh_jid=6167103004",
         "data_compliance": [
@@ -139,7 +139,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-27T12:48:09-04:00",
       "updated_at": "2026-07-27T12:48:09-04:00",
-      "discovered_at": "2026-08-29T05:46:18.702443+00:00",
+      "discovered_at": "2026-08-30T05:08:20.209649+00:00",
       "raw": {
         "absolute_url": "https://dispatch.me/about/careers/apply-now?gh_jid=6126430004",
         "data_compliance": [
@@ -196,7 +196,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-26T11:18:59-04:00",
       "updated_at": "2026-08-26T11:18:59-04:00",
-      "discovered_at": "2026-08-29T05:46:18.703328+00:00",
+      "discovered_at": "2026-08-30T05:08:20.210336+00:00",
       "raw": {
         "absolute_url": "https://dispatch.me/about/careers/apply-now?gh_jid=6162216004",
         "data_compliance": [

@@ -4,7 +4,7 @@
   "career_page": "https://job-boards.greenhouse.io/faire",
   "source": "greenhouse",
   "identifier": "faire",
-  "scanned_at": "2026-08-29T05:46:20.106178+00:00",
+  "scanned_at": "2026-08-30T05:08:20.905139+00:00",
   "count": 67,
   "total_available": 67,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-24T09:04:58-04:00",
       "updated_at": "2026-07-24T09:04:58-04:00",
-      "discovered_at": "2026-08-29T05:46:20.007593+00:00",
+      "discovered_at": "2026-08-30T05:08:20.840230+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8601430002?gh_jid=8601430002",
         "data_compliance": [
@@ -97,7 +97,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-26T11:54:58-04:00",
       "updated_at": "2026-08-26T11:54:58-04:00",
-      "discovered_at": "2026-08-29T05:46:20.008865+00:00",
+      "discovered_at": "2026-08-30T05:08:20.841001+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8746116002?gh_jid=8746116002",
         "data_compliance": [
@@ -174,7 +174,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-13T11:26:22-04:00",
       "updated_at": "2026-08-13T11:26:22-04:00",
-      "discovered_at": "2026-08-29T05:46:20.009688+00:00",
+      "discovered_at": "2026-08-30T05:08:20.841637+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8633652002?gh_jid=8633652002",
         "data_compliance": [
@@ -246,7 +246,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-20T16:04:03-04:00",
       "updated_at": "2026-07-20T16:04:03-04:00",
-      "discovered_at": "2026-08-29T05:46:20.010605+00:00",
+      "discovered_at": "2026-08-30T05:08:20.842141+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8637303002?gh_jid=8637303002",
         "data_compliance": [
@@ -318,7 +318,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T16:42:47-04:00",
       "updated_at": "2026-08-27T16:42:47-04:00",
-      "discovered_at": "2026-08-29T05:46:20.015816+00:00",
+      "discovered_at": "2026-08-30T05:08:20.842787+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8754821002?gh_jid=8754821002",
         "data_compliance": [
@@ -390,7 +390,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-31T16:25:51-04:00",
       "updated_at": "2026-07-31T16:25:51-04:00",
-      "discovered_at": "2026-08-29T05:46:20.017104+00:00",
+      "discovered_at": "2026-08-30T05:08:20.843492+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8658935002?gh_jid=8658935002",
         "data_compliance": [
@@ -462,7 +462,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T12:01:11-04:00",
       "updated_at": "2026-08-24T12:01:11-04:00",
-      "discovered_at": "2026-08-29T05:46:20.017900+00:00",
+      "discovered_at": "2026-08-30T05:08:20.844040+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8568728002?gh_jid=8568728002",
         "data_compliance": [
@@ -541,7 +541,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-20T16:04:03-04:00",
       "updated_at": "2026-07-20T16:04:03-04:00",
-      "discovered_at": "2026-08-29T05:46:20.019051+00:00",
+      "discovered_at": "2026-08-30T05:08:20.844647+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8580854002?gh_jid=8580854002",
         "data_compliance": [
@@ -615,7 +615,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-20T16:04:03-04:00",
       "updated_at": "2026-07-20T16:04:03-04:00",
-      "discovered_at": "2026-08-29T05:46:20.020133+00:00",
+      "discovered_at": "2026-08-30T05:08:20.847743+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8617151002?gh_jid=8617151002",
         "data_compliance": [
@@ -687,7 +687,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-13T17:50:09-04:00",
       "updated_at": "2026-08-13T17:50:09-04:00",
-      "discovered_at": "2026-08-29T05:46:20.020804+00:00",
+      "discovered_at": "2026-08-30T05:08:20.848356+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8708177002?gh_jid=8708177002",
         "data_compliance": [
@@ -759,7 +759,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-28T17:59:13-04:00",
       "updated_at": "2026-08-28T17:59:13-04:00",
-      "discovered_at": "2026-08-29T05:46:20.021515+00:00",
+      "discovered_at": "2026-08-30T05:08:20.849143+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8758597002?gh_jid=8758597002",
         "data_compliance": [
@@ -831,7 +831,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-06T11:40:16-04:00",
       "updated_at": "2026-08-06T11:40:16-04:00",
-      "discovered_at": "2026-08-29T05:46:20.025762+00:00",
+      "discovered_at": "2026-08-30T05:08:20.849931+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8658909002?gh_jid=8658909002",
         "data_compliance": [
@@ -903,7 +903,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-21T14:54:48-04:00",
       "updated_at": "2026-08-21T14:54:48-04:00",
-      "discovered_at": "2026-08-29T05:46:20.027741+00:00",
+      "discovered_at": "2026-08-30T05:08:20.850643+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8631486002?gh_jid=8631486002",
         "data_compliance": [
@@ -989,7 +989,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-28T15:14:37-04:00",
       "updated_at": "2026-07-28T15:14:37-04:00",
-      "discovered_at": "2026-08-29T05:46:20.029108+00:00",
+      "discovered_at": "2026-08-30T05:08:20.851250+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8654106002?gh_jid=8654106002",
         "data_compliance": [
@@ -1068,7 +1068,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-20T16:04:03-04:00",
       "updated_at": "2026-07-20T16:04:03-04:00",
-      "discovered_at": "2026-08-29T05:46:20.030901+00:00",
+      "discovered_at": "2026-08-30T05:08:20.852406+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8603123002?gh_jid=8603123002",
         "data_compliance": [
@@ -1147,7 +1147,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-12T17:06:27-04:00",
       "updated_at": "2026-08-12T17:06:27-04:00",
-      "discovered_at": "2026-08-29T05:46:20.032163+00:00",
+      "discovered_at": "2026-08-30T05:08:20.853145+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8701242002?gh_jid=8701242002",
         "data_compliance": [
@@ -1226,7 +1226,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-20T16:04:03-04:00",
       "updated_at": "2026-07-20T16:04:03-04:00",
-      "discovered_at": "2026-08-29T05:46:20.033007+00:00",
+      "discovered_at": "2026-08-30T05:08:20.853957+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8628505002?gh_jid=8628505002",
         "data_compliance": [
@@ -1298,7 +1298,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-05T12:12:03-04:00",
       "updated_at": "2026-08-05T12:12:03-04:00",
-      "discovered_at": "2026-08-29T05:46:20.034092+00:00",
+      "discovered_at": "2026-08-30T05:08:20.854854+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8525074002?gh_jid=8525074002",
         "data_compliance": [
@@ -1370,7 +1370,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-24T17:45:48-04:00",
       "updated_at": "2026-07-24T17:45:48-04:00",
-      "discovered_at": "2026-08-29T05:46:20.035013+00:00",
+      "discovered_at": "2026-08-30T05:08:20.855649+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8610312002?gh_jid=8610312002",
         "data_compliance": [
@@ -1463,7 +1463,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-24T17:43:36-04:00",
       "updated_at": "2026-07-24T17:43:36-04:00",
-      "discovered_at": "2026-08-29T05:46:20.036229+00:00",
+      "discovered_at": "2026-08-30T05:08:20.856353+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8610263002?gh_jid=8610263002",
         "data_compliance": [
@@ -1556,7 +1556,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-24T17:44:40-04:00",
       "updated_at": "2026-07-24T17:44:40-04:00",
-      "discovered_at": "2026-08-29T05:46:20.048606+00:00",
+      "discovered_at": "2026-08-30T05:08:20.856892+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/7953217002?gh_jid=7953217002",
         "data_compliance": [
@@ -1628,7 +1628,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-24T17:47:27-04:00",
       "updated_at": "2026-07-24T17:47:27-04:00",
-      "discovered_at": "2026-08-29T05:46:20.049754+00:00",
+      "discovered_at": "2026-08-30T05:08:20.857501+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8649548002?gh_jid=8649548002",
         "data_compliance": [
@@ -1700,7 +1700,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-24T17:48:38-04:00",
       "updated_at": "2026-07-24T17:48:38-04:00",
-      "discovered_at": "2026-08-29T05:46:20.051028+00:00",
+      "discovered_at": "2026-08-30T05:08:20.858037+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8618124002?gh_jid=8618124002",
         "data_compliance": [
@@ -1793,7 +1793,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-31T12:22:15-04:00",
       "updated_at": "2026-07-31T12:22:15-04:00",
-      "discovered_at": "2026-08-29T05:46:20.051686+00:00",
+      "discovered_at": "2026-08-30T05:08:20.865621+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8660923002?gh_jid=8660923002",
         "data_compliance": [
@@ -1886,7 +1886,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-24T17:49:01-04:00",
       "updated_at": "2026-07-24T17:49:01-04:00",
-      "discovered_at": "2026-08-29T05:46:20.052628+00:00",
+      "discovered_at": "2026-08-30T05:08:20.866221+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8618151002?gh_jid=8618151002",
         "data_compliance": [
@@ -1979,7 +1979,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-20T16:04:03-04:00",
       "updated_at": "2026-07-20T16:04:03-04:00",
-      "discovered_at": "2026-08-29T05:46:20.053146+00:00",
+      "discovered_at": "2026-08-30T05:08:20.866991+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8620224002?gh_jid=8620224002",
         "data_compliance": [
@@ -2058,7 +2058,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-28T19:33:53-04:00",
       "updated_at": "2026-08-28T19:33:53-04:00",
-      "discovered_at": "2026-08-29T05:46:20.053744+00:00",
+      "discovered_at": "2026-08-30T05:08:20.867754+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8194932002?gh_jid=8194932002",
         "data_compliance": [
@@ -2130,7 +2130,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-28T18:47:16-04:00",
       "updated_at": "2026-08-28T18:47:16-04:00",
-      "discovered_at": "2026-08-29T05:46:20.054322+00:00",
+      "discovered_at": "2026-08-30T05:08:20.868563+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8758570002?gh_jid=8758570002",
         "data_compliance": [
@@ -2202,7 +2202,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-20T16:04:03-04:00",
       "updated_at": "2026-07-20T16:04:03-04:00",
-      "discovered_at": "2026-08-29T05:46:20.056885+00:00",
+      "discovered_at": "2026-08-30T05:08:20.869822+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8564077002?gh_jid=8564077002",
         "data_compliance": [
@@ -2274,7 +2274,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-28T18:49:19-04:00",
       "updated_at": "2026-08-28T18:49:19-04:00",
-      "discovered_at": "2026-08-29T05:46:20.057783+00:00",
+      "discovered_at": "2026-08-30T05:08:20.872806+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8659413002?gh_jid=8659413002",
         "data_compliance": [
@@ -2346,7 +2346,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-24T17:07:22-04:00",
       "updated_at": "2026-08-24T17:07:22-04:00",
-      "discovered_at": "2026-08-29T05:46:20.058337+00:00",
+      "discovered_at": "2026-08-30T05:08:20.873698+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8743183002?gh_jid=8743183002",
         "data_compliance": [
@@ -2418,7 +2418,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-27T11:09:58-04:00",
       "updated_at": "2026-08-27T11:09:58-04:00",
-      "discovered_at": "2026-08-29T05:46:20.059093+00:00",
+      "discovered_at": "2026-08-30T05:08:20.874716+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8751711002?gh_jid=8751711002",
         "data_compliance": [
@@ -2490,7 +2490,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-17T16:59:00-04:00",
       "updated_at": "2026-08-17T16:59:00-04:00",
-      "discovered_at": "2026-08-29T05:46:20.059674+00:00",
+      "discovered_at": "2026-08-30T05:08:20.875330+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8648992002?gh_jid=8648992002",
         "data_compliance": [
@@ -2569,7 +2569,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-07T23:55:30-04:00",
       "updated_at": "2026-08-07T23:55:30-04:00",
-      "discovered_at": "2026-08-29T05:46:20.060637+00:00",
+      "discovered_at": "2026-08-30T05:08:20.875935+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8647425002?gh_jid=8647425002",
         "data_compliance": [
@@ -2648,7 +2648,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-20T16:04:03-04:00",
       "updated_at": "2026-07-20T16:04:03-04:00",
-      "discovered_at": "2026-08-29T05:46:20.062179+00:00",
+      "discovered_at": "2026-08-30T05:08:20.876813+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8465041002?gh_jid=8465041002",
         "data_compliance": [
@@ -2727,7 +2727,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-19T18:45:47-04:00",
       "updated_at": "2026-08-19T18:45:47-04:00",
-      "discovered_at": "2026-08-29T05:46:20.064586+00:00",
+      "discovered_at": "2026-08-30T05:08:20.877414+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8686167002?gh_jid=8686167002",
         "data_compliance": [
@@ -2806,7 +2806,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-20T16:04:03-04:00",
       "updated_at": "2026-07-20T16:04:03-04:00",
-      "discovered_at": "2026-08-29T05:46:20.065799+00:00",
+      "discovered_at": "2026-08-30T05:08:20.878235+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8580772002?gh_jid=8580772002",
         "data_compliance": [
@@ -2880,7 +2880,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-21T10:03:03-04:00",
       "updated_at": "2026-08-21T10:03:03-04:00",
-      "discovered_at": "2026-08-29T05:46:20.067072+00:00",
+      "discovered_at": "2026-08-30T05:08:20.878927+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8727477002?gh_jid=8727477002",
         "data_compliance": [
@@ -2952,7 +2952,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-26T17:33:29-04:00",
       "updated_at": "2026-08-26T17:33:29-04:00",
-      "discovered_at": "2026-08-29T05:46:20.068500+00:00",
+      "discovered_at": "2026-08-30T05:08:20.879548+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8752429002?gh_jid=8752429002",
         "data_compliance": [
@@ -3031,7 +3031,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-28T18:49:19-04:00",
       "updated_at": "2026-08-28T18:49:19-04:00",
-      "discovered_at": "2026-08-29T05:46:20.073185+00:00",
+      "discovered_at": "2026-08-30T05:08:20.880258+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8536687002?gh_jid=8536687002",
         "data_compliance": [
@@ -3103,7 +3103,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-11T16:40:57-04:00",
       "updated_at": "2026-08-11T16:40:57-04:00",
-      "discovered_at": "2026-08-29T05:46:20.074371+00:00",
+      "discovered_at": "2026-08-30T05:08:20.880880+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8612419002?gh_jid=8612419002",
         "data_compliance": [
@@ -3192,7 +3192,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-11T16:40:59-04:00",
       "updated_at": "2026-08-11T16:40:59-04:00",
-      "discovered_at": "2026-08-29T05:46:20.075590+00:00",
+      "discovered_at": "2026-08-30T05:08:20.881690+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8612420002?gh_jid=8612420002",
         "data_compliance": [
@@ -3281,7 +3281,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-19T17:29:53-04:00",
       "updated_at": "2026-08-19T17:29:53-04:00",
-      "discovered_at": "2026-08-29T05:46:20.076789+00:00",
+      "discovered_at": "2026-08-30T05:08:20.882404+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8731172002?gh_jid=8731172002",
         "data_compliance": [
@@ -3353,7 +3353,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-14T17:21:36-04:00",
       "updated_at": "2026-08-14T17:21:36-04:00",
-      "discovered_at": "2026-08-29T05:46:20.077796+00:00",
+      "discovered_at": "2026-08-30T05:08:20.883094+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8618464002?gh_jid=8618464002",
         "data_compliance": [
@@ -3439,7 +3439,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-25T16:18:10-04:00",
       "updated_at": "2026-08-25T16:18:10-04:00",
-      "discovered_at": "2026-08-29T05:46:20.079804+00:00",
+      "discovered_at": "2026-08-30T05:08:20.884903+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8747498002?gh_jid=8747498002",
         "data_compliance": [
@@ -3511,7 +3511,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-17T15:22:05-04:00",
       "updated_at": "2026-08-17T15:22:05-04:00",
-      "discovered_at": "2026-08-29T05:46:20.081067+00:00",
+      "discovered_at": "2026-08-30T05:08:20.885811+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8609131002?gh_jid=8609131002",
         "data_compliance": [
@@ -3604,7 +3604,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-17T15:21:31-04:00",
       "updated_at": "2026-08-17T15:21:31-04:00",
-      "discovered_at": "2026-08-29T05:46:20.082216+00:00",
+      "discovered_at": "2026-08-30T05:08:20.886503+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8523826002?gh_jid=8523826002",
         "data_compliance": [
@@ -3697,7 +3697,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-17T15:20:00-04:00",
       "updated_at": "2026-08-17T15:20:00-04:00",
-      "discovered_at": "2026-08-29T05:46:20.082885+00:00",
+      "discovered_at": "2026-08-30T05:08:20.887227+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8523771002?gh_jid=8523771002",
         "data_compliance": [
@@ -3790,7 +3790,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-07T13:26:17-04:00",
       "updated_at": "2026-08-07T13:26:17-04:00",
-      "discovered_at": "2026-08-29T05:46:20.083442+00:00",
+      "discovered_at": "2026-08-30T05:08:20.887876+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8691384002?gh_jid=8691384002",
         "data_compliance": [
@@ -3876,7 +3876,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-07T13:26:17-04:00",
       "updated_at": "2026-08-07T13:26:17-04:00",
-      "discovered_at": "2026-08-29T05:46:20.083988+00:00",
+      "discovered_at": "2026-08-30T05:08:20.888413+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8691459002?gh_jid=8691459002",
         "data_compliance": [
@@ -3962,7 +3962,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-20T16:04:03-04:00",
       "updated_at": "2026-07-20T16:04:03-04:00",
-      "discovered_at": "2026-08-29T05:46:20.085665+00:00",
+      "discovered_at": "2026-08-30T05:08:20.889079+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8558462002?gh_jid=8558462002",
         "data_compliance": [
@@ -4041,7 +4041,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-14T17:22:12-04:00",
       "updated_at": "2026-08-14T17:22:12-04:00",
-      "discovered_at": "2026-08-29T05:46:20.086362+00:00",
+      "discovered_at": "2026-08-30T05:08:20.889793+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8542017002?gh_jid=8542017002",
         "data_compliance": [
@@ -4127,7 +4127,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-14T17:19:04-04:00",
       "updated_at": "2026-08-14T17:19:04-04:00",
-      "discovered_at": "2026-08-29T05:46:20.087141+00:00",
+      "discovered_at": "2026-08-30T05:08:20.891255+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8426107002?gh_jid=8426107002",
         "data_compliance": [
@@ -4213,7 +4213,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-07T06:17:49-04:00",
       "updated_at": "2026-08-07T06:17:49-04:00",
-      "discovered_at": "2026-08-29T05:46:20.087870+00:00",
+      "discovered_at": "2026-08-30T05:08:20.892236+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8445628002?gh_jid=8445628002",
         "data_compliance": [
@@ -4301,7 +4301,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-25T16:25:15-04:00",
       "updated_at": "2026-08-25T16:25:15-04:00",
-      "discovered_at": "2026-08-29T05:46:20.088509+00:00",
+      "discovered_at": "2026-08-30T05:08:20.892917+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8747670002?gh_jid=8747670002",
         "data_compliance": [
@@ -4380,7 +4380,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-19T23:09:39-04:00",
       "updated_at": "2026-08-19T23:09:39-04:00",
-      "discovered_at": "2026-08-29T05:46:20.089718+00:00",
+      "discovered_at": "2026-08-30T05:08:20.893530+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8656341002?gh_jid=8656341002",
         "data_compliance": [
@@ -4459,7 +4459,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-05T16:58:06-04:00",
       "updated_at": "2026-08-05T16:58:06-04:00",
-      "discovered_at": "2026-08-29T05:46:20.090572+00:00",
+      "discovered_at": "2026-08-30T05:08:20.894238+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8686191002?gh_jid=8686191002",
         "data_compliance": [
@@ -4538,7 +4538,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-21T14:54:48-04:00",
       "updated_at": "2026-08-21T14:54:48-04:00",
-      "discovered_at": "2026-08-29T05:46:20.095756+00:00",
+      "discovered_at": "2026-08-30T05:08:20.894868+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8462945002?gh_jid=8462945002",
         "data_compliance": [
@@ -4624,7 +4624,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-24T17:00:27-04:00",
       "updated_at": "2026-07-24T17:00:27-04:00",
-      "discovered_at": "2026-08-29T05:46:20.096649+00:00",
+      "discovered_at": "2026-08-30T05:08:20.895525+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8547681002?gh_jid=8547681002",
         "data_compliance": [
@@ -4703,7 +4703,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-24T17:02:58-04:00",
       "updated_at": "2026-07-24T17:02:58-04:00",
-      "discovered_at": "2026-08-29T05:46:20.097410+00:00",
+      "discovered_at": "2026-08-30T05:08:20.896047+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8649510002?gh_jid=8649510002",
         "data_compliance": [
@@ -4782,7 +4782,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-31T13:43:39-04:00",
       "updated_at": "2026-07-31T13:43:39-04:00",
-      "discovered_at": "2026-08-29T05:46:20.098491+00:00",
+      "discovered_at": "2026-08-30T05:08:20.896721+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8633365002?gh_jid=8633365002",
         "data_compliance": [
@@ -4861,7 +4861,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-20T16:04:03-04:00",
       "updated_at": "2026-07-20T16:04:03-04:00",
-      "discovered_at": "2026-08-29T05:46:20.099490+00:00",
+      "discovered_at": "2026-08-30T05:08:20.899445+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8623235002?gh_jid=8623235002",
         "data_compliance": [
@@ -4942,7 +4942,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-20T16:04:03-04:00",
       "updated_at": "2026-07-20T16:04:03-04:00",
-      "discovered_at": "2026-08-29T05:46:20.100114+00:00",
+      "discovered_at": "2026-08-30T05:08:20.900154+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8396231002?gh_jid=8396231002",
         "data_compliance": [
@@ -5023,7 +5023,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-20T16:04:03-04:00",
       "updated_at": "2026-07-20T16:04:03-04:00",
-      "discovered_at": "2026-08-29T05:46:20.103690+00:00",
+      "discovered_at": "2026-08-30T05:08:20.901242+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8612874002?gh_jid=8612874002",
         "data_compliance": [
@@ -5104,7 +5104,7 @@
       "source": "greenhouse",
       "posted_at": "2026-08-28T19:32:29-04:00",
       "updated_at": "2026-08-28T19:32:29-04:00",
-      "discovered_at": "2026-08-29T05:46:20.104504+00:00",
+      "discovered_at": "2026-08-30T05:08:20.902438+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8762067002?gh_jid=8762067002",
         "data_compliance": [
@@ -5176,7 +5176,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-20T16:04:03-04:00",
       "updated_at": "2026-07-20T16:04:03-04:00",
-      "discovered_at": "2026-08-29T05:46:20.105036+00:00",
+      "discovered_at": "2026-08-30T05:08:20.902983+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8517259002?gh_jid=8517259002",
         "data_compliance": [
@@ -5248,7 +5248,7 @@
       "source": "greenhouse",
       "posted_at": "2026-07-20T16:04:03-04:00",
       "updated_at": "2026-07-20T16:04:03-04:00",
-      "discovered_at": "2026-08-29T05:46:20.106109+00:00",
+      "discovered_at": "2026-08-30T05:08:20.905078+00:00",
       "raw": {
         "absolute_url": "https://boards.greenhouse.io/faire/jobs/8631963002?gh_jid=8631963002",
         "data_compliance": [

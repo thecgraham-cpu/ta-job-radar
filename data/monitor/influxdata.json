@@ -4,7 +4,7 @@
   "career_page": "https://jobs.ashbyhq.com/influxdata",
   "source": "ashby",
   "identifier": "influxdata",
-  "scanned_at": "2026-08-29T05:46:19.933403+00:00",
+  "scanned_at": "2026-08-30T05:08:21.177161+00:00",
   "count": 5,
   "total_available": 5,
   "partial_scan": false,
@@ -25,7 +25,7 @@
       "source": "ashby",
       "posted_at": "2026-04-10T19:05:27.638+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.929845+00:00",
+      "discovered_at": "2026-08-30T05:08:21.175802+00:00",
       "raw": {
         "id": "56b866d9-0912-444e-878c-05f515a0ae55",
         "title": "Director of Finance",
@@ -108,7 +108,7 @@
       "source": "ashby",
       "posted_at": "2026-07-24T18:00:56.513+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.930644+00:00",
+      "discovered_at": "2026-08-30T05:08:21.176173+00:00",
       "raw": {
         "id": "46e6a1b1-972a-45e6-99fe-58ff2367d490",
         "title": "Director of Demand Generation",
@@ -161,7 +161,7 @@
       "source": "ashby",
       "posted_at": "2026-08-28T15:09:23.472+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.931494+00:00",
+      "discovered_at": "2026-08-30T05:08:21.176452+00:00",
       "raw": {
         "id": "3988c197-6cc2-4383-9599-cbdd6a87a73e",
         "title": "DevOps Engineer",
@@ -224,7 +224,7 @@
       "source": "ashby",
       "posted_at": "2026-08-14T18:42:05.174+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.932289+00:00",
+      "discovered_at": "2026-08-30T05:08:21.176824+00:00",
       "raw": {
         "id": "dee5545d-dda7-4598-b01c-57723bf8a83c",
         "title": "Associate Sales Engineer",
@@ -266,7 +266,7 @@
       "source": "ashby",
       "posted_at": "2026-08-28T21:21:39.340+00:00",
       "updated_at": null,
-      "discovered_at": "2026-08-29T05:46:19.933331+00:00",
+      "discovered_at": "2026-08-30T05:08:21.177144+00:00",
       "raw": {
         "id": "c2b30d69-ba41-427a-b789-e811f566e177",
         "title": "Software Engineer, Database Reliability & Performance",
