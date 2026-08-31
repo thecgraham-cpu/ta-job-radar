@@ -6,10 +6,7 @@ import argparse
 import json
 import threading
 import time
-from concurrent.futures import (
-    ThreadPoolExecutor,
-    as_completed,
-)
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 from pathlib import Path
 from typing import Any
@@ -19,10 +16,7 @@ from tacos.discovery.providers import get_provider_fetcher
 
 DEFAULT_COMPANIES_PATH = Path("companies.json")
 
-DEFAULT_INTERVAL_SECONDS = 120
-
 DEFAULT_WORKERS = 20
-
 WORKDAY_MAX_PAGES = 10
 
 SUPPORTED_LIVE_PROVIDERS = {
@@ -32,6 +26,45 @@ SUPPORTED_LIVE_PROVIDERS = {
     "smartrecruiters",
     "workable",
     "workday",
+}
+
+# Independent polling lanes.
+#
+# Fast ATS providers are inexpensive and reliable enough to poll every minute.
+# SmartRecruiters has very large boards, so it gets its own heavy lane.
+# Workable is rate-limited more aggressively and therefore gets a slower lane.
+# Workday is comparatively expensive and does not need minute-level polling.
+LANE_CONFIG = {
+    "fast": {
+        "providers": {
+            "greenhouse",
+            "ashby",
+            "lever",
+        },
+        "interval_seconds": 60,
+        "workers": 20,
+    },
+    "heavy": {
+        "providers": {
+            "smartrecruiters",
+        },
+        "interval_seconds": 120,
+        "workers": 12,
+    },
+    "rate_limited": {
+        "providers": {
+            "workable",
+        },
+        "interval_seconds": 180,
+        "workers": 4,
+    },
+    "slow": {
+        "providers": {
+            "workday",
+        },
+        "interval_seconds": 420,
+        "workers": 2,
+    },
 }
 
 
@@ -62,7 +95,6 @@ def _source_config(
 
     if isinstance(ats, dict):
         provider = ats.get("source") or ats.get("provider")
-
         identifier = ats.get("identifier")
 
         if provider and identifier:
@@ -72,7 +104,6 @@ def _source_config(
             )
 
     provider = company.get("source") or company.get("provider")
-
     identifier = company.get("identifier")
 
     if provider and identifier:
@@ -145,6 +176,11 @@ def _poll_company(
         if not isinstance(raw_jobs, list):
             raw_jobs = []
 
+        # Important:
+        # Processing and notification happen here, inside each
+        # company worker. A matching job can therefore alert as
+        # soon as that company finishes rather than waiting for
+        # the entire lane to complete.
         processed = process_raw_jobs(
             jobs=raw_jobs,
             source=provider,
@@ -160,8 +196,9 @@ def _poll_company(
             "provider": provider,
             "identifier": identifier,
             "fetch_partial": bool(raw_result.get("partial", False)),
-            "total_available": raw_result.get("total")
-            or raw_result.get("total_available"),
+            "total_available": (
+                raw_result.get("total") or raw_result.get("total_available")
+            ),
             "runtime_seconds": round(
                 time.perf_counter() - started,
                 2,
@@ -184,6 +221,8 @@ def _poll_company(
 
 def _live_companies(
     companies: list[dict[str, Any]],
+    *,
+    providers: set[str] | None = None,
 ) -> list[dict[str, Any]]:
     selected: list[dict[str, Any]] = []
 
@@ -193,8 +232,16 @@ def _live_companies(
 
         provider, identifier = _source_config(company)
 
-        if provider in SUPPORTED_LIVE_PROVIDERS and identifier:
-            selected.append(company)
+        if provider not in SUPPORTED_LIVE_PROVIDERS:
+            continue
+
+        if not identifier:
+            continue
+
+        if providers is not None and provider not in providers:
+            continue
+
+        selected.append(company)
 
     return selected
 
@@ -203,21 +250,29 @@ def run_discovery_once(
     *,
     workers: int = DEFAULT_WORKERS,
     send_notifications: bool = True,
+    providers: set[str] | None = None,
+    lane_name: str = "all",
 ) -> dict[str, Any]:
     started = time.perf_counter()
 
     companies = _load_companies()
 
-    selected = _live_companies(companies)
+    selected = _live_companies(
+        companies,
+        providers=providers,
+    )
+
+    active_providers = providers if providers is not None else SUPPORTED_LIVE_PROVIDERS
 
     print()
     print("========== HIREPILOT LIVE DISCOVERY ==========")
     print("STARTED:", _timestamp())
+    print("LANE:", lane_name.upper())
     print("COMPANIES:", len(selected))
     print("WORKERS:", workers)
     print(
         "PROVIDERS:",
-        ", ".join(sorted(SUPPORTED_LIVE_PROVIDERS)),
+        ", ".join(sorted(active_providers)),
     )
     print(
         "NOTIFICATIONS:",
@@ -282,13 +337,7 @@ def run_discovery_once(
             if result.get("status") != "completed":
                 failed += 1
 
-                provider_failures[provider] = (
-                    provider_failures.get(
-                        provider,
-                        0,
-                    )
-                    + 1
-                )
+                provider_failures[provider] = provider_failures.get(provider, 0) + 1
 
                 error = result.get("error") or result.get("reason") or "unknown error"
 
@@ -318,7 +367,12 @@ def run_discovery_once(
                 )
             )
 
-            new_jobs += int(result.get("new_jobs", 0))
+            new_jobs += int(
+                result.get(
+                    "new_jobs",
+                    0,
+                )
+            )
 
             profile_matches += int(
                 result.get(
@@ -348,10 +402,7 @@ def run_discovery_once(
                 )
             )
 
-            if result.get("new_jobs", 0) or result.get(
-                "fresh_matches",
-                0,
-            ):
+            if result.get("new_jobs", 0) or result.get("fresh_matches", 0):
                 print(
                     f"[{completed}/{len(selected)}] "
                     f"{company_name} | "
@@ -371,25 +422,27 @@ def run_discovery_once(
 
     summary = {
         "status": "completed",
+        "lane": lane_name,
         "companies_scanned": len(selected),
         "successful": successful,
         "failed": failed,
         "jobs_received": jobs_received,
-        "recruiting_candidates": (recruiting_candidates),
+        "recruiting_candidates": recruiting_candidates,
         "new_jobs": new_jobs,
         "profile_matches": profile_matches,
         "eligible_matches": eligible_matches,
         "fresh_matches": fresh_matches,
-        "notifications_sent": (notifications_sent),
+        "notifications_sent": notifications_sent,
         "provider_counts": provider_counts,
         "provider_jobs": provider_jobs,
-        "provider_failures": (provider_failures),
+        "provider_failures": provider_failures,
         "runtime_seconds": runtime,
         "results": results,
     }
 
     print()
     print("========== LIVE DISCOVERY SUMMARY ==========")
+    print("LANE:", lane_name.upper())
     print(
         "COMPANIES SCANNED:",
         len(selected),
@@ -436,59 +489,115 @@ def run_discovery_once(
     return summary
 
 
-def run_forever(
+def _run_lane_forever(
+    lane_name: str,
     *,
+    providers: set[str],
     interval_seconds: int,
     workers: int,
+    stop_event: threading.Event,
 ) -> None:
-    stop_event = threading.Event()
+    """
+    Run one provider lane independently.
 
-    print()
-    print("HirePilot live job discovery started.")
+    Cadence is start-to-start. If a cycle takes longer
+    than its configured interval, the next cycle starts
+    immediately rather than adding another full delay.
+    """
+
     print(
-        "Poll interval:",
-        interval_seconds,
-        "seconds",
+        f"{lane_name.upper()} lane started | "
+        f"providers={','.join(sorted(providers))} | "
+        f"interval={interval_seconds}s | "
+        f"workers={workers}"
     )
-    print("Press Ctrl+C to stop.")
 
-    try:
-        while not stop_event.is_set():
-            cycle_started = time.perf_counter()
+    while not stop_event.is_set():
+        cycle_started = time.perf_counter()
 
+        try:
             run_discovery_once(
                 workers=workers,
                 send_notifications=True,
+                providers=providers,
+                lane_name=lane_name,
             )
 
-            elapsed = time.perf_counter() - cycle_started
+        except Exception as exc:
+            print(f"{lane_name.upper()} lane cycle failed: " f"{exc}")
 
-            sleep_seconds = max(
-                0,
-                interval_seconds - elapsed,
-            )
+        elapsed = time.perf_counter() - cycle_started
 
-            if sleep_seconds:
-                print()
-                print(
-                    "Next scan in",
-                    round(sleep_seconds, 1),
-                    "seconds.",
-                )
+        sleep_seconds = max(
+            0.0,
+            interval_seconds - elapsed,
+        )
 
-                stop_event.wait(sleep_seconds)
+        if sleep_seconds:
+            stop_event.wait(sleep_seconds)
+
+
+def run_forever() -> None:
+    stop_event = threading.Event()
+
+    print()
+    print("HirePilot provider-lane discovery started.")
+    print()
+    print("Polling schedule:")
+
+    for lane_name, config in LANE_CONFIG.items():
+        providers = config["providers"]
+        interval_seconds = config["interval_seconds"]
+        workers = config["workers"]
+
+        print(
+            f"  {lane_name}: "
+            f"{','.join(sorted(providers))} | "
+            f"every {interval_seconds}s | "
+            f"{workers} workers"
+        )
+
+    print()
+    print("Press Ctrl+C to stop.")
+
+    threads: list[threading.Thread] = []
+
+    for lane_name, config in LANE_CONFIG.items():
+        thread = threading.Thread(
+            target=_run_lane_forever,
+            kwargs={
+                "lane_name": lane_name,
+                "providers": config["providers"],
+                "interval_seconds": config["interval_seconds"],
+                "workers": config["workers"],
+                "stop_event": stop_event,
+            },
+            name=f"hirepilot-{lane_name}",
+            daemon=True,
+        )
+
+        thread.start()
+        threads.append(thread)
+
+    try:
+        while not stop_event.wait(1):
+            pass
 
     except KeyboardInterrupt:
         print()
-        print("Stopping HirePilot " "live discovery...")
-
+        print("Stopping HirePilot live discovery...")
         stop_event.set()
+
+    for thread in threads:
+        thread.join(timeout=10)
+
+
+def _lane_names() -> list[str]:
+    return list(LANE_CONFIG.keys())
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(
-        description=("HirePilot live job " "discovery network")
-    )
+    parser = argparse.ArgumentParser(description="HirePilot live job discovery network")
 
     parser.add_argument(
         "--once",
@@ -499,42 +608,52 @@ def main() -> None:
     parser.add_argument(
         "--no-notify",
         action="store_true",
-        help=("Disable notifications " "for this run."),
+        help="Disable notifications for this run.",
     )
 
     parser.add_argument(
-        "--interval",
-        type=int,
-        default=DEFAULT_INTERVAL_SECONDS,
-        help=("Seconds between scans. " "Default: 120."),
+        "--lane",
+        choices=["all", *_lane_names()],
+        default="all",
+        help=("Provider lane to scan with --once. " "Default: all."),
     )
 
     parser.add_argument(
         "--workers",
         type=int,
-        default=DEFAULT_WORKERS,
-        help=("Concurrent company polls. " "Default: 20."),
+        default=None,
+        help=(
+            "Override worker count for --once. "
+            "Without this option the lane default is used."
+        ),
     )
 
     args = parser.parse_args()
 
-    if args.interval < 60:
-        parser.error("Interval must be at " "least 60 seconds.")
-
-    if args.workers < 1:
+    if args.workers is not None and args.workers < 1:
         parser.error("Workers must be at least 1.")
 
     if args.once:
+        if args.lane == "all":
+            providers = None
+            default_workers = DEFAULT_WORKERS
+        else:
+            config = LANE_CONFIG[args.lane]
+            providers = config["providers"]
+            default_workers = config["workers"]
+
+        workers = args.workers if args.workers is not None else default_workers
+
         run_discovery_once(
-            workers=args.workers,
-            send_notifications=(not args.no_notify),
+            workers=workers,
+            send_notifications=not args.no_notify,
+            providers=providers,
+            lane_name=args.lane,
         )
+
         return
 
-    run_forever(
-        interval_seconds=args.interval,
-        workers=args.workers,
-    )
+    run_forever()
 
 
 if __name__ == "__main__":

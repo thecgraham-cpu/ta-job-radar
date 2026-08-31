@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import random
 import time
 from typing import Any
 from urllib.parse import urlparse
@@ -16,7 +17,17 @@ REQUEST_DELAY_SECONDS = 1.25
 
 MAX_RESULTS_PER_PROVIDER = 250
 
-USER_AGENT = "HirePilot/0.1 " "(public ATS discovery; contact: local-development)"
+MAX_RETRIES = 4
+RETRY_BASE_DELAY_SECONDS = 2.0
+RETRYABLE_STATUS_CODES = {
+    429,
+    500,
+    502,
+    503,
+    504,
+}
+
+USER_AGENT = "HirePilot/0.1 (public ATS discovery; contact: local-development)"
 
 ATS_PATTERNS = {
     "greenhouse": "boards.greenhouse.io/*",
@@ -27,14 +38,93 @@ ATS_PATTERNS = {
 }
 
 
+def _retry_delay(attempt: int) -> float:
+    """
+    Exponential backoff with a small amount of jitter.
+
+    attempt=0 -> ~2 seconds
+    attempt=1 -> ~4 seconds
+    attempt=2 -> ~8 seconds
+    attempt=3 -> ~16 seconds
+    """
+    base_delay = RETRY_BASE_DELAY_SECONDS * (2**attempt)
+    jitter = random.uniform(0.0, 0.75)
+    return base_delay + jitter
+
+
+def _get_with_retries(
+    url: str,
+    *,
+    params: dict[str, str] | None = None,
+) -> requests.Response:
+    """
+    GET a Common Crawl endpoint and retry temporary
+    network/server failures.
+
+    Permanent HTTP errors are raised immediately.
+    """
+
+    last_error: Exception | None = None
+
+    for attempt in range(MAX_RETRIES):
+        try:
+            response = requests.get(
+                url,
+                params=params,
+                timeout=REQUEST_TIMEOUT_SECONDS,
+                headers={
+                    "User-Agent": USER_AGENT,
+                },
+            )
+
+            if response.status_code not in RETRYABLE_STATUS_CODES:
+                return response
+
+            last_error = requests.HTTPError(
+                f"{response.status_code} Server Error " f"for url: {response.url}",
+                response=response,
+            )
+
+            if attempt >= MAX_RETRIES - 1:
+                break
+
+            delay = _retry_delay(attempt)
+
+            print(
+                f"Common Crawl returned "
+                f"{response.status_code}; "
+                f"retrying in {delay:.1f}s..."
+            )
+
+            time.sleep(delay)
+
+        except (
+            requests.Timeout,
+            requests.ConnectionError,
+        ) as exc:
+            last_error = exc
+
+            if attempt >= MAX_RETRIES - 1:
+                break
+
+            delay = _retry_delay(attempt)
+
+            print(
+                "Common Crawl request failed "
+                f"({type(exc).__name__}); "
+                f"retrying in {delay:.1f}s..."
+            )
+
+            time.sleep(delay)
+
+    if last_error is not None:
+        raise last_error
+
+    raise RuntimeError("Common Crawl request failed unexpectedly.")
+
+
 def _get_latest_index() -> str:
-    response = requests.get(
-        COLLECTIONS_URL,
-        timeout=REQUEST_TIMEOUT_SECONDS,
-        headers={
-            "User-Agent": USER_AGENT,
-        },
-    )
+    response = _get_with_retries(COLLECTIONS_URL)
     response.raise_for_status()
 
     collections = response.json()
@@ -70,25 +160,25 @@ def _extract_board_url(
         if host != "boards.greenhouse.io":
             return None
 
-        return "https://boards.greenhouse.io/" f"{first}"
+        return f"https://boards.greenhouse.io/{first}"
 
     if provider == "ashby":
         if host != "jobs.ashbyhq.com":
             return None
 
-        return "https://jobs.ashbyhq.com/" f"{first}"
+        return f"https://jobs.ashbyhq.com/{first}"
 
     if provider == "lever":
         if host != "jobs.lever.co":
             return None
 
-        return "https://jobs.lever.co/" f"{first}"
+        return f"https://jobs.lever.co/{first}"
 
     if provider == "smartrecruiters":
         if host != "jobs.smartrecruiters.com":
             return None
 
-        return "https://jobs.smartrecruiters.com/" f"{first}"
+        return f"https://jobs.smartrecruiters.com/{first}"
 
     if provider == "workable":
         if host != "apply.workable.com":
@@ -97,7 +187,7 @@ def _extract_board_url(
         if first.lower() == "j":
             return None
 
-        return "https://apply.workable.com/" f"{first}/"
+        return f"https://apply.workable.com/{first}/"
 
     return None
 
@@ -109,7 +199,7 @@ def _query_provider(
     pattern: str,
     max_results: int,
 ) -> list[str]:
-    endpoint = "https://index.commoncrawl.org/" f"{index_name}-index"
+    endpoint = f"https://index.commoncrawl.org/{index_name}-index"
 
     params = {
         "url": pattern,
@@ -118,13 +208,9 @@ def _query_provider(
         "filter": "status:200",
     }
 
-    response = requests.get(
+    response = _get_with_retries(
         endpoint,
         params=params,
-        timeout=REQUEST_TIMEOUT_SECONDS,
-        headers={
-            "User-Agent": USER_AGENT,
-        },
     )
 
     if response.status_code == 404:
@@ -184,6 +270,9 @@ def fetch_commoncrawl_ats_companies(
     Results are candidates only. HirePilot's ATS
     validation pipeline must verify them before they
     enter the live company registry.
+
+    A failure querying one ATS provider does not stop
+    discovery for the remaining providers.
     """
 
     index_name = _get_latest_index()
@@ -197,12 +286,20 @@ def fetch_commoncrawl_ats_companies(
         if position:
             time.sleep(REQUEST_DELAY_SECONDS)
 
-        urls = _query_provider(
-            index_name=index_name,
-            provider=provider,
-            pattern=pattern,
-            max_results=max_per_provider,
-        )
+        try:
+            urls = _query_provider(
+                index_name=index_name,
+                provider=provider,
+                pattern=pattern,
+                max_results=max_per_provider,
+            )
+
+        except (
+            requests.RequestException,
+            RuntimeError,
+        ) as exc:
+            print(f"WARNING: Common Crawl discovery failed " f"for {provider}: {exc}")
+            continue
 
         for url in urls:
             identifier = url.rstrip("/").rsplit("/", 1)[-1]
@@ -212,7 +309,7 @@ def fetch_commoncrawl_ats_companies(
                     "name": identifier,
                     "url": url,
                     "provider_hint": provider,
-                    "discovered_from": (f"commoncrawl:{index_name}"),
+                    "discovered_from": f"commoncrawl:{index_name}",
                 }
             )
 
