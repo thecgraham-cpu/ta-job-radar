@@ -20,3 +20,6 @@ data/*.csv
 .env
 # HirePilot runtime files
 data/*.lock
+
+# HirePilot runtime files
+data/*.lock
