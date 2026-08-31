@@ -27,3 +27,6 @@ data/*.lock
 # HirePilot generated runtime state
 data/monitor/
 data/*.lock
+
+# HirePilot runtime logs
+logs/
