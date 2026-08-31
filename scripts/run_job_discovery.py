@@ -28,12 +28,23 @@ SUPPORTED_LIVE_PROVIDERS = {
     "workday",
 }
 
-# Independent polling lanes.
+# Provider lanes.
 #
-# Fast ATS providers are inexpensive and reliable enough to poll every minute.
-# SmartRecruiters has very large boards, so it gets its own heavy lane.
-# Workable is rate-limited more aggressively and therefore gets a slower lane.
-# Workday is comparatively expensive and does not need minute-level polling.
+# FAST:
+#   Ashby / Greenhouse / Lever every 60 seconds.
+#
+# HEAVY_A / HEAVY_B:
+#   SmartRecruiters is split deterministically into two shards.
+#   Each shard runs every 240 seconds, offset by 120 seconds.
+#   This prevents all SmartRecruiters companies from being
+#   processed in one huge cycle.
+#
+# RATE_LIMITED:
+#   Workable has its own slower lane. The Workable fetcher
+#   also globally paces requests and retries 429 responses.
+#
+# SLOW:
+#   Workday is comparatively expensive and runs less often.
 LANE_CONFIG = {
     "fast": {
         "providers": {
@@ -43,13 +54,29 @@ LANE_CONFIG = {
         },
         "interval_seconds": 60,
         "workers": 20,
+        "shard_index": 0,
+        "shard_count": 1,
+        "start_delay_seconds": 0,
     },
-    "heavy": {
+    "heavy_a": {
         "providers": {
             "smartrecruiters",
         },
-        "interval_seconds": 120,
+        "interval_seconds": 240,
         "workers": 12,
+        "shard_index": 0,
+        "shard_count": 2,
+        "start_delay_seconds": 0,
+    },
+    "heavy_b": {
+        "providers": {
+            "smartrecruiters",
+        },
+        "interval_seconds": 240,
+        "workers": 12,
+        "shard_index": 1,
+        "shard_count": 2,
+        "start_delay_seconds": 120,
     },
     "rate_limited": {
         "providers": {
@@ -57,6 +84,9 @@ LANE_CONFIG = {
         },
         "interval_seconds": 180,
         "workers": 4,
+        "shard_index": 0,
+        "shard_count": 1,
+        "start_delay_seconds": 0,
     },
     "slow": {
         "providers": {
@@ -64,6 +94,9 @@ LANE_CONFIG = {
         },
         "interval_seconds": 420,
         "workers": 2,
+        "shard_index": 0,
+        "shard_count": 1,
+        "start_delay_seconds": 0,
     },
 }
 
@@ -95,6 +128,7 @@ def _source_config(
 
     if isinstance(ats, dict):
         provider = ats.get("source") or ats.get("provider")
+
         identifier = ats.get("identifier")
 
         if provider and identifier:
@@ -104,6 +138,7 @@ def _source_config(
             )
 
     provider = company.get("source") or company.get("provider")
+
     identifier = company.get("identifier")
 
     if provider and identifier:
@@ -176,11 +211,12 @@ def _poll_company(
         if not isinstance(raw_jobs, list):
             raw_jobs = []
 
-        # Important:
-        # Processing and notification happen here, inside each
-        # company worker. A matching job can therefore alert as
-        # soon as that company finishes rather than waiting for
-        # the entire lane to complete.
+        # Job processing and notification happen inside
+        # each individual company worker.
+        #
+        # This is intentional: a matching job can alert
+        # immediately when its company finishes rather
+        # than waiting for the entire lane to finish.
         processed = process_raw_jobs(
             jobs=raw_jobs,
             source=provider,
@@ -195,7 +231,12 @@ def _poll_company(
             **processed,
             "provider": provider,
             "identifier": identifier,
-            "fetch_partial": bool(raw_result.get("partial", False)),
+            "fetch_partial": bool(
+                raw_result.get(
+                    "partial",
+                    False,
+                )
+            ),
             "total_available": (
                 raw_result.get("total") or raw_result.get("total_available")
             ),
@@ -223,7 +264,28 @@ def _live_companies(
     companies: list[dict[str, Any]],
     *,
     providers: set[str] | None = None,
+    shard_index: int = 0,
+    shard_count: int = 1,
 ) -> list[dict[str, Any]]:
+    """
+    Select live companies for a provider lane.
+
+    Sharding is deterministic because it is applied after
+    sorting by provider + identifier.
+
+    Example:
+
+        shard_count=2
+        shard_index=0
+
+    selects every other company starting at position 0.
+
+        shard_count=2
+        shard_index=1
+
+    selects every other company starting at position 1.
+    """
+
     selected: list[dict[str, Any]] = []
 
     for company in companies:
@@ -243,7 +305,21 @@ def _live_companies(
 
         selected.append(company)
 
-    return selected
+    selected.sort(
+        key=lambda company: (
+            _source_config(company)[0] or "",
+            _source_config(company)[1] or "",
+        )
+    )
+
+    if shard_count <= 1:
+        return selected
+
+    return [
+        company
+        for position, company in enumerate(selected)
+        if position % shard_count == shard_index
+    ]
 
 
 def run_discovery_once(
@@ -252,6 +328,8 @@ def run_discovery_once(
     send_notifications: bool = True,
     providers: set[str] | None = None,
     lane_name: str = "all",
+    shard_index: int = 0,
+    shard_count: int = 1,
 ) -> dict[str, Any]:
     started = time.perf_counter()
 
@@ -260,16 +338,37 @@ def run_discovery_once(
     selected = _live_companies(
         companies,
         providers=providers,
+        shard_index=shard_index,
+        shard_count=shard_count,
     )
 
     active_providers = providers if providers is not None else SUPPORTED_LIVE_PROVIDERS
 
     print()
     print("========== HIREPILOT LIVE DISCOVERY ==========")
-    print("STARTED:", _timestamp())
-    print("LANE:", lane_name.upper())
-    print("COMPANIES:", len(selected))
-    print("WORKERS:", workers)
+    print(
+        "STARTED:",
+        _timestamp(),
+    )
+    print(
+        "LANE:",
+        lane_name.upper(),
+    )
+
+    if shard_count > 1:
+        print(
+            "SHARD:",
+            f"{shard_index + 1}/{shard_count}",
+        )
+
+    print(
+        "COMPANIES:",
+        len(selected),
+    )
+    print(
+        "WORKERS:",
+        workers,
+    )
     print(
         "PROVIDERS:",
         ", ".join(sorted(active_providers)),
@@ -337,7 +436,13 @@ def run_discovery_once(
             if result.get("status") != "completed":
                 failed += 1
 
-                provider_failures[provider] = provider_failures.get(provider, 0) + 1
+                provider_failures[provider] = (
+                    provider_failures.get(
+                        provider,
+                        0,
+                    )
+                    + 1
+                )
 
                 error = result.get("error") or result.get("reason") or "unknown error"
 
@@ -352,11 +457,28 @@ def run_discovery_once(
 
             successful += 1
 
-            provider_counts[provider] = provider_counts.get(provider, 0) + 1
+            provider_counts[provider] = (
+                provider_counts.get(
+                    provider,
+                    0,
+                )
+                + 1
+            )
 
-            received = int(result.get("received", 0))
+            received = int(
+                result.get(
+                    "received",
+                    0,
+                )
+            )
 
-            provider_jobs[provider] = provider_jobs.get(provider, 0) + received
+            provider_jobs[provider] = (
+                provider_jobs.get(
+                    provider,
+                    0,
+                )
+                + received
+            )
 
             jobs_received += received
 
@@ -402,7 +524,13 @@ def run_discovery_once(
                 )
             )
 
-            if result.get("new_jobs", 0) or result.get("fresh_matches", 0):
+            if result.get(
+                "new_jobs",
+                0,
+            ) or result.get(
+                "fresh_matches",
+                0,
+            ):
                 print(
                     f"[{completed}/{len(selected)}] "
                     f"{company_name} | "
@@ -423,38 +551,62 @@ def run_discovery_once(
     summary = {
         "status": "completed",
         "lane": lane_name,
+        "shard_index": shard_index,
+        "shard_count": shard_count,
         "companies_scanned": len(selected),
         "successful": successful,
         "failed": failed,
         "jobs_received": jobs_received,
-        "recruiting_candidates": recruiting_candidates,
+        "recruiting_candidates": (recruiting_candidates),
         "new_jobs": new_jobs,
         "profile_matches": profile_matches,
         "eligible_matches": eligible_matches,
         "fresh_matches": fresh_matches,
-        "notifications_sent": notifications_sent,
+        "notifications_sent": (notifications_sent),
         "provider_counts": provider_counts,
         "provider_jobs": provider_jobs,
-        "provider_failures": provider_failures,
+        "provider_failures": (provider_failures),
         "runtime_seconds": runtime,
         "results": results,
     }
 
     print()
     print("========== LIVE DISCOVERY SUMMARY ==========")
-    print("LANE:", lane_name.upper())
+    print(
+        "LANE:",
+        lane_name.upper(),
+    )
+
+    if shard_count > 1:
+        print(
+            "SHARD:",
+            f"{shard_index + 1}/{shard_count}",
+        )
+
     print(
         "COMPANIES SCANNED:",
         len(selected),
     )
-    print("SUCCESSFUL:", successful)
-    print("FAILED:", failed)
-    print("JOBS RECEIVED:", jobs_received)
+    print(
+        "SUCCESSFUL:",
+        successful,
+    )
+    print(
+        "FAILED:",
+        failed,
+    )
+    print(
+        "JOBS RECEIVED:",
+        jobs_received,
+    )
     print(
         "RECRUITING CANDIDATES:",
         recruiting_candidates,
     )
-    print("NEW JOBS:", new_jobs)
+    print(
+        "NEW JOBS:",
+        new_jobs,
+    )
     print(
         "PROFILE MATCHES:",
         profile_matches,
@@ -483,7 +635,11 @@ def run_discovery_once(
         "PROVIDER FAILURES:",
         provider_failures,
     )
-    print("RUNTIME:", runtime, "seconds")
+    print(
+        "RUNTIME:",
+        runtime,
+        "seconds",
+    )
     print("============================================")
 
     return summary
@@ -495,22 +651,33 @@ def _run_lane_forever(
     providers: set[str],
     interval_seconds: int,
     workers: int,
+    shard_index: int,
+    shard_count: int,
+    start_delay_seconds: int,
     stop_event: threading.Event,
 ) -> None:
     """
     Run one provider lane independently.
 
-    Cadence is start-to-start. If a cycle takes longer
-    than its configured interval, the next cycle starts
-    immediately rather than adding another full delay.
+    Cadence is start-to-start.
+
+    A lane may also have an initial start delay. This lets
+    SmartRecruiters shards alternate instead of both starting
+    simultaneously.
     """
 
     print(
         f"{lane_name.upper()} lane started | "
         f"providers={','.join(sorted(providers))} | "
         f"interval={interval_seconds}s | "
-        f"workers={workers}"
+        f"workers={workers} | "
+        f"shard={shard_index + 1}/{shard_count} | "
+        f"delay={start_delay_seconds}s"
     )
+
+    if start_delay_seconds > 0:
+        if stop_event.wait(start_delay_seconds):
+            return
 
     while not stop_event.is_set():
         cycle_started = time.perf_counter()
@@ -521,10 +688,12 @@ def _run_lane_forever(
                 send_notifications=True,
                 providers=providers,
                 lane_name=lane_name,
+                shard_index=shard_index,
+                shard_count=shard_count,
             )
 
         except Exception as exc:
-            print(f"{lane_name.upper()} lane cycle failed: " f"{exc}")
+            print(f"{lane_name.upper()} " f"lane cycle failed: {exc}")
 
         elapsed = time.perf_counter() - cycle_started
 
@@ -549,12 +718,19 @@ def run_forever() -> None:
         providers = config["providers"]
         interval_seconds = config["interval_seconds"]
         workers = config["workers"]
+        shard_index = config["shard_index"]
+        shard_count = config["shard_count"]
+        start_delay_seconds = config["start_delay_seconds"]
 
         print(
             f"  {lane_name}: "
             f"{','.join(sorted(providers))} | "
             f"every {interval_seconds}s | "
-            f"{workers} workers"
+            f"{workers} workers | "
+            f"shard "
+            f"{shard_index + 1}/{shard_count} | "
+            f"delay "
+            f"{start_delay_seconds}s"
         )
 
     print()
@@ -570,6 +746,9 @@ def run_forever() -> None:
                 "providers": config["providers"],
                 "interval_seconds": config["interval_seconds"],
                 "workers": config["workers"],
+                "shard_index": config["shard_index"],
+                "shard_count": config["shard_count"],
+                "start_delay_seconds": config["start_delay_seconds"],
                 "stop_event": stop_event,
             },
             name=f"hirepilot-{lane_name}",
@@ -586,6 +765,7 @@ def run_forever() -> None:
     except KeyboardInterrupt:
         print()
         print("Stopping HirePilot live discovery...")
+
         stop_event.set()
 
     for thread in threads:
@@ -597,7 +777,9 @@ def _lane_names() -> list[str]:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="HirePilot live job discovery network")
+    parser = argparse.ArgumentParser(
+        description=("HirePilot live job discovery network")
+    )
 
     parser.add_argument(
         "--once",
@@ -608,12 +790,15 @@ def main() -> None:
     parser.add_argument(
         "--no-notify",
         action="store_true",
-        help="Disable notifications for this run.",
+        help=("Disable notifications for this run."),
     )
 
     parser.add_argument(
         "--lane",
-        choices=["all", *_lane_names()],
+        choices=[
+            "all",
+            *_lane_names(),
+        ],
         default="all",
         help=("Provider lane to scan with --once. " "Default: all."),
     )
@@ -624,7 +809,8 @@ def main() -> None:
         default=None,
         help=(
             "Override worker count for --once. "
-            "Without this option the lane default is used."
+            "Without this option the lane default "
+            "is used."
         ),
     )
 
@@ -637,18 +823,29 @@ def main() -> None:
         if args.lane == "all":
             providers = None
             default_workers = DEFAULT_WORKERS
+            shard_index = 0
+            shard_count = 1
+
         else:
             config = LANE_CONFIG[args.lane]
+
             providers = config["providers"]
+
             default_workers = config["workers"]
+
+            shard_index = config["shard_index"]
+
+            shard_count = config["shard_count"]
 
         workers = args.workers if args.workers is not None else default_workers
 
         run_discovery_once(
             workers=workers,
-            send_notifications=not args.no_notify,
+            send_notifications=(not args.no_notify),
             providers=providers,
             lane_name=args.lane,
+            shard_index=shard_index,
+            shard_count=shard_count,
         )
 
         return
