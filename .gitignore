@@ -18,3 +18,5 @@ data/*.csv
 
 # Environment variables
 .env
+# HirePilot runtime files
+data/*.lock
