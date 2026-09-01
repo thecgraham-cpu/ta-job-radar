@@ -559,6 +559,77 @@ def _extract_workable(
         "raw": raw,
     }
 
+
+def _extract_ycombinator(
+    job: dict[str, Any],
+    company: str,
+) -> dict[str, Any]:
+    """Normalize one Y Combinator job."""
+
+    job_company = _clean_text(
+        job.get("company")
+        or job.get("company_name")
+    ) or company
+
+    title = _clean_text(
+        job.get("title")
+    ) or "Unknown title"
+
+    location = _normalize_location(
+        job.get("location")
+    )
+
+    description = _clean_text(
+        job.get("description")
+        or job.get("description_plain")
+    )
+
+    url = (
+        job.get("apply_url")
+        or job.get("url")
+    )
+
+    external_id = _clean_text(
+        job.get("id")
+        or job.get("job_id")
+        or job.get("external_id")
+        or url
+    )
+
+    department = _clean_text(
+        job.get("department")
+    )
+
+    team = _clean_text(
+        job.get("team")
+    )
+
+    employment_type = _clean_text(
+        job.get("employment_type")
+        or job.get("type")
+    )
+
+    return _base_job(
+        source="ycombinator",
+        company=job_company,
+        title=title,
+        location=location,
+        description=description,
+        department=department,
+        team=team,
+        employment_type=employment_type,
+        url=url,
+        external_id=external_id,
+        posted_at=(
+            job.get("posted_at")
+            or job.get("created_at")
+            or job.get("published_at")
+        ),
+        updated_at=job.get("updated_at"),
+        raw=job,
+    )
+
+
 def _extract_custom(
     job: dict[str, Any],
     company: str,
@@ -635,6 +706,13 @@ def normalize_job(
             job,
             company,
         )
+
+    if source == "ycombinator":
+        return _extract_ycombinator(
+            job,
+            company,
+        )
+
 
     if source == "custom":
         return _extract_custom(
