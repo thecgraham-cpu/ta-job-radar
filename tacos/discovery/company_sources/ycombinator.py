@@ -1,688 +1,397 @@
-"""
-Y Combinator company discovery source for HirePilot.
+"""Y Combinator ATS employer discovery source for HirePilot.
 
-Discovers companies from YC's client-rendered Startup Directory
-and enriches company profiles concurrently using reusable
-browser workers.
+Uses a structured YC company dataset containing companies that are
+currently hiring and their open job URLs.
+
+Instead of browser-rendering every YC company profile, HirePilot
+extracts supported ATS boards directly from YC job posting URLs.
 """
 
 from __future__ import annotations
 
-import re
-from concurrent.futures import (
-    ThreadPoolExecutor,
-    as_completed,
-)
-from urllib.parse import urljoin, urlparse
+import random
+import time
+from typing import Any
+from urllib.parse import urlparse
 
-from playwright.sync_api import (
-    Browser,
-    BrowserContext,
-    Page,
-    sync_playwright,
+import requests
+
+YC_HIRING_URL = (
+    "https://devasheeshg.github.io/yc-api/"
+    "companies/hiring.json"
 )
 
-BASE_URL = "https://www.ycombinator.com"
-DIRECTORY_URL = f"{BASE_URL}/companies"
+REQUEST_TIMEOUT_SECONDS = 45
 
-PAGE_TIMEOUT_MS = 20_000
+MAX_RETRIES = 4
+RETRY_BASE_DELAY_SECONDS = 2.0
 
-DIRECTORY_INITIAL_WAIT_MS = 2_000
-DIRECTORY_SCROLL_WAIT_MS = 1_250
-COMPANY_PAGE_WAIT_MS = 250
+RETRYABLE_STATUS_CODES = {
+    429,
+    500,
+    502,
+    503,
+    504,
+}
 
-UNCHANGED_ROUNDS_LIMIT = 5
+SUPPORTED_ATS_HOSTS = {
+    "boards.greenhouse.io": "greenhouse",
+    "job-boards.greenhouse.io": "greenhouse",
+    "jobs.ashbyhq.com": "ashby",
+    "jobs.lever.co": "lever",
+    "jobs.smartrecruiters.com": "smartrecruiters",
+    "apply.workable.com": "workable",
+}
 
-# Safety valve only — not a company limit.
-MAX_SCROLL_ROUNDS = 500
-
-# Number of persistent browser workers used for YC profile
-# enrichment.
-PROFILE_WORKERS = 8
-
-
-def _clean(
-    value: str | None,
-) -> str:
-    return re.sub(
-        r"\s+",
-        " ",
-        value or "",
-    ).strip()
+USER_AGENT = (
+    "HirePilot/0.1 "
+    "(public job discovery; local development)"
+)
 
 
-def _company_slug(
-    url: str,
-) -> str | None:
-    match = re.search(
-        r"/companies/([^/?#]+)",
-        url,
-        flags=re.IGNORECASE,
-    )
+def _retry_delay(attempt: int) -> float:
+    """Return exponential retry delay with jitter."""
 
-    if not match:
-        return None
+    base = RETRY_BASE_DELAY_SECONDS * (2**attempt)
 
-    slug = match.group(1).strip()
+    return base + random.uniform(0.0, 1.0)
 
-    if not slug:
-        return None
 
-    blocked = {
-        "industry",
-        "location",
-        "batch",
-        "founders",
+def _get_json(url: str) -> Any:
+    """Fetch JSON with retry handling."""
+
+    headers = {
+        "User-Agent": USER_AGENT,
+        "Accept": "application/json",
     }
 
-    if slug.lower() in blocked:
-        return None
+    last_error: Exception | None = None
 
-    return slug
-
-
-def _collect_company_urls(
-    page: Page,
-    *,
-    max_companies: int | None,
-) -> list[str]:
-    """
-    Collect rendered YC company profile URLs.
-
-    When max_companies is None, continue until the directory
-    stops producing new company URLs.
-    """
-
-    discovered: set[str] = set()
-
-    unchanged_rounds = 0
-    previous_count = 0
-
-    for scroll_round in range(
-        1,
-        MAX_SCROLL_ROUNDS + 1,
-    ):
-        links = page.locator('a[href^="/companies/"]')
-
+    for attempt in range(MAX_RETRIES):
         try:
-            count = links.count()
-        except Exception:
-            count = 0
+            response = requests.get(
+                url,
+                headers=headers,
+                timeout=REQUEST_TIMEOUT_SECONDS,
+            )
 
-        for index in range(count):
-            try:
-                href = links.nth(index).get_attribute("href")
+            if response.status_code in RETRYABLE_STATUS_CODES:
+                delay = _retry_delay(attempt)
 
-                if not href:
-                    continue
-
-                slug = _company_slug(href)
-
-                if not slug:
-                    continue
-
-                discovered.add(
-                    urljoin(
-                        BASE_URL,
-                        f"/companies/{slug}",
-                    )
+                print(
+                    "YC source returned "
+                    f"{response.status_code}; "
+                    f"retrying in {delay:.1f}s..."
                 )
 
-            except Exception:
+                time.sleep(delay)
                 continue
 
-        current_count = len(discovered)
+            response.raise_for_status()
 
-        print(f"  YC directory round " f"{scroll_round}: " f"{current_count} companies")
+            return response.json()
 
-        if max_companies is not None and current_count >= max_companies:
-            break
+        except requests.RequestException as exc:
+            last_error = exc
 
-        if current_count == previous_count:
-            unchanged_rounds += 1
-        else:
-            unchanged_rounds = 0
+            if attempt >= MAX_RETRIES - 1:
+                break
 
-        if unchanged_rounds >= UNCHANGED_ROUNDS_LIMIT:
-            print("  YC directory stopped " "producing new companies.")
-            break
+            delay = _retry_delay(attempt)
 
-        previous_count = current_count
-
-        try:
-            page.evaluate("""
-                window.scrollTo(
-                    0,
-                    document.body.scrollHeight
-                )
-                """)
-
-            page.wait_for_timeout(DIRECTORY_SCROLL_WAIT_MS)
-
-        except Exception as exc:
             print(
-                "  YC directory scroll failed:",
-                type(exc).__name__,
-                exc,
+                "YC source request failed; "
+                f"retrying in {delay:.1f}s: "
+                f"{type(exc).__name__}: {exc}"
             )
-            break
 
-    urls = sorted(discovered)
+            time.sleep(delay)
 
-    if max_companies is not None:
-        urls = urls[:max_companies]
+        except ValueError as exc:
+            raise RuntimeError(
+                "YC source returned invalid JSON."
+            ) from exc
 
-    return urls
+    raise RuntimeError(
+        "YC hiring-company source failed after retries."
+    ) from last_error
 
 
-def _extract_company_name(
-    page: Page,
-    url: str,
-) -> str:
-    """
-    Extract the company name from a YC profile.
-    """
+def _canonical_ats_url(
+    job_url: str,
+) -> tuple[str, str] | None:
+    """Convert a job URL into its canonical supported ATS board URL."""
+
+    if not job_url:
+        return None
 
     try:
-        title = _clean(page.title())
+        parsed = urlparse(job_url)
+    except ValueError:
+        return None
 
-        if title:
-            title = re.sub(
-                r"\s*\|\s*Y Combinator\s*$",
-                "",
-                title,
-                flags=re.IGNORECASE,
-            )
+    host = parsed.netloc.lower().removeprefix("www.")
 
-            if ":" in title:
-                name = title.split(
-                    ":",
-                    1,
-                )[0].strip()
+    provider = SUPPORTED_ATS_HOSTS.get(host)
 
-                if name:
-                    return name
+    if not provider:
+        return None
 
-            if title:
-                return title
+    parts = [
+        part
+        for part in parsed.path.split("/")
+        if part
+    ]
 
-    except Exception:
-        pass
+    if not parts:
+        return None
 
-    slug = _company_slug(url)
+    identifier = parts[0]
 
-    if slug:
-        links = page.locator(f'a[href="/companies/{slug}"]')
-
-        candidates: list[str] = []
-
-        try:
-            link_count = links.count()
-        except Exception:
-            link_count = 0
-
-        for index in range(link_count):
-            try:
-                text = _clean(links.nth(index).inner_text())
-
-                if text and text.lower() != "company":
-                    candidates.append(text)
-
-            except Exception:
-                continue
-
-        if candidates:
-            return candidates[-1]
-
-    return ""
-
-
-def _extract_external_website(
-    page: Page,
-) -> str:
-    """
-    Find the company's external website from its YC profile.
-    """
-
-    links = page.locator("a[href]")
-
-    blocked_domains = {
-        "ycombinator.com",
-        "startupschool.org",
-        "news.ycombinator.com",
-        "bookface.ycombinator.com",
-        "linkedin.com",
-        "twitter.com",
-        "x.com",
-        "facebook.com",
-        "github.com",
-        "crunchbase.com",
-    }
-
-    try:
-        link_count = links.count()
-    except Exception:
-        link_count = 0
-
-    for index in range(link_count):
-        try:
-            href = (links.nth(index).get_attribute("href") or "").strip()
-
-        except Exception:
-            continue
-
-        if not href.startswith(
-            (
-                "http://",
-                "https://",
-            )
-        ):
-            continue
-
-        try:
-            host = urlparse(href).netloc.lower().removeprefix("www.")
-
-        except ValueError:
-            continue
-
-        if not host:
-            continue
-
-        blocked = any(
-            host == domain or host.endswith(f".{domain}") for domain in blocked_domains
+    if provider == "greenhouse":
+        return (
+            provider,
+            f"https://{host}/{identifier}",
         )
 
-        if blocked:
-            continue
+    if provider == "ashby":
+        return (
+            provider,
+            f"https://jobs.ashbyhq.com/{identifier}",
+        )
 
-        return href
+    if provider == "lever":
+        return (
+            provider,
+            f"https://jobs.lever.co/{identifier}",
+        )
 
-    return ""
+    if provider == "smartrecruiters":
+        return (
+            provider,
+            f"https://jobs.smartrecruiters.com/{identifier}",
+        )
 
+    if provider == "workable":
+        return (
+            provider,
+            f"https://apply.workable.com/{identifier}/",
+        )
 
-def _extract_status(
-    page: Page,
-) -> str:
-    """
-    Extract YC company status.
-    """
-
-    try:
-        text = _clean(page.locator("body").inner_text())
-
-    except Exception:
-        return ""
-
-    status_patterns = {
-        "Active": r"\bStatus:\s*Active\b",
-        "Acquired": r"\bStatus:\s*Acquired\b",
-        "Public": r"\bStatus:\s*Public\b",
-        "Inactive": r"\bStatus:\s*Inactive\b",
-    }
-
-    for (
-        status,
-        pattern,
-    ) in status_patterns.items():
-        if re.search(
-            pattern,
-            text,
-            flags=re.IGNORECASE,
-        ):
-            return status
-
-    for status in (
-        "Active",
-        "Acquired",
-        "Public",
-        "Inactive",
-    ):
-        if re.search(
-            rf"\b{re.escape(status)}\b",
-            text,
-            flags=re.IGNORECASE,
-        ):
-            return status
-
-    return ""
+    return None
 
 
-def _parse_company_page(
-    page: Page,
-    url: str,
-) -> dict[str, str] | None:
-    """
-    Parse one rendered YC company profile.
-    """
+def _candidate_from_job(
+    company: dict[str, Any],
+    job: dict[str, Any],
+) -> dict[str, Any] | None:
+    """Build one ATS employer candidate from a YC job posting."""
 
-    page.goto(
-        url,
-        wait_until="domcontentloaded",
-        timeout=PAGE_TIMEOUT_MS,
-    )
+    job_url = str(
+        job.get("url")
+        or job.get("apply_url")
+        or job.get("job_url")
+        or ""
+    ).strip()
 
-    page.wait_for_timeout(COMPANY_PAGE_WAIT_MS)
+    ats = _canonical_ats_url(job_url)
 
-    name = _extract_company_name(
-        page,
-        url,
-    )
-
-    if not name:
+    if not ats:
         return None
 
-    website = _extract_external_website(page)
+    provider, ats_url = ats
 
-    if not website:
+    company_name = str(
+        company.get("name")
+        or ""
+    ).strip()
+
+    if not company_name:
         return None
 
     return {
-        "name": name,
-        "website": website,
-        "directory_url": url,
-        "yc_status": _extract_status(page),
-        "discovery_source": ("ycombinator"),
-    }
-
-
-def _new_context(
-    browser: Browser,
-) -> BrowserContext:
-    return browser.new_context(
-        viewport={
-            "width": 1440,
-            "height": 1000,
-        },
-        user_agent=(
-            "Mozilla/5.0 "
-            "(Macintosh; Intel Mac OS X 10_15_7) "
-            "AppleWebKit/537.36 "
-            "(KHTML, like Gecko) "
-            "Chrome/131.0 Safari/537.36"
+        "name": company_name,
+        "url": ats_url,
+        "provider_hint": provider,
+        "website": company.get("website"),
+        "directory_url": (
+            company.get("url")
+            or company.get("directory_url")
         ),
-    )
-
-
-def _split_work(
-    urls: list[str],
-    worker_count: int,
-) -> list[list[str]]:
-    """
-    Split company URLs into roughly equal worker batches.
-    """
-
-    batches: list[list[str]] = [[] for _ in range(worker_count)]
-
-    for index, url in enumerate(urls):
-        batches[index % worker_count].append(url)
-
-    return [batch for batch in batches if batch]
-
-
-def _profile_worker(
-    worker_id: int,
-    company_urls: list[str],
-) -> dict[str, object]:
-    """
-    Process one batch of company profiles.
-
-    Each worker creates one Playwright instance, one browser,
-    one context and one page, then reuses them for every
-    company assigned to that worker.
-    """
-
-    companies: list[dict[str, str]] = []
-
-    skipped = 0
-    failed = 0
-
-    with sync_playwright() as playwright:
-        browser = playwright.chromium.launch(headless=True)
-
-        context = _new_context(browser)
-
-        page = context.new_page()
-
-        try:
-            total = len(company_urls)
-
-            for index, company_url in enumerate(
-                company_urls,
-                start=1,
-            ):
-                try:
-                    company = _parse_company_page(
-                        page,
-                        company_url,
-                    )
-
-                    if not company:
-                        skipped += 1
-
-                        print(f"  Worker {worker_id}: " f"{index}/{total} " "skipped")
-
-                        continue
-
-                    companies.append(company)
-
-                    print(
-                        f"  Worker {worker_id}: "
-                        f"{index}/{total} "
-                        f"{company['name']}"
-                    )
-
-                except Exception as exc:
-                    failed += 1
-
-                    print(
-                        f"  Worker {worker_id}: "
-                        f"{index}/{total} "
-                        "failed: "
-                        f"{type(exc).__name__}: "
-                        f"{exc}"
-                    )
-
-        finally:
-            context.close()
-            browser.close()
-
-    return {
-        "worker_id": worker_id,
-        "companies": companies,
-        "skipped": skipped,
-        "failed": failed,
+        "yc_company_id": company.get("id"),
+        "yc_slug": company.get("slug"),
+        "yc_batch": company.get("batch"),
+        "yc_status": company.get("status"),
+        "yc_stage": company.get("stage"),
+        "yc_industry": company.get("industry"),
+        "yc_locations": company.get("all_locations"),
+        "discovery_source": "ycombinator",
     }
 
 
-def _enrich_company_urls(
-    company_urls: list[str],
-) -> list[dict[str, str]]:
-    """
-    Enrich YC profiles using persistent browser workers.
-    """
+def _extract_jobs(
+    company: dict[str, Any],
+) -> list[dict[str, Any]]:
+    """Return job dictionaries from known YC dataset shapes."""
 
-    total = len(company_urls)
+    for key in (
+        "jobs",
+        "job_postings",
+        "open_jobs",
+    ):
+        value = company.get(key)
 
-    if total == 0:
-        return []
+        if isinstance(value, list):
+            return [
+                job
+                for job in value
+                if isinstance(job, dict)
+            ]
 
-    worker_count = min(
-        PROFILE_WORKERS,
-        total,
-    )
-
-    batches = _split_work(
-        company_urls,
-        worker_count,
-    )
-
-    companies: list[dict[str, str]] = []
-
-    skipped = 0
-    failed = 0
-
-    print()
-    print("======================================")
-    print("YC PROFILE ENRICHMENT")
-    print("======================================")
-    print(
-        "Profiles:",
-        total,
-    )
-    print(
-        "Browser workers:",
-        worker_count,
-    )
-    print(
-        "Browsers launched:",
-        worker_count,
-    )
-    print("======================================")
-    print()
-
-    with ThreadPoolExecutor(max_workers=worker_count) as executor:
-        futures = []
-
-        for worker_id, batch in enumerate(
-            batches,
-            start=1,
-        ):
-            futures.append(
-                executor.submit(
-                    _profile_worker,
-                    worker_id,
-                    batch,
-                )
-            )
-
-        for future in as_completed(futures):
-            try:
-                result = future.result()
-
-                worker_companies = result.get(
-                    "companies",
-                    [],
-                )
-
-                if isinstance(
-                    worker_companies,
-                    list,
-                ):
-                    companies.extend(worker_companies)
-
-                skipped += int(
-                    result.get(
-                        "skipped",
-                        0,
-                    )
-                )
-
-                failed += int(
-                    result.get(
-                        "failed",
-                        0,
-                    )
-                )
-
-            except Exception as exc:
-                print(
-                    "YC worker failed:",
-                    type(exc).__name__,
-                    exc,
-                )
-
-    print()
-    print("======================================")
-    print("YC PROFILE ENRICHMENT COMPLETE")
-    print("======================================")
-    print(
-        "Profiles attempted:",
-        total,
-    )
-    print(
-        "Usable companies:",
-        len(companies),
-    )
-    print(
-        "Skipped:",
-        skipped,
-    )
-    print(
-        "Failed:",
-        failed,
-    )
-    print("======================================")
-
-    return companies
+    return []
 
 
 def fetch_ycombinator_companies(
     *,
     max_companies: int | None = None,
-) -> list[dict[str, str]]:
-    """
-    Discover companies from YC's Startup Directory.
+) -> list[dict[str, Any]]:
+    """Discover supported ATS boards from YC hiring companies."""
 
-    There is no HirePilot company-count limit by default.
-
-    Directory enumeration continues until YC stops producing
-    new company URLs. Profiles are enriched concurrently using
-    persistent browser workers.
-    """
-
-    with sync_playwright() as playwright:
-        browser = playwright.chromium.launch(headless=True)
-
-        context = _new_context(browser)
-
-        directory_page = context.new_page()
-
-        try:
-            print("Loading YC Startup Directory...")
-
-            directory_page.goto(
-                DIRECTORY_URL,
-                wait_until="domcontentloaded",
-                timeout=PAGE_TIMEOUT_MS,
-            )
-
-            directory_page.wait_for_timeout(DIRECTORY_INITIAL_WAIT_MS)
-
-            company_urls = _collect_company_urls(
-                directory_page,
-                max_companies=(max_companies),
-            )
-
-        finally:
-            context.close()
-            browser.close()
+    started = time.perf_counter()
 
     print()
     print("======================================")
-    print("YC COMPANY URL DISCOVERY COMPLETE")
+    print("YC ATS DISCOVERY")
     print("======================================")
-    print(
-        "Company URLs:",
-        len(company_urls),
-    )
-    print("======================================")
+    print("Fetching currently hiring YC companies...")
 
-    companies = _enrich_company_urls(company_urls)
+    payload = _get_json(YC_HIRING_URL)
 
-    companies.sort(key=lambda company: (str(company.get("name") or "").lower()))
+    if isinstance(payload, dict):
+        for key in (
+            "companies",
+            "results",
+            "data",
+        ):
+            possible = payload.get(key)
 
-    print()
-    print("======================================")
-    print("YC COMPANY DISCOVERY FINISHED")
-    print("======================================")
+            if isinstance(possible, list):
+                payload = possible
+                break
+
+    if not isinstance(payload, list):
+        raise RuntimeError(
+            "YC hiring source returned unexpected payload."
+        )
+
+    companies = [
+        item
+        for item in payload
+        if isinstance(item, dict)
+    ]
+
+    if max_companies is not None:
+        companies = companies[:max_companies]
+
     print(
-        "Company URLs found:",
-        len(company_urls),
-    )
-    print(
-        "Usable companies:",
+        "YC hiring companies received:",
         len(companies),
     )
+
+    discovered: dict[
+        tuple[str, str],
+        dict[str, Any],
+    ] = {}
+
+    jobs_seen = 0
+    supported_jobs = 0
+
+    provider_counts: dict[str, int] = {}
+
+    for company in companies:
+        jobs = _extract_jobs(company)
+
+        for job in jobs:
+            jobs_seen += 1
+
+            candidate = _candidate_from_job(
+                company,
+                job,
+            )
+
+            if not candidate:
+                continue
+
+            supported_jobs += 1
+
+            provider = str(
+                candidate.get("provider_hint")
+                or "unknown"
+            )
+
+            url = str(
+                candidate.get("url")
+                or ""
+            )
+
+            key = (
+                provider,
+                url.lower(),
+            )
+
+            if key in discovered:
+                continue
+
+            discovered[key] = candidate
+
+            provider_counts[provider] = (
+                provider_counts.get(provider, 0)
+                + 1
+            )
+
+    results = list(discovered.values())
+
+    results.sort(
+        key=lambda item: (
+            str(item.get("provider_hint") or ""),
+            str(item.get("name") or "").lower(),
+        )
+    )
+
+    runtime = round(
+        time.perf_counter() - started,
+        2,
+    )
+
+    print()
+    print("======================================")
+    print("YC ATS DISCOVERY FINISHED")
+    print("======================================")
+    print(
+        "Hiring companies inspected:",
+        len(companies),
+    )
+    print(
+        "Job URLs inspected:",
+        jobs_seen,
+    )
+    print(
+        "Supported ATS job URLs:",
+        supported_jobs,
+    )
+    print(
+        "Unique ATS boards discovered:",
+        len(results),
+    )
+    print(
+        "Boards by provider:",
+        provider_counts,
+    )
+    print(
+        "Runtime:",
+        runtime,
+        "seconds",
+    )
     print("======================================")
 
-    return companies
+    return results
