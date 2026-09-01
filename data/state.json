@@ -86,25 +86,12 @@
     "lever:spotify": 0
   },
   "initialized": true,
-  "last_digest": "2026-08-27T22:39:14.876672+00:00",
+  "last_digest": "2026-09-01T17:00:02.289298+00:00",
   "last_poll": {
     "remotive": "2026-09-01T08:36:03.570341+00:00"
   },
   "last_scan": "2026-09-01T13:40:55.687588+00:00",
-  "pending": [
-    {
-      "company": "Rula",
-      "first_seen": "2026-08-31T23:49:16.250949+00:00",
-      "job_id": "as:rula:485cd1ab-51dd-4a1a-b8c5-9f6453e4b49b",
-      "location": "Remote - United States",
-      "published_at": "2026-08-31T22:52:20.868+00:00",
-      "salary": "$128,000 - $149,150",
-      "score": 71,
-      "source": "Ashby",
-      "title": "Product Recruiting Lead (Remote)",
-      "url": "https://jobs.ashbyhq.com/rula/485cd1ab-51dd-4a1a-b8c5-9f6453e4b49b"
-    }
-  ],
+  "pending": [],
   "seen": {
     "as:render:59234af4-4139-443d-9924-f39a7e39210d": "2026-08-24T18:30:11.306842+00:00",
     "as:rula:485cd1ab-51dd-4a1a-b8c5-9f6453e4b49b": "2026-09-01T13:40:55.687588+00:00",
