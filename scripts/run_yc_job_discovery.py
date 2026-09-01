@@ -24,30 +24,47 @@ def _timestamp() -> str:
 def _dedupe_jobs(
     jobs: list[dict[str, Any]],
 ) -> list[dict[str, Any]]:
-    """Remove duplicate YC postings."""
+    """
+    Remove true duplicate YC postings.
 
+    Prefer the YC job ID as the unique identifier. If an ID is
+    unavailable, fall back to the job URL.
+
+    Do not deduplicate solely by company + title because separate
+    requisitions can legitimately share both values.
+    """
+
+    seen_ids: set[str] = set()
     seen_urls: set[str] = set()
-    seen_semantic: set[tuple[str, str]] = set()
-
     results: list[dict[str, Any]] = []
 
     for job in jobs:
+        external_id = str(
+            job.get("id")
+            or job.get("job_id")
+            or job.get("external_id")
+            or ""
+        ).strip()
+
         url = str(
             job.get("url")
             or job.get("apply_url")
             or ""
         ).strip()
 
-        company = str(
-            job.get("company")
-            or job.get("company_name")
-            or ""
-        ).strip().lower()
+        if external_id:
+            id_key = external_id.lower()
 
-        title = str(
-            job.get("title")
-            or ""
-        ).strip().lower()
+            if id_key in seen_ids:
+                continue
+
+            seen_ids.add(id_key)
+
+            if url:
+                seen_urls.add(url.lower())
+
+            results.append(job)
+            continue
 
         if url:
             url_key = url.lower()
@@ -56,17 +73,8 @@ def _dedupe_jobs(
                 continue
 
             seen_urls.add(url_key)
-
-        semantic_key = (
-            company,
-            title,
-        )
-
-        if company and title:
-            if semantic_key in seen_semantic:
-                continue
-
-            seen_semantic.add(semantic_key)
+            results.append(job)
+            continue
 
         results.append(job)
 
