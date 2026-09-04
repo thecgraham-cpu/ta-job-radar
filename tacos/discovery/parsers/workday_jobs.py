@@ -18,12 +18,16 @@ def _parse_identifier(identifier: str) -> tuple[str, str, str]:
     parts = identifier.split("|", 2)
 
     if len(parts) != 3:
-        raise ValueError("Invalid Workday identifier. Expected host|tenant|site.")
+        raise ValueError(
+            "Invalid Workday identifier. Expected host|tenant|site."
+        )
 
     host, tenant, site = [part.strip() for part in parts]
 
     if not host or not tenant or not site:
-        raise ValueError("Workday host, tenant, and site are required.")
+        raise ValueError(
+            "Workday host, tenant, and site are required."
+        )
 
     return host, tenant, site
 
@@ -32,20 +36,27 @@ def fetch_workday_jobs(
     identifier: str,
     *,
     max_pages: int | None = None,
+    search_text: str = "",
 ) -> dict[str, Any]:
     """
     Fetch published jobs from a Workday career site.
 
     max_pages:
-        None -> fetch the full board.
+        None -> fetch the full result set.
         Integer -> stop after that many Workday pages.
 
-    Each page currently requests 20 jobs.
+    search_text:
+        Optional Workday search query.
+
+    Each Workday page currently requests 20 jobs.
     """
 
     host, tenant, site = _parse_identifier(identifier)
 
-    endpoint = f"https://{host}/wday/cxs/{tenant}/{site}/jobs"
+    endpoint = (
+        f"https://{host}/wday/cxs/"
+        f"{tenant}/{site}/jobs"
+    )
 
     headers = {
         "Accept": "application/json",
@@ -72,7 +83,7 @@ def fetch_workday_jobs(
             "appliedFacets": {},
             "limit": limit,
             "offset": offset,
-            "searchText": "",
+            "searchText": search_text,
         }
 
         response = requests.post(
@@ -111,6 +122,7 @@ def fetch_workday_jobs(
         "host": host,
         "tenant": tenant,
         "site": site,
+        "search_text": search_text,
         "count": len(jobs),
         "total_available": total,
         "pages_fetched": pages_fetched,

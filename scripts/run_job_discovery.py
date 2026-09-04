@@ -17,7 +17,10 @@ from tacos.discovery.providers import get_provider_fetcher
 DEFAULT_COMPANIES_PATH = Path("companies.json")
 
 DEFAULT_WORKERS = 20
-WORKDAY_MAX_PAGES = 10
+WORKDAY_MAX_PAGES = 2
+WORKDAY_SEARCH_TERMS = (
+    "talent acquisition",
+)
 
 SUPPORTED_LIVE_PROVIDERS = {
     "greenhouse",
@@ -66,7 +69,7 @@ LANE_CONFIG = {
         "workers": 12,
         "shard_index": 0,
         "shard_count": 2,
-        "start_delay_seconds": 0,
+        "start_delay_seconds": 30,
     },
     "heavy_b": {
         "providers": {
@@ -76,7 +79,7 @@ LANE_CONFIG = {
         "workers": 12,
         "shard_index": 1,
         "shard_count": 2,
-        "start_delay_seconds": 120,
+        "start_delay_seconds": 150,
     },
     "rate_limited": {
         "providers": {
@@ -86,17 +89,71 @@ LANE_CONFIG = {
         "workers": 4,
         "shard_index": 0,
         "shard_count": 1,
-        "start_delay_seconds": 0,
+        "start_delay_seconds": 90,
     },
-    "slow": {
-        "providers": {
-            "workday",
-        },
-        "interval_seconds": 420,
-        "workers": 2,
+    "workday_a": {
+        "providers": {"workday"},
+        "interval_seconds": 240,
+        "workers": 4,
         "shard_index": 0,
-        "shard_count": 1,
-        "start_delay_seconds": 0,
+        "shard_count": 8,
+        "start_delay_seconds": 15,
+    },
+    "workday_b": {
+        "providers": {"workday"},
+        "interval_seconds": 240,
+        "workers": 4,
+        "shard_index": 1,
+        "shard_count": 8,
+        "start_delay_seconds": 45,
+    },
+    "workday_c": {
+        "providers": {"workday"},
+        "interval_seconds": 240,
+        "workers": 4,
+        "shard_index": 2,
+        "shard_count": 8,
+        "start_delay_seconds": 75,
+    },
+    "workday_d": {
+        "providers": {"workday"},
+        "interval_seconds": 240,
+        "workers": 4,
+        "shard_index": 3,
+        "shard_count": 8,
+        "start_delay_seconds": 105,
+    },
+    "workday_e": {
+        "providers": {"workday"},
+        "interval_seconds": 240,
+        "workers": 4,
+        "shard_index": 4,
+        "shard_count": 8,
+        "start_delay_seconds": 135,
+    },
+    "workday_f": {
+        "providers": {"workday"},
+        "interval_seconds": 240,
+        "workers": 4,
+        "shard_index": 5,
+        "shard_count": 8,
+        "start_delay_seconds": 165,
+    },
+    "workday_g": {
+        "providers": {"workday"},
+        "interval_seconds": 240,
+        "workers": 4,
+        "shard_index": 6,
+        "shard_count": 8,
+        "start_delay_seconds": 195,
+    },
+    "workday_h": {
+        "providers": {"workday"},
+        "interval_seconds": 240,
+        "workers": 4,
+        "shard_index": 7,
+        "shard_count": 8,
+        "start_delay_seconds": 225,
     },
 }
 
@@ -166,10 +223,36 @@ def _fetch_raw_jobs(
         raise RuntimeError(f"No fetcher registered for {provider}")
 
     if provider == "workday":
-        return fetcher(
-            identifier,
-            max_pages=WORKDAY_MAX_PAGES,
-        )
+        combined_jobs: list[dict[str, Any]] = []
+        seen: set[str] = set()
+
+        for search_text in WORKDAY_SEARCH_TERMS:
+            result = fetcher(
+                identifier,
+                max_pages=WORKDAY_MAX_PAGES,
+                search_text=search_text,
+            )
+
+            for job in result.get("jobs", []):
+                key = str(
+                    job.get("bulletFields")
+                    or job.get("externalPath")
+                    or job.get("title")
+                    or repr(job)
+                )
+
+                if key in seen:
+                    continue
+
+                seen.add(key)
+                combined_jobs.append(job)
+
+        return {
+            "source": "workday",
+            "board": identifier,
+            "count": len(combined_jobs),
+            "jobs": combined_jobs,
+        }
 
     return fetcher(identifier)
 
@@ -697,13 +780,14 @@ def _run_lane_forever(
 
         elapsed = time.perf_counter() - cycle_started
 
-        sleep_seconds = max(
-            0.0,
-            interval_seconds - elapsed,
+        print(
+            f"{lane_name.upper()} lane cycle complete | "
+            f"runtime={elapsed:.2f}s | "
+            f"cooldown={interval_seconds}s"
         )
 
-        if sleep_seconds:
-            stop_event.wait(sleep_seconds)
+        if stop_event.wait(interval_seconds):
+            return
 
 
 def run_forever() -> None:
