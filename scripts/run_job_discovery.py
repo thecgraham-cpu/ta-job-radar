@@ -7,7 +7,7 @@ import json
 import threading
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 
@@ -80,6 +80,16 @@ LANE_CONFIG = {
         "shard_index": 1,
         "shard_count": 2,
         "start_delay_seconds": 150,
+    },
+    "smartrecruiters_safety": {
+        "providers": {
+            "smartrecruiters",
+        },
+        "interval_seconds": 600,
+        "workers": 8,
+        "shard_index": 0,
+        "shard_count": 1,
+        "start_delay_seconds": 270,
     },
     "rate_limited": {
         "providers": {
@@ -162,6 +172,18 @@ def _timestamp() -> str:
     return datetime.now().astimezone().strftime("%Y-%m-%d %H:%M:%S")
 
 
+def _smartrecruiters_released_after() -> str:
+    cutoff = (
+        datetime.now(timezone.utc)
+        - timedelta(hours=SMARTRECRUITERS_SAFETY_LOOKBACK_HOURS)
+    )
+
+    return (
+        cutoff.isoformat(timespec="milliseconds")
+        .replace("+00:00", "Z")
+    )
+
+
 def _load_companies(
     path: Path = DEFAULT_COMPANIES_PATH,
 ) -> list[dict[str, Any]]:
@@ -216,6 +238,8 @@ def _company_name(
 def _fetch_raw_jobs(
     provider: str,
     identifier: str,
+    *,
+    lane_name: str,
 ) -> dict[str, Any]:
     fetcher = get_provider_fetcher(provider)
 
@@ -261,6 +285,7 @@ def _poll_company(
     company: dict[str, Any],
     *,
     send_notifications: bool,
+    lane_name: str,
 ) -> dict[str, Any]:
     company_name = _company_name(company)
 
@@ -287,6 +312,7 @@ def _poll_company(
         raw_result = _fetch_raw_jobs(
             provider,
             identifier,
+            lane_name=lane_name,
         )
 
         raw_jobs = raw_result.get("jobs", [])
@@ -485,6 +511,7 @@ def run_discovery_once(
                 _poll_company,
                 company,
                 send_notifications=send_notifications,
+                lane_name=lane_name,
             ): company
             for company in selected
         }

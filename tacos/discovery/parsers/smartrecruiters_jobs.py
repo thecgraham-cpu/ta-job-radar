@@ -16,21 +16,20 @@ REQUEST_TIMEOUT_SECONDS = 30
 
 DEFAULT_SEARCH_TERMS = (
     "recruiter",
-    "talent acquisition",
-    "recruiting",
-    "talent partner",
-    "sourcer",
 )
 
 
 def _fetch_search(
     *,
     company: str,
-    search_term: str,
+    search_term: str | None = None,
+    released_after: str | None = None,
 ) -> list[dict[str, Any]]:
-    """Fetch SmartRecruiters postings matching one search term."""
+    """Fetch one SmartRecruiters result set."""
 
-    url = SMARTRECRUITERS_API_URL.format(company=company)
+    url = SMARTRECRUITERS_API_URL.format(
+        company=company,
+    )
 
     jobs: list[dict[str, Any]] = []
     offset = 0
@@ -44,6 +43,9 @@ def _fetch_search(
         if search_term:
             params["q"] = search_term
 
+        if released_after:
+            params["releasedAfter"] = released_after
+
         response = requests.get(
             url,
             params=params,
@@ -53,7 +55,11 @@ def _fetch_search(
         response.raise_for_status()
 
         data = response.json()
-        content = data.get("content", [])
+
+        content = data.get(
+            "content",
+            [],
+        )
 
         if not isinstance(content, list):
             raise ValueError(
@@ -81,18 +87,39 @@ def _fetch_search(
     return jobs
 
 
+def _job_key(
+    job: dict[str, Any],
+) -> str:
+    return str(
+        job.get("id")
+        or job.get("uuid")
+        or job.get("ref")
+        or job.get("applyUrl")
+        or job.get("postingUrl")
+        or repr(job)
+    ).strip()
+
+
 def fetch_smartrecruiters_jobs(
     company: str,
     *,
     search_terms: tuple[str, ...] | None = DEFAULT_SEARCH_TERMS,
+    released_after: str | None = None,
 ) -> dict[str, Any]:
     """
-    Fetch currently published SmartRecruiters jobs.
+    Fetch SmartRecruiters jobs.
 
-    Default behavior searches specifically for recruiting and talent
-    roles instead of downloading the employer's entire job board.
+    Default mode uses the narrow recruiter search.
 
-    Pass search_terms=None to fetch the entire board.
+    search_terms=None removes the q parameter entirely.
+
+    released_after restricts results to jobs released after
+    the supplied ISO-8601 timestamp.
+
+    This supports HirePilot's two complementary scan modes:
+
+        1. fast targeted recruiting scans
+        2. recent-posting safety scans for unusual TA titles
     """
 
     company = company.strip()
@@ -103,41 +130,69 @@ def fetch_smartrecruiters_jobs(
         )
 
     if search_terms is None:
-        search_terms_to_run = ("",)
+        terms_to_run: tuple[str | None, ...] = (
+            None,
+        )
+
     else:
-        search_terms_to_run = tuple(
+        cleaned_terms = tuple(
             term.strip()
             for term in search_terms
             if term and term.strip()
         )
 
-    deduped_jobs: dict[str, dict[str, Any]] = {}
+        terms_to_run = (
+            cleaned_terms
+            if cleaned_terms
+            else (None,)
+        )
 
-    for search_term in search_terms_to_run:
+    deduped_jobs: dict[
+        str,
+        dict[str, Any],
+    ] = {}
+
+    for search_term in terms_to_run:
         jobs = _fetch_search(
             company=company,
             search_term=search_term,
+            released_after=released_after,
         )
 
         for job in jobs:
-            job_id = str(
-                job.get("id")
-                or job.get("uuid")
-                or job.get("ref")
-                or ""
-            ).strip()
-
-            if not job_id:
+            if not isinstance(job, dict):
                 continue
 
-            deduped_jobs[job_id] = job
+            key = _job_key(job)
 
-    result_jobs = list(deduped_jobs.values())
+            if not key:
+                continue
+
+            deduped_jobs[key] = job
+
+    result_jobs = list(
+        deduped_jobs.values()
+    )
+
+    if released_after and search_terms is None:
+        mode = "recent"
+    elif released_after:
+        mode = "targeted_recent"
+    elif search_terms is None:
+        mode = "full"
+    else:
+        mode = "targeted"
 
     return {
         "source": "smartrecruiters",
         "company": company,
-        "search_terms": list(search_terms_to_run),
+        "mode": mode,
+        "search_terms": [
+            term
+            for term in terms_to_run
+            if term is not None
+        ],
+        "released_after": released_after,
         "count": len(result_jobs),
         "jobs": result_jobs,
     }
