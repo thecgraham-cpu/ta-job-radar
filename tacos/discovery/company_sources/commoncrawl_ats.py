@@ -5,6 +5,7 @@ from __future__ import annotations
 import json
 import random
 import time
+from pathlib import Path
 from typing import Any
 from urllib.parse import urlparse
 
@@ -19,6 +20,7 @@ MAX_RESULTS_PER_PROVIDER = 250
 
 MAX_RETRIES = 4
 RETRY_BASE_DELAY_SECONDS = 2.0
+
 RETRYABLE_STATUS_CODES = {
     429,
     500,
@@ -27,7 +29,10 @@ RETRYABLE_STATUS_CODES = {
     504,
 }
 
-USER_AGENT = "HirePilot/0.1 (public ATS discovery; contact: local-development)"
+USER_AGENT = "HirePilot/0.1 " "(public ATS discovery; contact: local-development)"
+
+DEFAULT_REGISTRY_PATH = Path("companies.json")
+
 
 ATS_PATTERNS = {
     "greenhouse": "boards.greenhouse.io/*",
@@ -47,8 +52,14 @@ def _retry_delay(attempt: int) -> float:
     attempt=2 -> ~8 seconds
     attempt=3 -> ~16 seconds
     """
+
     base_delay = RETRY_BASE_DELAY_SECONDS * (2**attempt)
-    jitter = random.uniform(0.0, 0.75)
+
+    jitter = random.uniform(
+        0.0,
+        0.75,
+    )
+
     return base_delay + jitter
 
 
@@ -81,7 +92,7 @@ def _get_with_retries(
                 return response
 
             last_error = requests.HTTPError(
-                f"{response.status_code} Server Error " f"for url: {response.url}",
+                (f"{response.status_code} " "Server Error for url: " f"{response.url}"),
                 response=response,
             )
 
@@ -91,7 +102,7 @@ def _get_with_retries(
             delay = _retry_delay(attempt)
 
             print(
-                f"Common Crawl returned "
+                "Common Crawl returned "
                 f"{response.status_code}; "
                 f"retrying in {delay:.1f}s..."
             )
@@ -125,6 +136,7 @@ def _get_with_retries(
 
 def _get_latest_index() -> str:
     response = _get_with_retries(COLLECTIONS_URL)
+
     response.raise_for_status()
 
     collections = response.json()
@@ -160,25 +172,25 @@ def _extract_board_url(
         if host != "boards.greenhouse.io":
             return None
 
-        return f"https://boards.greenhouse.io/{first}"
+        return "https://boards.greenhouse.io/" f"{first}"
 
     if provider == "ashby":
         if host != "jobs.ashbyhq.com":
             return None
 
-        return f"https://jobs.ashbyhq.com/{first}"
+        return "https://jobs.ashbyhq.com/" f"{first}"
 
     if provider == "lever":
         if host != "jobs.lever.co":
             return None
 
-        return f"https://jobs.lever.co/{first}"
+        return "https://jobs.lever.co/" f"{first}"
 
     if provider == "smartrecruiters":
         if host != "jobs.smartrecruiters.com":
             return None
 
-        return f"https://jobs.smartrecruiters.com/{first}"
+        return "https://jobs.smartrecruiters.com/" f"{first}"
 
     if provider == "workable":
         if host != "apply.workable.com":
@@ -187,9 +199,83 @@ def _extract_board_url(
         if first.lower() == "j":
             return None
 
-        return f"https://apply.workable.com/{first}/"
+        return "https://apply.workable.com/" f"{first}/"
 
     return None
+
+
+def _load_known_boards(
+    path: Path = DEFAULT_REGISTRY_PATH,
+) -> dict[str, set[str]]:
+    """
+    Load ATS provider/identifier pairs already monitored.
+
+    Common Crawl uses this before applying its candidate
+    cap so known boards do not consume discovery slots.
+    """
+
+    known: dict[str, set[str]] = {provider: set() for provider in ATS_PATTERNS}
+
+    if not path.exists():
+        return known
+
+    try:
+        data = json.loads(
+            path.read_text(
+                encoding="utf-8",
+            )
+        )
+    except (
+        json.JSONDecodeError,
+        OSError,
+    ):
+        return known
+
+    companies = data.get(
+        "companies",
+        [],
+    )
+
+    if not isinstance(
+        companies,
+        list,
+    ):
+        return known
+
+    for company in companies:
+        if not isinstance(
+            company,
+            dict,
+        ):
+            continue
+
+        ats = company.get("ats")
+
+        if not isinstance(
+            ats,
+            dict,
+        ):
+            continue
+
+        provider = str(ats.get("source") or "").strip().lower()
+
+        identifier = str(ats.get("identifier") or "").strip().lower()
+
+        if provider in known and identifier:
+            known[provider].add(identifier)
+
+    return known
+
+
+def _board_identifier(
+    board_url: str,
+) -> str:
+    """
+    Return the normalized ATS identifier from a
+    canonical board URL.
+    """
+
+    return board_url.rstrip("/").rsplit("/", 1)[-1].strip().lower()
 
 
 def _query_provider(
@@ -198,8 +284,21 @@ def _query_provider(
     provider: str,
     pattern: str,
     max_results: int,
-) -> list[str]:
-    endpoint = f"https://index.commoncrawl.org/{index_name}-index"
+    known_identifiers: set[str],
+) -> tuple[
+    list[str],
+    int,
+]:
+    """
+    Query one ATS provider.
+
+    Already-monitored identifiers are skipped before
+    max_results is applied. This prevents the same
+    first N known boards from consuming every discovery
+    cycle.
+    """
+
+    endpoint = "https://index.commoncrawl.org/" f"{index_name}-index"
 
     params = {
         "url": pattern,
@@ -214,12 +313,15 @@ def _query_provider(
     )
 
     if response.status_code == 404:
-        return []
+        return [], 0
 
     response.raise_for_status()
 
     seen: set[str] = set()
+
     results: list[str] = []
+
+    known_skipped = 0
 
     for line in response.text.splitlines():
         line = line.strip()
@@ -251,21 +353,35 @@ def _query_provider(
             continue
 
         seen.add(key)
+
+        identifier = _board_identifier(board_url)
+
+        if identifier in known_identifiers:
+            known_skipped += 1
+            continue
+
         results.append(board_url)
 
         if len(results) >= max_results:
             break
 
-    return results
+    return (
+        results,
+        known_skipped,
+    )
 
 
 def fetch_commoncrawl_ats_companies(
     *,
     max_per_provider: int = MAX_RESULTS_PER_PROVIDER,
+    registry_path: Path = DEFAULT_REGISTRY_PATH,
 ) -> list[dict[str, str]]:
     """
-    Discover ATS employer-board URLs from the latest
-    Common Crawl URL index.
+    Discover previously unknown ATS employer boards
+    from the latest Common Crawl URL index.
+
+    Existing HirePilot boards are skipped before the
+    per-provider result cap is applied.
 
     Results are candidates only. HirePilot's ATS
     validation pipeline must verify them before they
@@ -277,6 +393,8 @@ def fetch_commoncrawl_ats_companies(
 
     index_name = _get_latest_index()
 
+    known_boards = _load_known_boards(registry_path)
+
     discoveries: list[dict[str, str]] = []
 
     for position, (
@@ -286,20 +404,37 @@ def fetch_commoncrawl_ats_companies(
         if position:
             time.sleep(REQUEST_DELAY_SECONDS)
 
+        provider_known = known_boards.get(
+            provider,
+            set(),
+        )
+
         try:
-            urls = _query_provider(
+            (
+                urls,
+                known_skipped,
+            ) = _query_provider(
                 index_name=index_name,
                 provider=provider,
                 pattern=pattern,
                 max_results=max_per_provider,
+                known_identifiers=(provider_known),
             )
 
         except (
             requests.RequestException,
             RuntimeError,
         ) as exc:
-            print(f"WARNING: Common Crawl discovery failed " f"for {provider}: {exc}")
+            print("WARNING: Common Crawl " "discovery failed for " f"{provider}: {exc}")
             continue
+
+        print(
+            "COMMON CRAWL "
+            f"{provider.upper()}: "
+            f"known={len(provider_known)} | "
+            f"known_skipped={known_skipped} | "
+            f"new_candidates={len(urls)}"
+        )
 
         for url in urls:
             identifier = url.rstrip("/").rsplit("/", 1)[-1]
@@ -309,7 +444,7 @@ def fetch_commoncrawl_ats_companies(
                     "name": identifier,
                     "url": url,
                     "provider_hint": provider,
-                    "discovered_from": f"commoncrawl:{index_name}",
+                    "discovered_from": (f"commoncrawl:{index_name}"),
                 }
             )
 

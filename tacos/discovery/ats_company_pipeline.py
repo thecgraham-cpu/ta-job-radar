@@ -21,6 +21,12 @@ from tacos.discovery.ats_company_validator import (
 
 DEFAULT_VALIDATION_WORKERS = 10
 
+# Workable rate-limits validation much more aggressively than
+# HirePilot's other supported ATS providers. Keep it isolated
+# from the general validation pool so a large Workable discovery
+# batch cannot stall every other provider.
+WORKABLE_VALIDATION_WORKERS = 1
+
 
 def _registered_keys(
     path: Path,
@@ -29,7 +35,11 @@ def _registered_keys(
         return set()
 
     try:
-        data = json.loads(path.read_text(encoding="utf-8"))
+        data = json.loads(
+            path.read_text(
+                encoding="utf-8",
+            )
+        )
     except (
         json.JSONDecodeError,
         OSError,
@@ -132,7 +142,7 @@ def process_discovered_company(
     registration = register_discovered_company(
         name=name,
         url=url,
-        discovered_from=(discovered_from),
+        discovered_from=discovered_from,
         path=path,
     )
 
@@ -157,6 +167,61 @@ def _validate_candidate(
     }
 
 
+def _validate_candidate_group(
+    candidates: list[dict[str, Any]],
+    *,
+    workers: int,
+    rejected_results: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
+    """
+    Validate one provider group concurrently.
+
+    Exceptions are converted into normal rejected results
+    so one broken employer cannot stop the discovery cycle.
+    """
+
+    if not candidates:
+        return []
+
+    validated: list[dict[str, Any]] = []
+
+    with ThreadPoolExecutor(
+        max_workers=max(
+            1,
+            workers,
+        )
+    ) as executor:
+        futures = {
+            executor.submit(
+                _validate_candidate,
+                candidate,
+            ): candidate
+            for candidate in candidates
+        }
+
+        for future in as_completed(futures):
+            candidate = futures[future]
+
+            try:
+                validated.append(future.result())
+
+            except Exception as exc:
+                rejected_results.append(
+                    {
+                        "added": False,
+                        "stage": "validation",
+                        "reason": ("validation_exception"),
+                        "name": candidate["name"],
+                        "url": candidate["url"],
+                        "source": candidate["source"],
+                        "identifier": (candidate["identifier"]),
+                        "error": str(exc),
+                    }
+                )
+
+    return validated
+
+
 def process_discovered_companies(
     discoveries: list[dict[str, str]],
     *,
@@ -166,8 +231,15 @@ def process_discovered_companies(
 ) -> dict[str, Any]:
     """
     Detect a batch, skip already-known boards,
-    validate only new boards concurrently, then
-    register verified employers sequentially.
+    validate only new boards, then register verified
+    employers sequentially.
+
+    Normal ATS providers use the general concurrent
+    validation pool.
+
+    Workable is isolated into a single-worker validation
+    lane because its public endpoint rate-limits large
+    concurrent validation batches.
     """
 
     registered = _registered_keys(path)
@@ -233,41 +305,53 @@ def process_discovered_companies(
             "key": key,
         }
 
+    normal_candidates: list[dict[str, Any]] = []
+
+    workable_candidates: list[dict[str, Any]] = []
+
+    for candidate in candidates.values():
+        if str(candidate["source"]).lower() == "workable":
+            workable_candidates.append(candidate)
+        else:
+            normal_candidates.append(candidate)
+
+    print(
+        "ATS VALIDATION QUEUE: "
+        f"normal={len(normal_candidates)} | "
+        f"workable={len(workable_candidates)}"
+    )
+
     validated: list[dict[str, Any]] = []
 
-    if candidates:
-        with ThreadPoolExecutor(
-            max_workers=max(
-                1,
-                validation_workers,
+    if normal_candidates:
+        print(
+            "VALIDATING NORMAL ATS: "
+            f"{len(normal_candidates)} candidates | "
+            f"{max(1, validation_workers)} workers"
+        )
+
+        validated.extend(
+            _validate_candidate_group(
+                normal_candidates,
+                workers=validation_workers,
+                rejected_results=(rejected_results),
             )
-        ) as executor:
-            futures = {
-                executor.submit(
-                    _validate_candidate,
-                    candidate,
-                ): candidate
-                for candidate in candidates.values()
-            }
+        )
 
-            for future in as_completed(futures):
-                candidate = futures[future]
+    if workable_candidates:
+        print(
+            "VALIDATING WORKABLE: "
+            f"{len(workable_candidates)} candidates | "
+            f"{WORKABLE_VALIDATION_WORKERS} worker"
+        )
 
-                try:
-                    validated.append(future.result())
-                except Exception as exc:
-                    rejected_results.append(
-                        {
-                            "added": False,
-                            "stage": "validation",
-                            "reason": ("validation_exception"),
-                            "name": candidate["name"],
-                            "url": candidate["url"],
-                            "source": candidate["source"],
-                            "identifier": (candidate["identifier"]),
-                            "error": str(exc),
-                        }
-                    )
+        validated.extend(
+            _validate_candidate_group(
+                workable_candidates,
+                workers=(WORKABLE_VALIDATION_WORKERS),
+                rejected_results=(rejected_results),
+            )
+        )
 
     added_results: list[dict[str, Any]] = []
 
@@ -279,17 +363,15 @@ def process_discovered_companies(
                 {
                     "added": False,
                     "stage": "validation",
-                    "reason": (
-                        validation.get(
-                            "reason",
-                            "validation_failed",
-                        )
+                    "reason": validation.get(
+                        "reason",
+                        "validation_failed",
                     ),
                     "name": candidate["name"],
                     "url": candidate["url"],
                     "source": candidate["source"],
                     "identifier": (candidate["identifier"]),
-                    "validation": (validation),
+                    "validation": validation,
                 }
             )
             continue
@@ -309,6 +391,7 @@ def process_discovered_companies(
 
         if result.get("added"):
             added_results.append(result)
+
             registered.add(candidate["key"])
 
         elif result.get("reason") == "already_registered":
