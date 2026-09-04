@@ -11,22 +11,15 @@ from tacos.discovery.job_store import (
     DEFAULT_JOB_STORE_PATH,
     ingest_jobs,
 )
-from tacos.discovery.matcher import (
-    score_job,
-)
-from tacos.discovery.normalizer import (
-    normalize_jobs,
-)
-from tacos.discovery.notifier import (
-    notify_new_job,
-)
+from tacos.discovery.matcher import score_job
+from tacos.discovery.normalizer import normalize_jobs
+from tacos.discovery.notifier import notify_new_job
 from tacos.discovery.user_profile import (
     UserProfile,
     load_user_profile,
 )
 
 DEFAULT_MAX_FRESH_AGE_HOURS = 48.0
-
 
 US_STATE_CODES = {
     "AL",
@@ -82,7 +75,6 @@ US_STATE_CODES = {
     "DC",
 }
 
-
 FOREIGN_COUNTRY_TERMS = {
     "argentina",
     "australia",
@@ -136,9 +128,7 @@ def _now_utc() -> datetime:
     return datetime.now(timezone.utc)
 
 
-def _clean(
-    value: Any,
-) -> str:
+def _clean(value: Any) -> str:
     if value is None:
         return ""
 
@@ -155,8 +145,8 @@ def _is_recruiting_job(
     """
     Broad first-pass recruiting / TA filter.
 
-    We intentionally favor recall here. Matching and
-    eligibility checks become more selective later.
+    Recall is intentionally favored here. Matching,
+    geography, and freshness become more selective later.
     """
 
     title = _clean(job.get("title") or job.get("name") or job.get("text")).lower()
@@ -199,23 +189,13 @@ def _parse_posted_at(
     *,
     now: datetime | None = None,
 ) -> datetime | None:
-    """
-    Convert common ATS publication timestamps into UTC.
-    """
-
     if value is None:
         return None
 
     if now is None:
         now = _now_utc()
 
-    if isinstance(
-        value,
-        (
-            int,
-            float,
-        ),
-    ):
+    if isinstance(value, (int, float)):
         timestamp = float(value)
 
         if timestamp > 10_000_000_000:
@@ -226,7 +206,6 @@ def _parse_posted_at(
                 timestamp,
                 tz=timezone.utc,
             )
-
         except (
             OverflowError,
             OSError,
@@ -260,7 +239,6 @@ def _parse_posted_at(
 
     if relative_match:
         amount = int(relative_match.group(1))
-
         unit = relative_match.group(2)
 
         if unit.startswith("minute"):
@@ -279,12 +257,13 @@ def _parse_posted_at(
 
     try:
         parsed = datetime.fromisoformat(iso_text)
-
     except ValueError:
         return None
 
     if parsed.tzinfo is None:
-        parsed = parsed.replace(tzinfo=timezone.utc)
+        parsed = parsed.replace(
+            tzinfo=timezone.utc,
+        )
 
     return parsed.astimezone(timezone.utc)
 
@@ -328,16 +307,15 @@ def _freshness(
         return {
             "fresh": False,
             "age_hours": None,
-            "reason": ("Posting age unavailable"),
+            "reason": "Posting age unavailable",
         }
 
     fresh = age_hours <= max_age_hours
 
     if fresh:
-        reason = f"Posted {age_hours:.2f} " "hours ago"
-
+        reason = f"Posted {age_hours:.2f} hours ago"
     else:
-        reason = f"Posting is {age_hours:.2f} " "hours old"
+        reason = f"Posting is {age_hours:.2f} hours old"
 
     return {
         "fresh": fresh,
@@ -352,14 +330,6 @@ def _freshness(
 def _contains_us_state(
     location: str,
 ) -> bool:
-    """
-    Detect common US state abbreviations in locations such as:
-
-        Austin, TX
-        Roseville, CA
-        New York, NY
-    """
-
     tokens = re.findall(
         r"\b[A-Za-z]{2}\b",
         location,
@@ -379,9 +349,7 @@ def _foreign_country(
         reverse=True,
     ):
         if re.search(
-            rf"\b{
-                re.escape(country)
-            }\b",
+            rf"\b{re.escape(country)}\b",
             lowered,
         ):
             return country
@@ -393,16 +361,6 @@ def _location_eligibility(
     job: dict[str, Any],
     profile: UserProfile,
 ) -> dict[str, Any]:
-    """
-    Determine whether geography is viable.
-
-    This is separate from match scoring.
-
-    A role can have excellent keywords but still be
-    ineligible because it is clearly located outside
-    the user's target geography.
-    """
-
     location = _clean(job.get("location"))
 
     lowered = location.lower()
@@ -411,15 +369,12 @@ def _location_eligibility(
 
     foreign_country = _foreign_country(location) if location else None
 
-    # Explicit foreign geography wins over generic
-    # keyword matching.
     if foreign_country:
         return {
             "eligible": False,
             "reason": ("Outside target geography: " f"{foreign_country.title()}"),
         }
 
-    # Explicit US markers.
     if any(
         marker in lowered
         for marker in (
@@ -431,42 +386,36 @@ def _location_eligibility(
     ):
         return {
             "eligible": True,
-            "reason": ("United States location"),
+            "reason": "United States location",
         }
 
-    # State abbreviation.
     if location and _contains_us_state(location):
         return {
             "eligible": True,
-            "reason": ("US state location"),
+            "reason": "US state location",
         }
 
-    # Profile-specific geography.
     for preferred in profile.preferred_locations:
         preferred_clean = _clean(preferred).lower()
 
         if preferred_clean and preferred_clean in lowered:
             return {
                 "eligible": True,
-                "reason": ("Matches preferred " "location"),
+                "reason": "Matches preferred location",
             }
 
-    # Remote jobs remain viable unless their
-    # location explicitly identified a foreign country.
     if remote:
         return {
             "eligible": True,
-            "reason": ("Remote opportunity"),
+            "reason": "Remote opportunity",
         }
 
     if "remote" in lowered:
         return {
             "eligible": True,
-            "reason": ("Remote location"),
+            "reason": "Remote location",
         }
 
-    # We do not want to throw away a potentially valid
-    # role solely because an ATS omitted country/state data.
     if not location:
         return {
             "eligible": True,
@@ -490,22 +439,9 @@ def _score_new_jobs(
     list[dict[str, Any]],
     list[dict[str, Any]],
 ]:
-    """
-    Score and classify newly discovered jobs.
-
-    Returns:
-        scored jobs
-        profile matches
-        eligible profile matches
-        alertable matches
-    """
-
     scored_jobs: list[dict[str, Any]] = []
-
     matched_jobs: list[dict[str, Any]] = []
-
     eligible_matches: list[dict[str, Any]] = []
-
     alertable_matches: list[dict[str, Any]] = []
 
     now = _now_utc()
@@ -518,7 +454,7 @@ def _score_new_jobs(
 
         freshness = _freshness(
             job,
-            max_age_hours=(max_fresh_age_hours),
+            max_age_hours=max_fresh_age_hours,
             now=now,
         )
 
@@ -529,11 +465,11 @@ def _score_new_jobs(
 
         enriched = {
             **job,
-            "match_score": (match["score"]),
-            "matched": (match["matched"]),
-            "match_reasons": (match["reasons"]),
-            "match_penalties": (match["penalties"]),
-            "fresh": (freshness["fresh"]),
+            "match_score": match["score"],
+            "matched": match["matched"],
+            "match_reasons": match["reasons"],
+            "match_penalties": match["penalties"],
+            "fresh": freshness["fresh"],
             "posting_age_hours": (freshness["age_hours"]),
             "freshness_reason": (freshness["reason"]),
             "eligible": (eligibility["eligible"]),
@@ -595,63 +531,13 @@ def _score_new_jobs(
     )
 
 
-def process_raw_jobs(
+def _classification_result(
     *,
-    jobs: list[dict[str, Any]],
-    source: str,
-    company: str,
-    identifier: str | None = None,
-    discovery_source: str | None = None,
-    profile: UserProfile | None = None,
-    recruiting_only: bool = True,
-    send_notifications: bool = True,
-    max_fresh_age_hours: float = (DEFAULT_MAX_FRESH_AGE_HOURS),
-    store_path: Path = (DEFAULT_JOB_STORE_PATH),
+    new_jobs: list[dict[str, Any]],
+    profile: UserProfile,
+    send_notifications: bool,
+    max_fresh_age_hours: float,
 ) -> dict[str, Any]:
-    """
-    Process one batch of raw ATS jobs.
-
-    Flow:
-
-        raw jobs
-        -> recruiting filter
-        -> normalize
-        -> deduplicate
-        -> match
-        -> location eligibility
-        -> freshness
-        -> notify
-    """
-
-    if profile is None:
-        profile = load_user_profile()
-
-    received = len(jobs)
-
-    if recruiting_only:
-        relevant_raw_jobs = [job for job in jobs if _is_recruiting_job(job)]
-
-    else:
-        relevant_raw_jobs = jobs
-
-    normalized = normalize_jobs(
-        jobs=relevant_raw_jobs,
-        source=source,
-        company=company,
-        identifier=identifier,
-    )
-
-    store_result = ingest_jobs(
-        normalized,
-        discovery_source=(discovery_source or source),
-        path=store_path,
-    )
-
-    new_jobs = store_result.get(
-        "new_jobs",
-        [],
-    )
-
     (
         scored_jobs,
         matched_jobs,
@@ -660,7 +546,7 @@ def process_raw_jobs(
     ) = _score_new_jobs(
         new_jobs,
         profile,
-        max_fresh_age_hours=(max_fresh_age_hours),
+        max_fresh_age_hours=max_fresh_age_hours,
     )
 
     notification_results: list[dict[str, Any]] = []
@@ -680,12 +566,199 @@ def process_raw_jobs(
     stale_eligible_matches = [job for job in eligible_matches if not job.get("fresh")]
 
     return {
+        "scored_jobs": scored_jobs,
+        "matched_jobs": matched_jobs,
+        "eligible_matches": eligible_matches,
+        "ineligible_matches": (ineligible_matches),
+        "fresh_matches": alertable_matches,
+        "stale_matches": (stale_eligible_matches),
+        "notifications_sent": (notifications_sent),
+        "notification_failures": (notification_failures),
+    }
+
+
+def prepare_raw_jobs(
+    *,
+    jobs: list[dict[str, Any]],
+    source: str,
+    company: str,
+    identifier: str | None = None,
+    recruiting_only: bool = True,
+) -> dict[str, Any]:
+    """
+    Normalize a company batch without touching the job store.
+
+    This is used by the live lane runner so many company
+    results can be persisted in one store transaction.
+    """
+
+    received = len(jobs)
+
+    if recruiting_only:
+        relevant_raw_jobs = [job for job in jobs if _is_recruiting_job(job)]
+    else:
+        relevant_raw_jobs = jobs
+
+    normalized = normalize_jobs(
+        jobs=relevant_raw_jobs,
+        source=source,
+        company=company,
+        identifier=identifier,
+    )
+
+    return {
+        "status": "prepared",
+        "source": source,
+        "company": company,
+        "identifier": identifier,
+        "received": received,
+        "recruiting_candidates": len(relevant_raw_jobs),
+        "normalized": normalized,
+    }
+
+
+def process_prepared_jobs(
+    *,
+    prepared_batches: list[dict[str, Any]],
+    discovery_source: str,
+    profile: UserProfile | None = None,
+    send_notifications: bool = True,
+    max_fresh_age_hours: float = (DEFAULT_MAX_FRESH_AGE_HOURS),
+    store_path: Path = (DEFAULT_JOB_STORE_PATH),
+) -> dict[str, Any]:
+    """
+    Persist many prepared company batches in ONE job-store
+    transaction, then score/notify only genuinely new jobs.
+    """
+
+    if profile is None:
+        profile = load_user_profile()
+
+    all_normalized: list[dict[str, Any]] = []
+
+    for batch in prepared_batches:
+        normalized = batch.get(
+            "normalized",
+            [],
+        )
+
+        if isinstance(normalized, list):
+            all_normalized.extend(normalized)
+
+    store_result = ingest_jobs(
+        all_normalized,
+        discovery_source=discovery_source,
+        path=store_path,
+    )
+
+    new_jobs = store_result.get(
+        "new_jobs",
+        [],
+    )
+
+    classification = _classification_result(
+        new_jobs=new_jobs,
+        profile=profile,
+        send_notifications=send_notifications,
+        max_fresh_age_hours=(max_fresh_age_hours),
+    )
+
+    return {
+        "status": "completed",
+        "normalized": len(all_normalized),
+        "new_jobs": len(new_jobs),
+        "existing_jobs": int(
+            store_result.get(
+                "existing",
+                0,
+            )
+        ),
+        "invalid_jobs": int(
+            store_result.get(
+                "invalid",
+                0,
+            )
+        ),
+        "scored_jobs": len(classification["scored_jobs"]),
+        "matched_jobs": len(classification["matched_jobs"]),
+        "eligible_matches": len(classification["eligible_matches"]),
+        "ineligible_matches": len(classification["ineligible_matches"]),
+        "fresh_matches": len(classification["fresh_matches"]),
+        "stale_matches": len(classification["stale_matches"]),
+        "notifications_sent": (classification["notifications_sent"]),
+        "notification_failures": (classification["notification_failures"]),
+        "matches": (classification["matched_jobs"]),
+        "eligible_match_jobs": (classification["eligible_matches"]),
+        "ineligible_match_jobs": (classification["ineligible_matches"]),
+        "fresh_match_jobs": (classification["fresh_matches"]),
+        "stale_match_jobs": (classification["stale_matches"]),
+        "store_total": int(
+            store_result.get(
+                "total_jobs",
+                0,
+            )
+        ),
+        "freshness_window_hours": (max_fresh_age_hours),
+    }
+
+
+def process_raw_jobs(
+    *,
+    jobs: list[dict[str, Any]],
+    source: str,
+    company: str,
+    identifier: str | None = None,
+    discovery_source: str | None = None,
+    profile: UserProfile | None = None,
+    recruiting_only: bool = True,
+    send_notifications: bool = True,
+    max_fresh_age_hours: float = (DEFAULT_MAX_FRESH_AGE_HOURS),
+    store_path: Path = (DEFAULT_JOB_STORE_PATH),
+) -> dict[str, Any]:
+    """
+    Backward-compatible single-batch processing.
+
+    Existing callers keep the original behavior.
+    """
+
+    if profile is None:
+        profile = load_user_profile()
+
+    prepared = prepare_raw_jobs(
+        jobs=jobs,
+        source=source,
+        company=company,
+        identifier=identifier,
+        recruiting_only=recruiting_only,
+    )
+
+    normalized = prepared["normalized"]
+
+    store_result = ingest_jobs(
+        normalized,
+        discovery_source=(discovery_source or source),
+        path=store_path,
+    )
+
+    new_jobs = store_result.get(
+        "new_jobs",
+        [],
+    )
+
+    classification = _classification_result(
+        new_jobs=new_jobs,
+        profile=profile,
+        send_notifications=send_notifications,
+        max_fresh_age_hours=(max_fresh_age_hours),
+    )
+
+    return {
         "status": "completed",
         "source": source,
         "discovery_source": (discovery_source or source),
         "company": company,
-        "received": received,
-        "recruiting_candidates": len(relevant_raw_jobs),
+        "received": prepared["received"],
+        "recruiting_candidates": (prepared["recruiting_candidates"]),
         "normalized": len(normalized),
         "new_jobs": len(new_jobs),
         "existing_jobs": int(
@@ -700,19 +773,19 @@ def process_raw_jobs(
                 0,
             )
         ),
-        "scored_jobs": len(scored_jobs),
-        "matched_jobs": len(matched_jobs),
-        "eligible_matches": len(eligible_matches),
-        "ineligible_matches": len(ineligible_matches),
-        "fresh_matches": len(alertable_matches),
-        "stale_matches": len(stale_eligible_matches),
-        "notifications_sent": (notifications_sent),
-        "notification_failures": (notification_failures),
-        "matches": matched_jobs,
-        "eligible_match_jobs": (eligible_matches),
-        "ineligible_match_jobs": (ineligible_matches),
-        "fresh_match_jobs": (alertable_matches),
-        "stale_match_jobs": (stale_eligible_matches),
+        "scored_jobs": len(classification["scored_jobs"]),
+        "matched_jobs": len(classification["matched_jobs"]),
+        "eligible_matches": len(classification["eligible_matches"]),
+        "ineligible_matches": len(classification["ineligible_matches"]),
+        "fresh_matches": len(classification["fresh_matches"]),
+        "stale_matches": len(classification["stale_matches"]),
+        "notifications_sent": (classification["notifications_sent"]),
+        "notification_failures": (classification["notification_failures"]),
+        "matches": (classification["matched_jobs"]),
+        "eligible_match_jobs": (classification["eligible_matches"]),
+        "ineligible_match_jobs": (classification["ineligible_matches"]),
+        "fresh_match_jobs": (classification["fresh_matches"]),
+        "stale_match_jobs": (classification["stale_matches"]),
         "store_total": int(
             store_result.get(
                 "total_jobs",

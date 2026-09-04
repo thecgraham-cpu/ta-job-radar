@@ -18,7 +18,7 @@ REQUEST_TIMEOUT_SECONDS = 30
 #
 # All Workable worker threads share this pacing lock so requests
 # are spaced apart instead of hitting Workable simultaneously.
-MIN_REQUEST_INTERVAL_SECONDS = 1.25
+MIN_REQUEST_INTERVAL_SECONDS = 0.30
 
 MAX_RETRIES = 4
 RETRY_BASE_DELAY_SECONDS = 5.0
