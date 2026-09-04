@@ -32,6 +32,8 @@ DEFAULT_WORKERS = 20
 
 WORKDAY_MAX_PAGES = 2
 
+WORKDAY_SAFETY_MAX_PAGES = 1
+
 WORKDAY_SEARCH_TERMS = ("talent acquisition",)
 
 SMARTRECRUITERS_SAFETY_LOOKBACK_HOURS = 6
@@ -162,6 +164,16 @@ LANE_CONFIG = {
         "shard_count": 8,
         "start_delay_seconds": 225,
     },
+    "workday_safety": {
+        "providers": {
+            "workday",
+        },
+        "interval_seconds": 300,
+        "workers": 4,
+        "shard_index": 0,
+        "shard_count": 1,
+        "start_delay_seconds": 120,
+    },
 }
 
 
@@ -255,6 +267,18 @@ def _fetch_raw_jobs(
     if fetcher is None:
         raise RuntimeError(f"No fetcher registered for {provider}")
 
+    if provider == "workday" and lane_name == "workday_safety":
+        result = fetcher(
+            identifier,
+            max_pages=(WORKDAY_SAFETY_MAX_PAGES),
+            search_text="",
+        )
+
+        return {
+            **result,
+            "mode": "recent_page_safety",
+        }
+
     if provider == "workday":
         combined_jobs: list[dict[str, Any]] = []
 
@@ -290,6 +314,7 @@ def _fetch_raw_jobs(
             "board": identifier,
             "count": len(combined_jobs),
             "jobs": combined_jobs,
+            "mode": "targeted",
         }
 
     if provider == "smartrecruiters" and lane_name == "smartrecruiters_safety":
