@@ -186,7 +186,7 @@ def register_discovered_company(
             "career_page": url,
             "verified_at": _now_iso(),
         },
-        "discovered_from": (discovered_from),
+        "discovered_from": [discovered_from],
     }
 
     companies.append(company)
