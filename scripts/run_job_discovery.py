@@ -863,15 +863,20 @@ def _run_lane_forever(
 
         elapsed = time.perf_counter() - cycle_started
 
+        wait_seconds = max(
+            0.0,
+            interval_seconds - elapsed,
+        )
+
         print(
             f"{lane_name.upper()} "
             "lane cycle complete | "
             f"runtime={elapsed:.2f}s | "
-            "cooldown="
-            f"{interval_seconds}s"
+            f"next_start_in={wait_seconds:.2f}s | "
+            f"cadence={interval_seconds}s"
         )
 
-        if stop_event.wait(interval_seconds):
+        if stop_event.wait(wait_seconds):
             return
 
 
