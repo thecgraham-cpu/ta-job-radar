@@ -14,14 +14,17 @@ WORKABLE_API_URL = "https://www.workable.com/api/accounts/{subdomain}"
 
 REQUEST_TIMEOUT_SECONDS = 30
 
-# Workable rate-limit protection.
-#
-# All Workable worker threads share this pacing lock so requests
-# are spaced apart instead of hitting Workable simultaneously.
-MIN_REQUEST_INTERVAL_SECONDS = 0.30
-
+# Normal Workable job scanning should remain resilient to temporary
+# network/server failures.
 MAX_RETRIES = 4
 RETRY_BASE_DELAY_SECONDS = 5.0
+
+# Employer discovery is different. We may be validating hundreds of
+# previously unseen boards, so a rate-limited board should be deferred
+# instead of blocking the entire discovery cycle with long backoffs.
+VALIDATION_MAX_RETRIES = 1
+VALIDATION_TIMEOUT_SECONDS = 12
+
 RETRYABLE_STATUS_CODES = {
     429,
     500,
@@ -29,6 +32,11 @@ RETRYABLE_STATUS_CODES = {
     503,
     504,
 }
+
+# All Workable requests inside this Python process share the same pacing
+# lock. This protects both normal scanning and employer discovery from
+# firing simultaneous Workable requests.
+MIN_REQUEST_INTERVAL_SECONDS = 0.30
 
 _REQUEST_LOCK = threading.Lock()
 _LAST_REQUEST_STARTED = 0.0
@@ -77,7 +85,10 @@ def _retry_after_seconds(
     value = value.strip()
 
     try:
-        return max(0.0, float(value))
+        return max(
+            0.0,
+            float(value),
+        )
     except ValueError:
         pass
 
@@ -95,7 +106,11 @@ def _retry_after_seconds(
             retry_timestamp - now,
         )
 
-    except (TypeError, ValueError, OverflowError):
+    except (
+        TypeError,
+        ValueError,
+        OverflowError,
+    ):
         return None
 
 
@@ -119,30 +134,49 @@ def _backoff_seconds(
 
     base_delay = RETRY_BASE_DELAY_SECONDS * (2**attempt)
 
-    jitter = random.uniform(0.0, 1.0)
+    jitter = random.uniform(
+        0.0,
+        1.0,
+    )
 
     return base_delay + jitter
 
 
 def _get_workable(
     url: str,
+    *,
+    validation_mode: bool = False,
 ) -> requests.Response:
     """
-    Make a paced Workable request with transient-error retries.
+    Make a paced Workable request.
+
+    Normal scanning:
+        Uses transient-error retries and exponential backoff.
+
+    Employer validation:
+        Makes one paced request and fails quickly on rate limiting
+        or transient server errors. The board can be reconsidered
+        by a later employer-discovery cycle.
     """
+
+    max_retries = VALIDATION_MAX_RETRIES if validation_mode else MAX_RETRIES
+
+    timeout = VALIDATION_TIMEOUT_SECONDS if validation_mode else REQUEST_TIMEOUT_SECONDS
 
     last_error: Exception | None = None
 
-    for attempt in range(MAX_RETRIES):
+    for attempt in range(max_retries):
         _wait_for_request_slot()
 
         try:
             response = requests.get(
                 url,
-                params={"details": "true"},
-                timeout=REQUEST_TIMEOUT_SECONDS,
+                params={
+                    "details": "true",
+                },
+                timeout=timeout,
                 headers={
-                    "User-Agent": "Mozilla/5.0 HirePilot/1.0",
+                    "User-Agent": ("Mozilla/5.0 HirePilot/1.0"),
                 },
             )
 
@@ -152,7 +186,10 @@ def _get_workable(
         ) as exc:
             last_error = exc
 
-            if attempt >= MAX_RETRIES - 1:
+            if validation_mode:
+                break
+
+            if attempt >= max_retries - 1:
                 break
 
             delay = _backoff_seconds(attempt)
@@ -170,11 +207,18 @@ def _get_workable(
             return response
 
         last_error = requests.HTTPError(
-            f"{response.status_code} error " f"for Workable request: {response.url}",
+            (
+                f"{response.status_code} error "
+                "for Workable request: "
+                f"{response.url}"
+            ),
             response=response,
         )
 
-        if attempt >= MAX_RETRIES - 1:
+        if validation_mode:
+            break
+
+        if attempt >= max_retries - 1:
             break
 
         delay = _backoff_seconds(
@@ -198,15 +242,17 @@ def _get_workable(
 
 def fetch_workable_jobs(
     subdomain: str,
+    *,
+    validation_mode: bool = False,
 ) -> dict[str, Any]:
     """
     Fetch all public jobs from one Workable account.
 
-    Workable exposes a public jobs endpoint that does not
-    require authentication.
+    Normal HirePilot scanning uses the resilient retry path.
 
-    Requests are globally paced and transient failures are
-    retried automatically.
+    Employer discovery may set validation_mode=True so a
+    rate-limited candidate is deferred quickly instead of
+    blocking a large discovery batch.
     """
 
     subdomain = subdomain.strip().strip("/")
@@ -218,15 +264,24 @@ def fetch_workable_jobs(
         subdomain=subdomain,
     )
 
-    response = _get_workable(url)
+    response = _get_workable(
+        url,
+        validation_mode=validation_mode,
+    )
 
     response.raise_for_status()
 
     payload = response.json()
 
-    jobs = payload.get("jobs", [])
+    jobs = payload.get(
+        "jobs",
+        [],
+    )
 
-    if not isinstance(jobs, list):
+    if not isinstance(
+        jobs,
+        list,
+    ):
         jobs = []
 
     return {

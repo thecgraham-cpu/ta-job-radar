@@ -4,7 +4,12 @@ from __future__ import annotations
 
 from typing import Any
 
-from tacos.discovery.providers import get_provider_fetcher
+from tacos.discovery.providers import (
+    get_provider_fetcher,
+)
+from tacos.discovery.parsers.workable_jobs import (
+    fetch_workable_jobs,
+)
 
 SUPPORTED_VALIDATION_PROVIDERS = {
     "greenhouse",
@@ -23,9 +28,14 @@ def validate_ats_company(
     """
     Verify that an ATS identifier resolves to a real,
     currently accessible public job board.
+
+    Workable uses its discovery-specific validation mode
+    so a temporary 429 does not trigger the normal scanner's
+    long retry/backoff behavior.
     """
 
     source = source.lower().strip()
+
     identifier = identifier.strip().strip("/")
 
     if source not in SUPPORTED_VALIDATION_PROVIDERS:
@@ -47,12 +57,22 @@ def validate_ats_company(
         }
 
     try:
-        fetcher = get_provider_fetcher(source)
-        result = fetcher(identifier)
+        if source == "workable":
+            result = fetch_workable_jobs(
+                identifier,
+                validation_mode=True,
+            )
+        else:
+            fetcher = get_provider_fetcher(source)
+
+            result = fetcher(identifier)
 
         jobs = result.get("jobs") or []
 
-        if not isinstance(jobs, list):
+        if not isinstance(
+            jobs,
+            list,
+        ):
             return {
                 "valid": False,
                 "source": source,
