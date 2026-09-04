@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import random
+import re
 import time
 from pathlib import Path
 from typing import Any
@@ -35,24 +36,39 @@ DEFAULT_REGISTRY_PATH = Path("companies.json")
 
 
 ATS_PATTERNS = {
-    "greenhouse": "boards.greenhouse.io/*",
-    "ashby": "jobs.ashbyhq.com/*",
-    "lever": "jobs.lever.co/*",
-    "smartrecruiters": "jobs.smartrecruiters.com/*",
-    "workable": "apply.workable.com/*",
+    "greenhouse": [
+        "boards.greenhouse.io/*",
+        "job-boards.greenhouse.io/*",
+    ],
+    "ashby": [
+        "jobs.ashbyhq.com/*",
+    ],
+    "lever": [
+        "jobs.lever.co/*",
+    ],
+    "smartrecruiters": [
+        "jobs.smartrecruiters.com/*",
+    ],
+    "workable": [
+        "apply.workable.com/*",
+    ],
 }
 
 
-def _retry_delay(attempt: int) -> float:
-    """
-    Exponential backoff with a small amount of jitter.
+INVALID_FIRST_PATH_SEGMENTS = {
+    "robots.txt",
+    "favicon.ico",
+    "sitemap.xml",
+    "sitemap_index.xml",
+}
 
-    attempt=0 -> ~2 seconds
-    attempt=1 -> ~4 seconds
-    attempt=2 -> ~8 seconds
-    attempt=3 -> ~16 seconds
-    """
 
+IDENTIFIER_PATTERN = re.compile(r"^[A-Za-z0-9._-]+$")
+
+
+def _retry_delay(
+    attempt: int,
+) -> float:
     base_delay = RETRY_BASE_DELAY_SECONDS * (2**attempt)
 
     jitter = random.uniform(
@@ -68,13 +84,6 @@ def _get_with_retries(
     *,
     params: dict[str, str] | None = None,
 ) -> requests.Response:
-    """
-    GET a Common Crawl endpoint and retry temporary
-    network/server failures.
-
-    Permanent HTTP errors are raised immediately.
-    """
-
     last_error: Exception | None = None
 
     for attempt in range(MAX_RETRIES):
@@ -147,6 +156,31 @@ def _get_latest_index() -> str:
     return str(collections[0]["id"])
 
 
+def _valid_identifier(
+    identifier: str,
+) -> bool:
+    """
+    Reject obvious non-company path segments before
+    spending ATS validation requests on them.
+    """
+
+    identifier = identifier.strip()
+
+    if not identifier:
+        return False
+
+    if identifier.lower() in INVALID_FIRST_PATH_SEGMENTS:
+        return False
+
+    if len(identifier) > 120:
+        return False
+
+    if not IDENTIFIER_PATTERN.fullmatch(identifier):
+        return False
+
+    return True
+
+
 def _extract_board_url(
     provider: str,
     raw_url: str,
@@ -168,11 +202,17 @@ def _extract_board_url(
 
     first = parts[0]
 
+    if not _valid_identifier(first):
+        return None
+
     if provider == "greenhouse":
-        if host != "boards.greenhouse.io":
+        if host not in {
+            "boards.greenhouse.io",
+            "job-boards.greenhouse.io",
+        }:
             return None
 
-        return "https://boards.greenhouse.io/" f"{first}"
+        return "https://job-boards.greenhouse.io/" f"{first}"
 
     if provider == "ashby":
         if host != "jobs.ashbyhq.com":
@@ -207,13 +247,6 @@ def _extract_board_url(
 def _load_known_boards(
     path: Path = DEFAULT_REGISTRY_PATH,
 ) -> dict[str, set[str]]:
-    """
-    Load ATS provider/identifier pairs already monitored.
-
-    Common Crawl uses this before applying its candidate
-    cap so known boards do not consume discovery slots.
-    """
-
     known: dict[str, set[str]] = {provider: set() for provider in ATS_PATTERNS}
 
     if not path.exists():
@@ -270,33 +303,23 @@ def _load_known_boards(
 def _board_identifier(
     board_url: str,
 ) -> str:
-    """
-    Return the normalized ATS identifier from a
-    canonical board URL.
-    """
-
     return board_url.rstrip("/").rsplit("/", 1)[-1].strip().lower()
 
 
-def _query_provider(
+def _query_pattern(
     *,
     index_name: str,
     provider: str,
     pattern: str,
-    max_results: int,
     known_identifiers: set[str],
+    seen_identifiers: set[str],
+    remaining_results: int,
 ) -> tuple[
     list[str],
     int,
 ]:
-    """
-    Query one ATS provider.
-
-    Already-monitored identifiers are skipped before
-    max_results is applied. This prevents the same
-    first N known boards from consuming every discovery
-    cycle.
-    """
+    if remaining_results <= 0:
+        return [], 0
 
     endpoint = "https://index.commoncrawl.org/" f"{index_name}-index"
 
@@ -316,8 +339,6 @@ def _query_provider(
         return [], 0
 
     response.raise_for_status()
-
-    seen: set[str] = set()
 
     results: list[str] = []
 
@@ -347,14 +368,12 @@ def _query_provider(
         if not board_url:
             continue
 
-        key = board_url.lower()
+        identifier = _board_identifier(board_url)
 
-        if key in seen:
+        if identifier in seen_identifiers:
             continue
 
-        seen.add(key)
-
-        identifier = _board_identifier(board_url)
+        seen_identifiers.add(identifier)
 
         if identifier in known_identifiers:
             known_skipped += 1
@@ -362,8 +381,65 @@ def _query_provider(
 
         results.append(board_url)
 
-        if len(results) >= max_results:
+        if len(results) >= remaining_results:
             break
+
+    return (
+        results,
+        known_skipped,
+    )
+
+
+def _query_provider(
+    *,
+    index_name: str,
+    provider: str,
+    patterns: list[str],
+    max_results: int,
+    known_identifiers: set[str],
+) -> tuple[
+    list[str],
+    int,
+]:
+    results: list[str] = []
+
+    known_skipped = 0
+
+    seen_identifiers: set[str] = set()
+
+    for position, pattern in enumerate(patterns):
+        remaining_results = max_results - len(results)
+
+        if remaining_results <= 0:
+            break
+
+        if position:
+            time.sleep(REQUEST_DELAY_SECONDS)
+
+        (
+            pattern_results,
+            pattern_known_skipped,
+        ) = _query_pattern(
+            index_name=index_name,
+            provider=provider,
+            pattern=pattern,
+            known_identifiers=(known_identifiers),
+            seen_identifiers=(seen_identifiers),
+            remaining_results=(remaining_results),
+        )
+
+        results.extend(pattern_results)
+
+        known_skipped += pattern_known_skipped
+
+        print(
+            "COMMON CRAWL PATTERN: "
+            f"{provider} | "
+            f"{pattern} | "
+            f"new={len(pattern_results)} | "
+            f"known_skipped="
+            f"{pattern_known_skipped}"
+        )
 
     return (
         results,
@@ -373,24 +449,9 @@ def _query_provider(
 
 def fetch_commoncrawl_ats_companies(
     *,
-    max_per_provider: int = MAX_RESULTS_PER_PROVIDER,
-    registry_path: Path = DEFAULT_REGISTRY_PATH,
+    max_per_provider: int = (MAX_RESULTS_PER_PROVIDER),
+    registry_path: Path = (DEFAULT_REGISTRY_PATH),
 ) -> list[dict[str, str]]:
-    """
-    Discover previously unknown ATS employer boards
-    from the latest Common Crawl URL index.
-
-    Existing HirePilot boards are skipped before the
-    per-provider result cap is applied.
-
-    Results are candidates only. HirePilot's ATS
-    validation pipeline must verify them before they
-    enter the live company registry.
-
-    A failure querying one ATS provider does not stop
-    discovery for the remaining providers.
-    """
-
     index_name = _get_latest_index()
 
     known_boards = _load_known_boards(registry_path)
@@ -399,7 +460,7 @@ def fetch_commoncrawl_ats_companies(
 
     for position, (
         provider,
-        pattern,
+        patterns,
     ) in enumerate(ATS_PATTERNS.items()):
         if position:
             time.sleep(REQUEST_DELAY_SECONDS)
@@ -416,8 +477,8 @@ def fetch_commoncrawl_ats_companies(
             ) = _query_provider(
                 index_name=index_name,
                 provider=provider,
-                pattern=pattern,
-                max_results=max_per_provider,
+                patterns=patterns,
+                max_results=(max_per_provider),
                 known_identifiers=(provider_known),
             )
 
@@ -443,8 +504,8 @@ def fetch_commoncrawl_ats_companies(
                 {
                     "name": identifier,
                     "url": url,
-                    "provider_hint": provider,
-                    "discovered_from": (f"commoncrawl:{index_name}"),
+                    "provider_hint": (provider),
+                    "discovered_from": (f"commoncrawl:" f"{index_name}"),
                 }
             )
 
