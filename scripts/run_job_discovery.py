@@ -48,7 +48,7 @@ SUPPORTED_LIVE_PROVIDERS = {
 }
 
 LANE_CONFIG = {
-    "fast": {
+    "fast_a": {
         "providers": {
             "greenhouse",
             "ashby",
@@ -57,8 +57,44 @@ LANE_CONFIG = {
         "interval_seconds": 60,
         "workers": 20,
         "shard_index": 0,
-        "shard_count": 1,
+        "shard_count": 4,
         "start_delay_seconds": 0,
+    },
+    "fast_b": {
+        "providers": {
+            "greenhouse",
+            "ashby",
+            "lever",
+        },
+        "interval_seconds": 60,
+        "workers": 20,
+        "shard_index": 1,
+        "shard_count": 4,
+        "start_delay_seconds": 15,
+    },
+    "fast_c": {
+        "providers": {
+            "greenhouse",
+            "ashby",
+            "lever",
+        },
+        "interval_seconds": 60,
+        "workers": 20,
+        "shard_index": 2,
+        "shard_count": 4,
+        "start_delay_seconds": 30,
+    },
+    "fast_d": {
+        "providers": {
+            "greenhouse",
+            "ashby",
+            "lever",
+        },
+        "interval_seconds": 60,
+        "workers": 20,
+        "shard_index": 3,
+        "shard_count": 4,
+        "start_delay_seconds": 45,
     },
     "heavy_a": {
         "providers": {
