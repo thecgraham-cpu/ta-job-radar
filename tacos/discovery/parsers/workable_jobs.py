@@ -12,11 +12,11 @@ import requests
 
 WORKABLE_API_URL = "https://www.workable.com/api/accounts/{subdomain}"
 
-REQUEST_TIMEOUT_SECONDS = 30
+REQUEST_TIMEOUT_SECONDS = 10
 
 # Normal Workable job scanning should remain resilient to temporary
 # network/server failures.
-MAX_RETRIES = 4
+MAX_RETRIES = 2
 RETRY_BASE_DELAY_SECONDS = 5.0
 
 # Employer discovery is different. We may be validating hundreds of
