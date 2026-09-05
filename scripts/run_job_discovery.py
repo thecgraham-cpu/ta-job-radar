@@ -57,7 +57,7 @@ LANE_CONFIG = {
         "interval_seconds": 60,
         "workers": 20,
         "shard_index": 0,
-        "shard_count": 8,
+        "shard_count": 4,
         "start_delay_seconds": 0,
     },
     "fast_b": {
@@ -69,8 +69,8 @@ LANE_CONFIG = {
         "interval_seconds": 60,
         "workers": 20,
         "shard_index": 1,
-        "shard_count": 8,
-        "start_delay_seconds": 8,
+        "shard_count": 4,
+        "start_delay_seconds": 15,
     },
     "fast_c": {
         "providers": {
@@ -81,8 +81,8 @@ LANE_CONFIG = {
         "interval_seconds": 60,
         "workers": 20,
         "shard_index": 2,
-        "shard_count": 8,
-        "start_delay_seconds": 15,
+        "shard_count": 4,
+        "start_delay_seconds": 30,
     },
     "fast_d": {
         "providers": {
@@ -93,56 +93,8 @@ LANE_CONFIG = {
         "interval_seconds": 60,
         "workers": 20,
         "shard_index": 3,
-        "shard_count": 8,
-        "start_delay_seconds": 23,
-    },
-    "fast_e": {
-        "providers": {
-            "greenhouse",
-            "ashby",
-            "lever",
-        },
-        "interval_seconds": 60,
-        "workers": 20,
-        "shard_index": 4,
-        "shard_count": 8,
-        "start_delay_seconds": 30,
-    },
-    "fast_f": {
-        "providers": {
-            "greenhouse",
-            "ashby",
-            "lever",
-        },
-        "interval_seconds": 60,
-        "workers": 20,
-        "shard_index": 5,
-        "shard_count": 8,
-        "start_delay_seconds": 38,
-    },
-    "fast_g": {
-        "providers": {
-            "greenhouse",
-            "ashby",
-            "lever",
-        },
-        "interval_seconds": 60,
-        "workers": 20,
-        "shard_index": 6,
-        "shard_count": 8,
+        "shard_count": 4,
         "start_delay_seconds": 45,
-    },
-    "fast_h": {
-        "providers": {
-            "greenhouse",
-            "ashby",
-            "lever",
-        },
-        "interval_seconds": 60,
-        "workers": 20,
-        "shard_index": 7,
-        "shard_count": 8,
-        "start_delay_seconds": 53,
     },
     "heavy_a": {
         "providers": {
