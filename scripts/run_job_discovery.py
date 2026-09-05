@@ -580,6 +580,8 @@ def run_discovery_once(
 
     results: list[dict[str, Any]] = []
 
+    fetch_started = time.perf_counter()
+
     with ThreadPoolExecutor(max_workers=workers) as executor:
         futures = {
             executor.submit(
@@ -670,6 +672,8 @@ def run_discovery_once(
                 + received
             )
 
+    fetch_seconds = time.perf_counter() - fetch_started
+
     successful = len(prepared_batches)
 
     jobs_received = sum(
@@ -700,12 +704,17 @@ def run_discovery_once(
         else:
             discovery_source = f"{lane_name}_live"
 
+        processing_started = time.perf_counter()
+
         batch_result = process_prepared_jobs(
             prepared_batches=(prepared_batches),
             discovery_source=(discovery_source),
             send_notifications=(send_notifications),
         )
+
+        processing_seconds = time.perf_counter() - processing_started
     else:
+        processing_seconds = 0.0
         batch_result = {
             "new_jobs": 0,
             "matched_jobs": 0,
@@ -842,6 +851,14 @@ def run_discovery_once(
     print(
         "PROVIDER FAILURES:",
         provider_failures,
+    )
+    print(
+        "FETCH/PREPARE:",
+        f"{fetch_seconds:.2f}s",
+    )
+    print(
+        "BATCH PROCESSING:",
+        f"{processing_seconds:.2f}s",
     )
     print(
         "RUNTIME:",
