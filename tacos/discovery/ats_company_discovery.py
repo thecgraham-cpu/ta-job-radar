@@ -47,6 +47,15 @@ def detect_ats_from_url(
 
     provider = ATS_HOSTS.get(host)
 
+    # iCIMS career sites commonly use employer-specific
+    # subdomains such as:
+    # https://career-schwab.icims.com/jobs/...
+    #
+    # Unlike the ATS hosts above, the employer identifier
+    # lives in the hostname rather than the URL path.
+    if not provider and host.endswith(".icims.com"):
+        provider = "icims"
+
     if not provider:
         return None
 
@@ -57,7 +66,10 @@ def detect_ats_from_url(
 
     identifier: str | None = None
 
-    if provider in {
+    if provider == "icims":
+        identifier = host.removesuffix(".icims.com")
+
+    elif provider in {
         "greenhouse",
         "ashby",
         "lever",
