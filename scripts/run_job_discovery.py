@@ -463,6 +463,8 @@ def _poll_company(
             recruiting_only=True,
         )
 
+        prepared["poll_seconds"] = time.perf_counter() - started
+
         return {
             **prepared,
             "status": "prepared",
@@ -723,6 +725,22 @@ def run_discovery_once(
     fetch_seconds = time.perf_counter() - fetch_started
 
     successful = len(prepared_batches)
+
+    slowest_polls = sorted(
+        prepared_batches,
+        key=lambda batch: float(batch.get("poll_seconds", 0.0)),
+        reverse=True,
+    )[:10]
+
+    if lane_name.startswith("fast"):
+        print("SLOWEST FAST POLLS:")
+
+        for batch in slowest_polls:
+            print(
+                f'{float(batch.get("poll_seconds", 0.0)):.2f}s | '
+                f'{batch.get("company", "Unknown company")} | '
+                f'{batch.get("source", "unknown")}'
+            )
 
     jobs_received = sum(
         int(
