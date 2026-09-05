@@ -361,70 +361,122 @@ def _location_eligibility(
     job: dict[str, Any],
     profile: UserProfile,
 ) -> dict[str, Any]:
+    """
+    Determine whether a matched job should notify this user.
+
+    Jobs are still discovered, stored, and scored regardless
+    of notification eligibility.
+    """
+
     location = _clean(job.get("location"))
-
     lowered = location.lower()
-
     remote = job.get("remote") is True
 
-    foreign_country = _foreign_country(location) if location else None
+    local_terms = (
+        "keller",
+        "fort worth",
+        "ft worth",
+        "ft. worth",
+        "westlake",
+        "dallas",
+        "dfw",
+        "dfw metroplex",
+        "metroplex",
+        "dallas-fort worth",
+        "dallas fort worth",
+        "grapevine",
+        "southlake",
+        "roanoke",
+        "trophy club",
+        "colleyville",
+        "bedford",
+        "euless",
+        "hurst",
+        "arlington",
+        "irving",
+        "las colinas",
+        "coppell",
+        "carrollton",
+        "addison",
+        "richardson",
+        "plano",
+        "frisco",
+        "flower mound",
+        "lewisville",
+    )
+
+    non_remote_markers = (
+        "hybrid",
+        "on-site",
+        "onsite",
+        "on site",
+        "in-office",
+        "in office",
+    )
+
+    description = _clean(job.get("description")).lower()
+
+    arrangement_text = " ".join(
+        part
+        for part in (
+            lowered,
+            description,
+        )
+        if part
+    )
+
+    foreign_country = (
+        _foreign_country(location)
+        if location
+        else None
+    )
 
     if foreign_country:
         return {
             "eligible": False,
-            "reason": ("Outside target geography: " f"{foreign_country.title()}"),
+            "reason": (
+                "Notification suppressed: outside target "
+                f"geography ({foreign_country.title()})"
+            ),
+        }
+
+    if any(term in lowered for term in local_terms):
+        return {
+            "eligible": True,
+            "reason": "Local DFW-area opportunity",
         }
 
     if any(
-        marker in lowered
-        for marker in (
-            "united states",
-            "u.s.",
-            "usa",
-            "u.s.a.",
-        )
+        marker in arrangement_text
+        for marker in non_remote_markers
     ):
         return {
-            "eligible": True,
-            "reason": "United States location",
+            "eligible": False,
+            "reason": (
+                "Notification suppressed: non-local "
+                "hybrid/on-site opportunity"
+            ),
         }
 
-    if location and _contains_us_state(location):
-        return {
-            "eligible": True,
-            "reason": "US state location",
-        }
-
-    for preferred in profile.preferred_locations:
-        preferred_clean = _clean(preferred).lower()
-
-        if preferred_clean and preferred_clean in lowered:
-            return {
-                "eligible": True,
-                "reason": "Matches preferred location",
-            }
-
-    if remote:
+    if "remote" in lowered or remote:
         return {
             "eligible": True,
             "reason": "Remote opportunity",
         }
 
-    if "remote" in lowered:
-        return {
-            "eligible": True,
-            "reason": "Remote location",
-        }
-
     if not location:
         return {
-            "eligible": True,
-            "reason": ("Location unavailable; " "not explicitly ineligible"),
+            "eligible": False,
+            "reason": (
+                "Notification suppressed: location unavailable"
+            ),
         }
 
     return {
-        "eligible": True,
-        "reason": ("Location not explicitly " "outside target geography"),
+        "eligible": False,
+        "reason": (
+            "Notification suppressed: non-local opportunity"
+        ),
     }
 
 
