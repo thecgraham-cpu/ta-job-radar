@@ -25,7 +25,7 @@ def fetch_lever_jobs(site: str) -> dict[str, Any]:
     response = requests.get(
         url,
         params={"mode": "json"},
-        timeout=30,
+        timeout=10,
     )
 
     response.raise_for_status()

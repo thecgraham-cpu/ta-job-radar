@@ -24,7 +24,7 @@ def fetch_ashby_jobs(board: str) -> dict[str, Any]:
 
     response = requests.get(
         url,
-        timeout=30,
+        timeout=10,
     )
 
     response.raise_for_status()

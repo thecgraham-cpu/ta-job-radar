@@ -25,7 +25,7 @@ def fetch_greenhouse_jobs(board: str) -> dict[str, Any]:
     response = requests.get(
         url,
         params={"content": "true"},
-        timeout=30,
+        timeout=10,
     )
 
     response.raise_for_status()
