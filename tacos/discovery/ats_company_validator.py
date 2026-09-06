@@ -18,6 +18,7 @@ SUPPORTED_VALIDATION_PROVIDERS = {
     "smartrecruiters",
     "workable",
     "teamtailor",
+    "recruitee",
 }
 
 

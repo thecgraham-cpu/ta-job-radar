@@ -720,6 +720,12 @@ def normalize_job(
             company,
         )
 
+    if source == "recruitee":
+        return _extract_custom(
+            job,
+            company,
+        )
+
     if source == "custom":
         return _extract_custom(
             job,

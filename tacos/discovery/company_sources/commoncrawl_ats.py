@@ -55,6 +55,9 @@ ATS_PATTERNS = {
     "teamtailor": [
         "*.teamtailor.com/*",
     ],
+    "recruitee": [
+        "*.recruitee.com/*",
+    ],
 }
 
 
@@ -200,16 +203,23 @@ def _extract_board_url(
 
     parts = [part for part in parsed.path.split("/") if part]
 
-    if provider == "teamtailor":
-        if not host.endswith(".teamtailor.com"):
+    if provider in {
+        "teamtailor",
+        "recruitee",
+    }:
+        suffix = (
+            ".teamtailor.com"
+            if provider == "teamtailor"
+            else ".recruitee.com"
+        )
+
+        if not host.endswith(suffix):
             return None
 
         identifier = host.removesuffix(
-            ".teamtailor.com"
+            suffix
         )
 
-        # Require one employer-specific subdomain.
-        # This also rejects the bare teamtailor.com host.
         if (
             not identifier
             or "." in identifier
@@ -217,7 +227,7 @@ def _extract_board_url(
         ):
             return None
 
-        return f"https://{identifier}.teamtailor.com"
+        return f"https://{identifier}{suffix}"
 
     if not parts:
         return None
@@ -326,7 +336,10 @@ def _board_identifier(
     board_url: str,
     provider: str | None = None,
 ) -> str:
-    if provider == "teamtailor":
+    if provider in {
+        "teamtailor",
+        "recruitee",
+    }:
         try:
             host = urlparse(
                 board_url
@@ -337,11 +350,17 @@ def _board_identifier(
         if host.startswith("www."):
             host = host[4:]
 
-        if not host.endswith(".teamtailor.com"):
+        suffix = (
+            ".teamtailor.com"
+            if provider == "teamtailor"
+            else ".recruitee.com"
+        )
+
+        if not host.endswith(suffix):
             return ""
 
         return host.removesuffix(
-            ".teamtailor.com"
+            suffix
         ).strip().lower()
 
     return (

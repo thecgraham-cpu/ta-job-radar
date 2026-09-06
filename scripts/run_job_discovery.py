@@ -46,6 +46,7 @@ SUPPORTED_LIVE_PROVIDERS = {
     "workable",
     "workday",
     "teamtailor",
+    "recruitee",
 }
 
 LANE_CONFIG = {
@@ -55,6 +56,7 @@ LANE_CONFIG = {
             "ashby",
             "lever",
             "teamtailor",
+            "recruitee",
         },
         "interval_seconds": 60,
         "workers": 20,
@@ -68,6 +70,7 @@ LANE_CONFIG = {
             "ashby",
             "lever",
             "teamtailor",
+            "recruitee",
         },
         "interval_seconds": 60,
         "workers": 20,
@@ -81,6 +84,7 @@ LANE_CONFIG = {
             "ashby",
             "lever",
             "teamtailor",
+            "recruitee",
         },
         "interval_seconds": 60,
         "workers": 20,
@@ -94,6 +98,7 @@ LANE_CONFIG = {
             "ashby",
             "lever",
             "teamtailor",
+            "recruitee",
         },
         "interval_seconds": 60,
         "workers": 20,
