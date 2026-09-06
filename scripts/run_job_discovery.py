@@ -45,6 +45,7 @@ SUPPORTED_LIVE_PROVIDERS = {
     "smartrecruiters",
     "workable",
     "workday",
+    "teamtailor",
 }
 
 LANE_CONFIG = {
@@ -53,6 +54,7 @@ LANE_CONFIG = {
             "greenhouse",
             "ashby",
             "lever",
+            "teamtailor",
         },
         "interval_seconds": 60,
         "workers": 20,
@@ -65,6 +67,7 @@ LANE_CONFIG = {
             "greenhouse",
             "ashby",
             "lever",
+            "teamtailor",
         },
         "interval_seconds": 60,
         "workers": 20,
@@ -77,6 +80,7 @@ LANE_CONFIG = {
             "greenhouse",
             "ashby",
             "lever",
+            "teamtailor",
         },
         "interval_seconds": 60,
         "workers": 20,
@@ -89,6 +93,7 @@ LANE_CONFIG = {
             "greenhouse",
             "ashby",
             "lever",
+            "teamtailor",
         },
         "interval_seconds": 60,
         "workers": 20,
