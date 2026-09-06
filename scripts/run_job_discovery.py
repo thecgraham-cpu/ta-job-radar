@@ -47,6 +47,7 @@ SUPPORTED_LIVE_PROVIDERS = {
     "workday",
     "teamtailor",
     "recruitee",
+    "bamboohr",
 }
 
 LANE_CONFIG = {
@@ -57,6 +58,7 @@ LANE_CONFIG = {
             "lever",
             "teamtailor",
             "recruitee",
+            "bamboohr",
         },
         "interval_seconds": 60,
         "workers": 20,
@@ -71,6 +73,7 @@ LANE_CONFIG = {
             "lever",
             "teamtailor",
             "recruitee",
+            "bamboohr",
         },
         "interval_seconds": 60,
         "workers": 20,
@@ -85,6 +88,7 @@ LANE_CONFIG = {
             "lever",
             "teamtailor",
             "recruitee",
+            "bamboohr",
         },
         "interval_seconds": 60,
         "workers": 20,
@@ -99,6 +103,7 @@ LANE_CONFIG = {
             "lever",
             "teamtailor",
             "recruitee",
+            "bamboohr",
         },
         "interval_seconds": 60,
         "workers": 20,

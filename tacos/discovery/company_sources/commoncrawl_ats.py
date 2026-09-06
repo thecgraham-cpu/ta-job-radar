@@ -58,6 +58,9 @@ ATS_PATTERNS = {
     "recruitee": [
         "*.recruitee.com/*",
     ],
+    "bamboohr": [
+        "*.bamboohr.com/careers/*",
+    ],
 }
 
 
@@ -206,12 +209,15 @@ def _extract_board_url(
     if provider in {
         "teamtailor",
         "recruitee",
+        "bamboohr",
     }:
-        suffix = (
-            ".teamtailor.com"
-            if provider == "teamtailor"
-            else ".recruitee.com"
-        )
+        suffixes = {
+            "teamtailor": ".teamtailor.com",
+            "recruitee": ".recruitee.com",
+            "bamboohr": ".bamboohr.com",
+        }
+
+        suffix = suffixes[provider]
 
         if not host.endswith(suffix):
             return None
@@ -339,6 +345,7 @@ def _board_identifier(
     if provider in {
         "teamtailor",
         "recruitee",
+        "bamboohr",
     }:
         try:
             host = urlparse(
@@ -350,11 +357,13 @@ def _board_identifier(
         if host.startswith("www."):
             host = host[4:]
 
-        suffix = (
-            ".teamtailor.com"
-            if provider == "teamtailor"
-            else ".recruitee.com"
-        )
+        suffixes = {
+            "teamtailor": ".teamtailor.com",
+            "recruitee": ".recruitee.com",
+            "bamboohr": ".bamboohr.com",
+        }
+
+        suffix = suffixes[provider]
 
         if not host.endswith(suffix):
             return ""

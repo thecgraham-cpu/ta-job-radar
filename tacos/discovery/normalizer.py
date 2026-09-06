@@ -726,6 +726,12 @@ def normalize_job(
             company,
         )
 
+    if source == "bamboohr":
+        return _extract_custom(
+            job,
+            company,
+        )
+
     if source == "custom":
         return _extract_custom(
             job,

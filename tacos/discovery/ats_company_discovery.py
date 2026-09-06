@@ -62,6 +62,9 @@ def detect_ats_from_url(
     if not provider and host.endswith(".recruitee.com"):
         provider = "recruitee"
 
+    if not provider and host.endswith(".bamboohr.com"):
+        provider = "bamboohr"
+
     if not provider:
         return None
 
@@ -71,6 +74,7 @@ def detect_ats_from_url(
         "icims",
         "teamtailor",
         "recruitee",
+        "bamboohr",
     }:
         return None
 
@@ -87,6 +91,11 @@ def detect_ats_from_url(
     elif provider == "recruitee":
         identifier = host.removesuffix(
             ".recruitee.com"
+        )
+
+    elif provider == "bamboohr":
+        identifier = host.removesuffix(
+            ".bamboohr.com"
         )
 
     elif provider in {

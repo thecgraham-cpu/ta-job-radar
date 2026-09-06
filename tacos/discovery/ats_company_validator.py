@@ -19,6 +19,7 @@ SUPPORTED_VALIDATION_PROVIDERS = {
     "workable",
     "teamtailor",
     "recruitee",
+    "bamboohr",
 }
 
 

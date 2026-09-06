@@ -8,6 +8,9 @@ from typing import Any
 from tacos.discovery.parsers.ashby_jobs import (
     fetch_ashby_jobs,
 )
+from tacos.discovery.parsers.bamboohr_jobs import (
+    fetch_bamboohr_jobs,
+)
 from tacos.discovery.parsers.greenhouse_jobs import (
     fetch_greenhouse_jobs,
 )
@@ -46,6 +49,7 @@ PROVIDER_FETCHERS: dict[
 ] = {
     "greenhouse": fetch_greenhouse_jobs,
     "ashby": fetch_ashby_jobs,
+    "bamboohr": fetch_bamboohr_jobs,
     "lever": fetch_lever_jobs,
     "smartrecruiters": (
         fetch_smartrecruiters_jobs
