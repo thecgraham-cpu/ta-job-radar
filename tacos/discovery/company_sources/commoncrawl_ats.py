@@ -52,6 +52,9 @@ ATS_PATTERNS = {
     "workable": [
         "apply.workable.com/*",
     ],
+    "teamtailor": [
+        "*.teamtailor.com/*",
+    ],
 }
 
 
@@ -197,6 +200,25 @@ def _extract_board_url(
 
     parts = [part for part in parsed.path.split("/") if part]
 
+    if provider == "teamtailor":
+        if not host.endswith(".teamtailor.com"):
+            return None
+
+        identifier = host.removesuffix(
+            ".teamtailor.com"
+        )
+
+        # Require one employer-specific subdomain.
+        # This also rejects the bare teamtailor.com host.
+        if (
+            not identifier
+            or "." in identifier
+            or not _valid_identifier(identifier)
+        ):
+            return None
+
+        return f"https://{identifier}.teamtailor.com"
+
     if not parts:
         return None
 
@@ -302,8 +324,32 @@ def _load_known_boards(
 
 def _board_identifier(
     board_url: str,
+    provider: str | None = None,
 ) -> str:
-    return board_url.rstrip("/").rsplit("/", 1)[-1].strip().lower()
+    if provider == "teamtailor":
+        try:
+            host = urlparse(
+                board_url
+            ).netloc.lower()
+        except ValueError:
+            return ""
+
+        if host.startswith("www."):
+            host = host[4:]
+
+        if not host.endswith(".teamtailor.com"):
+            return ""
+
+        return host.removesuffix(
+            ".teamtailor.com"
+        ).strip().lower()
+
+    return (
+        board_url.rstrip("/")
+        .rsplit("/", 1)[-1]
+        .strip()
+        .lower()
+    )
 
 
 def _query_pattern(
@@ -368,7 +414,13 @@ def _query_pattern(
         if not board_url:
             continue
 
-        identifier = _board_identifier(board_url)
+        identifier = _board_identifier(
+            board_url,
+            provider,
+        )
+
+        if not identifier:
+            continue
 
         if identifier in seen_identifiers:
             continue
@@ -498,7 +550,13 @@ def fetch_commoncrawl_ats_companies(
         )
 
         for url in urls:
-            identifier = url.rstrip("/").rsplit("/", 1)[-1]
+            identifier = _board_identifier(
+                url,
+                provider,
+            )
+
+            if not identifier:
+                continue
 
             discoveries.append(
                 {
