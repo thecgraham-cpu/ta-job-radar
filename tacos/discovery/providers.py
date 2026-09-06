@@ -20,6 +20,9 @@ from tacos.discovery.parsers.rippling_jobs import (
 from tacos.discovery.parsers.smartrecruiters_jobs import (
     fetch_smartrecruiters_jobs,
 )
+from tacos.discovery.parsers.teamtailor_jobs import (
+    fetch_teamtailor_jobs,
+)
 from tacos.discovery.parsers.workable_jobs import (
     fetch_workable_jobs,
 )
@@ -44,6 +47,7 @@ PROVIDER_FETCHERS: dict[
     "smartrecruiters": (
         fetch_smartrecruiters_jobs
     ),
+    "teamtailor": fetch_teamtailor_jobs,
     "workable": fetch_workable_jobs,
     "rippling": fetch_rippling_jobs,
     "workday": fetch_workday_jobs,

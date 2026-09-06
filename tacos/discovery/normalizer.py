@@ -714,6 +714,12 @@ def normalize_job(
         )
 
 
+    if source == "teamtailor":
+        return _extract_custom(
+            job,
+            company,
+        )
+
     if source == "custom":
         return _extract_custom(
             job,
