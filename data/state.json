@@ -86,25 +86,12 @@
     "lever:spotify": 0
   },
   "initialized": true,
-  "last_digest": "2026-09-12T15:53:40.399360+00:00",
+  "last_digest": "2026-09-15T17:19:38.424388+00:00",
   "last_poll": {
     "remotive": "2026-09-15T16:56:17.219316+00:00"
   },
   "last_scan": "2026-09-15T16:56:17.219316+00:00",
-  "pending": [
-    {
-      "company": "Checkr",
-      "first_seen": "2026-09-14T23:15:23.228343+00:00",
-      "job_id": "gh:checkr:8202894",
-      "location": "Remote, United States",
-      "published_at": "",
-      "salary": "",
-      "score": 55,
-      "source": "Greenhouse",
-      "title": "Contract Recruiter ",
-      "url": "https://job-boards.greenhouse.io/checkr/jobs/8202894"
-    }
-  ],
+  "pending": [],
   "seen": {
     "as:render:59234af4-4139-443d-9924-f39a7e39210d": "2026-09-15T16:56:17.219316+00:00",
     "as:rula:485cd1ab-51dd-4a1a-b8c5-9f6453e4b49b": "2026-09-09T11:39:21.692638+00:00",
