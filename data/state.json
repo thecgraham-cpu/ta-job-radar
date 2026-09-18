@@ -86,25 +86,12 @@
     "lever:spotify": 0
   },
   "initialized": true,
-  "last_digest": "2026-09-17T17:18:20.367450+00:00",
+  "last_digest": "2026-09-18T16:45:19.743474+00:00",
   "last_poll": {
     "remotive": "2026-09-18T15:37:05.238524+00:00"
   },
   "last_scan": "2026-09-18T15:37:05.238524+00:00",
-  "pending": [
-    {
-      "company": "Anduril",
-      "first_seen": "2026-09-17T18:24:54.266918+00:00",
-      "job_id": "gh:andurilindustries:5133829007",
-      "location": "Broomfield, Colorado, United States; Fort Collins, Colorado, United States",
-      "published_at": "",
-      "salary": "",
-      "score": 84,
-      "source": "Greenhouse",
-      "title": "Senior Technical Recruiter, Contractor",
-      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5133829007?gh_jid=5133829007"
-    }
-  ],
+  "pending": [],
   "seen": {
     "as:render:59234af4-4139-443d-9924-f39a7e39210d": "2026-09-18T15:37:05.238524+00:00",
     "as:rula:485cd1ab-51dd-4a1a-b8c5-9f6453e4b49b": "2026-09-09T11:39:21.692638+00:00",
