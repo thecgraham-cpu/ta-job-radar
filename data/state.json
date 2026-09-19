@@ -86,73 +86,12 @@
     "lever:spotify": 0
   },
   "initialized": true,
-  "last_digest": "2026-09-18T16:45:19.743474+00:00",
+  "last_digest": "2026-09-19T16:07:23.468800+00:00",
   "last_poll": {
     "remotive": "2026-09-19T14:11:15.881514+00:00"
   },
   "last_scan": "2026-09-19T14:11:15.881514+00:00",
-  "pending": [
-    {
-      "company": "Anduril",
-      "first_seen": "2026-09-18T21:14:55.000204+00:00",
-      "job_id": "gh:andurilindustries:5240680007",
-      "location": "Costa Mesa, California, United States",
-      "published_at": "",
-      "salary": "",
-      "score": 72,
-      "source": "Greenhouse",
-      "title": "Senior Recruiter, Business Development",
-      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5240680007?gh_jid=5240680007"
-    },
-    {
-      "company": "Anduril",
-      "first_seen": "2026-09-18T23:19:50.060981+00:00",
-      "job_id": "gh:andurilindustries:5242839007",
-      "location": "Seattle, Washington, United States",
-      "published_at": "",
-      "salary": "",
-      "score": 72,
-      "source": "Greenhouse",
-      "title": "Senior Recruiter, Business Development",
-      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5242839007?gh_jid=5242839007"
-    },
-    {
-      "company": "Anduril",
-      "first_seen": "2026-09-18T23:19:50.060981+00:00",
-      "job_id": "gh:andurilindustries:5242835007",
-      "location": "Washington, District of Columbia, United States",
-      "published_at": "",
-      "salary": "",
-      "score": 72,
-      "source": "Greenhouse",
-      "title": "Senior Recruiter, Business Development",
-      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5242835007?gh_jid=5242835007"
-    },
-    {
-      "company": "Anduril",
-      "first_seen": "2026-09-18T23:19:50.060981+00:00",
-      "job_id": "gh:andurilindustries:5242925007",
-      "location": "Remote",
-      "published_at": "",
-      "salary": "",
-      "score": 72,
-      "source": "Greenhouse",
-      "title": "Senior Recruiter, Business Development",
-      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5242925007?gh_jid=5242925007"
-    },
-    {
-      "company": "Anduril",
-      "first_seen": "2026-09-18T23:19:50.060981+00:00",
-      "job_id": "gh:andurilindustries:5242836007",
-      "location": "Boston, Massachusetts, United States",
-      "published_at": "",
-      "salary": "",
-      "score": 72,
-      "source": "Greenhouse",
-      "title": "Senior Recruiter, Business Development",
-      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5242836007?gh_jid=5242836007"
-    }
-  ],
+  "pending": [],
   "seen": {
     "as:render:59234af4-4139-443d-9924-f39a7e39210d": "2026-09-19T14:11:15.881514+00:00",
     "as:rula:485cd1ab-51dd-4a1a-b8c5-9f6453e4b49b": "2026-09-09T11:39:21.692638+00:00",
