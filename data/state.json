@@ -86,25 +86,12 @@
     "lever:spotify": 0
   },
   "initialized": true,
-  "last_digest": "2026-09-19T16:07:23.468800+00:00",
+  "last_digest": "2026-09-22T17:22:00.055661+00:00",
   "last_poll": {
     "remotive": "2026-09-22T15:05:20.391384+00:00"
   },
   "last_scan": "2026-09-22T15:05:20.391384+00:00",
-  "pending": [
-    {
-      "company": "Anduril",
-      "first_seen": "2026-09-21T18:39:57.473858+00:00",
-      "job_id": "gh:andurilindustries:5014749007",
-      "location": "Lexington, Massachusetts, United States",
-      "published_at": "",
-      "salary": "",
-      "score": 84,
-      "source": "Greenhouse",
-      "title": " Senior Technical Recruiter, Contractor Mission Systems",
-      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5014749007?gh_jid=5014749007"
-    }
-  ],
+  "pending": [],
   "seen": {
     "as:render:59234af4-4139-443d-9924-f39a7e39210d": "2026-09-22T15:05:20.391384+00:00",
     "as:rula:485cd1ab-51dd-4a1a-b8c5-9f6453e4b49b": "2026-09-09T11:39:21.692638+00:00",
