@@ -126,3 +126,5 @@ first_seen,score,company,title,location,salary,source,published_at,url,job_id
 2026-09-25T20:29:59.024073+00:00,76,MongoDB,"Senior Recruiter, Corporate",United States,,Greenhouse,,https://www.mongodb.com/careers/job/?gh_jid=8231010,gh:mongodb:8231010
 2026-09-29T22:29:03.093856+00:00,71,Datadog,"Recruiter II, Technical Solutions","Boston, Massachusetts, USA; Denver, Colorado, USA; New York, New York, USA",,Greenhouse,,https://careers.datadoghq.com/detail/8237641/?gh_jid=8237641,gh:datadog:8237641
 2026-09-29T22:29:03.093856+00:00,61,Datadog,"Recruiter II, G&A","New York, New York, USA",,Greenhouse,,https://careers.datadoghq.com/detail/8237622/?gh_jid=8237622,gh:datadog:8237622
+2026-10-01T20:15:16.767951+00:00,95,YipitData,Head of Talent Acquisition,US Remote,,Greenhouse,,https://job-boards.greenhouse.io/yipitdata/jobs/8247382,gh:yipitdata:8247382
+2026-10-01T20:15:16.767951+00:00,63,Datadog,"Recruiter, Tech Recruiting","New York, New York, USA",,Greenhouse,,https://careers.datadoghq.com/detail/8239749/?gh_jid=8239749,gh:datadog:8239749
