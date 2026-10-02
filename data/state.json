@@ -86,61 +86,12 @@
     "lever:spotify": 0
   },
   "initialized": true,
-  "last_digest": "2026-09-30T18:09:43.266376+00:00",
+  "last_digest": "2026-10-02T18:04:49.463469+00:00",
   "last_poll": {
     "remotive": "2026-10-02T11:08:27.790865+00:00"
   },
   "last_scan": "2026-10-02T16:37:16.824406+00:00",
-  "pending": [
-    {
-      "company": "YipitData",
-      "first_seen": "2026-10-01T20:15:16.767951+00:00",
-      "job_id": "gh:yipitdata:8247382",
-      "location": "US Remote",
-      "published_at": "",
-      "salary": "",
-      "score": 95,
-      "source": "Greenhouse",
-      "title": "Head of Talent Acquisition",
-      "url": "https://job-boards.greenhouse.io/yipitdata/jobs/8247382"
-    },
-    {
-      "company": "Datadog",
-      "first_seen": "2026-10-01T20:15:16.767951+00:00",
-      "job_id": "gh:datadog:8239749",
-      "location": "New York, New York, USA",
-      "published_at": "",
-      "salary": "",
-      "score": 63,
-      "source": "Greenhouse",
-      "title": "Recruiter, Tech Recruiting",
-      "url": "https://careers.datadoghq.com/detail/8239749/?gh_jid=8239749"
-    },
-    {
-      "company": "Toast",
-      "first_seen": "2026-10-02T16:37:16.824406+00:00",
-      "job_id": "gh:toast:7561008",
-      "location": "Remote - USA",
-      "published_at": "",
-      "salary": "",
-      "score": 79,
-      "source": "Greenhouse",
-      "title": "Senior Talent Acquisition Partner, Contract",
-      "url": "https://careers.toasttab.com/jobs?gh_jid=7561008"
-    },
-    {
-      "company": "Komodo Health",
-      "first_seen": "2026-10-02T16:37:16.824406+00:00",
-      "job_id": "gh:komodohealth:7714292002",
-      "location": "United States",
-      "published_at": "",
-      "salary": "",
-      "score": 72,
-      "source": "Greenhouse",
-      "title": "Senior Talent Partner (Contract)",
-      "url": "https://job-boards.greenhouse.io/komodohealth/jobs/7714292002"
-    }
-  ],
+  "pending": [],
   "seen": {
     "as:cohere:011f3609-e5f1-4700-8140-f717f39a45b0": "2026-09-30T07:05:41.179337+00:00",
     "as:render:59234af4-4139-443d-9924-f39a7e39210d": "2026-10-02T16:37:16.824406+00:00",
