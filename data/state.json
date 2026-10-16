@@ -86,85 +86,12 @@
     "lever:spotify": 0
   },
   "initialized": true,
-  "last_digest": "2026-10-14T17:38:31.070525+00:00",
+  "last_digest": "2026-10-16T17:00:48.073241+00:00",
   "last_poll": {
     "remotive": "2026-10-16T14:49:14.656244+00:00"
   },
   "last_scan": "2026-10-16T14:49:14.656244+00:00",
-  "pending": [
-    {
-      "company": "Anduril",
-      "first_seen": "2026-10-15T19:52:02.068928+00:00",
-      "job_id": "gh:andurilindustries:5266805007",
-      "location": "Seattle, Washington, United States",
-      "published_at": "",
-      "salary": "",
-      "score": 84,
-      "source": "Greenhouse",
-      "title": "Senior Technical Recruiter",
-      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5266805007?gh_jid=5266805007"
-    },
-    {
-      "company": "Anduril",
-      "first_seen": "2026-10-15T19:52:02.068928+00:00",
-      "job_id": "gh:andurilindustries:5266803007",
-      "location": "Boston, Massachusetts, United States",
-      "published_at": "",
-      "salary": "",
-      "score": 84,
-      "source": "Greenhouse",
-      "title": "Senior Technical Recruiter",
-      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5266803007?gh_jid=5266803007"
-    },
-    {
-      "company": "Anduril",
-      "first_seen": "2026-10-15T19:52:02.068928+00:00",
-      "job_id": "gh:andurilindustries:5265112007",
-      "location": "Costa Mesa, California, United States",
-      "published_at": "",
-      "salary": "",
-      "score": 84,
-      "source": "Greenhouse",
-      "title": "Senior Technical Recruiter",
-      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5265112007?gh_jid=5265112007"
-    },
-    {
-      "company": "Anduril",
-      "first_seen": "2026-10-15T19:52:02.068928+00:00",
-      "job_id": "gh:andurilindustries:5266804007",
-      "location": "Washington, District of Columbia, United States",
-      "published_at": "",
-      "salary": "",
-      "score": 84,
-      "source": "Greenhouse",
-      "title": "Senior Technical Recruiter",
-      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5266804007?gh_jid=5266804007"
-    },
-    {
-      "company": "Coinbase",
-      "first_seen": "2026-10-15T22:50:04.956303+00:00",
-      "job_id": "gh:coinbase:8260302",
-      "location": "Remote - USA",
-      "published_at": "",
-      "salary": "",
-      "score": 78,
-      "source": "Greenhouse",
-      "title": "Principal Recruiter",
-      "url": "https://www.coinbase.com/careers/positions/8260302?gh_jid=8260302"
-    },
-    {
-      "company": "Coinbase",
-      "first_seen": "2026-10-15T22:50:04.956303+00:00",
-      "job_id": "gh:coinbase:8260306",
-      "location": "Remote - USA",
-      "published_at": "",
-      "salary": "",
-      "score": 70,
-      "source": "Greenhouse",
-      "title": "Senior Recruiter",
-      "url": "https://www.coinbase.com/careers/positions/8260306?gh_jid=8260306"
-    }
-  ],
+  "pending": [],
   "seen": {
     "as:cohere:011f3609-e5f1-4700-8140-f717f39a45b0": "2026-09-30T07:05:41.179337+00:00",
     "as:render:59234af4-4139-443d-9924-f39a7e39210d": "2026-10-16T14:49:14.656244+00:00",
