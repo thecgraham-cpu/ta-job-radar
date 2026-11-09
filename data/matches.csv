@@ -196,3 +196,4 @@ first_seen,score,company,title,location,salary,source,published_at,url,job_id
 2026-11-06T21:03:24.530199+00:00,72,Grafana Labs,Senior Recruiter| United States | Remote,United States (Remote),,Greenhouse,,https://job-boards.greenhouse.io/grafanalabs/jobs/6251116004,gh:grafanalabs:6251116004
 2026-11-06T21:03:24.530199+00:00,72,Grafana Labs,Senior Sales Recruiter | EST | Remote,United States (Remote),,Greenhouse,,https://job-boards.greenhouse.io/grafanalabs/jobs/6250923004,gh:grafanalabs:6250923004
 2026-11-06T21:03:24.530199+00:00,59,Stripe,Core Recruiter (Fixed Term),"Chicago, Remote",,Greenhouse,,https://stripe.com/jobs/search?gh_jid=8301957,gh:stripe:8301957
+2026-11-09T20:37:12.899264+00:00,72,Datadog,Senior Recruiter,"Boston, Massachusetts, USA; Denver, Colorado, USA; New York, New York, USA",,Greenhouse,,https://careers.datadoghq.com/detail/8221611/?gh_jid=8221611,gh:datadog:8221611
